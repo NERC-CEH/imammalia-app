@@ -1,0 +1,27 @@
+.collapse-block {
+  .header {
+    width: 100%;
+    margin-left: -11px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    padding: 10px 15px;
+  }
+
+  & > ion-icon {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+  }
+
+  .body {
+    margin-top: 50px;
+  }
+
+  &.opened {
+    .header {
+      background-color: #e4e4e4;
+    }
+  }
+}

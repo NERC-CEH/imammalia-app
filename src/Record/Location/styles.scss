@@ -1,0 +1,82 @@
+.leaflet-container {
+  height: calc(100% - 33px); // accomodate subheader
+  width: 100vw;
+  background-color: #5d5d5d;
+
+  .leaflet-control .geolocate-btn {
+    border-radius: 4px;
+    background: white;
+    width: 33px;
+    height: 33px;
+    margin-left: 1px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    text-align: center;
+    padding: 0;
+
+    ion-icon {
+      width: 21px;
+      height: 21px;
+      margin-top: 4px;
+    }
+  }
+  .leaflet-control .geolocate-btn.spin ion-icon {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+
+  @-moz-keyframes spin {
+    100% {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  .sr-only {
+    display: none;
+  }
+
+  .leaflet-draw-toolbar {
+    float: right;
+
+    &.leaflet-draw-toolbar-top {
+      border: 3px solid var(--ion-color-primary-tint) !important;
+    }
+  }
+
+  .leaflet-error-draw-tooltip {
+    display: none;
+  }
+}
+
+// hide drawing when GPS on
+ion-content.GPStracking .leaflet-top.leaflet-right {
+  display: none;
+}
+
+#location-edit-toolbar {
+  --background: var(--ion-color-primary-tint);
+  --min-height: 33px;
+  ion-title {
+    font-size: 0.8em;
+  }
+}
+
+html[mode='ios'] {
+  #location-edit-toolbar {
+    ion-title {
+      padding: 0;
+    }
+  }
+}

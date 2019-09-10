@@ -1,0 +1,25 @@
+#user-report {
+  ion-segment {
+    margin-bottom: 30px;
+
+    ion-badge {
+      vertical-align: top;
+      margin: 3px;
+      margin-left: 6px;
+    }
+  }
+
+  .empty {
+    width: 80%;
+    max-width: 250px;
+    margin: 100px auto 0;
+    --border-width: 0;
+    --background: var(--ion-color-light);
+    --color: var(--ion-color-light-contrast);
+    span {
+      margin: 0 auto;
+      font-weight: 200;
+      text-align: center;
+    }
+  }
+}

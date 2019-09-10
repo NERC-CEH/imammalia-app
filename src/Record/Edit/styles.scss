@@ -1,0 +1,63 @@
+#record-edit {
+  ion-list {
+    margin-bottom: 0;
+  }
+
+  #countdown span {
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+
+    &.paused {
+      width: inherit;
+      color: var(--ion-color-tertiary);
+    }
+
+    &.warn {
+      color: var(--ion-color-warning-shade);
+    }
+  }
+
+  #add {
+    width: 40%;
+    margin: 30px 0 10px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  #species-list-sort {
+    text-align: end;
+    ion-button {
+      margin-right: 5px;
+    }
+  }
+
+  #list {
+    font-weight: bold;
+
+    .empty {
+      width: 80%;
+      max-width: 250px;
+      margin: 50px auto 0;
+      --border-width: 0;
+      --background: var(--ion-color-light);
+      --color: var(--ion-color-light-contrast);
+      span {
+        margin: 0 auto;
+        font-weight: 200;
+      }
+    }
+
+    ion-label {
+      margin-left: 8px;
+    }
+
+    .record-edit-count {
+      margin: 0;
+      max-width: 40px;
+      font-size: 1.3em;
+      border-right: 1px solid rgba(0, 0, 0, 0.13);
+      padding-right: 8px;
+    }
+  }
+}

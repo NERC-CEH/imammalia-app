@@ -1,0 +1,47 @@
+/** ***************************************************************************
+ * Multi media loading file
+ **************************************************************************** */
+
+import "./1.jpg";
+import "./2.jpg";
+import "./3.jpg";
+import "./4.jpg";
+import "./5.jpg";
+import "./6.jpg";
+import "./7.jpg";
+import "./8.jpg";
+import "./9.jpg";
+import "./10.jpg";
+import "./11.jpg";
+import "./12.jpg";
+import "./13.jpg";
+import "./14.jpg";
+import "./15.jpg";
+import "./16.jpg";
+import "./17.jpg";
+import "./18.jpg";
+import "./19.jpg";
+import "./20.jpg";
+import "./21.jpg";
+import "./22.jpg";
+import "./23.jpg";
+import "./24.jpg";
+import "./25.jpg";
+import "./26.jpg";
+import "./27.jpg";
+import "./28.jpg";
+import "./29.jpg";
+import "./30.jpg";
+import "./31.jpg";
+import "./32.jpg";
+import "./33.jpg";
+import "./34.jpg";
+import "./35.jpg";
+import "./36.jpg";
+import "./37.jpg";
+import "./38.jpg";
+import "./39.jpg";
+import "./40.jpg";
+import "./41.jpg";
+import "./42.jpg";
+import "./43.jpg";
