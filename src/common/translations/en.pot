@@ -83,9 +83,6 @@ msgstr "Enter your username or email address to request a password reset"
 msgid "Reset"
 msgstr "Reset"
 
-msgid "Records"
-msgstr "Records"
-
 msgid "Upload All"
 msgstr "Upload All"
 
