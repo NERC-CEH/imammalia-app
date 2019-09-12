@@ -1,17 +1,33 @@
 /* eslint-disable camelcase */
 import appModel from 'app_model';
 import en from '../translations/en.pot';
+import de_DE from '../translations/de_DE.po';
+import es_ES from '../translations/es_ES.po';
+import hr_HR from '../translations/hr_HR.po';
+import pl_PL from '../translations/pl_PL.po';
 
 const dictionary = {
   en,
+  de_DE,
+  es_ES,
+  hr_HR,
+  pl_PL,
 };
 
 export const languages = {
   en: 'English',
+  de_DE: 'Deutsch',
+  es_ES: 'Español',
+  hr_HR: 'Hrvatski',
+  pl_PL: 'Polski',
 };
 
 export const countries = {
   UK: 'United Kingdom',
+  DE: 'Germany',
+  ES: 'Spain',
+  HR: 'Croatia',
+  PL: 'Poland',
 };
 
 function translate(key) {

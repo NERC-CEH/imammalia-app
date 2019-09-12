@@ -1,0 +1,376 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/103078/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr ""
+
+msgid "United Kingdom"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Get Started"
+msgstr ""
+
+msgid "Please sign in with your account or register."
+msgstr ""
+
+msgid "Username or email"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Forgot password?"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Surname"
+msgstr ""
+
+msgid "I agree to"
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr ""
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Upload All"
+msgstr ""
+
+msgid "Remove All Saved"
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Training Mode"
+msgstr ""
+
+msgid "Experimental Features"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Lets start!"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "App"
+msgstr ""
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Sorry"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "name is a required field"
+msgstr ""
+
+msgid "password is a required field"
+msgstr ""
+
+msgid "Login error:"
+msgstr ""
+
+msgid "Failed to fetch"
+msgstr ""
+
+msgid "Incorrect password or email."
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+msgid "This will delete all the records on this device."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Welcome aboard!"
+msgstr ""
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+
+msgid "OK, got it"
+msgstr ""
+
+msgid "email is a required field"
+msgstr ""
+
+msgid "firstname is a required field"
+msgstr ""
+
+msgid "secondname is a required field"
+msgstr ""
+
+msgid "must accept terms and conditions"
+msgstr ""
+
+msgid "Species"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr ""
+
+msgid "Discard"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "No species added"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Records"
+msgstr ""
+
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+msgid "No finished records"
+msgstr ""
+
+msgid "Finished records"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Record incomplete"
+msgstr ""
+
+msgid "The record is not complete yet."
+msgstr ""
+
+msgid "Choose a method to upload a photo"
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr ""
+
+msgid "Note: it will remain in the gallery."
+msgstr ""
+
+msgid "No photo has been added"
+msgstr ""
+
+msgid "Registration error:"
+msgstr ""
+
+msgid "Incorrect password or email"
+msgstr ""
+
+msgid "email is not valid"
+msgstr ""
+
+msgid "Paused"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "No finished pending records"
+msgstr ""
+
+msgid "No uploaded records"
+msgstr ""
+
+msgid "How to start a record"
+msgstr ""
+
+msgid "To start a new record you can press the plus button"
+msgstr ""
+
+msgid "in the home page footer."
+msgstr ""
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+
+msgid "Sync. with the website"
+msgstr ""
+
+msgid "All your saved records will be shown on your account page."
+msgstr ""
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+
+msgid "If the record has reached the database a red"
+msgstr ""
+
+msgid "(set for submission & saved locally) will become green"
+msgstr ""
+
+msgid "synced to the database"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+
+msgid "Delete a record"
+msgstr ""
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Sign in/out or register"
+msgstr ""
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Reset the application"
+msgstr ""
+
+msgid "Go to the application settings page"
+msgstr ""
+
+msgid "and click on the Reset"
+msgstr ""
+
+msgid "button"
+msgstr ""
+
+msgid "Record"
+msgstr ""
+
+msgid "Location"
+msgstr ""
