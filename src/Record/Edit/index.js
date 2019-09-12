@@ -2,13 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import Sample from 'sample';
+import Occurrence from 'occurrence';
 import alert from 'common/helpers/alert';
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
 async function createNewSample(savedSamples) {
   const sample = new Sample();
-
+  const occurrence = new Occurrence();
+  sample.addOccurrence(occurrence);
   // sample.startGPS();
 
   // add to main collection
@@ -81,7 +84,6 @@ function deleteOccurrence(occ) {
     ],
   });
 }
-
 
 @observer
 class Container extends React.Component {
@@ -184,6 +186,7 @@ class Container extends React.Component {
           onToggleSpeciesSort={this.toggleSpeciesSort}
           history={history}
         />
+        <Footer sample={this.state.sample} />
       </>
     );
   }

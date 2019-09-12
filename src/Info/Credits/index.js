@@ -22,7 +22,27 @@ export default () => (
           </IonLabel>
         </IonListHeader>
         <IonItem>
-          <p><b>TODO</b></p>
+          <p>
+            <b>TODO</b>
+          </p>
+        </IonItem>
+      </IonList>
+
+      <IonList>
+        <IonItem>
+          <div>
+            Icons made by
+            {' '}
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+              Freepik
+            </a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+          </div>
         </IonItem>
       </IonList>
     </IonContent>
