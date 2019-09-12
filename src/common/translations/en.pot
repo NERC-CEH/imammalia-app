@@ -113,8 +113,10 @@ msgstr "Menu"
 msgid "App"
 msgstr "App"
 
-msgid "We are very grateful for all the people that helped to create this app:"
-msgstr "We are very grateful for all the people that helped to create this app:"
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+"We are very grateful for all the people that helped to create this app:"
 
 msgid "Home"
 msgstr "Home"
@@ -167,8 +169,12 @@ msgstr "Cancel"
 msgid "Welcome aboard!"
 msgstr "Welcome aboard!"
 
-msgid "Before submitting any records please check your email and click on the verification link."
-msgstr "Before submitting any records please check your email and click on the verification link."
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Before submitting any records please check your email and click on the "
+"verification link."
 
 msgid "OK, got it"
 msgstr "OK, got it"
@@ -257,10 +263,8 @@ msgstr "No photo has been added"
 msgid "Registration error:"
 msgstr "Registration error:"
 
-msgid "Incorrect password or email.
-"
-msgstr "Incorrect password or email.
-"
+msgid "Incorrect password or email"
+msgstr "Incorrect password or email"
 
 msgid "email is not valid"
 msgstr "email is not valid"
@@ -289,8 +293,12 @@ msgstr "To start a new record you can press the plus button"
 msgid "in the home page footer."
 msgstr "in the home page footer."
 
-msgid "When finished, set for submission by pressing the Finish button in the header."
-msgstr "When finished, set for submission by pressing the Finish button in the header."
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
 
 msgid "Sync. with the website"
 msgstr "Sync. with the website"
@@ -298,8 +306,14 @@ msgstr "Sync. with the website"
 msgid "All your saved records will be shown on your account page."
 msgstr "All your saved records will be shown on your account page."
 
-msgid "By default a record is in a 'draft' mode which will not be sent to the database until the 'Finish' button in the header is clicked. The application will try to submit your record once there is a good network connection."
-msgstr "By default a record is in a 'draft' mode which will not be sent to the database until the 'Finish' button in the header is clicked. The application will try to submit your record once there is a good network connection."
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
 
 msgid "If the record has reached the database a red"
 msgstr "If the record has reached the database a red"
@@ -313,14 +327,24 @@ msgstr "synced to the database"
 msgid "Note"
 msgstr "Note"
 
-msgid "you have to be signed in to your website account and have a network connection, for the records to be automatically synchronised in the background"
-msgstr "you have to be signed in to your website account and have a network connection, for the records to be automatically synchronised in the background"
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
 
 msgid "Delete a record"
 msgstr "Delete a record"
 
-msgid "To delete a record, swipe it left in your account page and click the delete button."
-msgstr "To delete a record, swipe it left in your account page and click the delete button."
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
 
 msgid "User"
 msgstr "User"
@@ -328,14 +352,22 @@ msgstr "User"
 msgid "Sign in/out or register"
 msgstr "Sign in/out or register"
 
-msgid "To login, open the main menu page click Login or Register buttons and follow the instructions."
-msgstr "To login, open the main menu page click Login or Register buttons and follow the instructions."
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
 
 msgid "To logout, visit the main menu page and click the logout button."
 msgstr "To logout, visit the main menu page and click the logout button."
 
-msgid "after registering a new account you must verify your email address by clicking on a verification link sent to your email"
-msgstr "after registering a new account you must verify your email address by clicking on a verification link sent to your email"
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
 
 msgid "Other"
 msgstr "Other"
@@ -357,3 +389,261 @@ msgstr "Record"
 
 msgid "Location"
 msgstr "Location"
+
+msgid "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
+msgstr "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "Largest species of hedgehog and mostly brown in colour"
+
+msgid "Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr "Similar to Western hedgehog but identifiable by a white spot on its chest"
+
+msgid "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs"
+
+msgid "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips"
+msgstr "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips"
+
+msgid "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips"
+msgstr "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips"
+
+msgid "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares"
+msgstr "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares"
+
+msgid "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail"
+msgstr "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail"
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+
+msgid "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine"
+msgstr "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine"
+
+msgid "Relatively small with dark-brown fur, white spots on its back and a short, thin tail"
+msgstr "Relatively small with dark-brown fur, white spots on its back and a short, thin tail"
+
+msgid "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
+msgstr "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
+
+msgid "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail "
+msgstr "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail "
+
+msgid "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+msgstr "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+
+msgid "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+msgstr "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+
+msgid "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
+msgstr "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
+
+msgid "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs."
+msgstr "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs."
+
+msgid "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle"
+msgstr "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle"
+
+msgid "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail"
+msgstr "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail"
+
+msgid "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face"
+msgstr "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face"
+
+msgid "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
+msgstr "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
+
+msgid "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+msgstr "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+
+msgid "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail "
+msgstr "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail "
+
+msgid "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
+msgstr "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
+
+msgid "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body"
+msgstr "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body"
+
+msgid "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur"
+msgstr "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur"
+
+msgid "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers."
+msgstr "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers."
+
+msgid "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine"
+msgstr "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine"
+
+msgid "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
+msgstr "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
+
+msgid "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns"
+msgstr "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns"
+
+msgid "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns "
+msgstr "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns "
+
+msgid "Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr "Brown coat with short legs and large hooves; males have large, curved horns"
+
+msgid "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back "
+msgstr "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back "
+
+msgid "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns"
+msgstr "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns"
+
+msgid "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail"
+msgstr "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail"
+
+msgid "Typically chestnut coat with white markings but may also be fully white or black, males have antlers"
+msgstr "Typically chestnut coat with white markings but may also be fully white or black, males have antlers"
+
+msgid "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin"
+msgstr "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin"
+
+msgid "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs "
+msgstr "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs "
+
+msgid "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps"
+msgstr "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps"
+
+msgid "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers"
+msgstr "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers"
+
+msgid "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
+msgstr "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
+
+msgid "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+msgstr "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+
+msgid "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
+
+msgid "Algerian hedgehog"
+msgstr "Algerian hedgehog"
+
+msgid "Western hedgehog"
+msgstr "Western hedgehog"
+
+msgid "Eastern hedgehog"
+msgstr "Eastern hedgehog"
+
+msgid "European rabbit"
+msgstr "European rabbit"
+
+msgid "Broom hare"
+msgstr "Broom hare"
+
+msgid "Brown hare"
+msgstr "Brown hare"
+
+msgid "Mountain hare"
+msgstr "Mountain hare"
+
+msgid "Granada hare"
+msgstr "Granada hare"
+
+msgid "Red squirrel"
+msgstr "Red squirrel"
+
+msgid "Barbary ground squirrel"
+msgstr "Barbary ground squirrel"
+
+msgid "Spotted souslik"
+msgstr "Spotted souslik"
+
+msgid "Alpine marmot"
+msgstr "Alpine marmot"
+
+msgid "European beaver"
+msgstr "European beaver"
+
+msgid "Coypu"
+msgstr "Coypu"
+
+msgid "Raccoon dog"
+msgstr "Raccoon dog"
+
+msgid "Brown bear"
+msgstr "Brown bear"
+
+msgid "Grey wolf"
+msgstr "Grey wolf"
+
+msgid "Golden jackal"
+msgstr "Golden jackal"
+
+msgid "Red fox"
+msgstr "Red fox"
+
+msgid "European otter"
+msgstr "European otter"
+
+msgid "Eurasian badger"
+msgstr "Eurasian badger"
+
+msgid "Egyptian mongoose"
+msgstr "Egyptian mongoose"
+
+msgid "Small Indian mongoose"
+msgstr "Small Indian mongoose"
+
+msgid "Common genet"
+msgstr "Common genet"
+
+msgid "Wildcat"
+msgstr "Wildcat"
+
+msgid "Eurasian lynx"
+msgstr "Eurasian lynx"
+
+msgid "Iberian lynx"
+msgstr "Iberian lynx"
+
+msgid "Wild boar"
+msgstr "Wild boar"
+
+msgid "European bison"
+msgstr "European bison"
+
+msgid "European mouflon"
+msgstr "European mouflon"
+
+msgid "Alpine ibex"
+msgstr "Alpine ibex"
+
+msgid "Spanish ibex"
+msgstr "Spanish ibex"
+
+msgid "Chamois, Alpine"
+msgstr "Chamois, Alpine"
+
+msgid "Chamois, southern"
+msgstr "Chamois, southern"
+
+msgid "Red deer"
+msgstr "Red deer"
+
+msgid "Fallow deer"
+msgstr "Fallow deer"
+
+msgid "Elk"
+msgstr "Elk"
+
+msgid "Roe deer"
+msgstr "Roe deer"
+
+msgid "Sika deer"
+msgstr "Sika deer"
+
+msgid "Chital"
+msgstr "Chital"
+
+msgid "White-tailed deer"
+msgstr "White-tailed deer"
+
+msgid "Raccoon"
+msgstr "Raccoon"
+
+msgid "Barbary sheep"
+msgstr "Barbary sheep"

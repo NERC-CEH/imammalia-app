@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "warehouse_id": -1,
+    "english": "Algerian hedgehog",
+    "taxon": "Atelerix algirus",
+    "description": "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
+  },
+  {
+    "id": 2,
+    "warehouse_id": -1,
+    "english": "Western hedgehog",
+    "taxon": "Erinaceus europaeus ",
+    "description": "Largest species of hedgehog and mostly brown in colour"
+  },
+  {
+    "id": 3,
+    "warehouse_id": -1,
+    "english": "Eastern hedgehog",
+    "taxon": "Erinaceus concolor ",
+    "description": "Similar to Western hedgehog but identifiable by a white spot on its chest"
+  },
+  {
+    "id": 4,
+    "warehouse_id": -1,
+    "english": "European rabbit",
+    "taxon": "Oryctolagus cuniculus",
+    "description": "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs"
+  },
+  {
+    "id": 5,
+    "warehouse_id": -1,
+    "english": "Broom hare",
+    "taxon": "Lepus castroviejoi",
+    "description": "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips"
+  },
+  {
+    "id": 6,
+    "warehouse_id": -1,
+    "english": "Brown hare",
+    "taxon": "Lepus europaeus",
+    "description": "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips"
+  },
+  {
+    "id": 7,
+    "warehouse_id": -1,
+    "english": "Mountain hare",
+    "taxon": "Lepus timidus",
+    "description": "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares"
+  },
+  {
+    "id": 8,
+    "warehouse_id": -1,
+    "english": "Granada hare",
+    "taxon": "Lepus granatensis",
+    "description": "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail"
+  },
+  {
+    "id": 9,
+    "warehouse_id": -1,
+    "english": "Red squirrel",
+    "taxon": "Sciurus vulgaris ",
+    "description": "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+  },
+  {
+    "id": 10,
+    "warehouse_id": -1,
+    "english": "Barbary ground squirrel",
+    "taxon": "Atlantoxerus getulus",
+    "description": "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine"
+  },
+  {
+    "id": 11,
+    "warehouse_id": -1,
+    "english": "Spotted souslik",
+    "taxon": "Spermophilus suslicus ",
+    "description": "Relatively small with dark-brown fur, white spots on its back and a short, thin tail"
+  },
+  {
+    "id": 12,
+    "warehouse_id": -1,
+    "english": "Alpine marmot",
+    "taxon": "Marmota marmota ",
+    "description": "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
+  },
+  {
+    "id": 13,
+    "warehouse_id": -1,
+    "english": "European beaver",
+    "taxon": "Castor fiber ",
+    "description": "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail "
+  },
+  {
+    "id": 14,
+    "warehouse_id": -1,
+    "english": "Coypu",
+    "taxon": "Myocastor coypus ",
+    "description": "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+  },
+  {
+    "id": 15,
+    "warehouse_id": -1,
+    "english": "Raccoon dog",
+    "taxon": "Nyctereutes procyonoides ",
+    "description": "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+  },
+  {
+    "id": 16,
+    "warehouse_id": -1,
+    "english": "Brown bear",
+    "taxon": "Ursus arctos ",
+    "description": "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
+  },
+  {
+    "id": 17,
+    "warehouse_id": -1,
+    "english": "Grey wolf",
+    "taxon": "Canis lupus ",
+    "description": "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs."
+  },
+  {
+    "id": 18,
+    "warehouse_id": -1,
+    "english": "Golden jackal",
+    "taxon": "Canis aureus ",
+    "description": "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle"
+  },
+  {
+    "id": 19,
+    "warehouse_id": -1,
+    "english": "Red fox",
+    "taxon": "Vulpes vulpes ",
+    "description": "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail"
+  },
+  {
+    "id": 20,
+    "warehouse_id": -1,
+    "english": "European otter",
+    "taxon": "Lutra lutra ",
+    "description": "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face"
+  },
+  {
+    "id": 21,
+    "warehouse_id": -1,
+    "english": "Eurasian badger",
+    "taxon": "Meles meles ",
+    "description": "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
+  },
+  {
+    "id": 22,
+    "warehouse_id": -1,
+    "english": "Egyptian mongoose",
+    "taxon": "Herpestes ichneumon ",
+    "description": "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+  },
+  {
+    "id": 23,
+    "warehouse_id": -1,
+    "english": "Small Indian mongoose",
+    "taxon": "Herpestes auropunctatus",
+    "description": "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail "
+  },
+  {
+    "id": 24,
+    "warehouse_id": -1,
+    "english": "Common genet",
+    "taxon": "Genetta genetta ",
+    "description": "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
+  },
+  {
+    "id": 25,
+    "warehouse_id": -1,
+    "english": "Wildcat",
+    "taxon": "Felis silvestris ",
+    "description": "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body"
+  },
+  {
+    "id": 26,
+    "warehouse_id": -1,
+    "english": "Eurasian lynx",
+    "taxon": "Lynx lynx ",
+    "description": "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur"
+  },
+  {
+    "id": 27,
+    "warehouse_id": -1,
+    "english": "Iberian lynx",
+    "taxon": "Lynx pardinus ",
+    "description": "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers."
+  },
+  {
+    "id": 28,
+    "warehouse_id": -1,
+    "english": "Wild boar",
+    "taxon": "Sus scrofa ",
+    "description": "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine"
+  },
+  {
+    "id": 29,
+    "warehouse_id": -1,
+    "english": "European bison",
+    "taxon": "Bison bonasus ",
+    "description": "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
+  },
+  {
+    "id": 30,
+    "warehouse_id": -1,
+    "english": "European mouflon",
+    "taxon": "Ovis ammon OR Ovis gmelini musimon",
+    "description": "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns"
+  },
+  {
+    "id": 31,
+    "warehouse_id": -1,
+    "english": "Alpine ibex",
+    "taxon": "Capra ibex ",
+    "description": "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns "
+  },
+  {
+    "id": 32,
+    "warehouse_id": -1,
+    "english": "Spanish ibex",
+    "taxon": "Capra pyrenaica ",
+    "description": "Brown coat with short legs and large hooves; males have large, curved horns"
+  },
+  {
+    "id": 33,
+    "warehouse_id": -1,
+    "english": "Chamois, Alpine",
+    "taxon": "Rupicapra rupicapra ",
+    "description": "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back "
+  },
+  {
+    "id": 34,
+    "warehouse_id": -1,
+    "english": "Chamois, southern",
+    "taxon": "Rupicapra pyrenaica ",
+    "description": "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns"
+  },
+  {
+    "id": 35,
+    "warehouse_id": -1,
+    "english": "Red deer",
+    "taxon": "Cervus elaphus ",
+    "description": "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail"
+  },
+  {
+    "id": 36,
+    "warehouse_id": -1,
+    "english": "Fallow deer",
+    "taxon": "Dama dama ",
+    "description": "Typically chestnut coat with white markings but may also be fully white or black, males have antlers"
+  },
+  {
+    "id": 37,
+    "warehouse_id": -1,
+    "english": "Elk",
+    "taxon": "Alces alces ",
+    "description": "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin"
+  },
+  {
+    "id": 38,
+    "warehouse_id": -1,
+    "english": "Roe deer",
+    "taxon": "Capreolus capreolus ",
+    "description": "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs "
+  },
+  {
+    "id": 39,
+    "warehouse_id": -1,
+    "english": "Sika deer",
+    "taxon": "Cervus nippon ",
+    "description": "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps"
+  },
+  {
+    "id": 40,
+    "warehouse_id": -1,
+    "english": "Chital",
+    "taxon": "Axis axis ",
+    "description": "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers"
+  },
+  {
+    "id": 41,
+    "warehouse_id": -1,
+    "english": "White-tailed deer",
+    "taxon": "Odocoileus virginianus ",
+    "description": "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
+  },
+  {
+    "id": 42,
+    "warehouse_id": -1,
+    "english": "Raccoon",
+    "taxon": "Procyon lotor ",
+    "description": "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+  },
+  {
+    "id": 43,
+    "warehouse_id": -1,
+    "english": "Barbary sheep",
+    "taxon": "Ammotragus lervia ",
+    "description": "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
+  }
+]
