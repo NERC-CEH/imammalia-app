@@ -21,7 +21,7 @@ const Component = () => {
     <>
       <IonTabs>
         <IonRouterOutlet>
-          <Route path="/home/:tab(species)" render={Species} exact />
+          <Route path="/home/:tab(species)" component={Species} exact />
           <Route path="/home/:tab(help)" component={Help} exact />
           <Route
             path="/home/:tab(user-records)"

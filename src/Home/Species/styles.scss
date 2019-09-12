@@ -1,0 +1,38 @@
+#home-species {
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+  
+  &,
+  .inner-scroll {
+    margin: 0;
+    padding: 0;
+  }
+
+  .species-list-item {
+    --border-width: 0;
+    --padding-start: 0;
+    --padding-end: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    width: 105%;
+
+    div {
+      height: 180px;
+      width: 100%;
+      background-size: cover;
+
+      .label {
+        color: white;
+        border: 0;
+        position: absolute;
+        bottom: -1px;
+        left: -8px;
+        padding: 7px 15px;
+        background: #00000099;
+        width: 100%;
+      }
+    }
+  }
+}
