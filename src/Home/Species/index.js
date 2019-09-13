@@ -1,8 +1,10 @@
 import React from 'react';
-import { IonContent, IonList, IonItem } from '@ionic/react';
+import { IonContent, IonList, IonItem, IonModal } from '@ionic/react';
+import ModalHeader from 'common/Components/ModalHeader';
 import './images';
-import './styles.scss';
 import species from './species.data.json';
+import SpeciesProfile from './components/SpeciesProfile';
+import './styles.scss';
 
 let lastScroll = 0;
 
@@ -12,18 +14,17 @@ class Component extends React.Component {
     this.infiniteScrollRef = React.createRef();
     this.contentRef = React.createRef();
     this.scroll = this.scroll.bind(this);
-    this.state = { listShowLimit: 30 };
+    this.state = { listShowLimit: 30, showModal: false, species: null };
   }
 
   scroll(e) {
-    this.setState({
-      listShowLimit: this.state.listShowLimit + 30,
-    });
-    e.target.complete();
-
-    if (this.state.listShowLimit >= 44) {
-      e.target.disabled = true;
-    }
+    // this.setState({
+    //   listShowLimit: this.state.listShowLimit + 30,
+    // });
+    // e.target.complete();
+    // if (this.state.listShowLimit >= 44) {
+    //   e.target.disabled = true;
+    // }
   }
 
   componentDidMount() {
@@ -48,6 +49,14 @@ class Component extends React.Component {
     );
   }
 
+  showSpeciesModal = id => {
+    this.setState({ showModal: true, species: species[id] });
+  };
+
+  hideSpeciesModal = () => {
+    this.setState({ showModal: false });
+  };
+
   render() {
     return (
       <IonContent
@@ -58,7 +67,11 @@ class Component extends React.Component {
       >
         <IonList lines="full">
           {[...new Array(43)].map((_, id) => (
-            <IonItem key={Math.random()} className="species-list-item">
+            <IonItem
+              key={species[id].id}
+              className="species-list-item"
+              onClick={() => this.showSpeciesModal(id)}
+            >
               <div
                 style={{
                   backgroundImage: `url('/images/${id + 1}.jpg')`,
@@ -72,6 +85,12 @@ class Component extends React.Component {
             <ion-infinite-scroll-content />
           </ion-infinite-scroll> */}
         </IonList>
+        <IonModal isOpen={this.state.showModal}>
+          <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
+          {this.state.showModal && (
+            <SpeciesProfile species={this.state.species} />
+          )}
+        </IonModal>
       </IonContent>
     );
   }
