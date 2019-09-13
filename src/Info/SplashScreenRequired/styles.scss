@@ -62,51 +62,24 @@ ion-slides#welcome {
   ion-slide {
     &.first {
       background: url('images/welcome_1.jpg') no-repeat;
-      background-position: bottom;
-      background-size: contain;
-
-      .message {
-        text-align: left;
-        left: 10vw;
-        top: 20vh;
-      }
-    }
-
-    &.second {
-      background: url('images/welcome_2.jpg') no-repeat;
       background-position: left;
       background-size: cover;
 
       .message {
         text-align: left;
         left: 10vw;
-        bottom: 20vh;
-      }
-
-      ion-button {
-        --ion-color-contrast: var(--ion-color-primary) !important;
-      }
-    }
-
-    &.third {
-      background: url('images/welcome_3.jpg') no-repeat;
-      background-position: left;
-      background-size: contain;
-      .message {
-        text-align: left;
-        right: 10vw;
-        bottom: 12vh;
+        top: 1vh;
       }
     }
 
     &.fourth {
-      background: url('images/welcome_4.jpg') no-repeat;
+      background: url('images/welcome_2.jpg') no-repeat;
       background-position: left;
       background-size: cover;
       .message {
         text-align: left;
         right: 10vw;
-        bottom: $bottom;
+        top: 1vh;
       }
     }
   }

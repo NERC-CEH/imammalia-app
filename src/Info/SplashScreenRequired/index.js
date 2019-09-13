@@ -25,18 +25,11 @@ const SplashScreen = () => {
   return (
     <IonSlides id="welcome" pager="true" ref={sliderRef}>
       <IonSlide class="first">
-        <IonButton
-          class="skip"
-          fill="outline"
-          color="primary"
-          strong="true"
-          onClick={exit}
-        >
+        <IonButton class="skip" color="primary" strong="true" onClick={exit}>
           {t('Skip')}
         </IonButton>
         <IonButton
           class="next"
-          fill="outline"
           color="primary"
           strong="true"
           onClick={() => next(sliderRef)}
@@ -44,75 +37,12 @@ const SplashScreen = () => {
           {t('Next')}
         </IonButton>
         <div className="message">
-          <p>
-            {t(`Butterflies are captivating insects, but they are in decline in many parts of Europe. As shown by this graph of The Grassland Butterfly Indicator for the EU.`)}
-          </p>
+          <p>{t(`SOME INTRO TEXT`)}</p>
         </div>
       </IonSlide>
-
-      <IonSlide class="second">
-        <IonButton
-          class="skip"
-          color="light"
-          strong="true"
-          onClick={exit}
-        >
-          {t('Skip')}
-        </IonButton>
-        <IonButton
-          class="next"
-          color="light"
-          strong="true"
-          onClick={() => next(sliderRef)}
-        >
-          {t('Next')}
-        </IonButton>
-
-        <div className="message">
-          <p>
-            {t(
-              'Data collected by this app can greatly improve knowledge of the status of butterflies and their habitats.'
-            )}
-          </p>
-        </div>
-      </IonSlide>
-
-      <IonSlide class="third">
-        <IonButton
-          class="skip"
-          fill="outline"
-          color="primary"
-          strong="true"
-          onClick={exit}
-        >
-          {t('Skip')}
-        </IonButton>
-        <IonButton
-          class="next"
-          fill="outline"
-          color="primary"
-          strong="true"
-          onClick={() => next(sliderRef)}
-        >
-          {t('Next')}
-        </IonButton>
-
-        <div className="message">
-          <p>
-            {t(
-              'We lack information on butterfly numbers in many parts of Europe, as shown by the density of records currently available to assess butterfly status.'
-            )}
-          </p>
-        </div>
-      </IonSlide>
-
       <IonSlide class="fourth">
         <div className="message">
-          <p>
-            {t(
-              'It has never been easier to contribute high quality data for research to support conservation of these fascinating and vital insects.  You can get started straight away'
-            )}
-          </p>
+          <p>{t(`SOME INTRO TEXT`)}</p>
         </div>
         <IonButton color="primary" strong="true" onClick={exit}>
           {t('Get Started')}
