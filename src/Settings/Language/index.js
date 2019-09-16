@@ -21,6 +21,7 @@ function SelectLanguage({ appModel, hideHeader }) {
 
   function onSelect(e) {
     appModel.set('language', e.target.value);
+    appModel.save();
   }
 
   const languagesOptions = Object.entries(languages).map(

@@ -21,6 +21,7 @@ function SelectCountry({ appModel, hideHeader }) {
 
   function onSelect(e) {
     appModel.set('country', e.target.value);
+    appModel.save();
   }
 
   const countriesOptions = Object.entries(countries).map(([value, country]) => (

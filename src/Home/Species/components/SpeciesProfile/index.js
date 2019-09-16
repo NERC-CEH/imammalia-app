@@ -16,10 +16,10 @@ const Component = ({ species }) => {
 
       <IonCardHeader>
         <IonCardSubtitle>{species.taxon}</IonCardSubtitle>
-        <IonCardTitle>{species.english}</IonCardTitle>
+        <IonCardTitle>{t(species.english)}</IonCardTitle>
       </IonCardHeader>
 
-      <IonCardContent>{species.description}</IonCardContent>
+      <IonCardContent>{t(species.description)}</IonCardContent>
     </IonContent>
   );
 };

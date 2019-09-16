@@ -42,7 +42,7 @@ class Component extends React.Component {
             backgroundImage: `url('/images/${id}.jpg')`,
           }}
         >
-          <span className="label">{english}</span>
+          <span className="label">{t(english)}</span>
         </div>
       </IonItem>
     ));
