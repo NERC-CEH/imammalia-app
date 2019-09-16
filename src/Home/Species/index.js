@@ -39,7 +39,7 @@ class Component extends React.Component {
       >
         <div
           style={{
-            backgroundImage: `url('/images/${id + 1}.jpg')`,
+            backgroundImage: `url('/images/${id}.jpg')`,
           }}
         >
           <span className="label">{english}</span>
