@@ -25,31 +25,33 @@ class Component extends React.Component {
     this.setState({ showModal: false });
   };
 
-  render() {
+  getSpecies = () => {
     const { appModel } = this.props;
     const country = appModel.get('country');
 
     const filteredSpecies = species.filter(sp => sp[country]);
 
+    return filteredSpecies.map(({ id, english }) => (
+      <IonItem
+        key={id}
+        className="species-list-item"
+        onClick={() => this.showSpeciesModal(id)}
+      >
+        <div
+          style={{
+            backgroundImage: `url('/images/${id + 1}.jpg')`,
+          }}
+        >
+          <span className="label">{english}</span>
+        </div>
+      </IonItem>
+    ));
+  };
+
+  render() {
     return (
       <IonContent id="home-species" class="ion-padding">
-        <IonList lines="full">
-          {filteredSpecies.map((_, id) => (
-            <IonItem
-              key={filteredSpecies[id].id}
-              className="species-list-item"
-              onClick={() => this.showSpeciesModal(id)}
-            >
-              <div
-                style={{
-                  backgroundImage: `url('/images/${filteredSpecies[id].id + 1}.jpg')`,
-                }}
-              >
-                <span className="label">{filteredSpecies[id].english}</span>
-              </div>
-            </IonItem>
-          ))}
-        </IonList>
+        <IonList lines="full">{this.getSpecies()}</IonList>
         <IonModal isOpen={this.state.showModal}>
           <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
           {this.state.showModal && (
