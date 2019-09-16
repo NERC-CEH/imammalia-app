@@ -647,3 +647,21 @@ msgstr "Raccoon"
 
 msgid "Barbary sheep"
 msgstr "Barbary sheep"
+
+msgid "Germany"
+msgstr "Germany"
+
+msgid "Spain"
+msgstr "Spain"
+
+msgid "Croatia"
+msgstr "Croatia"
+
+msgid "Poland"
+msgstr "Poland"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Country"
+msgstr "Country"

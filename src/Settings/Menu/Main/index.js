@@ -12,6 +12,7 @@ import {
 } from '@ionic/react';
 import { undo, school, flame, flag, globe } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
+import { countries, languages } from 'helpers/translator';
 import config from 'config';
 import './styles.scss';
 
@@ -65,12 +66,12 @@ class Component extends React.Component {
             <IonItem href="/settings/language">
               <IonLabel>{t('Language')}</IonLabel>
               <IonIcon icon={flag} size="small" slot="start" />
-              <IonLabel slot="end">{language}</IonLabel>
+              <IonLabel slot="end">{languages[language]}</IonLabel>
             </IonItem>
             <IonItem href="/settings/country">
               <IonLabel>{t('Country')}</IonLabel>
               <IonIcon icon={globe} size="small" slot="start" />
-              <IonLabel slot="end">{country}</IonLabel>
+              <IonLabel slot="end">{countries[country]}</IonLabel>
             </IonItem>
             <IonItem>
               <IonIcon icon={school} size="small" slot="start" />

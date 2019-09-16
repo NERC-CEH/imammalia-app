@@ -14,11 +14,13 @@ import appModel from 'app_model';
 import userModel from 'user_model';
 import savedSamples from 'saved_samples';
 import LanguageCountrySelectRequired from 'common/Components/LanguageCountrySelectRequired';
+import Menu from 'Settings/Menu';
+import Language from 'Settings/Language';
+import Country from 'Settings/Country';
 import Home from './Home';
 import Login from './User/Login';
 import Register from './User/Register';
 import Reset from './User/Reset';
-import Settings from './Settings';
 import InfoMenu from './Info/Menu';
 import Credits from './Info/Credits';
 import Record from './Record';
@@ -66,7 +68,23 @@ const App = () => (
                   )}
                 />
                 <Route path="/info/credits" component={Credits} />
-                <Route path="/settings" component={Settings} />
+                <Route
+                  path="/settings/menu"
+                  exact
+                  render={() => (
+                    <Menu appModel={appModel} userModel={userModel} />
+                  )}
+                />
+                <Route
+                  path="/settings/language"
+                  exact
+                  render={() => <Language appModel={appModel} />}
+                />
+                <Route
+                  path="/settings/country"
+                  exact
+                  render={() => <Country appModel={appModel} />}
+                />
               </IonRouterOutlet>
             </Switch>
           </IonPage>
