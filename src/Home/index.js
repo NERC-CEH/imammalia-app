@@ -10,6 +10,7 @@ import {
 } from '@ionic/react';
 import { person, add, helpCircle, menu, home } from 'ionicons/icons';
 import savedSamples from 'saved_samples';
+import appModel from 'app_model';
 import PrivateRoute from 'common/Components/PrivateRoute';
 import Species from './Species';
 import Help from './Help';
@@ -21,7 +22,11 @@ const Component = () => {
     <>
       <IonTabs>
         <IonRouterOutlet>
-          <Route path="/home/:tab(species)" component={Species} exact />
+          <Route
+            path="/home/:tab(species)"
+            render={() => <Species appModel={appModel} />}
+            exact
+          />
           <Route path="/home/:tab(help)" component={Help} exact />
           <Route
             path="/home/:tab(user-records)"
