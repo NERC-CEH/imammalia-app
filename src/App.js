@@ -13,15 +13,15 @@ import { IonApp, IonPage, IonReactRouter, IonRouterOutlet } from '@ionic/react';
 import appModel from 'app_model';
 import userModel from 'user_model';
 import savedSamples from 'saved_samples';
+import LanguageCountrySelectRequired from 'common/Components/LanguageCountrySelectRequired';
 import Home from './Home';
 import Login from './User/Login';
 import Register from './User/Register';
 import Reset from './User/Reset';
-import Settings from './Settings/Menu';
+import Settings from './Settings';
 import InfoMenu from './Info/Menu';
 import Credits from './Info/Credits';
 import Record from './Record';
-import LanguageCountrySelectRequired from './Settings/LanguageCountrySelectRequired';
 import SplashScreenRequired from './Info/SplashScreenRequired';
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
@@ -32,7 +32,7 @@ const App = () => (
   <IonApp>
     <IonReactRouter>
       <Route exact path="/" render={() => <Redirect to="/home/species" />} />
-      <LanguageCountrySelectRequired>
+      <LanguageCountrySelectRequired appModel={appModel}>
         <SplashScreenRequired>
           <IonPage id="main">
             <Switch>

@@ -41,7 +41,7 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         )}
 
         <IonItemDivider>{t('Settings')}</IonItemDivider>
-        <IonItem href="/settings" detail>
+        <IonItem href="/settings/menu" detail>
           <IonIcon icon={settings} size="small" slot="start" />
           {t('App')}
         </IonItem>

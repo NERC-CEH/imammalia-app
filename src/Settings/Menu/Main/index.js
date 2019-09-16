@@ -2,8 +2,15 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import Toggle from 'common/Components/Toggle';
-import { IonContent, IonIcon } from '@ionic/react';
-import { undo, school, flame } from 'ionicons/icons';
+import {
+  IonContent,
+  IonIcon,
+  IonList,
+  IonItemDivider,
+  IonItem,
+  IonLabel,
+} from '@ionic/react';
+import { undo, school, flame, flag, globe } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
 import config from 'config';
 import './styles.scss';
@@ -36,37 +43,56 @@ class Component extends React.Component {
     onToggle: PropTypes.func.isRequired,
     useTraining: PropTypes.bool.isRequired,
     useExperiments: PropTypes.bool.isRequired,
+    language: PropTypes.string,
+    country: PropTypes.string,
   };
 
   render() {
-    const { resetApp, onToggle, useTraining, useExperiments } = this.props;
+    const {
+      resetApp,
+      onToggle,
+      useTraining,
+      useExperiments,
+      language,
+      country,
+    } = this.props;
 
     return (
       <>
         <IonContent class="app-settings">
-          <ion-list lines="full">
-            <ion-item-divider>{t('Application')}</ion-item-divider>
-            <ion-item>
+          <IonList lines="full">
+            <IonItemDivider>{t('Application')}</IonItemDivider>
+            <IonItem href="/settings/language">
+              <IonLabel>{t('Language')}</IonLabel>
+              <IonIcon icon={flag} size="small" slot="start" />
+              <IonLabel slot="end">{language}</IonLabel>
+            </IonItem>
+            <IonItem href="/settings/country">
+              <IonLabel>{t('Country')}</IonLabel>
+              <IonIcon icon={globe} size="small" slot="start" />
+              <IonLabel slot="end">{country}</IonLabel>
+            </IonItem>
+            <IonItem>
               <IonIcon icon={school} size="small" slot="start" />
-              <ion-label>{t('Training Mode')}</ion-label>
+              <IonLabel>{t('Training Mode')}</IonLabel>
               <Toggle
                 onToggle={checked => onToggle('useTraining', checked)}
                 checked={useTraining}
               />
-            </ion-item>
-            <ion-item id="app-reset-btn" onClick={() => resetDialog(resetApp)}>
+            </IonItem>
+            <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp)}>
               <IonIcon icon={undo} size="small" slot="start" />
               {t('Reset')}
-            </ion-item>
-            <ion-item>
+            </IonItem>
+            <IonItem>
               <IonIcon icon={flame} size="small" slot="start" />
-              <ion-label>{t('Experimental Features')}</ion-label>
+              <IonLabel>{t('Experimental Features')}</IonLabel>
               <Toggle
                 onToggle={checked => onToggle('useExperiments', checked)}
                 checked={useExperiments}
               />
-            </ion-item>
-          </ion-list>
+            </IonItem>
+          </IonList>
 
           <p className="app-version">
             {`v${config.version} (${config.build})`}

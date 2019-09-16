@@ -1,20 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import { observer } from 'mobx-react';
 import savedSamples from 'saved_samples';
-import appModel from 'app_model';
-import userModel from 'user_model';
 import AppHeader from 'common/Components/Header';
 import Main from './Main';
 
-function resetApp() {
+function resetApp(appModel, userModel) {
   Log('Settings:Menu:Controller: resetting the application!', 'w');
   appModel.resetDefaults();
   userModel.logOut();
   return savedSamples.resetDefaults();
 }
 
-function onToggle(setting, checked) {
+function onToggle(appModel, setting, checked) {
   Log('Settings:Menu:Controller: setting toggled.');
   if (setting === 'useExperiments' && !checked) {
     appModel.set('useExperiments', false);
@@ -26,9 +25,11 @@ function onToggle(setting, checked) {
   appModel.save();
 }
 
-const Container = observer(() => {
+const Container = observer(({ appModel, userModel }) => {
   const useTraining = appModel.get('useTraining');
   const useExperiments = appModel.get('useExperiments');
+  const language = appModel.get('language');
+  const country = appModel.get('country');
 
   return (
     <>
@@ -36,13 +37,18 @@ const Container = observer(() => {
       <Main
         useTraining={useTraining}
         useExperiments={useExperiments}
-        resetApp={resetApp}
-        onToggle={onToggle}
+        resetApp={() => resetApp(appModel, userModel)}
+        onToggle={(setting, checked) => onToggle(appModel, setting, checked)}
+        language={language}
+        country={country}
       />
     </>
   );
 });
 
-Container.propTypes = {};
+Container.propTypes = {
+  appModel: PropTypes.object.isRequired,
+  userModel: PropTypes.object.isRequired,
+};
 
 export default Container;
