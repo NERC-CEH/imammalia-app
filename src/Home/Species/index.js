@@ -18,7 +18,7 @@ class Component extends React.Component {
   }
 
   showSpeciesModal = id => {
-    this.setState({ showModal: true, species: species[id] });
+    this.setState({ showModal: true, species: species[id - 1] });
   };
 
   hideSpeciesModal = () => {
