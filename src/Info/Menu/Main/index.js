@@ -47,7 +47,7 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         </IonItem>
         <IonItemDivider>{t('Info')}</IonItemDivider>
         <IonItem
-          href="https://dev-european-mammals.pantheonsite.io/privacy-notice"
+          href="https://www.european-mammals.brc.ac.uk/privacy-notice"
           target="_blank"
           detail
         >

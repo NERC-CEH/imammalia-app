@@ -5,7 +5,7 @@ import Indicia from 'indicia';
 import DateHelp from 'helpers/date';
 
 const HOST =
-  process.env.APP_INDICIA_API_HOST || 'https://dev-european-mammals.pantheonsite.io/';
+  process.env.APP_INDICIA_API_HOST || 'https://www.european-mammals.brc.ac.uk/';
 
 const CONFIG = {
   // variables replaced on build
