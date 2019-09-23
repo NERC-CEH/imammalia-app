@@ -20,21 +20,19 @@ class Container extends React.Component {
     sample.toggleGPStracking();
   };
 
-  setLocation = shape => {
+  setLocation = location => {
     const { match, savedSamples } = this.props;
     const sample = savedSamples.get(match.params.id);
-    // console.log(JSON.stringify(shape.coordinates.map(coordinates =>
-    //   [...coordinates].reverse().map(float => Number.parseFloat(float))
-    // )));
 
-    sample.setLocation(shape);
+    sample.setLocation(location);
   };
 
   render() {
     const { match, savedSamples } = this.props;
 
     const sample = savedSamples.get(match.params.id);
-    const location = sample.get('location') || {};
+
+    const location = sample.get('location');
     const isGPSTracking = sample.isGPSRunning();
 
     return (

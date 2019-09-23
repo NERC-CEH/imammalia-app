@@ -10,6 +10,7 @@ import './styles.scss';
 class Component extends React.Component {
   static propTypes = {
     appModel: PropTypes.object.isRequired,
+    onSpeciesClick: PropTypes.func,
   };
 
   constructor(props) {
@@ -26,26 +27,30 @@ class Component extends React.Component {
   };
 
   getSpecies = () => {
-    const { appModel } = this.props;
+    const { appModel, onSpeciesClick } = this.props;
     const country = appModel.get('country');
 
     const filteredSpecies = species.filter(sp => sp[country]);
 
-    return filteredSpecies.map(({ id, english }) => (
-      <IonItem
-        key={id}
-        className="species-list-item"
-        onClick={() => this.showSpeciesModal(id)}
-      >
-        <div
-          style={{
-            backgroundImage: `url('/images/${id}.jpg')`,
-          }}
-        >
-          <span className="label">{t(english)}</span>
-        </div>
-      </IonItem>
-    ));
+    return filteredSpecies.map(sp => {
+      const { id, english } = sp;
+
+      const onClick = onSpeciesClick
+        ? () => onSpeciesClick(sp)
+        : () => this.showSpeciesModal(id);
+
+      return (
+        <IonItem key={id} className="species-list-item" onClick={onClick}>
+          <div
+            style={{
+              backgroundImage: `url('/images/${id}.jpg')`,
+            }}
+          >
+            <span className="label">{t(english)}</span>
+          </div>
+        </IonItem>
+      );
+    });
   };
 
   render() {

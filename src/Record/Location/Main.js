@@ -4,12 +4,17 @@ import {
   IonIcon,
   IonContent,
   IonLifeCycleContext,
+  IonToolbar,
+  IonSelect,
+  IonSelectOption,
+  IonLabel,
+  IonItem,
 } from '@ionic/react';
 import { locate } from 'ionicons/icons';
 import CONFIG from 'config';
 import L from 'leaflet';
 import GPS from 'helpers/GPS';
-import { Map, TileLayer } from 'react-leaflet';
+import { Map, TileLayer, Marker } from 'react-leaflet';
 import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
 
@@ -26,6 +31,8 @@ class LocationAttr extends Component {
 
   static propTypes = {
     isGPSTracking: PropTypes.bool.isRequired,
+    setLocation: PropTypes.func.isRequired,
+    location: PropTypes.object,
   };
 
   state = {
@@ -40,6 +47,12 @@ class LocationAttr extends Component {
   componentDidMount() {
     const map = this.map.current.leafletElement;
     map.panTo(new L.LatLng(...DEFAULT_POSITION));
+
+    this.context.onIonViewDidEnter(() => {
+      // map.whenReady(() => {
+      map.invalidateSize();
+      // });
+    });
   }
 
   onGeolocate = async () => {
@@ -90,10 +103,65 @@ class LocationAttr extends Component {
     }
   }
 
+  handleClick = ({ latlng }) => {
+    const { setLocation } = this.props;
+    const { lat, lng } = latlng;
+    setLocation([lng, lat]);
+  };
+
+  getToolbar = () => {
+    const { location } = this.props;
+
+    if (!location || !location.latitude) {
+      return (
+        <IonItem>
+          <IonLabel color="light" className="ion-text-center ion-text-wrap">
+            {t('Please use the GPS or tap on the map to select your location')}
+          </IonLabel>
+        </IonItem>
+      );
+    }
+
+    if (location.source !== 'map') {
+      return (
+        <IonItem>
+          <IonLabel color="light" className="ion-text-center ion-text-wrap">
+            {t('Accurracy: ') + location.accurracy}
+          </IonLabel>
+        </IonItem>
+      );
+    }
+
+    return (
+      <IonItem>
+        <IonLabel>Location Accurracy</IonLabel>
+        <IonSelect
+          value="accurracy"
+          okText={t('Okay')}
+          cancelText={t('Dismiss')}
+        >
+          <IonSelectOption value="0-10m">0-10m</IonSelectOption>
+          <IonSelectOption value="10-50m">10-50m</IonSelectOption>
+          <IonSelectOption value="50-100m">50-100m</IonSelectOption>
+          <IonSelectOption value="100m-1km">100m-1km</IonSelectOption>
+          <IonSelectOption value=">1km">{'>1km'}</IonSelectOption>
+          <IonSelectOption value="NA">NA</IonSelectOption>
+        </IonSelect>
+      </IonItem>
+    );
+  };
+
   render() {
-    const { isGPSTracking } = this.props;
+    const { isGPSTracking, location } = this.props;
+
+    let markerPosition;
+    if (location && location.latitude) {
+      markerPosition = { lat: location.latitude, lon: location.longitude };
+    }
+
     return (
       <IonContent className={`${isGPSTracking ? 'GPStracking' : ''}`}>
+        <IonToolbar id="location-toolbar">{this.getToolbar()}</IonToolbar>
         <Map ref={this.map} zoom={DEFAULT_ZOOM} onClick={this.handleClick}>
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -108,6 +176,8 @@ class LocationAttr extends Component {
               <IonIcon icon={locate} mode="md" size="large" />
             </button>
           </LeafletControl>
+
+          {markerPosition && <Marker position={markerPosition} />}
         </Map>
       </IonContent>
     );

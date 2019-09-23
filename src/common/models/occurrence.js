@@ -14,8 +14,10 @@ export default Indicia.Occurrence.extend({
 
   defaults() {
     return {
-      count: 1,
       comment: null,
+      method: null,
+      type: null,
+      number: null,
       taxon: {
         scientific_name: null,
         warehouse_id: null,

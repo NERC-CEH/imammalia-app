@@ -81,6 +81,18 @@ const CONFIG = {
         device_version: { id: 759 },
         app_version: { id: 1139 },
 
+        manual_location_accurracy: {
+          id: -1,
+          values: {
+            '0-10m': -1,
+            '10-50m': -1,
+            '50-100m': -1,
+            '100m-1km': -1,
+            '>1km': -1,
+            NA: -1,
+          },
+        },
+
         date: {
           values(date) {
             return DateHelp.print(date);
@@ -99,6 +111,55 @@ const CONFIG = {
           values(taxon) {
             return taxon.warehouse_id;
           },
+        },
+
+        number: {
+          label: 'Number',
+          type: 'radio',
+          id: -1,
+          values: {
+            1: 665,
+            '2-5': 666,
+            '6-20': 667,
+            '21-100': 668,
+            '101-500': 669,
+            '500+': 670,
+            Present: 671,
+          },
+        },
+
+        type: {
+          label: 'Type',
+          type: 'radio',
+          id: -1,
+          values: {
+            Alive: -1,
+            Dead: -1,
+            'Both alive and dead': -1,
+            'Indirect sign': -1,
+            Other: -1,
+          },
+        },
+
+        method: {
+          label: 'Method',
+          type: 'radio',
+          id: -1,
+          values: {
+            'Direct observation': -1,
+            'Camera trap': -1,
+            Catch: -1,
+            'Road kill': -1,
+            'Field carcass': -1,
+            Hunted: -1,
+            Telemetry: -1,
+            'Other (specify in Notes)': -1,
+          },
+        },
+
+        comment: {
+          label: 'Coment',
+          type: 'textarea',
         },
       },
     },

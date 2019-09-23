@@ -17,37 +17,53 @@ class Record extends Component {
 
   render() {
     const { sample } = this.props;
+    const occ = sample.occurrences.at(0);
+    const { location } = sample.attributes;
+    const { taxon, number, method, type, comment } = occ.attributes;
+    const species = t(taxon.english);
 
+    let prettyLocation;
+    if (location && location.latitude) {
+      const { latitude, longitude } = location;
+      prettyLocation = `${latitude.toFixed(3)}, ${longitude.toFixed(3)}`;
+    }
     return (
       <IonContent id="record-edit">
         <IonList lines="full">
-          <IonItem href={`/record/${sample.cid}/edit/species`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/species`} detail>
             <IonIcon src="/images/deer.svg" slot="start" />
             <IonLabel>{t('Species')}</IonLabel>
+            <IonLabel slot="end">{species}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/location`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/location`} detail>
             <IonIcon icon={map} slot="start" />
             <IonLabel>{t('Location')}</IonLabel>
+            <IonLabel slot="end">{prettyLocation}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/date`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/date`} detail>
             <IonIcon icon={calendar} slot="start" />
             <IonLabel>{t('Date')}</IonLabel>
+            {/* <IonLabel slot="end">{date}</IonLabel> */}
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/number`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/number`} detail>
             <IonIcon src="/images/number.svg" slot="start" />
             <IonLabel>{t('Number')}</IonLabel>
+            <IonLabel slot="end">{number}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/method`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/method`} detail>
             <IonIcon src="/images/binoculars.svg" slot="start" />
             <IonLabel>{t('Method')}</IonLabel>
+            <IonLabel slot="end">{method}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/type`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/type`} detail>
             <IonIcon src="/images/skull.svg" slot="start" />
             <IonLabel>{t('Type')}</IonLabel>
+            <IonLabel slot="end">{type}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/comment`} detail disabled>
+          <IonItem href={`/record/${sample.cid}/edit/comment`} detail>
             <IonIcon icon={clipboard} slot="start" />
             <IonLabel>{t('Comment')}</IonLabel>
+            <IonLabel slot="end">{comment}</IonLabel>
           </IonItem>
         </IonList>
       </IonContent>

@@ -4,9 +4,10 @@ import { IonRouterOutlet } from '@ionic/react';
 import savedSamples from 'saved_samples';
 import appModel from 'app_model';
 import userModel from 'user_model';
+import Taxa from './Taxa';
 import Edit from './Edit';
 import Location from './Location';
-import Comment from './Comment';
+import Attr from './Attr';
 
 const App = routeProps => {
   if (!userModel.hasLogIn()) {
@@ -24,6 +25,13 @@ const App = routeProps => {
   return (
     <IonRouterOutlet>
       <Route
+        path="/record/:id/edit/species"
+        exact
+        render={props => (
+          <Taxa savedSamples={savedSamples} appModel={appModel} {...props} />
+        )}
+      />
+      <Route
         path="/record/:id/edit/location"
         exact
         render={props => <Location savedSamples={savedSamples} {...props} />}
@@ -36,9 +44,9 @@ const App = routeProps => {
         )}
       />
       <Route
-        path="/record/:id/edit/comment"
+        path="/record/:id/edit/:attr"
         exact
-        render={props => <Comment savedSamples={savedSamples} {...props} />}
+        render={props => <Attr savedSamples={savedSamples} {...props} />}
       />
     </IonRouterOutlet>
   );

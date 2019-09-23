@@ -1,5 +1,19 @@
+html.ios .leaflet-container {
+  height: calc(100% - 44px); // accomodate subheader
+}
+html.md .leaflet-container {
+  height: calc(100% - 56px); // accomodate subheader
+}
+
+#location-toolbar {
+  ion-item {
+    --background: #3b5249;
+    --color: white;
+    --inner-border-width: 0;
+  }
+}
+
 .leaflet-container {
-  height: calc(100% - 33px); // accomodate subheader
   width: 100vw;
   background-color: #5d5d5d;
 
