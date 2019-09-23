@@ -30,7 +30,8 @@ class Component extends React.Component {
     const { appModel, onSpeciesClick } = this.props;
     const country = appModel.get('country');
 
-    const filteredSpecies = species.filter(sp => sp[country]);
+    const filteredSpecies =
+      country === 'ELSEWHERE' ? species : species.filter(sp => sp[country]);
 
     return filteredSpecies.map(sp => {
       const { id, english } = sp;

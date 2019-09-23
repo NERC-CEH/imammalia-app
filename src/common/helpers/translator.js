@@ -23,11 +23,11 @@ export const languages = {
 };
 
 export const countries = {
-  UK: 'United Kingdom',
   DE: 'Germany',
   ES: 'Spain',
   HR: 'Croatia',
   PL: 'Poland',
+  ELSEWHERE: 'Elsewhere',
 };
 
 function translate(key) {

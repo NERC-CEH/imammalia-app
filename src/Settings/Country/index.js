@@ -10,6 +10,7 @@ import {
   IonRadioGroup,
   IonRadio,
   IonLabel,
+  IonItemDivider,
 } from '@ionic/react';
 import { flag } from 'ionicons/icons';
 import { countries } from 'helpers/translator';
@@ -25,10 +26,13 @@ function SelectCountry({ appModel, hideHeader }) {
   }
 
   const countriesOptions = Object.entries(countries).map(([value, country]) => (
-    <IonItem key={value}>
-      <IonLabel>{t(country)}</IonLabel>
-      <IonRadio value={value} checked={currentValue === value} />
-    </IonItem>
+    <>
+      {value === 'ELSEWHERE' && <IonItemDivider />}
+      <IonItem key={value}>
+        <IonLabel>{t(country)}</IonLabel>
+        <IonRadio value={value} checked={currentValue === value} />
+      </IonItem>
+    </>
   ));
 
   return (
