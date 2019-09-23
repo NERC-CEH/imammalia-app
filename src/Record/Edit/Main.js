@@ -3,11 +3,14 @@ import PropTypes from 'prop-types';
 import { IonList, IonItem, IonIcon, IonLabel, IonContent } from '@ionic/react';
 import { map, calendar, clipboard } from 'ionicons/icons';
 import { observer } from 'mobx-react';
+import dateHelp from 'helpers/date';
 import './styles.scss';
 import './skull.svg';
 import './deer.svg';
 import './binoculars.svg';
 import './number.svg';
+
+const { print: prettyDate } = dateHelp;
 
 @observer
 class Record extends Component {
@@ -18,7 +21,7 @@ class Record extends Component {
   render() {
     const { sample } = this.props;
     const occ = sample.occurrences.at(0);
-    const { location } = sample.attributes;
+    const { location, date } = sample.attributes;
     const { taxon, number, method, type, comment } = occ.attributes;
     const species = t(taxon.english);
 
@@ -43,7 +46,7 @@ class Record extends Component {
           <IonItem href={`/record/${sample.cid}/edit/date`} detail>
             <IonIcon icon={calendar} slot="start" />
             <IonLabel>{t('Date')}</IonLabel>
-            {/* <IonLabel slot="end">{date}</IonLabel> */}
+            <IonLabel slot="end">{prettyDate(date, true)}</IonLabel>
           </IonItem>
           <IonItem href={`/record/${sample.cid}/edit/number`} detail>
             <IonIcon src="/images/number.svg" slot="start" />
