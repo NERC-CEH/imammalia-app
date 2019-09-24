@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { IonContent, IonTextarea } from '@ionic/react';
+import { IonContent } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
 import RadioInput from 'common/Components/RadioInput';
 import Input from 'common/Components/Input';
+import Textarea from 'common/Components/Textarea';
 import { observer } from 'mobx-react';
 import config from 'config';
 import NumberAttr from './components/NumberAttr';
@@ -88,12 +89,11 @@ class Component extends React.Component {
         );
       case 'textarea':
         return (
-          <IonTextarea
-            placeholder={t('Enter more information here...')}
-            value={this.state.currentVal}
-            onIonChange={e => this.onChange(e.target.value)}
-            debounce={200}
-            rows={8}
+          <Textarea
+            config={this.attrConfig}
+            info={t('Please add any extra info about this record.')}
+            default={this.state.currentVal}
+            onChange={val => this.onChange(val)}
           />
         );
 
