@@ -42,6 +42,7 @@ class LocationAttr extends Component {
   constructor(props) {
     super(props);
     this.map = React.createRef();
+    this.selectRef = React.createRef();
   }
 
   componentDidMount() {
@@ -107,6 +108,7 @@ class LocationAttr extends Component {
     const { setLocation } = this.props;
     const { lat, lng } = latlng;
     setLocation([lng, lat]);
+    setTimeout(() => this.selectRef.current.open(), 50); // for some reason without a delay the options aren't present the first time
   };
 
   getToolbar = () => {
@@ -139,6 +141,7 @@ class LocationAttr extends Component {
           value="accurracy"
           okText={t('Okay')}
           cancelText={t('Dismiss')}
+          ref={this.selectRef}
         >
           <IonSelectOption value="0-10m">0-10m</IonSelectOption>
           <IonSelectOption value="10-50m">10-50m</IonSelectOption>
