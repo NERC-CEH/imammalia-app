@@ -104,7 +104,7 @@ class Component extends React.Component {
           />
           <input
             ref={this.inputRef}
-            style={{ width: '5%', minWidth: '60px' }}
+            style={{ width: '5%', minWidth: '60px', border: '#c1baba solid 1px' }}
             type="number"
             onChange={this.onChangeInput}
             value={this.state.value || ''}

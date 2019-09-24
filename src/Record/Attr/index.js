@@ -6,6 +6,7 @@ import RadioInput from 'common/Components/RadioInput';
 import Input from 'common/Components/Input';
 import { observer } from 'mobx-react';
 import config from 'config';
+import NumberAttr from './components/NumberAttr';
 
 @observer
 class Component extends React.Component {
@@ -45,7 +46,35 @@ class Component extends React.Component {
     }
   };
 
+  onNumberChange = (val, radioWasClicked) => {
+    if (!radioWasClicked) {
+      this.setState({ currentVal: val[1] });
+      this.model.set('number', val[1]);
+      this.model.set('number-ranges', null);
+      this.model.save();
+      return;
+    }
+
+    this.setState({ currentVal: val[0] });
+    this.model.set('number-ranges', val[0]);
+    this.model.set('number', null);
+    this.model.save();
+
+    window.history.back();
+  };
+
   getAttr = () => {
+    if (this.attrName === 'number') {
+      return (
+        <NumberAttr
+          config={this.attrConfig}
+          rangesValue={this.occ.get('number-ranges')}
+          sliderValue={this.state.currentVal}
+          onChange={this.onNumberChange}
+        />
+      );
+    }
+
     switch (this.attrConfig.type) {
       case 'date':
       case 'input':

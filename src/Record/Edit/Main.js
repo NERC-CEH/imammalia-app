@@ -22,8 +22,11 @@ class Record extends Component {
     const { sample } = this.props;
     const occ = sample.occurrences.at(0);
     const { location, date } = sample.attributes;
-    const { taxon, number, method, type, comment } = occ.attributes;
+    const { taxon, method, type, comment } = occ.attributes;
     const species = t(taxon.english);
+
+    const prettyNumber =
+      occ.attributes.number || occ.attributes['number-ranges'];
 
     let prettyLocation;
     if (location && location.latitude) {
@@ -51,7 +54,7 @@ class Record extends Component {
           <IonItem href={`/record/${sample.cid}/edit/number`} detail>
             <IonIcon src="/images/number.svg" slot="start" />
             <IonLabel>{t('Number')}</IonLabel>
-            <IonLabel slot="end">{number}</IonLabel>
+            <IonLabel slot="end">{prettyNumber}</IonLabel>
           </IonItem>
           <IonItem href={`/record/${sample.cid}/edit/method`} detail>
             <IonIcon src="/images/binoculars.svg" slot="start" />
