@@ -4,6 +4,7 @@ import { IonContent, IonList, IonItem, IonModal } from '@ionic/react';
 import ModalHeader from 'common/Components/ModalHeader';
 import './images';
 import species from './species.data.json';
+import speciesGroups from './species.groups.data.json';
 import SpeciesProfile from './components/SpeciesProfile';
 import './styles.scss';
 
@@ -30,15 +31,34 @@ class Component extends React.Component {
     const { appModel, onSpeciesClick } = this.props;
     const country = appModel.get('country');
 
+    const isRecordingMode = !!onSpeciesClick;
+    const allSpecies = isRecordingMode
+      ? [...species, ...speciesGroups]
+      : species;
+
     const filteredSpecies =
-      country === 'ELSEWHERE' ? species : species.filter(sp => sp[country]);
+      country === 'ELSEWHERE'
+        ? allSpecies
+        : allSpecies.filter(sp => sp[country] || sp.group);
 
     return filteredSpecies.map(sp => {
-      const { id, english } = sp;
+      const { id, english, group } = sp;
 
       const onClick = onSpeciesClick
         ? () => onSpeciesClick(sp)
         : () => this.showSpeciesModal(id);
+
+      if (group) {
+        return (
+          <IonItem
+            key={id}
+            className={`species-list-item ${group ? 'group' : ''}`}
+            onClick={onClick}
+          >
+            <span className="label">{t(english)}</span>
+          </IonItem>
+        );
+      }
 
       return (
         <IonItem key={id} className="species-list-item" onClick={onClick}>
