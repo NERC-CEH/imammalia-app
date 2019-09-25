@@ -22,6 +22,7 @@ describe('App Model', () => {
       'useTraining',
       'feedbackGiven',
       'recordDraftId',
+      'speciesFilter',
       'useExperiments',
     ]);
   });

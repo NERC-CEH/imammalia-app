@@ -12,7 +12,8 @@ const getDefaultAttrs = () => ({
   useTraining: false,
   feedbackGiven: false,
   recordDraftId: null,
-  
+  speciesFilter: [],
+
   useExperiments: false,
 });
 
