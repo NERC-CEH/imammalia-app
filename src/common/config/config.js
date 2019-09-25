@@ -135,9 +135,7 @@ const CONFIG = {
           values: {
             Alive: -1,
             Dead: -1,
-            'Both alive and dead': -1,
-            'Indirect sign': -1,
-            Other: -1,
+            'Indirect (specify in Comment)': -1,
           },
         },
 
@@ -151,14 +149,13 @@ const CONFIG = {
             Catch: -1,
             'Road kill': -1,
             'Field carcass': -1,
-            Hunted: -1,
             Telemetry: -1,
-            'Other (specify in Notes)': -1,
+            'Other (specify in Comment)': -1,
           },
         },
 
         comment: {
-          label: 'Coment',
+          label: 'Comment',
           type: 'textarea',
         },
       },
