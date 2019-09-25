@@ -136,11 +136,11 @@ class LocationAttr extends Component {
 
     return (
       <IonItem>
-        <IonLabel>Location Accurracy</IonLabel>
+        <IonLabel>{t('Location Accurracy')}</IonLabel>
         <IonSelect
           value="accurracy"
-          okText={t('Okay')}
-          cancelText={t('Dismiss')}
+          okText={t('OK')}
+          cancelText={t('Close')}
           ref={this.selectRef}
         >
           <IonSelectOption value="0-10m">0-10m</IonSelectOption>
