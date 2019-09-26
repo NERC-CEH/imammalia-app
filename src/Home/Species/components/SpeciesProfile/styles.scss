@@ -14,4 +14,13 @@
   .species-habitats {
     text-transform: capitalize;
   }
+
+  .species-map img {
+    margin-top: 15px;
+  }
+  .species-map-attribution {
+    margin: 10px;
+    display: block;
+    opacity: 0.8;
+  }
 }

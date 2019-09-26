@@ -17,6 +17,7 @@ import ModalHeader from 'common/Components/ModalHeader';
 import { funnel } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
 import './images';
+import './maps';
 import species from './species.data.json';
 import speciesGroups from './species.groups.data.json';
 import SpeciesProfile from './components/SpeciesProfile';

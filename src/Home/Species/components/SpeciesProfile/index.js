@@ -47,6 +47,14 @@ const Component = ({ species }) => {
           {habitatsString}
         </IonCardContent>
       )}
+
+      {species.map && (
+        <IonCardContent className="species-map">
+          <h3 className="species-label">{`${t('Distribution')}:`}</h3>
+          <img src={`/images/${species.map}`} alt="map" />
+          {species.mapAttribution && <small className="species-map-attribution">{species.mapAttribution}</small>}
+        </IonCardContent>
+      )}
     </IonContent>
   );
 };

@@ -7,7 +7,6 @@
     "order": "Ericnaceomorpha",
     "family": "Erinaceidae",
     "description": "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -28,7 +27,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "hedgehog",
+    "map": "1024px-Atelerix_algirus_range_Map.png",
+    "mapAttribution": "By Carlosblh - Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7890917"
   },
   {
     "id": 2,
@@ -38,7 +40,6 @@
     "order": "Ericnaceomorpha",
     "family": "Erinaceidae",
     "description": "Largest species of hedgehog and mostly brown in colour",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -59,7 +60,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "hedgehog",
+    "map": "European_Hedgehog_area2.png",
+    "mapAttribution": "By Chermundy - Wikimedia Commons, CC BY-SA 3.0"
   },
   {
     "id": 3,
@@ -69,7 +73,6 @@
     "order": "Ericnaceomorpha",
     "family": "Erinaceidae",
     "description": "Similar to Western hedgehog but identifiable by a white spot on its chest",
-    
     "HR": 1,
     "DE": 1,
     "PL": 0,
@@ -90,7 +93,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "hedgehog",
+    "map": "1024px-Range_Erinaceus_concolor_and_Erinaceus_roumanicus.png",
+    "mapAttribution": "By User:Rbrausse - used File:WorldMap 0-0-90-90.png, ranges are based on http://www.iucnredlist.org/apps/redlist/details/40605/0 and http://www.iucnredlist.org/apps/redlist/details/136344/0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9785749"
   },
   {
     "id": 4,
@@ -100,7 +106,6 @@
     "order": "Lagomorpha",
     "family": "Leporiadae",
     "description": "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -121,7 +126,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "lagomorph",
+    "map": "1920px-Oryctolagus_cuniculus_distribution_Map.png",
+    "mapAttribution": ""
   },
   {
     "id": 5,
@@ -131,7 +139,6 @@
     "order": "Lagomorpha",
     "family": "Leporiadae",
     "description": "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -152,7 +159,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "lagomorph",
+    "map": "Lepus_castroviejoi_range_Map.png",
+    "mapAttribution": ""
   },
   {
     "id": 6,
@@ -162,7 +172,6 @@
     "order": "Lagomorpha",
     "family": "Leporiadae",
     "description": "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -183,7 +192,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "lagomorph",
+    "map": "European_Hare_area.png",
+    "mapAttribution": ""
   },
   {
     "id": 7,
@@ -193,7 +205,6 @@
     "order": "Lagomorpha",
     "family": "Leporiadae",
     "description": "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares",
-    
     "HR": 0,
     "DE": 1,
     "PL": 1,
@@ -214,7 +225,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "lagomorph",
+    "map": "Mountain_Hare_area.png",
+    "mapAttribution": ""
   },
   {
     "id": 8,
@@ -224,7 +238,6 @@
     "order": "Lagomorpha",
     "family": "Leporiadae",
     "description": "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -245,7 +258,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "lagomorph",
+    "map": "Lepus_granatensis_range_Map.png",
+    "mapAttribution": ""
   },
   {
     "id": 9,
@@ -255,7 +271,6 @@
     "order": "Rodentia",
     "family": "Sciuridae",
     "description": "Red-brown coat and pale underbelly with a bushy tail, large ear tufts",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -276,7 +291,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Sciuromorph",
+    "map": "Sciurus_vulgaris_habitat.png",
+    "mapAttribution": ""
   },
   {
     "id": 10,
@@ -286,7 +304,6 @@
     "order": "Rodentia",
     "family": "Sciuridae",
     "description": "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -307,7 +324,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Sciuromorph",
+    "map": "800px-Atlantoxerus_getulus_range_map.png",
+    "mapAttribution": ""
   },
   {
     "id": 11,
@@ -317,7 +337,6 @@
     "order": "Rodentia",
     "family": "Sciuridae",
     "description": "Relatively small with dark-brown fur, white spots on its back and a short, thin tail",
-    
     "HR": 0,
     "DE": 0,
     "PL": 1,
@@ -338,7 +357,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Sciuromorph",
+    "map": "SpermophilusSuslicusIUCNver2018_2.png",
+    "mapAttribution": ""
   },
   {
     "id": 12,
@@ -348,7 +370,6 @@
     "order": "Rodentia",
     "family": "Sciuridae",
     "description": "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip",
-    
     "HR": 0,
     "DE": 1,
     "PL": 1,
@@ -369,7 +390,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Sciuromorph",
+    "map": "Mapa_Marmota_marmota.png",
+    "mapAttribution": ""
   },
   {
     "id": 13,
@@ -379,7 +403,6 @@
     "order": "Rodentia",
     "family": "Castoridae",
     "description": "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -400,7 +423,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "rodent",
+    "map": "Biber_in_Europa_2003.jpg",
+    "mapAttribution": ""
   },
   {
     "id": 14,
@@ -410,7 +436,6 @@
     "order": "Rodentia",
     "family": "Myocastoridae",
     "description": "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -431,7 +456,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "rodent",
+    "map": "Mapa_Myocastor_coypus.png",
+    "mapAttribution": "By Czech Wikipedia user Packa - Praca własna made from File:Europe biogeography blank.svg (by Júlio Reis). Data from Mammal Species of the World, 3rd edition online. Bucknell Univesity, [cit. 2010-03-21]. Page Apodemus uralensis. Revised, see Description., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9796499"
   },
   {
     "id": 15,
@@ -441,7 +469,6 @@
     "order": "Carnivora",
     "family": "Canidae",
     "description": "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks.",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -462,7 +489,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Raccoon_Dog_area.png",
+    "mapAttribution": "by Maphobbyist"
   },
   {
     "id": 16,
@@ -472,7 +502,6 @@
     "order": "Carnivora",
     "family": "Ursidae",
     "description": "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck",
-    
     "HR": 1,
     "DE": 0,
     "PL": 1,
@@ -493,7 +522,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 1
+    "xxl": 1,
+    "grouping": "Carnivorous",
+    "map": "1920px-Ursus_arctos_range_map.svg.png",
+    "mapAttribution": "by Maphobbyist"
   },
   {
     "id": 17,
@@ -503,7 +535,6 @@
     "order": "Carnivora",
     "family": "Canidae",
     "description": "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs.",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -524,7 +555,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Grey_wolf_distribution_with_subdivisions.png",
+    "mapAttribution": "By Carlosblh - Commons, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7523347"
   },
   {
     "id": 18,
@@ -534,7 +568,6 @@
     "order": "Carnivora",
     "family": "Canidae",
     "description": "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -555,7 +588,10 @@
     "m": 0,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Canis_aureus_distribution_map.png",
+    "mapAttribution": "De Internet Archive Book Images - https://www.flickr.com/photos/internetarchivebookimages/20384923722/Source book page: https://archive.org/stream/bonnerzoo394019881989zool/#page/n251/mode/1up, No restrictions, https://commons.wikimedia.org/w/index.php?curid=43917402"
   },
   {
     "id": 19,
@@ -565,7 +601,6 @@
     "order": "Carnivora",
     "family": "Canidae",
     "description": "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -586,7 +621,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Wiki-Vulpes_vulpes.png",
+    "mapAttribution": "De U. Schröter - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12138926"
   },
   {
     "id": 20,
@@ -596,7 +634,6 @@
     "order": "Carnivora",
     "family": "Mustelidae",
     "description": "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -617,7 +654,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "European_Otter_distribution.png",
+    "mapAttribution": ""
   },
   {
     "id": 21,
@@ -627,7 +667,6 @@
     "order": "Carnivora",
     "family": "Mustelidae",
     "description": "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -648,7 +687,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "European_Badger_area.png",
+    "mapAttribution": "De Jrockley - based upon Image:Leefgebied bruine rat.jpg and Image:BlankMap-World-noborders.png, Dominio público, https://commons.wikimedia.org/w/index.php?curid=2241348"
   },
   {
     "id": 22,
@@ -658,7 +700,6 @@
     "order": "Carnivora",
     "family": "Herpestidae",
     "description": "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -679,7 +720,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Egyptian_Mongoose_area.png",
+    "mapAttribution": "By Mariomassone - Own work, [1], Public Domain, https://commons.wikimedia.org/w/index.php?curid=67537150"
   },
   {
     "id": 23,
@@ -689,7 +733,6 @@
     "order": "Carnivora",
     "family": "Herpestidae",
     "description": "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail",
-    
     "HR": 1,
     "DE": 0,
     "PL": 0,
@@ -710,7 +753,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Small_Asian_Mongoose_area.png",
+    "mapAttribution": "By Jonathan Hornung - Own work - based on map information from the IUCN Red List of threatened species - Canis aureus: http://maps.iucnredlist.org/map.html?id=3744, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=225854"
   },
   {
     "id": 24,
@@ -720,7 +766,6 @@
     "order": "Carnivora",
     "family": "Viverridae",
     "description": "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -741,7 +786,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Common_Genet_area.png",
+    "mapAttribution": "By Zoologist - Own work, based on: IUCN Red List http://www.iucnredlist.org/details/23062/0 (published in 2008) and http://www.canids.org/species/Red_fox.pdf (from Canids: Foxes, Wolves, Jackals and Dogs - 2004 Status Survey and Conservation Action Plan, published in 2004), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5992675"
   },
   {
     "id": 25,
@@ -751,7 +799,6 @@
     "order": "Carnivora",
     "family": "Felidae",
     "description": "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -772,7 +819,10 @@
     "m": 1,
     "l": 0,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Wild_Cat_Felis_silvestris_distribution_in_Europe_map.png",
+    "mapAttribution": "De me - File:Leefgebied otter.jpg (with Britain added as is stated in article), Dominio público, https://commons.wikimedia.org/w/index.php?curid=8745834"
   },
   {
     "id": 26,
@@ -782,7 +832,6 @@
     "order": "Carnivora",
     "family": "Felidae",
     "description": "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -803,7 +852,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "EuropeanLynx_distribution2015.jpg",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189716"
   },
   {
     "id": 27,
@@ -813,7 +865,6 @@
     "order": "Carnivora",
     "family": "Felidae",
     "description": "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers.",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -834,7 +885,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "IberianLynx_distribution2015.jpg",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12190179"
   },
   {
     "id": 28,
@@ -844,7 +898,6 @@
     "order": "Artiodactyla",
     "family": "Ursidae",
     "description": "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -865,7 +918,10 @@
     "m": 1,
     "l": 1,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Suidos",
+    "map": "1920px-Sus_scrofa_range_map.jpg",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12190170"
   },
   {
     "id": 29,
@@ -875,7 +931,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns",
-    
     "HR": 0,
     "DE": 0,
     "PL": 1,
@@ -896,7 +951,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 1
+    "xxl": 1,
+    "grouping": "Bovidae",
+    "map": "1280px-Bison_bonasus_distribution.svg.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189720"
   },
   {
     "id": 30,
@@ -906,7 +964,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns",
-    
     "HR": 1,
     "DE": 1,
     "PL": 0,
@@ -927,7 +984,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Bovidae",
+    "map": "1024px-Mapa_distribuci%C3%B3n_mufl%C3%B3n_%28Ovis_musimon%29.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189772"
   },
   {
     "id": 31,
@@ -937,7 +997,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns",
-    
     "HR": 0,
     "DE": 1,
     "PL": 0,
@@ -958,7 +1017,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Bovidae",
+    "map": "Leefgebied_alpensteenbok.jpg",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11982469"
   },
   {
     "id": 32,
@@ -968,7 +1030,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Brown coat with short legs and large hooves; males have large, curved horns",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -989,7 +1050,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Bovidae",
+    "map": "Capra_pyrenaica_range_Map.png",
+    "mapAttribution": "By Osado - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9435961"
   },
   {
     "id": 33,
@@ -999,7 +1063,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -1020,7 +1083,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Bovidae",
+    "map": "1024px-Rupicapra_range.jpg",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189568"
   },
   {
     "id": 34,
@@ -1030,7 +1096,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns",
-    
     "HR": 0,
     "DE": 0,
     "PL": 0,
@@ -1051,7 +1116,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": ""
+    "xxl": "",
+    "grouping": "Bovidae",
+    "map": "Rupicapra_pyrenaica_range_Map.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189727"
   },
   {
     "id": 35,
@@ -1061,7 +1129,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -1082,7 +1149,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 1
+    "xxl": 1,
+    "grouping": "Ungulates",
+    "map": "Red_deer_%28Cervus_elaphus%29_reconstructed_and_recent.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12272357"
   },
   {
     "id": 36,
@@ -1092,7 +1162,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Typically chestnut coat with white markings but may also be fully white or black, males have antlers",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -1113,7 +1182,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Ungulates",
+    "map": "Dama_dama_map.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12272360"
   },
   {
     "id": 37,
@@ -1123,7 +1195,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin",
-    
     "HR": 0,
     "DE": 0,
     "PL": 1,
@@ -1144,7 +1215,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 1
+    "xxl": 1,
+    "grouping": "Ungulates",
+    "map": "Moose_distribution.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12267399"
   },
   {
     "id": 38,
@@ -1154,7 +1228,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -1175,7 +1248,10 @@
     "m": 0,
     "l": 1,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Ungulates",
+    "map": "Capreolus-capreolus-map.png",
+    "mapAttribution": "By The author of the workand the IUCN Red List spatial data, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=42879396"
   },
   {
     "id": 39,
@@ -1185,7 +1261,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps",
-    
     "HR": 0,
     "DE": 1,
     "PL": 1,
@@ -1206,7 +1281,10 @@
     "m": 0,
     "l": 1,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Ungulates",
+    "map": "",
+    "mapAttribution": ""
   },
   {
     "id": 40,
@@ -1216,7 +1294,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers",
-    
     "HR": 1,
     "DE": 0,
     "PL": 0,
@@ -1237,7 +1314,10 @@
     "m": 0,
     "l": 0,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Ungulates",
+    "map": "",
+    "mapAttribution": ""
   },
   {
     "id": 41,
@@ -1247,7 +1327,6 @@
     "order": "Artiodactyla",
     "family": "Cervidae",
     "description": "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs",
-    
     "HR": 1,
     "DE": 0,
     "PL": 0,
@@ -1268,7 +1347,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Ungulates",
+    "map": "",
+    "mapAttribution": ""
   },
   {
     "id": 42,
@@ -1278,7 +1360,6 @@
     "order": "Carnivora",
     "family": "Procyonidae",
     "description": "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face",
-    
     "HR": 1,
     "DE": 1,
     "PL": 1,
@@ -1299,7 +1380,10 @@
     "m": 1,
     "l": 1,
     "xl": 0,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Carnivorous",
+    "map": "Raccoon-range.png",
+    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11982327"
   },
   {
     "id": 43,
@@ -1309,7 +1393,6 @@
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns",
-    
     "HR": 1,
     "DE": 0,
     "PL": 0,
@@ -1330,6 +1413,9 @@
     "m": 0,
     "l": 1,
     "xl": 1,
-    "xxl": 0
+    "xxl": 0,
+    "grouping": "Bovidae",
+    "map": "Mapa_Ammotragus_lervia.png",
+    "mapAttribution": "De Fobos92 - http://www.karpinabentura.com/es/parque/mapa/animalia/muflon.html, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=9226606"
   }
 ]
