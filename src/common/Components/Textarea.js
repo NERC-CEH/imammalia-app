@@ -13,7 +13,7 @@ class Component extends React.Component {
 
   onChange = val => {
     this.setState({ value: val });
-    const value = StringHelp.escape(val);
+    const value = val && StringHelp.escape(val);
     this.props.onChange(value);
   };
 

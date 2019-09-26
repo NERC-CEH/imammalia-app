@@ -131,17 +131,25 @@ const CONFIG = {
         type: {
           label: 'Type',
           type: 'radio',
+          info: 'Please specify the condition of the mammal.',
           id: -1,
           values: {
             Alive: -1,
-            Dead: -1,
-            'Indirect (specify in Comment)': -1,
+            'Dead - roadkill': -1,
+            'Dead - other': -1,
+            Indirect: {
+              'Print/trail': -1,
+              Dropping: -1,
+              'Den/burrow': -1,
+              'Other (specify in Comment)': -1,
+            },
           },
         },
 
         method: {
           label: 'Method',
           type: 'radio',
+          info: 'Please specify how has this mammal been observed.',
           id: -1,
           values: {
             'Direct observation': -1,
