@@ -449,7 +449,7 @@ msgstr ""
 
 msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
-"eyes and ears and a flattened, scaly tail "
+"eyes and ears and a flattened, scaly tail"
 msgstr ""
 
 msgid ""
@@ -804,4 +804,157 @@ msgid "Language"
 msgstr ""
 
 msgid "Country"
+msgstr ""
+
+msgid "Elsewhere"
+msgstr ""
+
+msgid "river"
+msgstr ""
+
+msgid "forest"
+msgstr ""
+
+msgid "shrubs"
+msgstr ""
+
+msgid "prairies"
+msgstr ""
+
+msgid "farmlands"
+msgstr ""
+
+msgid "alpine"
+msgstr ""
+
+msgid "aquatic"
+msgstr ""
+
+msgid "underground"
+msgstr ""
+
+msgid "tree"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Habitats"
+msgstr ""
+
+msgid "Mouse-rat"
+msgstr ""
+
+msgid "Hedgehog-squirrel"
+msgstr ""
+
+msgid "Rabbit-hare"
+msgstr ""
+
+msgid "Cats-medium size canivorous"
+msgstr ""
+
+msgid "Dog-Wildboar"
+msgstr ""
+
+msgid "Goat-Deers"
+msgstr ""
+
+msgid "Cow-Bison"
+msgstr ""
+
+msgid "Filter Species"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Select species"
+msgstr ""
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+
+msgid "Location Accurracy"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "How many individuals of this type?"
+msgstr ""
+
+msgid "Direct observation"
+msgstr ""
+
+msgid "Camera trap"
+msgstr ""
+
+msgid "Catch"
+msgstr ""
+
+msgid "Road kill"
+msgstr ""
+
+msgid "Field carcass"
+msgstr ""
+
+msgid "Telemetry"
+msgstr ""
+
+msgid "Other (specify in Comment)"
+msgstr ""
+
+msgid "Please specify how has this mammal been observed."
+msgstr ""
+
+msgid "Alive"
+msgstr ""
+
+msgid "Dead - roadkill"
+msgstr ""
+
+msgid "Dead - other"
+msgstr ""
+
+msgid "Indirect"
+msgstr ""
+
+msgid "Print/trail"
+msgstr ""
+
+msgid "Dropping"
+msgstr ""
+
+msgid "Den/burrow"
+msgstr ""
+
+msgid "Please specify the condition of the mammal."
+msgstr ""
+
+msgid "Please add any extra info about this record."
+msgstr ""
+
+msgid "Enter more information here..."
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "species"
 msgstr ""

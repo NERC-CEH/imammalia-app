@@ -426,8 +426,8 @@ msgstr "Relatively small with dark-brown fur, white spots on its back and a shor
 msgid "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
 msgstr "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
 
-msgid "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail "
-msgstr "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail "
+msgid "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
+msgstr "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
 
 msgid "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
 msgstr "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
@@ -665,3 +665,156 @@ msgstr "Language"
 
 msgid "Country"
 msgstr "Country"
+
+msgid "Elsewhere"
+msgstr "Elsewhere"
+
+msgid "river"
+msgstr "river"
+
+msgid "forest"
+msgstr "forest"
+
+msgid "shrubs"
+msgstr "shrubs"
+
+msgid "prairies"
+msgstr "prairies"
+
+msgid "farmlands"
+msgstr "farmlands"
+
+msgid "alpine"
+msgstr "alpine"
+
+msgid "aquatic"
+msgstr "aquatic"
+
+msgid "underground"
+msgstr "underground"
+
+msgid "tree"
+msgstr "tree"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Habitats"
+msgstr "Habitats"
+
+msgid "Mouse-rat"
+msgstr "Mouse-rat"
+
+msgid "Hedgehog-squirrel"
+msgstr "Hedgehog-squirrel"
+
+msgid "Rabbit-hare"
+msgstr "Rabbit-hare"
+
+msgid "Cats-medium size canivorous"
+msgstr "Cats-medium size canivorous"
+
+msgid "Dog-Wildboar"
+msgstr "Dog-Wildboar"
+
+msgid "Goat-Deers"
+msgstr "Goat-Deers"
+
+msgid "Cow-Bison"
+msgstr "Cow-Bison"
+
+msgid "Filter Species"
+msgstr "Filter Species"
+
+msgid "undefined"
+msgstr "undefined"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Today"
+msgstr "Today"
+
+msgid "Number"
+msgstr "Number"
+
+msgid "Method"
+msgstr "Method"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Select species"
+msgstr "Select species"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr "Please use the GPS or tap on the map to select your location"
+
+msgid "Location Accurracy"
+msgstr "Location Accurracy"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "How many individuals of this type?"
+msgstr "How many individuals of this type?"
+
+msgid "Direct observation"
+msgstr "Direct observation"
+
+msgid "Camera trap"
+msgstr "Camera trap"
+
+msgid "Catch"
+msgstr "Catch"
+
+msgid "Road kill"
+msgstr "Road kill"
+
+msgid "Field carcass"
+msgstr "Field carcass"
+
+msgid "Telemetry"
+msgstr "Telemetry"
+
+msgid "Other (specify in Comment)"
+msgstr "Other (specify in Comment)"
+
+msgid "Please specify how has this mammal been observed."
+msgstr "Please specify how has this mammal been observed."
+
+msgid "Alive"
+msgstr "Alive"
+
+msgid "Dead - roadkill"
+msgstr "Dead - roadkill"
+
+msgid "Dead - other"
+msgstr "Dead - other"
+
+msgid "Indirect"
+msgstr "Indirect"
+
+msgid "Print/trail"
+msgstr "Print/trail"
+
+msgid "Dropping"
+msgstr "Dropping"
+
+msgid "Den/burrow"
+msgstr "Den/burrow"
+
+msgid "Please specify the condition of the mammal."
+msgstr "Please specify the condition of the mammal."
+
+msgid "Please add any extra info about this record."
+msgstr "Please add any extra info about this record."
+
+msgid "Enter more information here..."
+msgstr "Enter more information here..."
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "species"
+msgstr "species"
