@@ -27,7 +27,7 @@ import "./EuropeanLynx_distribution2015.jpg";
 import "./IberianLynx_distribution2015.jpg";
 import "./1920px-Sus_scrofa_range_map.jpg";
 import "./1280px-Bison_bonasus_distribution.svg.png";
-import "./1024px-Mapa_distribución_muflón_(Ovis_musimon).png";
+import "./1024px-Ovis_musimon.png";
 import "./Leefgebied_alpensteenbok.jpg";
 import "./Capra_pyrenaica_range_Map.png";
 import "./1024px-Rupicapra_range.jpg";
