@@ -21,7 +21,7 @@ import { observer } from 'mobx-react';
 L.Icon.Default.imagePath =
   '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/images/';
 
-const DEFAULT_POSITION = [51.505, -0.09];
+const DEFAULT_POSITION = [47.946, 8.536];
 const DEFAULT_ZOOM = 5;
 const DEFAULT_LOCATED_ZOOM = 18;
 
