@@ -113,7 +113,7 @@ class Component extends React.Component {
   getSpecies = () => {
     const { appModel, onSpeciesClick } = this.props;
     const country = appModel.get('country');
-    
+
     const isRecordingMode = !!onSpeciesClick;
     const allSpecies = isRecordingMode
       ? [...species, ...speciesGroups]
@@ -140,7 +140,11 @@ class Component extends React.Component {
             className={`species-list-item ${group ? 'group' : ''}`}
             onClick={onClick}
           >
-            <span className="label">{t(english)}</span>
+            <span className="label">
+              {`${t(english)} ${
+                group ? t('(unknown species)') : ''
+              }`}
+            </span>
           </IonItem>
         );
       }

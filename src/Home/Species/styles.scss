@@ -19,13 +19,12 @@
     width: 105%;
 
     &.group {
-      --background: var(--ion-color-primary-shade);
+      --background: var(--ion-color-dark-tint);
       margin-top: 5px;
 
       .label {
         height: 100%;
         background: none;
-        text-transform: uppercase;
       }
     }
 
