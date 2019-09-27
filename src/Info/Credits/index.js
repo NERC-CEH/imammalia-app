@@ -14,23 +14,41 @@ export default () => (
     <AppHeader title={t('Credits')} />
     <IonContent id="credits" class="ion-padding">
       <IonList lines="none">
-        <IonListHeader color="light" mode="ios">
+        <IonItem>
+          <IonLabel>
+            {t('This App was produced through MammalNet and funded by EFSA.')}
+          </IonLabel>
+        </IonItem>
+        <IonItem>
           <IonLabel>
             {t(
               'We are very grateful for all the people that helped to create this app:'
             )}
           </IonLabel>
-        </IonListHeader>
+        </IonItem>
         <IonItem>
-          <p>
-            <b>TODO</b>
-          </p>
+          <ul>
+            <li>
+              <a href="https://www.ceh.ac.uk/staff/david-roy">
+                <b>David Roy</b>
+                {' '}
+(the Centre for Ecology & Hydrology)
+              </a>
+            </li>
+            <li>
+              <a href="https://flumens.io">
+                <b>Karolis Kazlauskis</b>
+                {' '}
+(App developer)
+              </a>
+            </li>
+          </ul>
         </IonItem>
       </IonList>
 
       <IonList>
         <IonItem>
-          <div>
+          <small>
             Icons made by
             {' '}
             <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
@@ -42,7 +60,7 @@ export default () => (
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
             </a>
-          </div>
+          </small>
         </IonItem>
       </IonList>
     </IonContent>
