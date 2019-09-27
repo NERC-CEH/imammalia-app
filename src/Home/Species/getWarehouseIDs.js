@@ -1,3 +1,4 @@
+/* eslint-disable */
 const request = require('request');
 const species = require('./species.data.json');
 
