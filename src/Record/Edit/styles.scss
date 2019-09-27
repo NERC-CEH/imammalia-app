@@ -3,6 +3,14 @@
     margin-bottom: 0;
   }
 
+  .record-location span {
+    float: right;
+
+    &.record-location-accuracy {
+      font-size: 10px;
+    }
+  }
+
   #countdown span {
     width: 50px;
     display: inline-block;

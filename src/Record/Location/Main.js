@@ -32,7 +32,9 @@ class LocationAttr extends Component {
   static propTypes = {
     isGPSTracking: PropTypes.bool.isRequired,
     setLocation: PropTypes.func.isRequired,
+    setLocationAccurracy: PropTypes.func.isRequired,
     location: PropTypes.object,
+    accurracy: PropTypes.string,
   };
 
   state = {
@@ -138,10 +140,11 @@ class LocationAttr extends Component {
       <IonItem>
         <IonLabel>{t('Location Accurracy')}</IonLabel>
         <IonSelect
-          value="accurracy"
+          value={this.props.accurracy}
           okText={t('OK')}
           cancelText={t('Close')}
           ref={this.selectRef}
+          onIonChange={this.props.setLocationAccurracy}
         >
           <IonSelectOption value="0-10m">0-10m</IonSelectOption>
           <IonSelectOption value="10-50m">10-50m</IonSelectOption>

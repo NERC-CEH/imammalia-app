@@ -23,7 +23,7 @@ class Record extends Component {
     const occ = sample.occurrences.at(0);
     const { location, date } = sample.attributes;
     const { taxon, method, type, comment } = occ.attributes;
-    const species = t(taxon.english);
+    const species = taxon.english && t(taxon.english);
 
     const prettyNumber =
       occ.attributes.number || occ.attributes['number-ranges'];
@@ -33,6 +33,9 @@ class Record extends Component {
       const { latitude, longitude } = location;
       prettyLocation = `${latitude.toFixed(3)}, ${longitude.toFixed(3)}`;
     }
+
+    const locationAccuracy = sample.get('manual_location_accuracy');
+
     return (
       <IonContent id="record-edit">
         <IonList lines="full">
@@ -41,10 +44,21 @@ class Record extends Component {
             <IonLabel>{t('Species')}</IonLabel>
             <IonLabel slot="end">{species}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/location`} detail>
+          <IonItem
+            class="record-location"
+            href={`/record/${sample.cid}/edit/location`}
+            detail
+          >
             <IonIcon icon={map} slot="start" />
             <IonLabel>{t('Location')}</IonLabel>
-            <IonLabel slot="end">{prettyLocation}</IonLabel>
+            <IonLabel slot="end">
+              <span>{prettyLocation}</span>
+              {locationAccuracy && (
+                <span className="record-location-accuracy">
+                  {locationAccuracy}
+                </span>
+              )}
+            </IonLabel>
           </IonItem>
           <IonItem href={`/record/${sample.cid}/edit/date`} detail>
             <IonIcon icon={calendar} slot="start" />

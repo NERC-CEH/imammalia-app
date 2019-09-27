@@ -27,12 +27,21 @@ class Container extends React.Component {
     sample.setLocation(location);
   };
 
+  setLocationAccurracy = acc => {
+    const { match, savedSamples } = this.props;
+    const sample = savedSamples.get(match.params.id);
+
+    sample.set('manual_location_accuracy', acc.detail.value);
+    sample.save();
+  };
+
   render() {
     const { match, savedSamples } = this.props;
 
     const sample = savedSamples.get(match.params.id);
 
     const location = sample.get('location');
+    const accurracy = sample.get('manual_location_accuracy');
     const isGPSTracking = sample.isGPSRunning();
 
     return (
@@ -44,7 +53,9 @@ class Container extends React.Component {
         <Main
           isGPSTracking={isGPSTracking}
           location={location}
+          accurracy={accurracy}
           setLocation={this.setLocation}
+          setLocationAccurracy={this.setLocationAccurracy}
         />
       </>
     );

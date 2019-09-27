@@ -18,6 +18,7 @@ export default Indicia.Occurrence.extend({
       method: null,
       type: null,
       number: null,
+      'number-ranges': null,
       taxon: {
         scientific_name: null,
         warehouse_id: null,

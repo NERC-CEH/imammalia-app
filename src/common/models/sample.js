@@ -70,6 +70,7 @@ let Sample = Indicia.Sample.extend({
     return {
       entered_sref_system: 4326, // lat long
       location: null,
+      manual_location_accuracy: null,
     };
   },
 
