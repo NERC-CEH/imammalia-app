@@ -59,8 +59,8 @@ const CONFIG = {
   indicia: {
     host: HOST,
     api_key: process.env.APP_INDICIA_API_KEY,
-    website_id: -1,
-    id: -1,
+    website_id: 122,
+    id: 571,
     webForm: 'enter-app-record',
     attrs: {
       smp: {
@@ -81,15 +81,15 @@ const CONFIG = {
         device_version: { id: 759 },
         app_version: { id: 1139 },
 
-        manual_location_accurracy: {
-          id: -1,
+        manual_location_accuracy: {
+          id: 1446,
           values: {
-            '0-10m': -1,
-            '10-50m': -1,
-            '50-100m': -1,
-            '100m-1km': -1,
-            '>1km': -1,
-            NA: -1,
+            '0-10m': 17450,
+            '10-50m': 17451,
+            '50-100m': 17452,
+            '100m-1km': 17453,
+            '>1km': 17454,
+            NA: 17455,
           },
         },
 
@@ -114,16 +114,20 @@ const CONFIG = {
         },
 
         number: {
+          id: 16,
+        },
+
+        'number-ranges': {
           label: 'Number',
           type: 'radio',
-          id: -1,
+          id: 320,
           values: {
-            1: -1,
-            '2-5': -1,
-            '6-9': -1,
-            '10-19': -1,
-            '20-49': -1,
-            '50+': -1,
+            1: 3808,
+            '2-5': 3809,
+            '6-9': 38010,
+            '10-19': 3811,
+            '20-49': 3812,
+            '50+': 3813,
           },
         },
 
@@ -131,16 +135,16 @@ const CONFIG = {
           label: 'Type',
           type: 'radio',
           info: 'Please specify the condition of the mammal.',
-          id: -1,
+          id: 800,
           values: {
-            Alive: -1,
-            'Dead - roadkill': -1,
-            'Dead - other': -1,
+            Alive: 17463,
+            'Dead - roadkill': 17464,
+            'Dead - other': 17465,
             Indirect: {
-              'Print/trail': -1,
-              Dropping: -1,
-              'Den/burrow': -1,
-              'Other (specify in Comment)': -1,
+              'Print/trail': 17466,
+              Dropping: 17467,
+              'Den/burrow': 17468,
+              'Other (specify in Comment)': 17469,
             },
           },
         },
@@ -149,15 +153,15 @@ const CONFIG = {
           label: 'Method',
           type: 'radio',
           info: 'Please specify how has this mammal been observed.',
-          id: -1,
+          id: 799,
           values: {
-            'Direct observation': -1,
-            'Camera trap': -1,
-            Catch: -1,
-            'Road kill': -1,
-            'Field carcass': -1,
-            Telemetry: -1,
-            'Other (specify in Comment)': -1,
+            'Direct observation': 17456,
+            'Camera trap': 17457,
+            Catch: 17458,
+            'Road kill': 17459,
+            'Field carcass': 17460,
+            Telemetry: 17461,
+            'Other (specify in Comment)': 17462,
           },
         },
 
