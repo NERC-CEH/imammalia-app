@@ -12,6 +12,7 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 import { IonApp, IonPage, IonReactRouter, IonRouterOutlet } from '@ionic/react';
 import appModel from 'app_model';
 import userModel from 'user_model';
+import config from 'config';
 import savedSamples from 'saved_samples';
 import LanguageCountrySelectRequired from 'common/Components/LanguageCountrySelectRequired';
 import Menu from 'Settings/Menu';
@@ -22,6 +23,7 @@ import Login from './User/Login';
 import Register from './User/Register';
 import Reset from './User/Reset';
 import InfoMenu from './Info/Menu';
+import About from './Info/About';
 import Credits from './Info/Credits';
 import Record from './Record';
 import SplashScreenRequired from './Info/SplashScreenRequired';
@@ -65,6 +67,12 @@ const App = () => (
                       savedSamples={savedSamples}
                       {...props}
                     />
+                  )}
+                />
+                <Route
+                  path="/info/about"
+                  render={() => (
+                    <About version={config.version} build={config.build} />
                   )}
                 />
                 <Route path="/info/credits" component={Credits} />

@@ -8,7 +8,15 @@ import {
   IonItem,
   IonItemDivider,
 } from '@ionic/react';
-import { settings, exit, person, personAdd, lock, heart } from 'ionicons/icons';
+import {
+  settings,
+  exit,
+  person,
+  personAdd,
+  lock,
+  heart,
+  informationCircleOutline,
+} from 'ionicons/icons';
 import './styles.scss';
 
 const Component = observer(({ isLoggedIn, user, logOut }) => {
@@ -40,12 +48,17 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
           </IonItem>
         )}
 
-        <IonItemDivider>{t('Settings')}</IonItemDivider>
-        <IonItem href="/settings/menu" detail>
-          <IonIcon icon={settings} size="small" slot="start" />
-          {t('App')}
-        </IonItem>
         <IonItemDivider>{t('Info')}</IonItemDivider>
+        <IonItem href="/info/about" detail>
+          <IonIcon icon={informationCircleOutline} size="small" slot="start" />
+          {t('About')}
+        </IonItem>
+
+        <IonItem href="/info/credits" detail>
+          <IonIcon icon={heart} size="small" slot="start" />
+          {t('Credits')}
+        </IonItem>
+
         <IonItem
           href="https://www.european-mammals.brc.ac.uk/privacy-notice"
           target="_blank"
@@ -54,9 +67,11 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
           <IonIcon icon={lock} size="small" slot="start" />
           {t('Privacy Policy')}
         </IonItem>
-        <IonItem href="/info/credits" detail>
-          <IonIcon icon={heart} size="small" slot="start" />
-          {t('Credits')}
+
+        <IonItemDivider>{t('Settings')}</IonItemDivider>
+        <IonItem href="/settings/menu" detail>
+          <IonIcon icon={settings} size="small" slot="start" />
+          {t('App')}
         </IonItem>
       </IonList>
     </IonContent>
