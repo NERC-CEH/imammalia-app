@@ -3,7 +3,6 @@ import {
   IonContent,
   IonList,
   IonItem,
-  IonListHeader,
   IonLabel,
 } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
@@ -26,7 +25,7 @@ export default () => (
             )}
           </IonLabel>
         </IonItem>
-        <IonItem>
+        <ul>
           <ul>
             <li>
               <a href="https://www.ceh.ac.uk/staff/david-roy">
@@ -43,7 +42,7 @@ export default () => (
               </a>
             </li>
           </ul>
-        </IonItem>
+        </ul>
       </IonList>
 
       <IonList>
