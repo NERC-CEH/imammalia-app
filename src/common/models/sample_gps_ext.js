@@ -55,7 +55,10 @@ const extension = {
           return;
         }
 
-        updateSampleLocation(that, location);
+        updateSampleLocation(that, {
+          latitude: parseInt(location.latitude, 10),
+          longitude: parseInt(location.longitude, 10),
+        });
       },
     };
 
