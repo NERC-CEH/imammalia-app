@@ -68,7 +68,7 @@ class Component extends React.Component {
     if (this.attrName === 'number') {
       return (
         <NumberAttr
-          config={this.attrConfig}
+          config={config.indicia.attrs.occ['number-ranges']}
           rangesValue={this.occ.get('number-ranges')}
           sliderValue={this.state.currentVal}
           onChange={this.onNumberChange}

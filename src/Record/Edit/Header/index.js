@@ -4,16 +4,11 @@ import { IonButton } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
 import './styles.scss';
 
-function getFinishButton(onSubmit, isEditing) {
-  const label = isEditing ? t('Upload') : t('Finish');
-  return (
-    <IonButton onClick={onSubmit}>
-      {label}
-    </IonButton>
-  );
+function getFinishButton(onSubmit) {
+  return <IonButton onClick={onSubmit}>{t('Finish')}</IonButton>;
 }
 
-const Header = ({ onSubmit, isTraining, isEditing }) => {
+const Header = ({ onSubmit, isTraining }) => {
   const trainingModeSubheader = isTraining && (
     <div className="training-record">training record</div>
   );
@@ -21,7 +16,7 @@ const Header = ({ onSubmit, isTraining, isEditing }) => {
   return (
     <AppHeader
       title={t('Record')}
-      rightSlot={getFinishButton(onSubmit, isEditing)}
+      rightSlot={getFinishButton(onSubmit)}
       subheader={trainingModeSubheader}
     />
   );
@@ -30,7 +25,6 @@ const Header = ({ onSubmit, isTraining, isEditing }) => {
 Header.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   isTraining: PropTypes.bool.isRequired,
-  isEditing: PropTypes.bool,
 };
 
 export default Header;

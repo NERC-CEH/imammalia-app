@@ -181,7 +181,7 @@ class UserModel {
    * Returns user contact information.
    */
   hasLogIn() {
-    return !this.attrs.isLoggedIn; // TODO:
+    return this.attrs.isLoggedIn;
   }
 
   getUser() {

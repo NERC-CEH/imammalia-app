@@ -143,14 +143,8 @@ class Container extends React.Component {
 
     sample.toggleGPStracking(false);
 
-    if (sample.metadata.saved) {
-      sample.save(null, { remote: true });
-      history.replace(`/home/user-records`);
-      return;
-    }
-
     sample.metadata.saved = true;
-    sample.save();
+    sample.save(null, { remote: true });
     history.replace(`/home/user-records`);
   };
 
@@ -169,14 +163,9 @@ class Container extends React.Component {
     }
 
     const isTraining = this.state.sample.metadata.training;
-    const isEditing = this.state.sample.metadata.saved;
     return (
       <>
-        <Header
-          onSubmit={this.onSubmit}
-          isTraining={isTraining}
-          isEditing={isEditing}
-        />
+        <Header onSubmit={this.onSubmit} isTraining={isTraining} />
         <Main
           sample={this.state.sample}
           onSubmit={this.onSubmit}
