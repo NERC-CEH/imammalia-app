@@ -19,10 +19,13 @@ import {
 } from 'ionicons/icons';
 import config from 'config';
 import './styles.scss';
+import './logo.png';
 
 const Component = observer(({ isLoggedIn, user, logOut }) => {
   return (
     <IonContent class="app-menu">
+      <img src="/images/logo.png" alt="app logo" />
+
       <IonList lines="full">
         {isLoggedIn && (
           <IonItem detail id="logout-button" onClick={logOut}>
