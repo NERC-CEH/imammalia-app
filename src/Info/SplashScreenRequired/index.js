@@ -37,12 +37,20 @@ const SplashScreen = () => {
           {t('Next')}
         </IonButton>
         <div className="message">
-          <p>{t(`SOME INTRO TEXT`)}</p>
+          <p>
+            {t(`iMammalia is designed to make mammal recording easy. It holds a
+            species list for Spain, Germany, Poland and Croatia but does not
+            limit where you can record these animals.`)}
+          </p>
         </div>
       </IonSlide>
       <IonSlide class="fourth">
         <div className="message">
-          <p>{t(`SOME INTRO TEXT`)}</p>
+          <p>
+            {t(`Sightings can be recorded anywhere, with or without photos, and all
+            records will be verified by experts and made available to help with
+            mapping the distribution of European mammals.`)}
+          </p>
         </div>
         <IonButton color="primary" strong="true" onClick={exit}>
           {t('Get Started')}
