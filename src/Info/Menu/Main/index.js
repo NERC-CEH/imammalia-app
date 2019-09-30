@@ -17,6 +17,7 @@ import {
   heart,
   informationCircleOutline,
 } from 'ionicons/icons';
+import config from 'config';
 import './styles.scss';
 
 const Component = observer(({ isLoggedIn, user, logOut }) => {
@@ -60,7 +61,7 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         </IonItem>
 
         <IonItem
-          href="https://www.european-mammals.brc.ac.uk/privacy-notice"
+          href={`${config.site_url}/privacy-notice`}
           target="_blank"
           detail
         >
