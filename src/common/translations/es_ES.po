@@ -1,10 +1,11 @@
 # Translators:
 # Karolis, 2019
+# Jose A Blanco <joseantonio.blanco@uclm.es>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2019\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/ceh/teams/103078/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,140 +15,143 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 
 msgid "Select your country"
-msgstr ""
+msgstr "Seleccione su país"
 
 msgid "United Kingdom"
-msgstr ""
+msgstr "Reino Unido"
 
 msgid "Skip"
-msgstr ""
+msgstr "Salir"
 
 msgid "Next"
-msgstr ""
+msgstr "Próximo"
 
 msgid "Get Started"
-msgstr ""
+msgstr "Empezar"
 
 msgid "Please sign in with your account or register."
-msgstr ""
+msgstr "Por favor, inicie sesión o regístrese"
 
 msgid "Username or email"
-msgstr ""
+msgstr "Usuario o e-mail"
 
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 msgid "Sign in"
-msgstr ""
+msgstr "Inicie sesión"
 
 msgid "Register"
-msgstr ""
+msgstr "Registro"
 
 msgid "Forgot password?"
-msgstr ""
+msgstr "¿Olvidaste la contraseña?"
 
 msgid "Login"
-msgstr ""
+msgstr "Inicie sesión"
 
 msgid "Settings"
-msgstr ""
+msgstr "Ajustes"
 
 msgid "Info"
-msgstr ""
+msgstr "información"
 
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de Privacidad"
 
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 msgid "Surname"
-msgstr ""
+msgstr "Apellidos"
 
 msgid "I agree to"
-msgstr ""
+msgstr "Estoy de acuerdo en"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Términos u condiciones de uso"
 
 msgid "Enter your username or email address to request a password reset"
 msgstr ""
+"Indique su nombre de usuario o dirección de email para restablecer "
+"contraseña"
 
 msgid "Reset"
 msgstr ""
 
 msgid "Upload All"
-msgstr ""
+msgstr "Subir todo"
 
 msgid "Remove All Saved"
-msgstr ""
+msgstr "Eliminar todos los registros"
 
 msgid "Application"
-msgstr ""
+msgstr "Aplicación"
 
 msgid "Training Mode"
-msgstr ""
+msgstr "Modo de entrenamiento"
 
 msgid "Experimental Features"
 msgstr ""
 
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenido"
 
 msgid "Lets start!"
-msgstr ""
+msgstr "Empecemos!"
 
 msgid "Back"
-msgstr ""
+msgstr "Volver"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 msgid "App"
-msgstr ""
+msgstr "Aplicación"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
 msgstr ""
+"Estamos muy agradecidos a todas las personas que ayudaron a crear esta app"
 
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 msgid "Account"
-msgstr ""
+msgstr "Cuenta"
 
 msgid "Offline"
-msgstr ""
+msgstr "Desconectado"
 
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Lo sentimos, pero parece que ahora está desconectado"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Sorry"
-msgstr ""
+msgstr "Perdón"
 
 msgid "Please wait..."
-msgstr ""
+msgstr "Por favor, espere..."
 
 msgid "name is a required field"
-msgstr ""
+msgstr "recuerde introducir el nombre"
 
 msgid "password is a required field"
-msgstr ""
+msgstr "recuerde introducir la contraseña"
 
 msgid "Login error:"
 msgstr ""
@@ -156,126 +160,128 @@ msgid "Failed to fetch"
 msgstr ""
 
 msgid "Incorrect password or email."
-msgstr ""
+msgstr "La contraseña o el email son incorrectos"
 
 msgid "Logout"
 msgstr ""
 
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "¿Está seguro que quiere salir?"
 
 msgid "This will delete all the records on this device."
-msgstr ""
+msgstr "Así se borrarán todos los registros en su dispositivo"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 msgid "Welcome aboard!"
-msgstr ""
+msgstr "¡Bienvenido a bordo!"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
+"Antes de enviar un registro, por favor revise su correo electrónico y haga "
+"clic en el enlace de verificación. "
 
 msgid "OK, got it"
 msgstr ""
 
 msgid "email is a required field"
-msgstr ""
+msgstr "debe indicar el e-mail"
 
 msgid "firstname is a required field"
-msgstr ""
+msgstr "debe indicar su nombre"
 
 msgid "secondname is a required field"
-msgstr ""
+msgstr "debe indicar su/s apellido/s"
 
 msgid "must accept terms and conditions"
-msgstr ""
+msgstr "debe aceptar los téminos  y las condiciones"
 
 msgid "Species"
-msgstr ""
+msgstr "Especies"
 
 msgid "Count"
 msgstr ""
 
 msgid "Comment"
-msgstr ""
+msgstr "Comentarios"
 
 msgid "Draft"
-msgstr ""
+msgstr "Borradores"
 
 msgid "Previous record draft exists, would you like to continue it?"
 msgstr ""
 
 msgid "Discard"
-msgstr ""
+msgstr "Descartar"
 
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 msgid "Finish"
-msgstr ""
+msgstr "Terminar"
 
 msgid "No species added"
-msgstr ""
+msgstr "No se ha añadido ninguna especie"
 
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 msgid "Records"
-msgstr ""
+msgstr "Registros"
 
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "¿Está totalmente seguro que quiere eliminar este registro?"
 
 msgid "No finished records"
-msgstr ""
+msgstr "Registro no terminado"
 
 msgid "Finished records"
-msgstr ""
+msgstr "Registro terminado"
 
 msgid "Done"
-msgstr ""
+msgstr "Terminado"
 
 msgid "Record incomplete"
-msgstr ""
+msgstr "Registro incompleto"
 
 msgid "The record is not complete yet."
-msgstr ""
+msgstr "Este registro no está completo"
 
 msgid "Choose a method to upload a photo"
 msgstr ""
 
 msgid "Gallery"
-msgstr ""
+msgstr "Galería"
 
 msgid "Camera"
-msgstr ""
+msgstr "Cámara"
 
 msgid "Are you sure you want to remove this photo from the record?"
-msgstr ""
+msgstr "¿Está seguro que quiere eliminar esta foto en los registros?"
 
 msgid "Note: it will remain in the gallery."
 msgstr ""
 
 msgid "No photo has been added"
-msgstr ""
+msgstr "No se ha añadido ninguna foto"
 
 msgid "Registration error:"
-msgstr ""
+msgstr "Error de registro"
 
 msgid "Incorrect password or email"
-msgstr ""
+msgstr "Contraseña o email incorrectos"
 
 msgid "email is not valid"
-msgstr ""
+msgstr "el email no es correcto"
 
 msgid "Paused"
 msgstr ""
 
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 msgid "Uploaded"
 msgstr ""
@@ -825,7 +831,7 @@ msgid "Fallow deer"
 msgstr "Gamo"
 
 msgid "Elk"
-msgstr ""
+msgstr "Alce"
 
 msgid "Roe deer"
 msgstr "Corzo"
@@ -846,172 +852,173 @@ msgid "Barbary sheep"
 msgstr "Arrui"
 
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 msgid "Spain"
-msgstr ""
+msgstr "España"
 
 msgid "Croatia"
-msgstr ""
+msgstr "Croacia"
 
 msgid "Poland"
-msgstr ""
+msgstr "Polonia"
 
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 msgid "Elsewhere"
-msgstr ""
+msgstr "Todas las regiones"
 
 msgid "river"
-msgstr ""
+msgstr "río"
 
 msgid "forest"
-msgstr ""
+msgstr "Bosque"
 
 msgid "shrubs"
-msgstr ""
+msgstr "Matorral"
 
 msgid "prairies"
-msgstr ""
+msgstr "praderas"
 
 msgid "farmlands"
-msgstr ""
+msgstr "Cultivos"
 
 msgid "alpine"
-msgstr ""
+msgstr "alpino o montañoso"
 
 msgid "aquatic"
-msgstr ""
+msgstr "acuatico"
 
 msgid "underground"
-msgstr ""
+msgstr "bajo tierra"
 
 msgid "tree"
-msgstr ""
+msgstr "árbol"
 
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 msgid "Habitats"
-msgstr ""
+msgstr "Hábitats"
 
 msgid "Mouse-rat"
-msgstr ""
+msgstr "como un ratón o una rata"
 
 msgid "Hedgehog-squirrel"
-msgstr ""
+msgstr "como un erizo o ardilla"
 
 msgid "Rabbit-hare"
-msgstr ""
+msgstr "como una liebre o conejo"
 
 msgid "Cats-medium size canivorous"
-msgstr ""
+msgstr "como un gato o carnívoros de tamaño mediano"
 
 msgid "Dog-Wildboar"
-msgstr ""
+msgstr "como un perro o jabalí"
 
 msgid "Goat-Deers"
-msgstr ""
+msgstr "como las cabras o ciervos"
 
 msgid "Cow-Bison"
-msgstr ""
+msgstr "grande como una vaca o bisonte"
 
 msgid "Filter Species"
-msgstr ""
+msgstr "Filtre las especies por tamaño"
 
 msgid "undefined"
-msgstr ""
+msgstr "indefinido"
 
 msgid "Date"
-msgstr ""
+msgstr "Fecha"
 
 msgid "Today"
-msgstr ""
+msgstr "Hoy"
 
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 msgid "Select species"
-msgstr ""
+msgstr "Seleccione una especie"
 
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr ""
+"Por favor, use el GPS o indique en el mapa la localización de la observación"
 
 msgid "Location Accurracy"
-msgstr ""
+msgstr "Precisión de la localización"
 
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 msgid "How many individuals of this type?"
-msgstr ""
+msgstr "¿Cuántos animales viste de este tipo?"
 
 msgid "Direct observation"
-msgstr ""
+msgstr "Observación directa"
 
 msgid "Camera trap"
-msgstr ""
+msgstr "Cámara trampa"
 
 msgid "Catch"
-msgstr ""
+msgstr "Capturado o cazado"
 
 msgid "Road kill"
-msgstr ""
+msgstr "Accidente de tráfico"
 
 msgid "Field carcass"
-msgstr ""
+msgstr "Cadáver de animal"
 
 msgid "Telemetry"
-msgstr ""
+msgstr "Telemetría"
 
 msgid "Other (specify in Comment)"
-msgstr ""
+msgstr "Otros (detallar en Comentarios)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr ""
+msgstr "Especifique cómo ha sido observado este animal"
 
 msgid "Alive"
-msgstr ""
+msgstr "Vivo"
 
 msgid "Dead - roadkill"
-msgstr ""
+msgstr "Muerto en carretera"
 
 msgid "Dead - other"
-msgstr ""
+msgstr "Muerto por otras causas"
 
 msgid "Indirect"
-msgstr ""
+msgstr "Indicios indirectos"
 
 msgid "Print/trail"
-msgstr ""
+msgstr "Huellas/rastros"
 
 msgid "Dropping"
-msgstr ""
+msgstr "Excrementos"
 
 msgid "Den/burrow"
-msgstr ""
+msgstr "Madriguera o encame"
 
 msgid "Please specify the condition of the mammal."
-msgstr ""
+msgstr "Por favor, indique el estado del animal observado"
 
 msgid "Please add any extra info about this record."
-msgstr ""
+msgstr "Añada información adicional sobre este registro"
 
 msgid "Enter more information here..."
-msgstr ""
+msgstr "Incluya más información aquí"
 
 msgid "Upload"
-msgstr ""
+msgstr "Subir los datos"
 
 msgid "species"
-msgstr ""
+msgstr "species"
