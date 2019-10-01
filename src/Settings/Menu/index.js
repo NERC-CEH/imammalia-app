@@ -27,7 +27,6 @@ function onToggle(appModel, setting, checked) {
 
 const Container = observer(({ appModel, userModel }) => {
   const useTraining = appModel.get('useTraining');
-  const useExperiments = appModel.get('useExperiments');
   const language = appModel.get('language');
   const country = appModel.get('country');
 
@@ -36,7 +35,6 @@ const Container = observer(({ appModel, userModel }) => {
       <AppHeader title={t('Settings')} />
       <Main
         useTraining={useTraining}
-        useExperiments={useExperiments}
         resetApp={() => resetApp(appModel, userModel)}
         onToggle={(setting, checked) => onToggle(appModel, setting, checked)}
         language={language}

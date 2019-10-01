@@ -9,8 +9,9 @@ import {
   IonItemDivider,
   IonItem,
   IonLabel,
+  IonNote,
 } from '@ionic/react';
-import { undo, school, flame, flag, globe } from 'ionicons/icons';
+import { undo, school, flag, globe } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
 import { countries, languages } from 'helpers/translator';
 import config from 'config';
@@ -43,20 +44,12 @@ class Component extends React.Component {
     resetApp: PropTypes.func.isRequired,
     onToggle: PropTypes.func.isRequired,
     useTraining: PropTypes.bool.isRequired,
-    useExperiments: PropTypes.bool.isRequired,
     language: PropTypes.string,
     country: PropTypes.string,
   };
 
   render() {
-    const {
-      resetApp,
-      onToggle,
-      useTraining,
-      useExperiments,
-      language,
-      country,
-    } = this.props;
+    const { resetApp, onToggle, useTraining, language, country } = this.props;
 
     return (
       <>
@@ -73,6 +66,7 @@ class Component extends React.Component {
               <IonIcon icon={globe} size="small" slot="start" />
               <IonLabel slot="end">{countries[country]}</IonLabel>
             </IonItem>
+
             <IonItem>
               <IonIcon icon={school} size="small" slot="start" />
               <IonLabel>{t('Training Mode')}</IonLabel>
@@ -81,17 +75,19 @@ class Component extends React.Component {
                 checked={useTraining}
               />
             </IonItem>
+            <IonItem>
+              <IonLabel position="stacked" text-wrap>
+                <IonNote color="primary">
+                  {t(
+                    "Mark any new records as 'training' and exclude from all reports."
+                  )}
+                </IonNote>
+              </IonLabel>
+            </IonItem>
+
             <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp)}>
               <IonIcon icon={undo} size="small" slot="start" />
               {t('Reset')}
-            </IonItem>
-            <IonItem>
-              <IonIcon icon={flame} size="small" slot="start" />
-              <IonLabel>{t('Experimental Features')}</IonLabel>
-              <Toggle
-                onToggle={checked => onToggle('useExperiments', checked)}
-                checked={useExperiments}
-              />
             </IonItem>
           </IonList>
 
