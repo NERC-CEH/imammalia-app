@@ -15,7 +15,7 @@ html.md .leaflet-container {
 
 .leaflet-container {
   width: 100vw;
-  background-color: #5d5d5d;
+  background-color: #5d5d5d !important;
 
   .leaflet-control .geolocate-btn {
     border-radius: 4px;
