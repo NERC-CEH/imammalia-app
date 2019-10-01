@@ -126,7 +126,7 @@ class Container extends React.Component {
 
     appModel.set('recordDraftId', sample.cid);
     await appModel.save();
-    return sample;
+    return sample.save();
   }
 
   onSubmit = async () => {
