@@ -35,7 +35,8 @@ function deleteRecord(sample) {
 const Record = observer(({ sample }) => {
   const date = new Date(sample.metadata.created_on);
   const prettyDate = date.toLocaleDateString();
-  const speciesCount = sample.occurrences.models.length;
+  const occ = sample.occurrences.at(0);
+  const species = occ.get('taxon').english;
 
   const isSent = sample.metadata.server_on;
   const href =
@@ -47,10 +48,8 @@ const Record = observer(({ sample }) => {
     <IonItemSliding>
       <IonItem href={href} detail={href}>
         <IonLabel>
-          <h3>
-            <b>{prettyDate}</b>
-          </h3>
-          <h4>{`${t('species')}: ${speciesCount}`}</h4>
+          <h3><b>{t(species)}</b></h3>
+          <h4>{prettyDate}</h4>
         </IonLabel>
         <OnlineStatus sample={sample} />
       </IonItem>
