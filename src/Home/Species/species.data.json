@@ -28,9 +28,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "map": "1024px-Atelerix_algirus_range_Map.png",
-    "mapAttribution": "By Carlosblh - Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7890917"
+    "grouping": "hedgehog"
   },
   {
     "id": 2,
@@ -61,9 +59,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "map": "European_Hedgehog_area2.png",
-    "mapAttribution": "By Chermundy - Wikimedia Commons, CC BY-SA 3.0"
+    "grouping": "hedgehog"
   },
   {
     "id": 3,
@@ -94,9 +90,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "map": "1024px-Range_Erinaceus_concolor_and_Erinaceus_roumanicus.png",
-    "mapAttribution": "By User:Rbrausse - used File:WorldMap 0-0-90-90.png, ranges are based on http://www.iucnredlist.org/apps/redlist/details/40605/0 and http://www.iucnredlist.org/apps/redlist/details/136344/0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9785749"
+    "grouping": "hedgehog"
   },
   {
     "id": 4,
@@ -127,9 +121,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "map": "1920px-Oryctolagus_cuniculus_distribution_Map.png",
-    "mapAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 5,
@@ -160,9 +152,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "map": "Lepus_castroviejoi_range_Map.png",
-    "mapAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 6,
@@ -193,9 +183,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "map": "European_Hare_area.png",
-    "mapAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 7,
@@ -226,9 +214,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "map": "Mountain_Hare_area.png",
-    "mapAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 8,
@@ -259,9 +245,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "map": "Lepus_granatensis_range_Map.png",
-    "mapAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 9,
@@ -292,9 +276,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "map": "Sciurus_vulgaris_habitat.png",
-    "mapAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 10,
@@ -325,9 +307,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "map": "800px-Atlantoxerus_getulus_range_map.png",
-    "mapAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 11,
@@ -358,9 +338,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "map": "SpermophilusSuslicusIUCNver2018_2.png",
-    "mapAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 12,
@@ -391,9 +369,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "map": "Mapa_Marmota_marmota.png",
-    "mapAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 13,
@@ -424,9 +400,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent",
-    "map": "Biber_in_Europa_2003.jpg",
-    "mapAttribution": ""
+    "grouping": "rodent"
   },
   {
     "id": 14,
@@ -457,9 +431,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent",
-    "map": "Mapa_Myocastor_coypus.png",
-    "mapAttribution": "By Czech Wikipedia user Packa - Praca własna made from File:Europe biogeography blank.svg (by Júlio Reis). Data from Mammal Species of the World, 3rd edition online. Bucknell Univesity, [cit. 2010-03-21]. Page Apodemus uralensis. Revised, see Description., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9796499"
+    "grouping": "rodent"
   },
   {
     "id": 15,
@@ -490,9 +462,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Raccoon_Dog_area.png",
-    "mapAttribution": "by Maphobbyist"
+    "grouping": "Carnivorous"
   },
   {
     "id": 16,
@@ -523,9 +493,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 1,
-    "grouping": "Carnivorous",
-    "map": "1920px-Ursus_arctos_range_map.svg.png",
-    "mapAttribution": "by Maphobbyist"
+    "grouping": "Carnivorous"
   },
   {
     "id": 17,
@@ -556,9 +524,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Grey_wolf_distribution_with_subdivisions.png",
-    "mapAttribution": "By Carlosblh - Commons, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7523347"
+    "grouping": "Carnivorous"
   },
   {
     "id": 18,
@@ -589,9 +555,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Canis_aureus_distribution_map.png",
-    "mapAttribution": "De Internet Archive Book Images - https://www.flickr.com/photos/internetarchivebookimages/20384923722/Source book page: https://archive.org/stream/bonnerzoo394019881989zool/#page/n251/mode/1up, No restrictions, https://commons.wikimedia.org/w/index.php?curid=43917402"
+    "grouping": "Carnivorous"
   },
   {
     "id": 19,
@@ -622,9 +586,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Wiki-Vulpes_vulpes.png",
-    "mapAttribution": "De U. Schröter - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12138926"
+    "grouping": "Carnivorous"
   },
   {
     "id": 20,
@@ -655,9 +617,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "European_Otter_distribution.png",
-    "mapAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 21,
@@ -688,9 +648,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "European_Badger_area.png",
-    "mapAttribution": "De Jrockley - based upon Image:Leefgebied bruine rat.jpg and Image:BlankMap-World-noborders.png, Dominio público, https://commons.wikimedia.org/w/index.php?curid=2241348"
+    "grouping": "Carnivorous"
   },
   {
     "id": 22,
@@ -721,9 +679,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Egyptian_Mongoose_area.png",
-    "mapAttribution": "By Mariomassone - Own work, [1], Public Domain, https://commons.wikimedia.org/w/index.php?curid=67537150"
+    "grouping": "Carnivorous"
   },
   {
     "id": 23,
@@ -754,9 +710,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Small_Asian_Mongoose_area.png",
-    "mapAttribution": "By Jonathan Hornung - Own work - based on map information from the IUCN Red List of threatened species - Canis aureus: http://maps.iucnredlist.org/map.html?id=3744, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=225854"
+    "grouping": "Carnivorous"
   },
   {
     "id": 24,
@@ -787,9 +741,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Common_Genet_area.png",
-    "mapAttribution": "By Zoologist - Own work, based on: IUCN Red List http://www.iucnredlist.org/details/23062/0 (published in 2008) and http://www.canids.org/species/Red_fox.pdf (from Canids: Foxes, Wolves, Jackals and Dogs - 2004 Status Survey and Conservation Action Plan, published in 2004), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5992675"
+    "grouping": "Carnivorous"
   },
   {
     "id": 25,
@@ -820,9 +772,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Wild_Cat_Felis_silvestris_distribution_in_Europe_map.png",
-    "mapAttribution": "De me - File:Leefgebied otter.jpg (with Britain added as is stated in article), Dominio público, https://commons.wikimedia.org/w/index.php?curid=8745834"
+    "grouping": "Carnivorous"
   },
   {
     "id": 26,
@@ -853,9 +803,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "EuropeanLynx_distribution2015.jpg",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189716"
+    "grouping": "Carnivorous"
   },
   {
     "id": 27,
@@ -886,9 +834,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "IberianLynx_distribution2015.jpg",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12190179"
+    "grouping": "Carnivorous"
   },
   {
     "id": 28,
@@ -919,9 +865,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Suidos",
-    "map": "1920px-Sus_scrofa_range_map.jpg",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12190170"
+    "grouping": "Suidos"
   },
   {
     "id": 29,
@@ -952,15 +896,13 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Bovidae",
-    "map": "1280px-Bison_bonasus_distribution.svg.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189720"
+    "grouping": "Bovidae"
   },
   {
     "id": 30,
     "warehouse_id": 440803,
     "english": "European mouflon",
-    "taxon": "Ovis ammon OR Ovis gmelini musimon",
+    "taxon": "Ovis ammon",
     "order": "Artiodactyla",
     "family": "Bovidae",
     "description": "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns",
@@ -985,9 +927,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "map": "1024px-Ovis_musimon.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189772"
+    "grouping": "Bovidae"
   },
   {
     "id": 31,
@@ -1018,9 +958,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "map": "Leefgebied_alpensteenbok.jpg",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11982469"
+    "grouping": "Bovidae"
   },
   {
     "id": 32,
@@ -1051,9 +989,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "map": "Capra_pyrenaica_range_Map.png",
-    "mapAttribution": "By Osado - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9435961"
+    "grouping": "Bovidae"
   },
   {
     "id": 33,
@@ -1084,9 +1020,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "map": "1024px-Rupicapra_range.jpg",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189568"
+    "grouping": "Bovidae"
   },
   {
     "id": 34,
@@ -1117,9 +1051,7 @@
     "l": 0,
     "xl": 1,
     "xxl": "",
-    "grouping": "Bovidae",
-    "map": "Rupicapra_pyrenaica_range_Map.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12189727"
+    "grouping": "Bovidae"
   },
   {
     "id": 35,
@@ -1150,9 +1082,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates",
-    "map": "Red_deer_%28Cervus_elaphus%29_reconstructed_and_recent.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12272357"
+    "grouping": "Ungulates"
   },
   {
     "id": 36,
@@ -1183,9 +1113,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "map": "Dama_dama_map.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12272360"
+    "grouping": "Ungulates"
   },
   {
     "id": 37,
@@ -1216,9 +1144,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates",
-    "map": "Moose_distribution.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12267399"
+    "grouping": "Ungulates"
   },
   {
     "id": 38,
@@ -1249,9 +1175,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "map": "Capreolus-capreolus-map.png",
-    "mapAttribution": "By The author of the workand the IUCN Red List spatial data, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=42879396"
+    "grouping": "Ungulates"
   },
   {
     "id": 39,
@@ -1282,9 +1206,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "map": "",
-    "mapAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 40,
@@ -1315,9 +1237,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "map": "",
-    "mapAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 41,
@@ -1348,9 +1268,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "map": "",
-    "mapAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 42,
@@ -1381,9 +1299,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "map": "Raccoon-range.png",
-    "mapAttribution": "By IUCN Red List of Threatened Species, species assessors and the authors of the spatial data., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11982327"
+    "grouping": "Carnivorous"
   },
   {
     "id": 43,
@@ -1414,8 +1330,6 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "map": "Mapa_Ammotragus_lervia.png",
-    "mapAttribution": "De Fobos92 - http://www.karpinabentura.com/es/parque/mapa/animalia/muflon.html, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=9226606"
+    "grouping": "Bovidae"
   }
 ]

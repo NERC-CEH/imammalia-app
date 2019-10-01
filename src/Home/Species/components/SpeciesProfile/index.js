@@ -48,13 +48,15 @@ const Component = ({ species }) => {
         </IonCardContent>
       )}
 
-      {species.map && (
-        <IonCardContent className="species-map">
-          <h3 className="species-label">{`${t('Distribution')}:`}</h3>
-          <img src={`/images/${species.map}`} alt="map" />
-          {species.mapAttribution && <small className="species-map-attribution">{species.mapAttribution}</small>}
-        </IonCardContent>
-      )}
+      <IonCardContent className="species-map">
+        <h3 className="species-label">{`${t('Distribution')}:`}</h3>
+        <img src={`/images/${species.taxon}.svg`} alt="map" />
+        {species.mapAttribution && (
+          <small className="species-map-attribution">
+            {species.mapAttribution}
+          </small>
+        )}
+      </IonCardContent>
     </IonContent>
   );
 };
