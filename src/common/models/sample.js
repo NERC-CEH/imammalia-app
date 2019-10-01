@@ -187,6 +187,7 @@ let Sample = Indicia.Sample.extend({
   toJSON() {
     const json = Indicia.Sample.prototype.toJSON.apply(this);
     json.attributes = toJS(json.attributes);
+    json.metadata = toJS(json.metadata);
     return json;
   },
 
