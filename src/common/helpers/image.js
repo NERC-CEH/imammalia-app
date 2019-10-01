@@ -48,7 +48,7 @@ const Image = {
         correctOrientation: true,
       };
 
-      const cameraOptions = Object.assign({}, defaultCameraOptions, options);
+      const cameraOptions = { ...{}, ...defaultCameraOptions, ...options };
 
       if (Device.isAndroid()) {
         // Android bug:

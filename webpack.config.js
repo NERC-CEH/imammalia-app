@@ -86,7 +86,7 @@ const config = {
               },
             },
           },
-          `sass-loader?includePaths[]=${SRC_DIR}`,
+          `sass-loader`,
         ],
       },
       { test: /\.pot?$/, loader: 'json-loader!po-loader?format=mf' },

@@ -118,12 +118,12 @@ let Sample = Indicia.Sample.extend({
     };
 
     const smpAttrs = this.keys();
-    const updatedSubmission = Object.assign({}, submission, newAttrs);
-    updatedSubmission.fields = Object.assign({}, updatedSubmission.fields, {
+    const updatedSubmission = { ...{}, ...submission, ...newAttrs };
+    updatedSubmission.fields = { ...{}, ...updatedSubmission.fields, ...{
       [smpAttrs.device.id]: smpAttrs.device.values[Device.getPlatform()],
       [smpAttrs.device_version.id]: Device.getVersion(),
       [smpAttrs.app_version.id]: `${CONFIG.version}.${CONFIG.build}`,
-    });
+    } };
 
     // add the survey_id to subsamples too
     if (this.metadata.complex_survey) {
