@@ -17,9 +17,9 @@ import GPS from 'helpers/GPS';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
-
-L.Icon.Default.imagePath =
-  '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/images/';
+import './marker-icon-2x.png';
+ 
+L.Icon.Default.imagePath = '/images/';
 
 const DEFAULT_POSITION = [47.946, 8.536];
 const DEFAULT_ZOOM = 5;
