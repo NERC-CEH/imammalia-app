@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  IonContent,
-  IonList,
-  IonItem,
-  IonLabel,
-} from '@ionic/react';
+import { IonContent, IonList, IonItem, IonLabel } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
 import './styles.scss';
 
@@ -13,11 +8,6 @@ export default () => (
     <AppHeader title={t('Credits')} />
     <IonContent id="credits" class="ion-padding">
       <IonList lines="none">
-        <IonItem>
-          <IonLabel>
-            {t('This App was produced through MammalNet and funded by EFSA.')}
-          </IonLabel>
-        </IonItem>
         <IonItem>
           <IonLabel>
             {t(
@@ -29,16 +19,12 @@ export default () => (
           <ul>
             <li>
               <a href="https://www.ceh.ac.uk/staff/david-roy">
-                <b>David Roy</b>
-                {' '}
-(the Centre for Ecology & Hydrology)
+                <b>David Roy</b> (the Centre for Ecology & Hydrology)
               </a>
             </li>
             <li>
               <a href="https://flumens.io">
-                <b>Karolis Kazlauskis</b>
-                {' '}
-(App developer)
+                <b>Karolis Kazlauskis</b> (App developer)
               </a>
             </li>
           </ul>
@@ -48,14 +34,21 @@ export default () => (
       <IonList>
         <IonItem>
           <small>
-            Icons made by
-            {' '}
+            {t('This App was produced through MammalNet and funded by EFSA.')}
+          </small>
+        </IonItem>
+        <IonItem>
+          <small>
+            {`${t('Maps produced')} © Societas Europaea Mammalogica 2019`}
+          </small>
+        </IonItem>
+        <IonItem>
+          <small>
+            Icons made by{' '}
             <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
               Freepik
-            </a>
-            {' '}
-            from
-            {' '}
+            </a>{' '}
+            from{' '}
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
             </a>
