@@ -43,7 +43,7 @@ class Component extends React.Component {
     const svgElementBounds = [[0, 0], [300, 400]];
     L.svgOverlay(this.speciesMap.current, svgElementBounds).addTo(map);
     map.fitBounds([[50, -250], [350, 150]]);
-    map.setMaxBounds([[50, -250], [350, 150]]);
+    map.setMaxBounds([[50, -250], [350, 250]]);
   }
 
   render() {
