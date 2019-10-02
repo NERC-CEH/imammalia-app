@@ -1,6 +1,7 @@
 import React from 'react';
 import { IonContent, IonList, IonItem, IonLabel } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
+import species from 'Home/Species/species.data.json';
 import './styles.scss';
 
 export default () => (
@@ -16,34 +17,32 @@ export default () => (
           </IonLabel>
         </IonItem>
         <ul>
-          <ul>
-            <li>
-              <a href="https://www.ceh.ac.uk/staff/david-roy">
-                <b>David Roy</b> (the Centre for Ecology & Hydrology)
-              </a>
-            </li>
-            <li>
-              <a href="https://flumens.io">
-                <b>Karolis Kazlauskis</b> (App developer)
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a href="https://www.ceh.ac.uk/staff/david-roy">
+              <b>David Roy</b> (the Centre for Ecology & Hydrology)
+            </a>
+          </li>
+          <li>
+            <a href="https://flumens.io">
+              <b>Karolis Kazlauskis</b> (App developer)
+            </a>
+          </li>
         </ul>
       </IonList>
 
       <IonList>
         <IonItem>
-          <small>
+          <IonLabel>
             {t('This App was produced through MammalNet and funded by EFSA.')}
-          </small>
+          </IonLabel>
         </IonItem>
         <IonItem>
-          <small>
+          <IonLabel>
             {`${t('Maps produced')} © Societas Europaea Mammalogica 2019`}
-          </small>
+          </IonLabel>
         </IonItem>
         <IonItem>
-          <small>
+          <IonLabel>
             Icons made by{' '}
             <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
               Freepik
@@ -52,7 +51,27 @@ export default () => (
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
             </a>
-          </small>
+          </IonLabel>
+        </IonItem>
+      </IonList>
+
+      <IonList>
+        <IonItem>
+          <IonLabel>{t('Photo credits:')}</IonLabel>
+        </IonItem>
+        <IonItem>
+          {species
+            .filter(s => s.photoAttribution)
+            .map(s => (
+              <li>
+                <IonLabel position="stacked">
+                  <b>{`${s.taxon}: `}</b>
+                  <span
+                    dangerouslySetInnerHTML={{ __html: s.photoAttribution }}
+                  />
+                </IonLabel>
+              </li>
+            ))}
         </IonItem>
       </IonList>
     </IonContent>

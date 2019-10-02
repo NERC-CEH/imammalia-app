@@ -28,7 +28,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog"
+    "grouping": "hedgehog",
+    "photoAttribution": ""
   },
   {
     "id": 2,
@@ -59,7 +60,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog"
+    "grouping": "hedgehog",
+    "photoAttribution": ""
   },
   {
     "id": 3,
@@ -90,7 +92,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog"
+    "grouping": "hedgehog",
+    "photoAttribution": ""
   },
   {
     "id": 4,
@@ -121,7 +124,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph"
+    "grouping": "lagomorph",
+    "photoAttribution": ""
   },
   {
     "id": 5,
@@ -152,7 +156,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph"
+    "grouping": "lagomorph",
+    "photoAttribution": ""
   },
   {
     "id": 6,
@@ -183,7 +188,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph"
+    "grouping": "lagomorph",
+    "photoAttribution": ""
   },
   {
     "id": 7,
@@ -214,7 +220,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph"
+    "grouping": "lagomorph",
+    "photoAttribution": ""
   },
   {
     "id": 8,
@@ -245,7 +252,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph"
+    "grouping": "lagomorph",
+    "photoAttribution": "Juan Lacruz [<a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File:Liebre_LaCa%C3%B1ada_2012-05-26.jpg\">via Wikimedia Commons</a>"
   },
   {
     "id": 9,
@@ -276,7 +284,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph"
+    "grouping": "Sciuromorph",
+    "photoAttribution": ""
   },
   {
     "id": 10,
@@ -307,7 +316,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph"
+    "grouping": "Sciuromorph",
+    "photoAttribution": ""
   },
   {
     "id": 11,
@@ -338,7 +348,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph"
+    "grouping": "Sciuromorph",
+    "photoAttribution": "Esther Westerveld from Haarlemmermeer, Nederland [<a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File:Spermophilus_suslicus_Varna_Bulgaria_1.jpg\">via Wikimedia Commons</a>"
   },
   {
     "id": 12,
@@ -369,7 +380,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph"
+    "grouping": "Sciuromorph",
+    "photoAttribution": ""
   },
   {
     "id": 13,
@@ -400,7 +412,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent"
+    "grouping": "rodent",
+    "photoAttribution": ""
   },
   {
     "id": 14,
@@ -431,7 +444,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent"
+    "grouping": "rodent",
+    "photoAttribution": ""
   },
   {
     "id": 15,
@@ -462,7 +476,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 16,
@@ -493,7 +508,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 1,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 17,
@@ -524,7 +540,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 18,
@@ -555,7 +572,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 19,
@@ -586,7 +604,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 20,
@@ -617,7 +636,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 21,
@@ -648,7 +668,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 22,
@@ -679,7 +700,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": "מינוזיג [<a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File:Herpestes_ichneumon,_Israel_3.jpg\">via Wikimedia Commons</a>"
   },
   {
     "id": 23,
@@ -710,7 +732,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 24,
@@ -741,7 +764,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": "By Guérin Nicolas (messages) - Own work,  [<a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>], <a href=\"https://commons.wikimedia.org/w/index.php?curid=4293677\">via Wikimedia Commons</a>"
   },
   {
     "id": 25,
@@ -772,7 +796,8 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 26,
@@ -803,7 +828,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 27,
@@ -834,7 +860,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": "http://www.lynxexsitu.es [<a href=\"https://creativecommons.org/licenses/by/3.0/es/deed.en\">CC BY 3.0 es</a>], <a href=\"https://commons.wikimedia.org/wiki/File:Iberian_Lynx_linces17.jpg\">via Wikimedia Commons</a>"
   },
   {
     "id": 28,
@@ -865,7 +892,8 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Suidos"
+    "grouping": "Suidos",
+    "photoAttribution": ""
   },
   {
     "id": 29,
@@ -896,7 +924,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 30,
@@ -927,7 +956,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 31,
@@ -958,7 +988,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 32,
@@ -989,7 +1020,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 33,
@@ -1020,7 +1052,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 34,
@@ -1051,7 +1084,8 @@
     "l": 0,
     "xl": 1,
     "xxl": "",
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   },
   {
     "id": 35,
@@ -1082,7 +1116,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 36,
@@ -1113,7 +1148,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 37,
@@ -1144,7 +1180,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 38,
@@ -1175,7 +1212,8 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 39,
@@ -1206,7 +1244,8 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 40,
@@ -1237,7 +1276,8 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 41,
@@ -1268,7 +1308,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Ungulates"
+    "grouping": "Ungulates",
+    "photoAttribution": ""
   },
   {
     "id": 42,
@@ -1299,7 +1340,8 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous"
+    "grouping": "Carnivorous",
+    "photoAttribution": ""
   },
   {
     "id": 43,
@@ -1330,6 +1372,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae"
+    "grouping": "Bovidae",
+    "photoAttribution": ""
   }
 ]
