@@ -63,7 +63,7 @@ export default () => (
           {species
             .filter(s => s.photoAttribution)
             .map(s => (
-              <li>
+              <li key={s.id}>
                 <IonLabel position="stacked">
                   <b>{`${s.taxon}: `}</b>
                   <span

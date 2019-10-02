@@ -17,7 +17,8 @@ import GPS from 'helpers/GPS';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
-import './marker-icon-2x.png';
+import 'leaflet/dist/images/marker-icon-2x.png';
+import 'leaflet/dist/images/marker-shadow.png';
  
 L.Icon.Default.imagePath = '/images/';
 

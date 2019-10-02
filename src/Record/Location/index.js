@@ -8,7 +8,7 @@ import './styles.scss';
 @observer
 class Container extends React.Component {
   static propTypes = {
-    match: PropTypes.object.isRequired,
+    match: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
   };
 

@@ -7,7 +7,7 @@ import { observer } from 'mobx-react';
 @observer
 class Component extends React.Component {
   static propTypes = {
-    match: PropTypes.object.isRequired,
+    match: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
   };

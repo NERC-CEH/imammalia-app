@@ -89,8 +89,8 @@ function deleteOccurrence(occ) {
 class Container extends React.Component {
   static propTypes = {
     savedSamples: PropTypes.object.isRequired,
-    match: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired,
+    match: PropTypes.object,
+    history: PropTypes.object,
     appModel: PropTypes.object.isRequired,
   };
 

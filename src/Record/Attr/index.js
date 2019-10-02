@@ -12,7 +12,7 @@ import NumberAttr from './components/NumberAttr';
 @observer
 class Component extends React.Component {
   static propTypes = {
-    match: PropTypes.object.isRequired,
+    match: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
   };
 
