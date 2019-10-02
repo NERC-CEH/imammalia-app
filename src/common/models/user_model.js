@@ -138,7 +138,7 @@ class UserModel {
         throw new Error('Invalid backend response.');
       }
     } catch (e) {
-      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
+      throw new Error(t(e.message));
     }
 
     const user = { ...res.data, ...{ password: details.password } };
@@ -167,7 +167,7 @@ class UserModel {
         throw new Error('Invalid backend response.');
       }
     } catch (e) {
-      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
+      throw new Error(t(e.message));
     }
 
     const user = { ...res, ...{ password: details.password } };
@@ -201,7 +201,7 @@ class UserModel {
         throw new Error('Invalid backend response.');
       }
     } catch (e) {
-      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
+      throw new Error(t(e.message));
     }
   }
 
