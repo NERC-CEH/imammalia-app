@@ -35,6 +35,19 @@ class UserModel {
     name: Yup.string().required(),
   });
 
+  resetSchema = Yup.object().shape({
+    name: Yup.string().required(),
+  });
+
+  resetSchemaBackend = Yup.object().shape({
+    data: Yup.object().shape({
+      id: Yup.number().required(),
+      firstname: Yup.string().required(),
+      secondname: Yup.string().required(),
+      type: Yup.string().required(),
+    }),
+  });
+
   registerSchema = Yup.object().shape({
     email: Yup.string()
       .email('email is not valid')
@@ -122,10 +135,10 @@ class UserModel {
       res = await makeRequest(url, options, CONFIG.users.timeout);
       const isValidResponse = await this.loginSchemaBackend.isValid(res.data);
       if (!isValidResponse) {
-        throw new Error('invalid backend response.');
+        throw new Error('Invalid backend response.');
       }
     } catch (e) {
-      throw new Error(`${t('Login error:')} ${t(e.message)}`);
+      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
     }
 
     const user = { ...res.data, ...{ password: details.password } };
@@ -151,14 +164,45 @@ class UserModel {
       res = await makeRequest(CONFIG.users.url, options, CONFIG.users.timeout);
       const isValidResponse = await this.registerSchemaBackend.isValid(res);
       if (!isValidResponse) {
-        throw new Error('invalid backend response.');
+        throw new Error('Invalid backend response.');
       }
     } catch (e) {
-      throw new Error(`${t('Registration error:')} ${t(e.message)}`);
+      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
     }
 
     const user = { ...res, ...{ password: details.password } };
     this._logIn(user);
+  }
+
+  async reset(details) {
+    Log('User: resetting.');
+
+    const options = {
+      method: 'put',
+      mode: 'cors',
+      headers: {
+        'x-api-key': CONFIG.indicia.api_key,
+        'content-type': 'plain/text',
+      },
+      body: JSON.stringify({
+        data: {
+          type: 'users',
+          password: ' ', // reset password
+        },
+      }),
+    };
+
+    let res;
+    try {
+      const url = CONFIG.users.url + encodeURIComponent(details.name); // url + user id
+      res = await makeRequest(url, options, CONFIG.users.timeout);
+      const isValidResponse = await this.resetSchemaBackend.isValid(res);
+      if (!isValidResponse) {
+        throw new Error('Invalid backend response.');
+      }
+    } catch (e) {
+      throw new Error(`${t('Sorry:')} ${t(e.message)}`);
+    }
   }
 
   _logIn(user) {
