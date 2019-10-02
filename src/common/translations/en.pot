@@ -818,3 +818,75 @@ msgstr "Upload"
 
 msgid "species"
 msgstr "species"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr "Enter your username or email address to request a password reset."
+
+msgid "User not found."
+msgstr "User not found."
+
+msgid "We've sent an email to you"
+msgstr "We've sent an email to you"
+
+msgid "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
+msgstr "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
+
+msgid "App Development"
+msgstr "App Development"
+
+msgid "This app was hand crafted with love by"
+msgstr "This app was hand crafted with love by"
+
+msgid "Agency specializing in building bespoke data oriented sollutions."
+msgstr "Agency specializing in building bespoke data oriented sollutions."
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr "For suggestions and feedback please do not hesitate to"
+
+msgid "contact us"
+msgstr "contact us"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr "This App was produced through MammalNet and funded by EFSA."
+
+msgid "Maps produced"
+msgstr "Maps produced"
+
+msgid "Photo credits:"
+msgstr "Photo credits:"
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr "Mark any new records as 'training' and exclude from all reports."
+
+msgid "Distribution"
+msgstr "Distribution"
+
+msgid "Hedgehog"
+msgstr "Hedgehog"
+
+msgid "(unknown species)"
+msgstr "(unknown species)"
+
+msgid "Shrew"
+msgstr "Shrew"
+
+msgid "Mole"
+msgstr "Mole"
+
+msgid "Lagomorph"
+msgstr "Lagomorph"
+
+msgid "Small rodent"
+msgstr "Small rodent"
+
+msgid "Vole"
+msgstr "Vole"
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Rat"
+msgstr "Rat"
+
+msgid "Small mustelid"
+msgstr "Small mustelid"

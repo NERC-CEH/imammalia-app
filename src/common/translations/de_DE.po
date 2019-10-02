@@ -958,3 +958,77 @@ msgstr ""
 
 msgid "species"
 msgstr ""
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+
+msgid "User not found."
+msgstr ""
+
+msgid "We've sent an email to you"
+msgstr ""
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+
+msgid "App Development"
+msgstr ""
+
+msgid "This app was hand crafted with love by"
+msgstr ""
+
+msgid "Agency specializing in building bespoke data oriented sollutions."
+msgstr ""
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr ""
+
+msgid "contact us"
+msgstr ""
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr ""
+
+msgid "Maps produced"
+msgstr ""
+
+msgid "Photo credits:"
+msgstr ""
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+
+msgid "Distribution"
+msgstr ""
+
+msgid "Hedgehog"
+msgstr ""
+
+msgid "(unknown species)"
+msgstr ""
+
+msgid "Shrew"
+msgstr ""
+
+msgid "Mole"
+msgstr ""
+
+msgid "Lagomorph"
+msgstr ""
+
+msgid "Small rodent"
+msgstr ""
+
+msgid "Vole"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "Rat"
+msgstr ""
+
+msgid "Small mustelid"
+msgstr ""
