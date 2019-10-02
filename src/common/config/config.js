@@ -7,6 +7,32 @@ import DateHelp from 'helpers/date';
 const HOST =
   process.env.APP_INDICIA_API_HOST || 'https://european-mammals.brc.ac.uk/';
 
+const typeValues = [
+  { value: 'Alive', id: 17463 },
+  { value: 'Dead - roadkill', id: 17464 },
+  { value: 'Dead - other', id: 17465 },
+  {
+    value: 'Indirect',
+    type: 'radio',
+    values: [
+      { value: 'Print/trail', id: 17466 },
+      { value: 'Dropping', id: 17467 },
+      { value: 'Den/burrow', id: 17468 },
+      { value: 'Other (specify in Comment)', id: 17469 },
+    ],
+  },
+];
+
+function flattenForKeys(list) {
+  return list.reduce((agg, item) => {
+    if (item.values) {
+      return { ...agg, ...flattenForKeys(item.values) };
+    }
+
+    return { ...agg, ...{ [item.value]: item.id } };
+  }, {});
+}
+
 const CONFIG = {
   // variables replaced on build
   version: process.env.APP_VERSION,
@@ -136,17 +162,8 @@ const CONFIG = {
           type: 'radio',
           info: 'Please specify the condition of the mammal.',
           id: 800,
-          values: {
-            Alive: 17463,
-            'Dead - roadkill': 17464,
-            'Dead - other': 17465,
-            Indirect: {
-              'Print/trail': 17466,
-              Dropping: 17467,
-              'Den/burrow': 17468,
-              'Other (specify in Comment)': 17469,
-            },
-          },
+          values: flattenForKeys(typeValues),
+          _values: typeValues,
         },
 
         method: {
