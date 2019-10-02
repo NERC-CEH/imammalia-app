@@ -11,18 +11,9 @@
     }
   }
 
-  #countdown span {
-    width: 50px;
-    display: inline-block;
-    text-align: left;
-
-    &.paused {
-      width: inherit;
-      color: var(--ion-color-tertiary);
-    }
-
+  span {
     &.warn {
-      color: var(--ion-color-warning-shade);
+      color: var(--ion-color-secondary);
     }
   }
 

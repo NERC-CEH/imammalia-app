@@ -31,7 +31,16 @@ class Record extends Component {
     let prettyLocation;
     if (location && location.latitude) {
       const { latitude, longitude } = location;
-      prettyLocation = `${latitude.toFixed(3)}, ${longitude.toFixed(3)}`;
+      prettyLocation = (
+        <span>{`${latitude.toFixed(3)}, ${longitude.toFixed(3)}`}</span>
+      );
+    } else if (sample.isGPSRunning()) {
+      prettyLocation = (
+        <span className="warn">
+          {t('Locating')}
+          ...
+        </span>
+      );
     }
 
     const locationAccuracy = sample.get('manual_location_accuracy');
@@ -52,7 +61,7 @@ class Record extends Component {
             <IonIcon icon={map} slot="start" />
             <IonLabel>{t('Location')}</IonLabel>
             <IonLabel slot="end">
-              <span>{prettyLocation}</span>
+              {prettyLocation}
               {locationAccuracy && (
                 <span className="record-location-accuracy">
                   {locationAccuracy}
