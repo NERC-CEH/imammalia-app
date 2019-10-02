@@ -5,9 +5,14 @@ import {
   IonCardSubtitle,
   IonCardContent,
   IonCardTitle,
+  IonLifeCycleContext,
 } from '@ionic/react';
 import PropTypes from 'prop-types';
+import ReactSVG from 'react-svg';
+import MapBackground from '-!react-svg-loader!../../maps/background.svg'; //eslint-disable-line
 import './styles.scss';
+import { Map } from 'react-leaflet';
+import L from 'leaflet';
 
 const habitats = [
   'aquatic',
@@ -21,45 +26,78 @@ const habitats = [
   'farmlands',
 ];
 
-const Component = ({ species }) => {
-  const habitatsString = habitats
-    .filter(habitat => species[habitat])
-    .map(habitat => t(habitat))
-    .join(', ');
+class Component extends React.Component {
+  static contextType = IonLifeCycleContext;
 
-  return (
-    <IonContent id="species-profile" class="ion-padding">
-      <img src={`/images/${species.id}.jpg`} alt="species" />
+  constructor(props) {
+    super(props);
 
-      <IonCardHeader>
-        <IonCardTitle>{t(species.english)}</IonCardTitle>
-        <IonCardSubtitle>{species.taxon}</IonCardSubtitle>
-      </IonCardHeader>
+    this.map = React.createRef();
+    this.speciesMap = React.createRef();
+  }
 
-      <IonCardContent>
-        <h3 className="species-label">{`${t('Description')}:`}</h3>
-        {t(species.description)}
-      </IonCardContent>
+  componentDidMount() {
+    const map = this.map.current.leafletElement;
+    map.invalidateSize();
 
-      {habitatsString && (
-        <IonCardContent className="species-habitats">
-          <h3 className="species-label">{`${t('Habitats')}:`}</h3>
-          {habitatsString}
+    const svgElementBounds = [[0, 0], [300, 400]];
+    L.svgOverlay(this.speciesMap.current, svgElementBounds).addTo(map);
+    map.fitBounds([[50, -250], [350, 150]]);
+    map.setMaxBounds([[50, -250], [350, 150]]);
+  }
+
+  render() {
+    const { species } = this.props;
+    const habitatsString = habitats
+      .filter(habitat => species[habitat])
+      .map(habitat => t(habitat))
+      .join(', ');
+
+    return (
+      <IonContent id="species-profile" class="ion-padding">
+        <img src={`/images/${species.id}.jpg`} alt="species" />
+
+        <IonCardHeader>
+          <IonCardTitle>{t(species.english)}</IonCardTitle>
+          <IonCardSubtitle>{species.taxon}</IonCardSubtitle>
+        </IonCardHeader>
+
+        <IonCardContent>
+          <h3 className="species-label">{`${t('Description')}:`}</h3>
+          {t(species.description)}
         </IonCardContent>
-      )}
 
-      <IonCardContent className="species-map">
-        <h3 className="species-label">{`${t('Distribution')}:`}</h3>
-        <img src={`/images/${species.taxon}.svg`} alt="map" />
-        {species.mapAttribution && (
-          <small className="species-map-attribution">
-            {species.mapAttribution}
-          </small>
+        {habitatsString && (
+          <IonCardContent className="species-habitats">
+            <h3 className="species-label">{`${t('Habitats')}:`}</h3>
+            {habitatsString}
+          </IonCardContent>
         )}
-      </IonCardContent>
-    </IonContent>
-  );
-};
+
+        <IonCardContent>
+          <h3 className="species-label">{`${t('Distribution')}:`}</h3>
+          <div style={{ display: 'none' }}>
+            <MapBackground id="boundary" />
+            <ReactSVG src={`/images/${species.taxon}.svg`} />
+          </div>
+          <svg
+            ref={this.speciesMap}
+            viewBox="0 0 400 300"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xlinkHref="http://www.w3.org/1999/xlink"
+            version="1.1"
+          >
+            <use id="species-map-boundary" href="#boundary" />
+            <use id="species-map-data" href="#map2svg" />
+          </svg>
+        </IonCardContent>
+
+        <Map id="species-map" ref={this.map} crs={L.CRS.Simple} />
+      </IonContent>
+    );
+  }
+}
 
 Component.propTypes = {
   species: PropTypes.object.isRequired,

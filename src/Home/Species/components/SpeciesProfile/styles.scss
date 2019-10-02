@@ -2,6 +2,7 @@
   --padding-start: 0;
   --padding-end: 0;
   --padding-top: 0;
+  --padding-bottom: 0;
 
   .species-label {
     font-weight: bold;
@@ -15,12 +16,9 @@
     text-transform: capitalize;
   }
 
-  .species-map img {
-    margin-top: 15px;
-  }
-  .species-map-attribution {
-    margin: 10px;
-    display: block;
-    opacity: 0.8;
+  #species-map {
+    height: 200px;
+    width: 100%;
+    background-color: #474c4a !important;
   }
 }
