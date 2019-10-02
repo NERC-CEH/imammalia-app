@@ -26,7 +26,9 @@ class Component extends React.PureComponent {
       const generateInputs = selection =>
         selection.reduce((agg, option) => {
           if (option.values) {
-            const divider = <IonItemDivider>{option.value}</IonItemDivider>;
+            const divider = (
+              <IonItemDivider key={option.value}>{option.value}</IonItemDivider>
+            );
             return [...agg, divider, ...generateInputs(option.values)];
           }
           const input = (
@@ -44,7 +46,7 @@ class Component extends React.PureComponent {
         }, []);
 
       const inputs = generateInputs(config._values);
-      
+
       return (
         <div>
           {message && (
