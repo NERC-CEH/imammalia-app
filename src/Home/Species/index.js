@@ -47,7 +47,7 @@ function showFiltersDialog(appModel) {
   }));
 
   alert({
-    header: t('Filter Species'),
+    header: t('Filter species size'),
     inputs,
 
     buttons: [

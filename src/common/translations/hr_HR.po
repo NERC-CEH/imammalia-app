@@ -851,7 +851,7 @@ msgstr ""
 msgid "Cow-Bison"
 msgstr ""
 
-msgid "Filter Species"
+msgid "Filter species size"
 msgstr ""
 
 msgid "undefined"
