@@ -76,7 +76,7 @@ class Component extends React.Component {
               />
             </IonItem>
             <IonItem>
-              <IonLabel position="stacked" text-wrap>
+              <IonLabel text-wrap>
                 <IonNote color="primary">
                   {t(
                     "Mark any new records as 'training' and exclude from all reports."
