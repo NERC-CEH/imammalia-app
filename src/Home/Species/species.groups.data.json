@@ -1,11 +1,65 @@
 [
-  { "id": 44, "warehouse_id": -1, "english": "Hedgehog", "group": true },
-  { "id": 45, "warehouse_id": -1, "english": "Shrew", "group": true },
-  { "id": 46, "warehouse_id": -1, "english": "Mole", "group": true },
-  { "id": 47, "warehouse_id": -1, "english": "Lagomorph", "group": true },
-  { "id": 48, "warehouse_id": -1, "english": "Small rodent", "group": true },
-  { "id": 49, "warehouse_id": -1, "english": "Vole", "group": true },
-  { "id": 50, "warehouse_id": -1, "english": "Mouse", "group": true },
-  { "id": 51, "warehouse_id": -1, "english": "Rat", "group": true },
-  { "id": 52, "warehouse_id": -1, "english": "Small mustelid", "group": true }
+  {
+    "id": 44,
+    "warehouse_id": -1,
+    "english": "Hedgehog",
+    "taxon": "Erinaceidae",
+    "group": true
+  },
+  {
+    "id": 45,
+    "warehouse_id": -1,
+    "english": "Shrew",
+    "taxon": "Soricidae",
+    "group": true
+  },
+  {
+    "id": 46,
+    "warehouse_id": -1,
+    "english": "Mole",
+    "taxon": "Talpidae",
+    "group": true
+  },
+  {
+    "id": 47,
+    "warehouse_id": -1,
+    "english": "Lagomorph",
+    "taxon": "Lagomorpha",
+    "group": true
+  },
+  {
+    "id": 48,
+    "warehouse_id": -1,
+    "english": "Small rodent",
+    "taxon": "Sciuridae",
+    "group": true
+  },
+  {
+    "id": 49,
+    "warehouse_id": -1,
+    "english": "Vole",
+    "taxon": "Cricetidae",
+    "group": true
+  },
+  {
+    "id": 50,
+    "warehouse_id": -1,
+    "english": "Mouse",
+    "taxon": "Muridae",
+    "group": true
+  },
+  {
+    "id": 51,
+    "warehouse_id": -1,
+    "english": "Rat",
+    "taxon": "Rattus",
+    "group": true
+  },
+  {
+    "id": 52,
+    "warehouse_id": -1,
+    "english": "Small mustelid",
+    "taxon": "Mustelidae",
+    "group": true
+  }
 ]
