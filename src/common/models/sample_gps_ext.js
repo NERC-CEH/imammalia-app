@@ -56,7 +56,7 @@ const extension = {
         }
 
         that.setLocation(
-          [parseInt(location.longitude, 10), parseInt(location.latitude, 10)],
+          [parseFloat(location.longitude, 10), parseFloat(location.latitude, 10)],
           'gps',
           location.accuracy
         );
