@@ -56,34 +56,6 @@ function showValidationAlert(errors) {
   });
 }
 
-function increaseCount(occ) {
-  const count = occ.get('count');
-  occ.set('count', count + 1);
-  occ.save();
-}
-
-function deleteOccurrence(occ) {
-  const taxon = occ.get('taxon').scientific_name;
-  alert({
-    header: t('Delete'),
-    message: `${t('Are you sure you want to delete')} ${taxon}?`,
-    buttons: [
-      {
-        text: t('Cancel'),
-        role: 'cancel',
-        cssClass: 'primary',
-      },
-      {
-        text: t('Delete'),
-        cssClass: 'secondary',
-        handler: () => {
-          occ.destroy();
-        },
-      },
-    ],
-  });
-}
-
 @observer
 class Container extends React.Component {
   static propTypes = {
@@ -147,13 +119,6 @@ class Container extends React.Component {
     history.replace(`/home/user-records`);
   };
 
-  navigateToOccurrence = occ => {
-    const { match, history } = this.props;
-    const sampleID = match.params.id;
-
-    history.push(`/record/${sampleID}/edit/occ/${occ.cid}`);
-  };
-
   render() {
     const { history } = this.props;
 
@@ -168,10 +133,6 @@ class Container extends React.Component {
         <Main
           sample={this.state.sample}
           onSubmit={this.onSubmit}
-          deleteOccurrence={deleteOccurrence}
-          increaseCount={increaseCount}
-          navigateToOccurrence={this.navigateToOccurrence}
-          onToggleSpeciesSort={this.toggleSpeciesSort}
           history={history}
         />
         <Footer sample={this.state.sample} />
