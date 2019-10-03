@@ -124,7 +124,8 @@ class Component extends React.Component {
       .filter(sp => country === 'ELSEWHERE' || sp[country] || sp.group)
       .filter(sp =>
         speciesFilter.length ? speciesFilter.find(filter => sp[filter]) : true
-      );
+      )
+      .sort((sp1, sp2) => sp1.sort_id - sp2.sort_id);
 
     return filteredSpecies.map(sp => {
       const { id, english, group } = sp;
@@ -141,9 +142,7 @@ class Component extends React.Component {
             onClick={onClick}
           >
             <span className="label">
-              {`${t(english)} ${
-                group ? t('(unknown species)') : ''
-              }`}
+              {`${t(english)} ${group ? t('(unknown species)') : ''}`}
             </span>
           </IonItem>
         );

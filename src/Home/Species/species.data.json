@@ -2,6 +2,7 @@
   {
     "id": 1,
     "warehouse_id": 440884,
+    "sort_id": 1,
     "english": "Algerian hedgehog",
     "taxon": "Atelerix algirus",
     "order": "Ericnaceomorpha",
@@ -34,6 +35,7 @@
   {
     "id": 2,
     "warehouse_id": 440889,
+    "sort_id": 2,
     "english": "Western hedgehog",
     "taxon": "Erinaceus europaeus",
     "order": "Ericnaceomorpha",
@@ -66,6 +68,7 @@
   {
     "id": 3,
     "warehouse_id": 440887,
+    "sort_id": 3,
     "english": "Eastern hedgehog",
     "taxon": "Erinaceus concolor",
     "order": "Ericnaceomorpha",
@@ -98,6 +101,7 @@
   {
     "id": 4,
     "warehouse_id": 440903,
+    "sort_id": 4,
     "english": "European rabbit",
     "taxon": "Oryctolagus cuniculus",
     "order": "Lagomorpha",
@@ -130,6 +134,7 @@
   {
     "id": 5,
     "warehouse_id": 440894,
+    "sort_id": 5,
     "english": "Broom hare",
     "taxon": "Lepus castroviejoi",
     "order": "Lagomorpha",
@@ -162,6 +167,7 @@
   {
     "id": 6,
     "warehouse_id": 440896,
+    "sort_id": 6,
     "english": "Brown hare",
     "taxon": "Lepus europaeus",
     "order": "Lagomorpha",
@@ -194,6 +200,7 @@
   {
     "id": 7,
     "warehouse_id": 440900,
+    "sort_id": 7,
     "english": "Mountain hare",
     "taxon": "Lepus timidus",
     "order": "Lagomorpha",
@@ -226,6 +233,7 @@
   {
     "id": 8,
     "warehouse_id": 440898,
+    "sort_id": 8,
     "english": "Granada hare",
     "taxon": "Lepus granatensis",
     "order": "Lagomorpha",
@@ -258,6 +266,7 @@
   {
     "id": 9,
     "warehouse_id": 440922,
+    "sort_id": 9,
     "english": "Red squirrel",
     "taxon": "Sciurus vulgaris",
     "order": "Rodentia",
@@ -290,6 +299,7 @@
   {
     "id": 10,
     "warehouse_id": 440916,
+    "sort_id": 10,
     "english": "Barbary ground squirrel",
     "taxon": "Atlantoxerus getulus",
     "order": "Rodentia",
@@ -322,6 +332,7 @@
   {
     "id": 11,
     "warehouse_id": 440925,
+    "sort_id": 11,
     "english": "Spotted souslik",
     "taxon": "Spermophilus suslicus",
     "order": "Rodentia",
@@ -354,6 +365,7 @@
   {
     "id": 12,
     "warehouse_id": 440919,
+    "sort_id": 12,
     "english": "Alpine marmot",
     "taxon": "Marmota marmota",
     "order": "Rodentia",
@@ -386,6 +398,7 @@
   {
     "id": 13,
     "warehouse_id": 440908,
+    "sort_id": 13,
     "english": "European beaver",
     "taxon": "Castor fiber",
     "order": "Rodentia",
@@ -418,6 +431,7 @@
   {
     "id": 14,
     "warehouse_id": 440912,
+    "sort_id": 14,
     "english": "Coypu",
     "taxon": "Myocastor coypus",
     "order": "Rodentia",
@@ -450,6 +464,7 @@
   {
     "id": 15,
     "warehouse_id": 440843,
+    "sort_id": 19,
     "english": "Raccoon dog",
     "taxon": "Nyctereutes procyonoides",
     "order": "Carnivora",
@@ -482,6 +497,7 @@
   {
     "id": 16,
     "warehouse_id": 440875,
+    "sort_id": 15,
     "english": "Brown bear",
     "taxon": "Ursus arctos",
     "order": "Carnivora",
@@ -514,6 +530,7 @@
   {
     "id": 17,
     "warehouse_id": 440840,
+    "sort_id": 16,
     "english": "Grey wolf",
     "taxon": "Canis lupus",
     "order": "Carnivora",
@@ -546,6 +563,7 @@
   {
     "id": 18,
     "warehouse_id": 440838,
+    "sort_id": 17,
     "english": "Golden jackal",
     "taxon": "Canis aureus",
     "order": "Carnivora",
@@ -578,6 +596,7 @@
   {
     "id": 19,
     "warehouse_id": 440846,
+    "sort_id": 18,
     "english": "Red fox",
     "taxon": "Vulpes vulpes",
     "order": "Carnivora",
@@ -610,6 +629,7 @@
   {
     "id": 20,
     "warehouse_id": 440865,
+    "sort_id": 22,
     "english": "European otter",
     "taxon": "Lutra lutra",
     "order": "Carnivora",
@@ -642,6 +662,7 @@
   {
     "id": 21,
     "warehouse_id": 440868,
+    "sort_id": 21,
     "english": "Eurasian badger",
     "taxon": "Meles meles",
     "order": "Carnivora",
@@ -674,6 +695,7 @@
   {
     "id": 22,
     "warehouse_id": 440861,
+    "sort_id": 23,
     "english": "Egyptian mongoose",
     "taxon": "Herpestes ichneumon",
     "order": "Carnivora",
@@ -706,6 +728,7 @@
   {
     "id": 23,
     "warehouse_id": 440859,
+    "sort_id": 24,
     "english": "Small Indian mongoose",
     "taxon": "Herpestes auropunctatus",
     "order": "Carnivora",
@@ -738,6 +761,7 @@
   {
     "id": 24,
     "warehouse_id": 440879,
+    "sort_id": 25,
     "english": "Common genet",
     "taxon": "Genetta genetta",
     "order": "Carnivora",
@@ -770,6 +794,7 @@
   {
     "id": 25,
     "warehouse_id": 440850,
+    "sort_id": 26,
     "english": "Wildcat",
     "taxon": "Felis silvestris",
     "order": "Carnivora",
@@ -802,6 +827,7 @@
   {
     "id": 26,
     "warehouse_id": 440853,
+    "sort_id": 27,
     "english": "Eurasian lynx",
     "taxon": "Lynx lynx",
     "order": "Carnivora",
@@ -834,6 +860,7 @@
   {
     "id": 27,
     "warehouse_id": 440855,
+    "sort_id": 28,
     "english": "Iberian lynx",
     "taxon": "Lynx pardinus",
     "order": "Carnivora",
@@ -866,6 +893,7 @@
   {
     "id": 28,
     "warehouse_id": 440833,
+    "sort_id": 29,
     "english": "Wild boar",
     "taxon": "Sus scrofa",
     "order": "Artiodactyla",
@@ -898,6 +926,7 @@
   {
     "id": 29,
     "warehouse_id": 440795,
+    "sort_id": 30,
     "english": "European bison",
     "taxon": "Bison bonasus",
     "order": "Artiodactyla",
@@ -930,6 +959,7 @@
   {
     "id": 30,
     "warehouse_id": 440803,
+    "sort_id": 31,
     "english": "European mouflon",
     "taxon": "Ovis ammon",
     "order": "Artiodactyla",
@@ -962,6 +992,7 @@
   {
     "id": 31,
     "warehouse_id": 440798,
+    "sort_id": 32,
     "english": "Alpine ibex",
     "taxon": "Capra ibex",
     "order": "Artiodactyla",
@@ -994,6 +1025,7 @@
   {
     "id": 32,
     "warehouse_id": 440800,
+    "sort_id": 33,
     "english": "Spanish ibex",
     "taxon": "Capra pyrenaica",
     "order": "Artiodactyla",
@@ -1026,6 +1058,7 @@
   {
     "id": 33,
     "warehouse_id": 440808,
+    "sort_id": 35,
     "english": "Chamois, Alpine",
     "taxon": "Rupicapra rupicapra",
     "order": "Artiodactyla",
@@ -1058,6 +1091,7 @@
   {
     "id": 34,
     "warehouse_id": 440806,
+    "sort_id": 36,
     "english": "Chamois, southern",
     "taxon": "Rupicapra pyrenaica",
     "order": "Artiodactyla",
@@ -1090,6 +1124,7 @@
   {
     "id": 35,
     "warehouse_id": 440821,
+    "sort_id": 37,
     "english": "Red deer",
     "taxon": "Cervus elaphus",
     "order": "Artiodactyla",
@@ -1122,6 +1157,7 @@
   {
     "id": 36,
     "warehouse_id": 440826,
+    "sort_id": 38,
     "english": "Fallow deer",
     "taxon": "Dama dama",
     "order": "Artiodactyla",
@@ -1154,6 +1190,7 @@
   {
     "id": 37,
     "warehouse_id": 440812,
+    "sort_id": 39,
     "english": "Elk",
     "taxon": "Alces alces",
     "order": "Artiodactyla",
@@ -1186,6 +1223,7 @@
   {
     "id": 38,
     "warehouse_id": 440818,
+    "sort_id": 40,
     "english": "Roe deer",
     "taxon": "Capreolus capreolus",
     "order": "Artiodactyla",
@@ -1218,6 +1256,7 @@
   {
     "id": 39,
     "warehouse_id": 440823,
+    "sort_id": 41,
     "english": "Sika deer",
     "taxon": "Cervus nippon",
     "order": "Artiodactyla",
@@ -1250,6 +1289,7 @@
   {
     "id": 40,
     "warehouse_id": 440815,
+    "sort_id": 42,
     "english": "Chital",
     "taxon": "Axis axis",
     "order": "Artiodactyla",
@@ -1282,6 +1322,7 @@
   {
     "id": 41,
     "warehouse_id": 440829,
+    "sort_id": 43,
     "english": "White-tailed deer",
     "taxon": "Odocoileus virginianus",
     "order": "Artiodactyla",
@@ -1314,6 +1355,7 @@
   {
     "id": 42,
     "warehouse_id": 440872,
+    "sort_id": 20,
     "english": "Raccoon",
     "taxon": "Procyon lotor",
     "order": "Carnivora",
@@ -1346,6 +1388,7 @@
   {
     "id": 43,
     "warehouse_id": 440792,
+    "sort_id": 34,
     "english": "Barbary sheep",
     "taxon": "Ammotragus lervia",
     "order": "Artiodactyla",
