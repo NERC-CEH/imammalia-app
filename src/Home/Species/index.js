@@ -17,6 +17,7 @@ import ModalHeader from 'common/Components/ModalHeader';
 import { funnel } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
 import './images';
+import './thumbnails';
 import './maps';
 import species from './species.data.json';
 import speciesGroups from './species.groups.data.json';
@@ -152,7 +153,7 @@ class Component extends React.Component {
         <IonItem key={id} className="species-list-item" onClick={onClick}>
           <div
             style={{
-              backgroundImage: `url('/images/${id}.jpg')`,
+              backgroundImage: `url('/images/${id}_thumbnail.jpg')`,
             }}
           >
             <span className="label">{t(english)}</span>

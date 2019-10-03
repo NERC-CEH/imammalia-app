@@ -1,0 +1,47 @@
+/** ***************************************************************************
+ * Multi media loading file
+ **************************************************************************** */
+
+import "./1_thumbnail.jpg";
+import "./2_thumbnail.jpg";
+import "./3_thumbnail.jpg";
+import "./4_thumbnail.jpg";
+import "./5_thumbnail.jpg";
+import "./6_thumbnail.jpg";
+import "./7_thumbnail.jpg";
+import "./8_thumbnail.jpg";
+import "./9_thumbnail.jpg";
+import "./10_thumbnail.jpg";
+import "./11_thumbnail.jpg";
+import "./12_thumbnail.jpg";
+import "./13_thumbnail.jpg";
+import "./14_thumbnail.jpg";
+import "./15_thumbnail.jpg";
+import "./16_thumbnail.jpg";
+import "./17_thumbnail.jpg";
+import "./18_thumbnail.jpg";
+import "./19_thumbnail.jpg";
+import "./20_thumbnail.jpg";
+import "./21_thumbnail.jpg";
+import "./22_thumbnail.jpg";
+import "./23_thumbnail.jpg";
+import "./24_thumbnail.jpg";
+import "./25_thumbnail.jpg";
+import "./26_thumbnail.jpg";
+import "./27_thumbnail.jpg";
+import "./28_thumbnail.jpg";
+import "./29_thumbnail.jpg";
+import "./30_thumbnail.jpg";
+import "./31_thumbnail.jpg";
+import "./32_thumbnail.jpg";
+import "./33_thumbnail.jpg";
+import "./34_thumbnail.jpg";
+import "./35_thumbnail.jpg";
+import "./36_thumbnail.jpg";
+import "./37_thumbnail.jpg";
+import "./38_thumbnail.jpg";
+import "./39_thumbnail.jpg";
+import "./40_thumbnail.jpg";
+import "./41_thumbnail.jpg";
+import "./42_thumbnail.jpg";
+import "./43_thumbnail.jpg";
