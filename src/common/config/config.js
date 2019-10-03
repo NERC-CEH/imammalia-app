@@ -120,6 +120,7 @@ const CONFIG = {
         },
 
         date: {
+          label: 'Date',
           values(date) {
             return DateHelp.print(date);
           },
@@ -140,11 +141,11 @@ const CONFIG = {
         },
 
         number: {
+          label: 'Number',
           id: 16,
         },
 
         'number-ranges': {
-          label: 'Number',
           type: 'radio',
           id: 320,
           values: {
