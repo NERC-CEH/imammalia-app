@@ -36,7 +36,7 @@ const Record = observer(({ sample }) => {
   const date = new Date(sample.metadata.created_on);
   const prettyDate = date.toLocaleDateString();
   const occ = sample.occurrences.at(0);
-  const species = occ.get('taxon').english;
+  const species = occ && occ.get('taxon').english;
 
   const isSent = sample.metadata.server_on;
   const href =
