@@ -1032,3 +1032,12 @@ msgstr ""
 
 msgid "Small mustelid"
 msgstr ""
+
+msgid "Locating"
+msgstr ""
+
+msgid "Please add record location."
+msgstr ""
+
+msgid "Please select a species."
+msgstr ""

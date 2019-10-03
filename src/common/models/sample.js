@@ -105,7 +105,9 @@ let Sample = Indicia.Sample.extend({
     } catch (e) {
       return e;
     }
-    return null;
+
+    const occ = this.occurrences.at(0);
+    return occ.validateRemote();
   },
 
   /**

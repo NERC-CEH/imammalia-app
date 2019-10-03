@@ -1,7 +1,26 @@
 import Indicia from 'indicia';
+import * as Yup from 'yup';
 import { observable, toJS } from 'mobx';
 import CONFIG from 'config';
 import ImageModel from './image';
+
+const schema = Yup.object().shape({
+  taxon: Yup.mixed().test('species', 'Please select a species.', val => {
+    try {
+      Yup.object()
+        .shape({
+          english: Yup.string().required(),
+          id: Yup.number().required(),
+          taxon: Yup.string().required(),
+          warehouse_id: Yup.number().required(),
+        })
+        .validateSync(val);
+    } catch (e) {
+      return false;
+    }
+    return true;
+  }),
+});
 
 export default Indicia.Occurrence.extend({
   Media: ImageModel,
@@ -36,6 +55,15 @@ export default Indicia.Occurrence.extend({
     if (!mediaObj) return;
     mediaObj.setParent(this);
     this.media.add(mediaObj, { sort: false });
+  },
+
+  validateRemote() {
+    try {
+      schema.validateSync(this.attributes);
+    } catch (e) {
+      return e;
+    }
+    return null;
   },
 
   toJSON() {

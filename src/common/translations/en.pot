@@ -890,3 +890,12 @@ msgstr "Rat"
 
 msgid "Small mustelid"
 msgstr "Small mustelid"
+
+msgid "Locating"
+msgstr "Locating"
+
+msgid "Please add record location."
+msgstr "Please add record location."
+
+msgid "Please select a species."
+msgstr "Please select a species."
