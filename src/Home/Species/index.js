@@ -4,7 +4,6 @@ import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import {
   IonContent,
-  IonList,
   IonItem,
   IonModal,
   IonHeader,
@@ -12,6 +11,9 @@ import {
   IonButtons,
   IonButton,
   IonIcon,
+  IonGrid,
+  IonRow,
+  IonCol,
 } from '@ionic/react';
 import ModalHeader from 'common/Components/ModalHeader';
 import { funnel } from 'ionicons/icons';
@@ -150,7 +152,15 @@ class Component extends React.Component {
       }
 
       return (
-        <IonItem key={id} className="species-list-item" onClick={onClick}>
+        <IonCol
+          key={id}
+          className="species-list-item"
+          onClick={onClick}
+          size="6"
+          size-lg
+          no-padding
+          no-margin
+        >
           <div
             style={{
               backgroundImage: `url('/images/${id}_thumbnail.jpg')`,
@@ -158,7 +168,7 @@ class Component extends React.Component {
           >
             <span className="label">{t(english)}</span>
           </div>
-        </IonItem>
+        </IonCol>
       );
     });
   };
@@ -169,7 +179,11 @@ class Component extends React.Component {
         {this.getFiltersHeader()}
 
         <IonContent id="home-species" class="ion-padding">
-          <IonList lines="full">{this.getSpecies()}</IonList>
+          <IonGrid no-padding no-margin>
+            <IonRow no-padding no-margin>
+              {this.getSpecies()}
+            </IonRow>
+          </IonGrid>
           <IonModal isOpen={this.state.showModal}>
             <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
             {this.state.showModal && (
