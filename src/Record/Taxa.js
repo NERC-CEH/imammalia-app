@@ -23,6 +23,7 @@ class Component extends React.Component {
     const species = { english, taxon, warehouse_id, id };
     occ.set('taxon', species);
 
+    sample.save();
     window.history.back();
   };
 
