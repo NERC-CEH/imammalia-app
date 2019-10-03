@@ -84,12 +84,13 @@ class Container extends React.Component {
   async getNewSample() {
     const { savedSamples, appModel } = this.props;
     const draftID = appModel.get('recordDraftId');
-    let continueDraftRecord = false;
     if (draftID) {
-      continueDraftRecord = await showDraftAlert();
-    }
-    if (continueDraftRecord) {
-      return savedSamples.get(draftID);
+      const continueDraftRecord = await showDraftAlert();
+      if (continueDraftRecord) {
+        return savedSamples.get(draftID);
+      }
+      
+      savedSamples.get(draftID).destroy();
     }
 
     const sample = await createNewSample(savedSamples);
