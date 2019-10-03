@@ -12,7 +12,6 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 import { IonApp, IonPage, IonReactRouter, IonRouterOutlet } from '@ionic/react';
 import appModel from 'app_model';
 import userModel from 'user_model';
-import config from 'config';
 import savedSamples from 'saved_samples';
 import LanguageCountrySelectRequired from 'common/Components/LanguageCountrySelectRequired';
 import Menu from 'Settings/Menu';
@@ -69,12 +68,7 @@ const App = () => (
                     />
                   )}
                 />
-                <Route
-                  path="/info/about"
-                  render={() => (
-                    <About version={config.version} build={config.build} />
-                  )}
-                />
+                <Route path="/info/about" component={About} />
                 <Route path="/info/credits" component={Credits} />
                 <Route
                   path="/settings/menu"

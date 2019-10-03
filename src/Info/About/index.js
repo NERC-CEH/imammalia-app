@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   IonContent,
   IonList,
@@ -9,7 +8,7 @@ import {
 } from '@ionic/react';
 import AppHeader from 'common/Components/Header';
 
-const Component = props => (
+const Component = () => (
   <>
     <AppHeader title={t('About')} />
     <IonContent id="credits" class="ion-padding">
@@ -58,30 +57,15 @@ const Component = props => (
             <a href="https://flumens.io" style={{ whiteSpace: 'nowrap' }}>
               {' '}
               Flumens.
-            </a>
-            {' '}
+            </a>{' '}
             {t(
               'Agency specializing in building bespoke data oriented sollutions.'
-            )}
-            {' '}
-            {t('For suggestions and feedback please do not hesitate to')}
-            {' '}
+            )}{' '}
+            {t('For suggestions and feedback please do not hesitate to')}{' '}
             <a href="mailto:info%40flumens.io?subject=iMammalia%20App">
               {t('contact us')}
             </a>
             .
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>
-            <p className="app-version">
-              v
-              {props.version}
-              {' '}
-(
-              {props.build}
-)
-            </p>
           </IonLabel>
         </IonItem>
       </IonList>
@@ -89,9 +73,6 @@ const Component = props => (
   </>
 );
 
-Component.propTypes = {
-  version: PropTypes.string,
-  build: PropTypes.string,
-};
+Component.propTypes = {};
 
 export default Component;
