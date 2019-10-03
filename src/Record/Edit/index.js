@@ -12,7 +12,6 @@ async function createNewSample(savedSamples) {
   const sample = new Sample();
   const occurrence = new Occurrence();
   sample.addOccurrence(occurrence);
-  // sample.startGPS();
 
   // add to main collection
   savedSamples.add(sample);

@@ -24,6 +24,10 @@ class Container extends React.Component {
     const { match, savedSamples } = this.props;
     const sample = savedSamples.get(match.params.id);
 
+    if (sample.isGPSRunning()) {
+      sample.stopGPS();
+    }
+
     sample.setLocation(location);
   };
 
@@ -46,14 +50,12 @@ class Container extends React.Component {
 
     return (
       <>
-        <Header
-          toggleGPStracking={this.toggleGPStracking}
-          isGPSTracking={isGPSTracking}
-        />
+        <Header />
         <Main
-          isGPSTracking={isGPSTracking}
           location={location}
+          isGPSTracking={isGPSTracking}
           accurracy={accurracy}
+          toggleGPStracking={this.toggleGPStracking}
           setLocation={this.setLocation}
           setLocationAccurracy={this.setLocationAccurracy}
         />

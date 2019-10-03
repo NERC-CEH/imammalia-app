@@ -13,13 +13,12 @@ import {
 import { locate } from 'ionicons/icons';
 import CONFIG from 'config';
 import L from 'leaflet';
-import GPS from 'helpers/GPS';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
 import 'leaflet/dist/images/marker-icon-2x.png';
 import 'leaflet/dist/images/marker-shadow.png';
- 
+
 L.Icon.Default.imagePath = '/images/';
 
 const DEFAULT_POSITION = [47.946, 8.536];
@@ -32,14 +31,11 @@ class LocationAttr extends Component {
 
   static propTypes = {
     isGPSTracking: PropTypes.bool.isRequired,
+    toggleGPStracking: PropTypes.func.isRequired,
     setLocation: PropTypes.func.isRequired,
     setLocationAccurracy: PropTypes.func.isRequired,
     location: PropTypes.object,
     accurracy: PropTypes.string,
-  };
-
-  state = {
-    locating: false,
   };
 
   constructor(props) {
@@ -49,8 +45,17 @@ class LocationAttr extends Component {
   }
 
   componentDidMount() {
+    const { location } = this.props;
     const map = this.map.current.leafletElement;
-    map.panTo(new L.LatLng(...DEFAULT_POSITION));
+
+    if (location && location.latitude) {
+      map.setView(
+        [location.latitude, location.longitude],
+        DEFAULT_LOCATED_ZOOM
+      );
+    } else {
+      map.panTo(new L.LatLng(...DEFAULT_POSITION));
+    }
 
     this.context.onIonViewDidEnter(() => {
       // map.whenReady(() => {
@@ -59,51 +64,21 @@ class LocationAttr extends Component {
     });
   }
 
-  onGeolocate = async () => {
-    if (this.state.locating) {
-      this.stopGPS();
-      return;
-    }
-    const location = await this.startGPS();
-    const map = this.map.current.leafletElement;
-    map.setView(
-      new L.LatLng(location.latitude, location.longitude),
-      DEFAULT_LOCATED_ZOOM
-    );
-  };
+  componentDidUpdate(prevProps) {
+    const { location } = this.props;
+    const prevLocation = prevProps.location || {};
 
-  startGPS = () => {
-    return new Promise((resolve, reject) => {
-      const options = {
-        accuracyLimit: 160,
-
-        onUpdate: () => {},
-
-        callback: (error, location) => {
-          this.stopGPS();
-
-          if (error) {
-            this.stopGPS();
-            reject(error);
-            return;
-          }
-          resolve(location);
-        },
-      };
-
-      const locatingJobId = GPS.start(options);
-      this.setState({ locating: locatingJobId });
-    });
-  };
-
-  stopGPS = () => {
-    GPS.stop(this.state.locating);
-    this.setState({ locating: false });
-  };
-
-  componentWillUnmount() {
-    if (this.state.locating) {
-      this.stopGPS();
+    if (
+      location &&
+      location.latitude &&
+      (location.latitude !== prevLocation.latitude ||
+        location.longitude !== prevLocation.longitude)
+    ) {
+      const map = this.map.current.leafletElement;
+      map.setView(
+        [location.latitude, location.longitude],
+        DEFAULT_LOCATED_ZOOM
+      );
     }
   }
 
@@ -127,11 +102,11 @@ class LocationAttr extends Component {
       );
     }
 
-    if (location.source !== 'map') {
+    if (location.source !== 'map' && location.accuracy) {
       return (
         <IonItem>
           <IonLabel color="light" className="ion-text-center ion-text-wrap">
-            {t('Accurracy: ') + location.accurracy}
+            {`GPS ${t('Accuracy: ')} ${location.accuracy}m`}
           </IonLabel>
         </IonItem>
       );
@@ -159,7 +134,7 @@ class LocationAttr extends Component {
   };
 
   render() {
-    const { isGPSTracking, location } = this.props;
+    const { isGPSTracking, toggleGPStracking, location } = this.props;
 
     let markerPosition;
     if (location && location.latitude) {
@@ -167,7 +142,7 @@ class LocationAttr extends Component {
     }
 
     return (
-      <IonContent className={`${isGPSTracking ? 'GPStracking' : ''}`}>
+      <IonContent>
         <IonToolbar id="location-toolbar">{this.getToolbar()}</IonToolbar>
         <Map ref={this.map} zoom={DEFAULT_ZOOM} onClick={this.handleClick}>
           <TileLayer
@@ -177,8 +152,8 @@ class LocationAttr extends Component {
           />
           <LeafletControl position="topleft">
             <button
-              className={`geolocate-btn ${this.state.locating ? 'spin' : ''}`}
-              onClick={this.onGeolocate}
+              className={`geolocate-btn ${isGPSTracking ? 'spin' : ''}`}
+              onClick={toggleGPStracking}
             >
               <IonIcon icon={locate} mode="md" size="large" />
             </button>

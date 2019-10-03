@@ -8,17 +8,16 @@ import GPS from 'helpers/GPS';
 import Log from 'helpers/log';
 import { observable } from 'mobx';
 
-export function updateSampleLocation(sample, { latitude, longitude }) {
-  return sample.setLocation([longitude, latitude]);
-}
+const DEFAULT_ACCURACY_LIMIT = 50; // meters
 
 const extension = {
-  setLocation([longitude, latitude]) {
+  setLocation([longitude, latitude], source = 'map', accuracy) {
     return this.save({
       location: {
         latitude,
         longitude,
-        source: 'map',
+        source,
+        accuracy,
       },
     });
   },
@@ -34,12 +33,9 @@ const extension = {
 
   gpsExtensionInit() {
     this.gps = observable({ locating: null });
-
-    // TODO: remove
-    // window.testing.GPS.mock();
   },
 
-  startGPS(accuracyLimit) {
+  startGPS(accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
     Log('SampleModel:GPS: start.');
 
     // eslint-disable-next-line
@@ -55,10 +51,15 @@ const extension = {
           return;
         }
 
-        updateSampleLocation(that, {
-          latitude: parseInt(location.latitude, 10),
-          longitude: parseInt(location.longitude, 10),
-        });
+        if (location.accuracy <= options.accuracyLimit) {
+          that.stopGPS();
+        }
+
+        that.setLocation(
+          [parseInt(location.longitude, 10), parseInt(location.latitude, 10)],
+          'gps',
+          location.accuracy
+        );
       },
     };
 

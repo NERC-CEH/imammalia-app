@@ -28,22 +28,27 @@ class Record extends Component {
     const prettyNumber =
       occ.attributes.number || occ.attributes['number-ranges'];
 
+    const isGPSTracking = sample.isGPSRunning();
     let prettyLocation;
-    if (location && location.latitude) {
-      const { latitude, longitude } = location;
-      prettyLocation = (
-        <span>{`${latitude.toFixed(3)}, ${longitude.toFixed(3)}`}</span>
-      );
-    } else if (sample.isGPSRunning()) {
+    if (isGPSTracking) {
       prettyLocation = (
         <span className="warn">
           {t('Locating')}
           ...
         </span>
       );
+    } else if (location && location.latitude) {
+      const { latitude, longitude } = location || {};
+      prettyLocation = (
+        <span>{`${latitude.toFixed(3)}, ${longitude.toFixed(3)}`}</span>
+      );
     }
+    const { source } = location || {};
 
-    const locationAccuracy = sample.get('manual_location_accuracy');
+    const locationAccuracy =
+      isGPSTracking || source === 'gps'
+        ? ''
+        : sample.get('manual_location_accuracy');
 
     return (
       <IonContent id="record-edit">
