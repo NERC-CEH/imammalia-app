@@ -41,7 +41,7 @@ function showFiltersDialog(appModel) {
     xxl: t('Cow-Bison'),
   };
 
-  const inputs = Object.keys(sizes).map(size => ({
+  const checkboxes = Object.keys(sizes).map(size => ({
     name: 'size',
     type: 'checkbox',
     label: sizes[size],
@@ -51,7 +51,7 @@ function showFiltersDialog(appModel) {
 
   alert({
     header: t('Filter species size'),
-    inputs,
+    inputs: checkboxes,
 
     buttons: [
       {
@@ -78,10 +78,7 @@ class Component extends React.Component {
     onSpeciesClick: PropTypes.func,
   };
 
-  constructor(props) {
-    super(props);
-    this.state = { showModal: false, species: null };
-  }
+  state = { showModal: false, species: null };
 
   showSpeciesModal = id => {
     this.setState({ showModal: true, species: species[id - 1] });
@@ -118,19 +115,30 @@ class Component extends React.Component {
     const country = appModel.get('country');
 
     const isRecordingMode = !!onSpeciesClick;
-    const allSpecies = isRecordingMode
-      ? [...species, ...speciesGroups]
-      : species;
 
     const speciesFilter = appModel.get('speciesFilter');
-    const filteredSpecies = allSpecies
-      .filter(sp => country === 'ELSEWHERE' || sp[country] || sp.group)
-      .filter(sp =>
-        (speciesFilter.length && !isRecordingMode) ? speciesFilter.find(filter => sp[filter]) : true
-      )
-      .sort((sp1, sp2) => sp1.sort_id - sp2.sort_id);
+    const byCountry = sp => country === 'ELSEWHERE' || sp[country];
+    const shouldFilter = speciesFilter.length && !isRecordingMode;
+    const byEnabledFilters = sp =>
+      shouldFilter ? speciesFilter.find(filter => sp[filter]) : true;
+    const bySpeciesId = (sp1, sp2) => sp1.sort_id - sp2.sort_id;
 
-    return filteredSpecies.map(sp => {
+    const filteredSpecies = [...species]
+      .filter(byCountry)
+      .filter(byEnabledFilters)
+      .sort(bySpeciesId);
+
+    return isRecordingMode
+      ? [...filteredSpecies, ...speciesGroups]
+      : filteredSpecies;
+  };
+
+  getSpeciesGrid() {
+    const { onSpeciesClick } = this.props;
+
+    const speciesList = this.getSpecies();
+
+    const getSpeciesElement = sp => {
       const { id, english, group } = sp;
 
       const onClick = onSpeciesClick
@@ -170,8 +178,18 @@ class Component extends React.Component {
           </div>
         </IonCol>
       );
-    });
-  };
+    };
+
+    const speciesColumns = speciesList.map(getSpeciesElement);
+
+    return (
+      <IonGrid no-padding no-margin>
+        <IonRow no-padding no-margin>
+          {speciesColumns}
+        </IonRow>
+      </IonGrid>
+    );
+  }
 
   render() {
     return (
@@ -179,12 +197,8 @@ class Component extends React.Component {
         {this.getFiltersHeader()}
 
         <IonContent id="home-species" class="ion-padding">
-          <IonGrid no-padding no-margin>
-            <IonRow no-padding no-margin>
-              {this.getSpecies()}
-            </IonRow>
-          </IonGrid>
-        
+          {this.getSpeciesGrid()}
+
           <IonModal isOpen={this.state.showModal}>
             <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
             {this.state.showModal && (
