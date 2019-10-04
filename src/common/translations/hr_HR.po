@@ -1029,3 +1029,27 @@ msgstr ""
 
 msgid "Please select a species."
 msgstr ""
+
+msgid "Enjoying the app?"
+msgstr ""
+
+msgid "Not really"
+msgstr ""
+
+msgid "Yes!"
+msgstr ""
+
+msgid "Would you mind giving us some feedback?"
+msgstr ""
+
+msgid "No, thanks"
+msgstr ""
+
+msgid "OK, sure"
+msgstr ""
+
+msgid "How about a rating on the App Store then?"
+msgstr ""
+
+msgid "How about a rating on the Play Store then?"
+msgstr ""

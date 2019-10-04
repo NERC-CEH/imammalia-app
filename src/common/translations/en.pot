@@ -899,3 +899,27 @@ msgstr "Please add record location."
 
 msgid "Please select a species."
 msgstr "Please select a species."
+
+msgid "Enjoying the app?"
+msgstr "Enjoying the app?"
+
+msgid "Not really"
+msgstr "Not really"
+
+msgid "Yes!"
+msgstr "Yes!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr "Would you mind giving us some feedback?"
+
+msgid "No, thanks"
+msgstr "No, thanks"
+
+msgid "OK, sure"
+msgstr "OK, sure"
+
+msgid "How about a rating on the App Store then?"
+msgstr "How about a rating on the App Store then?"
+
+msgid "How about a rating on the Play Store then?"
+msgstr "How about a rating on the Play Store then?"
