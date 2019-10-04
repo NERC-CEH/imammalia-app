@@ -126,7 +126,7 @@ class Component extends React.Component {
     const filteredSpecies = allSpecies
       .filter(sp => country === 'ELSEWHERE' || sp[country] || sp.group)
       .filter(sp =>
-        speciesFilter.length ? speciesFilter.find(filter => sp[filter]) : true
+        (speciesFilter.length && !isRecordingMode) ? speciesFilter.find(filter => sp[filter]) : true
       )
       .sort((sp1, sp2) => sp1.sort_id - sp2.sort_id);
 
