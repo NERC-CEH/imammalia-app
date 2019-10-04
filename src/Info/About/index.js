@@ -6,7 +6,7 @@ import {
   IonListHeader,
   IonLabel,
 } from '@ionic/react';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 
 const Component = () => (
   <>

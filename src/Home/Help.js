@@ -1,7 +1,7 @@
 import React from 'react';
 import { IonContent, IonList, IonItemDivider, IonIcon } from '@ionic/react';
 import { settings, undo, person, add, send } from 'ionicons/icons';
-import Collapse from 'common/Components/Collapse/index';
+import Collapse from 'Components/Collapse/index';
 
 export default () => (
   <>
@@ -12,9 +12,7 @@ export default () => (
           <p>
             {t('To start a new record you can press the plus button')}
             <IonIcon icon={add} />
-            {t(
-              'in the home page footer.'
-            )}
+            {t('in the home page footer.')}
             <br />
             <br />
             {t(
@@ -34,23 +32,15 @@ export default () => (
             )}
             <br />
             <br />
-            {t('If the record has reached the database a red')}
-            {' '}
+            {t('If the record has reached the database a red')}{' '}
             <IonIcon icon={send} style={{ color: 'red' }} />
-            {t('(set for submission & saved locally) will become green')}
-            {' '}
-            <IonIcon icon={send} style={{ color: 'green' }} />
-            {' '}
-(
+            {t('(set for submission & saved locally) will become green')}{' '}
+            <IonIcon icon={send} style={{ color: 'green' }} /> (
             {t('synced to the database')}
             ).
             <br />
             <br />
-            <b>
-              {t('Note')}
-:
-            </b>
-            {' '}
+            <b>{t('Note')}:</b>{' '}
             {t(
               'you have to be signed in to your website account and have a network connection, for the records to be automatically synchronised in the background'
             )}
@@ -80,11 +70,7 @@ export default () => (
             .
             <br />
             <br />
-            <b>
-              {t('Note')}
-:
-            </b>
-            {' '}
+            <b>{t('Note')}:</b>{' '}
             {t(
               'after registering a new account you must verify your email address by clicking on a verification link sent to your email'
             )}
@@ -95,15 +81,10 @@ export default () => (
         <IonItemDivider>{t('Other')}</IonItemDivider>
         <Collapse title={t('Reset the application')}>
           <p>
-            {t('Go to the application settings page')}
-            {' '}
-            <IonIcon icon={settings} /> 
-            {' '}
-            {t('and click on the Reset')}
-            {' '}
+            {t('Go to the application settings page')}{' '}
+            <IonIcon icon={settings} /> {t('and click on the Reset')}{' '}
             <IonIcon icon={undo} />
-            {t('button')}
-.
+            {t('button')}.
           </p>
         </Collapse>
       </IonList>

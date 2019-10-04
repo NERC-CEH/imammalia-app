@@ -1,6 +1,6 @@
 import React from 'react';
-import RadioInput from 'common/Components/RadioInput';
-import SliderInput from 'common/Components/SliderInput';
+import RadioInput from 'Components/RadioInput';
+import SliderInput from 'Components/SliderInput';
 import PropTypes from 'prop-types';
 
 class Component extends React.Component {

@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { IonContent, IonIcon, IonButton, IonList } from '@ionic/react';
 import { person, mail, key, lock, eye, eyeOff } from 'ionicons/icons';
 import { Formik, Form } from 'formik';
-import InputWithValidation from 'common/Components/InputWithValidation';
-import ToggleWithValidation from 'common/Components/ToggleWithValidation';
+import InputWithValidation from 'Components/InputWithValidation';
+import ToggleWithValidation from 'Components/ToggleWithValidation';
 import config from 'config';
 
 class Component extends React.Component {

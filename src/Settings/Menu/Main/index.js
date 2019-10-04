@@ -1,7 +1,7 @@
 import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
-import Toggle from 'common/Components/Toggle';
+import Toggle from 'Components/Toggle';
 import {
   IonContent,
   IonIcon,

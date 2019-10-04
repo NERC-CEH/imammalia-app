@@ -16,8 +16,6 @@ async function init() {
   await userModel._init;
   await savedSamples._init;
 
-  // TODO: Update.run()
-  
   if (window.cordova) {
     document.addEventListener(
       'deviceready',

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { IonContent, IonButton, IonList } from '@ionic/react';
 import { person } from 'ionicons/icons';
 import { Formik, Form } from 'formik';
-import InputWithValidation from 'common/Components/InputWithValidation';
+import InputWithValidation from 'Components/InputWithValidation';
 
 const Component = ({ onSubmit, schema }) => {
   return (

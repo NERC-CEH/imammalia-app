@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import Species from 'Home/Species';
 import { observer } from 'mobx-react';
 

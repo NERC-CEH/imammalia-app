@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import './styles.scss';
 
 const Header = observer(() => {

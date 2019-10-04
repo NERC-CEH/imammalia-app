@@ -41,6 +41,7 @@ const config = {
       occurrence: 'common/models/occurrence',
       app_model: 'common/models/app_model',
       user_model: 'common/models/user_model',
+      Components: 'common/Components',
     },
   },
   module: {

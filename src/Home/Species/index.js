@@ -15,15 +15,15 @@ import {
   IonRow,
   IonCol,
 } from '@ionic/react';
-import ModalHeader from 'common/Components/ModalHeader';
+import ModalHeader from 'Components/ModalHeader';
 import { funnel } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
-import './images';
-import './thumbnails';
-import './maps';
 import species from './species.data.json';
 import speciesGroups from './species.groups.data.json';
 import SpeciesProfile from './components/SpeciesProfile';
+import './images';
+import './thumbnails';
+import './maps';
 import './styles.scss';
 
 function showFiltersDialog(appModel) {
@@ -184,6 +184,7 @@ class Component extends React.Component {
               {this.getSpecies()}
             </IonRow>
           </IonGrid>
+        
           <IonModal isOpen={this.state.showModal}>
             <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
             {this.state.showModal && (

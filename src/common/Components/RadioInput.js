@@ -1,6 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { IonItemDivider } from '@ionic/react';
+import {
+  IonItemDivider,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonRadioGroup,
+  IonRadio,
+} from '@ionic/react';
 
 class Component extends React.PureComponent {
   onChange = e => {
@@ -32,14 +39,14 @@ class Component extends React.PureComponent {
             return [...agg, divider, ...generateInputs(option.values)];
           }
           const input = (
-            <ion-item key={option.label || option.value}>
-              <ion-label>{t(option.label || option.value)}</ion-label>
-              <ion-radio
+            <IonItem key={option.label || option.value}>
+              <IonLabel>{t(option.label || option.value)}</IonLabel>
+              <IonRadio
                 value={option.value}
                 checked={option.value === selected}
                 onClick={this.onChange}
               />
-            </ion-item>
+            </IonItem>
           );
 
           return [...agg, input];
@@ -55,9 +62,9 @@ class Component extends React.PureComponent {
             </div>
           )}
 
-          <ion-list lines="full">
-            <ion-radio-group>{inputs}</ion-radio-group>
-          </ion-list>
+          <IonList lines="full">
+            <IonRadioGroup>{inputs}</IonRadioGroup>
+          </IonList>
         </div>
       );
     }
@@ -73,14 +80,14 @@ class Component extends React.PureComponent {
     const selected = this.props.default || config.default;
 
     const inputs = selection.map(option => (
-      <ion-item key={option.label || option.value}>
-        <ion-label>{t(option.label || option.value)}</ion-label>
-        <ion-radio
+      <IonItem key={option.label || option.value}>
+        <IonLabel>{t(option.label || option.value)}</IonLabel>
+        <IonRadio
           value={option.value}
           checked={option.value === selected}
           onClick={this.onChange}
         />
-      </ion-item>
+      </IonItem>
     ));
 
     return (
@@ -91,9 +98,9 @@ class Component extends React.PureComponent {
           </div>
         )}
 
-        <ion-list lines="full">
-          <ion-radio-group>{inputs}</ion-radio-group>
-        </ion-list>
+        <IonList lines="full">
+          <IonRadioGroup>{inputs}</IonRadioGroup>
+        </IonList>
       </div>
     );
   }

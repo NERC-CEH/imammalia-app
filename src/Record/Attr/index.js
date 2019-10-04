@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { IonContent } from '@ionic/react';
-import AppHeader from 'common/Components/Header';
-import RadioInput from 'common/Components/RadioInput';
-import Input from 'common/Components/Input';
-import Textarea from 'common/Components/Textarea';
+import AppHeader from 'Components/Header';
+import RadioInput from 'Components/RadioInput';
+import Input from 'Components/Input';
+import Textarea from 'Components/Textarea';
 import { observer } from 'mobx-react';
 import config from 'config';
 import NumberAttr from './components/NumberAttr';

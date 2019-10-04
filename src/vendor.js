@@ -12,5 +12,4 @@ import 'backbone.localstorage';
 import 'react';
 import 'react-dom';
 import 'indicia';
-import 'bigu';
 import 'leaflet/dist/leaflet.css';

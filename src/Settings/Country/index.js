@@ -14,7 +14,7 @@ import {
 } from '@ionic/react';
 import { flag } from 'ionicons/icons';
 import { countries } from 'helpers/translator';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import './styles.scss';
 
 function SelectCountry({ appModel, hideHeader }) {

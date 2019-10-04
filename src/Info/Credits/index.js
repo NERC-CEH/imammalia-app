@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonList, IonItem, IonLabel } from '@ionic/react';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import species from 'Home/Species/species.data.json';
 import './styles.scss';
 

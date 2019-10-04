@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import Log from 'helpers/log';
 import alert from 'common/helpers/alert';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import Main from './Main';
 
 function showLogoutConfirmationDialog(callback) {

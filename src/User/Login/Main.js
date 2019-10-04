@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { IonContent, IonIcon, IonButton, IonList, IonItem } from '@ionic/react';
 import { key, person, eye, eyeOff } from 'ionicons/icons';
 import { Formik, Form } from 'formik';
-import InputWithValidation from 'common/Components/InputWithValidation';
+import InputWithValidation from 'Components/InputWithValidation';
 import './styles.scss';
 
 class Component extends React.Component {

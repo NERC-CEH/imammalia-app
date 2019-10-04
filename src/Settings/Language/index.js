@@ -13,7 +13,7 @@ import {
 } from '@ionic/react';
 import { globe } from 'ionicons/icons';
 import { languages } from 'helpers/translator';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import './styles.scss';
 
 function SelectLanguage({ appModel, hideHeader }) {

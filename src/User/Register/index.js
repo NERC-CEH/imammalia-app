@@ -4,7 +4,7 @@ import Log from 'helpers/log';
 import Device from 'helpers/device';
 import alert from 'common/helpers/alert';
 import loader from 'common/helpers/loader';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import Main from './Main';
 
 async function onRegister(userModel, details) {

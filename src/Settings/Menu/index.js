@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import { observer } from 'mobx-react';
 import savedSamples from 'saved_samples';
-import AppHeader from 'common/Components/Header';
+import AppHeader from 'Components/Header';
 import Main from './Main';
 
 function resetApp(appModel, userModel) {

@@ -4,8 +4,8 @@
   "title": "iMammalia App",
   "description": "iMammalia mobile application.",
   "version": "1.0.0",
-  "build": "1",
-  "homepage": "http://",
+  "build": "2",
+  "homepage": "https://european-mammals.brc.ac.uk",
   "scripts": {
     "build": "NODE_ENV=production grunt",
     "build:update": "NODE_ENV=production grunt update",
@@ -22,9 +22,7 @@
     "test": "karma start test/karma.conf.js",
     "test:watch": "karma start test/karma.conf.js --no-single-run",
     "test:sauce": "karma start test/karma.conf-sauce.js",
-    "test:eslint": "mocha test/eslint-test.js",
-    "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "test:eslint": "mocha test/eslint-test.js"
   },
   "husky": {
     "hooks": {
@@ -37,7 +35,6 @@
     "@ionic/react": "0.0.7",
     "backbone": "1.4.0",
     "backbone.localstorage": "2.0.2",
-    "bigu": "kazlauskis/bigu#v0.2.2",
     "cordova": "9.0.0",
     "core-js": "3.2.1",
     "formik": "^1.5.4",

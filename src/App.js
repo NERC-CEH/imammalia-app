@@ -1,19 +1,16 @@
-// /** ****************************************************************************
-//  * App start.
-//  **************************************************************************** */
-
 import 'helpers/system_checkup';
 import 'helpers/analytics';
-
-import React from 'react'; // eslint-disable-line
 import 'helpers/translator';
-
+import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import { IonApp, IonPage, IonReactRouter, IonRouterOutlet } from '@ionic/react';
+import '@ionic/core/css/core.css';
+import '@ionic/core/css/ionic.bundle.css';
+import 'common/styles/app.scss';
 import appModel from 'app_model';
 import userModel from 'user_model';
 import savedSamples from 'saved_samples';
-import LanguageCountrySelectRequired from 'common/Components/LanguageCountrySelectRequired';
+import LanguageCountrySelectRequired from 'Components/LanguageCountrySelectRequired';
 import Menu from 'Settings/Menu';
 import Language from 'Settings/Language';
 import Country from 'Settings/Country';
@@ -24,12 +21,8 @@ import Reset from './User/Reset';
 import InfoMenu from './Info/Menu';
 import About from './Info/About';
 import Credits from './Info/Credits';
-import Record from './Record';
 import SplashScreenRequired from './Info/SplashScreenRequired';
-import '@ionic/core/css/core.css';
-import '@ionic/core/css/ionic.bundle.css';
-import './common/styles/app.scss';
-import './Home/styles.scss';
+import Record from './Record';
 
 const App = () => (
   <IonApp>
