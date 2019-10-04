@@ -5,9 +5,10 @@ import { remove, add } from 'ionicons/icons';
 import './styles.scss';
 
 class Collapse extends Component {
+  state = { open: false };
+
   constructor(props) {
     super(props);
-    this.state = { open: false };
     this.onClick = this.onClick.bind(this);
   }
 
