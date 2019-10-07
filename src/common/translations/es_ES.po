@@ -1,11 +1,11 @@
 # Translators:
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2019
 # Karolis, 2019
+# Jose A Blanco <joseantonio.blanco@uclm.es>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2019\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/ceh/teams/103078/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1077,107 +1077,117 @@ msgstr "Especies"
 
 msgid "Enter your username or email address to request a password reset."
 msgstr ""
+"Introduzca su nombre de usuario o e-mail para solicitar que se restablezca "
+"una nueva contraseña"
 
 msgid "User not found."
-msgstr ""
+msgstr "Usuario no localizado"
 
 msgid "We've sent an email to you"
-msgstr ""
+msgstr "Le hemos enviado un email"
 
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
+"Haz clic en el enlace del correo electrónico para restablecer tu contraseña."
+" Si no ve el correo electrónico, revisa otros lugares como tu correo basura,"
+" spam u otras carpetas."
 
 msgid "App Development"
-msgstr ""
+msgstr "Desarrollo de aplicaciones"
 
 msgid "This app was hand crafted with love by"
-msgstr ""
+msgstr "Esta aplicación fue hecha a mano con mucho cariño por"
 
 msgid "Agency specializing in building bespoke data oriented sollutions."
 msgstr ""
+"Agencia especializada en la construcción de soluciones a medida y orientadas"
+" a la gestión de datos."
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr ""
+msgstr "Para sugerencias y comentarios, por favor no dude en"
 
 msgid "contact us"
-msgstr ""
+msgstr "contactarnos"
 
 msgid "This App was produced through MammalNet and funded by EFSA."
 msgstr ""
+"Esta aplicación fue producida gracias a MammalNet y financiada por la EFSA."
 
 msgid "Maps produced"
-msgstr ""
+msgstr "Mapas producidos"
 
 msgid "Photo credits:"
-msgstr ""
+msgstr "Créditos de fotos"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
+"Marque los registros nuevos como \"entrenamiento\" y descártelos de todos "
+"sus registros."
 
 msgid "Distribution"
-msgstr ""
+msgstr "Distribución"
 
 msgid "Hedgehog"
-msgstr ""
+msgstr "Erizos"
 
 msgid "(unknown species)"
-msgstr ""
+msgstr "(especie desconocida)"
 
 msgid "Shrew"
-msgstr ""
+msgstr "Musarañas"
 
 msgid "Mole"
-msgstr ""
+msgstr "Topo"
 
 msgid "Lagomorph"
-msgstr ""
+msgstr "Lagomorfo"
 
 msgid "Small rodent"
-msgstr ""
+msgstr "Roedores pequeños"
 
 msgid "Vole"
-msgstr ""
+msgstr "Topillo"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Ratón"
 
 msgid "Rat"
-msgstr ""
+msgstr "Rata"
 
 msgid "Small mustelid"
-msgstr ""
+msgstr "Mustélidos pequeños"
 
 msgid "Locating"
-msgstr ""
+msgstr "Localizando"
 
 msgid "Please add record location."
-msgstr ""
+msgstr "Por favor, añada la localización geográfica del registro"
 
 msgid "Please select a species."
-msgstr ""
+msgstr "Por favor seleccione una especie"
 
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "¿Te gusta esta aplicación?"
 
 msgid "Not really"
-msgstr ""
+msgstr "En realidad, No"
 
 msgid "Yes!"
-msgstr ""
+msgstr "SÍ"
 
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "¿Le importaría darnos su opinión?"
 
 msgid "No, thanks"
-msgstr ""
+msgstr "NO, gracias"
 
 msgid "OK, sure"
-msgstr ""
+msgstr "Ok, seguro"
 
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "¿Qué tal si valora la app en el App Store?"
 
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "¿Qué tal si valora al app en el Play Store?"
