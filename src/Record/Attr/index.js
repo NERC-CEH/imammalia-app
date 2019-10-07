@@ -83,7 +83,6 @@ class Component extends React.Component {
 
     switch (this.attrConfig.type) {
       case 'date':
-      case 'input':
         return (
           <Input
             type="date"
