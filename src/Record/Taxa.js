@@ -8,13 +8,14 @@ import { observer } from 'mobx-react';
 class Component extends React.Component {
   static propTypes = {
     match: PropTypes.object,
+    history: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
   };
 
   // eslint-disable-next-line camelcase
   onSpeciesClick = ({ english, taxon, warehouse_id, id }) => {
-    const { match, savedSamples } = this.props;
+    const { history, match, savedSamples } = this.props;
 
     const sampleID = match.params.id;
     const sample = savedSamples.get(sampleID);
@@ -24,7 +25,7 @@ class Component extends React.Component {
     occ.set('taxon', species);
 
     sample.save();
-    window.history.back();
+    history.replace(`/record/${sampleID}/edit`);
   };
 
   render() {

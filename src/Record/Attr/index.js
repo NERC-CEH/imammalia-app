@@ -12,6 +12,7 @@ import NumberAttr from './components/NumberAttr';
 @observer
 class Component extends React.Component {
   static propTypes = {
+    history: PropTypes.object,
     match: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
   };
@@ -43,7 +44,9 @@ class Component extends React.Component {
     this.model.save();
 
     if (this.attrConfig.type === 'radio') {
-      window.history.back();
+      const { history, match } = this.props;
+      const sampleID = match.params.id;
+      history.replace(`/record/${sampleID}/edit`);
     }
   };
 
@@ -61,7 +64,9 @@ class Component extends React.Component {
     this.model.set('number', null);
     this.model.save();
 
-    window.history.back();
+    const { history, match } = this.props;
+    const sampleID = match.params.id;
+    history.replace(`/record/${sampleID}/edit`);
   };
 
   getAttr = () => {
