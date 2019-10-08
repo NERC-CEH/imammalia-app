@@ -738,25 +738,25 @@ msgid "European rabbit"
 msgstr "Kunić"
 
 msgid "Broom hare"
-msgstr ""
+msgstr "Kantabrijski zec ?"
 
 msgid "Brown hare"
 msgstr " Zec obični (Europski zec )"
 
 msgid "Mountain hare"
-msgstr ""
+msgstr "Planinski zec ?"
 
 msgid "Granada hare"
-msgstr ""
+msgstr "Iberijski zec ?"
 
 msgid "Red squirrel"
 msgstr "Crvena vjeverica"
 
 msgid "Barbary ground squirrel"
-msgstr ""
+msgstr "Prugasta vjeverica ?"
 
 msgid "Spotted souslik"
-msgstr ""
+msgstr "Pjegava tekunica ?"
 
 msgid "Alpine marmot"
 msgstr "Alpski svizac"
@@ -789,13 +789,13 @@ msgid "Eurasian badger"
 msgstr "Jazavac"
 
 msgid "Egyptian mongoose"
-msgstr ""
+msgstr "Egipatski mungos ?"
 
 msgid "Small Indian mongoose"
 msgstr "Mali indijski mungos"
 
 msgid "Common genet"
-msgstr ""
+msgstr "Europska cibetka ?"
 
 msgid "Wildcat"
 msgstr "Divlja mačka"
@@ -816,16 +816,16 @@ msgid "European mouflon"
 msgstr "Europski muflon"
 
 msgid "Alpine ibex"
-msgstr ""
+msgstr "Kozorog"
 
 msgid "Spanish ibex"
-msgstr ""
+msgstr "Španjolski kozorog ?"
 
 msgid "Chamois, Alpine"
 msgstr "Divokoza"
 
 msgid "Chamois, southern"
-msgstr ""
+msgstr "Pirinejska divokoza ?"
 
 msgid "Red deer"
 msgstr "Jelen obični"
@@ -834,7 +834,7 @@ msgid "Fallow deer"
 msgstr "Jelen lopatar"
 
 msgid "Elk"
-msgstr ""
+msgstr "Kanadski jelen ?"
 
 msgid "Roe deer"
 msgstr "Srna obična"
@@ -1073,7 +1073,7 @@ msgid "Maps produced"
 msgstr "Karte su izrađene"
 
 msgid "Photo credits:"
-msgstr ""
+msgstr "Fotografija od:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
