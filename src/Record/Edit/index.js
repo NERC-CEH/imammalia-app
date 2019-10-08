@@ -89,7 +89,7 @@ class Container extends React.Component {
       if (continueDraftRecord) {
         return savedSamples.get(draftID);
       }
-      
+
       savedSamples.get(draftID).destroy();
     }
 
@@ -116,7 +116,7 @@ class Container extends React.Component {
     sample.toggleGPStracking(false);
 
     sample.metadata.saved = true;
-    sample.save(null, { remote: true });
+    sample.save().then(() => sample.save(null, { remote: true })); // remote save doesn't preserve metadata.saved on upload error
     history.replace(`/home/user-records`);
   };
 
