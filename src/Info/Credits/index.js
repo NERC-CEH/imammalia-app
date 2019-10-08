@@ -19,7 +19,7 @@ export default () => (
             {`${t('Maps produced')} © Societas Europaea Mammalogica 2019`}
           </IonLabel>
         </IonItem>
-        <IonItem>
+        <IonItem lines="none">
           <IonLabel>
             Icons made by{' '}
             <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
@@ -45,17 +45,58 @@ export default () => (
         </IonItem>
         <IonItem lines="none">
           <IonLabel>
-            <a href="https://www.ceh.ac.uk/staff/david-roy">
-              <b>David Roy</b> (the Centre for Ecology & Hydrology)
-            </a>
+            David Roy
           </IonLabel>
         </IonItem>
-        <IonItem>
+        <IonItem lines="none">
           <IonLabel>
-            <a href="https://flumens.io">
-              <b>Karolis Kazlauskis</b> (App developer)
-            </a>
+              Karolis Kazlauskis
           </IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Graham Smith</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Joaquin Vicente</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Jose A Blanco</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Oliver Keuling</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Karolina Petrović</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Massimo Scandura</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Nikica Šprem</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Nera Fabijanić</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Carmen Ruiz</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Javier Fernández López</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Phil Stephens</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Lucy Zhang</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Sammy Mason</IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Emily Townley </IonLabel>
+        </IonItem>
+        <IonItem lines="none">
+          <IonLabel>Magnus Bower</IonLabel>
         </IonItem>
       </IonList>
 
