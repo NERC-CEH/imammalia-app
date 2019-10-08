@@ -1,10 +1,11 @@
 # Translators:
 # Karolis, 2019
+# Oliver Keuling <Oliver.Keuling@tiho-hannover.de>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Oliver Keuling <Oliver.Keuling@tiho-hannover.de>, 2019\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/103078/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,375 +15,410 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 
 msgid "Select your country"
-msgstr ""
+msgstr "Wählen Sie Ihr Land"
 
 msgid "United Kingdom"
-msgstr ""
+msgstr "Groß Britannien"
 
 msgid "Skip"
-msgstr ""
+msgstr "Überspringen"
 
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 msgid "Get Started"
-msgstr ""
+msgstr "Loslegen!"
 
 msgid "Please sign in with your account or register."
 msgstr ""
+"Bitte tragen Sie sich mit ihrem account oder Ihrere Registrierung ein! sign "
+"in!"
 
 msgid "Username or email"
-msgstr ""
+msgstr "Benutzername oder email"
 
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 msgid "Sign in"
-msgstr ""
+msgstr "Sign in"
 
 msgid "Register"
-msgstr ""
+msgstr "Registrieren"
 
 msgid "Forgot password?"
-msgstr ""
+msgstr "Passwort vergessen?"
 
 msgid "Login"
-msgstr ""
+msgstr "Einloggen"
 
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Datenschutz"
 
 msgid "Credits"
-msgstr ""
+msgstr "Danksagungen"
 
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 msgid "First Name"
-msgstr ""
+msgstr "Vorname"
 
 msgid "Surname"
-msgstr ""
+msgstr "Name"
 
 msgid "I agree to"
-msgstr ""
+msgstr "Ich stimme zu"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Allgemeine Geschäftsbedingungen"
 
 msgid "Enter your username or email address to request a password reset"
 msgstr ""
+"Geben Sie bitte Ihren Benutzernamen oder Emailadresse ein, um ein neues "
+"Passwort anzufordern!"
 
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 msgid "Upload All"
-msgstr ""
+msgstr "Alles hochladen"
 
 msgid "Remove All Saved"
-msgstr ""
+msgstr "Alles Gespeicherte löschen"
 
 msgid "Application"
-msgstr ""
+msgstr "Anwendung"
 
 msgid "Training Mode"
-msgstr ""
+msgstr "Test-Modus"
 
 msgid "Experimental Features"
-msgstr ""
+msgstr "Versuchsanordnung"
 
 msgid "Welcome"
-msgstr ""
+msgstr "Wilkommen!"
 
 msgid "Lets start!"
-msgstr ""
+msgstr "Lass uns beginnen!"
 
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 msgid "App"
-msgstr ""
+msgstr "App/Anwendung"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
 msgstr ""
+"Wir sind allen Personen dankbar, die bei der Erstellung dieser App geholfen "
+"haben:"
 
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Entschuldigung, Sie sind anscheinend offline!"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Sorry"
-msgstr ""
+msgstr "Sorry"
 
 msgid "Please wait..."
-msgstr ""
+msgstr "Bitte warten..."
 
 msgid "name is a required field"
-msgstr ""
+msgstr "Das Feld \"Name\" ist zwingend erforderlich"
 
 msgid "password is a required field"
-msgstr ""
+msgstr "Das Feld \"Passwort\" ist zwingend erforderlich"
 
 msgid "Login error:"
-msgstr ""
+msgstr "Login Fehler:"
 
 msgid "Failed to fetch"
-msgstr ""
+msgstr "Konnte nicht geladen werden"
 
 msgid "Incorrect password or email."
-msgstr ""
+msgstr "Passwort oder Email nicht korrekt!"
 
 msgid "Logout"
-msgstr ""
+msgstr "Logout"
 
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "Sind Sie sicher, dass sie sich ausloggen wollen?"
 
 msgid "This will delete all the records on this device."
-msgstr ""
+msgstr "Dieses wird alle Eintragungen in diesem Endgerät löschen!"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 msgid "Welcome aboard!"
-msgstr ""
+msgstr "Willkommen an Bord!"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
+"Befor Sie mit den Eintragungen starten cheken Sie bitte Ihre emails und "
+"klicken Sie auf den Bestätigungs-Link."
 
 msgid "OK, got it"
-msgstr ""
+msgstr "OK, das habe ich verstanden!"
 
 msgid "email is a required field"
-msgstr ""
+msgstr "email ist ein benötigtes Feld"
 
 msgid "firstname is a required field"
-msgstr ""
+msgstr "Das Feld \"Vorname\" ist zwingend benötigt!"
 
 msgid "secondname is a required field"
-msgstr ""
+msgstr "Das Feld \"Name\" ist zwingen benötigt!"
 
 msgid "must accept terms and conditions"
-msgstr ""
+msgstr "SIe müssen die allgemeinen Geschäfstbedingungen akzeptieren"
 
 msgid "Species"
-msgstr ""
+msgstr "Art"
 
 msgid "Count"
-msgstr ""
+msgstr "Anzahl"
 
 msgid "Comment"
-msgstr ""
+msgstr "Anmerkungen"
 
 msgid "Draft"
-msgstr ""
+msgstr "Entwurf"
 
 msgid "Previous record draft exists, would you like to continue it?"
 msgstr ""
+"Vorherige Entwürfe für Eintragungen existieren, möchten Sie diese "
+"fortführen?"
 
 msgid "Discard"
-msgstr ""
+msgstr "Verwerfen"
 
 msgid "Continue"
-msgstr ""
+msgstr "Fortfahren"
 
 msgid "Finish"
-msgstr ""
+msgstr "Abschließen"
 
 msgid "No species added"
-msgstr ""
+msgstr "Keine Art hinzugefügt"
 
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 msgid "Records"
-msgstr ""
+msgstr "Eintragungen"
 
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie diese Eintragung löschen möchten?"
 
 msgid "No finished records"
-msgstr ""
+msgstr "Keine abgeschlossenen Eintragungen"
 
 msgid "Finished records"
-msgstr ""
+msgstr "Abgeschlossene Eintragungen"
 
 msgid "Done"
-msgstr ""
+msgstr "Erledigt"
 
 msgid "Record incomplete"
-msgstr ""
+msgstr "Eintragung unvollständig"
 
 msgid "The record is not complete yet."
-msgstr ""
+msgstr "Diese Eintragung ist noch nicht vollständig"
 
 msgid "Choose a method to upload a photo"
-msgstr ""
+msgstr "Wählen Sie eine Methode, um ein Foto hochzuladen"
 
 msgid "Gallery"
-msgstr ""
+msgstr "Gallerie"
 
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 msgid "Are you sure you want to remove this photo from the record?"
 msgstr ""
+"Sind Sie sicher, dass Sie dieses Foto aus der Eintragung entfernen wollen?"
 
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Beachte: Es bleibt in der Gallerie gespeichert."
 
 msgid "No photo has been added"
-msgstr ""
+msgstr "Es wurde keine Foto hinzugefügt"
 
 msgid "Registration error:"
-msgstr ""
+msgstr "Registrierungsfehler:"
 
 msgid "Incorrect password or email"
-msgstr ""
+msgstr "Falsches Passwort oder Email"
 
 msgid "email is not valid"
-msgstr ""
+msgstr "Die Email ist nicht gültig"
 
 msgid "Paused"
-msgstr ""
+msgstr "Pausiert"
 
 msgid "Pending"
-msgstr ""
+msgstr "Ausstehend"
 
 msgid "Uploaded"
-msgstr ""
+msgstr "Hochgeladen"
 
 msgid "No finished pending records"
-msgstr ""
+msgstr "Keine abgeschlossenen ausstehenden Eintragungen"
 
 msgid "No uploaded records"
-msgstr ""
+msgstr "Keine hochgeladenen Eintragungen"
 
 msgid "How to start a record"
-msgstr ""
+msgstr "Wie starte ich eine Eintragung?"
 
 msgid "To start a new record you can press the plus button"
-msgstr ""
+msgstr "Drücken Sie die plus-Schaltfläche für eine neue Eintragung"
 
 msgid "in the home page footer."
-msgstr ""
+msgstr "in der Fußzeile der home page"
 
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
 "header."
 msgstr ""
+"Wenn Sie fertig sind, die Eintragung abzuschicken, drücken Sie die "
+"Abschließen-Schaltfläche in der Kopfzeile"
 
 msgid "Sync. with the website"
-msgstr ""
+msgstr "Mit der Webseite synchronisieren"
 
 msgid "All your saved records will be shown on your account page."
 msgstr ""
+"Alle von Ihnen gespeicherten Eintragungen werden auf Ihrer Account-Seite "
+"angezeigt"
 
 msgid ""
 "By default a record is in a 'draft' mode which will not be sent to the "
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
+"Alle Eintragungen werden zunächst laut Grundeinstellung im \"Entwurfs-"
+"Modus\" angelegt. Diese werden nicht an die Datenbank gesendet bevor Sie die"
+" \"Abschließen-Schaltfläche\" in der Kopfzeile klicken. Die App wird "
+"versuchen die Daten zu senden, sobald Sie eine gute Internetverbindung "
+"haben."
 
 msgid "If the record has reached the database a red"
-msgstr ""
+msgstr "Wenn die Eintragung in der Datenbank angekommen ist, das rote"
 
 msgid "(set for submission & saved locally) will become green"
-msgstr ""
+msgstr "(bereit für absenden und lokal gespeichert) wird grün werden."
 
 msgid "synced to the database"
-msgstr ""
+msgstr "mit der Datenbank synchronisiert"
 
 msgid "Note"
-msgstr ""
+msgstr "Notiz"
 
 msgid ""
 "you have to be signed in to your website account and have a network "
 "connection, for the records to be automatically synchronised in the "
 "background"
 msgstr ""
+"Sie müssen zu ihrem Webseiten-Account eingelogged sein und "
+"Internetverbindung haben, damit die Eintragung automatisch im Hintergrund "
+"synchronisiert wird."
 
 msgid "Delete a record"
-msgstr ""
+msgstr "Eine Eintragung löschen"
 
 msgid ""
 "To delete a record, swipe it left in your account page and click the delete "
 "button."
 msgstr ""
+"Um eine Eintragung zu löschen, markieren Sie es links in Ihrerer Account-"
+"Seite und klicken Sie die Löschen-Schaltfläche"
 
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 msgid "Sign in/out or register"
-msgstr ""
+msgstr "einloggen/ausloggen oder registrieren"
 
 msgid ""
 "To login, open the main menu page click Login or Register buttons and follow"
 " the instructions."
 msgstr ""
+"Um sich einzuloggen, öffnen Sie bitte das Hauptmenü und klicken \"Login\" "
+"oder \"Registrieren\" und folgen den Anweisungen"
 
 msgid "To logout, visit the main menu page and click the logout button."
 msgstr ""
+"Um sich auszuloggen besuchen Sie bitte das Hauptmenü und klicken die "
+"\"Logout\" Schaltfläche"
 
 msgid ""
 "after registering a new account you must verify your email address by "
 "clicking on a verification link sent to your email"
 msgstr ""
+"nach der Registrierung eines neuen Accounts müssen Sie ihre email-Addresse "
+"bestätigen. Klicken Sie hierzu bitte auf den Bestätigungslink in der an Sie "
+"gesendeten email."
 
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 msgid "Reset the application"
-msgstr ""
+msgstr "App zurücksetzen"
 
 msgid "Go to the application settings page"
-msgstr ""
+msgstr "Gehe zur Seite \"App-Einstellungen\""
 
 msgid "and click on the Reset"
-msgstr ""
+msgstr "und klicke auf die \"Zurücksetzen\""
 
 msgid "button"
-msgstr ""
+msgstr "Schaltfläche"
 
 msgid "Record"
-msgstr ""
+msgstr "Eintragung"
 
 msgid "Location"
-msgstr ""
+msgstr "Ort"
 
 msgid ""
 "Relatively small with a white face, brown legs and a white or brown "
 "underbelly, highly visible, large ears and lack of spines on the crown of "
 "the head"
 msgstr ""
+"Relativ klein mit weißem Gesicht, braunen Beinen und weißem oder braunem "
+"Bauch, gut sichtbare, große Ohren sowie einem Mangel an Stacheln auf der "
+"Kopfoberseite"
 
 msgid "Largest species of hedgehog and mostly brown in colour"
 msgstr "Größte Igelart, überwiegend braun gefärbt"
@@ -403,6 +439,8 @@ msgid ""
 "Brown and black back and white underbelly, black tail with white underside, "
 "brown-gray ears usually with black tips"
 msgstr ""
+"Braun und schwarzer Rücken mit weißem Bauch, schwarzer Schwanz mit weißer "
+"Unterseite, grau-braune Ohren, normalerweise mit schwarzen Spitzen "
 
 msgid ""
 "Golden-brown back and a pale belly, white tail, relatively longer legs and "
@@ -422,6 +460,8 @@ msgid ""
 "Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
 " upper tail"
 msgstr ""
+"Brauner oder grau-brauner Rücken mit blasserem Bauch, schwrazen Ohrspitzen "
+"und schwarzer Schwanz-Oberseite"
 
 msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
 msgstr ""
@@ -432,11 +472,15 @@ msgid ""
 "Grey-brown or red-brown back and pale grey underbelly, white stripe running "
 "along each side and sometimes another along the spine"
 msgstr ""
+"Grau- oder rotbrauner Rücken aund blass-grauer Bauch, weiße Streifen entlang"
+" jeder Seite und manchmal auf dem Rückgrat"
 
 msgid ""
 "Relatively small with dark-brown fur, white spots on its back and a short, "
 "thin tail"
 msgstr ""
+"Relativ klein mit dunkelbraunem Fell, weiße Flecken auf dem Rücken, kurzer "
+"dünner Schwanz"
 
 msgid ""
 "Brown coat with orange markings on the back and a beige to orange "
@@ -451,6 +495,8 @@ msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
 "eyes and ears and a flattened, scaly tail"
 msgstr ""
+"Kastanienbraunes bis schwarzbraunes Fell, flacher Kopf, kleine Augen und "
+"Ohren, Flacher geschuppter Schwanz"
 
 msgid ""
 "Coarse, dark brown outer fur with soft dense grey under fur, distinguished "
@@ -521,18 +567,27 @@ msgid ""
 "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, "
 "small ears, long black tipped tail, and furless hind feet and facial area"
 msgstr ""
+"Langes, grobes, grau bis rot-braunes Fell mit einigen gelben Haaren, spitze "
+"Schnauze, kleine Ohren, langer Schwanz mit schwarzer Spitze, unbehaarte "
+"Hinterbeine und Gesicht"
 
 msgid ""
 "Small and slender body with pale to dark brown fur, golden flecks and a pale"
 " underbelly, short legs and small rounded ears located on the side of its "
 "head, bushy tail "
 msgstr ""
+"kleiner schlanker Körper mit blassem bis dunkelbrauenem Fell, goldenen "
+"Flecken und blassem Bauch, kurze Beine und kleine runde Ohren, welche "
+"seitlich am Kopf sitzen, buschiger Schwanz"
 
 msgid ""
 "Pale yellow-grey coat with black spots on the sides, a black stripe along "
 "the spine and a striped, bushy tail, slender body with a pointed muzzle, "
 "large eyes, large ears and whiskers"
 msgstr ""
+"blass gelb-graues Fell mit schwarzen Flecken auf den Seiten, Schwarzer "
+"Aalstrich, gestreifter buschiger Schwanz, schlanker Körper, spitze Schnauze,"
+" große Augen und Ohren und Backenbart"
 
 msgid ""
 "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
@@ -556,6 +611,8 @@ msgid ""
 "Yellow to tawny short fur, spotted pattern, short body, long legs, short "
 "tail, small head with tufted ears and facial whiskers."
 msgstr ""
+"gelb bis lohfarbenes fleckiges Fell, kurzer Körper, lange Beine, kurzer "
+"Schwanz, kleiner Kopf mit Ohrbüscheln und auffälligem Backenbart"
 
 msgid ""
 "Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
@@ -585,27 +642,36 @@ msgid ""
 "Brownish grey coat with darker markings on the chin, throat and back; males "
 "have large, curved horns "
 msgstr ""
+"braun-graues Fell mit dunkleren Stellen an Kinn, Kehle und Rücken; Mänchen "
+"haben lange gebogene Hörner"
 
 msgid ""
 "Brown coat with short legs and large hooves; males have large, curved horns"
 msgstr ""
+"Braunes Fell, kurze Beune und große Hufe; Mänchen haben lange gebogene "
+"Hörner"
 
 msgid ""
 "Small size, short and straight horns, brown or grey coat with white markings"
 " on the sides of the head and rump, and black stripes below the eyes and "
 "along the back "
 msgstr ""
+"geringe Größe, kurze gebogene Hörner, braunes oder graues Fell mit weißer "
+"Zeichnung auf den Seiten von Kopf und Rumpf, Schwarze Streifen unter den "
+"Augen und auf dem Rücken"
 
 msgid ""
 "Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
 "hooked horns"
 msgstr ""
+"rötlich-braunes bis schwarz-braunes Fell, dunkle Stellen um die Augen, kurze"
+" rückwärte gebogen Hörner"
 
 msgid ""
 "Reddish-brown to grey coat, may have patches of different colouration on the"
 " back, males have antlers, relatively long tail"
 msgstr ""
-"rotbraun bis graubraunes Fell, Mänschen (Hirshce) tragen Geweihe, die im "
+"rotbraun bis graubraunes Fell, Männchen (Hirsche) tragen Geweihe, die im "
 "Frühjahrabgeworfen werden und dann neu wächst, relativ kurzer aber "
 "deutlicher Schwanz"
 
@@ -628,6 +694,8 @@ msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
 "prongs "
 msgstr ""
+"relativ kleiner Hirsch mit orange-rotem Fell, Männchen haben ein Geweih mit "
+"2-4 Sprossen"
 
 msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
@@ -641,11 +709,15 @@ msgid ""
 "underbelly, conspicuous black stripe along the spine, males have three-"
 "pronged antlers"
 msgstr ""
+"mittelgroßer Hirsch, goldenes Fell mit klaren weißen Punkten und weißem "
+"Bauch, durchgehend weißer Aalstrich, Mänchen haben ein Geweih mit 3 Sprossen"
 
 msgid ""
 "Reddish-brown to grey-brown coat, characteristic white underside to the "
 "tail, males have antlers with a variable number of prongs"
 msgstr ""
+"rötlich- bis grau-braunes Fell, charakteristische weiße Schwanz-Unterseite, "
+"Mänchen haben ein Geweih mit variabler Sprossenzahl"
 
 msgid ""
 "Grey-brown and white coat with long fur and a bushy, striped tail, "
@@ -658,9 +730,11 @@ msgid ""
 "Sandy brown coat with a lighter underbelly and a darker line along the back,"
 " shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr ""
+"Sand-braunes Fell mit hellerem Bauch und dunklerer Rückenlinie, struppiges "
+"Haar an der Kehle und glatte nach hinten gebogene Hörner"
 
 msgid "Algerian hedgehog"
-msgstr ""
+msgstr "Algerischer Igel"
 
 msgid "Western hedgehog"
 msgstr "Igel (Westigel)"
@@ -672,7 +746,7 @@ msgid "European rabbit"
 msgstr "Kaninchen"
 
 msgid "Broom hare"
-msgstr ""
+msgstr "Castroviejo-Hase"
 
 msgid "Brown hare"
 msgstr "Europäischer Feldhase"
@@ -681,16 +755,16 @@ msgid "Mountain hare"
 msgstr "Schneehase"
 
 msgid "Granada hare"
-msgstr ""
+msgstr "Iberischer Hase"
 
 msgid "Red squirrel"
 msgstr "Eichhörnchen"
 
 msgid "Barbary ground squirrel"
-msgstr ""
+msgstr "Atlashörnchen"
 
 msgid "Spotted souslik"
-msgstr ""
+msgstr "Perlziesel"
 
 msgid "Alpine marmot"
 msgstr "Alpen-Murmeltier"
@@ -705,7 +779,7 @@ msgid "Raccoon dog"
 msgstr "Marderhund, Enok"
 
 msgid "Brown bear"
-msgstr ""
+msgstr "Braunbär"
 
 msgid "Grey wolf"
 msgstr "Wolf"
@@ -723,13 +797,13 @@ msgid "Eurasian badger"
 msgstr "Dachs"
 
 msgid "Egyptian mongoose"
-msgstr ""
+msgstr "Ichneumon"
 
 msgid "Small Indian mongoose"
-msgstr ""
+msgstr "Kleiner Mungo"
 
 msgid "Common genet"
-msgstr ""
+msgstr "Kleinfleck-Ginsterkatze"
 
 msgid "Wildcat"
 msgstr "Wildkatze"
@@ -738,13 +812,13 @@ msgid "Eurasian lynx"
 msgstr "Luchs, Nordluchs"
 
 msgid "Iberian lynx"
-msgstr ""
+msgstr "Pardelluchs"
 
 msgid "Wild boar"
 msgstr "Wildschwein, Schwarzwild"
 
 msgid "European bison"
-msgstr ""
+msgstr "Wisent"
 
 msgid "European mouflon"
 msgstr "Mufflon"
@@ -753,13 +827,13 @@ msgid "Alpine ibex"
 msgstr "Alpensteinbock"
 
 msgid "Spanish ibex"
-msgstr ""
+msgstr "Iberiensteinbock"
 
 msgid "Chamois, Alpine"
-msgstr "Gemse, Gams"
+msgstr "Gämse, Gams"
 
 msgid "Chamois, southern"
-msgstr ""
+msgstr "Pyrenäen-Gämse"
 
 msgid "Red deer"
 msgstr "Rothirsch, Rotwild"
@@ -768,7 +842,7 @@ msgid "Fallow deer"
 msgstr "Damhirsch, Damwild"
 
 msgid "Elk"
-msgstr ""
+msgstr "Elch"
 
 msgid "Roe deer"
 msgstr "Reh, Rehwild"
@@ -777,291 +851,303 @@ msgid "Sika deer"
 msgstr "Sikahirsch"
 
 msgid "Chital"
-msgstr ""
+msgstr "Axishirsch"
 
 msgid "White-tailed deer"
-msgstr ""
+msgstr "Weißwedelhirsch"
 
 msgid "Raccoon"
 msgstr "Waschbär"
 
 msgid "Barbary sheep"
-msgstr ""
+msgstr "Mähnenschaf"
 
 msgid "Germany"
-msgstr ""
+msgstr "Deutschland"
 
 msgid "Spain"
-msgstr ""
+msgstr "Spanien"
 
 msgid "Croatia"
-msgstr ""
+msgstr "Kroatien"
 
 msgid "Poland"
-msgstr ""
+msgstr "Polen"
 
 msgid "Language"
-msgstr ""
+msgstr "Sprache"
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid "Elsewhere"
-msgstr ""
+msgstr "Anderswo"
 
 msgid "river"
-msgstr ""
+msgstr "Fluss"
 
 msgid "forest"
-msgstr ""
+msgstr "Wald"
 
 msgid "shrubs"
-msgstr ""
+msgstr "Gebüsch"
 
 msgid "prairies"
-msgstr ""
+msgstr "Steppe"
 
 msgid "farmlands"
-msgstr ""
+msgstr "Landwirtschaft"
 
 msgid "alpine"
-msgstr ""
+msgstr "alpin"
 
 msgid "aquatic"
-msgstr ""
+msgstr "aquatisch"
 
 msgid "underground"
-msgstr ""
+msgstr "unterirdisch"
 
 msgid "tree"
-msgstr ""
+msgstr "Baum"
 
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 msgid "Habitats"
-msgstr ""
+msgstr "Habitate"
 
 msgid "Mouse-rat"
-msgstr ""
+msgstr "Maus - Ratte"
 
 msgid "Hedgehog-squirrel"
-msgstr ""
+msgstr "Igel - Hörnchen"
 
 msgid "Rabbit-hare"
-msgstr ""
+msgstr "Kaninchen - Hase"
 
 msgid "Cats-medium size canivorous"
-msgstr ""
+msgstr "Katzen - mittelgroße Fleischfresser"
 
 msgid "Dog-Wildboar"
-msgstr ""
+msgstr "Hund - Wildschwein"
 
 msgid "Goat-Deers"
-msgstr ""
+msgstr "Ziege - Hirsche"
 
 msgid "Cow-Bison"
-msgstr ""
+msgstr "Kuh - Wisent"
 
 msgid "Filter species size"
-msgstr ""
+msgstr "Filter Artgröße"
 
 msgid "undefined"
-msgstr ""
+msgstr "undefiniert"
 
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 msgid "Today"
-msgstr ""
+msgstr "Heute"
 
 msgid "Number"
-msgstr ""
+msgstr "Anzahl"
 
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Select species"
-msgstr ""
+msgstr "Art auswählen"
 
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr ""
+"Bitte benutzen Sie ihr GPS oder tippen Sie auf die Karte um Ihren Standort "
+"auszuwählen"
 
 msgid "Location Accurracy"
-msgstr ""
+msgstr "Ortsgenauigkeit"
 
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 msgid "How many individuals of this type?"
-msgstr ""
+msgstr "Wie viele Individuen dieses Typs?"
 
 msgid "Direct observation"
-msgstr ""
+msgstr "Direktbeobachtung"
 
 msgid "Camera trap"
-msgstr ""
+msgstr "Fotofalle"
 
 msgid "Catch"
-msgstr ""
+msgstr "Fallenfang"
 
 msgid "Road kill"
-msgstr ""
+msgstr "Überfahren"
 
 msgid "Field carcass"
-msgstr ""
+msgstr "Kadaver gefunden"
 
 msgid "Telemetry"
-msgstr ""
+msgstr "Telemetrie"
 
 msgid "Other (specify in Comment)"
-msgstr ""
+msgstr "anderes (bitte in Kommentaren spezifizieren)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr ""
+msgstr "Bitte beschreiben Sie, wie dieses Säugetier beobachtet wurde"
 
 msgid "Alive"
-msgstr ""
+msgstr "Lebendig"
 
 msgid "Dead - roadkill"
-msgstr ""
+msgstr "Tot - überfahren"
 
 msgid "Dead - other"
-msgstr ""
+msgstr "Tot - andere"
 
 msgid "Indirect"
-msgstr ""
+msgstr "Indirekt"
 
 msgid "Print/trail"
-msgstr ""
+msgstr "Fußspur/Fährte"
 
 msgid "Dropping"
-msgstr ""
+msgstr "Kot"
 
 msgid "Den/burrow"
-msgstr ""
+msgstr "Bau"
 
 msgid "Please specify the condition of the mammal."
-msgstr ""
+msgstr "Bitte beschreiben Sie den Zustand des Säugetiers"
 
 msgid "Please add any extra info about this record."
 msgstr ""
+"Bitte fügen Sie hier sämtliche Zusatzinformationen zu diesem Eintrag ein"
 
 msgid "Enter more information here..."
-msgstr ""
+msgstr "Geben Sie hier weitere Informationen ein..."
 
 msgid "Upload"
-msgstr ""
+msgstr "Hochladen"
 
 msgid "species"
-msgstr ""
+msgstr "Arten"
 
 msgid "Enter your username or email address to request a password reset."
 msgstr ""
+"Geben Sie Ihren Benutzernamen oder Email-Addresse ein, um Ihr Passwort "
+"zurückzusetzen"
 
 msgid "User not found."
-msgstr ""
+msgstr "Benutzer nicht gefunden"
 
 msgid "We've sent an email to you"
-msgstr ""
+msgstr "Wir ahben Ihnen eine email geschickt"
 
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
+"Klicken SIe bitte auf den Link in der email um Ihr Passwort zurüclzusetzen. "
+"Wenn Sie die email nicht sehen können, überprüfen sie bitte auch andere "
+"Ornder wie \"spam\", \"junk\" oder ähnliches."
 
 msgid "App Development"
-msgstr ""
+msgstr "App Entwicklung"
 
 msgid "This app was hand crafted with love by"
-msgstr ""
+msgstr "Diese App wurde mit Liebe von Hand hergestellt von"
 
 msgid "Agency specializing in building bespoke data oriented sollutions."
 msgstr ""
+"Diese Agentur ist spezialisiert darauf, datenorientierte Lösungen zu "
+"erstellen"
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr ""
+msgstr "Für Anregungen und Rückmeldungen wenden Sie sich gerne an"
 
 msgid "contact us"
-msgstr ""
+msgstr "kantaktieren Sie uns"
 
 msgid "This App was produced through MammalNet and funded by EFSA."
-msgstr ""
+msgstr "Diese App wurde von MammalNet produziert und von der EFSA gefördert"
 
 msgid "Maps produced"
-msgstr ""
+msgstr "Karten erstellt von"
 
 msgid "Photo credits:"
-msgstr ""
+msgstr "Bildnachweise:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
+"Markiere neue Einträge als \"Training\" und schließe sie von neuen Eintrgen "
+"aus."
 
 msgid "Distribution"
-msgstr ""
+msgstr "Verbreitung"
 
 msgid "Hedgehog"
-msgstr ""
+msgstr "Igel"
 
 msgid "(unknown species)"
-msgstr ""
+msgstr "(unbekannte Art)"
 
 msgid "Shrew"
-msgstr ""
+msgstr "Spitzmaus"
 
 msgid "Mole"
-msgstr ""
+msgstr "Maulwurf"
 
 msgid "Lagomorph"
-msgstr ""
+msgstr "Hasenartiger"
 
 msgid "Small rodent"
-msgstr ""
+msgstr "kleines Nagetier"
 
 msgid "Vole"
-msgstr ""
+msgstr "Wühlmaus"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Maus"
 
 msgid "Rat"
-msgstr ""
+msgstr "Ratte"
 
 msgid "Small mustelid"
-msgstr ""
+msgstr "kleiner Marderartiger"
 
 msgid "Locating"
-msgstr ""
+msgstr "Lokalisieren"
 
 msgid "Please add record location."
-msgstr ""
+msgstr "Bitte fügen Sie eine Beobachtungsort ein!"
 
 msgid "Please select a species."
-msgstr ""
+msgstr "Bitte wählen Sie eine Art aus!"
 
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "Gefällt Ihnen diese App?"
 
 msgid "Not really"
-msgstr ""
+msgstr "Nicht wirklich"
 
 msgid "Yes!"
-msgstr ""
+msgstr "Ja!"
 
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "Wären SIe bereit, uns Rückmeldung zu geben?"
 
 msgid "No, thanks"
-msgstr ""
+msgstr "Nein Danke"
 
 msgid "OK, sure"
-msgstr ""
+msgstr "Ja gerne"
 
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "Wie Wäre es die App im App Store zu bewerten?"
 
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "Wie wäre es die App im Play Store zu bewerten?"
