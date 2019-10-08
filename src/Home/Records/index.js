@@ -77,11 +77,7 @@ class Component extends React.Component {
     const { savedSamples } = this.props;
 
     return savedSamples.models
-      .filter(sample =>
-        sample.metadata.saved && uploaded
-          ? !sample.metadata.synced_on
-          : sample.metadata.synced_on
-      )
+      .filter(sample => (uploaded ? sample.metadata.synced_on : true))
       .sort(byCreateTime);
   }
 
@@ -91,8 +87,8 @@ class Component extends React.Component {
     const showingPending = segment === 'pending';
     const showingUploaded = segment === 'uploaded';
 
-    const pendingRecords = this.getSamplesList(true);
-    const uploadedRecords = this.getSamplesList();
+    const pendingRecords = this.getSamplesList();
+    const uploadedRecords = this.getSamplesList(true);
 
     return (
       <>
