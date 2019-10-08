@@ -75,6 +75,7 @@ let Sample = Indicia.Sample.extend({
   },
 
   initialize() {
+    this.error = observable({ message: null });
     this.attributes = observable(this.attributes);
     this.metadata = observable(this.metadata);
     this.remote = observable({ synchronising: null });

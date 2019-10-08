@@ -10,6 +10,7 @@ import {
   IonItemOption,
 } from '@ionic/react';
 import OnlineStatus from './components/OnlineStatus';
+import ErrorMessage from './components/ErrorMessage';
 
 function deleteRecord(sample) {
   alert({
@@ -46,9 +47,12 @@ const Record = observer(({ sample }) => {
 
   return (
     <IonItemSliding>
+      <ErrorMessage sample={sample} />
       <IonItem href={href} detail={href}>
         <IonLabel>
-          <h3><b>{t(species)}</b></h3>
+          <h3>
+            <b>{t(species)}</b>
+          </h3>
           <h4>{prettyDate}</h4>
         </IonLabel>
         <OnlineStatus sample={sample} />

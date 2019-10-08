@@ -116,7 +116,13 @@ class Container extends React.Component {
     sample.toggleGPStracking(false);
 
     sample.metadata.saved = true;
-    sample.save().then(() => sample.save(null, { remote: true })); // remote save doesn't preserve metadata.saved on upload error
+    sample.error.message = null;
+    sample
+      .save()
+      .then(() => sample.save(null, { remote: true })) // remote save doesn't preserve metadata.saved on upload error
+      .catch(e => {
+        sample.error.message = e.message;
+      });
     history.replace(`/home/user-records`);
   };
 
