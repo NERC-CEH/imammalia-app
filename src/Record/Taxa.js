@@ -34,6 +34,7 @@ class Component extends React.Component {
         <AppHeader title={t('Select species')} />
         <Species
           appModel={this.props.appModel}
+          savedSamples={this.props.savedSamples}
           onSpeciesClick={this.onSpeciesClick}
         />
       </>

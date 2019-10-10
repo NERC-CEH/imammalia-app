@@ -34,7 +34,7 @@ class Component extends React.PureComponent {
         selection.reduce((agg, option) => {
           if (option.values) {
             const divider = (
-              <IonItemDivider key={option.value}>{option.value}</IonItemDivider>
+              <IonItemDivider key={option.value}>{t(option.value)}</IonItemDivider>
             );
             return [...agg, divider, ...generateInputs(option.values)];
           }

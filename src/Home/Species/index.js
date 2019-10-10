@@ -194,22 +194,27 @@ class Component extends React.Component {
   }
 
   render() {
-    const samplesLength = this.props.savedSamples.length;
+    const { savedSamples, onSpeciesClick } = this.props;
+
+    const isNotRecordingMode = !onSpeciesClick;
+    const samplesLength = savedSamples.length;
 
     return (
       <>
         {this.getFiltersHeader()}
 
         <IonContent id="home-species" class="ion-padding">
-          <UserFeedbackRequest
-            samplesLength={samplesLength}
-            appModel={this.props.appModel}
-          />
+          {isNotRecordingMode && (
+            <UserFeedbackRequest
+              samplesLength={samplesLength}
+              appModel={this.props.appModel}
+            />
+          )}
 
           {this.getSpeciesGrid()}
 
           <IonModal isOpen={this.state.showModal}>
-            <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
+            <ModalHeader title={t('Species')} onClose={this.hideSpeciesModal} />
             {this.state.showModal && (
               <SpeciesProfile species={this.state.species} />
             )}
