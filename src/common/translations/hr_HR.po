@@ -66,10 +66,10 @@ msgid "Privacy Policy"
 msgstr "Politika privatnosti"
 
 msgid "Credits"
-msgstr "zasluge"
+msgstr "Zasluge"
 
 msgid "Email"
-msgstr "email"
+msgstr "Email"
 
 msgid "First Name"
 msgstr "Ime"
@@ -87,7 +87,7 @@ msgid "Enter your username or email address to request a password reset"
 msgstr "Upišite korisničko ime ili email adresu za zahjev resetiranja lozinke"
 
 msgid "Reset"
-msgstr "resetiraj"
+msgstr "Resetiraj"
 
 msgid "Upload All"
 msgstr "Učitaj sve"
@@ -99,7 +99,7 @@ msgid "Application"
 msgstr "Primjena"
 
 msgid "Training Mode"
-msgstr "trening način"
+msgstr "Trening način"
 
 msgid "Experimental Features"
 msgstr "Eksperimentalne značajke"
@@ -172,10 +172,7 @@ msgid "Cancel"
 msgstr "Otkaži"
 
 msgid "Welcome aboard!"
-msgstr ""
-" \n"
-" \n"
-"Dobrodošli!"
+msgstr "Dobrodošli!"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
@@ -200,10 +197,10 @@ msgid "must accept terms and conditions"
 msgstr "Morate prihvatiti uvijete korištenja"
 
 msgid "Species"
-msgstr "vrsta"
+msgstr "Vrsta"
 
 msgid "Count"
-msgstr "broj"
+msgstr "Broj"
 
 msgid "Comment"
 msgstr "Komentar"
@@ -212,9 +209,7 @@ msgid "Draft"
 msgstr "Nacrt"
 
 msgid "Previous record draft exists, would you like to continue it?"
-msgstr ""
-" \n"
-"Postoji prethodni nacrt zapisa, želite li ga nastaviti?"
+msgstr "Postoji prethodni nacrt zapisa, želite li ga nastaviti?"
 
 msgid "Discard"
 msgstr "Odbaci"
@@ -293,9 +288,7 @@ msgid "Uploaded"
 msgstr "Učitano"
 
 msgid "No finished pending records"
-msgstr ""
-" \n"
-"Nema gotovih zapisa na čekanju"
+msgstr "Nema gotovih zapisa na čekanju"
 
 msgid "No uploaded records"
 msgstr "Nema prenesenih zapisa"
@@ -307,7 +300,7 @@ msgid "To start a new record you can press the plus button"
 msgstr "Zazapočeti novi zapis pritisnite plus"
 
 msgid "in the home page footer."
-msgstr "na dnu početne stranice"
+msgstr "na dnu početne stranice."
 
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
@@ -318,9 +311,7 @@ msgid "Sync. with the website"
 msgstr "Sinkroniziraj sa web stranicom"
 
 msgid "All your saved records will be shown on your account page."
-msgstr ""
-"Svi spremljeni zapisi bit će prikazani na stranici vašeg računa.\n"
-" "
+msgstr "Svi spremljeni zapisi bit će prikazani na stranici vašeg računa."
 
 msgid ""
 "By default a record is in a 'draft' mode which will not be sent to the "
@@ -341,10 +332,10 @@ msgstr ""
 " "
 
 msgid "synced to the database"
-msgstr "sinkronizirano u bazu podtaka"
+msgstr "sinkronizirano u bazu podataka"
 
 msgid "Note"
-msgstr "bilješka"
+msgstr "Bilješka"
 
 msgid ""
 "you have to be signed in to your website account and have a network "
@@ -369,9 +360,7 @@ msgid "User"
 msgstr "Korisnik"
 
 msgid "Sign in/out or register"
-msgstr ""
-" \n"
-"Prijavite se / odjavite se ili registrirajte"
+msgstr "Prijavite se / odjavite se ili registrirajte"
 
 msgid ""
 "To login, open the main menu page click Login or Register buttons and follow"
@@ -497,8 +486,8 @@ msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
 "eyes and ears and a flattened, scaly tail"
 msgstr ""
-" \n"
-"Dlaka od kestenasto-smeđe do crno smeđe boje, spljoštene glave, malih očiju i ušiju te spljoštenim ljuskavim repom"
+"Dlaka od kestenasto-smeđe do crno smeđe boje, spljoštene glave, malih očiju "
+"i ušiju te spljoštenim ljuskavim repom"
 
 msgid ""
 "Coarse, dark brown outer fur with soft dense grey under fur, distinguished "
@@ -575,8 +564,9 @@ msgid ""
 " underbelly, short legs and small rounded ears located on the side of its "
 "head, bushy tail "
 msgstr ""
-" \n"
-"Malo i vitko tijelo s blijedo do tamno smeđim krznom, zlatnim mrljama i blijedim donjim dijelom, kratkih nogu i malih zaobljenih ušiju smještenih sa strane  glave, bujnog repa"
+"Malo i vitko tijelo s blijedo do tamno smeđim krznom, zlatnim mrljama i "
+"blijedim donjim dijelom, kratkih nogu i malih zaobljenih ušiju smještenih sa"
+" strane  glave, bujnog repa"
 
 msgid ""
 "Pale yellow-grey coat with black spots on the sides, a black stripe along "
@@ -607,8 +597,8 @@ msgid ""
 "Yellow to tawny short fur, spotted pattern, short body, long legs, short "
 "tail, small head with tufted ears and facial whiskers."
 msgstr ""
-" \n"
-"Žuto  sjajno kratko krzno, pjegavi uzorak, kratka tijela, duge noge, kratak rep, mala glava s  ušima i brkovima na licu."
+"Žuto  sjajno kratko krzno, pjegavi uzorak, kratka tijela, duge noge, kratak "
+"rep, mala glava s  ušima i brkovima na licu."
 
 msgid ""
 "Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
@@ -637,8 +627,8 @@ msgid ""
 "Brownish grey coat with darker markings on the chin, throat and back; males "
 "have large, curved horns "
 msgstr ""
-" \n"
-"Smeđe sivo krzno s tamnijim oznakama na bradi, grlu i leđima; mužjaci imaju velike zakrivljene rogove"
+"Smeđe sivo krzno s tamnijim oznakama na bradi, grlu i leđima; mužjaci imaju "
+"velike zakrivljene rogove"
 
 msgid ""
 "Brown coat with short legs and large hooves; males have large, curved horns"
@@ -659,7 +649,7 @@ msgid ""
 "Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
 "hooked horns"
 msgstr ""
-"smeđe do crno-smeđe krzno, tamne mrlje oko očiju, rogovi zakrivljeni unatrag"
+"Smeđe do crno-smeđe krzno, tamne mrlje oko očiju, rogovi zakrivljeni unatrag"
 
 msgid ""
 "Reddish-brown to grey coat, may have patches of different colouration on the"
@@ -685,15 +675,15 @@ msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
 "prongs "
 msgstr ""
-" \n"
-"Relativno mali jelen s narančasto-smeđom dlakom, mužjaci imaju rogove s 2-4 paroška"
+"Relativno mali jelen s narančasto-smeđom dlakom, mužjaci imaju rogove s 2-4 "
+"paroška"
 
 msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
 " coat, males have upright antlers, females have distinctive black bumps"
 msgstr ""
-" \n"
-"Raspon boja krzna od mahagonija do crne (ponekad bijele) i pjegavog krzna, mužjaci imaju uspravne rogove, ženke imaju izražene crne izbočine"
+"Raspon boja krzna od mahagonija do crne (ponekad bijele) i pjegavog krzna, "
+"mužjaci imaju uspravne rogove, ženke imaju izražene crne izbočine"
 
 msgid ""
 "Medium sized deer, golden coat with distinctive white spots and a white "
@@ -918,16 +908,16 @@ msgid "Rabbit-hare"
 msgstr "Kunić - Zec"
 
 msgid "Cats-medium size canivorous"
-msgstr "mesožder veličine mačke"
+msgstr "Mesožder veličine mačke"
 
 msgid "Dog-Wildboar"
-msgstr "pas - divlja svinja"
+msgstr "Pas - Divlja svinja"
 
 msgid "Goat-Deers"
-msgstr "koza - jelen"
+msgstr "Koza - Jelen"
 
 msgid "Cow-Bison"
-msgstr "krava - bizon"
+msgstr "Krava - Bizon"
 
 msgid "Filter species size"
 msgstr "Filtar veličine vrste"
@@ -936,79 +926,79 @@ msgid "undefined"
 msgstr "nedefinirano"
 
 msgid "Date"
-msgstr "datum"
+msgstr "Datum"
 
 msgid "Today"
-msgstr "danas"
+msgstr "Danas"
 
 msgid "Number"
-msgstr "količina"
+msgstr "Količina"
 
 msgid "Method"
-msgstr "metoda"
+msgstr "Metoda"
 
 msgid "Type"
-msgstr "tip"
+msgstr "Tip"
 
 msgid "Select species"
-msgstr "označi vrstu"
+msgstr "Označi vrstu"
 
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr "Koristite GPS ili dodirnite kartu za odabir svoje lokacije"
 
 msgid "Location Accurracy"
-msgstr "preciznost lokacije"
+msgstr "Preciznost lokacije"
 
 msgid "Close"
-msgstr "zatvori"
+msgstr "Zatvori"
 
 msgid "How many individuals of this type?"
 msgstr "Koliko jedinki ove vrste?"
 
 msgid "Direct observation"
-msgstr "direktno osmatranje"
+msgstr "Direktno osmatranje"
 
 msgid "Camera trap"
-msgstr "foto -kamera"
+msgstr "Foto -kamera"
 
 msgid "Catch"
 msgstr "Ulov"
 
 msgid "Road kill"
-msgstr "stradalo na cesti"
+msgstr "Stradalo na cesti"
 
 msgid "Field carcass"
-msgstr "pronađen mrtav"
+msgstr "Pronađen mrtav"
 
 msgid "Telemetry"
-msgstr "telemetrija"
+msgstr "Telemetrija"
 
 msgid "Other (specify in Comment)"
-msgstr "ostalo (specificiraj u Komentaru)"
+msgstr "Ostalo (specificiraj u Komentaru)"
 
 msgid "Please specify how has this mammal been observed."
 msgstr "Navedite kako je opažen ovaj sisavac."
 
 msgid "Alive"
-msgstr "živ"
+msgstr "Živ"
 
 msgid "Dead - roadkill"
-msgstr "mrtav- stradao na cesti"
+msgstr "Mrtav- stradao na cesti"
 
 msgid "Dead - other"
-msgstr "mrtav - ostalo"
+msgstr "Mrtav - ostalo"
 
 msgid "Indirect"
-msgstr "indirektno"
+msgstr "Indirektno"
 
 msgid "Print/trail"
-msgstr "trag"
+msgstr "Trag"
 
 msgid "Dropping"
-msgstr "izmet"
+msgstr "Izmet"
 
 msgid "Den/burrow"
-msgstr "brlog/ ležaj"
+msgstr "Brlog/ ležaj"
 
 msgid "Please specify the condition of the mammal."
 msgstr "Navedite stanje sisavca."
@@ -1017,10 +1007,10 @@ msgid "Please add any extra info about this record."
 msgstr "Dodajte dodatne podatke o ovom zapisu."
 
 msgid "Enter more information here..."
-msgstr "Ovdije upišite još informacija"
+msgstr "Ovdije upišite još informacija..."
 
 msgid "Upload"
-msgstr "učitaj"
+msgstr "Učitaj"
 
 msgid "species"
 msgstr "vrste"
@@ -1042,8 +1032,8 @@ msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
-" \n"
-"Kliknite vezu u e-pošti da biste resetirali zaporku. Ako ne vidite e-poštu, provjerite druga mjesta poput smeća, neželjene pošte ili drugih mapa"
+"Kliknite vezu u e-pošti da biste resetirali zaporku. Ako ne vidite e-poštu, "
+"provjerite druga mjesta poput smeća, neželjene pošte ili drugih mapa"
 
 msgid "App Development"
 msgstr "Razvoj aplikacije"
@@ -1081,55 +1071,55 @@ msgstr ""
 " "
 
 msgid "Distribution"
-msgstr "distribucija"
+msgstr "Distribucija"
 
 msgid "Hedgehog"
-msgstr "jež"
+msgstr "Jež"
 
 msgid "(unknown species)"
-msgstr "nepoznata vrsta"
+msgstr "(nepoznata vrsta)"
 
 msgid "Shrew"
-msgstr "rovka"
+msgstr "Rovka"
 
 msgid "Mole"
-msgstr "krtica"
+msgstr "Krtica"
 
 msgid "Lagomorph"
-msgstr "dvojezupci"
+msgstr "Dvojezupci"
 
 msgid "Small rodent"
-msgstr "mali glodavci"
+msgstr "Mali glodavci"
 
 msgid "Vole"
-msgstr "voluharice"
+msgstr "Voluharice"
 
 msgid "Mouse"
-msgstr "miš"
+msgstr "Miš"
 
 msgid "Rat"
-msgstr "štakor"
+msgstr "Štakor"
 
 msgid "Small mustelid"
-msgstr "kune"
+msgstr "Kune"
 
 msgid "Locating"
 msgstr "lociranje"
 
 msgid "Please add record location."
-msgstr "molimo dodajte lokaciju zapisa"
+msgstr "Molimo dodajte lokaciju zapisa"
 
 msgid "Please select a species."
-msgstr "olimo odaberite vrstu"
+msgstr "Molimo odaberite vrstu"
 
 msgid "Enjoying the app?"
 msgstr "Da li uživate u ovoj aplikaciji?"
 
 msgid "Not really"
-msgstr "ne baš"
+msgstr "Ne baš"
 
 msgid "Yes!"
-msgstr "da!"
+msgstr "Da!"
 
 msgid "Would you mind giving us some feedback?"
 msgstr "Dali biste nam željeli dati povratne informacije?"
