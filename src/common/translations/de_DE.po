@@ -1151,3 +1151,37 @@ msgstr "Wie Wäre es die App im App Store zu bewerten?"
 
 msgid "How about a rating on the Play Store then?"
 msgstr "Wie wäre es die App im Play Store zu bewerten?"
+
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This (beta) test version is set up to easily record mammals in four pilot "
+"countries: Spain, Germany, Poland and Croatia. Sightings can be recorded "
+"from other countries across Europe, but currently the species list is "
+"limited to larger mammals found in those four countries."
+msgstr ""
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+
+msgid ""
+"iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals. Smaller mammals are currently only listed at the "
+"generic level since they are much harder to tell apart. Later versions will "
+"include more countries, languages and species subject to funding."
+msgstr ""
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+
+msgid "Icons made by"
+msgstr ""
+
+msgid "from"
+msgstr ""

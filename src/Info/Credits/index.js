@@ -21,11 +21,11 @@ export default () => (
         </IonItem>
         <IonItem lines="none">
           <IonLabel>
-            Icons made by{' '}
+            {t(`Icons made by`)}{' '}
             <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
               Freepik
             </a>{' '}
-            from{' '}
+            {t('from')}{' '}
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com
             </a>
@@ -33,8 +33,8 @@ export default () => (
         </IonItem>
       </IonList>
 
-      <IonList>
-        <IonItem>
+      <IonList lines="none">
+        <IonItem lines="inset">
           <IonLabel>
             <b>
               {t(
@@ -43,59 +43,55 @@ export default () => (
             </b>
           </IonLabel>
         </IonItem>
-        <IonItem lines="none">
-          <IonLabel>
-            David Roy
-          </IonLabel>
+        <IonItem>
+          <IonLabel>David Roy</IonLabel>
         </IonItem>
-        <IonItem lines="none">
-          <IonLabel>
-              Karolis Kazlauskis
-          </IonLabel>
+        <IonItem>
+          <IonLabel>Karolis Kazlauskis</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Graham Smith</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Joaquin Vicente</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Jose A Blanco</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Oliver Keuling</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Karolina Petrović</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Massimo Scandura</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Nikica Šprem</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Nera Fabijanić</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Carmen Ruiz</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Javier Fernández López</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Phil Stephens</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Lucy Zhang</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Sammy Mason</IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Emily Townley </IonLabel>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem>
           <IonLabel>Magnus Bower</IonLabel>
         </IonItem>
       </IonList>

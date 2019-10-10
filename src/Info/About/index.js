@@ -15,37 +15,30 @@ const Component = () => (
       <IonList lines="none">
         <IonItem>
           <IonLabel>
-            The iMammalia App is designed to encourage recording of mammals in
-            the wild. This (beta) test version is set up to easily record
-            mammals in four pilot countries: Spain, Germany, Poland and Croatia.
-            Sightings can be recorded from other countries across Europe, but
-            currently the species list is limited to larger mammals found in
-            those four countries.
+            {t(
+              `The iMammalia App is designed to encourage recording of mammals in the wild. This (beta) test version is set up to easily record mammals in four pilot countries: Spain, Germany, Poland and Croatia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries.`
+            )}
           </IonLabel>
         </IonItem>
         <IonItem>
           <IonLabel>
-            Sightings can be recorded anywhere, with or without photos, and all
-            records will be verified by experts and made available to help with
-            mapping the distribution of European mammals. You can check and
-            update your records online.
+            {t(
+              `Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online.`
+            )}
           </IonLabel>
         </IonItem>
         <IonItem>
           <IonLabel>
-            iMammalia is designed to make mammal recording easy. It holds a
-            species list for Spain, Germany, Poland and Croatia but does not
-            limit where you can record these animals. Smaller mammals are
-            currently only listed at the generic level since they are much
-            harder to tell apart. Later versions will include more countries,
-            languages and species subject to funding.
+            {t(
+              `iMammalia is designed to make mammal recording easy. It holds a species list for Spain, Germany, Poland and Croatia but does not limit where you can record these animals. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding.`
+            )}
           </IonLabel>
         </IonItem>
         <IonItem>
           <IonLabel>
-            Users must first register, and can then log into a web site to view
-            and correct records. Choice of country can be reviewed in the
-            settings.
+            {t(
+              `Users must first register, and can then log into a web site to view and correct records. Choice of country can be reviewed in the settings.`
+            )}
           </IonLabel>
         </IonItem>
         <IonListHeader color="light" mode="ios">

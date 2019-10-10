@@ -17,7 +17,7 @@ function photoDelete(photo) {
   alert({
     header: t('Delete'),
     message: `${t(
-      `Are you sure you want to remove this photo from the sample?`
+      `Are you sure you want to remove this photo from the record?`
     )}
        </br></br> 
        ${t('Note: it will remain in the gallery.')}
