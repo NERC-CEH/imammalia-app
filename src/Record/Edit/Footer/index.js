@@ -11,6 +11,7 @@ import { IonIcon, IonButton, IonFooter } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import ImageModel from 'common/models/image';
 import 'react-photoswipe/lib/photoswipe.css';
+import 'react-photoswipe/dist/default-skin.png';
 import './styles.scss';
 
 function photoDelete(photo) {
@@ -144,7 +145,11 @@ class Footer extends Component {
       <PhotoSwipe
         isOpen={!!showGallery}
         items={items}
-        options={{ index: showGallery - 1 }}
+        options={{
+          index: showGallery - 1,
+          shareEl: false,
+          fullscreenEl: false,
+        }}
         onClose={() => this.setState({ showGallery: false })}
       />
     );
@@ -154,12 +159,7 @@ class Footer extends Component {
     const { sample } = this.props;
     const { models } = sample.getOccurrence().media;
     if (!models || !models.length) {
-      return (
-        <span className="empty"> 
-          {' '}
-          {t('No photo has been added')}
-        </span>
-      );
+      return <span className="empty"> {t('No photo has been added')}</span>;
     }
 
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
