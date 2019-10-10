@@ -7,11 +7,12 @@ import {
   IonLabel,
 } from '@ionic/react';
 import AppHeader from 'Components/Header';
+import './styles.scss';
 
 const Component = () => (
   <>
     <AppHeader title={t('About')} />
-    <IonContent id="credits" class="ion-padding">
+    <IonContent id="about" class="ion-padding">
       <IonList lines="none">
         <IonItem>
           <IonLabel>
