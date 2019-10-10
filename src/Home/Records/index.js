@@ -77,7 +77,7 @@ class Component extends React.Component {
     const { savedSamples } = this.props;
 
     return savedSamples.models
-      .filter(sample => (uploaded ? sample.metadata.synced_on : true))
+      .filter(sample => (uploaded ? sample.metadata.synced_on : !sample.metadata.synced_on))
       .sort(byCreateTime);
   }
 
