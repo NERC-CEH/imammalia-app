@@ -6,10 +6,12 @@ html.md .leaflet-container {
 }
 
 #location-toolbar {
+  --background: var(--ion-color-primary-tint);
   ion-item {
-    --background: #3b5249;
+    --background: var(--ion-color-primary-tint);
     --color: white;
     --inner-border-width: 0;
+    --border-color: var(--ion-color-primary-tint);
   }
 }
 
