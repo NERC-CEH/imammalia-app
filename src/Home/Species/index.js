@@ -21,6 +21,7 @@ import alert from 'common/helpers/alert';
 import species from './species.data.json';
 import speciesGroups from './species.groups.data.json';
 import SpeciesProfile from './components/SpeciesProfile';
+import UserFeedbackRequest from './components/UserFeedbackRequest';
 import './images';
 import './thumbnails';
 import './maps';
@@ -75,6 +76,7 @@ function showFiltersDialog(appModel) {
 class Component extends React.Component {
   static propTypes = {
     appModel: PropTypes.object.isRequired,
+    savedSamples: PropTypes.object.isRequired,
     onSpeciesClick: PropTypes.func,
   };
 
@@ -192,11 +194,18 @@ class Component extends React.Component {
   }
 
   render() {
+    const samplesLength = this.props.savedSamples.length;
+
     return (
       <>
         {this.getFiltersHeader()}
 
         <IonContent id="home-species" class="ion-padding">
+          <UserFeedbackRequest
+            samplesLength={samplesLength}
+            appModel={this.props.appModel}
+          />
+
           {this.getSpeciesGrid()}
 
           <IonModal isOpen={this.state.showModal}>

@@ -22,7 +22,9 @@ const Component = () => (
     <IonRouterOutlet>
       <Route
         path="/home/:tab(species)"
-        render={() => <Species appModel={appModel} />}
+        render={() => (
+          <Species appModel={appModel} savedSamples={savedSamples} />
+        )}
         exact
       />
       <Route path="/home/:tab(help)" component={Help} exact />
