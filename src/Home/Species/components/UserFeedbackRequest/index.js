@@ -67,7 +67,9 @@ class Component extends React.Component {
 
     Log('Recommendations: asking for app review');
 
-    window.LaunchReview.launch();
+    window.LaunchReview.isRatingSupported()
+      ? window.LaunchReview.rating()
+      : window.LaunchReview.launch();
   }
 
   shouldAskForFeedback() {
