@@ -7,6 +7,7 @@ import {
   IonLabel,
   IonSegmentButton,
   IonBadge,
+  IonPage,
 } from '@ionic/react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
@@ -91,7 +92,7 @@ class Component extends React.Component {
     const uploadedRecords = this.getSamplesList(true);
 
     return (
-      <>
+      <IonPage>
         <IonContent id="user-report" class="ion-padding">
           <IonSegment onIonChange={this.onSegmentClick} value={segment}>
             <IonSegmentButton value="pending" checked={showingPending}>
@@ -119,7 +120,7 @@ class Component extends React.Component {
           {showingPending && getPendingRecords(pendingRecords)}
           {showingUploaded && getUploadedRecords(uploadedRecords)}
         </IonContent>
-      </>
+      </IonPage>
     );
   }
 }

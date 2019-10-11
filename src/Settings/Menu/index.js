@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IonPage } from '@ionic/react';
 import Log from 'helpers/log';
 import { observer } from 'mobx-react';
 import savedSamples from 'saved_samples';
@@ -31,7 +32,7 @@ const Container = observer(({ appModel, userModel }) => {
   const country = appModel.get('country');
 
   return (
-    <>
+    <IonPage>
       <AppHeader title={t('Settings')} />
       <Main
         useTraining={useTraining}
@@ -40,7 +41,7 @@ const Container = observer(({ appModel, userModel }) => {
         language={language}
         country={country}
       />
-    </>
+    </IonPage>
   );
 });
 

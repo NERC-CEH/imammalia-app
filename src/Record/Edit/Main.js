@@ -53,14 +53,14 @@ class Record extends Component {
     return (
       <IonContent id="record-edit">
         <IonList lines="full">
-          <IonItem href={`/record/${sample.cid}/edit/species`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/species`} detail>
             <IonIcon src="/images/deer.svg" slot="start" />
             <IonLabel>{t('Species')}</IonLabel>
             <IonLabel slot="end">{species}</IonLabel>
           </IonItem>
           <IonItem
             class="record-location"
-            href={`/record/${sample.cid}/edit/location`}
+            routerLink={`/record/${sample.cid}/edit/location`}
             detail
           >
             <IonIcon icon={map} slot="start" />
@@ -74,27 +74,27 @@ class Record extends Component {
               )}
             </IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/date`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/date`} detail>
             <IonIcon icon={calendar} slot="start" />
             <IonLabel>{t('Date')}</IonLabel>
             <IonLabel slot="end">{prettyDate(date, true)}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/number`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/number`} detail>
             <IonIcon src="/images/number.svg" slot="start" />
             <IonLabel>{t('Number')}</IonLabel>
             <IonLabel slot="end">{prettyNumber}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/method`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/method`} detail>
             <IonIcon src="/images/binoculars.svg" slot="start" />
             <IonLabel>{t('Method')}</IonLabel>
             <IonLabel slot="end">{method}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/type`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/type`} detail>
             <IonIcon src="/images/skull.svg" slot="start" />
             <IonLabel>{t('Type')}</IonLabel>
             <IonLabel slot="end">{type}</IonLabel>
           </IonItem>
-          <IonItem href={`/record/${sample.cid}/edit/comment`} detail>
+          <IonItem routerLink={`/record/${sample.cid}/edit/comment`} detail>
             <IonIcon icon={clipboard} slot="start" />
             <IonLabel>{t('Comment')}</IonLabel>
             <IonLabel slot="end">{comment}</IonLabel>

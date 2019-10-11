@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IonPage } from '@ionic/react';
 import Log from 'helpers/log';
 import Device from 'helpers/device';
 import alert from 'common/helpers/alert';
@@ -44,19 +45,14 @@ async function onLogin(userModel, details, onSuccess) {
 }
 
 export default function LoginContainer({ userModel, onSuccess }) {
-  if (userModel.hasLogIn()) {
-    window.history.back();
-    return null;
-  }
-
   return (
-    <>
+    <IonPage>
       <AppHeader title={t('Login')} />
       <Main
         schema={userModel.loginSchema}
         onSubmit={details => onLogin(userModel, details, onSuccess)}
       />
-    </>
+    </IonPage>
   );
 }
 

@@ -1,21 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IonPage, NavContext } from '@ionic/react';
 import AppHeader from 'Components/Header';
 import Species from 'Home/Species';
 import { observer } from 'mobx-react';
 
 @observer
 class Component extends React.Component {
+  static contextType = NavContext;
+
   static propTypes = {
     match: PropTypes.object,
-    history: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
   };
 
   // eslint-disable-next-line camelcase
   onSpeciesClick = ({ english, taxon, warehouse_id, id }) => {
-    const { history, match, savedSamples } = this.props;
+    const { match, savedSamples } = this.props;
 
     const sampleID = match.params.id;
     const sample = savedSamples.get(sampleID);
@@ -25,19 +27,19 @@ class Component extends React.Component {
     occ.set('taxon', species);
 
     sample.save();
-    history.replace(`/record/${sampleID}/edit`);
+    this.context.goBack();
   };
 
   render() {
     return (
-      <>
+      <IonPage>
         <AppHeader title={t('Select species')} />
         <Species
           appModel={this.props.appModel}
           savedSamples={this.props.savedSamples}
           onSpeciesClick={this.onSpeciesClick}
         />
-      </>
+      </IonPage>
     );
   }
 }

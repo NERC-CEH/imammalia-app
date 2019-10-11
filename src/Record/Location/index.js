@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
+import { IonPage } from '@ionic/react';
 import Header from './Header';
 import Main from './Main';
 import './styles.scss';
@@ -49,7 +50,7 @@ class Container extends React.Component {
     const isGPSTracking = sample.isGPSRunning();
 
     return (
-      <>
+      <IonPage>
         <Header />
         <Main
           location={location}
@@ -59,7 +60,7 @@ class Container extends React.Component {
           setLocation={this.setLocation}
           setLocationAccurracy={this.setLocationAccurracy}
         />
-      </>
+      </IonPage>
     );
   }
 }

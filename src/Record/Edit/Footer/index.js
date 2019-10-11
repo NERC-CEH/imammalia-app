@@ -212,9 +212,9 @@ class Footer extends Component {
     const isSynchronising = sample.remote.synchronising;
 
     return (
-      <IonFooter>
+      <IonFooter id="edit-footer">
         {this.getGallery()}
-        <div id="edit-footer">
+        <div>
           <div
             id="img-picker-array"
             className={isSynchronising ? 'disabled' : ''}

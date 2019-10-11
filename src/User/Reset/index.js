@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { IonPage } from '@ionic/react';
 import Log from 'helpers/log';
 import Device from 'helpers/device';
 import alert from 'common/helpers/alert';
@@ -55,19 +56,14 @@ async function onSubmit(userModel, details) {
 }
 
 export default function Container({ userModel, onSuccess }) {
-  if (userModel.hasLogIn()) {
-    window.history.back();
-    return null;
-  }
-
   return (
-    <>
+    <IonPage>
       <AppHeader title={t('Reset')} />
       <Main
         schema={userModel.resetSchema}
         onSubmit={details => onSubmit(userModel, details, onSuccess)}
       />
-    </>
+    </IonPage>
   );
 }
 

@@ -1,11 +1,17 @@
 import React from 'react';
-import { IonContent, IonList, IonItemDivider, IonIcon } from '@ionic/react';
+import {
+  IonContent,
+  IonList,
+  IonItemDivider,
+  IonIcon,
+  IonPage,
+} from '@ionic/react';
 import { settings, undo, person, add, send } from 'ionicons/icons';
 import Collapse from 'Components/Collapse/index';
 
 export default () => (
-  <>
-    <IonContent class="ion-padding">
+  <IonPage>
+    <IonContent id="help" class="ion-padding">
       <IonList lines="full">
         <IonItemDivider>{t('Records')}</IonItemDivider>
         <Collapse title={t('How to start a record')}>
@@ -89,5 +95,5 @@ export default () => (
         </Collapse>
       </IonList>
     </IonContent>
-  </>
+  </IonPage>
 );

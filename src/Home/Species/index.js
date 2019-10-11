@@ -13,6 +13,7 @@ import {
   IonIcon,
   IonGrid,
   IonRow,
+  IonPage,
   IonCol,
 } from '@ionic/react';
 import ModalHeader from 'Components/ModalHeader';
@@ -91,13 +92,7 @@ class Component extends React.Component {
   };
 
   getFiltersHeader = () => {
-    const { onSpeciesClick, appModel } = this.props;
-
-    const isRecordingMode = !!onSpeciesClick;
-
-    if (isRecordingMode) {
-      return null;
-    }
+    const { appModel } = this.props;
 
     return (
       <IonHeader>
@@ -168,8 +163,7 @@ class Component extends React.Component {
           onClick={onClick}
           size="6"
           size-lg
-          no-padding
-          no-margin
+          class="ion-no-padding ion-no-margin"
         >
           <div
             style={{
@@ -185,42 +179,53 @@ class Component extends React.Component {
     const speciesColumns = speciesList.map(getSpeciesElement);
 
     return (
-      <IonGrid no-padding no-margin>
-        <IonRow no-padding no-margin>
-          {speciesColumns}
-        </IonRow>
+      <IonGrid class="ion-no-padding ion-no-margin">
+        <IonRow class="ion-no-padding ion-no-margin">{speciesColumns}</IonRow>
       </IonGrid>
     );
   }
 
-  render() {
+  getList = () => {
     const { savedSamples, onSpeciesClick } = this.props;
 
     const isNotRecordingMode = !onSpeciesClick;
     const samplesLength = savedSamples.length;
 
     return (
-      <>
+      <IonContent id="home-species" class="ion-padding">
+        {isNotRecordingMode && (
+          <UserFeedbackRequest
+            samplesLength={samplesLength}
+            appModel={this.props.appModel}
+          />
+        )}
+
+        {this.getSpeciesGrid()}
+
+        <IonModal isOpen={this.state.showModal}>
+          <ModalHeader title={t('Species')} onClose={this.hideSpeciesModal} />
+          {this.state.showModal && (
+            <SpeciesProfile species={this.state.species} />
+          )}
+        </IonModal>
+      </IonContent>
+    );
+  };
+
+  render() {
+    const { onSpeciesClick } = this.props;
+
+    const isRecordingMode = !!onSpeciesClick;
+    if (isRecordingMode) {
+      return this.getList();
+    }
+
+    return (
+      <IonPage>
         {this.getFiltersHeader()}
 
-        <IonContent id="home-species" class="ion-padding">
-          {isNotRecordingMode && (
-            <UserFeedbackRequest
-              samplesLength={samplesLength}
-              appModel={this.props.appModel}
-            />
-          )}
-
-          {this.getSpeciesGrid()}
-
-          <IonModal isOpen={this.state.showModal}>
-            <ModalHeader title={t('Species')} onClose={this.hideSpeciesModal} />
-            {this.state.showModal && (
-              <SpeciesProfile species={this.state.species} />
-            )}
-          </IonModal>
-        </IonContent>
-      </>
+        {this.getList()}
+      </IonPage>
     );
   }
 }

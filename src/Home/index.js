@@ -21,20 +21,16 @@ const Component = () => (
   <IonTabs>
     <IonRouterOutlet>
       <Route
-        path="/home/:tab(species)"
+        path="/home/species"
         render={() => (
           <Species appModel={appModel} savedSamples={savedSamples} />
         )}
         exact
       />
-      <Route path="/home/:tab(help)" component={Help} exact />
-      <Route
-        path="/home/:tab(user-records)"
-        render={() => (
-          <PrivateRoute
-            component={() => <UserRecords savedSamples={savedSamples} />}
-          />
-        )}
+      <Route path="/home/help" component={Help} exact />
+      <PrivateRoute
+        path="/home/user-records"
+        component={() => <UserRecords savedSamples={savedSamples} />}
         exact
       />
     </IonRouterOutlet>

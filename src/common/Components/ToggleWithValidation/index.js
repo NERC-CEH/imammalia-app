@@ -19,7 +19,7 @@ const InputWithValidation = ({
     <>
       <IonItem error={!!error}>
         <IonIcon icon={icon} faint size="small" slot="start" />
-        <IonLabel text-wrap>{label}</IonLabel>
+        <IonLabel class="ion-text-wrap">{label}</IonLabel>
         <Toggle
           checked={values[name]}
           onToggle={val => setFieldValue(name, val)}

@@ -66,10 +66,10 @@ class Component extends React.Component {
               </IonList>
 
               <IonList>
-                <IonItem href="/user/register" detail>
+                <IonItem routerLink="/user/register" detail>
                   {t('Register')}
                 </IonItem>
-                <IonItem href="/user/reset" detail>
+                <IonItem routerLink="/user/reset" detail>
                   {t('Forgot password?')}
                 </IonItem>
               </IonList>

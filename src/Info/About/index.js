@@ -5,12 +5,13 @@ import {
   IonItem,
   IonListHeader,
   IonLabel,
+  IonPage,
 } from '@ionic/react';
 import AppHeader from 'Components/Header';
 import './styles.scss';
 
 const Component = () => (
-  <>
+  <IonPage>
     <AppHeader title={t('About')} />
     <IonContent id="about" class="ion-padding">
       <IonList lines="none">
@@ -64,7 +65,7 @@ const Component = () => (
         </IonItem>
       </IonList>
     </IonContent>
-  </>
+  </IonPage>
 );
 
 Component.propTypes = {};

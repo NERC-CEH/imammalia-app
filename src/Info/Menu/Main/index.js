@@ -39,26 +39,26 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         )}
 
         {!isLoggedIn && (
-          <IonItem href="/user/login" detail>
+          <IonItem routerLink="/user/login" detail>
             <IonIcon icon={person} size="small" slot="start" />
             {t('Login')}
           </IonItem>
         )}
 
         {!isLoggedIn && (
-          <IonItem href="/user/register" detail>
+          <IonItem routerLink="/user/register" detail>
             <IonIcon icon={personAdd} size="small" slot="start" />
             {t('Register')}
           </IonItem>
         )}
 
         <IonItemDivider>{t('Info')}</IonItemDivider>
-        <IonItem href="/info/about" detail>
+        <IonItem routerLink="/info/about" detail>
           <IonIcon icon={informationCircleOutline} size="small" slot="start" />
           {t('About')}
         </IonItem>
 
-        <IonItem href="/info/credits" detail>
+        <IonItem routerLink="/info/credits" detail>
           <IonIcon icon={heart} size="small" slot="start" />
           {t('Credits')}
         </IonItem>
@@ -73,7 +73,7 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         </IonItem>
 
         <IonItemDivider>{t('Settings')}</IonItemDivider>
-        <IonItem href="/settings/menu" detail>
+        <IonItem routerLink="/settings/menu" detail>
           <IonIcon icon={settings} size="small" slot="start" />
           {t('App')}
         </IonItem>

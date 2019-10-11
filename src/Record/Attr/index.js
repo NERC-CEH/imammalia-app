@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { IonContent } from '@ionic/react';
+import { IonContent, IonPage, NavContext } from '@ionic/react';
 import AppHeader from 'Components/Header';
 import RadioInput from 'Components/RadioInput';
 import Input from 'Components/Input';
@@ -11,8 +11,9 @@ import NumberAttr from './components/NumberAttr';
 
 @observer
 class Component extends React.Component {
+  static contextType = NavContext;
+
   static propTypes = {
-    history: PropTypes.object,
     match: PropTypes.object,
     savedSamples: PropTypes.object.isRequired,
   };
@@ -44,9 +45,7 @@ class Component extends React.Component {
     this.model.save();
 
     if (this.attrConfig.type === 'radio') {
-      const { history, match } = this.props;
-      const sampleID = match.params.id;
-      history.replace(`/record/${sampleID}/edit`);
+      this.context.goBack();
     }
   };
 
@@ -64,9 +63,7 @@ class Component extends React.Component {
     this.model.set('number', null);
     this.model.save();
 
-    const { history, match } = this.props;
-    const sampleID = match.params.id;
-    history.replace(`/record/${sampleID}/edit`);
+    this.context.goBack();
   };
 
   getAttr = () => {
@@ -118,10 +115,10 @@ class Component extends React.Component {
 
   render() {
     return (
-      <>
+      <IonPage>
         <AppHeader title={t(this.attrConfig.label)} />
         <IonContent id="record-edit-attr">{this.getAttr()}</IonContent>
-      </>
+      </IonPage>
     );
   }
 }

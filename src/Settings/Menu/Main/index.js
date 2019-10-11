@@ -52,50 +52,46 @@ class Component extends React.Component {
     const { resetApp, onToggle, useTraining, language, country } = this.props;
 
     return (
-      <>
-        <IonContent class="app-settings">
-          <IonList lines="full">
-            <IonItemDivider>{t('Application')}</IonItemDivider>
-            <IonItem href="/settings/language">
-              <IonLabel>{t('Language')}</IonLabel>
-              <IonIcon icon={flag} size="small" slot="start" />
-              <IonLabel slot="end">{languages[language]}</IonLabel>
-            </IonItem>
-            <IonItem href="/settings/country">
-              <IonLabel>{t('Country')}</IonLabel>
-              <IonIcon icon={globe} size="small" slot="start" />
-              <IonLabel slot="end">{countries[country]}</IonLabel>
-            </IonItem>
+      <IonContent class="app-settings">
+        <IonList lines="full">
+          <IonItemDivider>{t('Application')}</IonItemDivider>
+          <IonItem routerLink="/settings/language">
+            <IonLabel>{t('Language')}</IonLabel>
+            <IonIcon icon={flag} size="small" slot="start" />
+            <IonLabel slot="end">{languages[language]}</IonLabel>
+          </IonItem>
+          <IonItem routerLink="/settings/country">
+            <IonLabel>{t('Country')}</IonLabel>
+            <IonIcon icon={globe} size="small" slot="start" />
+            <IonLabel slot="end">{countries[country]}</IonLabel>
+          </IonItem>
 
-            <IonItem>
-              <IonIcon icon={school} size="small" slot="start" />
-              <IonLabel>{t('Training Mode')}</IonLabel>
-              <Toggle
-                onToggle={checked => onToggle('useTraining', checked)}
-                checked={useTraining}
-              />
-            </IonItem>
-            <IonItem>
-              <IonLabel text-wrap>
-                <IonNote color="primary">
-                  {t(
-                    "Mark any new records as 'training' and exclude from all reports."
-                  )}
-                </IonNote>
-              </IonLabel>
-            </IonItem>
+          <IonItem>
+            <IonIcon icon={school} size="small" slot="start" />
+            <IonLabel>{t('Training Mode')}</IonLabel>
+            <Toggle
+              onToggle={checked => onToggle('useTraining', checked)}
+              checked={useTraining}
+            />
+          </IonItem>
+          <IonItem>
+            <IonLabel class="ion-text-wrap">
+              <IonNote color="primary">
+                {t(
+                  "Mark any new records as 'training' and exclude from all reports."
+                )}
+              </IonNote>
+            </IonLabel>
+          </IonItem>
 
-            <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp)}>
-              <IonIcon icon={undo} size="small" slot="start" />
-              {t('Reset')}
-            </IonItem>
-          </IonList>
+          <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp)}>
+            <IonIcon icon={undo} size="small" slot="start" />
+            {t('Reset')}
+          </IonItem>
+        </IonList>
 
-          <p className="app-version">
-            {`v${config.version} (${config.build})`}
-          </p>
-        </IonContent>
-      </>
+        <p className="app-version">{`v${config.version} (${config.build})`}</p>
+      </IonContent>
     );
   }
 }

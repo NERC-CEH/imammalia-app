@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import Sample from 'sample';
+import { IonPage } from '@ionic/react';
 import Occurrence from 'occurrence';
 import alert from 'common/helpers/alert';
 import Header from './Header';
@@ -138,7 +139,7 @@ class Container extends React.Component {
 
     const isTraining = this.state.sample.metadata.training;
     return (
-      <>
+      <IonPage>
         <Header onSubmit={this.onSubmit} isTraining={isTraining} />
         <Main
           sample={this.state.sample}
@@ -146,7 +147,7 @@ class Container extends React.Component {
           history={history}
         />
         <Footer sample={this.state.sample} />
-      </>
+      </IonPage>
     );
   }
 }

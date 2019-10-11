@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import Device from 'helpers/device';
+import { IonPage } from '@ionic/react';
 import alert from 'common/helpers/alert';
 import loader from 'common/helpers/loader';
 import AppHeader from 'Components/Header';
@@ -62,13 +63,13 @@ async function onRegister(userModel, details) {
 
 export default function RegisterContainer({ userModel }) {
   return (
-    <>
+    <IonPage>
       <AppHeader title={t('Register')} />
       <Main
         schema={userModel.registerSchema}
         onSubmit={details => onRegister(userModel, details)}
       />
-    </>
+    </IonPage>
   );
 }
 

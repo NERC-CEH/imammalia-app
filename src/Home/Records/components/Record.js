@@ -43,12 +43,12 @@ const Record = observer(({ sample }) => {
   const href =
     !isSent && !sample.remote.synchronising
       ? `/record/${sample.cid}/edit`
-      : null;
+      : undefined;
 
   return (
     <IonItemSliding>
       <ErrorMessage sample={sample} />
-      <IonItem href={href} detail={href}>
+      <IonItem routerLink={href} detail={!!href}>
         <IonLabel>
           <h3>
             <b>{t(species)}</b>
