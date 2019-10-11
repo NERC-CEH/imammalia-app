@@ -1,10 +1,11 @@
 # Translators:
 # Karolis, 2019
+# Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2019\n"
 "Language-Team: Polish (Poland) (https://www.transifex.com/ceh/teams/103078/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,283 +15,290 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 
 msgid "Select your country"
-msgstr ""
+msgstr "Wybierz swój kraj"
 
 msgid "United Kingdom"
-msgstr ""
+msgstr "Zjednoczone Królestwo"
 
 msgid "Skip"
-msgstr ""
+msgstr "Pomiń"
 
 msgid "Next"
-msgstr ""
+msgstr "Następny"
 
 msgid "Get Started"
-msgstr ""
+msgstr "Rozpocznij"
 
 msgid "Please sign in with your account or register."
-msgstr ""
+msgstr "Zaloguj się na swoje konto lub zarejestruj się"
 
 msgid "Username or email"
-msgstr ""
+msgstr "Nazwa użytkownika lub email"
 
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 msgid "Sign in"
-msgstr ""
+msgstr "Zaloguj się"
 
 msgid "Register"
-msgstr ""
+msgstr "Zarejestruj się"
 
 msgid "Forgot password?"
-msgstr ""
+msgstr "Zapomniałeś hasło"
 
 msgid "Login"
-msgstr ""
+msgstr "Logowanie"
 
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacje"
 
 msgid "About"
-msgstr ""
+msgstr "O aplikacji"
 
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polityka prywatności"
 
 msgid "Credits"
-msgstr ""
+msgstr "Wyrazy uznania"
 
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 msgid "First Name"
-msgstr ""
+msgstr "Imię"
 
 msgid "Surname"
-msgstr ""
+msgstr "Nazwisko"
 
 msgid "I agree to"
-msgstr ""
+msgstr "Zgadzam się"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Regulamin"
 
 msgid "Enter your username or email address to request a password reset"
 msgstr ""
+"Wpisz swoją nazwę użytkownika lub adres e-mail, aby poprosić o zresetowanie "
+"hasła"
 
 msgid "Reset"
-msgstr ""
+msgstr "Zresetuj"
 
 msgid "Upload All"
-msgstr ""
+msgstr "Prześlij wszystko"
 
 msgid "Remove All Saved"
-msgstr ""
+msgstr "Usuń wszystkie zapisane"
 
 msgid "Application"
-msgstr ""
+msgstr "Aplikacja"
 
 msgid "Training Mode"
-msgstr ""
+msgstr "Tryb treningowy"
 
 msgid "Experimental Features"
-msgstr ""
+msgstr "Funkcje eksperymentalne"
 
 msgid "Welcome"
-msgstr ""
+msgstr "Witaj"
 
 msgid "Lets start!"
-msgstr ""
+msgstr "Rozpocznij"
 
 msgid "Back"
-msgstr ""
+msgstr "Cofnij"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 msgid "App"
-msgstr ""
+msgstr "Aplikacja"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
 msgstr ""
+"Jesteśmy bardzo wdzięczni wszystkim osobom, które pomogły w stworzeniu tej "
+"aplikacji:"
 
 msgid "Home"
-msgstr ""
+msgstr "Początek"
 
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Przepraszamy, wygląda na to, że jesteś offline"
 
 msgid "OK"
-msgstr ""
+msgstr "Ok"
 
 msgid "Sorry"
-msgstr ""
+msgstr "Przepraszamy"
 
 msgid "Please wait..."
-msgstr ""
+msgstr "Proszę czekać..."
 
 msgid "name is a required field"
-msgstr ""
+msgstr "nazwa użytkownika jest polem wymaganym"
 
 msgid "password is a required field"
-msgstr ""
+msgstr "hasło jest polem wymaganym"
 
 msgid "Login error:"
-msgstr ""
+msgstr "Błąd logowania:"
 
 msgid "Failed to fetch"
-msgstr ""
+msgstr "Nie udało się pobrać"
 
 msgid "Incorrect password or email."
-msgstr ""
+msgstr "Niepoprawne hasło lub adres e-mail."
 
 msgid "Logout"
-msgstr ""
+msgstr "Wyloguj"
 
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "Czy na pewno chcesz się wylogować?"
 
 msgid "This will delete all the records on this device."
-msgstr ""
+msgstr "Spowoduje to usunięcie wszystkich obserwacji na tym urządzeniu."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 msgid "Welcome aboard!"
-msgstr ""
+msgstr "Witaj!"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
+"Przed przesłaniem jakichkolwiek danych sprawdź swój adres e-mail i kliknij "
+"link weryfikacyjny."
 
 msgid "OK, got it"
-msgstr ""
+msgstr "Ok, rozumiem"
 
 msgid "email is a required field"
-msgstr ""
+msgstr "e-mail jest polem wymaganym"
 
 msgid "firstname is a required field"
-msgstr ""
+msgstr "imię jest polem wymaganym"
 
 msgid "secondname is a required field"
-msgstr ""
+msgstr "nazwisko jest polem wymaganym"
 
 msgid "must accept terms and conditions"
-msgstr ""
+msgstr "musisz zaakceptować Regulamin"
 
 msgid "Species"
-msgstr ""
+msgstr "Gatunek"
 
 msgid "Count"
-msgstr ""
+msgstr "Liczba"
 
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
 msgid "Draft"
-msgstr ""
+msgstr "Wersja robocza"
 
 msgid "Previous record draft exists, would you like to continue it?"
 msgstr ""
+"Istnieje poprzednia wersja robocza obserwacji, czy chcesz ją kontynuować?"
 
 msgid "Discard"
-msgstr ""
+msgstr "Odrzuć"
 
 msgid "Continue"
-msgstr ""
+msgstr "Kontynuuj"
 
 msgid "Finish"
-msgstr ""
+msgstr "Zakończ"
 
 msgid "No species added"
-msgstr ""
+msgstr "Nie dodano żadnego gatunku"
 
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 msgid "Records"
-msgstr ""
+msgstr "Obserwacje"
 
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć te obserwacje?"
 
 msgid "No finished records"
-msgstr ""
+msgstr "Brak zapisanych obserwacji"
 
 msgid "Finished records"
-msgstr ""
+msgstr "Obserwacja zapisana"
 
 msgid "Done"
-msgstr ""
+msgstr "Zrobione"
 
 msgid "Record incomplete"
-msgstr ""
+msgstr "Obserwacja niepełna"
 
 msgid "The record is not complete yet."
-msgstr ""
+msgstr "Obserwacja nie jest jeszcze kompletna"
 
 msgid "Choose a method to upload a photo"
-msgstr ""
+msgstr "Wybierz sposób dodania zdjęcia"
 
 msgid "Gallery"
-msgstr ""
+msgstr "Galeria"
 
 msgid "Camera"
-msgstr ""
+msgstr "Aparat fotograficzny"
 
 msgid "Are you sure you want to remove this photo from the record?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć to zdjęcie z obserwacji?"
 
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Uwaga: pozostanie w galerii."
 
 msgid "No photo has been added"
-msgstr ""
+msgstr "Żadne zdjęcie nie zostało dodane"
 
 msgid "Registration error:"
-msgstr ""
+msgstr "Błąd rejestracji:"
 
 msgid "Incorrect password or email"
-msgstr ""
+msgstr "Niepoprawne hasło lub adres e-mail"
 
 msgid "email is not valid"
-msgstr ""
+msgstr "adres e-mail jest nieprawidłowy"
 
 msgid "Paused"
-msgstr ""
+msgstr "Wstrzymane"
 
 msgid "Pending"
-msgstr ""
+msgstr "Oczekujące"
 
 msgid "Uploaded"
-msgstr ""
+msgstr "Przesłane"
 
 msgid "No finished pending records"
-msgstr ""
+msgstr "Brak oczekujących obserwacji"
 
 msgid "No uploaded records"
-msgstr ""
+msgstr "Brak przesłanych obserwacji"
 
 msgid "How to start a record"
-msgstr ""
+msgstr "Jak rozpocząć zapis obserwacji"
 
 msgid "To start a new record you can press the plus button"
-msgstr ""
+msgstr "Aby rozpocząć nowy zapis obserwacji, możesz nacisnąć przycisk plus"
 
 msgid "in the home page footer."
 msgstr ""
@@ -298,25 +306,30 @@ msgstr ""
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
 "header."
-msgstr ""
+msgstr "Po zakończeniu ustaw wyślij, naciskając przycisk Zakończ w nagłówku"
 
 msgid "Sync. with the website"
-msgstr ""
+msgstr "Synchronizacja ze stroną internetową"
 
 msgid "All your saved records will be shown on your account page."
 msgstr ""
+"Wszystkie zapisane obserwacje zostaną wyświetlone na stronie Twojego konta."
 
 msgid ""
 "By default a record is in a 'draft' mode which will not be sent to the "
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
+"Domyślnie zapis obserwacji znajduje się w trybie „roboczym”, który nie "
+"zostanie wysłany do bazy danych, dopóki nie zostanie kliknięty przycisk "
+"„Zakończ” w nagłówku. Aplikacja będzie próbowała przesłać zapis obserwacji, "
+"gdy będzie dobre połączenie sieciowe."
 
 msgid "If the record has reached the database a red"
-msgstr ""
+msgstr "Jeśli zapis obserwacji dotarł do bazy danych, czerwony "
 
 msgid "(set for submission & saved locally) will become green"
-msgstr ""
+msgstr "(ustawiony do przesłania i zapisany lokalnie) zmieni kolor na zielony"
 
 msgid "synced to the database"
 msgstr ""
@@ -385,11 +398,11 @@ msgid ""
 msgstr ""
 
 msgid "Largest species of hedgehog and mostly brown in colour"
-msgstr "Na piersi ciemna plama lub jej brak"
+msgstr "Największy gatunek jeża, przeważnie koloru brązowego"
 
 msgid ""
 "Similar to Western hedgehog but identifiable by a white spot on its chest"
-msgstr "Na piersi biała plama o różnym kształcie i wielkości"
+msgstr "Podobny do jeża zachodniego, lecz wyróżnia się białą plamą na piersi"
 
 msgid ""
 "Relatively small with grey-brown coat, a brown chest patch and white-grey "
@@ -397,7 +410,7 @@ msgid ""
 msgstr ""
 "Stosunkowo mały gatunek, z szaro-brązowym grzbietem i bokami ciała, biało-"
 "szarym brzuchem, bez czarnego obramowania uszu, proporcjonalnie krótszymi "
-"uszami i nogami."
+"nogami"
 
 msgid ""
 "Brown and black back and white underbelly, black tail with white underside, "
@@ -409,14 +422,14 @@ msgid ""
 "ears with distinctive black tips"
 msgstr ""
 "Gatunek z złoto-brązowym grzbietem i bladym brzuchem, białym ogonem, uszami "
-"charakterystycznie czarno obramowanymi, o stosunkowo dłuższych nogach."
+"charakterystycznie czarno obramowanymi, o stosunkowo dłuższych nogach"
 
 msgid ""
 "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
 "ears than other hares"
 msgstr ""
 "Gatunek z szaro-brązowym futrem latem, białym futrem zimą, uszami czarno "
-"obramowanymi, krótszymi niż u innych zajęcy."
+"obramowanymi, krótszymi niż u innych zajęcy"
 
 msgid ""
 "Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
@@ -426,7 +439,7 @@ msgstr ""
 msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
 msgstr ""
 "Gatunek z czerwono-brązowym grzbietem, jasnym brzuchem, na końcach uszu "
-"długie pęczki włosów, z puszystym ogonem."
+"długie pęczki włosów, z puszystym ogonem"
 
 msgid ""
 "Grey-brown or red-brown back and pale grey underbelly, white stripe running "
@@ -438,7 +451,7 @@ msgid ""
 "thin tail"
 msgstr ""
 "Stosunkowo mały gatunek, z ciemnobrązowym futrem, białymi cętkami na "
-"grzbiecie, krótkim i cienkim ogonem."
+"grzbiecie, krótkim i cienkim ogonem"
 
 msgid ""
 "Brown coat with orange markings on the back and a beige to orange "
@@ -447,7 +460,7 @@ msgid ""
 msgstr ""
 "Gatunek z brązowym grzbietem i pomarańczowym nalotem, brzuchem od beżowego "
 "do pomarańczowego, białą pręgą między pyskiem a oczami, małymi uszami, "
-"krótkimi nogami i puszystym brązowym ogonem, z czarnym końcem."
+"krótkimi nogami i puszystym brązowym ogonem, z czarnym końcem"
 
 msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
@@ -461,23 +474,22 @@ msgid ""
 msgstr ""
 "Gatunek z grubym, ciemno-brązowym futrem z miękkimi, gęstymi, szarymi "
 "włosami puchowymi, białą łatą na pysku, tylnymi koniczynami z palcami "
-"spiętymi błoną pławną i dużymi, jasnymi, pomarańczowo-żółtymi siekaczami."
+"spiętymi błoną pławną i dużymi, jasnymi, pomarańczowo-żółtymi siekaczami"
 
 msgid ""
 "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and "
 "brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark "
 "brown or blackish chest, with long, whisker-like hairs on the cheeks."
 msgstr ""
-"Gatunek z długim (szczególnie zimą) brudno-brązowawym lub brązowo-szarym "
-"futrem, z ciemno-brązową lub czarniawą piersią, z czarną maską okalająca "
-"oczy."
+"Gatunek z długim brudno-brązowawym lub brązowo-szarym futrem szczególnie "
+"zimą, z ciemno-brązową lub czarniawą piersią, z czarną maską okalająca oczy"
 
 msgid ""
 "Often not fully brown, have long, thick fur, with a moderately long mane at "
 "the back of the neck"
 msgstr ""
 "Nasz największy drapieżnik, z długą i gęstą sierścią, umiarkowanie długą "
-"grzywą na karku. Krótki ogon."
+"grzywą na karku"
 
 msgid ""
 "Coat color ranges from almost pure white through various shades of blonde, "
@@ -485,8 +497,7 @@ msgid ""
 "coarse guard hairs."
 msgstr ""
 "Gatunek z długą i gęsta sierścią, długimi i grubymi włosami okrywowymi, "
-"barwy płowej, z rudawym lub ciemno-brunatnym odcieniem. Wydłużony pysk, "
-"długie kończyny."
+"barwy płowej, z rudawym lub ciemno-brunatnym odcieniem"
 
 msgid ""
 "Similar to the grey wolf but is distinguished by its smaller size, more "
@@ -495,7 +506,7 @@ msgid ""
 msgstr ""
 "Gatunek podobny do wilka szarego, lecz wyróżnia się mniejszymi rozmiarami, "
 "bardziej wydłużoną klatką piersiową, mniej wydatnym czołem, krótszymi nogami"
-" i ogonem, bardziej wąskim i zaostrzonym pyskiem."
+" i ogonem, bardziej wąskim i zaostrzonym pyskiem"
 
 msgid ""
 "Orange-red fur with a white underbelly, black tips to the ears, dark brown "
@@ -503,21 +514,21 @@ msgid ""
 msgstr ""
 "Gatunek z pomarańczowo-czerwonym grzbietem, białym brzuchem, czarną górną "
 "stroną uszu, ciemnobrązowymi stopami, puszystym i pomarańczowym ogonem, z "
-"białym końcem."
+"białym końcem"
 
 msgid ""
 "Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
 "distinguished from mink by their much larger size and broader face"
 msgstr ""
 "Gatunek z szaro-brązowym futrem, bladą piersią i podgardlem. Gatunek "
-"znacznie większy, z szerszym pyskiem niż nutria amerykańska."
+"znacznie większy, z szerszym pyskiem niż nutria amerykańska"
 
 msgid ""
 "Large and grey, with a short, fluffy tail, black belly and paws, and a "
 "black-and-white striped face"
 msgstr ""
 "Gatunek duży, z szarym futrem, czarnym brzuchem i łapami, czarno-biało "
-"pręgowaną głową, krótkim i puszystym ogonem."
+"pręgowaną głową, krótkim i puszystym ogonem"
 
 msgid ""
 "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, "
@@ -541,7 +552,7 @@ msgid ""
 "banding on the tail and body"
 msgstr ""
 "Gatunek większy i bardziej krępy niż kot domowy, z puszystym i tępo "
-"zakończonym ogonem, wyraźnymi pręgami na ogonie i ciele."
+"zakończonym ogonem, wyraźnymi pręgami na ogonie i ciele"
 
 msgid ""
 "Red-brown fur in summer and silver-grey thicker fur in winter, white "
@@ -550,7 +561,7 @@ msgid ""
 msgstr ""
 "Gatunek z czerwono-brązowym futrem latem i srebrno-szarym, grubszym futrem "
 "zimą, białym brzuchem, z ciemnymi, charakterystycznymi czarnymi pędzelkami "
-"na końcach uszu, białymi bokobrodami po bokach głowy, czarnym końcem ogona."
+"na końcach uszu, białymi bokobrodami po bokach głowy, czarnym końcem ogona"
 
 msgid ""
 "Yellow to tawny short fur, spotted pattern, short body, long legs, short "
@@ -565,7 +576,7 @@ msgstr ""
 "Gatunek z grubą, ciemnoszarą, brązową, piaszczysto-brązową lub czarną "
 "sierścią, u samców sierść dłuższa wzdłuż karku i grzbietu, o muskularnym "
 "ciele z mocno osadzonymi ramionami, duża głową z kłami występującymi u obu "
-"płci."
+"płci"
 
 msgid ""
 "Short golden-brown coat, longer hair along the upper spine, longer tail and "
@@ -573,7 +584,7 @@ msgid ""
 msgstr ""
 "Największy ssak lądowy w Europie. Gatunek z krótką, złoto-brązową sierścią, "
 "dłuższymi włosami wzdłuż kręgosłupa, długim ogonem i długimi, zakrzywionymi "
-"do góry rogami."
+"do góry rogami"
 
 msgid ""
 "Males are red-brown with a white saddle patch, females are brown, males have"
@@ -605,21 +616,21 @@ msgid ""
 " back, males have antlers, relatively long tail"
 msgstr ""
 "Gatunek z czerwonawo-brązową do szarą sierścią, stosunkowo długim ogonem, "
-"samce mają poroże."
+"samce mają poroże"
 
 msgid ""
 "Typically chestnut coat with white markings but may also be fully white or "
 "black, males have antlers"
 msgstr ""
 "Gatunek z zazwyczaj kasztanową sierścią z białymi plamami, również może być "
-"całkowicie biały lub czarny, samce mają poroże."
+"całkowicie biały lub czarny, samce mają poroże"
 
 msgid ""
 "Large with dark brown coat, large antlers, hooves and a fold of skin under "
 "the chin"
 msgstr ""
 "Największy gatunek jeleniowaty, z ciemnobrązową sierścią, na podgardlu z "
-"fałdem skórnym, masywnym u samców porożem."
+"fałdem skórnym, masywnym u samców porożem i kopytami"
 
 msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
@@ -630,9 +641,9 @@ msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
 " coat, males have upright antlers, females have distinctive black bumps"
 msgstr ""
-"Gatunek z mahoniową do czarnej (czasem białej) sierścią, z białymi plamami, "
+"Gatunek z mahoniową do czarnej (czasem białą) sierścią, z białymi plamami, "
 "samce mają poroże pionowe, samice mają charakterystyczne czarne guzy na "
-"czole."
+"czole"
 
 msgid ""
 "Medium sized deer, golden coat with distinctive white spots and a white "
@@ -651,7 +662,7 @@ msgid ""
 msgstr ""
 "Gatunek z szaro-brązową i białą sierścią z długimi włosami, "
 "charakterystycznymi czarnymi plamami wokół oczu kontrastującymi z białą "
-"twarzą, puszystym i pasiastym ogonem."
+"twarzą, puszystym i pasiastym ogonem"
 
 msgid ""
 "Sandy brown coat with a lighter underbelly and a darker line along the back,"
@@ -674,10 +685,10 @@ msgid "Broom hare"
 msgstr ""
 
 msgid "Brown hare"
-msgstr "zając szarak"
+msgstr "Zając szarak"
 
 msgid "Mountain hare"
-msgstr "zając bielak"
+msgstr "Zając bielak"
 
 msgid "Granada hare"
 msgstr ""
@@ -755,7 +766,7 @@ msgid "Spanish ibex"
 msgstr ""
 
 msgid "Chamois, Alpine"
-msgstr "Kozica północna (kozica)"
+msgstr "Kozica północna"
 
 msgid "Chamois, southern"
 msgstr ""
@@ -773,7 +784,7 @@ msgid "Roe deer"
 msgstr "Sarna europejska"
 
 msgid "Sika deer"
-msgstr "Jeleń wschodni (Jeleń sika)"
+msgstr "Jeleń wschodni (sika)"
 
 msgid "Chital"
 msgstr ""
