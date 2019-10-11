@@ -806,7 +806,7 @@ msgid "European mouflon"
 msgstr "Europski muflon"
 
 msgid "Alpine ibex"
-msgstr "Kozorog"
+msgstr "Alpski kozorog"
 
 msgid "Spanish ibex"
 msgstr "Španjolski kozorog ?"
