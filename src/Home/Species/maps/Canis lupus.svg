@@ -2,7 +2,7 @@
 <svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   
   <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
-    <g id="datapoints" style="pointer-events:all" onmouseover="currentcoord(evt)" onmouseout="hideutm(evt)">
+    <g id="datapoints" style="pointer-events:all" >
       <use id="29SPB3" x="20739.58" y="48446.63" xlink:href="#post70_1"/>
       <use id="29SPC4" x="20907.35" y="47969.97" xlink:href="#post70_1"/>
       <use id="29SPD3" x="21409.84" y="46544" xlink:href="#post70_1"/>
