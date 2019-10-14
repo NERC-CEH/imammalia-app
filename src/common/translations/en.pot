@@ -924,8 +924,8 @@ msgstr "How about a rating on the App Store then?"
 msgid "How about a rating on the Play Store then?"
 msgstr "How about a rating on the Play Store then?"
 
-msgid "The iMammalia App is designed to encourage recording of mammals in the wild. This (beta) test version is set up to easily record mammals in four pilot countries: Spain, Germany, Poland and Croatia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries."
-msgstr "The iMammalia App is designed to encourage recording of mammals in the wild. This (beta) test version is set up to easily record mammals in four pilot countries: Spain, Germany, Poland and Croatia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries."
+msgid "The iMammalia App is designed to encourage recording of mammals in the wild. This test version is set up to easily record mammals in four pilot countries: Spain, Germany, Poland and Croatia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries."
+msgstr "The iMammalia App is designed to encourage recording of mammals in the wild. This test version is set up to easily record mammals in four pilot countries: Spain, Germany, Poland and Croatia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries."
 
 msgid "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
 msgstr "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
