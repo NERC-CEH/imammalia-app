@@ -6,7 +6,7 @@ import {
   IonIcon,
   IonPage,
 } from '@ionic/react';
-import { settings, undo, person, add, send } from 'ionicons/icons';
+import { settings, undo, person, add } from 'ionicons/icons';
 import Collapse from 'Components/Collapse/index';
 import './styles.scss';
 
@@ -30,21 +30,18 @@ export default () => (
 
         <Collapse title={t('Sync. with the website')}>
           <p>
-            {t('All your saved records will be shown on your account page.')}
+            {t('All your saved records will be shown on your account page.')}{' '}
             <IonIcon icon={person} />
+            <br />
+            <br />
+            <a href="https://european-mammals.brc.ac.uk">
+              https://european-mammals.brc.ac.uk
+            </a>
             <br />
             <br />
             {t(
               `By default a record is in a 'draft' mode which will not be sent to the database until the 'Finish' button in the header is clicked. The application will try to submit your record once there is a good network connection.`
             )}
-            <br />
-            <br />
-            {t('If the record has reached the database a red')}{' '}
-            <IonIcon icon={send} style={{ color: 'red' }} />
-            {t('(set for submission & saved locally) will become green')}{' '}
-            <IonIcon icon={send} style={{ color: 'green' }} /> (
-            {t('synced to the database')}
-            ).
             <br />
             <br />
             <b>{t('Note')}:</b>{' '}
