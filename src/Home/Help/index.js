@@ -8,11 +8,12 @@ import {
 } from '@ionic/react';
 import { settings, undo, person, add, send } from 'ionicons/icons';
 import Collapse from 'Components/Collapse/index';
+import './styles.scss';
 
 export default () => (
   <IonPage>
     <IonContent id="help" class="ion-padding">
-      <IonList lines="full">
+      <IonList lines="none">
         <IonItemDivider>{t('Records')}</IonItemDivider>
         <Collapse title={t('How to start a record')}>
           <p>
