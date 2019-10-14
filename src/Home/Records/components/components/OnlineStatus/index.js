@@ -12,7 +12,7 @@ const Component = observer(props => {
   if (!saved) {
     return (
       <IonLabel slot="end" class="record-status">
-        <IonBadge>{t('Draft')}</IonBadge>
+        <IonBadge class="ion-text-wrap">{t('Draft')}</IonBadge>
       </IonLabel>
     );
   }
