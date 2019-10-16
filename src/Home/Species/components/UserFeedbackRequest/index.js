@@ -31,7 +31,7 @@ class Component extends React.Component {
         question: t('Would you mind giving us some feedback?'),
         negativeOption: t('No, thanks'),
         positiveOption: t('OK, sure'),
-        link: `mailto:apps%40ceh.ac.uk?subject=iMammalia%20App&body=%0A%0A%0AVersion%3A%20${CONFIG.version}%0ABrowser%3A ${window.navigator.appVersion}%0A`,
+        link: `mailto:imammalia%40ceh.ac.uk?subject=iMammalia%20App&body=%0A%0A%0AVersion%3A%20${CONFIG.version}%0ABrowser%3A ${window.navigator.appVersion}%0A`,
       },
       positiveFeedback: {
         question: t(`How about a rating on the ${storeName} then?`),

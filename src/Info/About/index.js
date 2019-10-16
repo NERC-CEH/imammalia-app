@@ -62,7 +62,7 @@ const Component = () => (
               'Agency specializing in building bespoke data oriented sollutions.'
             )}{' '}
             {t('For suggestions and feedback please do not hesitate to')}{' '}
-            <a href="mailto:info%40flumens.io?subject=iMammalia%20App">
+            <a href="mailto:imammalia%40ceh.ac.uk?subject=iMammalia%20App">
               {t('contact us')}
             </a>
             .
