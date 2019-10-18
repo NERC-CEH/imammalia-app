@@ -8,6 +8,7 @@ import { setupConfig } from '@ionic/react';
 import appModel from 'app_model';
 import userModel from 'user_model';
 import savedSamples from 'saved_samples';
+import Analytics from 'helpers/analytics';
 import App from './App';
 
 // START Android back button disable 
@@ -30,6 +31,7 @@ async function init() {
   await appModel._init;
   await userModel._init;
   await savedSamples._init;
+  Analytics.init();
 
   if (window.cordova) {
     document.addEventListener(

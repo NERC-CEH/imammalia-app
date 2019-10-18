@@ -24,6 +24,7 @@ describe('App Model', () => {
       'recordDraftId',
       'speciesFilter',
       'useExperiments',
+      'sendAnalytics',
     ]);
   });
 });

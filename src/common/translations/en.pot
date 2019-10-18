@@ -941,3 +941,6 @@ msgstr "Icons made by"
 
 msgid "from"
 msgstr "from"
+
+msgid "Share App Analytics"
+msgstr "Share App Analytics"

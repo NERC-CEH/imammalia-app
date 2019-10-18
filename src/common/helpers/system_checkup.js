@@ -23,7 +23,6 @@ Log(`
   Build: ${CONFIG.build}
   Indicia: ${Indicia.VERSION}
   
-  Google Analytics: ${window.cordova && CONFIG.ga.id ? 'true' : 'false'}
   Server error logs: ${CONFIG.sentry.key ? 'true' : 'false'}
 
 

@@ -1,7 +1,6 @@
 /** ****************************************************************************
  * User model describing the user model on backend. Persistent.
  **************************************************************************** */
-import Analytics from 'helpers/analytics';
 import Log from 'helpers/log';
 import { observable, set as setMobXAttrs } from 'mobx';
 import { getStore } from 'common/store';
@@ -215,8 +214,6 @@ class UserModel {
     this.set('firstname', user.firstname || '');
     this.set('secondname', user.secondname || '');
     this.set('isLoggedIn', true);
-
-    Analytics.trackEvent('User', 'login');
 
     return this.save();
   }

@@ -1193,3 +1193,6 @@ msgstr "Ikony wykonane przez"
 
 msgid "from"
 msgstr "z"
+
+msgid "Share App Analytics"
+msgstr "Włącz Analitykę Aplikacji"

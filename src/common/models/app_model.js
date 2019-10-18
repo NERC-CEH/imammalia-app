@@ -15,6 +15,7 @@ const getDefaultAttrs = () => ({
   speciesFilter: [],
 
   useExperiments: false,
+  sendAnalytics: true,
 });
 
 class AppModel {

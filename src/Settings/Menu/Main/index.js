@@ -11,7 +11,7 @@ import {
   IonLabel,
   IonNote,
 } from '@ionic/react';
-import { undo, school, flag, globe } from 'ionicons/icons';
+import { undo, school, flag, globe, share } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
 import { countries, languages } from 'helpers/translator';
 import config from 'config';
@@ -44,12 +44,20 @@ class Component extends React.Component {
     resetApp: PropTypes.func.isRequired,
     onToggle: PropTypes.func.isRequired,
     useTraining: PropTypes.bool.isRequired,
+    sendAnalytics: PropTypes.bool.isRequired,
     language: PropTypes.string,
     country: PropTypes.string,
   };
 
   render() {
-    const { resetApp, onToggle, useTraining, language, country } = this.props;
+    const {
+      resetApp,
+      onToggle,
+      useTraining,
+      language,
+      country,
+      sendAnalytics,
+    } = this.props;
 
     return (
       <IonContent class="app-settings">
@@ -82,6 +90,14 @@ class Component extends React.Component {
                 )}
               </IonNote>
             </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonIcon icon={share} size="small" slot="start" />
+            <IonLabel>{t('Share App Analytics')}</IonLabel>
+            <Toggle
+              onToggle={checked => onToggle('sendAnalytics', checked)}
+              checked={sendAnalytics}
+            />
           </IonItem>
 
           <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp)}>

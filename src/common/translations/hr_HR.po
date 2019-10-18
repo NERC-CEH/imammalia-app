@@ -1183,3 +1183,6 @@ msgstr "Autor ikona "
 
 msgid "from"
 msgstr "od"
+
+msgid "Share App Analytics"
+msgstr "Omogući Analitiku Aplikacija"
