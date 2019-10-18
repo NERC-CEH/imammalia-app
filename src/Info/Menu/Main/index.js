@@ -21,7 +21,9 @@ import config from 'config';
 import './styles.scss';
 import './logo.png';
 
-const Component = observer(({ isLoggedIn, user, logOut }) => {
+const Component = observer(({ isLoggedIn, user, logOut, appModel }) => {
+  const lang = appModel.get('language');
+
   return (
     <IonContent class="app-menu">
       <img src="/images/logo.png" alt="app logo" />
@@ -64,7 +66,7 @@ const Component = observer(({ isLoggedIn, user, logOut }) => {
         </IonItem>
 
         <IonItem
-          href={`${config.site_url}/privacy-notice`}
+          href={`${config.site_url}/privacy-notice?lang=${lang}`}
           target="_blank"
           detail
         >

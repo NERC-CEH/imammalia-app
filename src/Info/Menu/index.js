@@ -46,6 +46,7 @@ const Controller = observer(props => {
       <AppHeader title={t('Menu')} />
       <Main
         user={userModel.attrs}
+        appModel={appModel}
         isLoggedIn={isLoggedIn}
         logOut={logOut}
         {...restProps}

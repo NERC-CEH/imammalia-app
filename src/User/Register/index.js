@@ -8,7 +8,7 @@ import loader from 'common/helpers/loader';
 import AppHeader from 'Components/Header';
 import Main from './Main';
 
-async function onRegister(userModel, details) {
+async function onRegister(userModel, details, lang) {
   const { email, password, firstname, secondname } = details;
   if (!Device.isOnline()) {
     alert({
@@ -30,6 +30,7 @@ async function onRegister(userModel, details) {
     password,
     passwordConfirm: password,
     termsAgree: true,
+    lang,
   };
 
   try {
@@ -61,13 +62,16 @@ async function onRegister(userModel, details) {
   loader.hide();
 }
 
-export default function RegisterContainer({ userModel }) {
+export default function RegisterContainer({ userModel, appModel }) {
+  const lang = appModel.get('language');
+
   return (
     <IonPage>
       <AppHeader title={t('Register')} />
       <Main
         schema={userModel.registerSchema}
-        onSubmit={details => onRegister(userModel, details)}
+        onSubmit={details => onRegister(userModel, details, lang)}
+        lang={lang}
       />
     </IonPage>
   );
@@ -75,4 +79,5 @@ export default function RegisterContainer({ userModel }) {
 
 RegisterContainer.propTypes = {
   userModel: PropTypes.object.isRequired,
+  appModel: PropTypes.object.isRequired,
 };

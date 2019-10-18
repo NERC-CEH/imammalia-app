@@ -43,7 +43,7 @@ const App = () => (
                 <Route
                   path="/user/register"
                   exact
-                  render={() => <Register userModel={userModel} />}
+                  render={() => <Register userModel={userModel} appModel={appModel} />}
                 />
                 <Route
                   path="/user/reset"

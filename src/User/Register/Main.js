@@ -20,7 +20,7 @@ class Component extends React.Component {
 
   render() {
     const { showPassword } = this.state;
-    const { onSubmit, schema } = this.props;
+    const { onSubmit, schema, lang } = this.props;
 
     return (
       <IonContent id="register-page">
@@ -76,7 +76,7 @@ class Component extends React.Component {
                     <>
                       {t('I agree to')}
                       {' '}
-                      <a href={`${config.site_url}/privacy-notice`}>
+                      <a href={`${config.site_url}/privacy-notice?lang=${lang}`}>
                         {t('Terms and Conditions')}
                       </a>
                     </>
@@ -100,6 +100,7 @@ class Component extends React.Component {
 Component.propTypes = {
   schema: PropTypes.object.isRequired,
   onSubmit: PropTypes.func.isRequired,
+  lang: PropTypes.string.isRequired,
 };
 
 export default Component;
