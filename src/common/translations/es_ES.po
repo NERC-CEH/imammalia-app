@@ -1249,3 +1249,13 @@ msgstr "desde"
 
 msgid "Share App Analytics"
 msgstr "Habilitar Análisis de Aplicaciones"
+
+msgid ""
+"iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals."
+msgstr ""
+"iMammalia está diseñado para que el registro de mamíferos sea muy simple. De"
+" momento, tiene una lista de especies para España, Alemania, Polonia y "
+"Croacia, pero no condiciona el lugar donde se pueden registrar estos "
+"animales."

@@ -1207,3 +1207,12 @@ msgstr "von"
 
 msgid "Share App Analytics"
 msgstr "App-Analyse aktivieren"
+
+msgid ""
+"iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals."
+msgstr ""
+"iMammalia wurde so gestaltet, dass Säugetiermeldungen simpel und leicht "
+"erfolgen können. Es enthält eine Artenliste für Spanien, Deutschland, Polen "
+"und Kroatien, die Eingabe ist aber nicht auf diese Länder beschränkt. "

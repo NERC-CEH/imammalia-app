@@ -944,3 +944,10 @@ msgstr "from"
 
 msgid "Share App Analytics"
 msgstr "Share App Analytics"
+
+msgid "iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals."
+msgstr "iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals."
