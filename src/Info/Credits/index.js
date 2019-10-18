@@ -94,6 +94,9 @@ export default () => (
         <IonItem>
           <IonLabel>Magnus Bower</IonLabel>
         </IonItem>
+        <IonItem>
+          <IonLabel>Tomasz Borowik</IonLabel>
+        </IonItem>
       </IonList>
 
       <IonList>
