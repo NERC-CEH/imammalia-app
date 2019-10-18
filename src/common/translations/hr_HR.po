@@ -1,11 +1,11 @@
 # Translators:
-# Nera Fabijanić <nera_az@yahoo.com>, 2019
 # Karolis, 2019
+# Nera Fabijanić <nera_az@yahoo.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Nera Fabijanić <nera_az@yahoo.com>, 2019\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/ceh/teams/103078/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -728,25 +728,25 @@ msgid "European rabbit"
 msgstr "Kunić"
 
 msgid "Broom hare"
-msgstr "Kantabrijski zec ?"
+msgstr "Kantabrijski zec "
 
 msgid "Brown hare"
 msgstr " Zec obični (Europski zec )"
 
 msgid "Mountain hare"
-msgstr "Planinski zec ?"
+msgstr "Planinski zec "
 
 msgid "Granada hare"
-msgstr "Iberijski zec ?"
+msgstr "Iberijski zec "
 
 msgid "Red squirrel"
 msgstr "Crvena vjeverica"
 
 msgid "Barbary ground squirrel"
-msgstr "Prugasta vjeverica ?"
+msgstr "Prugasta vjeverica "
 
 msgid "Spotted souslik"
-msgstr "Pjegava tekunica ?"
+msgstr "Pjegava tekunica "
 
 msgid "Alpine marmot"
 msgstr "Alpski svizac"
@@ -779,13 +779,13 @@ msgid "Eurasian badger"
 msgstr "Jazavac"
 
 msgid "Egyptian mongoose"
-msgstr "Egipatski mungos ?"
+msgstr "Egipatski mungos "
 
 msgid "Small Indian mongoose"
 msgstr "Mali indijski mungos"
 
 msgid "Common genet"
-msgstr "Europska cibetka ?"
+msgstr "Europska cibetka "
 
 msgid "Wildcat"
 msgstr "Divlja mačka"
@@ -809,13 +809,13 @@ msgid "Alpine ibex"
 msgstr "Alpski kozorog"
 
 msgid "Spanish ibex"
-msgstr "Španjolski kozorog ?"
+msgstr "Španjolski kozorog "
 
 msgid "Chamois, Alpine"
 msgstr "Divokoza"
 
 msgid "Chamois, southern"
-msgstr "Pirinejska divokoza ?"
+msgstr "Pirinejska divokoza "
 
 msgid "Red deer"
 msgstr "Jelen obični"
@@ -824,7 +824,7 @@ msgid "Fallow deer"
 msgstr "Jelen lopatar"
 
 msgid "Elk"
-msgstr "Kanadski jelen ?"
+msgstr "Kanadski jelen "
 
 msgid "Roe deer"
 msgstr "Srna obična"
