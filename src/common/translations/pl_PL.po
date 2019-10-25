@@ -1,11 +1,11 @@
 # Translators:
-# Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2019
 # Karolis, 2019
+# Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2019\n"
+"Last-Translator: Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2019\n"
 "Language-Team: Polish (Poland) (https://www.transifex.com/ceh/teams/103078/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -408,8 +408,7 @@ msgid ""
 "the head"
 msgstr ""
 "Stosunkowo mały gatunek, z białym pyskiem, brązowymi nogami i białym lub "
-"brązowym podbrzuszem, dobrze widoczne, duże uszy i brak kolców na czubku "
-"głowy"
+"brązowym brzuchem, dobrze widoczne, duże uszy i brak kolców na czubku głowy"
 
 msgid "Largest species of hedgehog and mostly brown in colour"
 msgstr "Największy gatunek jeża, większość ciała koloru brązowego"
@@ -505,7 +504,7 @@ msgid ""
 "brown or blackish chest, with long, whisker-like hairs on the cheeks."
 msgstr ""
 "Gatunek z długim brudno-brązowym lub brązowo-szarym futrem szczególnie zimą,"
-" z ciemno-brązową lub czarniawą piersią, z czarną maską okalająca oczy"
+" z ciemno-brązową lub czarniawą piersią, z czarną maską okalającą oczy"
 
 msgid ""
 "Often not fully brown, have long, thick fur, with a moderately long mane at "
@@ -544,7 +543,7 @@ msgid ""
 "distinguished from mink by their much larger size and broader face"
 msgstr ""
 "Gatunek z szaro-brązowym futrem, bladą piersią i podgardlem. Gatunek "
-"znacznie większy, z szerszym pyskiem niż nutria amerykańska"
+"znacznie większy, z szerszym pyskiem niż norka amerykańska"
 
 msgid ""
 "Large and grey, with a short, fluffy tail, black belly and paws, and a "
@@ -811,7 +810,7 @@ msgid "European bison"
 msgstr "Żubr europejski"
 
 msgid "European mouflon"
-msgstr "Muflon (owca dzika)"
+msgstr "Owca dzika"
 
 msgid "Alpine ibex"
 msgstr "Koziorożec alpejski"
@@ -838,19 +837,19 @@ msgid "Roe deer"
 msgstr "Sarna europejska"
 
 msgid "Sika deer"
-msgstr "Jeleń wschodni (sika)"
+msgstr "Jeleń wschodni"
 
 msgid "Chital"
-msgstr "Aksis czytal (jeleń aksis)"
+msgstr "Aksis czytal"
 
 msgid "White-tailed deer"
-msgstr "Mulak białoogonowy (jeleń wirginijski)"
+msgstr "Mulak białoogonowy"
 
 msgid "Raccoon"
 msgstr "Szop pracz"
 
 msgid "Barbary sheep"
-msgstr "Arui grzywiasta (owca grzywiasta)"
+msgstr "Arui grzywiasta"
 
 msgid "Germany"
 msgstr "Niemcy"
@@ -874,16 +873,16 @@ msgid "Elsewhere"
 msgstr "Inny"
 
 msgid "river"
-msgstr "rzeka"
+msgstr "rzeki"
 
 msgid "forest"
-msgstr "las"
+msgstr "lasy"
 
 msgid "shrubs"
 msgstr "zarośla"
 
 msgid "prairies"
-msgstr "łąka"
+msgstr "łąki"
 
 msgid "farmlands"
 msgstr "pola uprawne"
@@ -892,13 +891,13 @@ msgid "alpine"
 msgstr "góry"
 
 msgid "aquatic"
-msgstr "cieki wodne"
+msgstr "cieki wodne, jeziora"
 
 msgid "underground"
 msgstr "podziemne nory"
 
 msgid "tree"
-msgstr "las, park"
+msgstr "park"
 
 msgid "Description"
 msgstr "Opis"
@@ -1072,8 +1071,8 @@ msgstr "Prawa autorskie zdjęcia"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
-"Oznacz wszelkie nowe zapisy obserwacji jako „Tryb treningowy” i wyklucz ze "
-"wszystkich zapisów obserwacji."
+"Aby się dowiedzieć jak dodawać nowe obserwacje włącz \"Tryb treningowy\". "
+"Wszystkie obserwacje w tym trybie nie będą przesyłane dalej."
 
 msgid "Distribution"
 msgstr "Obszar występowania"
