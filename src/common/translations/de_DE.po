@@ -1084,8 +1084,8 @@ msgstr "Bildnachweise:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
-"Markiere neue Einträge als \"Training\" und schließe sie von neuen Einträgen"
-" aus."
+"Markiert neue Einträge als “Training” und zählt sie nicht zu den neuen "
+"Dateneinträgen dazu."
 
 msgid "Distribution"
 msgstr "Verbreitung"
