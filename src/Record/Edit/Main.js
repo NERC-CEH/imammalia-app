@@ -87,12 +87,12 @@ class Record extends Component {
           <IonItem routerLink={`/record/${sample.cid}/edit/method`} detail>
             <IonIcon src="/images/binoculars.svg" slot="start" />
             <IonLabel>{t('Method')}</IonLabel>
-            <IonLabel slot="end">{method}</IonLabel>
+            <IonLabel slot="end">{t(method)}</IonLabel>
           </IonItem>
           <IonItem routerLink={`/record/${sample.cid}/edit/type`} detail>
             <IonIcon src="/images/skull.svg" slot="start" />
             <IonLabel>{t('Type')}</IonLabel>
-            <IonLabel slot="end">{type}</IonLabel>
+            <IonLabel slot="end">{t(type)}</IonLabel>
           </IonItem>
           <IonItem routerLink={`/record/${sample.cid}/edit/comment`} detail>
             <IonIcon icon={clipboard} slot="start" />
