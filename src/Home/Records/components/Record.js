@@ -9,6 +9,8 @@ import {
   IonItemOptions,
   IonItemOption,
 } from '@ionic/react';
+import { open } from 'ionicons/icons';
+import config from 'config';
 import OnlineStatus from './components/OnlineStatus';
 import ErrorMessage from './components/ErrorMessage';
 
@@ -45,10 +47,17 @@ const Record = observer(({ sample }) => {
       ? `/record/${sample.cid}/edit`
       : undefined;
 
+  const externalHref =
+    isSent && `${config.site_url}record/details?occurrence_id=${occ.id}`;
+
   return (
     <IonItemSliding>
       <ErrorMessage sample={sample} />
-      <IonItem routerLink={href} detail={!!href}>
+      <IonItem
+        routerLink={href}
+        href={externalHref}
+        detailIcon={externalHref ? open : undefined}
+      >
         <IonLabel>
           <h3>
             <b>{t(species)}</b>
