@@ -10,7 +10,7 @@ function getFinishButton(onSubmit) {
 
 const Header = ({ onSubmit, isTraining }) => {
   const trainingModeSubheader = isTraining && (
-    <div className="training-record">training record</div>
+    <div className="training-record">{t('Training Mode')}</div>
   );
 
   return (
