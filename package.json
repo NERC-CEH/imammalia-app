@@ -4,7 +4,7 @@
   "title": "iMammalia App",
   "description": "iMammalia mobile application.",
   "version": "1.0.3",
-  "build": "1",
+  "build": "2",
   "homepage": "https://european-mammals.brc.ac.uk",
   "scripts": {
     "build": "NODE_ENV=production grunt",
