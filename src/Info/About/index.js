@@ -59,7 +59,7 @@ const Component = () => (
               Flumens.
             </a>{' '}
             {t(
-              'Agency specializing in building bespoke data oriented sollutions.'
+              'Agency specializing in building bespoke data oriented solutions.'
             )}{' '}
             {t('For suggestions and feedback please do not hesitate to')}{' '}
             <a href="mailto:imammalia%40ceh.ac.uk?subject=iMammalia%20App">

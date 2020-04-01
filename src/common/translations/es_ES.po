@@ -1094,7 +1094,7 @@ msgstr "Desarrollo de aplicaciones"
 msgid "This app was hand crafted with love by"
 msgstr "Esta aplicación fue hecha a mano con mucho cariño por"
 
-msgid "Agency specializing in building bespoke data oriented sollutions."
+msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
 "Agencia especializada en la construcción de soluciones a medida y orientadas"
 " a la gestión de datos."
@@ -1253,3 +1253,63 @@ msgstr ""
 " momento, tiene una lista de especies para España, Alemania, Polonia y "
 "Croacia, pero no condiciona el lugar donde se pueden registrar estos "
 "animales."
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr ""

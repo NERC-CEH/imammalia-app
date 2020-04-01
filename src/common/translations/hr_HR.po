@@ -1040,10 +1040,8 @@ msgstr "Razvoj aplikacije"
 msgid "This app was hand crafted with love by"
 msgstr "Ova aplikacija ručno je rađena s ljubavlju od"
 
-msgid "Agency specializing in building bespoke data oriented sollutions."
+msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
-"Agencija specijalizirana za izgradnju prilagođenih podacima usmjerenim na "
-"podatke."
 
 msgid "For suggestions and feedback please do not hesitate to"
 msgstr ""
@@ -1194,3 +1192,63 @@ msgstr ""
 "iMammalia je dizajnirana za lakše snimanje i praćenje sisavaca. Sadrži popis"
 " vrsta za Španjolsku, Njemačku, Poljsku i Hrvatsku, ali ne ograničava vam "
 "državu gdje možete snimiti te životinje."
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr ""

@@ -1062,7 +1062,7 @@ msgstr "App Entwicklung"
 msgid "This app was hand crafted with love by"
 msgstr "Diese App wurde mit Liebe von Hand hergestellt von"
 
-msgid "Agency specializing in building bespoke data oriented sollutions."
+msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
 "Diese Agentur ist spezialisiert darauf, datenorientierte Lösungen zu "
 "erstellen"
@@ -1218,3 +1218,63 @@ msgstr ""
 "iMammalia wurde so gestaltet, dass Säugetiermeldungen simpel und leicht "
 "erfolgen können. Es enthält eine Artenliste für Spanien, Deutschland, Polen "
 "und Kroatien, die Eingabe ist aber nicht auf diese Länder beschränkt. "
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr ""
