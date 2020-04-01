@@ -3,7 +3,7 @@
     "baseUrl": "./src",
     "paths": {
       "*": ["types/*"],
-      "common": ["common/"],
+      "common": ["common/"]
     }
   },
   "include": ["src/**/*"]

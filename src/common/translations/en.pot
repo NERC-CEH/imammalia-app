@@ -951,3 +951,60 @@ msgid "iMammalia is designed to make mammal recording easy. It holds a species l
 msgstr "iMammalia is designed to make mammal recording easy. It holds a species list"
 " for Spain, Germany, Poland and Croatia but does not limit where you can "
 "record these animals."
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Gender"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Age"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "Decomposition"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Male"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Female"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Please specify the gender of the mammal."
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr "Piglet"
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Juvenile"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Adult"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Please specify the age of the mammal."
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Fresh carcass"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "Decomposed"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "Dry (just bones left)"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr "Please specify the state of decomposition of the mammal."
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "Hunted"

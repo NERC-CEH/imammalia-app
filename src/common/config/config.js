@@ -162,6 +162,41 @@ const CONFIG = {
           _values: typeValues,
         },
 
+        gender: {
+          label: 'Gender',
+          type: 'radio',
+          info: 'Please specify the gender of the mammal.',
+          id: 434,
+          values: {
+            Male: 4343,
+            Female: 4344,
+          },
+        },
+
+        age: {
+          label: 'Age',
+          type: 'radio',
+          info: 'Please specify the age of the mammal.',
+          id: 824,
+          values: {
+            Piglet: 17687,
+            Juvenile: 17688,
+            Adult: 17689,
+          },
+        },
+
+        decomposition: {
+          label: 'Decomposition',
+          type: 'radio',
+          info: 'Please specify the state of decomposition of the mammal.',
+          id: 825,
+          values: {
+            'Fresh carcass': 17690,
+            Decomposed: 17691,
+            'Dry (just bones left)': 17692,
+          },
+        },
+        
         method: {
           label: 'Method',
           type: 'radio',
@@ -171,6 +206,7 @@ const CONFIG = {
             'Direct observation': 17456,
             'Camera trap': 17457,
             Catch: 17458,
+            Hunted: 17683,
             'Road kill': 17459,
             'Field carcass': 17460,
             Telemetry: 17461,

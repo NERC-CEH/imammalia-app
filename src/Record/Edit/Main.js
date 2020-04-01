@@ -6,9 +6,13 @@ import { observer } from 'mobx-react';
 import dateHelp from 'helpers/date';
 import './styles.scss';
 import './skull.svg';
+import './footprint.svg';
 import './deer.svg';
 import './binoculars.svg';
 import './number.svg';
+import './gender.svg';
+import './age.svg';
+import './boar.svg';
 
 const { print: prettyDate } = dateHelp;
 
@@ -16,6 +20,37 @@ const { print: prettyDate } = dateHelp;
 class Record extends Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
+  };
+
+  getBoarSpecificAttributes = () => {
+    const { sample } = this.props;
+    const occ = sample.occurrences.at(0);
+    const { gender, age, decomposition, taxon } = occ.attributes;
+
+    const WILD_BOAR = 'Sus scrofa';
+    if (!taxon || taxon.taxon !== WILD_BOAR) {
+      return null;
+    }
+
+    return (
+      <>
+        <IonItem routerLink={`/record/${sample.cid}/edit/gender`} detail>
+          <IonIcon src="/images/gender.svg" slot="start" />
+          <IonLabel>{t('Gender')}</IonLabel>
+          <IonLabel slot="end">{t(gender)}</IonLabel>
+        </IonItem>
+        <IonItem routerLink={`/record/${sample.cid}/edit/age`} detail>
+          <IonIcon src="/images/age.svg" slot="start" />
+          <IonLabel>{t('Age')}</IonLabel>
+          <IonLabel slot="end">{t(age)}</IonLabel>
+        </IonItem>
+        <IonItem routerLink={`/record/${sample.cid}/edit/decomposition`} detail>
+          <IonIcon src="/images/skull.svg" slot="start" />
+          <IonLabel>{t('Decomposition')}</IonLabel>
+          <IonLabel slot="end">{t(decomposition)}</IonLabel>
+        </IonItem>
+      </>
+    );
   };
 
   render() {
@@ -90,10 +125,13 @@ class Record extends Component {
             <IonLabel slot="end">{t(method)}</IonLabel>
           </IonItem>
           <IonItem routerLink={`/record/${sample.cid}/edit/type`} detail>
-            <IonIcon src="/images/skull.svg" slot="start" />
+            <IonIcon src="/images/footprint.svg" slot="start" />
             <IonLabel>{t('Type')}</IonLabel>
             <IonLabel slot="end">{t(type)}</IonLabel>
           </IonItem>
+
+          {this.getBoarSpecificAttributes()}
+
           <IonItem routerLink={`/record/${sample.cid}/edit/comment`} detail>
             <IonIcon icon={clipboard} slot="start" />
             <IonLabel>{t('Comment')}</IonLabel>
