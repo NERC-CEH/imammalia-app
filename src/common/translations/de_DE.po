@@ -1120,7 +1120,7 @@ msgstr "Maus"
 msgid "Rat"
 msgstr "Ratte"
 
-msgid "Small mustelid"
+msgid "Other mustelid"
 msgstr "kleiner Marderartiger"
 
 msgid "Locating"

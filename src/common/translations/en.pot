@@ -891,8 +891,8 @@ msgstr "Mouse"
 msgid "Rat"
 msgstr "Rat"
 
-msgid "Small mustelid"
-msgstr "Small mustelid"
+msgid "Other mustelid"
+msgstr "Other mustelid"
 
 msgid "Locating"
 msgstr "Locating"

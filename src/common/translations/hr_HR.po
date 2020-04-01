@@ -1100,7 +1100,7 @@ msgstr "Miš"
 msgid "Rat"
 msgstr "Štakor"
 
-msgid "Small mustelid"
+msgid "Other mustelid"
 msgstr "Kune"
 
 msgid "Locating"

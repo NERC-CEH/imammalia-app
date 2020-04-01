@@ -1153,7 +1153,7 @@ msgstr "Ratón"
 msgid "Rat"
 msgstr "Rata"
 
-msgid "Small mustelid"
+msgid "Other mustelid"
 msgstr "Mustélidos pequeños"
 
 msgid "Locating"

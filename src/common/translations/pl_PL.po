@@ -1111,7 +1111,7 @@ msgstr "Mysz"
 msgid "Rat"
 msgstr "Szczór"
 
-msgid "Small mustelid"
+msgid "Other mustelid"
 msgstr "Małe łasicowate"
 
 msgid "Locating"
