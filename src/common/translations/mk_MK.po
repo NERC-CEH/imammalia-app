@@ -596,6 +596,11 @@ msgid ""
 " shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr ""
 
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr ""
 
@@ -627,6 +632,9 @@ msgid "Barbary ground squirrel"
 msgstr ""
 
 msgid "Spotted souslik"
+msgstr ""
+
+msgid "European Souslik"
 msgstr ""
 
 msgid "Alpine marmot"

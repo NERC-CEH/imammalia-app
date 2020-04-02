@@ -716,6 +716,11 @@ msgstr ""
 "Pješčano smeđe boje sa svjetlijom poddlakom i tamnijom linijom duž leđa, "
 "raščupane dlake na grlu i glatkih, zakrivljenih rogova unatrag"
 
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Alžirski jež"
 
@@ -748,6 +753,9 @@ msgstr "Prugasta vjeverica "
 
 msgid "Spotted souslik"
 msgstr "Pjegava tekunica "
+
+msgid "European Souslik"
+msgstr ""
 
 msgid "Alpine marmot"
 msgstr "Alpski svizac"

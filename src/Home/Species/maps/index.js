@@ -38,6 +38,7 @@ import "./Rupicapra pyrenaica.svg";
 import "./Rupicapra rupicapra.svg";
 import "./Sciurus vulgaris.svg";
 import "./Spermophilus suslicus.svg";
+import "./Spermophilus citellus.svg";
 import "./Sus scrofa.svg";
 import "./Ursus arctos.svg";
 import "./Vulpes vulpes.svg";

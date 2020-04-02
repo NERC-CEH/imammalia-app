@@ -734,6 +734,11 @@ msgstr ""
 "Sand-braunes Fell mit hellerem Bauch und dunklerer Rückenlinie, struppiges "
 "Haar an der Kehle und glatte nach hinten gebogene Hörner"
 
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Algerischer Igel"
 
@@ -766,6 +771,9 @@ msgstr "Atlashörnchen"
 
 msgid "Spotted souslik"
 msgstr "Perlziesel"
+
+msgid "European Souslik"
+msgstr ""
 
 msgid "Alpine marmot"
 msgstr "Alpen-Murmeltier"

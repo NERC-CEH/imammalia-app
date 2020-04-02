@@ -45,3 +45,4 @@ import "./40_thumbnail.jpg";
 import "./41_thumbnail.jpg";
 import "./42_thumbnail.jpg";
 import "./43_thumbnail.jpg";
+import "./44_thumbnail.jpg";

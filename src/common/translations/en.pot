@@ -519,6 +519,9 @@ msgstr "Grey-brown and white coat with long fur and a bushy, striped tail, chara
 msgid "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
 
+msgid "Relatively small with brown fur with no obvious spots, and a short bushy tail"
+msgstr "Relatively small with brown fur with no obvious spots, and a short bushy tail"
+
 msgid "Algerian hedgehog"
 msgstr "Algerian hedgehog"
 
@@ -551,6 +554,9 @@ msgstr "Barbary ground squirrel"
 
 msgid "Spotted souslik"
 msgstr "Spotted souslik"
+
+msgid "European Souslik"
+msgstr "European Souslik"
 
 msgid "Alpine marmot"
 msgstr "Alpine marmot"

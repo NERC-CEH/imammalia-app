@@ -398,7 +398,7 @@
   {
     "id": 12,
     "warehouse_id": 440919,
-    "sort_id": 12,
+    "sort_id": 13,
     "english": "Alpine marmot",
     "taxon": "Marmota marmota",
     "mammalnet_website_path": "marmota_marmota_",
@@ -434,7 +434,7 @@
   {
     "id": 13,
     "warehouse_id": 440908,
-    "sort_id": 13,
+    "sort_id": 14,
     "english": "European beaver",
     "taxon": "Castor fiber",
     "mammalnet_website_path": "castor_fiber_",
@@ -470,7 +470,7 @@
   {
     "id": 14,
     "warehouse_id": 440912,
-    "sort_id": 14,
+    "sort_id": 19,
     "english": "Coypu",
     "taxon": "Myocastor coypus",
     "mammalnet_website_path": "myocastor_coypus_",
@@ -506,7 +506,7 @@
   {
     "id": 15,
     "warehouse_id": 440843,
-    "sort_id": 19,
+    "sort_id": 15,
     "english": "Raccoon dog",
     "taxon": "Nyctereutes procyonoides",
     "mammalnet_website_path": "nyctereutes_procyonoides_",
@@ -542,7 +542,7 @@
   {
     "id": 16,
     "warehouse_id": 440875,
-    "sort_id": 15,
+    "sort_id": 16,
     "english": "Brown bear",
     "taxon": "Ursus arctos",
     "mammalnet_website_path": "ursus_arctos_",
@@ -578,7 +578,7 @@
   {
     "id": 17,
     "warehouse_id": 440840,
-    "sort_id": 16,
+    "sort_id": 17,
     "english": "Grey wolf",
     "taxon": "Canis lupus",
     "mammalnet_website_path": "canis_lupus_",
@@ -614,7 +614,7 @@
   {
     "id": 18,
     "warehouse_id": 440838,
-    "sort_id": 17,
+    "sort_id": 18,
     "english": "Golden jackal",
     "taxon": "Canis aureus",
     "mammalnet_website_path": "canis_aureus_",
@@ -650,7 +650,7 @@
   {
     "id": 19,
     "warehouse_id": 440846,
-    "sort_id": 18,
+    "sort_id": 22,
     "english": "Red fox",
     "taxon": "Vulpes vulpes",
     "mammalnet_website_path": "vulpes_vulpes_",
@@ -686,7 +686,7 @@
   {
     "id": 20,
     "warehouse_id": 440865,
-    "sort_id": 22,
+    "sort_id": 21,
     "english": "European otter",
     "taxon": "Lutra lutra",
     "mammalnet_website_path": "lutra_lutra_",
@@ -722,7 +722,7 @@
   {
     "id": 21,
     "warehouse_id": 440868,
-    "sort_id": 21,
+    "sort_id": 23,
     "english": "Eurasian badger",
     "taxon": "Meles meles",
     "mammalnet_website_path": "meles_meles_",
@@ -758,7 +758,7 @@
   {
     "id": 22,
     "warehouse_id": 440861,
-    "sort_id": 23,
+    "sort_id": 24,
     "english": "Egyptian mongoose",
     "taxon": "Herpestes ichneumon",
     "mammalnet_website_path": "herpestes_ichneumon_",
@@ -794,7 +794,7 @@
   {
     "id": 23,
     "warehouse_id": 440859,
-    "sort_id": 24,
+    "sort_id": 25,
     "english": "Small Indian mongoose",
     "taxon": "Herpestes auropunctatus",
     "mammalnet_website_path": "herpestes_auropunctatus",
@@ -830,7 +830,7 @@
   {
     "id": 24,
     "warehouse_id": 440879,
-    "sort_id": 25,
+    "sort_id": 26,
     "english": "Common genet",
     "taxon": "Genetta genetta",
     "mammalnet_website_path": "galemys_pyrenaicus",
@@ -866,7 +866,7 @@
   {
     "id": 25,
     "warehouse_id": 440850,
-    "sort_id": 26,
+    "sort_id": 27,
     "english": "Wildcat",
     "taxon": "Felis silvestris",
     "mammalnet_website_path": "felis_silvestris_",
@@ -902,7 +902,7 @@
   {
     "id": 26,
     "warehouse_id": 440853,
-    "sort_id": 27,
+    "sort_id": 28,
     "english": "Eurasian lynx",
     "taxon": "Lynx lynx",
     "mammalnet_website_path": "lynx_lynx_",
@@ -938,7 +938,7 @@
   {
     "id": 27,
     "warehouse_id": 440855,
-    "sort_id": 28,
+    "sort_id": 29,
     "english": "Iberian lynx",
     "taxon": "Lynx pardinus",
     "mammalnet_website_path": "lynx_pardinus_",
@@ -974,7 +974,7 @@
   {
     "id": 28,
     "warehouse_id": 440833,
-    "sort_id": 29,
+    "sort_id": 30,
     "english": "Wild boar",
     "taxon": "Sus scrofa",
     "mammalnet_website_path": "sus_scrofa_",
@@ -1010,7 +1010,7 @@
   {
     "id": 29,
     "warehouse_id": 440795,
-    "sort_id": 30,
+    "sort_id": 31,
     "english": "European bison",
     "taxon": "Bison bonasus",
     "mammalnet_website_path": "bison_bonasus_",
@@ -1046,7 +1046,7 @@
   {
     "id": 30,
     "warehouse_id": 440803,
-    "sort_id": 31,
+    "sort_id": 32,
     "english": "European mouflon",
     "taxon": "Ovis ammon",
     "mammalnet_website_path": "ovis_ammon_or_ovis_gmelini_musimon",
@@ -1082,7 +1082,7 @@
   {
     "id": 31,
     "warehouse_id": 440798,
-    "sort_id": 32,
+    "sort_id": 33,
     "english": "Alpine ibex",
     "taxon": "Capra ibex",
     "mammalnet_website_path": "capra_ibex_",
@@ -1118,7 +1118,7 @@
   {
     "id": 32,
     "warehouse_id": 440800,
-    "sort_id": 33,
+    "sort_id": 35,
     "english": "Spanish ibex",
     "taxon": "Capra pyrenaica",
     "mammalnet_website_path": "capra_pyrenaica_",
@@ -1154,7 +1154,7 @@
   {
     "id": 33,
     "warehouse_id": 440808,
-    "sort_id": 35,
+    "sort_id": 36,
     "english": "Chamois, Alpine",
     "taxon": "Rupicapra rupicapra",
     "mammalnet_website_path": "rupicapra_rupicapra_",
@@ -1190,7 +1190,7 @@
   {
     "id": 34,
     "warehouse_id": 440806,
-    "sort_id": 36,
+    "sort_id": 37,
     "english": "Chamois, southern",
     "taxon": "Rupicapra pyrenaica",
     "mammalnet_website_path": "rupicapra_pyrenaica_",
@@ -1226,7 +1226,7 @@
   {
     "id": 35,
     "warehouse_id": 440821,
-    "sort_id": 37,
+    "sort_id": 38,
     "english": "Red deer",
     "taxon": "Cervus elaphus",
     "mammalnet_website_path": "cervus_elaphus_",
@@ -1262,7 +1262,7 @@
   {
     "id": 36,
     "warehouse_id": 440826,
-    "sort_id": 38,
+    "sort_id": 39,
     "english": "Fallow deer",
     "taxon": "Dama dama",
     "mammalnet_website_path": "dama_dama_",
@@ -1298,7 +1298,7 @@
   {
     "id": 37,
     "warehouse_id": 440812,
-    "sort_id": 39,
+    "sort_id": 40,
     "english": "Elk",
     "taxon": "Alces alces",
     "mammalnet_website_path": "alces_alces_",
@@ -1334,7 +1334,7 @@
   {
     "id": 38,
     "warehouse_id": 440818,
-    "sort_id": 40,
+    "sort_id": 41,
     "english": "Roe deer",
     "taxon": "Capreolus capreolus",
     "mammalnet_website_path": "capreolus_capreolus_",
@@ -1370,7 +1370,7 @@
   {
     "id": 39,
     "warehouse_id": 440823,
-    "sort_id": 41,
+    "sort_id": 42,
     "english": "Sika deer",
     "taxon": "Cervus nippon",
     "mammalnet_website_path": "cervus_nippon_",
@@ -1406,7 +1406,7 @@
   {
     "id": 40,
     "warehouse_id": 440815,
-    "sort_id": 42,
+    "sort_id": 43,
     "english": "Chital",
     "taxon": "Axis axis",
     "mammalnet_website_path": "axis_axis_",
@@ -1442,7 +1442,7 @@
   {
     "id": 41,
     "warehouse_id": 440829,
-    "sort_id": 43,
+    "sort_id": 20,
     "english": "White-tailed deer",
     "taxon": "Odocoileus virginianus",
     "mammalnet_website_path": "odocoileus_virginianus_",
@@ -1478,7 +1478,7 @@
   {
     "id": 42,
     "warehouse_id": 440872,
-    "sort_id": 20,
+    "sort_id": 34,
     "english": "Raccoon",
     "taxon": "Procyon lotor",
     "mammalnet_website_path": "procyon_lotor_",
@@ -1514,7 +1514,7 @@
   {
     "id": 43,
     "warehouse_id": 440792,
-    "sort_id": 34,
+    "sort_id": 35,
     "english": "Barbary sheep",
     "taxon": "Ammotragus lervia",
     "mammalnet_website_path": "ammotragus_lervia_",
@@ -1546,5 +1546,41 @@
     "xxl": 0,
     "grouping": "Bovidae",
     "photoAttribution": ""
+  },
+  {
+    "id": 44,
+    "warehouse_id": 461801,
+    "sort_id": 12,
+    "english": "European Souslik",
+    "taxon": "Spermophilus citellus",
+    "mammalnet_website_path": "spermophilus_suslicus_",
+    "order": "Rodentia",
+    "family": "Sciuridae",
+    "description": "Relatively small with brown fur with no obvious spots, and a short bushy tail",
+    "RS": 1,
+    "MK": 1,
+    "HR": 1,
+    "DE": 1,
+    "PL": 1,
+    "ES": 0,
+    "aquatic": 0,
+    "river": 0,
+    "tree": 0,
+    "underground": 1,
+    "forest": 0,
+    "shrubs": 0,
+    "alpine": 0,
+    "prairies": 1,
+    "farmlands": 1,
+    "xxxs": 0,
+    "xxs": 1,
+    "xs": 1,
+    "s": 0,
+    "m": 0,
+    "l": 0,
+    "xl": 0,
+    "xxl": 0,
+    "grouping": "Sciuromorph",
+    "photoAttribution": "Esther Westerveld from Haarlemmermeer, Nederland [<a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File:Spermophilus_suslicus_Varna_Bulgaria_1.jpg\">via Wikimedia Commons</a>"
   }
 ]

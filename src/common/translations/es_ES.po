@@ -768,6 +768,11 @@ msgstr ""
 "largo de la espalda. Pelo desgreñado y largo en la garganta y cuernos lisos "
 "y curvados hacia atrás en los machos."
 
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Erizo moruno"
 
@@ -800,6 +805,9 @@ msgstr "Ardilla moruna"
 
 msgid "Spotted souslik"
 msgstr "Ardilla terrestre pigmea"
+
+msgid "European Souslik"
+msgstr ""
 
 msgid "Alpine marmot"
 msgstr "Marmota alpina"

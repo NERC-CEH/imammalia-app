@@ -728,6 +728,11 @@ msgstr ""
 "pręgą wzdłuż grzbietu, kudłatymi włosami na podgardlu i gładkimi, wygiętymi "
 "do tyłu rogami"
 
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Afrojeż algierski"
 
@@ -760,6 +765,9 @@ msgstr "Berberyjka marokańska"
 
 msgid "Spotted souslik"
 msgstr "Suseł perełkowany "
+
+msgid "European Souslik"
+msgstr ""
 
 msgid "Alpine marmot"
 msgstr "Świstak alpejski"
