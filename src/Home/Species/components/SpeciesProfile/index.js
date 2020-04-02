@@ -26,6 +26,8 @@ const habitats = [
   'farmlands',
 ];
 
+const MAMMALNET_SPECIES_BASE_URL = 'https://mammalnet.com/species';
+
 class Component extends React.Component {
   static contextType = IonLifeCycleContext;
 
@@ -40,17 +42,31 @@ class Component extends React.Component {
     const map = this.map.current.leafletElement;
     map.invalidateSize();
 
-    const svgElementBounds = [[0, 0], [300, 400]];
+    const svgElementBounds = [
+      [0, 0],
+      [300, 400],
+    ];
     L.svgOverlay(this.speciesMap.current, svgElementBounds).addTo(map);
-    map.fitBounds([[50, -200], [350, 200]]);
-    map.setMaxBounds([[50, -250], [350, 250]]);
+    map.fitBounds([
+      [50, -200],
+      [350, 200],
+    ]);
+    map.setMaxBounds([
+      [50, -250],
+      [350, 250],
+    ]);
   }
 
   render() {
     const { species } = this.props;
+
+    const { mammalnet_website_path: webPath } = species;
+
+    const url = `${MAMMALNET_SPECIES_BASE_URL}/${webPath}`;
+
     const habitatsString = habitats
-      .filter(habitat => species[habitat])
-      .map(habitat => t(habitat))
+      .filter((habitat) => species[habitat])
+      .map((habitat) => t(habitat))
       .join(', ');
 
     return (
@@ -73,6 +89,13 @@ class Component extends React.Component {
             {habitatsString}
           </IonCardContent>
         )}
+
+        <IonCardContent className="external-link">
+          <h3 className="species-label">
+            {`${t('Mammalnet')}:`}{' '}
+            <a href={url}>{t('profile')}</a>
+          </h3>
+        </IonCardContent>
 
         <IonCardContent>
           <h3 className="species-label">{`${t('Distribution')}:`}</h3>

@@ -1281,3 +1281,11 @@ msgstr ""
 # Part of recording attributes pages
 msgid "Hunted"
 msgstr ""
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr ""
+
+# Part of species profile external link
+msgid "profile"
+msgstr ""

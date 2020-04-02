@@ -16,6 +16,16 @@
     text-transform: capitalize;
   }
 
+  .external-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    a {
+      text-transform: initial;
+      margin: 0 5px;
+    }
+  }
+
   #species-map {
     height: 200px;
     width: 100%;

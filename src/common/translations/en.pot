@@ -1008,6 +1008,15 @@ msgstr "Dry (just bones left)"
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
 msgstr "Please specify the state of decomposition of the mammal."
+
 # Part of recording attributes pages
 msgid "Hunted"
 msgstr "Hunted"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr "Mammalnet"
+
+# Part of species profile external link
+msgid "profile"
+msgstr "profile"
