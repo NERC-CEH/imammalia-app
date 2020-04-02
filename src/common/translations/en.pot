@@ -660,6 +660,12 @@ msgstr "Croatia"
 msgid "Poland"
 msgstr "Poland"
 
+msgid "Macedonia"
+msgstr "Macedonia"
+
+msgid "Serbia"
+msgstr "Serbia"
+
 msgid "Language"
 msgstr "Language"
 

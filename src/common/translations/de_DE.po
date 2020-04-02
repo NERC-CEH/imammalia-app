@@ -875,6 +875,12 @@ msgstr "Kroatien"
 msgid "Poland"
 msgstr "Polen"
 
+msgid "Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
 msgid "Language"
 msgstr "Sprache"
 

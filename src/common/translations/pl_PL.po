@@ -869,6 +869,12 @@ msgstr "Chorwacja"
 msgid "Poland"
 msgstr "Polska"
 
+msgid "Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
 msgid "Language"
 msgstr "Język"
 

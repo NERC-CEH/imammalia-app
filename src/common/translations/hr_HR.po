@@ -857,6 +857,12 @@ msgstr "Hrvatska"
 msgid "Poland"
 msgstr "Poljska"
 
+msgid "Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
 msgid "Language"
 msgstr "Jezik"
 

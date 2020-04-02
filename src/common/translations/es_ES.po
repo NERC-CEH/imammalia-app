@@ -909,6 +909,12 @@ msgstr "Croacia"
 msgid "Poland"
 msgstr "Polonia"
 
+msgid "Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
 msgid "Language"
 msgstr "Idioma"
 
