@@ -1,0 +1,1132 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Language-Team: Macedonian (Macedonia) (https://www.transifex.com/ceh/teams/103078/mk_MK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk_MK\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr ""
+
+msgid "United Kingdom"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Get Started"
+msgstr ""
+
+msgid "Please sign in with your account or register."
+msgstr ""
+
+msgid "Username or email"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Forgot password?"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Surname"
+msgstr ""
+
+msgid "I agree to"
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr ""
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Upload All"
+msgstr ""
+
+msgid "Remove All Saved"
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Training Mode"
+msgstr ""
+
+msgid "Experimental Features"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Lets start!"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "App"
+msgstr ""
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Sorry"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "name is a required field"
+msgstr ""
+
+msgid "password is a required field"
+msgstr ""
+
+msgid "Login error:"
+msgstr ""
+
+msgid "Failed to fetch"
+msgstr ""
+
+msgid "Incorrect password or email."
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+msgid "This will delete all the records on this device."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Welcome aboard!"
+msgstr ""
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+
+msgid "OK, got it"
+msgstr ""
+
+msgid "email is a required field"
+msgstr ""
+
+msgid "firstname is a required field"
+msgstr ""
+
+msgid "secondname is a required field"
+msgstr ""
+
+msgid "must accept terms and conditions"
+msgstr ""
+
+msgid "Species"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr ""
+
+msgid "Discard"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "No species added"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Records"
+msgstr ""
+
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+msgid "No finished records"
+msgstr ""
+
+msgid "Finished records"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Record incomplete"
+msgstr ""
+
+msgid "The record is not complete yet."
+msgstr ""
+
+msgid "Choose a method to upload a photo"
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr ""
+
+msgid "Note: it will remain in the gallery."
+msgstr ""
+
+msgid "No photo has been added"
+msgstr ""
+
+msgid "Registration error:"
+msgstr ""
+
+msgid "Incorrect password or email"
+msgstr ""
+
+msgid "email is not valid"
+msgstr ""
+
+msgid "Paused"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "No finished pending records"
+msgstr ""
+
+msgid "No uploaded records"
+msgstr ""
+
+msgid "How to start a record"
+msgstr ""
+
+msgid "To start a new record you can press the plus button"
+msgstr ""
+
+msgid "in the home page footer."
+msgstr ""
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+
+msgid "Sync. with the website"
+msgstr ""
+
+msgid "All your saved records will be shown on your account page."
+msgstr ""
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+
+msgid "If the record has reached the database a red"
+msgstr ""
+
+msgid "(set for submission & saved locally) will become green"
+msgstr ""
+
+msgid "synced to the database"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+
+msgid "Delete a record"
+msgstr ""
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Sign in/out or register"
+msgstr ""
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Reset the application"
+msgstr ""
+
+msgid "Go to the application settings page"
+msgstr ""
+
+msgid "and click on the Reset"
+msgstr ""
+
+msgid "button"
+msgstr ""
+
+msgid "Record"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr ""
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr ""
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr ""
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr ""
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr ""
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr ""
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr ""
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr ""
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr ""
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr ""
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr ""
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr ""
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr ""
+
+msgid ""
+"Coarse, dark brown outer fur with soft dense grey under fur, distinguished "
+"by a white patch on the muzzle, webbed hind feet, and large, bright orange-"
+"yellow incisors"
+msgstr ""
+
+msgid ""
+"Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and "
+"brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark "
+"brown or blackish chest, with long, whisker-like hairs on the cheeks."
+msgstr ""
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr ""
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr ""
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr ""
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr ""
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr ""
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr ""
+
+msgid ""
+"Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, "
+"small ears, long black tipped tail, and furless hind feet and facial area"
+msgstr ""
+
+msgid ""
+"Small and slender body with pale to dark brown fur, golden flecks and a pale"
+" underbelly, short legs and small rounded ears located on the side of its "
+"head, bushy tail"
+msgstr ""
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr ""
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr ""
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr ""
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr ""
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr ""
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr ""
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns"
+msgstr ""
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr ""
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr ""
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr ""
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr ""
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr ""
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr ""
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr ""
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr ""
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr ""
+
+msgid ""
+"Grey-brown and white coat with long fur and a bushy, striped tail, "
+"characteristic black markings around the eyes contrasted by white face"
+msgstr ""
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr ""
+
+msgid "Algerian hedgehog"
+msgstr ""
+
+msgid "Western hedgehog"
+msgstr ""
+
+msgid "Eastern hedgehog"
+msgstr ""
+
+msgid "European rabbit"
+msgstr ""
+
+msgid "Broom hare"
+msgstr ""
+
+msgid "Brown hare"
+msgstr ""
+
+msgid "Mountain hare"
+msgstr ""
+
+msgid "Granada hare"
+msgstr ""
+
+msgid "Red squirrel"
+msgstr ""
+
+msgid "Barbary ground squirrel"
+msgstr ""
+
+msgid "Spotted souslik"
+msgstr ""
+
+msgid "Alpine marmot"
+msgstr ""
+
+msgid "European beaver"
+msgstr ""
+
+msgid "Coypu"
+msgstr ""
+
+msgid "Raccoon dog"
+msgstr ""
+
+msgid "Brown bear"
+msgstr ""
+
+msgid "Grey wolf"
+msgstr ""
+
+msgid "Golden jackal"
+msgstr ""
+
+msgid "Red fox"
+msgstr ""
+
+msgid "European otter"
+msgstr ""
+
+msgid "Eurasian badger"
+msgstr ""
+
+msgid "Egyptian mongoose"
+msgstr ""
+
+msgid "Small Indian mongoose"
+msgstr ""
+
+msgid "Common genet"
+msgstr ""
+
+msgid "Wildcat"
+msgstr ""
+
+msgid "Eurasian lynx"
+msgstr ""
+
+msgid "Iberian lynx"
+msgstr ""
+
+msgid "Wild boar"
+msgstr ""
+
+msgid "European bison"
+msgstr ""
+
+msgid "European mouflon"
+msgstr ""
+
+msgid "Alpine ibex"
+msgstr ""
+
+msgid "Spanish ibex"
+msgstr ""
+
+msgid "Chamois, Alpine"
+msgstr ""
+
+msgid "Chamois, southern"
+msgstr ""
+
+msgid "Red deer"
+msgstr ""
+
+msgid "Fallow deer"
+msgstr ""
+
+msgid "Elk"
+msgstr ""
+
+msgid "Roe deer"
+msgstr ""
+
+msgid "Sika deer"
+msgstr ""
+
+msgid "Chital"
+msgstr ""
+
+msgid "White-tailed deer"
+msgstr ""
+
+msgid "Raccoon"
+msgstr ""
+
+msgid "Barbary sheep"
+msgstr ""
+
+msgid "Germany"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Croatia"
+msgstr ""
+
+msgid "Poland"
+msgstr ""
+
+msgid "Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Elsewhere"
+msgstr ""
+
+msgid "river"
+msgstr ""
+
+msgid "forest"
+msgstr ""
+
+msgid "shrubs"
+msgstr ""
+
+msgid "prairies"
+msgstr ""
+
+msgid "farmlands"
+msgstr ""
+
+msgid "alpine"
+msgstr ""
+
+msgid "aquatic"
+msgstr ""
+
+msgid "underground"
+msgstr ""
+
+msgid "tree"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Habitats"
+msgstr ""
+
+msgid "Mouse-rat"
+msgstr ""
+
+msgid "Hedgehog-squirrel"
+msgstr ""
+
+msgid "Rabbit-hare"
+msgstr ""
+
+msgid "Cats-medium size canivorous"
+msgstr ""
+
+msgid "Dog-Wildboar"
+msgstr ""
+
+msgid "Goat-Deers"
+msgstr ""
+
+msgid "Cow-Bison"
+msgstr ""
+
+msgid "Filter species size"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Select species"
+msgstr ""
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+
+msgid "Location Accurracy"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "How many individuals of this type?"
+msgstr ""
+
+msgid "Direct observation"
+msgstr ""
+
+msgid "Camera trap"
+msgstr ""
+
+msgid "Catch"
+msgstr ""
+
+msgid "Road kill"
+msgstr ""
+
+msgid "Field carcass"
+msgstr ""
+
+msgid "Telemetry"
+msgstr ""
+
+msgid "Other (specify in Comment)"
+msgstr ""
+
+msgid "Please specify how has this mammal been observed."
+msgstr ""
+
+msgid "Alive"
+msgstr ""
+
+msgid "Dead - roadkill"
+msgstr ""
+
+msgid "Dead - other"
+msgstr ""
+
+msgid "Indirect"
+msgstr ""
+
+msgid "Print/trail"
+msgstr ""
+
+msgid "Dropping"
+msgstr ""
+
+msgid "Den/burrow"
+msgstr ""
+
+msgid "Please specify the condition of the mammal."
+msgstr ""
+
+msgid "Please add any extra info about this record."
+msgstr ""
+
+msgid "Enter more information here..."
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "species"
+msgstr ""
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+
+msgid "User not found."
+msgstr ""
+
+msgid "We've sent an email to you"
+msgstr ""
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+
+msgid "App Development"
+msgstr ""
+
+msgid "This app was hand crafted with love by"
+msgstr ""
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr ""
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr ""
+
+msgid "contact us"
+msgstr ""
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr ""
+
+msgid "Maps produced"
+msgstr ""
+
+msgid "Photo credits:"
+msgstr ""
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+
+msgid "Distribution"
+msgstr ""
+
+msgid "Hedgehog"
+msgstr ""
+
+msgid "(unknown species)"
+msgstr ""
+
+msgid "Shrew"
+msgstr ""
+
+msgid "Mole"
+msgstr ""
+
+msgid "Lagomorph"
+msgstr ""
+
+msgid "Rabbits and Hares"
+msgstr ""
+
+msgid "Small rodent"
+msgstr ""
+
+msgid "Vole"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "Rat"
+msgstr ""
+
+msgid "Other mustelid"
+msgstr ""
+
+msgid "Locating"
+msgstr ""
+
+msgid "Please add record location."
+msgstr ""
+
+msgid "Please select a species."
+msgstr ""
+
+msgid "Enjoying the app?"
+msgstr ""
+
+msgid "Not really"
+msgstr ""
+
+msgid "Yes!"
+msgstr ""
+
+msgid "Would you mind giving us some feedback?"
+msgstr ""
+
+msgid "No, thanks"
+msgstr ""
+
+msgid "OK, sure"
+msgstr ""
+
+msgid "How about a rating on the App Store then?"
+msgstr ""
+
+msgid "How about a rating on the Play Store then?"
+msgstr ""
+
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" It is set up to easily record mammals in four pilot countries: Spain, "
+"Germany, Poland and Croatia. Sightings can be recorded from other countries "
+"across Europe, but currently the species list is limited to larger mammals "
+"found in those four countries."
+msgstr ""
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+
+msgid ""
+"iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals. Smaller mammals are currently only listed at the "
+"generic level since they are much harder to tell apart. Later versions will "
+"include more countries, languages and species subject to funding."
+msgstr ""
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+
+msgid "Icons made by"
+msgstr ""
+
+msgid "from"
+msgstr ""
+
+msgid "Share App Analytics"
+msgstr ""
+
+msgid ""
+"iMammalia is designed to make mammal recording easy. It holds a species list"
+" for Spain, Germany, Poland and Croatia but does not limit where you can "
+"record these animals."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr ""
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr ""
+
+# Part of species profile external link
+msgid "web profile"
+msgstr ""
+
+# An unkown species group
+msgid "Bats"
+msgstr ""
+
+# An unkown species group
+msgid "Seals"
+msgstr ""
