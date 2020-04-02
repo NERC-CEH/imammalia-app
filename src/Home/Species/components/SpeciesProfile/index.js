@@ -93,7 +93,7 @@ class Component extends React.Component {
         <IonCardContent className="external-link">
           <h3 className="species-label">
             {`${t('Mammalnet')}:`}{' '}
-            <a href={url}>{t('profile')}</a>
+            <a href={url}>{t('web profile')}</a>
           </h3>
         </IonCardContent>
 

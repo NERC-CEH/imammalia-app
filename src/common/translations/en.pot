@@ -1018,8 +1018,8 @@ msgid "Mammalnet"
 msgstr "Mammalnet"
 
 # Part of species profile external link
-msgid "profile"
-msgstr "profile"
+msgid "web profile"
+msgstr "web profile"
 
 # An unkown species group
 msgid "Bats"
