@@ -61,5 +61,19 @@
     "english": "Other mustelid",
     "taxon": "Mustelidae",
     "group": true
+  },
+  {
+    "id": 53,
+    "warehouse_id": 441038,
+    "english": "Bats",
+    "taxon": "Chiroptera",
+    "group": true
+  },
+  {
+    "id": 54,
+    "warehouse_id": 461469,
+    "english": "Seals",
+    "taxon": "Phocidae",
+    "group": true
   }
 ]

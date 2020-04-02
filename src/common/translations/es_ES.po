@@ -1324,3 +1324,11 @@ msgstr ""
 # Part of species profile external link
 msgid "profile"
 msgstr ""
+
+# An unkown species group
+msgid "Bats"
+msgstr ""
+
+# An unkown species group
+msgid "Seals"
+msgstr ""

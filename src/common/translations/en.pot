@@ -1020,3 +1020,11 @@ msgstr "Mammalnet"
 # Part of species profile external link
 msgid "profile"
 msgstr "profile"
+
+# An unkown species group
+msgid "Bats"
+msgstr "Bats"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Seals"
