@@ -1,11 +1,11 @@
 # Translators:
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2019
 # Karolis, 2020
+# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2020\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/ceh/teams/103078/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -772,6 +772,8 @@ msgid ""
 "Relatively small with brown fur with no obvious spots, and a short bushy "
 "tail"
 msgstr ""
+"Relativamente pequeño, pelaje marrón sin manchas evidentes, y una cola "
+"tupida y corta. "
 
 msgid "Algerian hedgehog"
 msgstr "Erizo moruno"
@@ -807,7 +809,7 @@ msgid "Spotted souslik"
 msgstr "Ardilla terrestre pigmea"
 
 msgid "European Souslik"
-msgstr ""
+msgstr "Ardilla terrestre europea"
 
 msgid "Alpine marmot"
 msgstr "Marmota alpina"
@@ -918,10 +920,10 @@ msgid "Poland"
 msgstr "Polonia"
 
 msgid "Macedonia"
-msgstr ""
+msgstr "Macedonia del Norte"
 
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 msgid "Language"
 msgstr "Idioma"
@@ -1153,7 +1155,7 @@ msgid "Lagomorph"
 msgstr "Conejos o liebres"
 
 msgid "Rabbits and Hares"
-msgstr ""
+msgstr "Conejos o Liebres"
 
 msgid "Small rodent"
 msgstr "Roedores pequeños"
@@ -1273,76 +1275,76 @@ msgstr ""
 
 # Part of recording attributes pages
 msgid "Gender"
-msgstr ""
+msgstr "Género"
 
 # Part of recording attributes pages
 msgid "Age"
-msgstr ""
+msgstr "Edad"
 
 # Part of recording attributes pages
 msgid "Decomposition"
-msgstr ""
+msgstr "Grado de descomposición"
 
 # Part of recording attributes pages
 msgid "Male"
-msgstr ""
+msgstr "Macho"
 
 # Part of recording attributes pages
 msgid "Female"
-msgstr ""
+msgstr "Hembra"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr ""
+msgstr "Por favor indique el sexo del animal"
 
 # Part of recording attributes pages
 msgid "Piglet"
-msgstr ""
+msgstr "Rayón"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr ""
+msgstr "Juvenil"
 
 # Part of recording attributes pages
 msgid "Adult"
-msgstr ""
+msgstr "Adulto"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr ""
+msgstr "Por favor, indique la edad del animal"
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
-msgstr ""
+msgstr "Cadáver fresco"
 
 # Part of recording attributes pages
 msgid "Decomposed"
-msgstr ""
+msgstr "Descompuesto"
 
 # Part of recording attributes pages
 msgid "Dry (just bones left)"
-msgstr ""
+msgstr "Seco (principalmente huesos)"
 
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
-msgstr ""
+msgstr "Por favor, indique el grado de de descomposición del animal"
 
 # Part of recording attributes pages
 msgid "Hunted"
-msgstr ""
+msgstr "Cazado"
 
 # Part of species profile external link
 msgid "Mammalnet"
-msgstr ""
+msgstr "Mammalnet"
 
 # Part of species profile external link
 msgid "web profile"
-msgstr ""
+msgstr "Descripción online"
 
 # An unkown species group
 msgid "Bats"
-msgstr ""
+msgstr "Murciélagos"
 
 # An unkown species group
 msgid "Seals"
-msgstr ""
+msgstr "Focas"

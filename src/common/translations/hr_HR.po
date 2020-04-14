@@ -1,11 +1,11 @@
 # Translators:
-# Nera Fabijanić <nera_az@yahoo.com>, 2019
 # Karolis, 2020
+# Nera Fabijanić <nera_az@yahoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Nera Fabijanić <nera_az@yahoo.com>, 2020\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/ceh/teams/103078/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -720,6 +720,8 @@ msgid ""
 "Relatively small with brown fur with no obvious spots, and a short bushy "
 "tail"
 msgstr ""
+"Relativno mali sa smeđim krznom bez vidljivih mrlja i kratkog kitnjastog "
+"repa"
 
 msgid "Algerian hedgehog"
 msgstr "Alžirski jež"
@@ -755,7 +757,7 @@ msgid "Spotted souslik"
 msgstr "Pjegava tekunica "
 
 msgid "European Souslik"
-msgstr ""
+msgstr "Tekunica"
 
 msgid "Alpine marmot"
 msgstr "Alpski svizac"
@@ -866,10 +868,10 @@ msgid "Poland"
 msgstr "Poljska"
 
 msgid "Macedonia"
-msgstr ""
+msgstr "Makedonija"
 
 msgid "Serbia"
-msgstr ""
+msgstr "Srbija"
 
 msgid "Language"
 msgstr "Jezik"
@@ -1056,6 +1058,8 @@ msgstr "Ova aplikacija ručno je rađena s ljubavlju od"
 
 msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
+"Agencija specijalizirana za izradu rješenja usmjerenih na probleme s "
+"podatcima."
 
 msgid "For suggestions and feedback please do not hesitate to"
 msgstr ""
@@ -1100,7 +1104,7 @@ msgid "Lagomorph"
 msgstr "Dvojezupci"
 
 msgid "Rabbits and Hares"
-msgstr ""
+msgstr "Kunići i Zečevi"
 
 msgid "Small rodent"
 msgstr "Mali glodavci"
@@ -1212,76 +1216,76 @@ msgstr ""
 
 # Part of recording attributes pages
 msgid "Gender"
-msgstr ""
+msgstr "Spol"
 
 # Part of recording attributes pages
 msgid "Age"
-msgstr ""
+msgstr "Dob"
 
 # Part of recording attributes pages
 msgid "Decomposition"
-msgstr ""
+msgstr "Raspadanje"
 
 # Part of recording attributes pages
 msgid "Male"
-msgstr ""
+msgstr "Muško"
 
 # Part of recording attributes pages
 msgid "Female"
-msgstr ""
+msgstr "Žensko"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr ""
+msgstr "Molimo odredite spol životinje"
 
 # Part of recording attributes pages
 msgid "Piglet"
-msgstr ""
+msgstr "Prase"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr ""
+msgstr "Mladunče"
 
 # Part of recording attributes pages
 msgid "Adult"
-msgstr ""
+msgstr "Odrasli"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr ""
+msgstr "Molimo odredite dob životinje"
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
-msgstr ""
+msgstr "Svježe truplo"
 
 # Part of recording attributes pages
 msgid "Decomposed"
-msgstr ""
+msgstr "Raspadnuto"
 
 # Part of recording attributes pages
 msgid "Dry (just bones left)"
-msgstr ""
+msgstr "Suho (samo kosti)"
 
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
-msgstr ""
+msgstr "Molimo odredite stupanj raspadnutosti nađenog trupla"
 
 # Part of recording attributes pages
 msgid "Hunted"
-msgstr ""
+msgstr "Lovljeno"
 
 # Part of species profile external link
 msgid "Mammalnet"
-msgstr ""
+msgstr "Mammalnet"
 
 # Part of species profile external link
 msgid "web profile"
-msgstr ""
+msgstr "web profil"
 
 # An unkown species group
 msgid "Bats"
-msgstr ""
+msgstr "Šišmiši"
 
 # An unkown species group
 msgid "Seals"
-msgstr ""
+msgstr "Tuljani"
