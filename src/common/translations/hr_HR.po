@@ -90,6 +90,12 @@ msgstr ""
 msgid "Reset"
 msgstr "Resetiraj"
 
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+
+msgid "This will wipe all the locally stored app data!"
+msgstr ""
+
 msgid "Upload All"
 msgstr "Učitaj sve"
 

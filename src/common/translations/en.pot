@@ -83,6 +83,12 @@ msgstr "Enter your username or email address to request a password reset"
 msgid "Reset"
 msgstr "Reset"
 
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr "Are you sure you want to reset the application to its initial state?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr "This will wipe all the locally stored app data!"
+
 msgid "Upload All"
 msgstr "Upload All"
 

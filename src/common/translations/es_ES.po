@@ -91,6 +91,12 @@ msgstr ""
 msgid "Reset"
 msgstr "Reiniciar"
 
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+
+msgid "This will wipe all the locally stored app data!"
+msgstr ""
+
 msgid "Upload All"
 msgstr "Subir todo"
 
@@ -1032,10 +1038,10 @@ msgid "Camera trap"
 msgstr "Cámara trampa"
 
 msgid "Catch"
-msgstr "Capturado o cazado"
+msgstr "Capturado"
 
 msgid "Road kill"
-msgstr "Accidente de tráfico"
+msgstr "Atropellado"
 
 msgid "Field carcass"
 msgstr "Cadáver de animal"
