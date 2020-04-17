@@ -93,9 +93,12 @@ msgstr "Reiniciar"
 
 msgid "Are you sure you want to reset the application to its initial state?"
 msgstr ""
+"¿Está seguro que quiere restaurar la aplicación y dejarla en su estado "
+"original?"
 
 msgid "This will wipe all the locally stored app data!"
 msgstr ""
+"¡Esto borrará todos los datos que la aplicación ha almacenado hasta ahora!"
 
 msgid "Upload All"
 msgstr "Subir todo"

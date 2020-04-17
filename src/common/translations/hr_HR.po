@@ -91,10 +91,10 @@ msgid "Reset"
 msgstr "Resetiraj"
 
 msgid "Are you sure you want to reset the application to its initial state?"
-msgstr ""
+msgstr "Jeste li sigurni da želite resetirati aplikaciju na početni oblik?"
 
 msgid "This will wipe all the locally stored app data!"
-msgstr ""
+msgstr "Ovo će obrisati sve lokalno pohranjene podatke aplikacije!"
 
 msgid "Upload All"
 msgstr "Učitaj sve"
