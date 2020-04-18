@@ -1,0 +1,3 @@
+# Colorize grayscale pic
+
+convert rattus_thumbnail.jpg -colorspace gray -fill "#3b5249" -tint 100 rattus_thumbnail.jpg

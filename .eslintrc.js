@@ -18,6 +18,7 @@ module.exports = {
   extends: ['airbnb', 'prettier'],
   rules: {
     // our specific rules
+    'arrow-parens': [ERROR, "as-needed"],
     'react/forbid-prop-types': OFF,
     'jsx-a11y/no-autofocus': OFF,
     'no-plusplus': OFF,

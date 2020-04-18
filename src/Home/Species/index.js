@@ -4,7 +4,6 @@ import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import {
   IonContent,
-  IonItem,
   IonModal,
   IonHeader,
   IonToolbar,
@@ -136,25 +135,15 @@ class Component extends React.Component {
     const speciesList = this.getSpecies();
 
     const getSpeciesElement = sp => {
-      const { id, english, group } = sp;
+      const { id, english, group, taxon = '' } = sp;
 
       const onClick = onSpeciesClick
         ? () => onSpeciesClick(sp)
         : () => this.showSpeciesModal(id);
 
-      if (group) {
-        return (
-          <IonItem
-            key={id}
-            className={`species-list-item ${group ? 'group' : ''}`}
-            onClick={onClick}
-          >
-            <span className="label">
-              {`${t(english)} ${group ? t('(unknown species)') : ''}`}
-            </span>
-          </IonItem>
-        );
-      }
+      const backgroundImage = group
+        ? `url('/images/${taxon.toLowerCase()}_thumbnail.jpg')`
+        : `url('/images/${id}_thumbnail.jpg'`;
 
       return (
         <IonCol
@@ -167,7 +156,7 @@ class Component extends React.Component {
         >
           <div
             style={{
-              backgroundImage: `url('/images/${id}_thumbnail.jpg')`,
+              backgroundImage,
             }}
           >
             <span className="label">{t(english)}</span>
