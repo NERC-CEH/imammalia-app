@@ -65,8 +65,8 @@ class Component extends React.Component {
     const url = `${MAMMALNET_SPECIES_BASE_URL}/${webPath}`;
 
     const habitatsString = habitats
-      .filter((habitat) => species[habitat])
-      .map((habitat) => t(habitat))
+      .filter(habitat => species[habitat])
+      .map(habitat => t(habitat))
       .join(', ');
 
     return (
@@ -92,8 +92,7 @@ class Component extends React.Component {
 
         <IonCardContent className="external-link">
           <h3 className="species-label">
-            {`${t('Mammalnet')}:`}{' '}
-            <a href={url}>{t('web profile')}</a>
+            {`${t('Mammalnet')}:`} <a href={url}>{t('web profile')}</a>
           </h3>
         </IonCardContent>
 

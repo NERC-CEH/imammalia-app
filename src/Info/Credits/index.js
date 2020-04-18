@@ -8,7 +8,7 @@ import './styles.scss';
 export default () => {
   const { language } = appModel.attrs;
   const showKarolina = !['mk_MK', 'sr_RS'].includes(language);
-  
+
   return (
     <IonPage>
       <AppHeader title={t('Credits')} />
@@ -117,8 +117,8 @@ export default () => {
           </IonItem>
           {/* <IonItem> */}
           {species
-            .filter((s) => s.photoAttribution)
-            .map((s) => (
+            .filter(s => s.photoAttribution)
+            .map(s => (
               <IonItem key={s.id} lines="none">
                 <IonLabel>
                   <i>{`${s.taxon}: `}</i>
