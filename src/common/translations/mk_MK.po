@@ -1,11 +1,11 @@
 # Translators:
-# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
 # Karolis, 2020
+# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020\n"
 "Language-Team: Macedonian (Macedonia) (https://www.transifex.com/ceh/teams/103078/mk_MK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,10 +92,10 @@ msgid "Reset"
 msgstr "Ресетирај"
 
 msgid "Are you sure you want to reset the application to its initial state?"
-msgstr ""
+msgstr "Дали сте сигурни дека сакате да го избришете овој запис?"
 
 msgid "This will wipe all the locally stored app data!"
-msgstr ""
+msgstr "Оваа постапка ќе ги избрише сите записи зачувани во овој уред?"
 
 msgid "Upload All"
 msgstr "Прикачи ги сите"
