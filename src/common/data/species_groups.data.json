@@ -1,0 +1,689 @@
+[
+  {
+    "taxon": "Biota",
+    "rank": "Unranked",
+    "key": "MWEB0001"
+  },
+  {
+    "taxon": "Animalia",
+    "parent": "Biota",
+    "rank": "Kingdom",
+    "key": "MWEB0002"
+  },
+  {
+    "taxon": "Chordata",
+    "parent": "Animalia",
+    "rank": "Phylum",
+    "key": "MWEB0003"
+  },
+  {
+    "taxon": "Vertebrata",
+    "parent": "Chordata",
+    "rank": "Subphylum",
+    "key": "MWEB0004"
+  },
+  {
+    "taxon": "Mammalia",
+    "parent": "Vertebrata",
+    "rank": "Class",
+    "key": "MWEB0005"
+  },
+  {
+    "taxon": "Artiodactyla",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0006"
+  },
+  {
+    "taxon": "Bovidae",
+    "parent": "Artiodactyla",
+    "rank": "Family",
+    "key": "MWEB0007"
+  },
+  {
+    "taxon": "Ammotragus",
+    "parent": "Bovidae",
+    "rank": "Genus",
+    "key": "MWEB0008"
+  },
+  {
+    "taxon": "Ammotragus lervia ",
+    "english": "Barbary sheep",
+    "parent": "Ammotragus",
+    "rank": "Species",
+    "key": "MWEB0009"
+  },
+  {
+    "taxon": "Bison",
+    "parent": "Bovidae",
+    "rank": "Genus",
+    "key": "MWEB0010"
+  },
+  {
+    "taxon": "Bison bonasus ",
+    "english": "European bison",
+    "parent": "Bison",
+    "rank": "Species",
+    "key": "MWEB0011"
+  },
+  {
+    "taxon": "Capra",
+    "parent": "Bovidae",
+    "rank": "Genus",
+    "key": "MWEB0012"
+  },
+  {
+    "taxon": "Capra ibex ",
+    "english": "Alpine ibex",
+    "parent": "Capra",
+    "rank": "Species",
+    "key": "MWEB0013"
+  },
+  {
+    "taxon": "Capra pyrenaica ",
+    "english": "Spanish ibex",
+    "parent": "Capra",
+    "rank": "Species",
+    "key": "MWEB0014"
+  },
+  {
+    "taxon": "Ovis",
+    "parent": "Bovidae",
+    "rank": "Genus",
+    "key": "MWEB0015"
+  },
+  {
+    "taxon": "Ovis ammon OR Ovis gmelini musimon",
+    "english": "European mouflon",
+    "parent": "Ovis",
+    "rank": "Species",
+    "key": "MWEB0016"
+  },
+  {
+    "taxon": "Rupicapra",
+    "parent": "Bovidae",
+    "rank": "Genus",
+    "key": "MWEB0017"
+  },
+  {
+    "taxon": "Rupicapra pyrenaica ",
+    "english": "Chamois, southern",
+    "parent": "Rupicapra",
+    "rank": "Species",
+    "key": "MWEB0018"
+  },
+  {
+    "taxon": "Rupicapra rupicapra ",
+    "english": "Chamois, Alpine",
+    "parent": "Rupicapra",
+    "rank": "Species",
+    "key": "MWEB0019"
+  },
+  {
+    "taxon": "Cervidae",
+    "parent": "Artiodactyla",
+    "rank": "Family",
+    "key": "MWEB0020"
+  },
+  {
+    "taxon": "Alces",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0021"
+  },
+  {
+    "taxon": "Alces alces ",
+    "english": "Elk",
+    "parent": "Alces",
+    "rank": "Species",
+    "key": "MWEB0022"
+  },
+  {
+    "taxon": "Axis",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0023"
+  },
+  {
+    "taxon": "Axis axis ",
+    "english": "Chital",
+    "parent": "Axis",
+    "rank": "Species",
+    "key": "MWEB0024"
+  },
+  {
+    "taxon": "Capreolus",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0025"
+  },
+  {
+    "taxon": "Capreolus capreolus ",
+    "english": "Roe deer",
+    "parent": "Capreolus",
+    "rank": "Species",
+    "key": "MWEB0026"
+  },
+  {
+    "taxon": "Cervus",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0027"
+  },
+  {
+    "taxon": "Cervus elaphus ",
+    "english": "Red deer",
+    "parent": "Cervus",
+    "rank": "Species",
+    "key": "MWEB0028"
+  },
+  {
+    "taxon": "Cervus nippon ",
+    "english": "Sika deer",
+    "parent": "Cervus",
+    "rank": "Species",
+    "key": "MWEB0029"
+  },
+  {
+    "taxon": "Dama",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0030"
+  },
+  {
+    "taxon": "Dama dama ",
+    "english": "Fallow deer",
+    "parent": "Dama",
+    "rank": "Species",
+    "key": "MWEB0031"
+  },
+  {
+    "taxon": "Odocoileus ",
+    "parent": "Cervidae",
+    "rank": "Genus",
+    "key": "MWEB0032"
+  },
+  {
+    "taxon": "Odocoileus virginianus ",
+    "english": "White-tailed deer",
+    "parent": "Odocoileus ",
+    "rank": "Species",
+    "key": "MWEB0033"
+  },
+  {
+    "taxon": "Ursidae",
+    "parent": "Artiodactyla",
+    "rank": "Family",
+    "key": "MWEB0034"
+  },
+  {
+    "taxon": "Sus",
+    "parent": "Ursidae",
+    "rank": "Genus",
+    "key": "MWEB0035"
+  },
+  {
+    "taxon": "Sus scrofa ",
+    "english": "Wild boar",
+    "parent": "Sus",
+    "rank": "Species",
+    "key": "MWEB0036"
+  },
+  {
+    "taxon": "Carnivora",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0037"
+  },
+  {
+    "taxon": "Canidae",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0038"
+  },
+  {
+    "taxon": "Canis",
+    "parent": "Canidae",
+    "rank": "Genus",
+    "key": "MWEB0039"
+  },
+  {
+    "taxon": "Canis aureus ",
+    "english": "Golden jackal",
+    "parent": "Canis",
+    "rank": "Species",
+    "key": "MWEB0040"
+  },
+  {
+    "taxon": "Canis lupus ",
+    "english": "Grey wolf",
+    "parent": "Canis",
+    "rank": "Species",
+    "key": "MWEB0041"
+  },
+  {
+    "taxon": "Nyctereutes",
+    "parent": "Canidae",
+    "rank": "Genus",
+    "key": "MWEB0042"
+  },
+  {
+    "taxon": "Nyctereutes procyonoides ",
+    "english": "Raccoon dog",
+    "parent": "Nyctereutes",
+    "rank": "Species",
+    "key": "MWEB0043"
+  },
+  {
+    "taxon": "Vulpes ",
+    "parent": "Canidae",
+    "rank": "Genus",
+    "key": "MWEB0044"
+  },
+  {
+    "taxon": "Vulpes vulpes ",
+    "english": "Red fox",
+    "parent": "Vulpes ",
+    "rank": "Species",
+    "key": "MWEB0045"
+  },
+  {
+    "taxon": "Felidae",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0046"
+  },
+  {
+    "taxon": "Felis",
+    "parent": "Felidae",
+    "rank": "Genus",
+    "key": "MWEB0047"
+  },
+  {
+    "taxon": "Felis silvestris ",
+    "english": "Wildcat",
+    "parent": "Felis",
+    "rank": "Species",
+    "key": "MWEB0048"
+  },
+  {
+    "taxon": "Lynx",
+    "parent": "Felidae",
+    "rank": "Genus",
+    "key": "MWEB0049"
+  },
+  {
+    "taxon": "Lynx lynx ",
+    "english": "Eurasian lynx",
+    "parent": "Lynx",
+    "rank": "Species",
+    "key": "MWEB0050"
+  },
+  {
+    "taxon": "Lynx pardinus ",
+    "english": "Iberian lynx",
+    "parent": "Lynx",
+    "rank": "Species",
+    "key": "MWEB0051"
+  },
+  {
+    "taxon": "Herpestidae",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0052"
+  },
+  {
+    "taxon": "Herpestes",
+    "parent": "Herpestidae",
+    "rank": "Genus",
+    "key": "MWEB0053"
+  },
+  {
+    "taxon": "Herpestes auropunctatus",
+    "english": "Small Indian mongoose",
+    "parent": "Herpestes",
+    "rank": "Species",
+    "key": "MWEB0054"
+  },
+  {
+    "taxon": "Herpestes ichneumon ",
+    "english": "Egyptian mongoose",
+    "parent": "Herpestes",
+    "rank": "Species",
+    "key": "MWEB0055"
+  },
+  {
+    "taxon": "Mustelidae",
+    "english": "other mustelid",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0056"
+  },
+  {
+    "taxon": "Lutra",
+    "parent": "Mustelidae",
+    "rank": "Genus",
+    "key": "MWEB0057"
+  },
+  {
+    "taxon": "Lutra lutra ",
+    "english": "European otter",
+    "parent": "Lutra",
+    "rank": "Species",
+    "key": "MWEB0058"
+  },
+  {
+    "taxon": "Meles",
+    "parent": "Mustelidae",
+    "rank": "Genus",
+    "key": "MWEB0059"
+  },
+  {
+    "taxon": "Meles meles ",
+    "english": "Eurasian badger",
+    "parent": "Meles",
+    "rank": "Species",
+    "key": "MWEB0060"
+  },
+  {
+    "taxon": "Procyonidae",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0061"
+  },
+  {
+    "taxon": "Procyon",
+    "parent": "Procyonidae",
+    "rank": "Genus",
+    "key": "MWEB0062"
+  },
+  {
+    "taxon": "Procyon lotor ",
+    "english": "Raccoon",
+    "parent": "Procyon",
+    "rank": "Species",
+    "key": "MWEB0063"
+  },
+  {
+    "taxon": "Ursus",
+    "parent": "Procyonidae",
+    "rank": "Genus",
+    "key": "MWEB0064"
+  },
+  {
+    "taxon": "Ursus arctos ",
+    "english": "Brown bear",
+    "parent": "Ursus",
+    "rank": "Species",
+    "key": "MWEB0065"
+  },
+  {
+    "taxon": "Viverridae",
+    "parent": "Carnivora",
+    "rank": "Family",
+    "key": "MWEB0066"
+  },
+  {
+    "taxon": "Genetta",
+    "parent": "Viverridae",
+    "rank": "Genus",
+    "key": "MWEB0067"
+  },
+  {
+    "taxon": "Genetta genetta ",
+    "english": "Common genet",
+    "parent": "Genetta",
+    "rank": "Species",
+    "key": "MWEB0068"
+  },
+  {
+    "taxon": "Ericnaceomorpha",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0069"
+  },
+  {
+    "taxon": "Erinaceidae",
+    "english": "Hedgehog",
+    "parent": "Ericnaceomorpha",
+    "rank": "Family",
+    "key": "MWEB0070"
+  },
+  {
+    "taxon": "Atelerix",
+    "parent": "Erinaceidae",
+    "rank": "Genus",
+    "key": "MWEB0071"
+  },
+  {
+    "taxon": "Atelerix algirus",
+    "english": "Algerian hedgehog",
+    "parent": "Atelerix",
+    "rank": "Species",
+    "key": "MWEB0072"
+  },
+  {
+    "taxon": "Erinaceus",
+    "parent": "Erinaceidae",
+    "rank": "Genus",
+    "key": "MWEB0073"
+  },
+  {
+    "taxon": "Erinaceus concolor ",
+    "english": "Eastern hedgehog",
+    "parent": "Erinaceus",
+    "rank": "Species",
+    "key": "MWEB0074"
+  },
+  {
+    "taxon": "Erinaceus europaeus ",
+    "english": "Western hedgehog",
+    "parent": "Erinaceus",
+    "rank": "Species",
+    "key": "MWEB0075"
+  },
+  {
+    "taxon": "Lagomorpha ",
+    "english": "Lagomorph",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0076"
+  },
+  {
+    "taxon": "Leporiadae",
+    "parent": "Lagomorpha ",
+    "rank": "Family",
+    "key": "MWEB0077"
+  },
+  {
+    "taxon": "Lepus",
+    "parent": "Leporiadae",
+    "rank": "Genus",
+    "key": "MWEB0078"
+  },
+  {
+    "taxon": "Lepus castroviejoi",
+    "english": "Broom hare",
+    "parent": "Lepus",
+    "rank": "Species",
+    "key": "MWEB0079"
+  },
+  {
+    "taxon": "Lepus europaeus",
+    "english": "Brown hare",
+    "parent": "Lepus",
+    "rank": "Species",
+    "key": "MWEB0080"
+  },
+  {
+    "taxon": "Lepus granatensis",
+    "english": "Granada hare",
+    "parent": "Lepus",
+    "rank": "Species",
+    "key": "MWEB0081"
+  },
+  {
+    "taxon": "Lepus timidus",
+    "english": "Mountain hare",
+    "parent": "Lepus",
+    "rank": "Species",
+    "key": "MWEB0082"
+  },
+  {
+    "taxon": "Oryctolagus",
+    "parent": "Leporiadae",
+    "rank": "Genus",
+    "key": "MWEB0083"
+  },
+  {
+    "taxon": "Oryctolagus cuniculus",
+    "english": "European rabbit",
+    "parent": "Oryctolagus",
+    "rank": "Species",
+    "key": "MWEB0084"
+  },
+  {
+    "taxon": "Rodentia",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0085"
+  },
+  {
+    "taxon": "Castoridae",
+    "parent": "Rodentia",
+    "rank": "Family",
+    "key": "MWEB0086"
+  },
+  {
+    "taxon": "Castor",
+    "parent": "Castoridae",
+    "rank": "Genus",
+    "key": "MWEB0087"
+  },
+  {
+    "taxon": "Castor fiber ",
+    "english": "European beaver",
+    "parent": "Castor",
+    "rank": "Species",
+    "key": "MWEB0088"
+  },
+  {
+    "taxon": "Myocastoridae",
+    "parent": "Rodentia",
+    "rank": "Family",
+    "key": "MWEB0089"
+  },
+  {
+    "taxon": "Myocastor",
+    "parent": "Myocastoridae",
+    "rank": "Genus",
+    "key": "MWEB0090"
+  },
+  {
+    "taxon": "Myocastor coypus ",
+    "english": "Coypu",
+    "parent": "Myocastor",
+    "rank": "Species",
+    "key": "MWEB0091"
+  },
+  {
+    "taxon": "Sciuridae",
+    "english": "Small rodent",
+    "parent": "Rodentia",
+    "rank": "Family",
+    "key": "MWEB0092"
+  },
+  {
+    "taxon": "Atlantoxerus",
+    "parent": "Sciuridae",
+    "rank": "Genus",
+    "key": "MWEB0093"
+  },
+  {
+    "taxon": "Atlantoxerus getulus",
+    "english": "Barbary ground squirrel",
+    "parent": "Atlantoxerus",
+    "rank": "Species",
+    "key": "MWEB0094"
+  },
+  {
+    "taxon": "Marmota",
+    "parent": "Sciuridae",
+    "rank": "Genus",
+    "key": "MWEB0095"
+  },
+  {
+    "taxon": "Marmota marmota ",
+    "english": "Alpine marmot",
+    "parent": "Marmota",
+    "rank": "Species",
+    "key": "MWEB0096"
+  },
+  {
+    "taxon": "Sciurus",
+    "parent": "Sciuridae",
+    "rank": "Genus",
+    "key": "MWEB0097"
+  },
+  {
+    "taxon": "Sciurus vulgaris ",
+    "english": "Red squirrel",
+    "parent": "Sciurus",
+    "rank": "Species",
+    "key": "MWEB0098"
+  },
+  {
+    "taxon": "Spermophilus",
+    "parent": "Sciuridae",
+    "rank": "Genus",
+    "key": "MWEB0099"
+  },
+  {
+    "taxon": "Spermophilus suslicus ",
+    "english": "Spotted souslik",
+    "parent": "Spermophilus",
+    "rank": "Species",
+    "key": "MWEB0100"
+  },
+  {
+    "taxon": "Eulipotyphla",
+    "parent": "Mammalia",
+    "rank": "Order",
+    "key": "MWEB0101"
+  },
+  {
+    "taxon": "Talpidae",
+    "english": "mole",
+    "parent": "Eulipotyphla",
+    "rank": "Family",
+    "key": "MWEB0102"
+  },
+  {
+    "taxon": "Soricidae",
+    "english": "shrew",
+    "parent": "Eulipotyphla",
+    "rank": "Family",
+    "key": "MWEB0103"
+  },
+  {
+    "taxon": "Cricetidae",
+    "english": "vole",
+    "parent": "Rodentia",
+    "rank": "Family",
+    "key": "MWEB0104"
+  },
+  {
+    "taxon": "Muridae",
+    "english": "mouse",
+    "parent": "Rodentia",
+    "rank": "Family",
+    "key": "MWEB0105"
+  },
+  {
+    "taxon": "Rattus",
+    "english": "rat",
+    "parent": "Muridae",
+    "rank": "Genus",
+    "key": "MWEB0106"
+  }
+]

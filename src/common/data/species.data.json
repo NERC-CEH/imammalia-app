@@ -32,8 +32,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "photoAttribution": ""
+    "grouping": "hedgehog"
   },
   {
     "id": 2,
@@ -68,8 +67,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "photoAttribution": ""
+    "grouping": "hedgehog"
   },
   {
     "id": 3,
@@ -104,8 +102,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "hedgehog",
-    "photoAttribution": ""
+    "grouping": "hedgehog"
   },
   {
     "id": 4,
@@ -140,8 +137,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "photoAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 5,
@@ -212,8 +208,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "photoAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 7,
@@ -248,8 +243,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "lagomorph",
-    "photoAttribution": ""
+    "grouping": "lagomorph"
   },
   {
     "id": 8,
@@ -320,8 +314,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "photoAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 10,
@@ -356,8 +349,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "photoAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 11,
@@ -428,8 +420,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Sciuromorph",
-    "photoAttribution": ""
+    "grouping": "Sciuromorph"
   },
   {
     "id": 13,
@@ -464,8 +455,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent",
-    "photoAttribution": ""
+    "grouping": "rodent"
   },
   {
     "id": 14,
@@ -500,8 +490,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "rodent",
-    "photoAttribution": ""
+    "grouping": "rodent"
   },
   {
     "id": 15,
@@ -536,8 +525,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 16,
@@ -572,8 +560,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 1,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 17,
@@ -608,8 +595,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 18,
@@ -644,8 +630,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 19,
@@ -680,8 +665,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 20,
@@ -716,8 +700,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 21,
@@ -752,8 +735,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 22,
@@ -824,8 +806,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 24,
@@ -896,8 +877,7 @@
     "l": 0,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 26,
@@ -932,8 +912,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 27,
@@ -1004,8 +983,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Suidos",
-    "photoAttribution": ""
+    "grouping": "Suidos"
   },
   {
     "id": 29,
@@ -1040,8 +1018,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 30,
@@ -1076,8 +1053,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 31,
@@ -1112,8 +1088,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 32,
@@ -1148,8 +1123,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 33,
@@ -1184,8 +1158,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 34,
@@ -1220,8 +1193,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 35,
@@ -1256,8 +1228,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 36,
@@ -1292,8 +1263,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 37,
@@ -1328,8 +1298,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 1,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 38,
@@ -1364,8 +1333,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 39,
@@ -1400,8 +1368,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 40,
@@ -1436,8 +1403,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 41,
@@ -1472,8 +1438,7 @@
     "l": 0,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Ungulates",
-    "photoAttribution": ""
+    "grouping": "Ungulates"
   },
   {
     "id": 42,
@@ -1508,8 +1473,7 @@
     "l": 1,
     "xl": 0,
     "xxl": 0,
-    "grouping": "Carnivorous",
-    "photoAttribution": ""
+    "grouping": "Carnivorous"
   },
   {
     "id": 43,
@@ -1544,8 +1508,7 @@
     "l": 1,
     "xl": 1,
     "xxl": 0,
-    "grouping": "Bovidae",
-    "photoAttribution": ""
+    "grouping": "Bovidae"
   },
   {
     "id": 44,

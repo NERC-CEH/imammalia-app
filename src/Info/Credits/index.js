@@ -2,7 +2,7 @@ import React from 'react';
 import { IonContent, IonList, IonItem, IonLabel, IonPage } from '@ionic/react';
 import AppHeader from 'Components/Header';
 import appModel from 'app_model';
-import species from 'Home/Species/species.data.json';
+import species from 'common/data/species.data.json';
 import './styles.scss';
 
 export default () => {

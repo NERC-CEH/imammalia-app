@@ -18,8 +18,8 @@ import {
 import ModalHeader from 'Components/ModalHeader';
 import { funnel } from 'ionicons/icons';
 import alert from 'common/helpers/alert';
-import species from './species.data.json';
-import speciesGroups from './species.groups.data.json';
+import species from 'common/data/species.data.json';
+import speciesGroups from 'common/data/species_groups.data.json';
 import SpeciesProfile from './components/SpeciesProfile';
 import UserFeedbackRequest from './components/UserFeedbackRequest';
 import './images';
