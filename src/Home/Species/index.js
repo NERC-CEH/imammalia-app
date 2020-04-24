@@ -142,7 +142,7 @@ class Component extends React.Component {
         : () => this.showSpeciesModal(id);
 
       const backgroundImage = group
-        ? `url('/images/${taxon.toLowerCase()}_thumbnail.jpg')`
+        ? `url('/images/${taxon.toLowerCase()}_thumbnail.png')`
         : `url('/images/${id}_thumbnail.jpg'`;
 
       return (
