@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Karolis, 2020
-# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
 # Milan Pandurovic <milan.pandurovic@gmail.com>, 2020
+# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
+# Karolis, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Milan Pandurovic <milan.pandurovic@gmail.com>, 2020\n"
+"Last-Translator: Karolis, 2020\n"
 "Language-Team: Macedonian (Macedonia) (https://www.transifex.com/ceh/teams/103078/mk_MK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -739,7 +739,7 @@ msgid "Western hedgehog"
 msgstr "Западен еж"
 
 msgid "Eastern hedgehog"
-msgstr "Источен еж"
+msgstr "Еж"
 
 msgid "European rabbit"
 msgstr "Европски куникул"
@@ -748,7 +748,7 @@ msgid "Broom hare"
 msgstr "Кантабријски зајак"
 
 msgid "Brown hare"
-msgstr "Кафеав зајак"
+msgstr "Див зајак"
 
 msgid "Mountain hare"
 msgstr "Планински зајак"
@@ -778,7 +778,7 @@ msgid "Coypu"
 msgstr "Нутрија"
 
 msgid "Raccoon dog"
-msgstr "Ракунско куче"
+msgstr "Ракуновидно куче"
 
 msgid "Brown bear"
 msgstr "Кафеава мечка"
@@ -787,10 +787,10 @@ msgid "Grey wolf"
 msgstr "Волк"
 
 msgid "Golden jackal"
-msgstr "Обичен шакал"
+msgstr "Шакал"
 
 msgid "Red fox"
-msgstr "Црвена лисица"
+msgstr "Лисица"
 
 msgid "European otter"
 msgstr "Видра"
@@ -832,13 +832,13 @@ msgid "Spanish ibex"
 msgstr "Шпански козорог"
 
 msgid "Chamois, Alpine"
-msgstr "Алпска дивокоза"
+msgstr "Дивокоза"
 
 msgid "Chamois, southern"
 msgstr "Пиринејска дивокоза"
 
 msgid "Red deer"
-msgstr "Обичен елен"
+msgstr "Црвен елен"
 
 msgid "Fallow deer"
 msgstr "Елен лопатар"
@@ -877,7 +877,7 @@ msgid "Poland"
 msgstr "Полска"
 
 msgid "Macedonia"
-msgstr "Македонија"
+msgstr "Северна Македонија"
 
 msgid "Serbia"
 msgstr "Србија"
@@ -964,7 +964,7 @@ msgid "Method"
 msgstr "Метод"
 
 msgid "Type"
-msgstr "Вид"
+msgstr "Начин"
 
 msgid "Select species"
 msgstr "Одберете вид"
@@ -1159,10 +1159,10 @@ msgstr "Што велите да не оцените на „Play Store“ то�
 
 msgid ""
 "The iMammalia App is designed to encourage recording of mammals in the wild."
-" It is set up to easily record mammals in four pilot countries: Spain, "
+" It is set up to easily record mammals in six pilot countries: Spain, "
 "Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be "
 "recorded from other countries across Europe, but currently the species list "
-"is limited to larger mammals found in those four countries."
+"is limited to larger mammals found in those six countries."
 msgstr ""
 "IMammalia апликацијата е создадена да охрабрува креирање на записи за цицачи"
 " во дивината. Подесена е за лесно креирање на записи за цицачи во четири "

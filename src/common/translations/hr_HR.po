@@ -1,3 +1,4 @@
+# 
 # Translators:
 # Nera Fabijanić <nera_az@yahoo.com>, 2020
 # Karolis, 2020
@@ -1162,10 +1163,10 @@ msgstr "Što kažete na ocjenjivanje u Trgovini Play?"
 
 msgid ""
 "The iMammalia App is designed to encourage recording of mammals in the wild."
-" It is set up to easily record mammals in four pilot countries: Spain, "
+" It is set up to easily record mammals in six pilot countries: Spain, "
 "Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be "
 "recorded from other countries across Europe, but currently the species list "
-"is limited to larger mammals found in those four countries."
+"is limited to larger mammals found in those six countries."
 msgstr ""
 "Aplikacija iMammalia dizajnirana je za poticanje snimanja sisavaca u "
 "divljini. Ova testna verzija postavljena je za jednostavno snimanje sisavaca"
