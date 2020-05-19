@@ -18,7 +18,7 @@ const Component = () => (
         <IonItem>
           <IonLabel>
             {t(
-              `The iMammalia App is designed to encourage recording of mammals in the wild. It is set up to easily record mammals in four pilot countries: Spain, Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those four countries.`
+              `The iMammalia App is designed to encourage recording of mammals in the wild. It is set up to easily record mammals in six pilot countries: Spain, Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those six countries.`
             )}
           </IonLabel>
         </IonItem>
