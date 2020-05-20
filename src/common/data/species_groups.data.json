@@ -490,14 +490,14 @@
     "key": "MWEB0076"
   },
   {
-    "taxon": "Leporiadae",
+    "taxon": "Leporidae",
     "parent": "Lagomorpha ",
     "rank": "Family",
     "key": "MWEB0077"
   },
   {
     "taxon": "Lepus",
-    "parent": "Leporiadae",
+    "parent": "Leporidae",
     "rank": "Genus",
     "key": "MWEB0078"
   },
@@ -531,7 +531,7 @@
   },
   {
     "taxon": "Oryctolagus",
-    "parent": "Leporiadae",
+    "parent": "Leporidae",
     "rank": "Genus",
     "key": "MWEB0083"
   },

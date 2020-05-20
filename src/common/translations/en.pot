@@ -672,8 +672,8 @@ msgstr "Croatia"
 msgid "Poland"
 msgstr "Poland"
 
-msgid "Macedonia"
-msgstr "Macedonia"
+msgid "North Macedonia"
+msgstr "North Macedonia"
 
 msgid "Serbia"
 msgstr "Serbia"

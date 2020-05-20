@@ -895,7 +895,7 @@ msgstr "Chorwacja"
 msgid "Poland"
 msgstr "Polska"
 
-msgid "Macedonia"
+msgid "North Macedonia"
 msgstr "Macedonia Północna"
 
 msgid "Serbia"
@@ -1191,7 +1191,7 @@ msgstr ""
 "Aplikacja iMammalia ma na celu zachęcenie obywateli do rejestrowania "
 "obserwacji dzikich gatunków ssaków. Umożliwia ona łatwe rejestrowanie ssaków"
 " w następujących krajach: Polska, Niemcy, Hiszpania, Chorwacja, Serbia i "
-"Północna Macedonia. Obserwacje można rejestrować z innych krajów w Europie, "
+"Macedonia Północna. Obserwacje można rejestrować z innych krajów w Europie, "
 "ale obecnie lista gatunków jest ograniczona do większych ssaków "
 "występujących w wymienionych krajach."
 

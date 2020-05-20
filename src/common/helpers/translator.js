@@ -42,7 +42,7 @@ export const countries = {
   ES: 'Spain',
   HR: 'Croatia',
   PL: 'Poland',
-  MK: 'Macedonia',
+  MK: 'North Macedonia',
   RS: 'Serbia',
   ELSEWHERE: 'Elsewhere',
 };

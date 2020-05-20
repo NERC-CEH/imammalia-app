@@ -868,7 +868,7 @@ msgstr "Хрватска"
 msgid "Poland"
 msgstr "Пољска"
 
-msgid "Macedonia"
+msgid "North Macedonia"
 msgstr "Македонија"
 
 msgid "Serbia"
