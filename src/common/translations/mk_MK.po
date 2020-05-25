@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Milan Pandurovic <milan.pandurovic@gmail.com>, 2020
-# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
 # Karolis, 2020
+# Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Blagojcho Tabakovski <tabak_b@yahoo.com>, 2020\n"
 "Language-Team: Macedonian (Macedonia) (https://www.transifex.com/ceh/teams/103078/mk_MK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -503,8 +503,8 @@ msgid ""
 "yellow incisors"
 msgstr ""
 "Грубо, темно кафеаво надворешно крзно под кое има слој на меко крзно, "
-"препознатлив е по бел дел на муцката, прстите на задните нозе се поврзани со"
-" мембрана, со светли портокалово- жолти секачи"
+"препознатлива е по бел дел на муцката, прстите на задните нозе се поврзани "
+"со мембрана, со светли портокалово- жолти секачи"
 
 msgid ""
 "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and "
@@ -649,7 +649,7 @@ msgid ""
 " on the sides of the head and rump, and black stripes below the eyes and "
 "along the back"
 msgstr ""
-"Мал по големина, со куси и прави рогови, кафеаво или сиво крзно со бели "
+"Мала по големина, со куси и прави рогови, кафеаво или сиво крзно со бели "
 "делови на страните на главата и задникот и црни ленти под очите и по "
 "должината на грбот"
 
@@ -898,7 +898,7 @@ msgid "forest"
 msgstr "шума"
 
 msgid "shrubs"
-msgstr "грмушка"
+msgstr "грмушести предели"
 
 msgid "prairies"
 msgstr "прерија"
@@ -913,7 +913,7 @@ msgid "aquatic"
 msgstr "водни"
 
 msgid "underground"
-msgstr "подземја"
+msgstr "под земја"
 
 msgid "tree"
 msgstr "дрво"

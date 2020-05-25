@@ -124,8 +124,12 @@ class Component extends React.Component {
       .filter(byEnabledFilters)
       .sort(bySpeciesId);
 
+    const speciesGroupsToShow = speciesGroups
+      .filter(({ show }) => show)
+      .map(group => ({ ...group, group: true }));
+
     return isRecordingMode
-      ? [...filteredSpecies, ...speciesGroups]
+      ? [...filteredSpecies, ...speciesGroupsToShow]
       : filteredSpecies;
   };
 
@@ -144,6 +148,10 @@ class Component extends React.Component {
       const backgroundImage = group
         ? `url('/images/${taxon.toLowerCase()}_thumbnail.png')`
         : `url('/images/${id}_thumbnail.jpg'`;
+
+      if (!id) {
+        console.log(sp);
+      }
 
       return (
         <IonCol
