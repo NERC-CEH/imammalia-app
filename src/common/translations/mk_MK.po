@@ -910,7 +910,7 @@ msgid "alpine"
 msgstr "алпски предел"
 
 msgid "aquatic"
-msgstr "водни"
+msgstr "водни површини"
 
 msgid "underground"
 msgstr "под земја"

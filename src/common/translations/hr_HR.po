@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Nera Fabijanić <nera_az@yahoo.com>, 2020
 # Karolis, 2020
+# Nera Fabijanić <nera_az@yahoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Nera Fabijanić <nera_az@yahoo.com>, 2020\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/ceh/teams/103078/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -267,9 +267,7 @@ msgid "Camera"
 msgstr "Kamera"
 
 msgid "Are you sure you want to remove this photo from the record?"
-msgstr ""
-"Jeste li sigurni da želite ukloniti ovu fotografiju iz zapisa?\n"
-" "
+msgstr "Jeste li sigurni da želite ukloniti ovu fotografiju iz zapisa?"
 
 msgid "Note: it will remain in the gallery."
 msgstr "Napomena: ostat će u galeriji."
@@ -875,7 +873,7 @@ msgid "Poland"
 msgstr "Poljska"
 
 msgid "North Macedonia"
-msgstr "Makedonija"
+msgstr "Sjeverna Makedonija"
 
 msgid "Serbia"
 msgstr "Srbija"
@@ -1194,7 +1192,7 @@ msgid ""
 " funding."
 msgstr ""
 " \n"
-"iMammalia je dizajnirana za lakše snimanje i pračenje sisavaca. Sadrži popis vrsta za Španjolsku, Njemačku, Poljsku i Hrvatsku, ali ne ograničava vam državu gdje možete snimiti te životinje. Manji sisavci trenutno su navedeni samo na generičkoj razini jer ih je mnogo teže razlikovati. Kasnije verzije uključivat će više zemalja, jezika i vrsta koje su predmet istraživanja."
+"iMammalia je dizajnirana za lakše snimanje i pračenje sisavaca. Sadrži popis vrsta za Španjolsku, Njemačku, Poljsku, Hrvatsku, Sjevernu Makedoniju i Srbiju ali ne ograničava vam državu gdje možete snimiti te životinje. Manji sisavci trenutno su navedeni samo na generičkoj razini jer ih je mnogo teže razlikovati. Kasnije verzije uključivat će više zemalja, jezika i vrsta koje su predmet istraživanja."
 
 msgid ""
 "Users must first register, and can then log into a web site to view and "
@@ -1219,8 +1217,8 @@ msgid ""
 "not limit where you can record these animals."
 msgstr ""
 "iMammalia je dizajnirana za lakše snimanje i praćenje sisavaca. Sadrži popis"
-" vrsta za Španjolsku, Njemačku, Poljsku i Hrvatsku, ali ne ograničava vam "
-"državu gdje možete snimiti te životinje."
+" vrsta za Španjolsku, Njemačku, Poljsku, Hrvatsku, Sjevernu Makedoniju i "
+"Srbiju ali ne ograničava vam državu gdje možete snimiti te životinje."
 
 # Part of recording attributes pages
 msgid "Gender"
