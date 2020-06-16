@@ -17,7 +17,7 @@
     "build:cordova:android:dev": "grunt exec:cordova_android_build_dev",
     "postinstall": "grunt",
     "start": "node other/server.js",
-    "start-dev": "webpack-dev-server --config webpack.config.js --content-base dist/main --port 8000",
+    "start:dev": "webpack-dev-server --config webpack.config.js --content-base dist/main --port 8000",
     "test": "karma start test/karma.conf.js",
     "test:watch": "karma start test/karma.conf.js --no-single-run",
     "test:sauce": "karma start test/karma.conf-sauce.js",
