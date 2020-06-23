@@ -1309,6 +1309,10 @@ msgstr "Bitte geben Sie den Verwesungszustand des Säugetieres an."
 msgid "Hunted"
 msgstr "auf Jagd erlegt"
 
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
+
 # Part of species profile external link
 msgid "Mammalnet"
 msgstr "MammalNet"

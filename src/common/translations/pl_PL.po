@@ -1,6 +1,6 @@
 # 
 # Translators:
-# Karolina Petrović <kpetrovic@ibs.bialowieza.pl>, 2020
+# Mammal research Institute <poland@mammalnet.com>, 2020
 # Karolis, 2020
 # 
 msgid ""
@@ -1308,6 +1308,10 @@ msgstr "Proszę określić stan rozkładu padliny"
 # Part of recording attributes pages
 msgid "Hunted"
 msgstr "Upolowany"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
 
 # Part of species profile external link
 msgid "Mammalnet"

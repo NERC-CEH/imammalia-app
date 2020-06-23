@@ -1275,6 +1275,10 @@ msgstr "Молимо  Вас наведите степен распадања с
 msgid "Hunted"
 msgstr "Уловљен"
 
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
+
 # Part of species profile external link
 msgid "Mammalnet"
 msgstr "Mammalnet"

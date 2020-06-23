@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # Karolis, 2020
+# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2020\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/ceh/teams/103078/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1071,7 +1071,7 @@ msgid "Dead - roadkill"
 msgstr "Muerto en carretera"
 
 msgid "Dead - other"
-msgstr "Muerto por otras causas"
+msgstr "Muerto otras causas"
 
 msgid "Indirect"
 msgstr "Indicios indirectos"
@@ -1348,6 +1348,10 @@ msgstr "Por favor, indique el grado de de descomposición del animal"
 # Part of recording attributes pages
 msgid "Hunted"
 msgstr "Cazado"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
 
 # Part of species profile external link
 msgid "Mammalnet"

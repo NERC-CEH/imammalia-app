@@ -1031,6 +1031,10 @@ msgstr "Please specify the state of decomposition of the mammal."
 msgid "Hunted"
 msgstr "Hunted"
 
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "Unknown"
+
 # Part of species profile external link
 msgid "Mammalnet"
 msgstr "Mammalnet"

@@ -1281,6 +1281,10 @@ msgstr "Molimo odredite stupanj raspadnutosti nađenog trupla"
 msgid "Hunted"
 msgstr "Lovljeno"
 
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
+
 # Part of species profile external link
 msgid "Mammalnet"
 msgstr "Mammalnet"

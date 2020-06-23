@@ -1283,6 +1283,10 @@ msgstr "Ве молам наведете го степенот на распаѓ
 msgid "Hunted"
 msgstr "Заловен"
 
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
+
 # Part of species profile external link
 msgid "Mammalnet"
 msgstr "Mammalnet"
