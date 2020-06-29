@@ -11,6 +11,7 @@ const typeValues = [
   { value: 'Alive', id: 17463 },
   { value: 'Dead - roadkill', id: 17464 },
   { value: 'Dead - other', id: 17465 },
+  { value: 'Hunted', id: 17780 },
   {
     value: 'Indirect',
     type: 'radio',
@@ -62,10 +63,9 @@ const CONFIG = {
   },
 
   reports: {
-    url: `${HOST +
-      Indicia.API_BASE +
-      Indicia.API_VER +
-      Indicia.API_REPORTS_PATH}`,
+    url: `${
+      HOST + Indicia.API_BASE + Indicia.API_VER + Indicia.API_REPORTS_PATH
+    }`,
     timeout: 80000,
   },
 
@@ -166,10 +166,11 @@ const CONFIG = {
           label: 'Gender',
           type: 'radio',
           info: 'Please specify the gender of the mammal.',
-          id: 434,
+          id: 836,
           values: {
-            Male: 4343,
-            Female: 4344,
+            Male: 17781,
+            Female: 17782,
+            Unknown: 17783,
           },
         },
 
@@ -196,7 +197,7 @@ const CONFIG = {
             'Dry (just bones left)': 17692,
           },
         },
-        
+
         method: {
           label: 'Method',
           type: 'radio',

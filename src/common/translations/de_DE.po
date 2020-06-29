@@ -3,11 +3,12 @@
 # Miriam Das <miriam.rebekka.das@tiho-hannover.de>, 2019
 # Oliver Keuling <Oliver.Keuling@tiho-hannover.de>, 2020
 # Karolis, 2020
+# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2020\n"
 "Language-Team: German (Germany) (https://www.transifex.com/ceh/teams/103078/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1311,7 +1312,7 @@ msgstr "auf Jagd erlegt"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr ""
+msgstr "unbekannt"
 
 # Part of species profile external link
 msgid "Mammalnet"

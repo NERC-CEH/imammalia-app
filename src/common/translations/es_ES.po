@@ -1351,7 +1351,7 @@ msgstr "Cazado"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 # Part of species profile external link
 msgid "Mammalnet"
