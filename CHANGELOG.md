@@ -10,3 +10,9 @@ Added European Souslik species.
 Updated language translations.
 Updated species data.
 Added unknown-group silhouettes.
+
+## 1.1.1
+
+Added Hunted option to Observation Type attributes
+Added Unknown option to Sex attributes
+Updated translations

@@ -8,9 +8,10 @@
   "homepage": "https://european-mammals.brc.ac.uk",
   "scripts": {
     "build": "grunt",
-    "build:production": "grunt cordova",
+    "build:production": "grunt cordova && grunt cordova:android",
     "start": "webpack-dev-server --config webpack.config.js --content-base dist/main --port 8000",
     "test": "karma start test/karma.conf.js",
+    "clean": "rm -rf dist",
     "test:watch": "karma start test/karma.conf.js --no-single-run",
     "test:sauce": "karma start test/karma.conf-sauce.js",
     "test:eslint": "mocha test/eslint-test.js",
