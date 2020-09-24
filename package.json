@@ -63,6 +63,7 @@
     "@babel/plugin-transform-exponentiation-operator": "7.2.0",
     "@babel/preset-env": "7.6.2",
     "@babel/preset-react": "7.0.0",
+    "@flumens/fetch-onedrive-excel": "^0.1.0",
     "autoprefixer": "9.6.1",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
