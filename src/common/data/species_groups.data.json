@@ -41,11 +41,11 @@
   },
   {
     "id": 49,
-    "warehouse_id": 440914,
-    "taxon": "Sciuridae",
+    "warehouse_id": 440905,
+    "taxon": "Rodentia",
     "english": "Small rodent",
-    "parent": "Rodentia",
-    "rank": "Family",
+    "parent": "Mammalia",
+    "rank": "Order",
     "key": "MWEB0092",
     "show": true
   },
@@ -565,7 +565,7 @@
     "key": "MWEB0073"
   },
   {
-    "taxon": "Erinaceus concolor ",
+    "taxon": "Erinaceus roumanicus",
     "english": "Eastern hedgehog",
     "parent": "Erinaceus",
     "rank": "Species",

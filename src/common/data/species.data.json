@@ -1408,7 +1408,7 @@
   {
     "id": 41,
     "warehouse_id": 440829,
-    "sort_id": 20,
+    "sort_id": 41.5,
     "english": "White-tailed deer",
     "taxon": "Odocoileus virginianus",
     "mammalnet_website_path": "odocoileus_virginianus_",
@@ -1443,7 +1443,7 @@
   {
     "id": 42,
     "warehouse_id": 440872,
-    "sort_id": 34,
+    "sort_id": 22.5,
     "english": "Raccoon",
     "taxon": "Procyon lotor",
     "mammalnet_website_path": "procyon_lotor_",
