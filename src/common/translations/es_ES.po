@@ -1155,7 +1155,7 @@ msgid "Distribution"
 msgstr "Distribución"
 
 msgid "Hedgehog"
-msgstr "Erizos"
+msgstr "Erizo desconocido"
 
 msgid "(unknown species)"
 msgstr "(especie desconocida)"
@@ -1179,7 +1179,7 @@ msgid "Vole"
 msgstr "Topillo"
 
 msgid "Mouse"
-msgstr "Ratón"
+msgstr "Ratón desconocido"
 
 msgid "Rat"
 msgstr "Rata"
