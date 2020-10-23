@@ -1,6 +1,12 @@
-## 1.0.0
+## 1.1.2
 
-Initial release
+Updated translations
+
+## 1.1.1
+
+Added Hunted option to Observation Type attributes
+Added Unknown option to Sex attributes
+Updated translations
 
 ## 1.1.0
 
@@ -11,8 +17,6 @@ Updated language translations.
 Updated species data.
 Added unknown-group silhouettes.
 
-## 1.1.1
+## 1.0.0
 
-Added Hunted option to Observation Type attributes
-Added Unknown option to Sex attributes
-Updated translations
+Initial release
