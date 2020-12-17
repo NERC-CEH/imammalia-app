@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '28WDS3' x = '26220.68' y = '18293.41' xlink:href = "#post70_1" />
+<use id = '28WDS4' x = '26009.14' y = '18765.5' xlink:href = "#post70_1" />
+<use id = '28WDT3' x = '26645.42' y = '17345.3' xlink:href = "#post70_1" />
+<use id = '28WDT4' x = '26432.77' y = '17820.03' xlink:href = "#post70_1" />
+<use id = '28WES1' x = '26693.13' y = '18505.86' xlink:href = "#post70_1" />
+<use id = '28WES2' x = '26480.34' y = '18977.39' xlink:href = "#post70_1" />
+<use id = '28WET1' x = '27120.53' y = '17558.94' xlink:href = "#post70_1" />
+<use id = '28WET2' x = '26906.51' y = '18033.06' xlink:href = "#post70_1" />
+<use id = '28WET3' x = '27594.99' y = '17773.96' xlink:href = "#post70_1" />
+<use id = '28WET4' x = '27379.65' y = '18247.41' xlink:href = "#post70_1" />
+<use id = '32VLL1' x = '35450.45' y = '27397.21' xlink:href = "#post70_1" />
+<use id = '32VLL3' x = '35952.71' y = '27448.05' xlink:href = "#post70_1" />
+<use id = '32VLL4' x = '35901.45' y = '27949.94' xlink:href = "#post70_1" />
+<use id = '32VLM3' x = '36055.18' y = '26441.84' xlink:href = "#post70_1" />
+<use id = '32VLM4' x = '36003.95' y = '26945.37' xlink:href = "#post70_1" />
+<use id = '32VLP4' x = '36208.74' y = '24925.69' xlink:href = "#post70_1" />
+<use id = '32VML1' x = '36455' y = '27499.71' xlink:href = "#post70_1" />
+<use id = '32VML2' x = '36402.96' y = '28001.6' xlink:href = "#post70_1" />
+<use id = '32VML3' x = '36957.26' y = '27552.16' xlink:href = "#post70_1" />
+<use id = '32VML4' x = '36904.44' y = '28054.02' xlink:href = "#post70_1" />
+<use id = '32VMM1' x = '36559.16' y = '26493.49' xlink:href = "#post70_1" />
+<use id = '32VMM2' x = '36507.06' y = '26997.03' xlink:href = "#post70_1" />
+<use id = '32VMM3' x = '37063.1' y = '26546.04' xlink:href = "#post70_1" />
+<use id = '32VMM4' x = '37010.15' y = '27049.52' xlink:href = "#post70_1" />
+<use id = '32VMN1' x = '36663.42' y = '25483.71' xlink:href = "#post70_1" />
+<use id = '32VMN2' x = '36611.27' y = '25989.07' xlink:href = "#post70_1" />
+<use id = '32VMN3' x = '37169.23' y = '25536.36' xlink:href = "#post70_1" />
+<use id = '32VMN4' x = '37116.13' y = '26041.67' xlink:href = "#post70_1" />
+<use id = '32VMP1' x = '36767.81' y = '24470.02' xlink:href = "#post70_1" />
+<use id = '32VMP3' x = '37275.68' y = '24522.8' xlink:href = "#post70_1" />
+<use id = '32VMP4' x = '37222.42' y = '25030.09' xlink:href = "#post70_1" />
+<use id = '32VMQ2' x = '36820.07' y = '23961.58' xlink:href = "#post70_1" />
+<use id = '32VMQ4' x = '37329.03' y = '24014.42' xlink:href = "#post70_1" />
+<use id = '32VNM1' x = '37566.99' y = '26599.47' xlink:href = "#post70_1" />
+<use id = '32VNM2' x = '37513.17' y = '27102.86' xlink:href = "#post70_1" />
+<use id = '32VNP1' x = '37783.46' y = '24576.64' xlink:href = "#post70_1" />
+<use id = '32VNP2' x = '37729.15' y = '25083.82' xlink:href = "#post70_1" />
+<use id = '32VNP4' x = '38235.75' y = '25138.58' xlink:href = "#post70_1" />
+<use id = '32VNQ2' x = '37837.91' y = '24068.38' xlink:href = "#post70_1" />
+<use id = '32VNQ3' x = '38402.37' y = '23614.26' xlink:href = "#post70_1" />
+<use id = '32VNQ4' x = '38346.64' y = '24123.46' xlink:href = "#post70_1" />
+<use id = '32VPP1' x = '38835.19' y = '24691.6' xlink:href = "#post70_1" />
+<use id = '32VPQ2' x = '38880.1' y = '24182.42' xlink:href = "#post70_1" />
+<use id = '33XVG1' x = '40346.72' y = '5133.89' xlink:href = "#post70_1" />
+<use id = '33XVG3' x = '40947.86' y = '5144.7' xlink:href = "#post70_1" />
+<use id = '33XVG4' x = '40934.52' y = '5743.38' xlink:href = "#post70_1" />
+<use id = '33XVH1' x = '40362.67' y = '3921.29' xlink:href = "#post70_1" />
+<use id = '33XVH2' x = '40354.84' y = '4530.27' xlink:href = "#post70_1" />
+<use id = '33XVH3' x = '40974.53' y = '3931.79' xlink:href = "#post70_1" />
+<use id = '33XVH4' x = '40961.19' y = '4540.93' xlink:href = "#post70_1" />
+<use id = '33XVJ1' x = '40377.31' y = '2686.07' xlink:href = "#post70_1" />
+<use id = '33XVJ2' x = '40370.17' y = '3306.67' xlink:href = "#post70_1" />
+<use id = '33XVJ4' x = '40987.85' y = '3316.99' xlink:href = "#post70_1" />
+<use id = '33XWG1' x = '41548.99' y = '5160.57' xlink:href = "#post70_1" />
+<use id = '33XWG2' x = '41530.7' y = '5759.13' xlink:href = "#post70_1" />
+<use id = '33XWG3' x = '42149.86' y = '5181.52' xlink:href = "#post70_1" />
+<use id = '33XWH1' x = '41586.4' y = '3947.96' xlink:href = "#post70_1" />
+<use id = '33XWH2' x = '41567.55' y = '4556.94' xlink:href = "#post70_1" />
+<use id = '33XWH4' x = '42173.62' y = '4578.32' xlink:href = "#post70_1" />
+<use id = '33XWJ3' x = '42248.55' y = '2735.5' xlink:href = "#post70_1" />
+<use id = '33XWK4' x = '42351.99' y = '2112.4' xlink:href = "#post70_1" />
+<use id = '34VEP3' x = '44702.86' y = '24679.64' xlink:href = "#post70_1" />
+<use id = '34VFP1' x = '45249.62' y = '24653.08' xlink:href = "#post70_1" />
+<use id = '35VLK4' x = '45772.33' y = '24091.4' xlink:href = "#post70_1" />
+<use id = '35VLL3' x = '45596.23' y = '22561.08' xlink:href = "#post70_1" />
+<use id = '35VLL4' x = '45655.11' y = '23072.39' xlink:href = "#post70_1" />
+<use id = '35VML2' x = '46165.51' y = '23002.11' xlink:href = "#post70_1" />
+<use id = '35VPL1' x = '48128.67' y = '22224.7' xlink:href = "#post70_1" />
+<use id = '35WNM4' x = '47562.39' y = '21776.94' xlink:href = "#post70_1" />
+<use id = '35WPM1' x = '47975' y = '21202.91' xlink:href = "#post70_1" />
+<use id = '35WPM2' x = '48051.91' y = '21714.48' xlink:href = "#post70_1" />
+<use id = '35XLG3' x = '43132.58' y = '5180.14' xlink:href = "#post70_1" />
+<use id = '35XLG4' x = '43192.72' y = '5776.14' xlink:href = "#post70_1" />
+<use id = '35XMH4' x = '44169.09' y = '4419.4' xlink:href = "#post70_1" />
+<use id = '36VUR3' x = '48614.36' y = '22140.49' xlink:href = "#post70_1" />
+<use id = '36VUR4' x = '48713.53' y = '22645.53' xlink:href = "#post70_1" />
+<use id = '36VVR2' x = '49216.76' y = '22535.07' xlink:href = "#post70_1" />
+<use id = '36WUS3' x = '48415.09' y = '21126.61' xlink:href = "#post70_1" />
+<use id = '36WUS4' x = '48514.88' y = '21634.21' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

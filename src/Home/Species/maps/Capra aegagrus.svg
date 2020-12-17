@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '34SEF3' x = '46177.98' y = '52672.11' xlink:href = "#post70_1" />
+<use id = '34SFH3' x = '47073.97' y = '50595.22' xlink:href = "#post70_1" />
+<use id = '34SGE4' x = '48270.39' y = '54077.35' xlink:href = "#post70_1" />
+<use id = '34SGG1' x = '47710.36' y = '51569.54' xlink:href = "#post70_1" />
+<use id = '34SGH2' x = '47672.28' y = '51065.71' xlink:href = "#post70_1" />
+<use id = '35SKA3' x = '48559.46' y = '52504.82' xlink:href = "#post70_1" />
+<use id = '35SKD3' x = '48139.26' y = '49504.41' xlink:href = "#post70_1" />
+<use id = '35SLU3' x = '49825.46' y = '54395.66' xlink:href = "#post70_1" />
+<use id = '35SLV2' x = '49254.85' y = '53954.17' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

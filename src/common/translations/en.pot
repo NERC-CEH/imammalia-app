@@ -14,6 +14,99 @@ msgstr "Select your country"
 msgid "United Kingdom"
 msgstr "United Kingdom"
 
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Belarus"
+msgstr "Belarus"
+
+msgid "Belgium"
+msgstr "Belgium"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Czechia"
+msgstr "Czechia"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "France"
+msgstr "France"
+
+msgid "Greece"
+msgstr "Greece"
+
+msgid "Hungary"
+msgstr "Hungary"
+
+msgid "Iceland"
+msgstr "Iceland"
+
+msgid "Ireland"
+msgstr "Ireland"
+
+msgid "Italy"
+msgstr "Italy"
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
+msgid "Latvia"
+msgstr "Latvia"
+
+msgid "Lithuania"
+msgstr "Lithuania"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Moldova"
+msgstr "Moldova"
+
+msgid "Netherlands"
+msgstr "Netherlands"
+
+msgid "Norway"
+msgstr "Norway"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Romania"
+msgstr "Romania"
+
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgid "Sweden"
+msgstr "Sweden"
+
+msgid "Switzerland"
+msgstr "Switzerland"
+
+msgid "Turkey"
+msgstr "Turkey"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
 msgid "Skip"
 msgstr "Skip"
 
@@ -528,6 +621,105 @@ msgstr "Sandy brown coat with a lighter underbelly and a darker line along the b
 msgid "Relatively small with brown fur with no obvious spots, and a short bushy tail"
 msgstr "Relatively small with brown fur with no obvious spots, and a short bushy tail"
 
+msgid "A small upright kangaroo, brownish grey with a chesnut patch on the neck and upper arms."
+msgstr "A small upright kangaroo, brownish grey with a chesnut patch on the neck and upper arms."
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "A small hedgehog with pale face and long ears."
+
+msgid "Introduced to Northern Italy. Very similar to European rabbit but more compact with shorter ears."
+msgstr "Introduced to Northern Italy. Very similar to European rabbit but more compact with shorter ears."
+
+msgid "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
+msgstr "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
+
+msgid "Similar to but slightly smalled than the brown hare, with longer ears."
+msgstr "Similar to but slightly smalled than the brown hare, with longer ears."
+
+msgid "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
+msgstr "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
+
+msgid "Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+msgstr "Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+
+msgid "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
+msgstr "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
+
+msgid "Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+msgstr "Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+
+msgid "Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+msgstr "Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+
+msgid "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
+msgstr "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr "A large marmot with overall brownish fur and short tail."
+
+msgid "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
+msgstr "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
+
+msgid "Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+msgstr "Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+
+msgid "Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr "Very similar to European beaver, with flattened scaly tail, but darker fur."
+
+msgid "A porcupine with a predominantly white crest."
+msgstr "A porcupine with a predominantly white crest."
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr "Elongated shilhouette, small ears and white to yellowish fur."
+
+msgid "Small fox with short ears. White in winter and in summer grey on the back and lighter underneath."
+msgstr "Small fox with short ears. White in winter and in summer grey on the back and lighter underneath."
+
+msgid "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger than the similar weasel, has a longer tail and has a distinctive bounding gait, arching its back as it moves"
+msgstr "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger than the similar weasel, has a longer tail and has a distinctive bounding gait, arching its back as it moves"
+
+msgid "Yellow-brown coat with dark limbs and a dark mask across the face contrasted by paler fur"
+msgstr "Yellow-brown coat with dark limbs and a dark mask across the face contrasted by paler fur"
+
+msgid "Dark brown to red-brown coat, elongated body with short limbs and a short tail. Fur is pure white around the mouth"
+msgstr "Dark brown to red-brown coat, elongated body with short limbs and a short tail. Fur is pure white around the mouth"
+
+msgid "Orange-brown back and a cream throat and underbelly, smaller than the similar stoat, shorter tail with no black tip, and a running gait with a straight back"
+msgstr "Orange-brown back and a cream throat and underbelly, smaller than the similar stoat, shorter tail with no black tip, and a running gait with a straight back"
+
+msgid "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
+msgstr "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
+
+msgid "Brown-black fur, a narrow snout, a small, white chin"
+msgstr "Brown-black fur, a narrow snout, a small, white chin"
+
+msgid "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
+msgstr "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
+
+msgid "Chestnut-brown in colour, characteristic pale yellow patch on its chin and throat and a long, bushy tail"
+msgstr "Chestnut-brown in colour, characteristic pale yellow patch on its chin and throat and a long, bushy tail"
+
+msgid "Typical polecat face (dark mask on a pale face), but with large white to yellow spots on its back."
+msgstr "Typical polecat face (dark mask on a pale face), but with large white to yellow spots on its back."
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr "Resembles a small bear with a tail. Dark brown and stocky."
+
+msgid "Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+msgstr "Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr "A massive bovine with very long hair, and hooked horns."
+
+msgid "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
+msgstr "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
+
+msgid "A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+msgstr "A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+
+msgid "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
+msgstr "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
+
 msgid "Algerian hedgehog"
 msgstr "Algerian hedgehog"
 
@@ -659,6 +851,105 @@ msgstr "Raccoon"
 
 msgid "Barbary sheep"
 msgstr "Barbary sheep"
+
+msgid "Red-necked wallaby"
+msgstr "Red-necked wallaby"
+
+msgid "Long-eared hedgehog"
+msgstr "Long-eared hedgehog"
+
+msgid "Eastern cottontail rabbit"
+msgstr "Eastern cottontail rabbit"
+
+msgid "Cape hare"
+msgstr "Cape hare"
+
+msgid "Corsican hare"
+msgstr "Corsican hare"
+
+msgid "Persian squirrel"
+msgstr "Persian squirrel"
+
+msgid "Grey squirrel"
+msgstr "Grey squirrel"
+
+msgid "Calabrian black squirrel"
+msgstr "Calabrian black squirrel"
+
+msgid "Pallas’s squirrel"
+msgstr "Pallas’s squirrel"
+
+msgid "Thailand tree squirrel"
+msgstr "Thailand tree squirrel"
+
+msgid "Little souslik"
+msgstr "Little souslik"
+
+msgid "Bobak marmot"
+msgstr "Bobak marmot"
+
+msgid "Russian flying squirrel"
+msgstr "Russian flying squirrel"
+
+msgid "Siberian chipmunk"
+msgstr "Siberian chipmunk"
+
+msgid "American beaver"
+msgstr "American beaver"
+
+msgid "Crested porcupine"
+msgstr "Crested porcupine"
+
+msgid "Polar bear"
+msgstr "Polar bear"
+
+msgid "Arctic fox"
+msgstr "Arctic fox"
+
+msgid "Stoat"
+msgstr "Stoat"
+
+msgid "Steppe polecat"
+msgstr "Steppe polecat"
+
+msgid "European mink"
+msgstr "European mink"
+
+msgid "Weasel"
+msgstr "Weasel"
+
+msgid "Western polecat"
+msgstr "Western polecat"
+
+msgid "American mink"
+msgstr "American mink"
+
+msgid "Beech marten, Stone marten"
+msgstr "Beech marten, Stone marten"
+
+msgid "Pine marten"
+msgstr "Pine marten"
+
+msgid "Marbled polecat"
+msgstr "Marbled polecat"
+
+msgid "Wolverine"
+msgstr "Wolverine"
+
+msgid "Wild goat"
+msgstr "Wild goat"
+
+msgid "Musk ox"
+msgstr "Musk ox"
+
+msgid "Reindeer"
+msgstr "Reindeer"
+
+msgid "Reeves’ muntjac"
+msgstr "Reeves’ muntjac"
+
+msgid "Chinese water deer"
+msgstr "Chinese water deer"
 
 msgid "Germany"
 msgstr "Germany"

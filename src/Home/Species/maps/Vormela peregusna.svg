@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '34TDM3' x = '44849.51' y = '46694.7' xlink:href = "#post70_1" />
+<use id = '34TDN1' x = '44298.71' y = '45722.93' xlink:href = "#post70_1" />
+<use id = '34TDN3' x = '44797.18' y = '45696.97' xlink:href = "#pre70_1" />
+<use id = '34TDP4' x = '44771.03' y = '45198.7' xlink:href = "#pre70_1" />
+<use id = '34TEL1' x = '45402.13' y = '47667.78' xlink:href = "#post70_1" />
+<use id = '34TEM1' x = '45348.81' y = '46668.3' xlink:href = "#pre70_1" />
+<use id = '34TEM3' x = '45848.07' y = '46641.46' xlink:href = "#pre70_1" />
+<use id = '34TEM4' x = '45875.16' y = '47140.91' xlink:href = "#pre70_1" />
+<use id = '34TEN1' x = '45295.64' y = '45670.62' xlink:href = "#post70_1" />
+<use id = '34TEN2' x = '45322.2' y = '46169.25' xlink:href = "#pre70_1" />
+<use id = '34TEN3' x = '45794.07' y = '45643.87' xlink:href = "#post70_1" />
+<use id = '34TEN4' x = '45821.03' y = '46142.45' xlink:href = "#pre70_1" />
+<use id = '34TEP3' x = '45740.31' y = '44647.83' xlink:href = "#post70_1" />
+<use id = '34TEP4' x = '45767.15' y = '45145.67' xlink:href = "#post70_1" />
+<use id = '34TEQ2' x = '45216.14' y = '44176.92' xlink:href = "#post70_1" />
+<use id = '34TEQ4' x = '45713.52' y = '44150.32' xlink:href = "#post70_1" />
+<use id = '34TFL1' x = '46402.47' y = '47613.37' xlink:href = "#pre70_1" />
+<use id = '34TFL3' x = '46902.5' y = '47585.43' xlink:href = "#post70_1" />
+<use id = '34TFM1' x = '46347.25' y = '46614.17' xlink:href = "#post70_1" />
+<use id = '34TFM2' x = '46374.82' y = '47113.54' xlink:href = "#post70_1" />
+<use id = '34TFM3' x = '46846.36' y = '46586.44' xlink:href = "#post70_1" />
+<use id = '34TFM4' x = '46874.37' y = '47085.7' xlink:href = "#post70_1" />
+<use id = '34TFN1' x = '46292.42' y = '45616.74' xlink:href = "#post70_1" />
+<use id = '34TFN2' x = '46319.8' y = '46115.24' xlink:href = "#post70_1" />
+<use id = '34TFN3' x = '46790.69' y = '45589.22' xlink:href = "#post70_1" />
+<use id = '34TFN4' x = '46818.47' y = '46087.62' xlink:href = "#post70_1" />
+<use id = '34TFP1' x = '46237.95' y = '44620.85' xlink:href = "#post70_1" />
+<use id = '34TFP2' x = '46265.15' y = '45118.62' xlink:href = "#post70_1" />
+<use id = '34TFP3' x = '46735.51' y = '44593.53' xlink:href = "#post70_1" />
+<use id = '34TFP4' x = '46763.04' y = '45091.2' xlink:href = "#post70_1" />
+<use id = '34TFQ2' x = '46210.85' y = '44123.41' xlink:href = "#post70_1" />
+<use id = '34TGL1' x = '47408.52' y = '47556.63' xlink:href = "#post70_1" />
+<use id = '34TGM1' x = '47334.02' y = '46558.91' xlink:href = "#post70_1" />
+<use id = '34TGM2' x = '47371.23' y = '47057.54' xlink:href = "#post70_1" />
+<use id = '34TGN1' x = '47259.87' y = '45562.94' xlink:href = "#post70_1" />
+<use id = '34TGN2' x = '47296.9' y = '46060.72' xlink:href = "#post70_1" />
+<use id = '34TGP1' x = '47186.05' y = '44568.52' xlink:href = "#post70_1" />
+<use id = '34TGP2' x = '47222.91' y = '45065.55' xlink:href = "#post70_1" />
+<use id = '35TKF3' x = '47918.88' y = '47509.32' xlink:href = "#post70_1" />
+<use id = '35TKG3' x = '47808.7' y = '46514.91' xlink:href = "#post70_1" />
+<use id = '35TKG4' x = '47863.79' y = '47011.88' xlink:href = "#post70_1" />
+<use id = '35TKH3' x = '47698.5' y = '45522.28' xlink:href = "#post70_1" />
+<use id = '35TKH4' x = '47753.61' y = '46018.39' xlink:href = "#post70_1" />
+<use id = '35TKJ4' x = '47643.39' y = '45026.57' xlink:href = "#post70_1" />
+<use id = '35TLF1' x = '48421.57' y = '47444.61' xlink:href = "#post70_1" />
+<use id = '35TLF2' x = '48485.74' y = '47941.51' xlink:href = "#post70_1" />
+<use id = '35TLF3' x = '48918.22' y = '47380.15' xlink:href = "#post70_1" />
+<use id = '35TLG1' x = '48293.12' y = '46452.33' xlink:href = "#post70_1" />
+<use id = '35TLG2' x = '48357.36' y = '46948.22' xlink:href = "#post70_1" />
+<use id = '35TLG3' x = '48788.81' y = '46387.83' xlink:href = "#post70_1" />
+<use id = '35TLG4' x = '48853.51' y = '46883.76' xlink:href = "#post70_1" />
+<use id = '35TLH1' x = '48164.51' y = '45461.86' xlink:href = "#post70_1" />
+<use id = '35TLH2' x = '48228.83' y = '45956.88' xlink:href = "#post70_1" />
+<use id = '35TLH3' x = '48659.35' y = '45397.31' xlink:href = "#post70_1" />
+<use id = '35TLH4' x = '48724.08' y = '45892.36' xlink:href = "#post70_1" />
+<use id = '35TLJ2' x = '48100.14' y = '44967.24' xlink:href = "#post70_1" />
+<use id = '35TLJ4' x = '48594.59' y = '44902.67' xlink:href = "#post70_1" />
+<use id = '35TMF1' x = '49414.88' y = '47315.2' xlink:href = "#post70_1" />
+<use id = '35TMF2' x = '49480.1' y = '47812.1' xlink:href = "#post70_1" />
+<use id = '35TMF4' x = '49977.25' y = '47746.6' xlink:href = "#post70_1" />
+<use id = '35TMG1' x = '49284.51' y = '46322.89' xlink:href = "#post70_1" />
+<use id = '35TMG2' x = '49349.68' y = '46818.81' xlink:href = "#post70_1" />
+<use id = '35TMG3' x = '49780.19' y = '46257.5' xlink:href = "#post70_1" />
+<use id = '35TMG4' x = '49845.82' y = '46753.39' xlink:href = "#post70_1" />
+<use id = '35TMH1' x = '49154.2' y = '45332.37' xlink:href = "#post70_1" />
+<use id = '35TMH2' x = '49219.35' y = '45827.42' xlink:href = "#post70_1" />
+<use id = '35TMH3' x = '49649.05' y = '45267.04' xlink:href = "#post70_1" />
+<use id = '35TMH4' x = '49714.6' y = '45762.06' xlink:href = "#post70_1" />
+<use id = '35TMJ1' x = '49023.94' y = '44343.42' xlink:href = "#post70_1" />
+<use id = '35TMJ2' x = '49089.07' y = '44837.71' xlink:href = "#post70_1" />
+<use id = '35TMJ3' x = '49518.06' y = '44278.13' xlink:href = "#post70_1" />
+<use id = '35TMJ4' x = '49583.54' y = '44772.4' xlink:href = "#post70_1" />
+<use id = '35TNF2' x = '50474.34' y = '47680.57' xlink:href = "#pre70_1" />
+<use id = '35TNG1' x = '50275.83' y = '46191.66' xlink:href = "#post70_1" />
+<use id = '35TNG2' x = '50341.93' y = '46687.49' xlink:href = "#post70_1" />
+<use id = '35TNG3' x = '50771.4' y = '46125.38' xlink:href = "#post70_1" />
+<use id = '35TNG4' x = '50837.94' y = '46621.12' xlink:href = "#post70_1" />
+<use id = '35TNH1' x = '50143.86' y = '45201.31' xlink:href = "#post70_1" />
+<use id = '35TNH2' x = '50209.81' y = '45696.28' xlink:href = "#post70_1" />
+<use id = '35TNH3' x = '50638.61' y = '45135.2' xlink:href = "#post70_1" />
+<use id = '35TNH4' x = '50704.95' y = '45630.09' xlink:href = "#post70_1" />
+<use id = '35TNJ1' x = '50012.15' y = '44212.5' xlink:href = "#post70_1" />
+<use id = '35TNJ2' x = '50077.97' y = '44706.73' xlink:href = "#post70_1" />
+<use id = '35TNJ3' x = '50506.18' y = '44146.54' xlink:href = "#post70_1" />
+<use id = '35TNJ4' x = '50572.34' y = '44640.69' xlink:href = "#post70_1" />
+<use id = '35TNK4' x = '50440.1' y = '43652.71' xlink:href = "#pre70_1" />
+<use id = '35TNL4' x = '50308.18' y = '42665.92' xlink:href = "#pre70_1" />
+<use id = '35TPF1' x = '51400.99' y = '47050.37' xlink:href = "#pre70_1" />
+<use id = '35TPJ1' x = '51000.13' y = '44080.25' xlink:href = "#post70_1" />
+<use id = '35TPJ2' x = '51066.63' y = '44574.31' xlink:href = "#post70_1" />
+<use id = '35TPK1' x = '50867.45' y = '43093.09' xlink:href = "#pre70_1" />
+<use id = '35TPK2' x = '50933.73' y = '43586.52' xlink:href = "#pre70_1" />
+<use id = '35TPL2' x = '50801.28' y = '42599.92' xlink:href = "#pre70_1" />
+<use id = '35TPL4' x = '51294.28' y = '42533.68' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

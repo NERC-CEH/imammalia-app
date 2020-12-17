@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '33STC4' x = '37693.16' y = '51197.49' xlink:href = "#post70_1" />
+<use id = '33SUB1' x = '38247.3' y = '51720.84' xlink:href = "#post70_1" />
+<use id = '33SUB2' x = '38231.34' y = '52226.63' xlink:href = "#post70_1" />
+<use id = '33SUB3' x = '38752.79' y = '51736.36' xlink:href = "#post70_1" />
+<use id = '33SUC2' x = '38263.12' y = '51215.76' xlink:href = "#post70_1" />
+<use id = '33SUC4' x = '38767.91' y = '51231.18' xlink:href = "#post70_1" />
+<use id = '33SVA1' x = '39229.36' y = '52763.87' xlink:href = "#post70_1" />
+<use id = '33SVB1' x = '39258.37' y = '51751.17' xlink:href = "#post70_1" />
+<use id = '33SVB3' x = '39764.02' y = '51765.25' xlink:href = "#post70_1" />
+<use id = '33SVB4' x = '39750.28' y = '52271.28' xlink:href = "#post70_1" />
+<use id = '33SVC2' x = '39272.79' y = '51245.92' xlink:href = "#post70_1" />
+<use id = '33SVC4' x = '39777.72' y = '51259.96' xlink:href = "#post70_1" />
+<use id = '33SWC2' x = '40282.7' y = '51273.3' xlink:href = "#post70_1" />
+<use id = '33SWC4' x = '40787.66' y = '51285.93' xlink:href = "#post70_1" />
+<use id = '33SWD3' x = '40824.65' y = '49774.09' xlink:href = "#post70_1" />
+<use id = '33SWE4' x = '40837.03' y = '49271.4' xlink:href = "#post70_1" />
+<use id = '33SXC1' x = '41304.24' y = '50793.31' xlink:href = "#post70_1" />
+<use id = '33SXD1' x = '41327.63' y = '49786.15' xlink:href = "#post70_1" />
+<use id = '33SXD2' x = '41315.91' y = '50289.4' xlink:href = "#post70_1" />
+<use id = '33SXE2' x = '41339.41' y = '49283.49' xlink:href = "#post70_1" />
+<use id = '33TUG1' x = '38400.51' y = '46697.98' xlink:href = "#post70_1" />
+<use id = '33TUG2' x = '38385.69' y = '47197.8' xlink:href = "#post70_1" />
+<use id = '33TUG3' x = '38900.17' y = '46712.52' xlink:href = "#post70_1" />
+<use id = '33TUG4' x = '38885.81' y = '47212.44' xlink:href = "#post70_1" />
+<use id = '33TVF1' x = '39372.06' y = '47727.07' xlink:href = "#post70_1" />
+<use id = '33TVG1' x = '39399.91' y = '46726.62' xlink:href = "#post70_1" />
+<use id = '33TVG2' x = '39386.01' y = '47226.61' xlink:href = "#post70_1" />
+<use id = '33TWE1' x = '40347.6' y = '48756.6' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

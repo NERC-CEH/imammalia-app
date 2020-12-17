@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '32VMQ2' x = '36820.07' y = '23961.58' xlink:href = "#post70_1" />
+<use id = '32VMQ3' x = '37382.48' y = '23504.92' xlink:href = "#post70_1" />
+<use id = '32VMQ4' x = '37329.03' y = '24014.42' xlink:href = "#post70_1" />
+<use id = '32VNP1' x = '37783.46' y = '24576.64' xlink:href = "#post70_1" />
+<use id = '32VNQ2' x = '37837.91' y = '24068.38' xlink:href = "#post70_1" />
+<use id = '33VUK4' x = '39440' y = '24219.45' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>
