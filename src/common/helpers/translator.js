@@ -62,6 +62,7 @@ export const countries = {
   MK: 'North Macedonia',
   MT: 'Malta',
   MD: 'Moldova',
+  ME: 'Montenegro',
   NL: 'Netherlands',
   NO: 'Norway',
   PL: 'Poland',

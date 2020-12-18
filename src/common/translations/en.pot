@@ -68,6 +68,9 @@ msgstr "Latvia"
 msgid "Lithuania"
 msgstr "Lithuania"
 
+msgid "Montenegro"
+msgstr "Montenegro"
+
 msgid "Luxembourg"
 msgstr "Luxembourg"
 

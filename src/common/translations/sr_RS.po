@@ -77,6 +77,9 @@ msgstr ""
 msgid "Lithuania"
 msgstr ""
 
+msgid "Montenegro"
+msgstr ""
+
 msgid "Luxembourg"
 msgstr ""
 
