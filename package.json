@@ -9,6 +9,8 @@
   "scripts": {
     "build": "grunt",
     "build:production": "grunt cordova && grunt cordova:android",
+    "deploy": "vercel --prod -A other/now.json",
+    "deploy:production": "echo 'NOTHING HERE :('",
     "start": "webpack-dev-server --config webpack.config.js --content-base dist/main --port 8000",
     "test": "karma start test/karma.conf.js",
     "clean": "rm -rf dist",
