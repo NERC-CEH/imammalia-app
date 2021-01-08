@@ -18,7 +18,7 @@ const Component = () => (
         <IonItem>
           <IonLabel>
             {t(
-              `The iMammalia App is designed to encourage recording of mammals in the wild. It is set up to easily record mammals in six pilot countries: Spain, Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those six countries.`
+              `The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included.`
             )}
           </IonLabel>
         </IonItem>
@@ -32,7 +32,7 @@ const Component = () => (
         <IonItem>
           <IonLabel>
             {t(
-              `iMammalia is designed to make mammal recording easy. It holds a species list for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can record these animals. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding.`
+              `iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding.`
             )}
           </IonLabel>
         </IonItem>

@@ -1239,14 +1239,8 @@ msgstr "How about a rating on the App Store then?"
 msgid "How about a rating on the Play Store then?"
 msgstr "How about a rating on the Play Store then?"
 
-msgid "The iMammalia App is designed to encourage recording of mammals in the wild. It is set up to easily record mammals in six pilot countries: Spain, Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those six countries."
-msgstr "The iMammalia App is designed to encourage recording of mammals in the wild. It is set up to easily record mammals in six pilot countries: Spain, Germany, Poland, Croatia, North Macedonia and Serbia. Sightings can be recorded from other countries across Europe, but currently the species list is limited to larger mammals found in those six countries."
-
 msgid "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
 msgstr "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
-
-msgid "iMammalia is designed to make mammal recording easy. It holds a species list for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can record these animals. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
-msgstr "iMammalia is designed to make mammal recording easy. It holds a species list for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can record these animals. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
 
 msgid "Users must first register, and can then log into a web site to view and correct records. Choice of country can be reviewed in the settings."
 msgstr "Users must first register, and can then log into a web site to view and correct records. Choice of country can be reviewed in the settings."
@@ -1259,13 +1253,6 @@ msgstr "from"
 
 msgid "Share App Analytics"
 msgstr "Share App Analytics"
-
-msgid "iMammalia is designed to make mammal recording easy. It holds a species list"
-" for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can "
-"record these animals."
-msgstr "iMammalia is designed to make mammal recording easy. It holds a species list"
-" for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can "
-"record these animals."
 
 # Part of recording attributes pages
 msgid "Gender"
@@ -1344,3 +1331,11 @@ msgstr "Bats"
 # An unkown species group
 msgid "Seals"
 msgstr "Seals"
+
+# From About page
+msgid "The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included."
+msgstr "The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included."
+
+# From About page
+msgid "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
+msgstr "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."

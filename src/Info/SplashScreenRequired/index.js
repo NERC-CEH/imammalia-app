@@ -39,7 +39,7 @@ const SplashScreen = () => {
         <div className="message">
           <p>
             {t(
-              `iMammalia is designed to make mammal recording easy. It holds a species list for Spain, Germany, Poland, Croatia, North Macedonia and Serbia but does not limit where you can record these animals.`
+              `The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included.`
             )}
           </p>
         </div>
