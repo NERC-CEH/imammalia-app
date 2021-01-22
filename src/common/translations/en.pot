@@ -492,6 +492,15 @@ msgstr "Record"
 msgid "Location"
 msgstr "Location"
 
+msgid "Northern white-breasted hedgehog"
+msgstr "Northern white-breasted hedgehog"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Southern white-breasted hedgehog"
+
+msgid "Apennine hare"
+msgstr "Apennine hare"
+
 msgid "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
 msgstr "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
 
@@ -531,11 +540,11 @@ msgstr "Brown coat with orange markings on the back and a beige to orange underb
 msgid "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
 msgstr "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
 
-msgid "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
-msgstr "Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+msgid "Invasive species: Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+msgstr "Invasive species: Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
 
-msgid "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
-msgstr "Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+msgid "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+msgstr "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
 
 msgid "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
 msgstr "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
@@ -555,11 +564,11 @@ msgstr "Grey-brown fur, with a broad snout, and a pale chest and throat, can be 
 msgid "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
 msgstr "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
 
-msgid "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
-msgstr "Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+msgid "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+msgstr "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
 
-msgid "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
-msgstr "Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
+msgid "Invasive species: Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
+msgstr "Invasive species: Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
 
 msgid "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
 msgstr "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
@@ -579,8 +588,8 @@ msgstr "Coarse coat that may be dark grey, brown, sandy brown or black, muscular
 msgid "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
 msgstr "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
 
-msgid "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns"
-msgstr "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns"
+msgid "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns, with a white tone on anal region, legs and the snout. "
+msgstr "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns, with a white tone on anal region, legs and the snout. "
 
 msgid "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns"
 msgstr "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns"
@@ -615,8 +624,8 @@ msgstr "Medium sized deer, golden coat with distinctive white spots and a white 
 msgid "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
 msgstr "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
 
-msgid "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
-msgstr "Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+msgid "Invasive species: Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+msgstr "Invasive species: Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
 
 msgid "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
@@ -636,23 +645,23 @@ msgstr "Introduced to Northern Italy. Very similar to European rabbit but more c
 msgid "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
 msgstr "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
 
-msgid "Similar to but slightly smalled than the brown hare, with longer ears."
-msgstr "Similar to but slightly smalled than the brown hare, with longer ears."
+msgid "Similar to but slightly smaller than the brown hare, with relatively longer ears and hindlegs."
+msgstr "Similar to but slightly smaller than the brown hare, with relatively longer ears and hindlegs."
 
 msgid "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
 msgstr "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
 
-msgid "Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
-msgstr "Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+msgid "Invasive species: Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+msgstr "Invasive species: Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
 
 msgid "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
 msgstr "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
 
-msgid "Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
-msgstr "Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+msgid "Invasive species: Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+msgstr "Invasive species: Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
 
-msgid "Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
-msgstr "Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+msgid "Invasive species: Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+msgstr "Invasive species: Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
 
 msgid "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
 msgstr "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
@@ -663,14 +672,14 @@ msgstr "A large marmot with overall brownish fur and short tail."
 msgid "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
 msgstr "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
 
-msgid "Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
-msgstr "Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+msgid "Invasive species: Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+msgstr "Invasive species: Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
 
 msgid "Very similar to European beaver, with flattened scaly tail, but darker fur."
 msgstr "Very similar to European beaver, with flattened scaly tail, but darker fur."
 
-msgid "A porcupine with a predominantly white crest."
-msgstr "A porcupine with a predominantly white crest."
+msgid "A porcupine with typical black and white quills that run along the body"
+msgstr "A porcupine with typical black and white quills that run along the body"
 
 msgid "Elongated shilhouette, small ears and white to yellowish fur."
 msgstr "Elongated shilhouette, small ears and white to yellowish fur."
@@ -693,8 +702,8 @@ msgstr "Orange-brown back and a cream throat and underbelly, smaller than the si
 msgid "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
 msgstr "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
 
-msgid "Brown-black fur, a narrow snout, a small, white chin"
-msgstr "Brown-black fur, a narrow snout, a small, white chin"
+msgid "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
+msgstr "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
 
 msgid "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
 msgstr "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
@@ -708,8 +717,8 @@ msgstr "Typical polecat face (dark mask on a pale face), but with large white to
 msgid "Resembles a small bear with a tail. Dark brown and stocky."
 msgstr "Resembles a small bear with a tail. Dark brown and stocky."
 
-msgid "Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
-msgstr "Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+msgid "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+msgstr "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
 
 msgid "A massive bovine with very long hair, and hooked horns."
 msgstr "A massive bovine with very long hair, and hooked horns."
@@ -717,11 +726,14 @@ msgstr "A massive bovine with very long hair, and hooked horns."
 msgid "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
 msgstr "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
 
-msgid "A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
-msgstr "A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+msgid "Invasive species: A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+msgstr "Invasive species: A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
 
 msgid "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
 msgstr "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
+
+msgid "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
 
 msgid "Algerian hedgehog"
 msgstr "Algerian hedgehog"
