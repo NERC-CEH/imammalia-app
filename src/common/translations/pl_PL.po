@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Karolis, 2020
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # Mammal research Institute <poland@mammalnet.com>, 2020
+# Kamila Plis <kplis@ibs.bialowieza.pl>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Mammal research Institute <poland@mammalnet.com>, 2020\n"
+"Last-Translator: Kamila Plis <kplis@ibs.bialowieza.pl>, 2021\n"
 "Language-Team: Polish (Poland) (https://www.transifex.com/ceh/teams/103078/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,100 +23,100 @@ msgid "United Kingdom"
 msgstr "Wielka Brytania"
 
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 msgid "Belarus"
-msgstr ""
+msgstr "Białoruś"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Belgia"
 
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bośnia i Hercegowina"
 
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bułgaria"
 
 msgid "Czechia"
-msgstr ""
+msgstr "Czechy"
 
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 msgid "France"
-msgstr ""
+msgstr "Francja"
 
 msgid "Greece"
-msgstr ""
+msgstr "Grecja"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Węgry"
 
 msgid "Iceland"
-msgstr ""
+msgstr "Islandia"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Irlandia"
 
 msgid "Italy"
-msgstr ""
+msgstr "Włochy"
 
 msgid "Kosovo"
-msgstr ""
+msgstr "Kosowo"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Łotwa"
 
 msgid "Lithuania"
-msgstr ""
+msgstr "Litwa"
 
 msgid "Montenegro"
-msgstr ""
+msgstr "Czarnogóra"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luksemburg"
 
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 msgid "Moldova"
-msgstr ""
+msgstr "Mołdawia"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Holandia"
 
 msgid "Norway"
-msgstr ""
+msgstr "Norwegia"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugalia"
 
 msgid "Romania"
-msgstr ""
+msgstr "Rumunia"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Słowacja"
 
 msgid "Slovenia"
-msgstr ""
+msgstr "Słowenia"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Szwecja"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Szwajcaria"
 
 msgid "Turkey"
-msgstr ""
+msgstr "Turcja"
 
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraina"
 
 msgid "Skip"
 msgstr "Pomiń"
@@ -182,9 +182,7 @@ msgid "Terms and Conditions"
 msgstr "Regulamin"
 
 msgid "Enter your username or email address to request a password reset"
-msgstr ""
-"Wpisz swoją nazwę użytkownika lub adres e-mail, aby poprosić o zresetowanie "
-"hasła"
+msgstr "Aby zresetować hasło wpisz nazwę użytkownika lub adres e-mail. "
 
 msgid "Reset"
 msgstr "Zresetuj"
@@ -305,7 +303,7 @@ msgid "secondname is a required field"
 msgstr "nazwisko jest polem wymaganym"
 
 msgid "must accept terms and conditions"
-msgstr "musisz zaakceptować Regulamin"
+msgstr "musisz zaakceptować regulamin"
 
 msgid "Species"
 msgstr "Gatunek"
@@ -321,8 +319,7 @@ msgstr "Wersja robocza"
 
 msgid "Previous record draft exists, would you like to continue it?"
 msgstr ""
-"Czy istnieje poprzednia wersja robocza obserwacji, czy chcesz ją "
-"kontynuować?"
+"Istnieje poprzednia wersja robocza obserwacji, czy chcesz ją kontynuować?"
 
 msgid "Discard"
 msgstr "Odrzuć"
@@ -403,10 +400,10 @@ msgid "No uploaded records"
 msgstr "Brak przesłanych obserwacji"
 
 msgid "How to start a record"
-msgstr "Jak rozpocząć zapis obserwacji?"
+msgstr "Jak rozpocząć obserwację?"
 
 msgid "To start a new record you can press the plus button"
-msgstr "Aby rozpocząć nowy zapis obserwacji, naciśnij przycisk plus"
+msgstr "Aby dodać nową obserwację, naciśnij przycisk plus"
 
 msgid "in the home page footer."
 msgstr "na pasku głównym."
@@ -414,9 +411,7 @@ msgstr "na pasku głównym."
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
 "header."
-msgstr ""
-"Po zakończeniu zapisu obserwacji naciśnij przycisk Zakończ, aby przesłać "
-"obserwację."
+msgstr "Po zakończeniu, naciśnij przycisk \"Zakończ\" aby przesłać obserwację."
 
 msgid "Sync. with the website"
 msgstr "Synchronizacja ze stroną internetową"
@@ -430,9 +425,9 @@ msgid ""
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
-"Domyślnie zapis obserwacji znajduje się w trybie roboczym i nie zostanie "
-"wysłany do bazy danych, dopóki nie zostanie naciśnięty przycisk \"Zakończ\"."
-" Aplikacja będzie próbowała przesłać zapis obserwacji, gdy pojawi się "
+"Domyślnie zapis obserwacji przechowywany jest w trybie roboczym i nie "
+"zostanie wysłany do bazy danych, dopóki nie zostanie naciśnięty przycisk "
+"\"Zakończ\". Aplikacja podejmie próbę przesyłu obserwacji, gdy pojawi się "
 "połączenie sieciowe."
 
 msgid "If the record has reached the database a red"
@@ -1144,103 +1139,103 @@ msgid "Barbary sheep"
 msgstr "Arui grzywiasta"
 
 msgid "Red-necked wallaby"
-msgstr ""
+msgstr "Kangur rdzawoszyi"
 
 msgid "Long-eared hedgehog"
-msgstr ""
+msgstr "Stepojeż uszaty"
 
 msgid "Eastern cottontail rabbit"
-msgstr ""
+msgstr "Królak florydzki"
 
 msgid "Cape hare"
-msgstr ""
+msgstr "Zając płowy"
 
 msgid "Corsican hare"
-msgstr ""
+msgstr "Zając korsykański, zając apeniński"
 
 msgid "Persian squirrel"
-msgstr ""
+msgstr "Wiewiórka kaukaska, wiewiórka perska"
 
 msgid "Grey squirrel"
-msgstr ""
+msgstr "Wiewiórka szara"
 
 msgid "Calabrian black squirrel"
-msgstr ""
+msgstr "Kalabryjska wiewiórka czarna"
 
 msgid "Pallas’s squirrel"
-msgstr ""
+msgstr "Wiewiórczak rdzawobrzuchy"
 
 msgid "Thailand tree squirrel"
 msgstr ""
 
 msgid "Little souslik"
-msgstr ""
+msgstr "Suseł karłowaty"
 
 msgid "Bobak marmot"
-msgstr ""
+msgstr "Świstak stepowy"
 
 msgid "Russian flying squirrel"
-msgstr ""
+msgstr "Polatucha syberyjska"
 
 msgid "Siberian chipmunk"
-msgstr ""
+msgstr "Burunduk syberyjski"
 
 msgid "American beaver"
-msgstr ""
+msgstr "Bóbr kanadyjski"
 
 msgid "Crested porcupine"
-msgstr ""
+msgstr "Jeżozwierz afrykański"
 
 msgid "Polar bear"
-msgstr ""
+msgstr "Niedźwiedź polarny"
 
 msgid "Arctic fox"
-msgstr ""
+msgstr "Lis polarny"
 
 msgid "Stoat"
-msgstr ""
+msgstr "Gronostaj europejski"
 
 msgid "Steppe polecat"
-msgstr ""
+msgstr "Tchórz stepowy"
 
 msgid "European mink"
-msgstr ""
+msgstr "Norka europejska, Wizon europejski"
 
 msgid "Weasel"
-msgstr ""
+msgstr "Łasica"
 
 msgid "Western polecat"
-msgstr ""
+msgstr "Tchórz zwyczajny"
 
 msgid "American mink"
-msgstr ""
+msgstr "Norka amerykańska, Wizon amerykański"
 
 msgid "Beech marten, Stone marten"
-msgstr ""
+msgstr "Kuna domowa, kamionka"
 
 msgid "Pine marten"
-msgstr ""
+msgstr "Kuna leśna, tumak"
 
 msgid "Marbled polecat"
-msgstr ""
+msgstr " Tchórz marmurkowy, Perewiaska marmurkowa"
 
 msgid "Wolverine"
-msgstr ""
+msgstr "Rosomak"
 
 msgid "Wild goat"
-msgstr ""
+msgstr "Koza bezoarowa, kozioł bezoarowy"
 
 msgid "Musk ox"
-msgstr ""
+msgstr "Piżmowół arktyczny"
 
 msgid "Reindeer"
-msgstr ""
+msgstr "Renifer"
 
 msgid "Reeves’ muntjac"
-msgstr ""
+msgstr "Mundżak chiński"
 
 msgid "Chinese water deer"
-msgstr ""
+msgstr "Jelonkowiec błotny"
 
 msgid "Germany"
 msgstr "Niemcy"
@@ -1450,7 +1445,7 @@ msgstr ""
 "zorientowanych na dane."
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr "Aby złożyć sugestię lub opinię, nie wahaj się aby"
+msgstr "Jeżeli masz jakieś sugestie lub opinie, nie wahaj się aby"
 
 msgid "contact us"
 msgstr "skontaktować się z nami"
@@ -1475,34 +1470,34 @@ msgid "Distribution"
 msgstr "Obszar występowania"
 
 msgid "Hedgehog"
-msgstr "Jeże"
+msgstr "Jeż"
 
 msgid "(unknown species)"
-msgstr "(nieznany gatunek)"
+msgstr "(gatunek nieznany)"
 
 msgid "Shrew"
-msgstr "Ryjówki"
+msgstr "Ryjówka"
 
 msgid "Mole"
-msgstr "Krety"
+msgstr "Kret"
 
 msgid "Lagomorph"
-msgstr "Zajęczaki"
+msgstr "Zajęczak"
 
 msgid "Rabbits and Hares"
 msgstr "Króliki i zające"
 
 msgid "Small rodent"
-msgstr "Małe gryzonie"
+msgstr "Mały gryzoń"
 
 msgid "Vole"
-msgstr "Norniki"
+msgstr "Nornik"
 
 msgid "Mouse"
-msgstr "Myszy"
+msgstr "Mysz"
 
 msgid "Rat"
-msgstr "Szczury"
+msgstr "Szczur"
 
 msgid "Other mustelid"
 msgstr "Inne łasicowate"
@@ -1538,7 +1533,7 @@ msgid "How about a rating on the App Store then?"
 msgstr "Czy chcesz ocenić aplikację w App Store?"
 
 msgid "How about a rating on the Play Store then?"
-msgstr "Czy chcesz ocenić aplikację w Sklepie Play?"
+msgstr "Czy chcesz ocenić aplikację w Play Store?"
 
 msgid ""
 "Sightings can be recorded anywhere, with or without photos, and all records "
@@ -1590,7 +1585,7 @@ msgstr "Samica"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr "Proszę podać płeć osobnika"
+msgstr "Określ płeć osobnika"
 
 # Part of recording attributes pages
 msgid "Piglet"
@@ -1606,7 +1601,7 @@ msgstr "Dorosły"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr "Proszę podać wiek osobnika"
+msgstr "Określ wiek osobnika"
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
@@ -1655,6 +1650,10 @@ msgid ""
 "in any European country, but does not yet have all European languages "
 "included."
 msgstr ""
+"Aplikacja iMammalia została zaprojektowana, aby zachęcać do rejestrowania "
+"obecności dzikich gatunków ssaków w środowisku naturalnym. Ta wersja "
+"aplikacji mobilnej umożliwia łatwą rejestrację obserwacji ssaków w dowolnym "
+"europejskim kraju, ale nie zawiera jeszcze wszystkich dostępnych  języków."
 
 # From About page
 msgid ""
@@ -1663,3 +1662,7 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
+"iMammalia została stworzona aby ułatwić stwierdzanie obecności dzikich "
+"gatunków ssaków. Ze względu na trudności w odróżnianiu, mniejsze ssaki są "
+"obecnie wymienione tylko na poziomie ogólnym. Późniejsze wersje będą "
+"obejmować więcej krajów, języków i gatunków."
