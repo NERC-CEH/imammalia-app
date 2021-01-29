@@ -702,8 +702,8 @@ msgstr "Orange-brown back and a cream throat and underbelly, smaller than the si
 msgid "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
 msgstr "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
 
-msgid "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
-msgstr "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
 
 msgid "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
 msgstr "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"

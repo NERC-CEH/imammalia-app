@@ -928,7 +928,7 @@ msgid ""
 "pale face"
 msgstr ""
 
-msgid "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
 msgstr ""
 
 msgid ""

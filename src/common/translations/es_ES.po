@@ -28,52 +28,52 @@ msgid "Austria"
 msgstr "Austria"
 
 msgid "Belarus"
-msgstr ""
+msgstr "Bielorrusia"
 
 msgid "Belgium"
-msgstr ""
+msgstr "Bégica"
 
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosnia y Herzegovina"
 
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
 msgid "Czechia"
-msgstr ""
+msgstr "Chequia"
 
 msgid "Estonia"
 msgstr "Estonia"
 
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 msgid "France"
-msgstr ""
+msgstr "Francia"
 
 msgid "Greece"
-msgstr ""
+msgstr "Grecia"
 
 msgid "Hungary"
-msgstr ""
+msgstr "Hungría"
 
 msgid "Iceland"
-msgstr ""
+msgstr "Islandia"
 
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "Kosovo"
-msgstr ""
+msgstr "Kósovo"
 
 msgid "Latvia"
-msgstr ""
+msgstr "Letonia"
 
 msgid "Lithuania"
-msgstr ""
+msgstr "Lituania"
 
 msgid "Montenegro"
 msgstr "Montenegro"
@@ -85,37 +85,37 @@ msgid "Malta"
 msgstr "Malta"
 
 msgid "Moldova"
-msgstr ""
+msgstr "Moldavia"
 
 msgid "Netherlands"
-msgstr ""
+msgstr "Países Bajos"
 
 msgid "Norway"
-msgstr ""
+msgstr "Noruega"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 msgid "Romania"
-msgstr ""
+msgstr "Rumanía"
 
 msgid "Slovakia"
-msgstr ""
+msgstr "Eslovaquia"
 
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovenia"
 
 msgid "Sweden"
-msgstr ""
+msgstr "Suecia"
 
 msgid "Switzerland"
-msgstr ""
+msgstr "Suiza"
 
 msgid "Turkey"
-msgstr ""
+msgstr "Turquía"
 
 msgid "Ukraine"
-msgstr ""
+msgstr "Ucrania"
 
 msgid "Skip"
 msgstr "Salir"
@@ -985,7 +985,7 @@ msgid ""
 "pale face"
 msgstr ""
 
-msgid "Invasive specie: Brown-black fur, a narrow snout, a small, white chin"
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
 msgstr ""
 
 msgid ""
@@ -1187,7 +1187,7 @@ msgid "Persian squirrel"
 msgstr ""
 
 msgid "Grey squirrel"
-msgstr ""
+msgstr "Ardilla gris"
 
 msgid "Calabrian black squirrel"
 msgstr ""
@@ -1681,6 +1681,10 @@ msgid ""
 "in any European country, but does not yet have all European languages "
 "included."
 msgstr ""
+"La aplicación iMammalia está diseñada para fomentar el registro de mamíferos"
+" en la naturaleza. Esta versión de la aplicación móvil está preparada para "
+"registrar fácilmente mamíferos en cualquier país europeo, pero aún no tiene "
+"incluidos todos los idiomas europeos."
 
 # From About page
 msgid ""
@@ -1689,3 +1693,7 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
+"La app iMammalia está diseñada para fomentar el registro de mamíferos en la "
+"naturaleza. Esta versión de la aplicación móvil está preparada para "
+"registrar fácilmente mamíferos en cualquier país europeo, pero aún no tiene "
+"incluidos todos los idiomas europeos."
