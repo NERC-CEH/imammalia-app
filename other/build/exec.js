@@ -1,6 +1,6 @@
 require('dotenv').config({ silent: true }); // get local environment variables from .env
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   return {
     ionic_copy: {
       command: 'cp -R node_modules/@ionic dist/main',
@@ -29,7 +29,8 @@ module.exports = function(grunt) {
       stdout: true,
     },
     cordova_android_build_dev: {
-      command: 'cd dist/cordova/ && ../../node_modules/.bin/cordova build android',
+      command:
+        'cd dist/cordova/ && ../../node_modules/.bin/cordova build android',
       stdout: true,
     },
     cordova_copy_dist: {
@@ -46,12 +47,17 @@ module.exports = function(grunt) {
      */
     cordova_android_build: {
       command() {
-        const pass = grunt.config('keystore-password');
+        const pass = process.env.BITRISEIO_ANDROID_KEYSTORE_PASSWORD;
+        const keystore = process.env.BITRISEIO_ANDROID_KEYSTORE_URL.replace(
+          'file://',
+          ''
+        );
+
         return `cd dist/cordova && 
             mkdir -p dist && 
             cordova --release build android && 
             cd platforms/android/app/build/outputs/apk/release/ &&
-            jarsigner -keystore ${process.env.KEYSTORE} 
+            jarsigner -keystore ${keystore} 
               -storepass ${pass} app-release-unsigned.apk irecord &&
             zipalign 4 app-release-unsigned.apk main.apk && 
             mv -f main.apk ../../../../../../../dist/`;

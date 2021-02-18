@@ -4,12 +4,11 @@
   "title": "iMammalia App",
   "description": "iMammalia mobile application.",
   "version": "1.1.2",
-  "build": "1",
   "homepage": "https://european-mammals.brc.ac.uk",
   "scripts": {
     "build": "grunt",
-    "build:production": "grunt cordova && grunt cordova:android",
-    "deploy": "vercel --prod -A other/now.json",
+    "build:production": "npm run clean && grunt cordova && grunt cordova:android",
+    "deploy": "vercel --prod -A other/now.json -t $VERCEL_TOKEN --confirm",
     "deploy:production": "echo 'NOTHING HERE :('",
     "start": "webpack-dev-server --config webpack.config.js --content-base dist/main --port 8000",
     "test": "karma start test/karma.conf.js",
@@ -21,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test && npm run test:eslint"
+      "pre-push": "npm run test:eslint"
     }
   },
   "dependencies": {
@@ -125,6 +124,7 @@
     "style-loader": "1.0.0",
     "time-grunt": "2.0.0",
     "url-loader": "2.1.0",
+    "vercel": "21.2.2",
     "webpack": "4.41.0",
     "webpack-cli": "3.3.9",
     "webpack-dev-server": "3.8.1",
@@ -133,7 +133,7 @@
   },
   "engines": {
     "node": "10",
-    "npm": "6"
+    "npm": ">=6"
   },
   "author": {
     "name": "Karolis Kazlauskis",

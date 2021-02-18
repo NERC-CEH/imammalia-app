@@ -1,6 +1,9 @@
 const pkg = require('../../package.json');
 
-module.exports = grunt => ({
+const build = process.env.BITRISE_BUILD_NUMBER || pkg.build;
+const OFFSET = 300000000;
+
+module.exports = (grunt) => ({
   // Cordova config changes
   cordova_config: {
     src: ['cordova.xml'],
@@ -24,12 +27,12 @@ module.exports = grunt => ({
       },
       {
         from: /\{BUNDLE_VER\}/g,
-        to: () => pkg.build,
+        to: () => build,
       },
       {
         from: /\{ANDROID_BUNDLE_VER\}/g,
         to() {
-          let version = pkg.version.replace(/\./g, '') + pkg.build;
+          let version = OFFSET + parseInt(build);
           if (!grunt.option('oldversion')) {
             version += 8;
           }

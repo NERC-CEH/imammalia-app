@@ -65,7 +65,6 @@ module.exports = grunt => ({
   'cordova:android:run': ['exec:cordova_run_android'],
 
   'cordova:android': [
-    'prompt:keystore',
     'cordova:_prepAndroid',
     'replace:cordova_config',
     'exec:cordova_android_build',
