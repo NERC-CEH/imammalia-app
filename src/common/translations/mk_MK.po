@@ -988,6 +988,14 @@ msgid ""
 "underneath of varying dimensions, and slightly larger than E roumanicus"
 msgstr ""
 
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+
+msgid "Muskrat"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Алжирски еж"
 

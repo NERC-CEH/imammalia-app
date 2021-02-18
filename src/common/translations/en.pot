@@ -735,6 +735,12 @@ msgstr "Small deer with sandy brown coat. Paler in winter. Rump the same colour.
 msgid "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
 msgstr "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
 
+msgid "Invasive species: the largest vole but smaller than beaver or coypu with a laterally compressed tail."
+msgstr "Invasive species: the largest vole but smaller than beaver or coypu with a laterally compressed tail."
+
+msgid "Muskrat"
+msgstr "Muskrat"
+
 msgid "Algerian hedgehog"
 msgstr "Algerian hedgehog"
 

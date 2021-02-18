@@ -1095,6 +1095,14 @@ msgstr ""
 "Sehr ähnlich dem Nördlichen Weißbrustigel mit einem variablen weißen Fleck "
 "auf der Unterseite, etwas größer als E. roumanicus"
 
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+
+msgid "Muskrat"
+msgstr ""
+
 msgid "Algerian hedgehog"
 msgstr "Algerischer Igel"
 
