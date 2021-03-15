@@ -1,4 +1,6 @@
 # Ignore everything (folders and files) on root only
 /*
 !dist
+/dist/cordova
+/dist/resources
 !other
