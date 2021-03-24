@@ -76,3 +76,4 @@ import './Ondatra zibethicus.svg';
 import './Rangifer tarandus.svg';
 import './Muntiacus reevesi.svg';
 import './Hydropotes inermis.svg';
+import './Erinaceus roumanicus.svg';
