@@ -1,0 +1,1772 @@
+#
+# Translators:
+# Majlind Sulçe <majlindsulce@yahoo.com>, 2021
+#
+msgid ""
+msgstr "**"
+"Project-Id-Version: temp\n"
+"Last-Translator: Majlind Sulçe <majlindsulce@yahoo.com>, 2021\n"
+"Language-Team: Albanian (Albania) (https://www.transifex.com/ceh/teams/103078/sq_AL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sq_AL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "**"
+
+msgid "United Kingdom"
+msgstr "**"
+
+msgid "Albania"
+msgstr "**"
+
+msgid "Austria"
+msgstr "**"
+
+msgid "Belarus"
+msgstr "**"
+
+msgid "Belgium"
+msgstr "**"
+
+msgid "Bosnia and Herzegovina"
+msgstr "**"
+
+msgid "Bulgaria"
+msgstr "**"
+
+msgid "Czechia"
+msgstr "**"
+
+msgid "Estonia"
+msgstr "**"
+
+msgid "Finland"
+msgstr "**"
+
+msgid "France"
+msgstr "**"
+
+msgid "Greece"
+msgstr "**"
+
+msgid "Hungary"
+msgstr "**"
+
+msgid "Iceland"
+msgstr "**"
+
+msgid "Ireland"
+msgstr "**"
+
+msgid "Italy"
+msgstr "**"
+
+msgid "Kosovo"
+msgstr "**"
+
+msgid "Latvia"
+msgstr "**"
+
+msgid "Lithuania"
+msgstr "**"
+
+msgid "Montenegro"
+msgstr "**"
+
+msgid "Luxembourg"
+msgstr "**"
+
+msgid "Malta"
+msgstr "**"
+
+msgid "Moldova"
+msgstr "**"
+
+msgid "Netherlands"
+msgstr "**"
+
+msgid "Norway"
+msgstr "**"
+
+msgid "Portugal"
+msgstr "**"
+
+msgid "Romania"
+msgstr "**"
+
+msgid "Slovakia"
+msgstr "**"
+
+msgid "Slovenia"
+msgstr "**"
+
+msgid "Sweden"
+msgstr "**"
+
+msgid "Switzerland"
+msgstr "**"
+
+msgid "Turkey"
+msgstr "**"
+
+msgid "Ukraine"
+msgstr "**"
+
+msgid "Skip"
+msgstr "**"
+
+msgid "Next"
+msgstr "**"
+
+msgid "Get Started"
+msgstr "**"
+
+msgid "Please sign in with your account or register."
+msgstr "**"
+
+msgid "Username or email"
+msgstr "**"
+
+msgid "Password"
+msgstr "**"
+
+msgid "Sign in"
+msgstr "**"
+
+msgid "Register"
+msgstr "**"
+
+msgid "Forgot password?"
+msgstr "**"
+
+msgid "Login"
+msgstr "**"
+
+msgid "Settings"
+msgstr "**"
+
+msgid "Info"
+msgstr "**"
+
+msgid "About"
+msgstr "**"
+
+msgid "Help"
+msgstr "**"
+
+msgid "Privacy Policy"
+msgstr "**"
+
+msgid "Credits"
+msgstr "**"
+
+msgid "Email"
+msgstr "**"
+
+msgid "First Name"
+msgstr "**"
+
+msgid "Surname"
+msgstr "**"
+
+msgid "I agree to"
+msgstr "**"
+
+msgid "Terms and Conditions"
+msgstr "**"
+
+msgid "Enter your username or email address to request a password reset"
+msgstr "**"
+"Vendos emrin e përdoruesit ose adresën e email për të kërkuar rivendosjen e "
+"fjalëkalimit"
+
+msgid "Reset"
+msgstr "**"
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr "**"
+"A jeni të sigurt që dëshironi të rivendosni aplikacionin në gjëndjen "
+"fillestare?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr "**"
+"Kjo do të fshijë të gjitha të dhënat e aplikacionit të ruajtura lokalisht!"
+
+msgid "Upload All"
+msgstr "**"
+
+msgid "Remove All Saved"
+msgstr "**"
+
+msgid "Application"
+msgstr "**"
+
+msgid "Training Mode"
+msgstr "**"
+
+msgid "Experimental Features"
+msgstr "**"
+
+msgid "Welcome"
+msgstr "**"
+
+msgid "Lets start!"
+msgstr "**"
+
+msgid "Back"
+msgstr "**"
+
+msgid "Menu"
+msgstr "**"
+
+msgid "App"
+msgstr "**"
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr "**"
+"Jemi shumë mirënjohës për të gjithë njerëzit të cilët ndihmuan në krijimin e"
+" këtij aplikacioni:"
+
+msgid "Home"
+msgstr "**"
+
+msgid "Account"
+msgstr "**"
+
+msgid "Offline"
+msgstr "**"
+
+msgid "Sorry, looks like you're offline."
+msgstr "**"
+
+msgid "OK"
+msgstr "**"
+
+msgid "Sorry"
+msgstr "**"
+
+msgid "Please wait..."
+msgstr "**"
+
+msgid "name is a required field"
+msgstr "**"
+
+msgid "password is a required field"
+msgstr "**"
+
+msgid "Login error:"
+msgstr "**"
+
+msgid "Failed to fetch"
+msgstr "**"
+
+msgid "Incorrect password or email."
+msgstr "**"
+
+msgid "Logout"
+msgstr "**"
+
+msgid "Are you sure you want to logout?"
+msgstr "**"
+
+msgid "This will delete all the records on this device."
+msgstr "**"
+
+msgid "Cancel"
+msgstr "**"
+
+msgid "Welcome aboard!"
+msgstr "**"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr "**"
+"Përpara se të dërgoni të dhëna ju lutem kontrolloni emailin tuaj dhe klikoni"
+" në linkun e verifikimit. "
+
+msgid "OK, got it"
+msgstr "**"
+
+msgid "email is a required field"
+msgstr "**"
+
+msgid "firstname is a required field"
+msgstr "**"
+
+msgid "secondname is a required field"
+msgstr "**"
+
+msgid "must accept terms and conditions"
+msgstr "**"
+
+msgid "Species"
+msgstr "**"
+
+msgid "Count"
+msgstr "**"
+
+msgid "Comment"
+msgstr "**"
+
+msgid "Draft"
+msgstr "**"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "**"
+"Ekziston një dokument fillestar i ruajtur, do të dëshironit ta vazhdonit?"
+
+msgid "Discard"
+msgstr "**"
+
+msgid "Continue"
+msgstr "**"
+
+msgid "Finish"
+msgstr "**"
+
+msgid "No species added"
+msgstr "**"
+
+msgid "Delete"
+msgstr "**"
+
+msgid "Records"
+msgstr "**"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "**"
+
+msgid "No finished records"
+msgstr "**"
+
+msgid "Finished records"
+msgstr "**"
+
+msgid "Done"
+msgstr "**"
+
+msgid "Record incomplete"
+msgstr "**"
+
+msgid "The record is not complete yet."
+msgstr "**"
+
+msgid "Choose a method to upload a photo"
+msgstr "**"
+
+msgid "Gallery"
+msgstr "**"
+
+msgid "Camera"
+msgstr "**"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr "**"
+
+msgid "Note: it will remain in the gallery."
+msgstr "**"
+
+msgid "No photo has been added"
+msgstr "**"
+
+msgid "Registration error:"
+msgstr "**"
+
+msgid "Incorrect password or email"
+msgstr "**"
+
+msgid "email is not valid"
+msgstr "**"
+
+msgid "Paused"
+msgstr "**"
+
+msgid "Pending"
+msgstr "**"
+
+msgid "Uploaded"
+msgstr "**"
+
+msgid "No finished pending records"
+msgstr "**"
+
+msgid "No uploaded records"
+msgstr "**"
+
+msgid "How to start a record"
+msgstr "**"
+
+msgid "To start a new record you can press the plus button"
+msgstr "**"
+
+msgid "in the home page footer."
+msgstr "**"
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr "**"
+"Kur të keni mbaruar, bëjeni gati për ta dërguar duke klikuar mbi butonin "
+"përfundo në krye të faqes. "
+
+msgid "Sync. with the website"
+msgstr "**"
+
+msgid "All your saved records will be shown on your account page."
+msgstr "**"
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr "**"
+"Paraprakisht regjistrimi do të ruhet në modelin e një dokumenti fillestar i "
+"cili nuk do të dërgohet në bazën e të dhënave deri sa të klikohet mbi "
+"butonin përfundo në krye të faqes. Aplikacioni do të përpiqet ta dergojë "
+"regjistrimin tuaj pasi të ketë një lidhje të mirë me rrjetin. "
+
+msgid "If the record has reached the database a red"
+msgstr "**"
+
+msgid "(set for submission & saved locally) will become green"
+msgstr "**"
+"(e bërë gati për tu dërguar dhe e ruajtur në nivel lokal) do të bëhet "
+"jeshile"
+
+msgid "synced to the database"
+msgstr "**"
+
+msgid "Note"
+msgstr "**"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr "**"
+"ju duhet te hyni në llogarinë tuaj dhe të keni një lidhje rrjeti, në mënyrë "
+"që regjistrimet të sinkronizohen automatikisht në sfond "
+
+msgid "Delete a record"
+msgstr "**"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr "**"
+"Për të fshirë një regjistrim, ju duhet ta rrëshqisni atë majtas në faqen e "
+"llogarisë tuaj dhe të klikoni butonin e fshirjes. "
+
+msgid "User"
+msgstr "**"
+
+msgid "Sign in/out or register"
+msgstr "**"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr "**"
+"Për të hyrë, hapni menunë kryesore, klikoni butonin hyr ose regjistrohu dhe "
+"ndiqni udhëzimet. "
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr "**"
+"Për të dalë, vizitoni faqen e menusë kryesore dhe klikoni butonin dil. "
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr "**"
+"pasi të keni regjistruar një llogari të re ju duhet të verifikoni adresën "
+"tuaj të emailit duke klikuar mbi linkun e verifikimit të derguar në emailin "
+"tuaj. "
+
+msgid "Other"
+msgstr "**"
+
+msgid "Reset the application"
+msgstr "**"
+
+msgid "Go to the application settings page"
+msgstr "**"
+
+msgid "and click on the Reset"
+msgstr "**"
+
+msgid "button"
+msgstr "**"
+
+msgid "Record"
+msgstr "**"
+
+msgid "Location"
+msgstr "**"
+
+msgid "Northern white-breasted hedgehog"
+msgstr "**"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "**"
+
+msgid "Apennine hare"
+msgstr "**"
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr "**"
+"Kryesisht i vogël me një fytyrë të bardhë, këmbë kafe me një pjesë të "
+"poshtme të bardhë ose kafe, shumë të dukshëm, veshë të mëdhenj dhe mungesë "
+"të gjembave në pjesën e kurorës së kokës.  "
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "**"
+"Speciet më të mëdhaja të iriqit janë në të shumtën e rasteve ngjyrë kafe "
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr "**"
+"I ngjashëm me iriqin perëndimor por i identifikueshëm për shkak të një "
+"njolle të bardhë në gjoksin e tij"
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr "**"
+"Relativisht i vogël me një mbulesë gri në kafe, një pjese kafe në gjoks, "
+"pjesën e poshtme e ka gri në të bardhë, i mungon pjesa e zezë tek veshët dhe"
+" ka këmbë proporcionalisht të shkurtra "
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr "**"
+"Pjesa e pasme në ngjyrë kafe në të zezë me një pjesë të poshtme të bardhë, "
+"bishti i zi, veshë me ngjyrë kafe në gri zakonisht me maja të zeza. "
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr "**"
+"Pjesa e pasme me ngjyrë të artë në kafe, me pjesën e barkut të zbehtë, bisht"
+" të bardhë, këmbë relativisht të gjata dhe vesh me maja të zeza të "
+"dallueshme. "
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr "**"
+"Në stinën e verës kanë një mbulesë gri ne të kaftë, në dimër mbulesë e "
+"bardhë, veshë më të shkurtër se lepujt e tjerë, me maja të zeza"
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr "**"
+"Kurrizi i kaftë ose gri në kafe me pjesën e poshtme më të qartë, veshët me "
+"maja të zeza dhe pjesa e sipërme e bishtit e zezë. "
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr "**"
+"Mbulesë e kuqe në kafe me një pjese poshtë barkut të zbehtë, me një bisht të"
+" fryrë në formë shkurre, me vesh të mbushur me qime. "
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr "**"
+"Kurriz gri në kafe ose kuq në kafe me pjesën e poshtme të barkut të zbehtë, "
+"vija të bardha të cilat kalojnë nëpërmjet secilës anë dhe ndonjëherë edhe në"
+" pjesën e sipërme të kurrizit. "
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr "**"
+"Relativisht i vogël me një gëzof kafe të errët, me disa pika të bardha në "
+"kurriz dhe një bisht të hollë dhe të shkurtër. "
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr "**"
+"Mbulesë e kafejtë me njolla portokalli në kurriz dhe me pjesë e poshtme të "
+"barkut bezhë, me vijë të bardhë ndërmjet fytyrës dhe syve, vesh të vegjël, "
+"këmbë të shkurtra me një bisht të fryrë me majë të zezë. "
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr "**"
+"Mbulesë kafe e gështenjtë deri në kafe të zezë, kokë të sheshtë, sy dhe vesh"
+" të vegjël, me një bisht të sheshtë dhe me luspa. "
+
+msgid ""
+"Invasive species: Coarse, dark brown outer fur with soft dense grey under "
+"fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
+"large, bright orange-yellow incisors"
+msgstr "**"
+"Specie pushtuese/invazive: mbulesa e jashtme e trrashë me ngjyrë të kaftë të"
+" errët me një gëzof të butë në pjesën e brendshme, karakterizohet nga një "
+"njollë e bardhë në fytyrë, këmbët e pasme të palmuara/bashkuara, me dhëmbët "
+"prerës me ngjyrë portokalli në të verdhë të celët. "
+
+msgid ""
+"Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
+"hairs in winter, and brighter and reddish-straw fur in summer; yellowish-"
+"brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
+"on the cheeks."
+msgstr "**"
+"Specie pushtuese/invazive: gëzof i kaftë në gri ose i kaftë me qime të zeza "
+"në dimër, ndërsa në verë me gëzof më të celtë të kuqerremtë, bark të verdhë "
+"në kafe, me gjoks të kaftë të errët me qime të gjata të ngjashme me mustaqet"
+" në pjesën e faqeve. "
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr "**"
+"Shpesh jo plotësisht ngjyrë kafe, kanë një gëzof të trrashë me një pjesë të "
+"qimeve të qafës të zgjatura në mënyrë të moderuar. "
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr "**"
+"Ngjyra e mbulesës varion nga e bardhë deri në nuanca të të verdhës, ngjyrë "
+"kremi deri në gri ose kafe në të zezë, gëzof i trrashë dhe i gjatë dhe qime "
+"të trrasha. "
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr "**"
+"I ngjashëm me ujkun gri por dallohet prej tij nga madhësia më e vogël "
+"trupore, busti më i zgjatur, pjesa e ballit më pak e spikatur, këmbë të "
+"shkurtra dhe një fytyrë më e ngushtë dhe me majë. "
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr "**"
+"Gëzof ngjyrë portokalli në të kuqerremtë me pjesën e barkut të bardhë, maja "
+"të zeza tek veshët, këmbë kafe të errëta, me bisht portokalli i bardhë në "
+"majë. "
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr "**"
+"Gëzof gri në të kafejtë, me një fytyrë të gjerë, me zonën e gjoksit dhe të "
+"fytit në ngjyrë të zbehtë, dhe mund të dallohen nga lundërzat si pasojë e "
+"fytyrës së tyre shumë më të gjerë dhe të madhe.  "
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr "**"
+"I madh dhe gri me një bisht të butë dhe të shkurtër, me barkun dhe putrat e "
+"zeza me një fytyrë me vija të bardha dhe të zeza. "
+
+msgid ""
+"Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
+" pointed snout, small ears, long black tipped tail, and furless hind feet "
+"and facial area"
+msgstr "**"
+"Specie pushtuese/invazive: gëzof i gjatë dhe i trrashë me ngjyrë nga gri në "
+"të kuqerremtë me disa qime të verdha dhe me fytyrë të sterzgjatur, veshë të "
+"vegjël me bisht të gjatë me majë të zezë, mungon gëzofi tek këmbët e pasme "
+"dhe tek fytyra. "
+
+msgid ""
+"Invasive species: Small and slender body with pale to dark brown fur, golden"
+" flecks and a pale underbelly, short legs and small rounded ears located on "
+"the side of its head, bushy tail"
+msgstr "**"
+"Specie pushtuese/invazive: trup i vogël dhe i hollë me gëzof të kaftë të "
+"errët me njolla të arta, këmbë të shkurtra dhe të vogla, veshë të "
+"rrumbullakosur të vendosur në anë të kokës, bishti i shpeshtë. "
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr "**"
+"Gëzof me ngjyrë të verdhë në gri me disa njolla të zeza në pjesën anësore të"
+" trupit, me një vijë të zezë përgjatë shtyllës kurrizore dhe një bisht me "
+"vija, trup i hollë me fytyrë të stërzgjatur, sy të mëdhenj, vesh të mëdhenj "
+"dhe mustaqe. "
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr "**"
+"Ka një trup më të madh dhe më të trrashë se një mace e zakonshme, me një "
+"bisht më të butë me vija të dallueshme në bisht dhe trup. "
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr "**"
+"Gëzofi me ngjyrë të kuqerremtë në të kaftë gjatë verës ndërsa gjatë dimrit "
+"ngjyrë gri në të argjendtë, pjesa e poshtme e bardhë, përgjithesisht me "
+"njolla, tek veshët janë karakteristike disa tufa qimesh, bishti me majë të "
+"zezë ndërsa një rreth me qime të bardha rrethojnë fytyren.  "
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr "**"
+"Gëzof i shkurtër i verdhë në të portokalli, përgjithësisht me njolla, trup i"
+" shkurtër, këmbë të gjata, bisht i shkurtër, kokë e vogël me mustaqe. "
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr "**"
+"Mbulesë e trrashë me qime e cila mund të ketë ngjyrë gri të errët, kafe, "
+"kafe të errët ose të zeze, trup muskuloz me shpatulla të rënda, kokë e madhe"
+" me dhëmbë të medhenj në të dy sekset, meshkujt kanë një kreshtë me flokë në"
+" zonën e sipërme të shpinës. "
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr "**"
+"Mbulesë me qime ngjyrë të artë në kafe, qime më të gjata përgjatë pjesës së "
+"sipërme të shpinës, brirë të përkulur lart të gjatë dhe bisht i gjatë. "
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns, with a white tone on anal region, legs"
+" and the snout. "
+msgstr "**"
+"Meshkujt janë të kuq në të kafe me një njollë të bardhë në mes të shpinës, "
+"femrat janë ngjyrë kafe, meshkujt kanë brirë që shkojnë pas dhë një "
+"tonalitet i ngjyrës së bardhë ndodhet në rajonin anal, tak këmbët dhe tek "
+"fytyra. "
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr "**"
+"Mbulesë me qime në ngjyrë gri të kafejtë me nuanca më të errëta në zonën e "
+"mjekrrës dhe pjesës së pasme; meshkujt kanë brirë të mëdhenj dhe të përthyer"
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr "**"
+"Mbulesë me qime ngjyrë kafe, këmbë të shkurtra dhe thundra të mëdha; "
+"meshkujt kanë brirë të mëdhenj dhe të përthyer. "
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr "**"
+"Madhësi e vogël, brirë të shkurtër dhe të drejtë, mbulesë gri në kafe me "
+"njolla të bardha anash kokës dhe disa vija të zeza që ndodhen poshtë syve "
+"dhe përgjatë kurrizit. "
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr "**"
+"Mbulesë me ngjyrë kafe e kuqerremtë, njolla të zeza rreth syve, brirë të "
+"drejtuar prapa"
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr "**"
+"Mbulesë e kafejtë në gri, mund të ketë njolla me ngjyra të ndryshme në "
+"kurriz, meshkujt kanë brirë, bishti është relativisht i gjatë. "
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr "**"
+"Përgjithësisht manteli është me njolla të bardha por mund të jetë edhe "
+"totalisht i bardhë ose i zi, meshkujt kanë brirë. "
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr "**"
+"I madh me mbulesë të kaftë të errët, brirë të mëdhenj, kanë thundra dhe një "
+"palosje e lëkurës gjendet poshtë mjekrës. "
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr "**"
+"Drer relativisht i vogël me një mbulesë ngjyrë portokalli në të kaftë, "
+"meshkujt kanë brirë me 2-4 maja. "
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr "**"
+"Gama e ngjyrave shkon nga e kuqerremtë në të zezë (disa herë e bardhë) me "
+"një mbulesë me qime me pika, meshkujt kanë brirë vertikalë, ndërsa femrat "
+"dallojne nga prania e disa të ngriturave të vogla të zeza "
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr "**"
+"Drer me madhësi mesatare, mbulesë e florinjtë me disa shenja dalluese të "
+"bardha dhe me pjesën e poshtme të barkut të bardhë, një vijë e zezë gjendet "
+"përgjatë shpinës, meshkujt kanë brirë me tre maja. "
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr "**"
+"Mbulesë me ngjyrë nga e kuqerremtë në kafe në gri në të kafejtë, "
+"karakteristike është pjesa e bardhë poshtë bishtit, meshkujt kanë brire me "
+"numër të ndryshëm majash. "
+
+msgid ""
+"Invasive species: Grey-brown and white coat with long fur and a bushy, "
+"striped tail, characteristic black markings around the eyes contrasted by "
+"white face"
+msgstr "**"
+"Specie pushtuese/invazive: Gëzof gri dhe i bardhë me një bisht me vija, "
+"karakteristike janë disa shenja të zeza rreth syve të cilat bëjnë kontrast "
+"me fytyrën e bardhë. "
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr "**"
+"Mbulesë me ngjyrë kafe me një pjesë të poshtme të shndëritshme dhe një linjë"
+" e zezë që përshkon gjithë kurrizin, qime të drejta në pjesën e fytit, brirë"
+" që shkojnë pas "
+
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr "**"
+"Trup relativisht i vogël me gëzof ngjyrë kafe, pa shenja të dallueshme, dhe "
+"me një bisht të shkurtër. "
+
+msgid ""
+"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
+" upper arms."
+msgstr "**"
+"Kangur i vogël i drejtë, ngjyrë kafe në gri me njolla ngjyrë gështenje në "
+"qafë dhe në pjesën e sipërme të krahëve. "
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "**"
+
+msgid ""
+"Introduced to Northern Italy. Very similar to European rabbit but more "
+"compact with shorter ears."
+msgstr "**"
+"I futur në Italinë e veriut. Shumë i ngjashëm me lepurin Europian por më "
+"kompakt dhe me veshë më të shkurtër. "
+
+msgid ""
+"Paler than the brown hare, with very small black tips to the ears. "
+"Restricted to Sardinia."
+msgstr "**"
+"Më i zbehtë se lepuri i egër kaf me maja shumë të vogla të zeza tek veshët. "
+"I kufizuar vetëm në Sardenjë. "
+
+msgid ""
+"Similar to but slightly smaller than the brown hare, with relatively longer "
+"ears and hindlegs."
+msgstr "**"
+"I ngjashëm por lehtësisht më i vogël se lepuri i egër brun, me veshë dhe "
+"gjymtyrë të pasme relativisht më të gjata. "
+
+msgid ""
+"Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
+"winter."
+msgstr "**"
+"Gri në pjesën e sipërme, në pjesën anësore ka ngjyrë të kuqerremtë. Bishti "
+"më i vogël se trupi dhe nuk ka tufa qimesh në vesh gjatë dimrit. "
+
+msgid ""
+"Invasive species: Silver/grey coat with brownish tinge on feet and face. "
+"Tail fringed with white. Larger than red squirrel."
+msgstr "**"
+"Specie pushtuese/invazive: Mbulesë e argjendtë në gri me nuancë kafe në "
+"këmbë dhe fytyrë. Bishti me thekë të bardhë. Më i madh se sa ketri i kuq. "
+
+msgid ""
+"The dorsal part of the body, head, neck, feet and tail are black; the "
+"abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
+"than Italian populations of red squirrel."
+msgstr "**"
+"Pjesa e sipërme e trupit, koka, qafa, këmbët dhe bishti janë të zeza; pjesa "
+"e barkut e bardhë. Tufat me qime në vesh shfaqen vetëm në dimër. Nuk ka "
+"dimorfizëm seksual. Më e madhe se popullata Italiane e ketrave të kuq. "
+
+msgid ""
+"Invasive species: Similar in size to red squirrel, back is olive-brown and "
+"belly russet. White tip to the tail."
+msgstr "**"
+"Specie pushtuese/invazive: I ngjashëm në madhësi me ketrit e kuq, kurrizi "
+"ngjyrë ulliri dhe pjesa e barkut ngjyrë e kuqerremtë. Ka pika te bardha ne "
+"pjesen e bishtit. "
+
+msgid ""
+"Invasive species: Similar in size to red squirrel. Longer tail. Back is "
+"olive-brown and underside cream, extending onto face."
+msgstr "**"
+"Specie pushtuese/invazive: I ngjashëm në madhësi me ketrit e kuq. Bisht më i"
+" gjatë. Kurrizi është ngjyrë ulliri në kafe dhe pjesa e poshtme ngjyrë kremi"
+" e cila zgjatet gjatë fytyrës. "
+
+msgid ""
+"Smallest souslik with yellow to brownish fur and no obvious spots. White "
+"throat and chest with a short tail."
+msgstr "**"
+"Ketër më i vogël me mbulesë me qime me ngjyrë nga e verdhë në brune pa "
+"njolla evidente. Fyti dhe gjoksi është i bardhë me bisht të vogël. "
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr "**"
+
+msgid ""
+"A small squirrel with rounded head, and membrane between fore and hind legs."
+" Greyish above and lighter below."
+msgstr "**"
+"Një ketër i vogël me kokë të rrumbullakët, ka një membranë që lidh kembët e "
+"përparme me ato të pasme. Ngjyrë gri në pjesën e sipërme dhe ngjyrë më e "
+"celët në pjesën e poshtme. "
+
+msgid ""
+"Invasive species: Yellow-brown coat with four white stripes and five dark "
+"stripes along the back and a white chest and belly"
+msgstr "**"
+"Specie pushtuese/invazive: Mbulesë e verdhë në kafe me katër vija të bardha "
+"dhe pesë vija të errëta përgjatë kurrizit me një bark dhe gjoks të bardhë. "
+
+msgid ""
+"Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr "**"
+"Shumë i ngjashëm me kastorin Europian, me bishtin e luspuar dhe të sheshtë, "
+"por me gëzof më të errët. "
+
+msgid ""
+"A porcupine with typical black and white quills that run along the body"
+msgstr "**"
+"Një porkupinë me gjembat tipike të bardha dhe të zeza të cilat zgjaten "
+"përgjatë trupit"
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr "**"
+"Siluete e zgjatur, veshe te vegjel dhe gezof me ngjyre te bardhe ne te "
+"verdhe. "
+
+msgid ""
+"Small fox with short ears. White in winter and in summer grey on the back "
+"and lighter underneath."
+msgstr "**"
+"Dhelpër e vogël me veshë të shkurtër. E bardhë gjatë dimrit ndërsa në verë "
+"gri në kurriz dhe me e celur në pjesën e poshtme. "
+
+msgid ""
+"Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
+"than the similar weasel, has a longer tail and has a distinctive bounding "
+"gait, arching its back as it moves"
+msgstr "**"
+"Kurriz ngjyrë portokall në kafe, qafë dhe bark ngjyrë kremi, dhe bisht me "
+"pika të zeza. Më e madhe se e ngjashmja me të nuselala, ka një bisht më të "
+"gjatë dhe karakterizohet nga nje e ecur tipike duke luajtur kurrizin ndersa "
+"eshte duke levizur "
+
+msgid ""
+"Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
+" by paler fur"
+msgstr "**"
+"Mbulesë e verdhë në kafe me gjymtyrë dhe fytyrë të errta të cilat bëjnë "
+"kontrast me gezofin e zbehtë"
+
+msgid ""
+"Dark brown to red-brown coat, elongated body with short limbs and a short "
+"tail. Fur is pure white around the mouth"
+msgstr "**"
+"Mbulesë me qime kafe e errët ose e kuqe në të kaftë, trup i zgjatur me "
+"gjymtyrë dhe bisht të shkurtër. Rreth gojës ndodhet gëzof i bardhë i pastër "
+
+msgid ""
+"Orange-brown back and a cream throat and underbelly, smaller than the "
+"similar stoat, shorter tail with no black tip, and a running gait with a "
+"straight back"
+msgstr "**"
+"Kurriz ngjyrë portokalli në kafe me qafën dhe pjesën e poshtme të barkut "
+"ngjyrë kremi, më e vogël se e ngjashmja me të nuselalja trup vogël, bisht i "
+"shkurtër pa majë të zezë, me një vrapim duke e mbajtur kurrizin drejt"
+
+msgid ""
+"Dark brown colour with a pale underbelly and a dark mask-shape across the "
+"pale face"
+msgstr "**"
+"Ngjyrë kafe e errët me një pjesë të poshtme të zbehtë dhe një maskë të errët"
+" rreth formës së fytyrës "
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr "**"
+"Specie pushtuese/invazive: Gëzof i kafejtë në të zezë, fytyrë e ngushtë dhe "
+"mjekërr e vogël dhe e bardhë "
+
+msgid ""
+"Light brown coat with a cream chest and throat extending to top of legs, "
+"longer tail, more elongated and angular head with shorter, more rounded and "
+"widely spaced ears"
+msgstr "**"
+"Mbulesë me qime me ngjyrë kafe të lehtë me gjoks dhe qafë ngjyrë kremi që "
+"zgjatet në pjesën e sipërme të këmbëve, bisht më i gjatë, kokë më e gjatë "
+"dhe këndore me veshë të shkurtër e të rrumbullakët me hapësirë të gjerë. "
+
+msgid ""
+"Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
+"throat and a long, bushy tail"
+msgstr "**"
+"Ngjyra kafe e gështenjtë, karakteristike është njolla e verdhë e zbehtë në "
+"pjesën e mjekrrës dhe fytit me një bisht të gjatë dhe të dendur. "
+
+msgid ""
+"Typical polecat face (dark mask on a pale face), but with large white to "
+"yellow spots on its back."
+msgstr "**"
+"Fytyrë tipike e qelbësit ( maskë e errët ne fytyrë të zbehtë ), por me pika "
+"të medhaja ngjyrë të bardhë në të verdhë në shpinën e tij. "
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr "**"
+
+msgid ""
+"Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
+"summer and greyish brown in winter. Horns curve backward and males have a "
+"large black beard."
+msgstr "**"
+"Nuk është një dhi e egër. Kjo ndodh natyrshëm në Kretë. Ngjyrë e kuqerremtë "
+"në kafe e shndritshme në verë dhe gri në kafe në dimër. Brirët shkojnë prapa"
+" ndërsa meshkujt kanë një mjekërr të madhe të zezë. "
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr "**"
+"Një gjedh masiv me qime shumë të gjata dhe brirë që mbarojnë si grepa. "
+
+msgid ""
+"Both sexes grow antlers with two sets of points, one growing forward and one"
+" backward. Coat dark brown in summer and lighter in winter."
+msgstr "**"
+"Të dyja sekset kanë brirë me nga dy palë majash, njëra qe rritet përpara dhe"
+" tjetra pas. Mbulesa me qime është kafe në verë dhe e celët gjatë dimrit. "
+
+msgid ""
+"Invasive species: A small deer with rounded back and head often held low. "
+"Simple backward pointing antlers on male."
+msgstr "**"
+"Specie pushtuese/invazive: Një drer i vogël me kurriz të rrumbullakosur dhe "
+"zakonisht qëndron me kokën poshtë. Tek meshkujt gjenden brirë të thjeshtë që"
+" shkojne pas. "
+
+msgid ""
+"Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
+"antlers but males have long curved tusks."
+msgstr "**"
+"Drer i vogël me mbulesë të verdhë në kafe. Më i zbehtë gjatë dimrit. Pjesa e"
+" pasme e së njëjtës ngjyrë. Nuk kanë brirë por meshkujt kanë dhëmbë të gjatë"
+
+msgid ""
+"Very similar to the Northern white-breasted hedgehog with a white patch "
+"underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr "**"
+"Shumë i ngjashëm me iriqin gjoks bardhë verior me nje zonë të bardhë në "
+"pjesën e poshtme me dimensione të ndryshme, dhe pak më e madhe se E "
+"romanicus. "
+
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr "**"
+"Specie invazive/pushtuese: rodent i madh por më i vogël se kastori ose "
+"miokastori me një bisht të shtypur lateralisht. "
+
+msgid "Muskrat"
+msgstr "**"
+
+msgid "Algerian hedgehog"
+msgstr "**"
+
+msgid "Western hedgehog"
+msgstr "**"
+
+msgid "Eastern hedgehog"
+msgstr "**"
+
+msgid "European rabbit"
+msgstr "**"
+
+msgid "Broom hare"
+msgstr "**"
+
+msgid "Brown hare"
+msgstr "**"
+
+msgid "Mountain hare"
+msgstr "**"
+
+msgid "Granada hare"
+msgstr "**"
+
+msgid "Red squirrel"
+msgstr "**"
+
+msgid "Barbary ground squirrel"
+msgstr "**"
+
+msgid "Spotted souslik"
+msgstr "**"
+
+msgid "European Souslik"
+msgstr "**"
+
+msgid "Alpine marmot"
+msgstr "**"
+
+msgid "European beaver"
+msgstr "**"
+
+msgid "Coypu"
+msgstr "**"
+
+msgid "Raccoon dog"
+msgstr "**"
+
+msgid "Brown bear"
+msgstr "**"
+
+msgid "Grey wolf"
+msgstr "**"
+
+msgid "Golden jackal"
+msgstr "**"
+
+msgid "Red fox"
+msgstr "**"
+
+msgid "European otter"
+msgstr "**"
+
+msgid "Eurasian badger"
+msgstr "**"
+
+msgid "Egyptian mongoose"
+msgstr "**"
+
+msgid "Small Indian mongoose"
+msgstr "**"
+
+msgid "Common genet"
+msgstr "**"
+
+msgid "Wildcat"
+msgstr "**"
+
+msgid "Eurasian lynx"
+msgstr "**"
+
+msgid "Iberian lynx"
+msgstr "**"
+
+msgid "Wild boar"
+msgstr "**"
+
+msgid "European bison"
+msgstr "**"
+
+msgid "European mouflon"
+msgstr "**"
+
+msgid "Alpine ibex"
+msgstr "**"
+
+msgid "Spanish ibex"
+msgstr "**"
+
+msgid "Chamois, Alpine"
+msgstr "**"
+
+msgid "Chamois, southern"
+msgstr "**"
+
+msgid "Red deer"
+msgstr "**"
+
+msgid "Fallow deer"
+msgstr "**"
+
+msgid "Elk"
+msgstr "**"
+
+msgid "Roe deer"
+msgstr "**"
+
+msgid "Sika deer"
+msgstr "**"
+
+msgid "Chital"
+msgstr "**"
+
+msgid "White-tailed deer"
+msgstr "**"
+
+msgid "Raccoon"
+msgstr "**"
+
+msgid "Barbary sheep"
+msgstr "**"
+
+msgid "Red-necked wallaby"
+msgstr "**"
+
+msgid "Long-eared hedgehog"
+msgstr "**"
+
+msgid "Eastern cottontail rabbit"
+msgstr "**"
+
+msgid "Cape hare"
+msgstr "**"
+
+msgid "Corsican hare"
+msgstr "**"
+
+msgid "Persian squirrel"
+msgstr "**"
+
+msgid "Grey squirrel"
+msgstr "**"
+
+msgid "Calabrian black squirrel"
+msgstr "**"
+
+msgid "Pallas’s squirrel"
+msgstr "**"
+
+msgid "Thailand tree squirrel"
+msgstr "**"
+
+msgid "Little souslik"
+msgstr "**"
+
+msgid "Bobak marmot"
+msgstr "**"
+
+msgid "Russian flying squirrel"
+msgstr "**"
+
+msgid "Siberian chipmunk"
+msgstr "**"
+
+msgid "American beaver"
+msgstr "**"
+
+msgid "Crested porcupine"
+msgstr "**"
+
+msgid "Polar bear"
+msgstr "**"
+
+msgid "Arctic fox"
+msgstr "**"
+
+msgid "Stoat"
+msgstr "**"
+
+msgid "Steppe polecat"
+msgstr "**"
+
+msgid "European mink"
+msgstr "**"
+
+msgid "Weasel"
+msgstr "**"
+
+msgid "Western polecat"
+msgstr "**"
+
+msgid "American mink"
+msgstr "**"
+
+msgid "Beech marten, Stone marten"
+msgstr "**"
+
+msgid "Pine marten"
+msgstr "**"
+
+msgid "Marbled polecat"
+msgstr "**"
+
+msgid "Wolverine"
+msgstr "**"
+
+msgid "Wild goat"
+msgstr "**"
+
+msgid "Musk ox"
+msgstr "**"
+
+msgid "Reindeer"
+msgstr "**"
+
+msgid "Reeves’ muntjac"
+msgstr "**"
+
+msgid "Chinese water deer"
+msgstr "**"
+
+msgid "Germany"
+msgstr "**"
+
+msgid "Spain"
+msgstr "**"
+
+msgid "Croatia"
+msgstr "**"
+
+msgid "Poland"
+msgstr "**"
+
+msgid "North Macedonia"
+msgstr "**"
+
+msgid "Serbia"
+msgstr "**"
+
+msgid "Language"
+msgstr "**"
+
+msgid "Country"
+msgstr "**"
+
+msgid "Elsewhere"
+msgstr "**"
+
+msgid "river"
+msgstr "**"
+
+msgid "forest"
+msgstr "**"
+
+msgid "shrubs"
+msgstr "**"
+
+msgid "prairies"
+msgstr "**"
+
+msgid "farmlands"
+msgstr "**"
+
+msgid "alpine"
+msgstr "**"
+
+msgid "aquatic"
+msgstr "**"
+
+msgid "underground"
+msgstr "**"
+
+msgid "tree"
+msgstr "**"
+
+msgid "Description"
+msgstr "**"
+
+msgid "Habitats"
+msgstr "**"
+
+msgid "Mouse-rat"
+msgstr "**"
+
+msgid "Hedgehog-squirrel"
+msgstr "**"
+
+msgid "Rabbit-hare"
+msgstr "**"
+
+msgid "Cats-medium size canivorous"
+msgstr "**"
+
+msgid "Dog-Wildboar"
+msgstr "**"
+
+msgid "Goat-Deers"
+msgstr "**"
+
+msgid "Cow-Bison"
+msgstr "**"
+
+msgid "Filter species size"
+msgstr "**"
+
+msgid "undefined"
+msgstr "**"
+
+msgid "Date"
+msgstr "**"
+
+msgid "Today"
+msgstr "**"
+
+msgid "Number"
+msgstr "**"
+
+msgid "Method"
+msgstr "**"
+
+msgid "Type"
+msgstr "**"
+
+msgid "Select species"
+msgstr "**"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr "**"
+"Ju lutemi përdori GPS-në ose prekni mbi hartë për të zgjedhur vendndodhjen "
+"tuaj"
+
+msgid "Location Accurracy"
+msgstr "**"
+
+msgid "Close"
+msgstr "**"
+
+msgid "How many individuals of this type?"
+msgstr "**"
+
+msgid "Direct observation"
+msgstr "**"
+
+msgid "Camera trap"
+msgstr "**"
+
+msgid "Catch"
+msgstr "**"
+
+msgid "Road kill"
+msgstr "**"
+
+msgid "Field carcass"
+msgstr "**"
+
+msgid "Telemetry"
+msgstr "**"
+
+msgid "Other (specify in Comment)"
+msgstr "**"
+
+msgid "Please specify how has this mammal been observed."
+msgstr "**"
+
+msgid "Alive"
+msgstr "**"
+
+msgid "Dead - roadkill"
+msgstr "**"
+
+msgid "Dead - other"
+msgstr "**"
+
+msgid "Indirect"
+msgstr "**"
+
+msgid "Print/trail"
+msgstr "**"
+
+msgid "Dropping"
+msgstr "**"
+
+msgid "Den/burrow"
+msgstr "**"
+
+msgid "Please specify the condition of the mammal."
+msgstr "**"
+
+msgid "Please add any extra info about this record."
+msgstr "**"
+
+msgid "Enter more information here..."
+msgstr "**"
+
+msgid "Upload"
+msgstr "**"
+
+msgid "species"
+msgstr "**"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr "**"
+"Fusni emrin e përdoruesit ose adresën e emailit për të kërkuar një "
+"rivendosje të fjalëkalimit. "
+
+msgid "User not found."
+msgstr "**"
+
+msgid "We've sent an email to you"
+msgstr "**"
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr "**"
+"Klikoni linkun në email për të rivendosur fjalëkalimin tuaj. Nëse nuk e "
+"shihni emailin, kontrolloni në hapësirat e tjera si tek të vjetrat, spam ose"
+" kartela të tjera. "
+
+msgid "App Development"
+msgstr "**"
+
+msgid "This app was hand crafted with love by"
+msgstr "**"
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr "**"
+"Agjensi e specializuar në krijimin e zgjidhjeve të orientuara për të dhëna "
+"të vecanta."
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr "**"
+
+msgid "contact us"
+msgstr "**"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr "**"
+
+msgid "Maps produced"
+msgstr "**"
+
+msgid "Photo credits:"
+msgstr "**"
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr "**"
+"Shëno cdo rregjistrim të ri si \"trajnim\" dhe përjashtoje nga të gjitha "
+"raportimet."
+
+msgid "Distribution"
+msgstr "**"
+
+msgid "Hedgehog"
+msgstr "**"
+
+msgid "(unknown species)"
+msgstr "**"
+
+msgid "Shrew"
+msgstr "**"
+
+msgid "Mole"
+msgstr "**"
+
+msgid "Lagomorph"
+msgstr "**"
+
+msgid "Rabbits and Hares"
+msgstr "**"
+
+msgid "Small rodent"
+msgstr "**"
+
+msgid "Vole"
+msgstr "**"
+
+msgid "Mouse"
+msgstr "**"
+
+msgid "Rat"
+msgstr "**"
+
+msgid "Other mustelid"
+msgstr "**"
+
+msgid "Locating"
+msgstr "**"
+
+msgid "Please add record location."
+msgstr "**"
+
+msgid "Please select a species."
+msgstr "**"
+
+msgid "Enjoying the app?"
+msgstr "**"
+
+msgid "Not really"
+msgstr "**"
+
+msgid "Yes!"
+msgstr "**"
+
+msgid "Would you mind giving us some feedback?"
+msgstr "**"
+
+msgid "No, thanks"
+msgstr "**"
+
+msgid "OK, sure"
+msgstr "**"
+
+msgid "How about a rating on the App Store then?"
+msgstr "**"
+
+msgid "How about a rating on the Play Store then?"
+msgstr "**"
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr "**"
+"Gjitarët që janë parë mund të regjistrohen kudo, me ose pa foto, dhe të "
+"gjitha regjistrimet do të verifikohen nga ekspertët dhe do të bëhen të "
+"disponueshme në menyrë që të ndihmojnë në krijimin e hartave të gjitarëve "
+"Europianë. Ju mund të kontrolloni dhe përditësoni regjistrimet tuaja online."
+" "
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr "**"
+"Përdoruesit duhet që fillimisht të regjistrohen, dhe pastaj të futen në "
+"sitin web për të parë dhe korigjuar regjistrimet. Zgjedhja e shtetit do të "
+"rishikohet tek cilësimet. "
+
+msgid "Icons made by"
+msgstr "**"
+
+msgid "from"
+msgstr "**"
+
+msgid "Share App Analytics"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "**"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "**"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr "**"
+
+# Part of species profile external link
+msgid "web profile"
+msgstr "**"
+
+# An unkown species group
+msgid "Bats"
+msgstr "**"
+
+# An unkown species group
+msgid "Seals"
+msgstr "**"
+
+# From About page
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This version of the mobile application is set up to easily record mammals "
+"in any European country, but does not yet have all European languages "
+"included."
+msgstr "**"
+"Aplikacioni iMammalia është krijuar për të inkurajuar regjistrimin e "
+"gjitarëve të egër. Ky version i aplikacionit në telefon është krijuar për të"
+" bërë regjistrime në mënyrë sa më të lehtë në cdo vend Europian, por akoma "
+"nuk i përfshin të gjitha gjuhët Europiane.  "
+
+# From About page
+msgid ""
+"iMammalia is designed to make mammal recording easy. Smaller mammals are "
+"currently only listed at the generic level since they are much harder to "
+"tell apart. Later versions will include more countries, languages and "
+"species subject to funding."
+msgstr "**"
+"iMammalia është krijuar për të bërë regjistrime sa më të lehta të gjitarëve."
+" Gjitarët e vegjël janë listuar vetëm në nivel të përgjithshëm duke qënë se "
+"është shumë e vështirë dallimi i tyre. Versionet e mëvonshme do të "
+"përfshijnë më shume vende, gjuhë dhe specie të cilat do të jenë subjekt i "
+"financimit. "

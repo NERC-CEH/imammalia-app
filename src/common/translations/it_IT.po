@@ -1,0 +1,1759 @@
+# 
+# Translators:
+# Giulia Fabbri <g.fabbri@studenti.uniss.it>, 2021
+# Stefania Zanet <stefania.zanet@unito.it>, 2021
+# MASSIMO SCANDURA <scandura@uniss.it>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Last-Translator: MASSIMO SCANDURA <scandura@uniss.it>, 2021\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/ceh/teams/103078/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "Seleziona il tuo Paese"
+
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Belarus"
+msgstr "Bielorussia"
+
+msgid "Belgium"
+msgstr "Belgio"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia Erzegovina"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Czechia"
+msgstr "Repubblica Ceca"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Finland"
+msgstr "Finlandia"
+
+msgid "France"
+msgstr "Francia"
+
+msgid "Greece"
+msgstr "Grecia"
+
+msgid "Hungary"
+msgstr "Ungheria"
+
+msgid "Iceland"
+msgstr "Islanda"
+
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
+msgid "Latvia"
+msgstr "Lettonia"
+
+msgid "Lithuania"
+msgstr "Lituania"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Luxembourg"
+msgstr "Lussemburgo"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Moldova"
+msgstr "Moldavia"
+
+msgid "Netherlands"
+msgstr "Paesi Bassi"
+
+msgid "Norway"
+msgstr "Norvegia"
+
+msgid "Portugal"
+msgstr "Portogallo"
+
+msgid "Romania"
+msgstr "Romania"
+
+msgid "Slovakia"
+msgstr "Slovacchia"
+
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgid "Sweden"
+msgstr "Svezia"
+
+msgid "Switzerland"
+msgstr "Svizzera"
+
+msgid "Turkey"
+msgstr "Turchia"
+
+msgid "Ukraine"
+msgstr "Ucraina"
+
+msgid "Skip"
+msgstr "Salta"
+
+msgid "Next"
+msgstr "Avanti"
+
+msgid "Get Started"
+msgstr "Inizia"
+
+msgid "Please sign in with your account or register."
+msgstr "Accedi con il tuo account o registrati"
+
+msgid "Username or email"
+msgstr "Nome utente o email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Sign in"
+msgstr "Accedi"
+
+msgid "Register"
+msgstr "Registrati"
+
+msgid "Forgot password?"
+msgstr "Password dimenticata?"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Info"
+msgstr "Informazioni"
+
+msgid "About"
+msgstr "Informazioni sull'applicazione"
+
+msgid "Help"
+msgstr "Aiuto"
+
+msgid "Privacy Policy"
+msgstr "Informazioni sulla Privacy"
+
+msgid "Credits"
+msgstr "Ringraziamenti"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "First Name"
+msgstr "Nome"
+
+msgid "Surname"
+msgstr "Cognome"
+
+msgid "I agree to"
+msgstr "Accetto"
+
+msgid "Terms and Conditions"
+msgstr "Termini e condizioni"
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+"Inserisci nome utente o email per richiedere la reimpostazione della "
+"password"
+
+msgid "Reset"
+msgstr "Ripristina"
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+"Sei sicuro di voler ripristinare l'applicazione al suo stato iniziale?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr ""
+"Questa operazione comporta l'eliminazione di tutti i dati dell'app salvati "
+"in locale!"
+
+msgid "Upload All"
+msgstr "Carica tutto"
+
+msgid "Remove All Saved"
+msgstr "Elimina tutti i dati salvati"
+
+msgid "Application"
+msgstr "Applicazione"
+
+msgid "Training Mode"
+msgstr "Modalità di prova"
+
+msgid "Experimental Features"
+msgstr "Caratteristiche sperimentali"
+
+msgid "Welcome"
+msgstr "Benvenuto"
+
+msgid "Lets start!"
+msgstr "Iniziamo!"
+
+msgid "Back"
+msgstr "Indietro"
+
+msgid "Menu"
+msgstr "Menù"
+
+msgid "App"
+msgstr "Applicazione"
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+"Siamo molto grati a tutte le persone che hanno collaborato alla "
+"realizzazione di questa applicazione:"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Sorry, looks like you're offline."
+msgstr "Spiacente, sembra che tu sia offline."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Sorry"
+msgstr "Spiacente"
+
+msgid "Please wait..."
+msgstr "Per favore attendi..."
+
+msgid "name is a required field"
+msgstr "Il campo \"Nome\" è obbligatorio"
+
+msgid "password is a required field"
+msgstr "Il campo \"password\" è obbligatorio"
+
+msgid "Login error:"
+msgstr "Errore di login:"
+
+msgid "Failed to fetch"
+msgstr "Recupero fallito"
+
+msgid "Incorrect password or email."
+msgstr "Password o email non corrette"
+
+msgid "Logout"
+msgstr "Disconnetti"
+
+msgid "Are you sure you want to logout?"
+msgstr "Sei sicuro di volerti disconnettere?"
+
+msgid "This will delete all the records on this device."
+msgstr "Questo eliminerà tutti i record presenti su questo dispositivo."
+
+msgid "Cancel"
+msgstr "Cancella"
+
+msgid "Welcome aboard!"
+msgstr "Benvenuto!"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Prima di inserire i tuoi record, controlla la tua email e clicca il link di "
+"verifica nel messaggio che hai ricevuto"
+
+msgid "OK, got it"
+msgstr "Ok, ho capito"
+
+msgid "email is a required field"
+msgstr "Il campo \"Email\" è obbligatorio"
+
+msgid "firstname is a required field"
+msgstr "Il campo \"Nome\" è obbligatorio"
+
+msgid "secondname is a required field"
+msgstr "Il campo \"Cognome\" è obbligatorio"
+
+msgid "must accept terms and conditions"
+msgstr "Devi accettare tutti i termini e condizioni"
+
+msgid "Species"
+msgstr "Specie"
+
+msgid "Count"
+msgstr "Conteggio"
+
+msgid "Comment"
+msgstr "Commento"
+
+msgid "Draft"
+msgstr "Bozza"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "Hai un record in bozza, vuoi completarlo?"
+
+msgid "Discard"
+msgstr "Elimina"
+
+msgid "Continue"
+msgstr "Continua"
+
+msgid "Finish"
+msgstr "Fine"
+
+msgid "No species added"
+msgstr "Nessuna specie aggiunta"
+
+msgid "Delete"
+msgstr "Cancella"
+
+msgid "Records"
+msgstr "Record"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Sei sicuro di voler eliminare questo record?"
+
+msgid "No finished records"
+msgstr "Nessun record completato"
+
+msgid "Finished records"
+msgstr "Record completati"
+
+msgid "Done"
+msgstr "Fatto"
+
+msgid "Record incomplete"
+msgstr "Record incompleto"
+
+msgid "The record is not complete yet."
+msgstr "Questo record non è ancora completo"
+
+msgid "Choose a method to upload a photo"
+msgstr "Scegli un metodo per caricare una foto"
+
+msgid "Gallery"
+msgstr "Galleria"
+
+msgid "Camera"
+msgstr "Fotocamera"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr "Sei sicuro di voler rimuovere questa foto dal record?"
+
+msgid "Note: it will remain in the gallery."
+msgstr "Nota: rimarrà nella galleria."
+
+msgid "No photo has been added"
+msgstr "Nessuna foto è stata aggiunta"
+
+msgid "Registration error:"
+msgstr "Errore di registrazione:"
+
+msgid "Incorrect password or email"
+msgstr "Password o email non corretta"
+
+msgid "email is not valid"
+msgstr "Email non valida"
+
+msgid "Paused"
+msgstr "In pausa"
+
+msgid "Pending"
+msgstr "In sospeso"
+
+msgid "Uploaded"
+msgstr "Caricato"
+
+msgid "No finished pending records"
+msgstr "Nessun record in sospeso"
+
+msgid "No uploaded records"
+msgstr "Nessun record caricato"
+
+msgid "How to start a record"
+msgstr "Come inserire un record"
+
+msgid "To start a new record you can press the plus button"
+msgstr "Per inserire un nuovo record puoi premere il pulsante \"+\""
+
+msgid "in the home page footer."
+msgstr "nel piè di pagina della home page."
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+"Quando hai terminato, configura l'invio premendo il pulsante Fine "
+"nell'intestazione."
+
+msgid "Sync. with the website"
+msgstr "Sincronizza con il sito web"
+
+msgid "All your saved records will be shown on your account page."
+msgstr ""
+"Tutti i record salvati verranno visualizzati nella pagina del tuo account"
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+"Di default, ogni record viene creato in modalità \"bozza\". Questo non verrà"
+" inviato al database finché non si faccia clic sul pulsante \"Fine\" "
+"nell'intestazione. L'applicazione invierà il tuo record non appena sarà "
+"disponibile una buona connessione di rete."
+
+msgid "If the record has reached the database a red"
+msgstr "Se il record è stato aggiunto al database, una scritta rossa"
+
+msgid "(set for submission & saved locally) will become green"
+msgstr "\"configurato per l'invio e salvato in locale\" diventerà verde"
+
+msgid "synced to the database"
+msgstr "sincronizzato con il database"
+
+msgid "Note"
+msgstr "Note"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+" Affinché i record vengano sincronizzati automaticamente in background, devi"
+" fare il login al tuo account  ed essere connesso alla rete dati"
+
+msgid "Delete a record"
+msgstr "Elimina un record"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+"Per eliminare un record, fallo scorrere verso sinistra nella pagina del tuo "
+"account e clicca sul pulsante Elimina"
+
+msgid "User"
+msgstr "Utente"
+
+msgid "Sign in/out or register"
+msgstr "Accedi/esci o registrati"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+"Per accedere, apri la pagina del menu principale, clicca sui pulsanti Login "
+"o Registrati e segui le istruzioni."
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+"Per disconnettersi, vai alla pagina del menù principale e clicca sul "
+"pulsante Disconnetti"
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+"Dopo aver creato un nuovo account, devi verificare il tuo indirizzo email "
+"cliccando sul link di verifica che hai ricevuto per email"
+
+msgid "Other"
+msgstr "Altro"
+
+msgid "Reset the application"
+msgstr "Ripristina l'applicazione"
+
+msgid "Go to the application settings page"
+msgstr "Vai alle impostazioni dell'applicazione"
+
+msgid "and click on the Reset"
+msgstr "e clicca su Ripristina"
+
+msgid "button"
+msgstr "pulsante"
+
+msgid "Record"
+msgstr "Record"
+
+msgid "Location"
+msgstr "Posizione"
+
+msgid "Northern white-breasted hedgehog"
+msgstr "Riccio orientale"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Riccio europeo"
+
+msgid "Apennine hare"
+msgstr "Lepre appenninica o Lepre italica"
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr ""
+"Relativamente piccolo con maschera facciale bianca, arti marroni e  ventre "
+"bianco o marrone. Orecchie grandi e facili da notare, assenza di spine sulla"
+" sommità della testa"
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr ""
+"La più grande tra le specie di riccio, dalla colorazione prevalentemente "
+"bruna"
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr ""
+"Simile al riccio europeo ma riconoscibile dalla macchia bianca sul petto"
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr ""
+"Relativamente piccolo con mantello grigio-bruno, una chiazza marrone sul "
+"petto e ventre bianco-grigio, assenza di punta nera sulle orecchie e zampe "
+"proporzionalmente più corte rispetto alle lepri"
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr ""
+"Dorso bruno e nero e ventre bianco, coda nera con parte inferiore bianca, "
+"orecchie marroni-grigie solitamente con apice nero"
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr ""
+"Dorso dorato-marrone e ventre chiaro, coda bianca, zampe relativamente "
+"lunghe e orecchie con un caratteristico triangolo bianco all'apice "
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr ""
+"Mantello grigio-bruno in estate e bianco candido in inverno, orecchie con "
+"apice nero, più corte rispetto a quelle delle altre lepri"
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr ""
+"Dorso bruno o grigio-bruno e ventre più chiaro, orecchie con apice nero e "
+"coda dorsalmente di colore nero"
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr ""
+"Dorso bruno-rossiccio e ventre chiaro con una coda folta e grandi ciuffi "
+"sulle orecchie"
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr ""
+"Dorso grigio-bruno o bruno-rossiccio e ventre grigio chiaro, striature "
+"bianche che percorrono i fianchi e talvolta un'altra lungo il dorso"
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr ""
+"Relativamente piccolo con pelliccia marrone scuro, macchie bianche sul dorso"
+" e coda corta e sottile"
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr ""
+"Pelliccia marrone con disegni arancione sul dorso e ventre beige-arancio, "
+"banda chiara tra il muso e gli occhi, orecchie piccole, zampe corte e folta "
+"coda marrone con la punta nera "
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr ""
+"Pelliccia da castano-marrone a marrone-nero, tarchiato con una testa "
+"schiacciata, occhi e orecchie piccoli e coda squamosa e appiattita"
+
+msgid ""
+"Invasive species: Coarse, dark brown outer fur with soft dense grey under "
+"fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
+"large, bright orange-yellow incisors"
+msgstr ""
+"Specie invasiva: tozza, pelliccia esternamente marrone scuro con sottopelo "
+"fitto e soffice di colore grigio, caratteristica macchia bianca sul muso, "
+"zampe posteriori palmate e grandi incisivi giallo-arancio brillante"
+
+msgid ""
+"Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
+"hairs in winter, and brighter and reddish-straw fur in summer; yellowish-"
+"brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
+"on the cheeks."
+msgstr ""
+"Specie invasiva: pelo color marrone terra o grigio-marrone, con peli di "
+"giarra neri in inverno e pelo più luminoso, color paglia- rossastro in "
+"estate; addome bruno-giallastro, petto marrone scuro o nerastro, con lunghi "
+"peli simili a baffi sulle guance."
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr ""
+"Spesso non completamente marroni, hanno una pelliccia lunga e spessa, con "
+"una criniera moderatamente sviluppata nella parte posteriore del collo"
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr ""
+"Il colore del mantello varia dal bianco quasi puro a varie tonalità di "
+"biondo, crema e ocra fino a grigio, marrone e nero. Pelo lungo e folto con "
+"peli di giarra lunghi e grossolani."
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr ""
+"Simile al lupo ma di taglia più piccola, con il busto più allungato, la "
+"fronte meno prominente, le zampe e la coda più corte, con il muso più "
+"stretto ed appuntito"
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr ""
+"Pelo rosso-arancio con ventre bianco, punte delle orecchie nere, zampe "
+"marrone scuro. Coda cespugliosa di color arancione con punta bianca. "
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr ""
+"Pelliccia grigio-marrone, muso largo, petto e gola chiari, può essere "
+"riconosciuto dal visone per la taglia notevolmente maggiore e per la testa "
+"più larga"
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr ""
+"Di dimensioni grandi e tozze, colore grigio, con una coda corta e vaporosa, "
+"ventre e zampe neri, e muso a strisce bianche e nere"
+
+msgid ""
+"Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
+" pointed snout, small ears, long black tipped tail, and furless hind feet "
+"and facial area"
+msgstr ""
+"Specie invasiva. Pelliccia lunga e grossolana, da grigio a rosso-marrone con"
+" alcuni peli gialli. Muso appuntito, orecchie piccole, coda lunga con punta "
+"nera, zampe posteriori e viso privi  di pelo "
+
+msgid ""
+"Invasive species: Small and slender body with pale to dark brown fur, golden"
+" flecks and a pale underbelly, short legs and small rounded ears located on "
+"the side of its head, bushy tail"
+msgstr ""
+"Specie invasiva: corpo di dimensioni ridotte e slanciato con pelliccia di "
+"colore da chiaro a marrone scuro, macchie dorate e addome chiaro, zampe "
+"corte, orecchie piccole e rotondeggianti poste ai lati della testa, coda "
+"cespugliosa"
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr ""
+"Mantello giallo-grigio chiaro con punti neri ai lati, una striscia nera "
+"lungo il dorso e coda cespugliosa a strisce, corpo snello con muso a punta, "
+"occhi e orecchie grandi, baffi"
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr ""
+"Più grande e  tozzo di un gatto soriano domestico,  coda più soffice e "
+"smussata, bande sulla coda e sul corpo ben distinte."
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr ""
+"Pelliccia maculata rosso-marrone in estate, più spessa e di color grigio "
+"argento in inverno, ventre bianco, caratteristici ciuffi di peli neri sulle "
+"orecchie, sottocollo bianco, coda con punta nera."
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr ""
+"Pelo corto a macchie, di colore variabile dal giallo al fulvo, corpo corto "
+"con zampe lunghe, coda corta, testa piccola con vibrisse visibili, orecchie "
+"ricoperte da ciuffi di pelo."
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr ""
+"Mantello ispido che varia in colore dal grigio scuro, al marrone, dal "
+"marrone sabbia al nero, corpo robusto con parte anteriore tarchiata, largo "
+"cranio con zanne in entrambi i sessi, i maschi hanno una cresta di peli "
+"nella parte superiore del dorso"
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr ""
+"mantello corto bruno-dorato, pelo più lungo lungo la parte superiore del "
+"dorso, coda più lunga e corna lunghe e ricurve verso l'alto"
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns, with a white tone on anal region, legs"
+" and the snout. "
+msgstr ""
+"I maschi sono rosso-marroni con una macchia bianca sulla sella, le femmine "
+"sono marroni, i maschi hanno corna elicoidali all'indietro, con una tonalità"
+" bianca sulla regione anale, sulle gambe e sul muso. "
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr ""
+"Manto grigio-bruno con macchie più scure su mento, gola e dorso; i maschi "
+"hanno grandi corna ricurve"
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr ""
+"Manto bruno con zampe corte e grandi zoccoli; i maschi hanno grandi corna "
+"ricurve"
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr ""
+"Taglia piccola, corna corte e dritte, mantello marrone o grigio con macchie "
+"bianche ai lati della testa e della groppa, e strisce nere sotto gli occhi e"
+" lungo la schiena"
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr ""
+"Manto da bruno-ruggine a nero-marrone, macchie scure intorno agli occhi, "
+"corna uncinate con punta rivolta all'indietro"
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr ""
+"Manto da marrone rossastro a grigio, può avere macchie di colorazione "
+"diversa sul dorso, coda relativamente lunga, i maschi hanno palchi"
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr ""
+"In genere il mantello è castano con macchie bianche, ma può anche essere "
+"completamente bianco o scuro e persino nero, i maschi hanno palchi"
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr ""
+"Grossa mole con un mantello marrone scuro, grandi palchi, zoccoli e una "
+"piega di pelle sotto il mento"
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr ""
+"Cervo relativamente piccolo con mantello arancione-marrone, i maschi hanno "
+"palchi con 2-4 punte"
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr ""
+"Colore del mantello che può variare dal mogano al nero (a volte bianco) e un"
+" mantello maculato, i maschi hanno palchi eretti, le femmine hanno "
+"caratteristiche protuberanze nere"
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr ""
+"Cervo di medie dimensioni, mantello dorato con caratteristiche macchie "
+"bianche e un ventre bianco, vistosa striscia nera lungo il dorso, i maschi "
+"hanno palchi a tre punte"
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr ""
+"Manto da bruno-rossastro a grigio-marrone, caratteristica parte inferiore "
+"della coda bianca, i maschi hanno palchi con un numero variabile di punte"
+
+msgid ""
+"Invasive species: Grey-brown and white coat with long fur and a bushy, "
+"striped tail, characteristic black markings around the eyes contrasted by "
+"white face"
+msgstr ""
+"Specie invasiva. Manto grigio-marrone e bianco con una lunga pelliccia e una"
+" coda folta e striata, caratteristiche marcature nere intorno agli occhi "
+"contrastanti con la faccia bianca"
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr ""
+"Manto marrone-sabbia con un ventre più chiaro e una linea più scura lungo la"
+" schiena, pelo ispido sulla gola e corna lisce e ricurve all'indietro"
+
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+"Relativamente piccolo con una pelliccia marrone senza macchie evidenti, coda"
+" corta e folta"
+
+msgid ""
+"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
+" upper arms."
+msgstr ""
+"Un piccolo canguro con postura eretta, manto grigio-brunastro con una "
+"macchia castana sul collo e sulla parte superiore degli arti superiori"
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "Un piccolo riccio con faccia chiara e orecchie lunghe"
+
+msgid ""
+"Introduced to Northern Italy. Very similar to European rabbit but more "
+"compact with shorter ears."
+msgstr ""
+"Specie introdotta. Molto simile al coniglio selvatico europeo ma più "
+"compatto e con orecchie più corte"
+
+msgid ""
+"Paler than the brown hare, with very small black tips to the ears. "
+"Restricted to Sardinia."
+msgstr ""
+"Mantello più chiaro della lepre bruna europea, con punte nere meno marcate "
+"sulle orecchie. Presenza limitata alla Sardegna"
+
+msgid ""
+"Similar to but slightly smaller than the brown hare, with relatively longer "
+"ears and hindlegs."
+msgstr ""
+"Simile alla lepre bruna europea, ma leggermente più piccola, con orecchie e "
+"zampe relativamente più lunghe"
+
+msgid ""
+"Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
+"winter."
+msgstr ""
+"Dorso grigio, con fianchi rossastri. Coda più corta del corpo, assenza di "
+"ciuffi auricolari in inverno"
+
+msgid ""
+"Invasive species: Silver/grey coat with brownish tinge on feet and face. "
+"Tail fringed with white. Larger than red squirrel."
+msgstr ""
+"Specie invasiva. Manto grigio-argenteo con sfumature marroni sui piedi e "
+"sulla faccia. Coda sfrangiata di bianco. Più grande dello scoiattolo rosso."
+
+msgid ""
+"The dorsal part of the body, head, neck, feet and tail are black; the "
+"abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
+"than Italian populations of red squirrel."
+msgstr ""
+"La parte dorsale del corpo, la testa, il collo, i piedi e la coda sono neri;"
+" l'addome è bianco. Ciuffi auricolari solo in inverno. Nessun dimorfismo "
+"sessuale. Più grande delle popolazioni italiane di scoiattolo rosso"
+
+msgid ""
+"Invasive species: Similar in size to red squirrel, back is olive-brown and "
+"belly russet. White tip to the tail."
+msgstr ""
+"Specie invasiva. Simile per dimensioni allo scoiattolo rosso, il dorso è "
+"marrone-olivastro e il ventre rugginoso. Punta bianca sulla coda"
+
+msgid ""
+"Invasive species: Similar in size to red squirrel. Longer tail. Back is "
+"olive-brown and underside cream, extending onto face."
+msgstr ""
+"Specie invasiva. Di dimensioni simili allo scoiattolo rosso. Coda più lunga."
+" Il dorso è marrone-olivastro e la regione ventrale è color crema e si "
+"estende fino al viso"
+
+msgid ""
+"Smallest souslik with yellow to brownish fur and no obvious spots. White "
+"throat and chest with a short tail."
+msgstr ""
+"E' il più piccolo  tra gli scoiattoli di terra, con una pelliccia da gialla "
+"a marroncina e senza macchie evidenti. Gola e petto bianchi, coda corta"
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr ""
+"Grande marmotta con una pelliccia soprattutto marroncina e una coda corta"
+
+msgid ""
+"A small squirrel with rounded head, and membrane between fore and hind legs."
+" Greyish above and lighter below."
+msgstr ""
+"Un piccolo scoiattolo con testa arrotondata e una membrana tra le zampe "
+"anteriori e posteriori. Di colore grigiastro sul dorso e più chiaro "
+"ventralmente"
+
+msgid ""
+"Invasive species: Yellow-brown coat with four white stripes and five dark "
+"stripes along the back and a white chest and belly"
+msgstr ""
+"Specie invasiva. Manto giallo-marrone con quattro strisce bianche e cinque "
+"strisce scure lungo il dorso, petto e ventre bianchi"
+
+msgid ""
+"Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr ""
+"Molto simile al castoro europeo, con la coda appiattita e squamosa, ma con "
+"una pelliccia più scura"
+
+msgid ""
+"A porcupine with typical black and white quills that run along the body"
+msgstr ""
+"Un porcospino con i tipici aculei bianchi e neri che corrono lungo il corpo"
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr ""
+"Silhouette allungata, orecchie piccole e pelliccia da bianca a giallastra"
+
+msgid ""
+"Small fox with short ears. White in winter and in summer grey on the back "
+"and lighter underneath."
+msgstr ""
+"Piccola volpe con orecchie corte. Bianca in inverno e in estate grigia sul "
+"dorso e più chiara sotto"
+
+msgid ""
+"Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
+"than the similar weasel, has a longer tail and has a distinctive bounding "
+"gait, arching its back as it moves"
+msgstr ""
+"Dorso arancio-marrone, gola e ventre color crema e coda con punta nera. Più "
+"grande della donnola a cui assomiglia, ha una coda più lunga e ha una "
+"caratteristica andatura saltellante, inarcando la schiena quando si muove"
+
+msgid ""
+"Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
+" by paler fur"
+msgstr ""
+"Manto giallo-marrone con arti scuri e una maschera scura sul viso che "
+"contrasta con una pelliccia più chiara"
+
+msgid ""
+"Dark brown to red-brown coat, elongated body with short limbs and a short "
+"tail. Fur is pure white around the mouth"
+msgstr ""
+"Manto da marrone scuro a rossastro-marrone, corpo allungato con arti corti e"
+" coda corta. Il pelo è bianco candido intorno alla bocca"
+
+msgid ""
+"Orange-brown back and a cream throat and underbelly, smaller than the "
+"similar stoat, shorter tail with no black tip, and a running gait with a "
+"straight back"
+msgstr ""
+"Dorso arancio-marrone e gola e ventre color crema, più piccolo "
+"dell'ermellino cui somiglia, coda più corta senza punta nera, andatura di "
+"corsa con schiena dritta"
+
+msgid ""
+"Dark brown colour with a pale underbelly and a dark mask-shape across the "
+"pale face"
+msgstr ""
+"Colore marrone scuro con un ventre chiaro e una maschera scura sul viso più "
+"chiaro"
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr ""
+"Specie invasiva. Pelliccia marrone-nera, muso stretto, mento piccolo e "
+"bianco"
+
+msgid ""
+"Light brown coat with a cream chest and throat extending to top of legs, "
+"longer tail, more elongated and angular head with shorter, more rounded and "
+"widely spaced ears"
+msgstr ""
+"Manto marrone chiaro con petto e gola color crema che si estende fino alla "
+"parte superiore delle zampe, coda più lunga, testa più allungata e angolare "
+"con orecchie più corte, arrotondate e ampiamente distanziate"
+
+msgid ""
+"Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
+"throat and a long, bushy tail"
+msgstr ""
+"Manto color bruno-castano, caratteristica macchia giallo pallido sul mento e"
+" sulla gola e una coda folta e lunga "
+
+msgid ""
+"Typical polecat face (dark mask on a pale face), but with large white to "
+"yellow spots on its back."
+msgstr ""
+"Tipica faccia da puzzola (maschera scura su un viso pallido), ma con grandi "
+"macchie bianche o gialle sulla schiena"
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr ""
+"Ricorda un piccolo orso con la coda. Mantello marrone scuro e corpo "
+"tarchiato"
+
+msgid ""
+"Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
+"summer and greyish brown in winter. Horns curve backward and males have a "
+"large black beard."
+msgstr ""
+"Non è una capra rinselvatichita. Si trova naturalmente a Creta. Di colore "
+"marrone rossastro chiaro in estate e marrone grigiastro in inverno. Le corna"
+" si curvano all'indietro e i maschi hanno una grande barba nera"
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr "Un bovino massiccio con un pelo molto lungo e corna uncinate"
+
+msgid ""
+"Both sexes grow antlers with two sets of points, one growing forward and one"
+" backward. Coat dark brown in summer and lighter in winter."
+msgstr ""
+"Entrambi i sessi hanno palchi con due serie di punte, una che cresce in "
+"avanti e una all'indietro. Mantello marrone scuro in estate e più chiaro in "
+"inverno"
+
+msgid ""
+"Invasive species: A small deer with rounded back and head often held low. "
+"Simple backward pointing antlers on male."
+msgstr ""
+"Specie invasiva. Un piccolo cervo con il dorso arrotondato e la testa spesso"
+" tenuta bassa. Palchi con punte semplici rivolte all'indietro nel maschio"
+
+msgid ""
+"Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
+"antlers but males have long curved tusks."
+msgstr ""
+"Piccolo cervo con manto color marrone sabbia. Più chiaro in inverno. Groppa "
+"dello stesso colore. Palchi assenti ma i maschi hanno lunghe zanne ricurve"
+
+msgid ""
+"Very similar to the Northern white-breasted hedgehog with a white patch "
+"underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr ""
+"Molto simile al riccio settentrionale dal petto bianco con una macchia "
+"bianca ventrlae di varie dimensioni, è leggermente più grande di E. "
+"roumanicus"
+
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+"Specie invasiva. L'arvicola più grande ma più piccola del castoro o della "
+"nutria, con una coda compressa lateralmente"
+
+msgid "Muskrat"
+msgstr "Topo muschiato"
+
+msgid "Algerian hedgehog"
+msgstr "Riccio algerino"
+
+msgid "Western hedgehog"
+msgstr "Riccio europeo"
+
+msgid "Eastern hedgehog"
+msgstr "Riccio orientale"
+
+msgid "European rabbit"
+msgstr "Coniglio selvatico"
+
+msgid "Broom hare"
+msgstr "Lepre cantabrica"
+
+msgid "Brown hare"
+msgstr "Lepre comune o lepre bruna"
+
+msgid "Mountain hare"
+msgstr "Lepre variabile"
+
+msgid "Granada hare"
+msgstr "Lepre iberica"
+
+msgid "Red squirrel"
+msgstr "Scoiattolo rosso"
+
+msgid "Barbary ground squirrel"
+msgstr "Scoiattolo berbero"
+
+msgid "Spotted souslik"
+msgstr "Scoiattolo di terra maculato"
+
+msgid "European Souslik"
+msgstr "Citello o scoiattolo di terra europeo"
+
+msgid "Alpine marmot"
+msgstr "Marmotta"
+
+msgid "European beaver"
+msgstr "Castoro europeo"
+
+msgid "Coypu"
+msgstr "Nutria"
+
+msgid "Raccoon dog"
+msgstr "Cane procione"
+
+msgid "Brown bear"
+msgstr "Orso bruno"
+
+msgid "Grey wolf"
+msgstr "Lupo"
+
+msgid "Golden jackal"
+msgstr "Sciacallo dorato"
+
+msgid "Red fox"
+msgstr "Volpe comune"
+
+msgid "European otter"
+msgstr "Lontra euroasiatica"
+
+msgid "Eurasian badger"
+msgstr "Tasso"
+
+msgid "Egyptian mongoose"
+msgstr "Mangusta egiziana"
+
+msgid "Small Indian mongoose"
+msgstr "Mangusta minore indiana"
+
+msgid "Common genet"
+msgstr "Genetta comune"
+
+msgid "Wildcat"
+msgstr "Gatto selvatico"
+
+msgid "Eurasian lynx"
+msgstr "Lince euroasiatica"
+
+msgid "Iberian lynx"
+msgstr "Lince iberica"
+
+msgid "Wild boar"
+msgstr "Cinghiale"
+
+msgid "European bison"
+msgstr "Bisonte europeo"
+
+msgid "European mouflon"
+msgstr "Muflone europeo"
+
+msgid "Alpine ibex"
+msgstr "Stambecco alpino"
+
+msgid "Spanish ibex"
+msgstr "Stambecco dei Pirenei"
+
+msgid "Chamois, Alpine"
+msgstr "Camoscio alpino"
+
+msgid "Chamois, southern"
+msgstr "Camoscio meridionale"
+
+msgid "Red deer"
+msgstr "Cervo rosso"
+
+msgid "Fallow deer"
+msgstr "Daino"
+
+msgid "Elk"
+msgstr "Alce"
+
+msgid "Roe deer"
+msgstr "Capriolo"
+
+msgid "Sika deer"
+msgstr "Cervo sika"
+
+msgid "Chital"
+msgstr "Cervo pomellato o Chital"
+
+msgid "White-tailed deer"
+msgstr "Cervo coda bianca"
+
+msgid "Raccoon"
+msgstr "Procione o Orsetto lavatore"
+
+msgid "Barbary sheep"
+msgstr "Ammotrago"
+
+msgid "Red-necked wallaby"
+msgstr "Wallaby dal collo rosso"
+
+msgid "Long-eared hedgehog"
+msgstr "Riccio dalle orecchie lunghe"
+
+msgid "Eastern cottontail rabbit"
+msgstr "Silvilago orientale"
+
+msgid "Cape hare"
+msgstr "Lepre sarda"
+
+msgid "Corsican hare"
+msgstr "Lepre corsa"
+
+msgid "Persian squirrel"
+msgstr "Scoiattolo del Caucaso"
+
+msgid "Grey squirrel"
+msgstr "Scoiattolo grigio "
+
+msgid "Calabrian black squirrel"
+msgstr "Scoiattolo meridionale"
+
+msgid "Pallas’s squirrel"
+msgstr "Scoiattolo di Pallas"
+
+msgid "Thailand tree squirrel"
+msgstr "Scoiattolo variabile o Scoiattolo di Finlayson"
+
+msgid "Little souslik"
+msgstr "Piccolo scoiattolo di terra "
+
+msgid "Bobak marmot"
+msgstr "Marmotta bobak"
+
+msgid "Russian flying squirrel"
+msgstr "Scoiattolo volante siberiano"
+
+msgid "Siberian chipmunk"
+msgstr "Tamia siberiano"
+
+msgid "American beaver"
+msgstr "Castoro americano"
+
+msgid "Crested porcupine"
+msgstr "Istrice"
+
+msgid "Polar bear"
+msgstr "Orso polare"
+
+msgid "Arctic fox"
+msgstr "Volpe artica"
+
+msgid "Stoat"
+msgstr "Ermellino"
+
+msgid "Steppe polecat"
+msgstr "Puzzola delle steppe"
+
+msgid "European mink"
+msgstr "Visone europeo"
+
+msgid "Weasel"
+msgstr "Donnola"
+
+msgid "Western polecat"
+msgstr "Puzzola europea"
+
+msgid "American mink"
+msgstr "Visone americano"
+
+msgid "Beech marten, Stone marten"
+msgstr "Faina"
+
+msgid "Pine marten"
+msgstr "Martora"
+
+msgid "Marbled polecat"
+msgstr "Puzzola marmorizzata"
+
+msgid "Wolverine"
+msgstr "Ghiottone"
+
+msgid "Wild goat"
+msgstr "Capra selvatica"
+
+msgid "Musk ox"
+msgstr "Bue muschiato"
+
+msgid "Reindeer"
+msgstr "Renna"
+
+msgid "Reeves’ muntjac"
+msgstr "Muntjak di Reeves"
+
+msgid "Chinese water deer"
+msgstr "Cervo d'acqua cinese"
+
+msgid "Germany"
+msgstr "Germania"
+
+msgid "Spain"
+msgstr "Spagna"
+
+msgid "Croatia"
+msgstr "Croazia"
+
+msgid "Poland"
+msgstr "Polonia"
+
+msgid "North Macedonia"
+msgstr "Macedonia del Nord"
+
+msgid "Serbia"
+msgstr "Serbia"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Country"
+msgstr "Nazione"
+
+msgid "Elsewhere"
+msgstr "Altrove"
+
+msgid "river"
+msgstr "fiume"
+
+msgid "forest"
+msgstr "bosco"
+
+msgid "shrubs"
+msgstr "cespugli"
+
+msgid "prairies"
+msgstr "prateria"
+
+msgid "farmlands"
+msgstr "area agrigola"
+
+msgid "alpine"
+msgstr "alpino"
+
+msgid "aquatic"
+msgstr "acquatico"
+
+msgid "underground"
+msgstr "sotterraneo"
+
+msgid "tree"
+msgstr "albero"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Habitats"
+msgstr "Habitat"
+
+msgid "Mouse-rat"
+msgstr "Topo-ratto"
+
+msgid "Hedgehog-squirrel"
+msgstr "Riccio-scoiattolo"
+
+msgid "Rabbit-hare"
+msgstr "Coniglio-lepre"
+
+msgid "Cats-medium size canivorous"
+msgstr "Gatti-carnivori di taglia media"
+
+msgid "Dog-Wildboar"
+msgstr "Cane-Cinghiale"
+
+msgid "Goat-Deers"
+msgstr "Capra-Cervi"
+
+msgid "Cow-Bison"
+msgstr "Vacca-Bisonte"
+
+msgid "Filter species size"
+msgstr "Filtra per dimensione dell'animale"
+
+msgid "undefined"
+msgstr "indefinito"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Today"
+msgstr "Oggi"
+
+msgid "Number"
+msgstr "Numero"
+
+msgid "Method"
+msgstr "Metodo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Select species"
+msgstr "Seleziona la specie"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+"Per favore utilizza le coordinate del GPS o seleziona sulla mappa la tua "
+"posizione"
+
+msgid "Location Accurracy"
+msgstr "Accuratezza della localizzazione"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "How many individuals of this type?"
+msgstr "Quanti individui di questo tipo?"
+
+msgid "Direct observation"
+msgstr "Osservazione diretta"
+
+msgid "Camera trap"
+msgstr "Fototrappola"
+
+msgid "Catch"
+msgstr "Cattura"
+
+msgid "Road kill"
+msgstr "Animale investito"
+
+msgid "Field carcass"
+msgstr "Carcassa"
+
+msgid "Telemetry"
+msgstr "Telemetria"
+
+msgid "Other (specify in Comment)"
+msgstr "Altro (specifica nei commenti)"
+
+msgid "Please specify how has this mammal been observed."
+msgstr "Per favore specifica come questo animale è stato osservato."
+
+msgid "Alive"
+msgstr "Vivo"
+
+msgid "Dead - roadkill"
+msgstr "Morto - investito"
+
+msgid "Dead - other"
+msgstr "Morto - altra causa"
+
+msgid "Indirect"
+msgstr "Indiretto"
+
+msgid "Print/trail"
+msgstr "Impronte/sentiero di passaggio"
+
+msgid "Dropping"
+msgstr "Escrementi"
+
+msgid "Den/burrow"
+msgstr "Tana"
+
+msgid "Please specify the condition of the mammal."
+msgstr "Per favore specifica la condizione dell'animale"
+
+msgid "Please add any extra info about this record."
+msgstr ""
+"Per favore aggiungi, se disponibili, altre informazioni su questa "
+"segnalazione"
+
+msgid "Enter more information here..."
+msgstr "inserisci le informazioni aggiuntive qui..."
+
+msgid "Upload"
+msgstr "Carica"
+
+msgid "species"
+msgstr "specie"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+"Inserisci il tuo username o indirizzo e-mail per resettare la password"
+
+msgid "User not found."
+msgstr "Utente non trovato"
+
+msgid "We've sent an email to you"
+msgstr "Ti abbiamo inviato una email"
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+"Fai clic sul link nell'e-mail che hai ricevuto per reimpostare la password.\n"
+"Se non vedi l'email, controlla nella posta indesiderata o nello spam."
+
+msgid "App Development"
+msgstr "Sviluppo dell'App"
+
+msgid "This app was hand crafted with love by"
+msgstr "Questa app è stata realizzata con amore e dedizione da"
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr "Agenzia specializzata nella creazione di soluzioni su misura"
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr "Per suggerimenti e consigli non esitare a"
+
+msgid "contact us"
+msgstr "Contattaci"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr "Questa App è stata prodotta tramite MammalNet e finanziata dall'EFSA."
+
+msgid "Maps produced"
+msgstr "Cartografia prodotta"
+
+msgid "Photo credits:"
+msgstr "Fotografia di:"
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+"Contrassegna eventuali nuovi record come \"prova\" ed escludili da tutti i "
+"rapporti"
+
+msgid "Distribution"
+msgstr "Distribuzione"
+
+msgid "Hedgehog"
+msgstr "Riccio"
+
+msgid "(unknown species)"
+msgstr "(specie sconosciuta)"
+
+msgid "Shrew"
+msgstr "Toporagno"
+
+msgid "Mole"
+msgstr "Talpa"
+
+msgid "Lagomorph"
+msgstr "Lagomorfi"
+
+msgid "Rabbits and Hares"
+msgstr "Conigli e Lepri"
+
+msgid "Small rodent"
+msgstr "Piccolo roditore"
+
+msgid "Vole"
+msgstr "Arvicola"
+
+msgid "Mouse"
+msgstr "Topo"
+
+msgid "Rat"
+msgstr "Ratto"
+
+msgid "Other mustelid"
+msgstr "Altri mustelidi"
+
+msgid "Locating"
+msgstr "Localizzare"
+
+msgid "Please add record location."
+msgstr "Per favore inserisci la posizione a cui si riferisce il record"
+
+msgid "Please select a species."
+msgstr "Per favore seleziona una specie."
+
+msgid "Enjoying the app?"
+msgstr "Ti piace l'app?"
+
+msgid "Not really"
+msgstr "Non tanto"
+
+msgid "Yes!"
+msgstr "Si!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr "Ti piacerebbe darci un feedback?"
+
+msgid "No, thanks"
+msgstr "No, grazie"
+
+msgid "OK, sure"
+msgstr "Si, certo"
+
+msgid "How about a rating on the App Store then?"
+msgstr "Che ne dici di una valutazione sull'App Store?"
+
+msgid "How about a rating on the Play Store then?"
+msgstr "Che ne dici di una valutazione sull Play Store?"
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+"Gli avvistamenti possono essere registrati ovunque, con o senza foto, e "
+"tutte le registrazioni saranno verificate da esperti e rese disponibili per "
+"aiutare a mappare la distribuzione dei mammiferi europei. Puoi controllare e"
+" aggiornare i tuoi record online."
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+"Gli utenti devono prima registrarsi e possono poi accedere al sito web per "
+"visualizzare e correggere i record. La scelta del Paese può essere "
+"modificata nelle impostazioni."
+
+msgid "Icons made by"
+msgstr "Icone realizzate da"
+
+msgid "from"
+msgstr "da"
+
+msgid "Share App Analytics"
+msgstr "Condividi i dati analitici dell'App"
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Sesso"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Età"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "Decomposizione"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Maschio"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Femmina"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Per favore specifica il sesso dell'animale."
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr "Piccolo"
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Giovane"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Adulto"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Per favore indica l'età dell'animale."
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Carcassa fresca"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "In decomposizione"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "Secca (solo scheletro presente)"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr "Per favore, specifica lo stato di conservazione della carcassa."
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "Abbattuto"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr "Mammalnet"
+
+# Part of species profile external link
+msgid "web profile"
+msgstr "profilo web"
+
+# An unkown species group
+msgid "Bats"
+msgstr "Pipistrelli"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Foche"
+
+# From About page
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This version of the mobile application is set up to easily record mammals "
+"in any European country, but does not yet have all European languages "
+"included."
+msgstr ""
+"L'app iMammalia è progettata per incoraggiare la registrazione dei mammiferi"
+" in natura. Questa versione dell'applicazione è configurata per registrare "
+"facilmente i mammiferi in qualsiasi Paese europeo, ma non è ancora "
+"disponibile in tutte le lingue."
+
+# From About page
+msgid ""
+"iMammalia is designed to make mammal recording easy. Smaller mammals are "
+"currently only listed at the generic level since they are much harder to "
+"tell apart. Later versions will include more countries, languages and "
+"species subject to funding."
+msgstr ""
+"iMammalia è progettata per rendere facile la segnalazione dei mammiferi "
+"selvatici. Le specie più piccole sono attualmente elencate solo a livello "
+"generico poiché sono molto più difficili da distinguere. Le versioni "
+"successive dell'applicazione potranno includere una più ampia varietà di "
+"Paesi, lingue e specie. "

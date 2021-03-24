@@ -1,0 +1,1551 @@
+# 
+# Translators:
+# Nedko Petkov Nedyalkov <nnedko@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Last-Translator: Nedko Petkov Nedyalkov <nnedko@gmail.com>, 2021\n"
+"Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/ceh/teams/103078/bg_BG/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "Изберете вашата страна"
+
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+msgid "Albania"
+msgstr "Албания"
+
+msgid "Austria"
+msgstr "Австрия"
+
+msgid "Belarus"
+msgstr "Беларус"
+
+msgid "Belgium"
+msgstr "Белгия"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Босна и Херцеговина"
+
+msgid "Bulgaria"
+msgstr "България"
+
+msgid "Czechia"
+msgstr "Чехия"
+
+msgid "Estonia"
+msgstr "Естония"
+
+msgid "Finland"
+msgstr "Финландия"
+
+msgid "France"
+msgstr "Франция"
+
+msgid "Greece"
+msgstr "Гърция"
+
+msgid "Hungary"
+msgstr "Унгария"
+
+msgid "Iceland"
+msgstr "Исландия"
+
+msgid "Ireland"
+msgstr "Ирландия"
+
+msgid "Italy"
+msgstr "Италия"
+
+msgid "Kosovo"
+msgstr "Косово"
+
+msgid "Latvia"
+msgstr "Латвия"
+
+msgid "Lithuania"
+msgstr "Литва"
+
+msgid "Montenegro"
+msgstr "Черна гора"
+
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+msgid "Malta"
+msgstr "Малта"
+
+msgid "Moldova"
+msgstr "Молдова"
+
+msgid "Netherlands"
+msgstr "Холандия"
+
+msgid "Norway"
+msgstr "Норвегия"
+
+msgid "Portugal"
+msgstr "Португалия"
+
+msgid "Romania"
+msgstr "Румъния"
+
+msgid "Slovakia"
+msgstr "Словакия"
+
+msgid "Slovenia"
+msgstr "Словения"
+
+msgid "Sweden"
+msgstr "Швеция"
+
+msgid "Switzerland"
+msgstr "Швейцария"
+
+msgid "Turkey"
+msgstr "Турция"
+
+msgid "Ukraine"
+msgstr "Украйна"
+
+msgid "Skip"
+msgstr "Пропусни "
+
+msgid "Next"
+msgstr ""
+
+msgid "Get Started"
+msgstr ""
+
+msgid "Please sign in with your account or register."
+msgstr ""
+
+msgid "Username or email"
+msgstr "Потребителско име или email"
+
+msgid "Password"
+msgstr "Парола"
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Forgot password?"
+msgstr "Забравена парола"
+
+msgid "Login"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Info"
+msgstr "Информация"
+
+msgid "About"
+msgstr ""
+
+msgid "Help"
+msgstr "Помощ"
+
+msgid "Privacy Policy"
+msgstr "Политика за поверителност"
+
+msgid "Credits"
+msgstr ""
+
+msgid "Email"
+msgstr "email"
+
+msgid "First Name"
+msgstr "Име"
+
+msgid "Surname"
+msgstr "Фамилно име"
+
+msgid "I agree to"
+msgstr ""
+
+msgid "Terms and Conditions"
+msgstr ""
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+
+msgid "This will wipe all the locally stored app data!"
+msgstr ""
+
+msgid "Upload All"
+msgstr ""
+
+msgid "Remove All Saved"
+msgstr "Изтрии всички запазени"
+
+msgid "Application"
+msgstr "Приложение"
+
+msgid "Training Mode"
+msgstr ""
+
+msgid "Experimental Features"
+msgstr ""
+
+msgid "Welcome"
+msgstr "Добре дошъл!"
+
+msgid "Lets start!"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "App"
+msgstr ""
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Sorry"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "name is a required field"
+msgstr ""
+
+msgid "password is a required field"
+msgstr ""
+
+msgid "Login error:"
+msgstr ""
+
+msgid "Failed to fetch"
+msgstr ""
+
+msgid "Incorrect password or email."
+msgstr "Невалидна пароли или email."
+
+msgid "Logout"
+msgstr "Излез от профила си"
+
+msgid "Are you sure you want to logout?"
+msgstr "Сигурен ли сте, че искате да излезнете?"
+
+msgid "This will delete all the records on this device."
+msgstr "Това ще изрие всички регистрации от устройството."
+
+msgid "Cancel"
+msgstr "Отменям"
+
+msgid "Welcome aboard!"
+msgstr "Добре дошъл!"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+
+msgid "OK, got it"
+msgstr ""
+
+msgid "email is a required field"
+msgstr "email e задължително поле"
+
+msgid "firstname is a required field"
+msgstr ""
+
+msgid "secondname is a required field"
+msgstr ""
+
+msgid "must accept terms and conditions"
+msgstr ""
+
+msgid "Species"
+msgstr "Вид"
+
+msgid "Count"
+msgstr "Брой"
+
+msgid "Comment"
+msgstr "Коментар"
+
+msgid "Draft"
+msgstr "Чернова"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr ""
+
+msgid "Discard"
+msgstr "Отказвам"
+
+msgid "Continue"
+msgstr "Продължавам"
+
+msgid "Finish"
+msgstr "Край"
+
+msgid "No species added"
+msgstr "Няма добавен вид"
+
+msgid "Delete"
+msgstr "Изтривам"
+
+msgid "Records"
+msgstr ""
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Сигурен ли си, че искаш да изтриеш регистрацията?"
+
+msgid "No finished records"
+msgstr ""
+
+msgid "Finished records"
+msgstr ""
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Record incomplete"
+msgstr ""
+
+msgid "The record is not complete yet."
+msgstr ""
+
+msgid "Choose a method to upload a photo"
+msgstr "Избери метод за качване на снимка"
+
+msgid "Gallery"
+msgstr "Галерия"
+
+msgid "Camera"
+msgstr "Камера"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr "Сигурен ли си, че искаш да премахнеш снимката?"
+
+msgid "Note: it will remain in the gallery."
+msgstr "Бележка: това ще остане в Галерията"
+
+msgid "No photo has been added"
+msgstr "Не е добавена снимка"
+
+msgid "Registration error:"
+msgstr "Грешка при регистрацията"
+
+msgid "Incorrect password or email"
+msgstr "Невалидна парола или email"
+
+msgid "email is not valid"
+msgstr "Неваливед email "
+
+msgid "Paused"
+msgstr "Пауза"
+
+msgid "Pending"
+msgstr ""
+
+msgid "Uploaded"
+msgstr ""
+
+msgid "No finished pending records"
+msgstr ""
+
+msgid "No uploaded records"
+msgstr ""
+
+msgid "How to start a record"
+msgstr ""
+
+msgid "To start a new record you can press the plus button"
+msgstr ""
+
+msgid "in the home page footer."
+msgstr ""
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+
+msgid "Sync. with the website"
+msgstr "Синхронизиране с уеб сайта"
+
+msgid "All your saved records will be shown on your account page."
+msgstr "Всички запазени регистрации ще бъдат показани във вашия профил."
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+
+msgid "If the record has reached the database a red"
+msgstr ""
+
+msgid "(set for submission & saved locally) will become green"
+msgstr ""
+
+msgid "synced to the database"
+msgstr ""
+
+msgid "Note"
+msgstr "Бележки"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+
+msgid "Delete a record"
+msgstr "Изтрии регистрация"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+
+msgid "User"
+msgstr "Потребител "
+
+msgid "Sign in/out or register"
+msgstr "Вписване/Отписване или Регистрация"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Reset the application"
+msgstr ""
+
+msgid "Go to the application settings page"
+msgstr ""
+
+msgid "and click on the Reset"
+msgstr ""
+
+msgid "button"
+msgstr ""
+
+msgid "Record"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Northern white-breasted hedgehog"
+msgstr "Северен белогръд таралеж"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Южен белогръд таралеж"
+
+msgid "Apennine hare"
+msgstr "Апенински заек"
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr ""
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "Най-големият таралеж, окраската основно в кафяв цвят"
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr ""
+"Подобен на западноевропейския таралеж, но отличаващ се с бяло пятно на "
+"гърдите"
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr ""
+"Отсносително дребен със сиво-кафява окраска, кафеви гърди със сиво-бял "
+"корем, ушите без черен връх, има относително къси крака"
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr ""
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr ""
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr ""
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr ""
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr ""
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr ""
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr ""
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr ""
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr ""
+
+msgid ""
+"Invasive species: Coarse, dark brown outer fur with soft dense grey under "
+"fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
+"large, bright orange-yellow incisors"
+msgstr ""
+
+msgid ""
+"Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
+"hairs in winter, and brighter and reddish-straw fur in summer; yellowish-"
+"brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
+"on the cheeks."
+msgstr ""
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr ""
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr ""
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr ""
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr ""
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr ""
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr ""
+
+msgid ""
+"Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
+" pointed snout, small ears, long black tipped tail, and furless hind feet "
+"and facial area"
+msgstr ""
+
+msgid ""
+"Invasive species: Small and slender body with pale to dark brown fur, golden"
+" flecks and a pale underbelly, short legs and small rounded ears located on "
+"the side of its head, bushy tail"
+msgstr ""
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr ""
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr ""
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr ""
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr ""
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr ""
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr ""
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns, with a white tone on anal region, legs"
+" and the snout. "
+msgstr ""
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr ""
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr ""
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr ""
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr ""
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr ""
+"Типична кестенява окраска с бели петна, но може да бъде изцяло бяла или "
+"черена, мъжките имат рога."
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr ""
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr ""
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr ""
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr ""
+
+msgid ""
+"Invasive species: Grey-brown and white coat with long fur and a bushy, "
+"striped tail, characteristic black markings around the eyes contrasted by "
+"white face"
+msgstr ""
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr ""
+
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+"Относително дребен вид с кафява окраска без петна, къса и рунтава опашка."
+
+msgid ""
+"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
+" upper arms."
+msgstr ""
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "Малък таралеж със светлно лице и дълги уши"
+
+msgid ""
+"Introduced to Northern Italy. Very similar to European rabbit but more "
+"compact with shorter ears."
+msgstr ""
+"Интродуциран в северна Италия. Подобен е на заека подземник, но по-малък и с"
+" къси уши."
+
+msgid ""
+"Paler than the brown hare, with very small black tips to the ears. "
+"Restricted to Sardinia."
+msgstr ""
+
+msgid ""
+"Similar to but slightly smaller than the brown hare, with relatively longer "
+"ears and hindlegs."
+msgstr ""
+
+msgid ""
+"Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
+"winter."
+msgstr ""
+
+msgid ""
+"Invasive species: Silver/grey coat with brownish tinge on feet and face. "
+"Tail fringed with white. Larger than red squirrel."
+msgstr ""
+
+msgid ""
+"The dorsal part of the body, head, neck, feet and tail are black; the "
+"abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
+"than Italian populations of red squirrel."
+msgstr ""
+
+msgid ""
+"Invasive species: Similar in size to red squirrel, back is olive-brown and "
+"belly russet. White tip to the tail."
+msgstr ""
+"Инвазивен вид: сходен по размери с червената катерица, гърбът е "
+"маслиновокафяв с червеникавокафяв корем. Опашката с бял връх."
+
+msgid ""
+"Invasive species: Similar in size to red squirrel. Longer tail. Back is "
+"olive-brown and underside cream, extending onto face."
+msgstr ""
+"Инвазивен вид: по размери е с сходен с червената катерица. Дълга опашка, "
+"гърбът е маслиновокафяв, долната страна е с кремав цвят, продължаващ към "
+"лицето."
+
+msgid ""
+"Smallest souslik with yellow to brownish fur and no obvious spots. White "
+"throat and chest with a short tail."
+msgstr ""
+"Малък лалугер с жълтеникава до кафеникава козина, без видими петна. Бял гуша"
+" и гърди, с къса опашка."
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr "Голям мармот с кафеникава окраска и къса опашка."
+
+msgid ""
+"A small squirrel with rounded head, and membrane between fore and hind legs."
+" Greyish above and lighter below."
+msgstr ""
+"Дребна катерица със закръглена глава, има мембрана между предните и задните "
+"крака. Сива окраска с по-светъл корем."
+
+msgid ""
+"Invasive species: Yellow-brown coat with four white stripes and five dark "
+"stripes along the back and a white chest and belly"
+msgstr ""
+"Инвазивен вид: Жълтеникаво-кафява окраска с 4 бели и 5 тъмни ивици на гърба,"
+" бели гърди и корем."
+
+msgid ""
+"Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr ""
+"Много подобен на европейския бобър, с плоска и люспеста опашна, по-тъмен на "
+"цвят"
+
+msgid ""
+"A porcupine with typical black and white quills that run along the body"
+msgstr "Бодливо свинче с типични черно и бели бодли по тялото."
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr ""
+
+msgid ""
+"Small fox with short ears. White in winter and in summer grey on the back "
+"and lighter underneath."
+msgstr ""
+"Малка лисица с къси уши. През зимата с бяла окраска, а лятото със сив гръб и"
+" светла долна страна."
+
+msgid ""
+"Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
+"than the similar weasel, has a longer tail and has a distinctive bounding "
+"gait, arching its back as it moves"
+msgstr ""
+
+msgid ""
+"Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
+" by paler fur"
+msgstr ""
+"Жълто-кафява козина с черни крака и тъмна очна препаска заобиколена от "
+"контрастираща по-светла част."
+
+msgid ""
+"Dark brown to red-brown coat, elongated body with short limbs and a short "
+"tail. Fur is pure white around the mouth"
+msgstr ""
+
+msgid ""
+"Orange-brown back and a cream throat and underbelly, smaller than the "
+"similar stoat, shorter tail with no black tip, and a running gait with a "
+"straight back"
+msgstr ""
+
+msgid ""
+"Dark brown colour with a pale underbelly and a dark mask-shape across the "
+"pale face"
+msgstr ""
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr "Инвазивен вид: Кафяво-черна окраска, къса муцуна с бяла брадичка."
+
+msgid ""
+"Light brown coat with a cream chest and throat extending to top of legs, "
+"longer tail, more elongated and angular head with shorter, more rounded and "
+"widely spaced ears"
+msgstr ""
+
+msgid ""
+"Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
+"throat and a long, bushy tail"
+msgstr ""
+
+msgid ""
+"Typical polecat face (dark mask on a pale face), but with large white to "
+"yellow spots on its back."
+msgstr ""
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr ""
+
+msgid ""
+"Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
+"summer and greyish brown in winter. Horns curve backward and males have a "
+"large black beard."
+msgstr ""
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr ""
+
+msgid ""
+"Both sexes grow antlers with two sets of points, one growing forward and one"
+" backward. Coat dark brown in summer and lighter in winter."
+msgstr ""
+
+msgid ""
+"Invasive species: A small deer with rounded back and head often held low. "
+"Simple backward pointing antlers on male."
+msgstr ""
+
+msgid ""
+"Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
+"antlers but males have long curved tusks."
+msgstr ""
+
+msgid ""
+"Very similar to the Northern white-breasted hedgehog with a white patch "
+"underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr ""
+
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+
+msgid "Muskrat"
+msgstr ""
+
+msgid "Algerian hedgehog"
+msgstr "Алжирски таралеж"
+
+msgid "Western hedgehog"
+msgstr ""
+
+msgid "Eastern hedgehog"
+msgstr ""
+
+msgid "European rabbit"
+msgstr "Заек подземник"
+
+msgid "Broom hare"
+msgstr ""
+
+msgid "Brown hare"
+msgstr ""
+
+msgid "Mountain hare"
+msgstr "Снежен заек"
+
+msgid "Granada hare"
+msgstr ""
+
+msgid "Red squirrel"
+msgstr "Червена катерица"
+
+msgid "Barbary ground squirrel"
+msgstr "Магребска земна катерица"
+
+msgid "Spotted souslik"
+msgstr "Петснист лалугер"
+
+msgid "European Souslik"
+msgstr "Европейски лалугер"
+
+msgid "Alpine marmot"
+msgstr "Алпийски мармот"
+
+msgid "European beaver"
+msgstr "Европейски бобър"
+
+msgid "Coypu"
+msgstr "Нутрия"
+
+msgid "Raccoon dog"
+msgstr "Енотовидно куче"
+
+msgid "Brown bear"
+msgstr "Кафява мечка"
+
+msgid "Grey wolf"
+msgstr "Вълк"
+
+msgid "Golden jackal"
+msgstr "Чакал"
+
+msgid "Red fox"
+msgstr "Лисица"
+
+msgid "European otter"
+msgstr "Видра"
+
+msgid "Eurasian badger"
+msgstr "Евразийски язовец"
+
+msgid "Egyptian mongoose"
+msgstr "Египетска мангуста"
+
+msgid "Small Indian mongoose"
+msgstr "Малка индийска мангуста"
+
+msgid "Common genet"
+msgstr "Обикновена (котешка) генета"
+
+msgid "Wildcat"
+msgstr "Дива котка"
+
+msgid "Eurasian lynx"
+msgstr "Евразийски рис"
+
+msgid "Iberian lynx"
+msgstr "Иберийски рис"
+
+msgid "Wild boar"
+msgstr "Дива свиня"
+
+msgid "European bison"
+msgstr "Зубър "
+
+msgid "European mouflon"
+msgstr "Муфлон"
+
+msgid "Alpine ibex"
+msgstr "Алпийски козирог"
+
+msgid "Spanish ibex"
+msgstr "Пиринейски козирог"
+
+msgid "Chamois, Alpine"
+msgstr ""
+
+msgid "Chamois, southern"
+msgstr ""
+
+msgid "Red deer"
+msgstr "Благороден елен"
+
+msgid "Fallow deer"
+msgstr "Елен лопатар"
+
+msgid "Elk"
+msgstr "Лос"
+
+msgid "Roe deer"
+msgstr "Сърна"
+
+msgid "Sika deer"
+msgstr "Петнист елен"
+
+msgid "Chital"
+msgstr "Читал "
+
+msgid "White-tailed deer"
+msgstr "Белоопашат елен"
+
+msgid "Raccoon"
+msgstr "Енот"
+
+msgid "Barbary sheep"
+msgstr "Гривест козирог"
+
+msgid "Red-necked wallaby"
+msgstr "Ръждивоврато кенгуру"
+
+msgid "Long-eared hedgehog"
+msgstr "Дългоух таралеж"
+
+msgid "Eastern cottontail rabbit"
+msgstr "Флоридкси заек"
+
+msgid "Cape hare"
+msgstr ""
+
+msgid "Corsican hare"
+msgstr "Апенински заек"
+
+msgid "Persian squirrel"
+msgstr "Персийска катерица"
+
+msgid "Grey squirrel"
+msgstr "Източна сива катерица"
+
+msgid "Calabrian black squirrel"
+msgstr "Калабрийска черна катерица"
+
+msgid "Pallas’s squirrel"
+msgstr "Катерица на Палас"
+
+msgid "Thailand tree squirrel"
+msgstr ""
+
+msgid "Little souslik"
+msgstr "Малък лалугер"
+
+msgid "Bobak marmot"
+msgstr "Степен мармот"
+
+msgid "Russian flying squirrel"
+msgstr "Летяща катерица"
+
+msgid "Siberian chipmunk"
+msgstr "Сибирски бурундук"
+
+msgid "American beaver"
+msgstr "Американски бобър"
+
+msgid "Crested porcupine"
+msgstr "Бодливо свинче"
+
+msgid "Polar bear"
+msgstr "Полярна мечка"
+
+msgid "Arctic fox"
+msgstr "Полярна лисица"
+
+msgid "Stoat"
+msgstr "Хермелин"
+
+msgid "Steppe polecat"
+msgstr "Степен пор"
+
+msgid "European mink"
+msgstr "Европейска норка"
+
+msgid "Weasel"
+msgstr "Невестулка"
+
+msgid "Western polecat"
+msgstr "Черен пор"
+
+msgid "American mink"
+msgstr "Американска норка"
+
+msgid "Beech marten, Stone marten"
+msgstr "Белка"
+
+msgid "Pine marten"
+msgstr "Златка"
+
+msgid "Marbled polecat"
+msgstr "Пъстър пор"
+
+msgid "Wolverine"
+msgstr "Росомаха"
+
+msgid "Wild goat"
+msgstr "Безоаров козел"
+
+msgid "Musk ox"
+msgstr "Овцебик"
+
+msgid "Reindeer"
+msgstr "Северен елен"
+
+msgid "Reeves’ muntjac"
+msgstr "Китайски мунтжак"
+
+msgid "Chinese water deer"
+msgstr "Китайски воден елен"
+
+msgid "Germany"
+msgstr "Германия"
+
+msgid "Spain"
+msgstr "Испания"
+
+msgid "Croatia"
+msgstr "Хърватия"
+
+msgid "Poland"
+msgstr "Полша"
+
+msgid "North Macedonia"
+msgstr "Северна Македония"
+
+msgid "Serbia"
+msgstr "Сърбия"
+
+msgid "Language"
+msgstr "Език"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Elsewhere"
+msgstr "Другаде"
+
+msgid "river"
+msgstr "река"
+
+msgid "forest"
+msgstr "гора"
+
+msgid "shrubs"
+msgstr "храсти"
+
+msgid "prairies"
+msgstr "Степ"
+
+msgid "farmlands"
+msgstr ""
+
+msgid "alpine"
+msgstr ""
+
+msgid "aquatic"
+msgstr ""
+
+msgid "underground"
+msgstr ""
+
+msgid "tree"
+msgstr "дърво"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Habitats"
+msgstr "Местообитание"
+
+msgid "Mouse-rat"
+msgstr ""
+
+msgid "Hedgehog-squirrel"
+msgstr ""
+
+msgid "Rabbit-hare"
+msgstr ""
+
+msgid "Cats-medium size canivorous"
+msgstr ""
+
+msgid "Dog-Wildboar"
+msgstr ""
+
+msgid "Goat-Deers"
+msgstr ""
+
+msgid "Cow-Bison"
+msgstr ""
+
+msgid "Filter species size"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Today"
+msgstr "Днес"
+
+msgid "Number"
+msgstr "Брой"
+
+msgid "Method"
+msgstr "Метод"
+
+msgid "Type"
+msgstr ""
+
+msgid "Select species"
+msgstr "Избери вид"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+
+msgid "Location Accurracy"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "How many individuals of this type?"
+msgstr ""
+
+msgid "Direct observation"
+msgstr "Директно наблюдение"
+
+msgid "Camera trap"
+msgstr "Фото капан"
+
+msgid "Catch"
+msgstr ""
+
+msgid "Road kill"
+msgstr ""
+
+msgid "Field carcass"
+msgstr ""
+
+msgid "Telemetry"
+msgstr ""
+
+msgid "Other (specify in Comment)"
+msgstr ""
+
+msgid "Please specify how has this mammal been observed."
+msgstr ""
+
+msgid "Alive"
+msgstr ""
+
+msgid "Dead - roadkill"
+msgstr "Мъртъв - жертва на пътя"
+
+msgid "Dead - other"
+msgstr "Мъртъв - друг"
+
+msgid "Indirect"
+msgstr ""
+
+msgid "Print/trail"
+msgstr ""
+
+msgid "Dropping"
+msgstr ""
+
+msgid "Den/burrow"
+msgstr "Дупка/бърлога"
+
+msgid "Please specify the condition of the mammal."
+msgstr ""
+
+msgid "Please add any extra info about this record."
+msgstr ""
+
+msgid "Enter more information here..."
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "species"
+msgstr "вид"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+
+msgid "User not found."
+msgstr ""
+
+msgid "We've sent an email to you"
+msgstr ""
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+
+msgid "App Development"
+msgstr ""
+
+msgid "This app was hand crafted with love by"
+msgstr ""
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr ""
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr ""
+
+msgid "contact us"
+msgstr ""
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr ""
+
+msgid "Maps produced"
+msgstr ""
+
+msgid "Photo credits:"
+msgstr ""
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+
+msgid "Distribution"
+msgstr "Разпространение"
+
+msgid "Hedgehog"
+msgstr "Таралеж"
+
+msgid "(unknown species)"
+msgstr "(неизвестен вид)"
+
+msgid "Shrew"
+msgstr "Земеровка"
+
+msgid "Mole"
+msgstr "Къртица"
+
+msgid "Lagomorph"
+msgstr ""
+
+msgid "Rabbits and Hares"
+msgstr "Заек"
+
+msgid "Small rodent"
+msgstr "Дребен гризач"
+
+msgid "Vole"
+msgstr "Полевка"
+
+msgid "Mouse"
+msgstr "Мишка"
+
+msgid "Rat"
+msgstr "Плъх"
+
+msgid "Other mustelid"
+msgstr ""
+
+msgid "Locating"
+msgstr ""
+
+msgid "Please add record location."
+msgstr ""
+
+msgid "Please select a species."
+msgstr ""
+
+msgid "Enjoying the app?"
+msgstr ""
+
+msgid "Not really"
+msgstr "Не особено"
+
+msgid "Yes!"
+msgstr "Да!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr ""
+
+msgid "No, thanks"
+msgstr "Не, благодаря"
+
+msgid "OK, sure"
+msgstr "Да, разбира се"
+
+msgid "How about a rating on the App Store then?"
+msgstr ""
+
+msgid "How about a rating on the Play Store then?"
+msgstr ""
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+
+msgid "Icons made by"
+msgstr ""
+
+msgid "from"
+msgstr ""
+
+msgid "Share App Analytics"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Пол"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Възраст"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Мъжки"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Женски"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Моля, определете пола на бозайника"
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Млад"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Възрастен"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Моля, уточнете възрастта на бозайника"
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Пресен труп"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "Разложен труп"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "Сух (кости/скелет)"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "Неизветсен"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr ""
+
+# Part of species profile external link
+msgid "web profile"
+msgstr ""
+
+# An unkown species group
+msgid "Bats"
+msgstr "Прилепи"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Тюлени"
+
+# From About page
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This version of the mobile application is set up to easily record mammals "
+"in any European country, but does not yet have all European languages "
+"included."
+msgstr ""
+
+# From About page
+msgid ""
+"iMammalia is designed to make mammal recording easy. Smaller mammals are "
+"currently only listed at the generic level since they are much harder to "
+"tell apart. Later versions will include more countries, languages and "
+"species subject to funding."
+msgstr ""

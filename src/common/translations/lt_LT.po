@@ -1,0 +1,1562 @@
+# 
+# Translators:
+# Linas Balčiauskas <linas.balciauskas@gamtc.lt>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Last-Translator: Linas Balčiauskas <linas.balciauskas@gamtc.lt>, 2021\n"
+"Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/ceh/teams/103078/lt_LT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "Pasirinkite šalį"
+
+msgid "United Kingdom"
+msgstr "Jungtinė Karalystė"
+
+msgid "Albania"
+msgstr "Albanija"
+
+msgid "Austria"
+msgstr "Austrija"
+
+msgid "Belarus"
+msgstr "Baltarusija"
+
+msgid "Belgium"
+msgstr "Belgija"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnija ir Hercegovina"
+
+msgid "Bulgaria"
+msgstr "Bulgarija"
+
+msgid "Czechia"
+msgstr "Čekija"
+
+msgid "Estonia"
+msgstr "Estija"
+
+msgid "Finland"
+msgstr "Suomija"
+
+msgid "France"
+msgstr "Prancūzija"
+
+msgid "Greece"
+msgstr "Graikija"
+
+msgid "Hungary"
+msgstr "Vengrija"
+
+msgid "Iceland"
+msgstr "Islandija"
+
+msgid "Ireland"
+msgstr "Airija"
+
+msgid "Italy"
+msgstr "Italija"
+
+msgid "Kosovo"
+msgstr "Kosovas"
+
+msgid "Latvia"
+msgstr "Latvija"
+
+msgid "Lithuania"
+msgstr "Lietuva"
+
+msgid "Montenegro"
+msgstr "Juodkalnija"
+
+msgid "Luxembourg"
+msgstr "Liuksemburgas"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Moldova"
+msgstr "Moldavija"
+
+msgid "Netherlands"
+msgstr "Olandija"
+
+msgid "Norway"
+msgstr "Norvegija"
+
+msgid "Portugal"
+msgstr "Portugalija"
+
+msgid "Romania"
+msgstr "Rumunija"
+
+msgid "Slovakia"
+msgstr "Slovakija"
+
+msgid "Slovenia"
+msgstr "Slovėnija"
+
+msgid "Sweden"
+msgstr "Švedija"
+
+msgid "Switzerland"
+msgstr "Šveicarija"
+
+msgid "Turkey"
+msgstr "Turkija"
+
+msgid "Ukraine"
+msgstr "Ukraina"
+
+msgid "Skip"
+msgstr "Praleisti"
+
+msgid "Next"
+msgstr "Sekantis"
+
+msgid "Get Started"
+msgstr "Pradėkite"
+
+msgid "Please sign in with your account or register."
+msgstr "Prisijunkite arba registruokitės"
+
+msgid "Username or email"
+msgstr "Vartotojo vardas arba el. paštas"
+
+msgid "Password"
+msgstr "Slaptažodis"
+
+msgid "Sign in"
+msgstr "Prisijungimas"
+
+msgid "Register"
+msgstr "Registracija"
+
+msgid "Forgot password?"
+msgstr "Pamiršote slaptažodį?"
+
+msgid "Login"
+msgstr "Prisijungimas"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Info"
+msgstr "Informacija"
+
+msgid "About"
+msgstr "Apie"
+
+msgid "Help"
+msgstr "Pagalba"
+
+msgid "Privacy Policy"
+msgstr "vardas yra būtinas"
+
+msgid "Credits"
+msgstr "Padėkos"
+
+msgid "Email"
+msgstr "El. paštas"
+
+msgid "First Name"
+msgstr "Vardas"
+
+msgid "Surname"
+msgstr "Pavardė"
+
+msgid "I agree to"
+msgstr "Aš sutinku su"
+
+msgid "Terms and Conditions"
+msgstr "Sąlygos"
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+"Norėdami pakeisti slaptažodį, įveskite vartojo vardą arba el. pašto adresą"
+
+msgid "Reset"
+msgstr "Atstatyti"
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr "Ar tikrai norite atstatyti pradinę programos būseną?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr "Tai ištrins visus įrenginyje išsaugotus programos duomenis!"
+
+msgid "Upload All"
+msgstr "Įkelti"
+
+msgid "Remove All Saved"
+msgstr "Ištrinti visus išsaugotus"
+
+msgid "Application"
+msgstr "Programa"
+
+msgid "Training Mode"
+msgstr "Apmokymo režimas"
+
+msgid "Experimental Features"
+msgstr "Bandomosios sąvybės"
+
+msgid "Welcome"
+msgstr "Sveiki"
+
+msgid "Lets start!"
+msgstr "Pradėkime!"
+
+msgid "Back"
+msgstr "Atgal"
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "App"
+msgstr "Programėlė"
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr "Mes dėkojame visiems, prisidėjusiems prie programėlės kūrimo:"
+
+msgid "Home"
+msgstr "Į pradžią"
+
+msgid "Account"
+msgstr "Paskyra"
+
+msgid "Offline"
+msgstr "Neprisijungęs"
+
+msgid "Sorry, looks like you're offline."
+msgstr "Atsiprašome, panašu kad jūs neprisijungęs"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Sorry"
+msgstr "Atsiprašome"
+
+msgid "Please wait..."
+msgstr "Prašau palaukti"
+
+msgid "name is a required field"
+msgstr "vardas yra būtinas"
+
+msgid "password is a required field"
+msgstr "slaptažodis būtinas"
+
+msgid "Login error:"
+msgstr "Prisijungimo klaida:"
+
+msgid "Failed to fetch"
+msgstr "Nustatyti nepavyko"
+
+msgid "Incorrect password or email."
+msgstr "Slaptažodis arba el. paštas neteisingas"
+
+msgid "Logout"
+msgstr "Atsijungti"
+
+msgid "Are you sure you want to logout?"
+msgstr "Ar tikrai norite atsijungti?"
+
+msgid "This will delete all the records on this device."
+msgstr "Ištrinsite visus įrašus šiame įrenginyje."
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Welcome aboard!"
+msgstr "Sveikiname prisijungus!"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Prieš pateikdami įrašus pasitikrinkite el. pašto adresą ir paspauskite "
+"patikrinimo nuorodą."
+
+msgid "OK, got it"
+msgstr "OK, supratau"
+
+msgid "email is a required field"
+msgstr "el. paštas yra būtinas"
+
+msgid "firstname is a required field"
+msgstr "vardas yra būtinas"
+
+msgid "secondname is a required field"
+msgstr "pavardė yra būtina"
+
+msgid "must accept terms and conditions"
+msgstr "privalote sutikti su sąlygomis"
+
+msgid "Species"
+msgstr "Rūšys"
+
+msgid "Count"
+msgstr "Skaičiavimas"
+
+msgid "Comment"
+msgstr "Komentaras"
+
+msgid "Draft"
+msgstr "Juodraštis"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "Yra ankstesnis įrašo juodraštis, ar norite jį tęsti?"
+
+msgid "Discard"
+msgstr "Atmesti"
+
+msgid "Continue"
+msgstr "Tęsti"
+
+msgid "Finish"
+msgstr "Baigti"
+
+msgid "No species added"
+msgstr "Rūšių nepridėta"
+
+msgid "Delete"
+msgstr "Ištrinti"
+
+msgid "Records"
+msgstr "Įrašai"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Ar tikrai norite ištrinti šį įrašą?"
+
+msgid "No finished records"
+msgstr "Baigtų įrašų nėra"
+
+msgid "Finished records"
+msgstr "Baigti įrašai"
+
+msgid "Done"
+msgstr "Atlikta"
+
+msgid "Record incomplete"
+msgstr "Įrašas nepilnas"
+
+msgid "The record is not complete yet."
+msgstr "Įrašas dar neužpildytas"
+
+msgid "Choose a method to upload a photo"
+msgstr "Pasirinkite būdą nuotraukos įkėlimui"
+
+msgid "Gallery"
+msgstr "Gelerija"
+
+msgid "Camera"
+msgstr "Kamera"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr "Ar tikrai norite pašalinti šią nuotrauką iš įrašo?"
+
+msgid "Note: it will remain in the gallery."
+msgstr "Pastaba: liks išsaugota galerijoje"
+
+msgid "No photo has been added"
+msgstr "Nuotraukų nepridėta"
+
+msgid "Registration error:"
+msgstr "Registracijos klaida:"
+
+msgid "Incorrect password or email"
+msgstr "Slaptažodis arba el. paštas neteisingas"
+
+msgid "email is not valid"
+msgstr "El. paštas negaliojantis"
+
+msgid "Paused"
+msgstr "Pristabdyta"
+
+msgid "Pending"
+msgstr "Neužbaigta"
+
+msgid "Uploaded"
+msgstr "Įkelta"
+
+msgid "No finished pending records"
+msgstr "Neužbaigtų įrašų nėra"
+
+msgid "No uploaded records"
+msgstr "Įkeltų įrašų nėra"
+
+msgid "How to start a record"
+msgstr "Kaip pradėti įrašą"
+
+msgid "To start a new record you can press the plus button"
+msgstr "Naujam įrašui paspauskite pliuso mygtuką"
+
+msgid "in the home page footer."
+msgstr "pradinio ekrano apačioje."
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr "Pateikite užbaigtą įrašą paspausdami Baigti mygtuką viršuje"
+
+msgid "Sync. with the website"
+msgstr "Sinchronizuojasi"
+
+msgid "All your saved records will be shown on your account page."
+msgstr "Visi baigti įrašai bus matomi jūsų paskyroje"
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+"Pagal nutylėjimą, įrašas nebus nusiųstas į duomenų bazę, kol nepaspausite "
+"mygtuko Baigti viršuje. Programa bandys išsiųsti įrašą tik esant geram "
+"tinklo ryšiui."
+
+msgid "If the record has reached the database a red"
+msgstr "įrašui pasiekus duomenų bazę, raudona"
+
+msgid "(set for submission & saved locally) will become green"
+msgstr "(paruoštas siųsti, išsaugotas vietoje) taps žaliu"
+
+msgid "synced to the database"
+msgstr "sinchronizuota su duomenų baze"
+
+msgid "Note"
+msgstr "Pastaba"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+"tam, kad įrašai sinchronizuotųsi foniniame režime, privalote prisijungti "
+"prie tinklapio paskyros ir turėti interneto ryšį"
+
+msgid "Delete a record"
+msgstr "Ištrinti įrašą"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+"Įrašo ištrynimui pastumkite jį į kairę paskyros puslapyje ir naspauskite "
+"Trinti mygtuką."
+
+msgid "User"
+msgstr "Vartotojas"
+
+msgid "Sign in/out or register"
+msgstr "Prisijunkite/atsijunkite arba registruokitės"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+"Prisijungimui atnerkite pagrindinį meniu, paspauskite Prisijungti arba "
+"Registruotis mygtuką ir sekite nuorodas."
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+"Atsijungimui eikite į pagrindinį meniu ir paspauskite Atsijungti mygtuką."
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+"užregistravę naują paskyrą turite patvirtinti savo el. paštą paspaudę "
+"patvirtinimo nuorodą gautame laiške"
+
+msgid "Other"
+msgstr "Kita"
+
+msgid "Reset the application"
+msgstr "Perkraukite programą"
+
+msgid "Go to the application settings page"
+msgstr "Eikite į programos nustatymų puslapį"
+
+msgid "and click on the Reset"
+msgstr "ir paspauskite Perkrauti"
+
+msgid "button"
+msgstr "mygtuką"
+
+msgid "Record"
+msgstr "Įrašas"
+
+msgid "Location"
+msgstr "Vieta"
+
+msgid "Northern white-breasted hedgehog"
+msgstr "Ežys Erinaceus roumanicus"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Baltakrūtis ežys"
+
+msgid "Apennine hare"
+msgstr "Apeninų kiškis"
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr ""
+"Santykinai nedidelis, baltu snukiu, rudomis kojomis, balta arba ruda "
+"papilve, gerai matomomis didelėmis ausimis, galvos viršutinė dalis be "
+"spyglių"
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "Didžiausia ežių rūšis, dažniausiai rudi"
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr "Nuo paprastojo ežio skiriasi balta dėme ant krūtinės"
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr ""
+"Santykinai nedidelis, pilkai rudi kailiu, ruda dėme ant krūtinės, pilkai-"
+"balta papilve, ausų galiukai ne juodi, kojos trumpesnės"
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr ""
+"Nugara rudos ir juodos spalvos, papilvė balta, uodega juoda su balta apačia,"
+" ausys rudai-pilkos, juodais galiukais"
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr ""
+"Nugara auksinio rudumo, pilvas balkšvas, uodega juoda su balta apačia, "
+"santykinai ilgos kojos ir ausys, kurių galiukai juodi"
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr ""
+"Kailis pilkai rudas vasarąm, baltas žiemą, ausų galiukai juodi, ausys "
+"trumpesnės nei kitų kiškių"
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr ""
+"Ruda arba pilkai ruda nugara, šviesiai pilka papilvė, ausų galiukai ir "
+"viršutinė uodegos pusė juodi"
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr ""
+"Rudai raudonas kailis, balkšva papilvė, vešli uodega, ausų kuokšteliai "
+"dideli"
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr ""
+"Pilkai ruda arba raudonai ruda nugara, balkšva papilvė, baltios juostos kūno"
+" šonuose, kartais dar viena nugaroje"
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr ""
+"Santykinai mažas, tamsiai rudu kailiu su baltomis dėmėmis nugaroje, uodega "
+"trumpa ir plona"
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr ""
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr ""
+
+msgid ""
+"Invasive species: Coarse, dark brown outer fur with soft dense grey under "
+"fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
+"large, bright orange-yellow incisors"
+msgstr ""
+
+msgid ""
+"Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
+"hairs in winter, and brighter and reddish-straw fur in summer; yellowish-"
+"brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
+"on the cheeks."
+msgstr ""
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr ""
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr ""
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr ""
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr ""
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr ""
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr ""
+
+msgid ""
+"Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
+" pointed snout, small ears, long black tipped tail, and furless hind feet "
+"and facial area"
+msgstr ""
+
+msgid ""
+"Invasive species: Small and slender body with pale to dark brown fur, golden"
+" flecks and a pale underbelly, short legs and small rounded ears located on "
+"the side of its head, bushy tail"
+msgstr ""
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr ""
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr ""
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr ""
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr ""
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr ""
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr ""
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns, with a white tone on anal region, legs"
+" and the snout. "
+msgstr ""
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr ""
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr ""
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr ""
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr ""
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr ""
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr ""
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr ""
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr ""
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr ""
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr ""
+
+msgid ""
+"Invasive species: Grey-brown and white coat with long fur and a bushy, "
+"striped tail, characteristic black markings around the eyes contrasted by "
+"white face"
+msgstr ""
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr ""
+
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+
+msgid ""
+"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
+" upper arms."
+msgstr ""
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "Nedidelis ežys šviesiu snukiu ir ilgomis ausimis."
+
+msgid ""
+"Introduced to Northern Italy. Very similar to European rabbit but more "
+"compact with shorter ears."
+msgstr ""
+
+msgid ""
+"Paler than the brown hare, with very small black tips to the ears. "
+"Restricted to Sardinia."
+msgstr ""
+
+msgid ""
+"Similar to but slightly smaller than the brown hare, with relatively longer "
+"ears and hindlegs."
+msgstr ""
+
+msgid ""
+"Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
+"winter."
+msgstr ""
+
+msgid ""
+"Invasive species: Silver/grey coat with brownish tinge on feet and face. "
+"Tail fringed with white. Larger than red squirrel."
+msgstr ""
+
+msgid ""
+"The dorsal part of the body, head, neck, feet and tail are black; the "
+"abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
+"than Italian populations of red squirrel."
+msgstr ""
+
+msgid ""
+"Invasive species: Similar in size to red squirrel, back is olive-brown and "
+"belly russet. White tip to the tail."
+msgstr ""
+
+msgid ""
+"Invasive species: Similar in size to red squirrel. Longer tail. Back is "
+"olive-brown and underside cream, extending onto face."
+msgstr ""
+
+msgid ""
+"Smallest souslik with yellow to brownish fur and no obvious spots. White "
+"throat and chest with a short tail."
+msgstr ""
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr ""
+
+msgid ""
+"A small squirrel with rounded head, and membrane between fore and hind legs."
+" Greyish above and lighter below."
+msgstr ""
+
+msgid ""
+"Invasive species: Yellow-brown coat with four white stripes and five dark "
+"stripes along the back and a white chest and belly"
+msgstr ""
+
+msgid ""
+"Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr ""
+"Labai panašus į upinį bebrą, plokščia žvynuota uodega, tik tamsesniu kailiu"
+
+msgid ""
+"A porcupine with typical black and white quills that run along the body"
+msgstr "Dygliakiaulė, kūno dygliai įpratsos juodos ir baltos spalvos"
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr "Kūnas pailgas, ausys mažos, kailis baltas ir gelsvas"
+
+msgid ""
+"Small fox with short ears. White in winter and in summer grey on the back "
+"and lighter underneath."
+msgstr ""
+"Maža lapė trumpomis ausimis. Žiemą balta, vasarą nugara pilka, kūno apačia "
+"šviesesnė"
+
+msgid ""
+"Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
+"than the similar weasel, has a longer tail and has a distinctive bounding "
+"gait, arching its back as it moves"
+msgstr ""
+
+msgid ""
+"Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
+" by paler fur"
+msgstr ""
+
+msgid ""
+"Dark brown to red-brown coat, elongated body with short limbs and a short "
+"tail. Fur is pure white around the mouth"
+msgstr ""
+
+msgid ""
+"Orange-brown back and a cream throat and underbelly, smaller than the "
+"similar stoat, shorter tail with no black tip, and a running gait with a "
+"straight back"
+msgstr ""
+
+msgid ""
+"Dark brown colour with a pale underbelly and a dark mask-shape across the "
+"pale face"
+msgstr ""
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr ""
+
+msgid ""
+"Light brown coat with a cream chest and throat extending to top of legs, "
+"longer tail, more elongated and angular head with shorter, more rounded and "
+"widely spaced ears"
+msgstr ""
+
+msgid ""
+"Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
+"throat and a long, bushy tail"
+msgstr ""
+
+msgid ""
+"Typical polecat face (dark mask on a pale face), but with large white to "
+"yellow spots on its back."
+msgstr ""
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr "Primena nedidelį lokį su uodega.  Kūnas kresnas, tamsiai rudas."
+
+msgid ""
+"Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
+"summer and greyish brown in winter. Horns curve backward and males have a "
+"large black beard."
+msgstr ""
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr "Stambus jautis, plaukai labai ilgi, ragai lenkti."
+
+msgid ""
+"Both sexes grow antlers with two sets of points, one growing forward and one"
+" backward. Coat dark brown in summer and lighter in winter."
+msgstr ""
+
+msgid ""
+"Invasive species: A small deer with rounded back and head often held low. "
+"Simple backward pointing antlers on male."
+msgstr ""
+
+msgid ""
+"Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
+"antlers but males have long curved tusks."
+msgstr ""
+
+msgid ""
+"Very similar to the Northern white-breasted hedgehog with a white patch "
+"underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr ""
+
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+
+msgid "Muskrat"
+msgstr "Ondatra"
+
+msgid "Algerian hedgehog"
+msgstr "Alžyrinis ežys"
+
+msgid "Western hedgehog"
+msgstr "Ežys"
+
+msgid "Eastern hedgehog"
+msgstr "Baltakrūtis ežys"
+
+msgid "European rabbit"
+msgstr "Laukinis triušis"
+
+msgid "Broom hare"
+msgstr "Raipstinis kiškis"
+
+msgid "Brown hare"
+msgstr "Pilkasis kiškis"
+
+msgid "Mountain hare"
+msgstr "Baltasis kiškis"
+
+msgid "Granada hare"
+msgstr "Iberinis kiškis"
+
+msgid "Red squirrel"
+msgstr "Voverė"
+
+msgid "Barbary ground squirrel"
+msgstr "Berberinė antžeminė voverė"
+
+msgid "Spotted souslik"
+msgstr "Dėmėtasis staras"
+
+msgid "European Souslik"
+msgstr "Pilkasis staras"
+
+msgid "Alpine marmot"
+msgstr "Alpinis švilpikas"
+
+msgid "European beaver"
+msgstr "Upinis bebras"
+
+msgid "Coypu"
+msgstr "Nutrija"
+
+msgid "Raccoon dog"
+msgstr "Mangutas "
+
+msgid "Brown bear"
+msgstr "Rudasis lokys"
+
+msgid "Grey wolf"
+msgstr "Vilkas"
+
+msgid "Golden jackal"
+msgstr "Paprastasis šakalas"
+
+msgid "Red fox"
+msgstr "Rudoji lapė"
+
+msgid "European otter"
+msgstr "Ūdra"
+
+msgid "Eurasian badger"
+msgstr "Barsukas"
+
+msgid "Egyptian mongoose"
+msgstr "Egiptinė mangusta"
+
+msgid "Small Indian mongoose"
+msgstr "Mažoji mangusta"
+
+msgid "Common genet"
+msgstr "Paprastoji geneta"
+
+msgid "Wildcat"
+msgstr "Vilpišys"
+
+msgid "Eurasian lynx"
+msgstr ""
+
+msgid "Iberian lynx"
+msgstr "Iberijos lūšis"
+
+msgid "Wild boar"
+msgstr "Šernas"
+
+msgid "European bison"
+msgstr "Stumbras"
+
+msgid "European mouflon"
+msgstr ""
+
+msgid "Alpine ibex"
+msgstr ""
+
+msgid "Spanish ibex"
+msgstr ""
+
+msgid "Chamois, Alpine"
+msgstr ""
+
+msgid "Chamois, southern"
+msgstr ""
+
+msgid "Red deer"
+msgstr "Taurusis elnias"
+
+msgid "Fallow deer"
+msgstr "Danielius"
+
+msgid "Elk"
+msgstr ""
+
+msgid "Roe deer"
+msgstr "Stirna"
+
+msgid "Sika deer"
+msgstr ""
+
+msgid "Chital"
+msgstr ""
+
+msgid "White-tailed deer"
+msgstr "Baltauodegis elnias"
+
+msgid "Raccoon"
+msgstr "Meškėnas"
+
+msgid "Barbary sheep"
+msgstr ""
+
+msgid "Red-necked wallaby"
+msgstr ""
+
+msgid "Long-eared hedgehog"
+msgstr ""
+
+msgid "Eastern cottontail rabbit"
+msgstr ""
+
+msgid "Cape hare"
+msgstr ""
+
+msgid "Corsican hare"
+msgstr ""
+
+msgid "Persian squirrel"
+msgstr ""
+
+msgid "Grey squirrel"
+msgstr ""
+
+msgid "Calabrian black squirrel"
+msgstr ""
+
+msgid "Pallas’s squirrel"
+msgstr ""
+
+msgid "Thailand tree squirrel"
+msgstr ""
+
+msgid "Little souslik"
+msgstr ""
+
+msgid "Bobak marmot"
+msgstr ""
+
+msgid "Russian flying squirrel"
+msgstr ""
+
+msgid "Siberian chipmunk"
+msgstr ""
+
+msgid "American beaver"
+msgstr ""
+
+msgid "Crested porcupine"
+msgstr ""
+
+msgid "Polar bear"
+msgstr ""
+
+msgid "Arctic fox"
+msgstr ""
+
+msgid "Stoat"
+msgstr "Šermuonėlis"
+
+msgid "Steppe polecat"
+msgstr ""
+
+msgid "European mink"
+msgstr "Europinė audinė"
+
+msgid "Weasel"
+msgstr "Žebenkštis"
+
+msgid "Western polecat"
+msgstr ""
+
+msgid "American mink"
+msgstr "Kanadinė audinė"
+
+msgid "Beech marten, Stone marten"
+msgstr "Akmeninė kiaunė"
+
+msgid "Pine marten"
+msgstr "Miškinė kiaunė"
+
+msgid "Marbled polecat"
+msgstr ""
+
+msgid "Wolverine"
+msgstr "Ernis"
+
+msgid "Wild goat"
+msgstr ""
+
+msgid "Musk ox"
+msgstr ""
+
+msgid "Reindeer"
+msgstr ""
+
+msgid "Reeves’ muntjac"
+msgstr ""
+
+msgid "Chinese water deer"
+msgstr ""
+
+msgid "Germany"
+msgstr "Vokietija"
+
+msgid "Spain"
+msgstr "Ispanija"
+
+msgid "Croatia"
+msgstr "Kroatija"
+
+msgid "Poland"
+msgstr "Lenkija"
+
+msgid "North Macedonia"
+msgstr ""
+
+msgid "Serbia"
+msgstr "Serbija"
+
+msgid "Language"
+msgstr "Kalba"
+
+msgid "Country"
+msgstr "Šalis"
+
+msgid "Elsewhere"
+msgstr ""
+
+msgid "river"
+msgstr "upė"
+
+msgid "forest"
+msgstr "miškas"
+
+msgid "shrubs"
+msgstr ""
+
+msgid "prairies"
+msgstr ""
+
+msgid "farmlands"
+msgstr ""
+
+msgid "alpine"
+msgstr ""
+
+msgid "aquatic"
+msgstr "vandeninis"
+
+msgid "underground"
+msgstr "po žeme"
+
+msgid "tree"
+msgstr "medis"
+
+msgid "Description"
+msgstr "Aprašymas"
+
+msgid "Habitats"
+msgstr "Buveinės"
+
+msgid "Mouse-rat"
+msgstr ""
+
+msgid "Hedgehog-squirrel"
+msgstr ""
+
+msgid "Rabbit-hare"
+msgstr ""
+
+msgid "Cats-medium size canivorous"
+msgstr ""
+
+msgid "Dog-Wildboar"
+msgstr ""
+
+msgid "Goat-Deers"
+msgstr ""
+
+msgid "Cow-Bison"
+msgstr ""
+
+msgid "Filter species size"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Today"
+msgstr "Šiandien"
+
+msgid "Number"
+msgstr "Skaičius"
+
+msgid "Method"
+msgstr "Metodas"
+
+msgid "Type"
+msgstr ""
+
+msgid "Select species"
+msgstr "Pasirinkite rūšį"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+
+msgid "Location Accurracy"
+msgstr ""
+
+msgid "Close"
+msgstr "uždaryti"
+
+msgid "How many individuals of this type?"
+msgstr ""
+
+msgid "Direct observation"
+msgstr ""
+
+msgid "Camera trap"
+msgstr ""
+
+msgid "Catch"
+msgstr ""
+
+msgid "Road kill"
+msgstr ""
+
+msgid "Field carcass"
+msgstr ""
+
+msgid "Telemetry"
+msgstr ""
+
+msgid "Other (specify in Comment)"
+msgstr ""
+
+msgid "Please specify how has this mammal been observed."
+msgstr ""
+
+msgid "Alive"
+msgstr "Gyvas"
+
+msgid "Dead - roadkill"
+msgstr "Negyvas - suvažinėtas"
+
+msgid "Dead - other"
+msgstr "Negyvas - kita"
+
+msgid "Indirect"
+msgstr ""
+
+msgid "Print/trail"
+msgstr "Pėdsakas/takas"
+
+msgid "Dropping"
+msgstr "Išmatos"
+
+msgid "Den/burrow"
+msgstr "Guolis/urvas"
+
+msgid "Please specify the condition of the mammal."
+msgstr ""
+
+msgid "Please add any extra info about this record."
+msgstr ""
+
+msgid "Enter more information here..."
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "species"
+msgstr "rūšis"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+
+msgid "User not found."
+msgstr "Vartotojas nerastas."
+
+msgid "We've sent an email to you"
+msgstr "Išsiuntėme jums el. laišką"
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+
+msgid "App Development"
+msgstr ""
+
+msgid "This app was hand crafted with love by"
+msgstr ""
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr ""
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr ""
+
+msgid "contact us"
+msgstr "susisiekite su mumis"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr ""
+
+msgid "Maps produced"
+msgstr ""
+
+msgid "Photo credits:"
+msgstr ""
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+
+msgid "Distribution"
+msgstr "Paplitimas"
+
+msgid "Hedgehog"
+msgstr "Ežys"
+
+msgid "(unknown species)"
+msgstr "(rūšis nežinoma)"
+
+msgid "Shrew"
+msgstr "Kirstukas"
+
+msgid "Mole"
+msgstr "Kurmis"
+
+msgid "Lagomorph"
+msgstr "Kiškiažvėris"
+
+msgid "Rabbits and Hares"
+msgstr "Triušiai ir kiškiai"
+
+msgid "Small rodent"
+msgstr "Smulkus graužikas"
+
+msgid "Vole"
+msgstr "Pelėnas"
+
+msgid "Mouse"
+msgstr "Pelė"
+
+msgid "Rat"
+msgstr "Žiurkė"
+
+msgid "Other mustelid"
+msgstr ""
+
+msgid "Locating"
+msgstr ""
+
+msgid "Please add record location."
+msgstr ""
+
+msgid "Please select a species."
+msgstr "Pasirinkite rūšį"
+
+msgid "Enjoying the app?"
+msgstr ""
+
+msgid "Not really"
+msgstr ""
+
+msgid "Yes!"
+msgstr "Taip!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr ""
+
+msgid "No, thanks"
+msgstr "Ne, ačiū"
+
+msgid "OK, sure"
+msgstr "Taip, žinoma"
+
+msgid "How about a rating on the App Store then?"
+msgstr ""
+
+msgid "How about a rating on the Play Store then?"
+msgstr ""
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+
+msgid "Icons made by"
+msgstr ""
+
+msgid "from"
+msgstr ""
+
+msgid "Share App Analytics"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Lytis"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Amžius"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "Suirimas"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Patinas"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Patelė"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Nurodykite žinduolio lytį"
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Jauniklis"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Suauges"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Nurodykite žinduolio amžių"
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Šviežias lavonas"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "Suiręs"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr ""
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "Sumedžiotas"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr ""
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr ""
+
+# Part of species profile external link
+msgid "web profile"
+msgstr ""
+
+# An unkown species group
+msgid "Bats"
+msgstr "Šikšnosparniai"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Ruoniai"
+
+# From About page
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This version of the mobile application is set up to easily record mammals "
+"in any European country, but does not yet have all European languages "
+"included."
+msgstr ""
+
+# From About page
+msgid ""
+"iMammalia is designed to make mammal recording easy. Smaller mammals are "
+"currently only listed at the generic level since they are much harder to "
+"tell apart. Later versions will include more countries, languages and "
+"species subject to funding."
+msgstr ""
