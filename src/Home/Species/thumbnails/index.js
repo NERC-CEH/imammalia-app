@@ -92,3 +92,4 @@ import './rattus_thumbnail.png';
 import './sciuridae_thumbnail.png';
 import './soricidae_thumbnail.png';
 import './talpidae_thumbnail.png';
+import './rodentia_thumbnail.png';
