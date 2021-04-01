@@ -1,6 +1,8 @@
 require('dotenv').config({ silent: true }); // get local environment variables from .env
 const path = require('path');
 
+process.env.CHROME_BIN = require('puppeteer').executablePath();
+
 process.env.NODE_ENV = 'test';
 
 const webpackConfigDev = require('../webpack.config');
@@ -11,16 +13,17 @@ delete webpackConfigDev.optimization; // no need
 
 webpackConfigDev.resolve.modules.push(path.resolve('./test/'));
 
-module.exports = config => {
+// eslint-disable-next-line
+module.exports = (config) => {
   config.set({
-    browsers: ['ChromeCustom'],
+    browsers: ['ChromeHeadless'],
 
-    customLaunchers: {
-      ChromeCustom: {
-        base: 'ChromiumHeadless',
-        flags: ['--no-sandbox'],
-      },
-    },
+    // customLaunchers: {
+    //   ChromeCustom: {
+    //     base: 'ChromiumHeadless',
+    //     flags: ['--no-sandbox'],
+    //   },
+    // },
 
     frameworks: ['mocha', 'chai', 'sinon'],
 
