@@ -2,11 +2,12 @@
 # Translators:
 # Antonia Galanaki <agalanaki@bio.auth.gr>, 2021
 # George Mitsainas <mitsain@upatras.gr>, 2021
+# Nikolaos Kiamos <kiamosn@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: George Mitsainas <mitsain@upatras.gr>, 2021\n"
+"Last-Translator: Nikolaos Kiamos <kiamosn@gmail.com>, 2021\n"
 "Language-Team: Greek (Greece) (https://www.transifex.com/ceh/teams/103078/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,16 +155,16 @@ msgid "Info"
 msgstr "Πληροφορίες"
 
 msgid "About"
-msgstr ""
+msgstr "Σχετικά με"
 
 msgid "Help"
 msgstr "Βοήθεια"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Πολιτική Απορρήτου"
 
 msgid "Credits"
-msgstr ""
+msgstr "Ευχαριστίες"
 
 msgid "Email"
 msgstr "Email"
@@ -178,386 +179,445 @@ msgid "I agree to"
 msgstr "Συμφωνώ με"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Όρους και τις Προϋποθέσεις"
 
 msgid "Enter your username or email address to request a password reset"
 msgstr ""
+"Εισάγετε το Όνομα Χρήστη και τη διεύθυνση e-mail σας για την επαναφορά του "
+"κωδικού πρόσβασης"
 
 msgid "Reset"
-msgstr ""
+msgstr "Επαναφορά"
 
 msgid "Are you sure you want to reset the application to its initial state?"
 msgstr ""
+"Είστε σίγουροι ότι θέλετε να επαναφέρετε την εφαρμογή στην αρχική της μορφή;"
 
 msgid "This will wipe all the locally stored app data!"
 msgstr ""
+"Αυτή η ενέργεια θα σβήσει όλα τα τοπικά αποθηκευμένα δεδομένα της εφαρμογής!"
 
 msgid "Upload All"
-msgstr ""
+msgstr "Ανέβασμα όλων"
 
 msgid "Remove All Saved"
-msgstr ""
+msgstr "Διαγραφή όλων των αποθηκευμένων"
 
 msgid "Application"
-msgstr ""
+msgstr "Εφαρμογή"
 
 msgid "Training Mode"
-msgstr ""
+msgstr "Λειτουργία εκμάθησης"
 
 msgid "Experimental Features"
-msgstr ""
+msgstr "Δοκιμαστικές λειτουργίες"
 
 msgid "Welcome"
-msgstr ""
+msgstr "Καλώς ήρθατε"
 
 msgid "Lets start!"
-msgstr ""
+msgstr "Ας ξεκινήσουμε!"
 
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 msgid "Menu"
-msgstr ""
+msgstr "Μενού"
 
 msgid "App"
-msgstr ""
+msgstr "Εφαρμογή"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
 msgstr ""
+"Είμαστε πολύ ευγνώμονες για όλους τους ανθρώπους που βοήθησαν στη δημιουργία"
+" αυτής της εφαρμογής:"
 
 msgid "Home"
-msgstr ""
+msgstr "Αρχική σελίδα"
 
 msgid "Account"
-msgstr ""
+msgstr "Λογαριασμός"
 
 msgid "Offline"
-msgstr ""
+msgstr "Εκτός σύνδεσης"
 
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Δυστυχώς, φαίνεται ότι βρίσκεστε εκτός σύνδεσης"
 
 msgid "OK"
-msgstr ""
+msgstr "Εντάξει"
 
 msgid "Sorry"
-msgstr ""
+msgstr "Λυπούμαι"
 
 msgid "Please wait..."
-msgstr ""
+msgstr "Παρακαλώ περιμένετε..."
 
 msgid "name is a required field"
-msgstr ""
+msgstr "απαιτείται η συμπλήρωση του πεδίου \"Όνομα\""
 
 msgid "password is a required field"
-msgstr ""
+msgstr "απαιτείται η συμπλήρωση του πεδίου \"Κωδικός\""
 
 msgid "Login error:"
-msgstr ""
+msgstr "Πρόβλημα εισόδου: "
 
 msgid "Failed to fetch"
-msgstr ""
+msgstr "Αποτυχία λήψης"
 
 msgid "Incorrect password or email."
-msgstr ""
+msgstr "Λανθασμένος κωδικός ή διεύθυνση email."
 
 msgid "Logout"
-msgstr ""
+msgstr "Έξοδος"
 
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε;"
 
 msgid "This will delete all the records on this device."
-msgstr ""
+msgstr "Αυτή η ενέργεια θα σβήσει όλες τις εγγραφές από αυτήν τη συσκευή."
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 msgid "Welcome aboard!"
-msgstr ""
+msgstr "Καλώς ήρθατε!"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
+"Πριν υποβάλλετε καταγραφές, παρακαλώ ελέγξτε το email σας και πατήστε στο "
+"σύνδεσμο επιβεβαίωσης."
 
 msgid "OK, got it"
-msgstr ""
+msgstr "ΟΚ, το κατάλαβα"
 
 msgid "email is a required field"
-msgstr ""
+msgstr "το email είναι απαραίτητο πεδίο"
 
 msgid "firstname is a required field"
-msgstr ""
+msgstr "το 'όνομα' είναι απαραίτητο πεδίο"
 
 msgid "secondname is a required field"
-msgstr ""
+msgstr "το 'επίθετο' είναι απαραίτητο πεδίο"
 
 msgid "must accept terms and conditions"
-msgstr ""
+msgstr "πρέπει να γίνει αποδοχή των όρων και των προϋποθέσεων"
 
 msgid "Species"
-msgstr ""
+msgstr "Είδος"
 
 msgid "Count"
-msgstr ""
+msgstr "Αριθμός ατόμων"
 
 msgid "Comment"
-msgstr ""
+msgstr "Σχόλια"
 
 msgid "Draft"
-msgstr ""
+msgstr "Πρόχειρο"
 
 msgid "Previous record draft exists, would you like to continue it?"
-msgstr ""
+msgstr "Υπάρχει προηγούμενη πρόχειρη καταγραφή, θέλετε να την συνεχίσετε;"
 
 msgid "Discard"
-msgstr ""
+msgstr "Απόρριψη"
 
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 msgid "Finish"
-msgstr ""
+msgstr "Ολοκλήρωση"
 
 msgid "No species added"
-msgstr ""
+msgstr "Δεν έγινε προσθήκη είδους"
 
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 msgid "Records"
-msgstr ""
+msgstr "Καταγραφές"
 
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "Είστε σίγουρος/η ότι θέλετε να διαγράψετε αυτήν την καταγραφή;"
 
 msgid "No finished records"
-msgstr ""
+msgstr "Μη ολοκληρωμένες καταγραφές"
 
 msgid "Finished records"
-msgstr ""
+msgstr "Ολοκληρωμένες καταγραφές"
 
 msgid "Done"
-msgstr ""
+msgstr "Έτοιμο"
 
 msgid "Record incomplete"
-msgstr ""
+msgstr "Μη πλήρης καταγραφή"
 
 msgid "The record is not complete yet."
-msgstr ""
+msgstr "Η καταγραφή δεν είναι ακόμα πλήρης"
 
 msgid "Choose a method to upload a photo"
-msgstr ""
+msgstr "Επιλέξτε τρόπο μεταφόρτωσης της φωτογραφίας"
 
 msgid "Gallery"
-msgstr ""
+msgstr "Συλλογή φωτογραφιών"
 
 msgid "Camera"
-msgstr ""
+msgstr "Κάμερα"
 
 msgid "Are you sure you want to remove this photo from the record?"
 msgstr ""
+"Είστε σίγουρος/η ότι θέλετε να αφαιρέσετε τη φωτογραφία από την καταγραφή;"
 
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Σημείωση: θα παραμείνει στη συλλογή φωτογραφιών"
 
 msgid "No photo has been added"
-msgstr ""
+msgstr "Δεν έχει γίνει προσθήκη φωτογραφίας"
 
 msgid "Registration error:"
-msgstr ""
+msgstr "Λάθος κατά την εγγραφή:"
 
 msgid "Incorrect password or email"
-msgstr ""
+msgstr "Λανθασμένος κωδικός ή email"
 
 msgid "email is not valid"
-msgstr ""
+msgstr "το email δεν είναι έγκυρο"
 
 msgid "Paused"
-msgstr ""
+msgstr "Σε παύση"
 
 msgid "Pending"
-msgstr ""
+msgstr "Σε εκκρεμότητα"
 
 msgid "Uploaded"
-msgstr ""
+msgstr "Μεταφορτώθηκε"
 
 msgid "No finished pending records"
-msgstr ""
+msgstr "Δεν ολοκληρώθηκαν καταγραφές που βρίσκονται σε εκκρεμότητα"
 
 msgid "No uploaded records"
-msgstr ""
+msgstr "Δεν έγινε μεταφόρτωση καταγραφών"
 
 msgid "How to start a record"
-msgstr ""
+msgstr "Πώς να ξεκινήσετε μία καταγραφή"
 
 msgid "To start a new record you can press the plus button"
-msgstr ""
+msgstr "Πατήστε το '+', προκειμένου να ξεκινήσετε μία νέα καταγραφή"
 
 msgid "in the home page footer."
-msgstr ""
+msgstr "στο κάτω μέρος της αρχικής σελίδας."
 
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
 "header."
 msgstr ""
+"Όταν τελειώσετε, προχωρήστε στη υποβολή, πατώντας το κουμπί 'Ολοκλήρωση' στο"
+" πάνω μέρος της σελίδας."
 
 msgid "Sync. with the website"
-msgstr ""
+msgstr "Συγχρονισμός με την ιστοσελίδα"
 
 msgid "All your saved records will be shown on your account page."
 msgstr ""
+"Όλες οι αποθηκευμένες καταγραφές, θα φαίνονται στη σελίδα του λογαριασμού "
+"σας."
 
 msgid ""
 "By default a record is in a 'draft' mode which will not be sent to the "
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
+"Από προεπιλογή, μια καταγραφή βρίσκεται σε μορφή «προχείρου», και δεν θα "
+"αποσταλεί στη βάση δεδομένων έως ότου πατηθεί το κουμπί 'Ολοκλήρωση' στο "
+"πάνω μέρος της σελίδας. Η εφαρμογή θα προσπαθήσει να υποβάλει την καταγραφή "
+"σας, όταν υπάρξει καλή σύνδεση δικτύου."
 
 msgid "If the record has reached the database a red"
-msgstr ""
+msgstr "Όταν μία καταγραφή φτάσει στη βάση δεδομένων, το κόκκινο"
 
 msgid "(set for submission & saved locally) will become green"
-msgstr ""
+msgstr "(που σημαίνει 'αποθηκευμένη τοπικά-υπό υποβολή) θα γίνει πράσινο"
 
 msgid "synced to the database"
-msgstr ""
+msgstr "σε συγχρονισμό με την βάση δεδομένων"
 
 msgid "Note"
-msgstr ""
+msgstr "Σημείωση"
 
 msgid ""
 "you have to be signed in to your website account and have a network "
 "connection, for the records to be automatically synchronised in the "
 "background"
 msgstr ""
+"θα πρέπει να έχετε εισέλθει στο λογαριασμό σας στον ιστότοπο και να έχετε "
+"σύνδεση δικτύου, ώστε οι καταγραφές να συγχρονίζονται αυτόματα στο "
+"παρασκήνιο."
 
 msgid "Delete a record"
-msgstr ""
+msgstr "Διαγραφή καταγραφής"
 
 msgid ""
 "To delete a record, swipe it left in your account page and click the delete "
 "button."
 msgstr ""
+"Για να διαγράψετε μια καταγραφή, σύρετέ την προς τα αριστερά στη σελίδα του "
+"λογαριασμού σας και πατήστε το κουμπί διαγραφής."
 
 msgid "User"
-msgstr ""
+msgstr "Χρήστης"
 
 msgid "Sign in/out or register"
-msgstr ""
+msgstr "Έισοδος/έξοδος ή εγγραφή"
 
 msgid ""
 "To login, open the main menu page click Login or Register buttons and follow"
 " the instructions."
 msgstr ""
+"Για να συνδεθείτε, ανοίξτε τη σελίδα με το κύριο μενού, πατήστε τα κουμπιά "
+"Είσοδος ή Εγγραφή και ακολουθήστε τις οδηγίες."
 
 msgid "To logout, visit the main menu page and click the logout button."
 msgstr ""
+"Για να βγείτε από την εφαρμογή, επισκεφθείτε την σελίδα με το κύριο μενού "
+"και πατήστε το κουμπί 'Έξοδος'."
 
 msgid ""
 "after registering a new account you must verify your email address by "
 "clicking on a verification link sent to your email"
 msgstr ""
+"αφού δημιουργήσετε ένα νέο λογαριασμό, πρέπει να επιβεβαιώσετε την διεύθυνση"
+" ηλεκτρονικού ταχυδρομείου που δηλώσατε, πατώντας στο σύνδεσμο επιβεβαίωσης "
+"που στάλθηκε στην παραπάνω διεύθυνση"
 
 msgid "Other"
-msgstr ""
+msgstr "Άλλο"
 
 msgid "Reset the application"
-msgstr ""
+msgstr "Επαναφορά εφαρμογής"
 
 msgid "Go to the application settings page"
-msgstr ""
+msgstr "Πηγαίνετε στις ρυθμίσεις της εφαρμογής"
 
 msgid "and click on the Reset"
-msgstr ""
+msgstr "και πατήστε το κουμπί Επαναφοράς"
 
 msgid "button"
-msgstr ""
+msgstr "'Επαναφορά'"
 
 msgid "Record"
-msgstr ""
+msgstr "Καταγραφή"
 
 msgid "Location"
-msgstr ""
+msgstr "Τοποθεσία"
 
 msgid "Northern white-breasted hedgehog"
-msgstr ""
+msgstr "Ρουμάνικος σκαντζόχοιρος"
 
 msgid "Southern white-breasted hedgehog"
-msgstr ""
+msgstr "Ανατολικός σκαντζόχοιρος"
 
 msgid "Apennine hare"
-msgstr ""
+msgstr "Λαγός των Απέννινων"
 
 msgid ""
 "Relatively small with a white face, brown legs and a white or brown "
 "underbelly, highly visible, large ears and lack of spines on the crown of "
 "the head"
 msgstr ""
+"Σχετικά μικρός με λευκό πρόσωπο, καφέ πόδια και λευκή ή καφέ κοιλιά, "
+"ιδιαίτερα ορατά, μεγάλα αυτιά και έλλειψη ακανθών στο μέτωπο του κεφαλιού"
 
 msgid "Largest species of hedgehog and mostly brown in colour"
-msgstr ""
+msgstr "Το μεγαλύτερο είδος σκαντζόχοιρου, κυρίως καφετί σε χρώμα"
 
 msgid ""
 "Similar to Western hedgehog but identifiable by a white spot on its chest"
 msgstr ""
+"Παρόμοιος με το δυτικό σκαντζόχοιρο, αλλά ξεχωρίζει, χάρη στη λευκή κηλίδα "
+"στην κοιλιά του"
 
 msgid ""
 "Relatively small with grey-brown coat, a brown chest patch and white-grey "
 "underbelly, lacks black ear-tips and has proportionately shorter legs"
 msgstr ""
+"Σχετικά μικρό με γκρι-καφέ γούνα, μία καφέ κηλίδα στο στέρνο και λευκή-γκρί "
+"κοιλιά, το τελείωμα των αυτιών δεν είναι μαύρο και έχει, αναλογικά, "
+"μικρότερα πόδια"
 
 msgid ""
 "Brown and black back and white underbelly, black tail with white underside, "
 "brown-gray ears usually with black tips"
 msgstr ""
+"Καφέ και μαύρη ράχη και λευκή κοιλιά, μαύρη ουρά με λευκή κάτω πλευρά, καφέ-"
+"γκρι αυτιά συνήθως με μαύρο τελείωμα"
 
 msgid ""
 "Golden-brown back and a pale belly, white tail, relatively longer legs and "
 "ears with distinctive black tips"
 msgstr ""
+"Χρυσαφί--καφέ ράχη και ανοιχτόχρωμη κοιλιά, λευκή ουρά, σχετικά μακρύτερα "
+"πόδια και αυτιά με διακριτό μαύρο τελείωμα"
 
 msgid ""
 "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
 "ears than other hares"
 msgstr ""
+"Γκρι-καφέ γούνα το καλοκαίρι, λευκή γούνα το χειμώνα, αυτιά με μαύρο "
+"τελείωμα, μικρότερα αυτιά από άλλα είδη λαγών"
 
 msgid ""
 "Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
 " upper tail"
 msgstr ""
+"Καφέ ή γκρι-καφέ ράχη και πιο ανοιχτόχρωμη κοιλιά, αυτιά με αμύρο τελείωμα "
+"και μαύρη άνω όψη ουράς"
 
 msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
 msgstr ""
+"Κόκκινη-καφέ γούνα και ανοιχόχρωμη κοιλιά με φουντωτή ουρά και μεγάλους "
+"θύσανους τριχών στα αυτιά"
 
 msgid ""
 "Grey-brown or red-brown back and pale grey underbelly, white stripe running "
 "along each side and sometimes another along the spine"
 msgstr ""
+"Γκρι-καφέ ή κόκκινη-καφέ ράχη και ανοιχτή γκρι κοιλιά, λευκή λωρίδα που "
+"διατρέχει το σώμα πλευρικά και μερικές φορές άλλη μία ραχιαία, κατά μήκος "
+"της σπονδυλικής στήλης"
 
 msgid ""
 "Relatively small with dark-brown fur, white spots on its back and a short, "
 "thin tail"
 msgstr ""
+"Σχετικά μικρός μα σκούρα καφέ γούνα, άσπρες κηλίδες στη ράχη και κοντή, "
+"λεπτή ουρά"
 
 msgid ""
 "Brown coat with orange markings on the back and a beige to orange "
 "underbelly, white band between muzzle and eyes, small ears, short legs and a"
 " bushy brown tail with a black tip"
 msgstr ""
+"Καφέ γούνα με πορτοκαλί σημάδια στη ράχη και μπεζ έως πορτοκαλί κοιλιά, "
+"λευκή λωρίδα ανάμεσα στο ρύγχος και τα μάτια, μικρά αυτιά, κοντά πόδια και "
+"μια φουντωτή, καφέ ουρά με μαύρο τελείωμα"
 
 msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
 "eyes and ears and a flattened, scaly tail"
 msgstr ""
+"Καστανή-καφέ έως μαύρη-καφέ γούνα, ογκώδες, επίπεδο κεφάλι, μικρά μάτια και "
+"αυτιά και μία πεπλατυσμένη, φολιδωτή ουρά"
 
 msgid ""
 "Invasive species: Coarse, dark brown outer fur with soft dense grey under "
 "fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
 "large, bright orange-yellow incisors"
 msgstr ""
+"Χωροκατακτητικό είδος: Αδρό, σκούρο καφέ τρίχωμα με μαλακό, πυκνό γκρι "
+"χνούδι, που χαρακτηρίζεται από μία λευκή επιφάνεια στο ρύγχος, τα πίσω πόδια"
+" με νηκτική μεμβράνη. Φέρει μεγάλους, έντονα πορτοκαλί-κίτρινους κοπτήρες"
 
 msgid ""
 "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
@@ -565,612 +625,765 @@ msgid ""
 "brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
 "on the cheeks."
 msgstr ""
+"Χωροκατακτητικό είδος: Ανομοιόμορφη χρωματικά, μπεζ-καφέ ή καφέ-γκρι γούνα "
+"με μαύρες αδρές τρίχες το χειμώνα και φωτεινότερη, κοκκινωπή-μπεζ γούνα το "
+"καλοκαίρι. Κιτρινωπή-καφέ κοιλιά, σκούρο καφέ ή μαυριδερό στέρνο, με μακριές"
+" τρίχες στα μάγουλα που μοιάζουν με απτικούς μύστακες."
 
 msgid ""
 "Often not fully brown, have long, thick fur, with a moderately long mane at "
 "the back of the neck"
 msgstr ""
+"Συχνά όχι πλήρως καφέ, έχουν μακριά, παχιά γούνα, με μετρίως μακριά χαίτη "
+"στο πίσω μέρος του λαιμού"
 
 msgid ""
 "Coat color ranges from almost pure white through various shades of blonde, "
 "cream and ochre to greys, browns and blacks, long, dense fur and long, "
 "coarse guard hairs."
 msgstr ""
+"Το χρώμα της γούνας κυμαίνεται από σχεδόν καθαρό λευκό, περνά από διάφορες "
+"αποχρώσεις ξανθού, κρέμ και ώχρας, καταλήγοντας έως και σε αποχρώσεις του "
+"γκρι, του καφέ και του μαύρου, μακρύ πυκνό τρίχωμα και μεγάλες αδρές τρίχες."
 
 msgid ""
 "Similar to the grey wolf but is distinguished by its smaller size, more "
 "elongated torso, less prominent forehead, shorter legs and tail and a more "
 "narrow, pointed muzzle"
 msgstr ""
+"Παρόμοιο με το λύκο, αλλά διακρίνεται από το μικρότερο μέγεθος, τον πιο "
+"επιμήκη κορμό, το λιγότερο εμφανές μέτωπο, τα κοντύτερα πόδια και ουρά και "
+"ένα πιο στενό, μυτερό ρύγχος"
 
 msgid ""
 "Orange-red fur with a white underbelly, black tips to the ears, dark brown "
 "feet and a white tip to the bushy, orange tail"
 msgstr ""
+"Πορτοκαλί-κόκκινη γούνα με λευκή κοιλιά, μαύρο τελείωμα στα αυτιά, σκούρα "
+"καφέ πόδια και λευκό τελείωμα στη φουντωτή, πορτοκαλί ουρά"
 
 msgid ""
 "Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
 "distinguished from mink by their much larger size and broader face"
 msgstr ""
+"Γκρι-καφέ γούνα, με πλατύ ρύγχος και ανοιχτόχρωμο στέρνο και λαιμό, μπορεί "
+"να διακριθεί από το μινκ, λόγω του αρκετά μεγαλύτερου μεγέθους του και του "
+"ευρύτερου προσώπου του"
 
 msgid ""
 "Large and grey, with a short, fluffy tail, black belly and paws, and a "
 "black-and-white striped face"
 msgstr ""
+"Μεγάλος και γκρι, με κοντή, χνουδωτή ουρά, μαύρη κοιλιά και πέλματα, και "
+"ασπρόμαυρο, ριγέ πρόσωπο"
 
 msgid ""
 "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
 " pointed snout, small ears, long black tipped tail, and furless hind feet "
 "and facial area"
 msgstr ""
+"Χωροκατακτητικό είδος: Μακριά, τραχιά γκρι έως κόκκινη-καφέ γούνα με μερικές"
+" κίτρινες τρίχες, μυτερό ρύγχος, μικρά αυτιά, μακριά ουρά με μαύρο τελείωμα "
+"και απουσία τριχών στις πίσω πατούσες και στην περιοχή του προσώπου"
 
 msgid ""
 "Invasive species: Small and slender body with pale to dark brown fur, golden"
 " flecks and a pale underbelly, short legs and small rounded ears located on "
 "the side of its head, bushy tail"
 msgstr ""
+"Χωροκατακτητικό είδος: Μικρό και λεπτό σώμα με ανοιχτόχρωμη έως σκούρα καφέ "
+"γούνα, χρυσές κηλίδες και ανοιχτόχρωμη κοιλιά, κοντά πόδια και μικρά "
+"αποστρογγυλεμένα αυτιά, τοποθετημένα πλευρικά στο κεφάλι, φουντωτή ουρά"
 
 msgid ""
 "Pale yellow-grey coat with black spots on the sides, a black stripe along "
 "the spine and a striped, bushy tail, slender body with a pointed muzzle, "
 "large eyes, large ears and whiskers"
 msgstr ""
+"Ανοιχτή κίτρινη-γκρι γούνα με μαύρες κηλίδες στις πλευρές, μια μαύρη λωρίδα "
+"κατά μήκος της σπονδυλικής στήλης και μια ριγέ, θυσανώδη ουρά, λεπτό σώμα με"
+" μυτερό ρύγχος, μεγάλα μάτια, μεγάλα αυτιά και μουστάκια"
 
 msgid ""
 "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
 "banding on the tail and body"
 msgstr ""
+"Μεγαλύτερη και πιο στιβαρή από μια γάτα με ραβδώσεις, με πιο χνουδωτή, "
+"αμβλεία ουρά, και ουρά και σώμα με χαρακτηριστικές ραβδώσεις."
 
 msgid ""
 "Red-brown fur in summer and silver-grey thicker fur in winter, white "
 "underbelly, spotted pattern, distinctive black hair tufts on its ears, "
 "black-tipped tail and a facial ruff of white fur"
 msgstr ""
+"Κόκκινη-καστανή γούνα το καλοκαίρι και ασημί-γκρι, παχύτερη γούνα το "
+"χειμώνα, λευκή κοιλιά, χρωματικό΄μοτίβο με στίγματα, χαρακτηριστικούς "
+"μαύρους θύσσανους τριχών στα αυτιά του, ουρά με μαύρο τελείωμα και ένα δίσκο"
+" λευκών τριχών στο πρόσωπο"
 
 msgid ""
 "Yellow to tawny short fur, spotted pattern, short body, long legs, short "
 "tail, small head with tufted ears and facial whiskers."
 msgstr ""
+"Ξανθή έως καστανόξανθη κοντή γούνα, χρωματικό μοτίβο με στίγματα, κοντό "
+"σώμα, μακριά πόδια, κοντή ουρά, μικρό κεφάλι με αυτιά που φέρουν θύσανους "
+"τριχών στην άκρη τους και απτικούς μύστακες."
 
 msgid ""
 "Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
 "body with heavy-set shoulders, a large head with tusks in both sexes, males "
 "have a ridge of hair along the upper spine"
 msgstr ""
+"Αδρύ τρίχωμα που μπορεί να είναι σκούρο γκρι, καφέ, αμμώδες-καφέ ή μαύρο, "
+"μυώδες σώμα με βαριούς ώμους, μεγάλο κεφάλι με χαυλιόδοντες και στα δύο "
+"φύλα, τα αρσενικά έχουν μια προεξέχουσα σειρά τριχών κατά μήκος του πρόσθιου"
+" τμήματος της σπονδυλικής στήλης"
 
 msgid ""
 "Short golden-brown coat, longer hair along the upper spine, longer tail and "
 "long, upward-curving horns"
 msgstr ""
+"Κοντή χρυσή-καφέ γούνα, μακρύτερο τρίχωμα κατά μήκος της άνω τμήματος της "
+"σπονδυλικής στήλης, μακρύτερη ουρά και μακριά κέρατα, στραμμένα προς τα πάνω"
 
 msgid ""
 "Males are red-brown with a white saddle patch, females are brown, males have"
 " helix-shaped backward-curving horns, with a white tone on anal region, legs"
 " and the snout. "
 msgstr ""
+"Τα αρσενικά είναι κόκκινα-καφέ με λευκή κηλίδα στο μέσο της ράχης, τα θηλυκά"
+" είναι καφέ, τα αρσενικά έχουν ελικοειδή κέρατα στραμμένα προς τα πίσω, με "
+"λευκό τόνο στην πρωκτική περιοχή, τα πόδια και το ρύγχος."
 
 msgid ""
 "Brownish grey coat with darker markings on the chin, throat and back; males "
 "have large, curved horns"
 msgstr ""
+"Καφέτι-γκρι γούνα με πιο σκούρα σημάδια στο πηγούνι, στο λαιμό και στη ράχη."
+" Τα αρσενικά έχουν μεγάλα, κυρτά κέρατα"
 
 msgid ""
 "Brown coat with short legs and large hooves; males have large, curved horns"
 msgstr ""
+"Καφέ γούνα με κοντά πόδια και μεγάλες οπλές. Τα αρσενικά έχουν μεγάλα, κυρτά"
+" κέρατα"
 
 msgid ""
 "Small size, short and straight horns, brown or grey coat with white markings"
 " on the sides of the head and rump, and black stripes below the eyes and "
 "along the back"
 msgstr ""
+"Μικρό μέγεθος, κοντά και ίσια κέρατα, καφέ ή γκρι γούνα με λευκά σημάδια "
+"πλαυρικά του κεφαλιού και των γλουτών, και μαύρες ρίγες κάτω από τα μάτια "
+"και κατά μήκος της ράχης"
 
 msgid ""
 "Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
 "hooked horns"
 msgstr ""
+"Κοκκινωπή-καφέ έως μαύρη-καφέ γούνα, σκούρες κηλίδες γύρω από τα μάτια, "
+"αγκιστρωτά κέρατα, στραμμένα προς τα πίσω"
 
 msgid ""
 "Reddish-brown to grey coat, may have patches of different colouration on the"
 " back, males have antlers, relatively long tail"
 msgstr ""
+"Κοκκινωπή-καφέ έως γκρι γούνα, μπορεί να έχει κηλίδες διαφορετικής απόχρωσης"
+" στη ράχη, τα αρσενικά έχουν διακλαδισμένα κέρατα, σχετικά μακριά ουρά"
 
 msgid ""
 "Typically chestnut coat with white markings but may also be fully white or "
 "black, males have antlers"
 msgstr ""
+"Συνήθως καστανή γούνα με λευκά σημάδια αλλά μπορεί επίσης να είναι εντελώς "
+"λευκή ή μαύρη, τα αρσενικά έχουν διακλαδισμένα κέρατα"
 
 msgid ""
 "Large with dark brown coat, large antlers, hooves and a fold of skin under "
 "the chin"
 msgstr ""
+"Μεγάλο ζώο με σκούρα καφέ γούνα, μεγάλα διακλαδισμένα κέρατα, οπλές και μια "
+"αναδίπλωση δέρματος κάτω από το πηγούνι"
 
 msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
 "prongs"
 msgstr ""
+"Σχετικά μικρό ελάφι με πορτοκαλί-καφέ γούνα, τα αρσενικά έχουν διακλαδισμένα"
+" κέρατα με 2-4 αιχμές"
 
 msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
 " coat, males have upright antlers, females have distinctive black bumps"
 msgstr ""
+"Ο χρωματισμός της γούνας μπορεί να κυμαίνεται από κοκκινωπός-καφέ έως μαύρος"
+" (μερικές φορές και λευκός) και με παρουσία στιγμάτων, τα αρσενικά έχουν "
+"όρθια διακλαδισμένα κέρατα, τα θηλυκά έχουν χαρακτηριστικά μαύρα εξογκώματα "
+"αντί για κέρατα"
 
 msgid ""
 "Medium sized deer, golden coat with distinctive white spots and a white "
 "underbelly, conspicuous black stripe along the spine, males have three-"
 "pronged antlers"
 msgstr ""
+"Μεσαίου μεγέθους ελάφια, χρυσή γούνα με χαρακτηριστικά λευκά στίγματα και "
+"λευκή κοιλιά, εμφανή μαύρη λωρίδα κατά μήκος της σπονδυλικής στήλης, τα "
+"αρσενικά έχουν διακλαδισμένα, τρισχιδή κέρατα"
 
 msgid ""
 "Reddish-brown to grey-brown coat, characteristic white underside to the "
 "tail, males have antlers with a variable number of prongs"
 msgstr ""
+"Κοκκινωπή-καφέ έως γκρι-καφέ γούνα, χαρακτηριστικό άσπρο κάτω μέρος της "
+"ουράς, τα αρσενικά έχουν κέρατα με αριθμό διακλαδώσεων που ποικίλλει"
 
 msgid ""
 "Invasive species: Grey-brown and white coat with long fur and a bushy, "
 "striped tail, characteristic black markings around the eyes contrasted by "
 "white face"
 msgstr ""
+"Χωροκατακτητικό είδος:  Γκρι-καφέ και άσπρη γούνα με μακρύ τρίχωμα και μια "
+"φουντωτή, ριγέ ουρά, χαρακτηριστικά μαύρα σημάδια γύρω από τα μάτια, σε "
+"αντίθεση με το λευκό πρόσωπο"
 
 msgid ""
 "Sandy brown coat with a lighter underbelly and a darker line along the back,"
 " shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr ""
+"Αμμώδης καφέ γούνα  με αχνότερη κοιλιά και πιο σκούρα γραμμή κατά μήκος της "
+"ράχης, κρεμαστές τρίχες στο λαιμό και λεία, κεκαμμένα προς τα πίσω κέρατα"
 
 msgid ""
 "Relatively small with brown fur with no obvious spots, and a short bushy "
 "tail"
 msgstr ""
+"Σχετικά μικρό σώμα με καφέ γούνα, χωρίς εμφανείς κηλίδες και μια κοντή "
+"φουντωτή ουρά"
 
 msgid ""
 "A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
 " upper arms."
 msgstr ""
+"Ένα μικρό καγκουρό με στητό σώμα, καφετί γκρι με καστανή κηλίδα στο λαιμό "
+"και τα άνω άκρα."
 
 msgid "A small hedgehog with pale face and long ears."
-msgstr ""
+msgstr "Ένας μικρός σκαντζόχοιρος με ανοιχτόχρωμο πρόσωπο και μακριά αυτιά"
 
 msgid ""
 "Introduced to Northern Italy. Very similar to European rabbit but more "
 "compact with shorter ears."
 msgstr ""
+"Έχει εισαχθεί στη Βόρεια Ιταλία. Μοιάζει πολύ στο ευρωπαϊκό αγριοκούνελο, "
+"αλλά με πιο συμπαγές σώμα και κοντύτερα αυτιά."
 
 msgid ""
 "Paler than the brown hare, with very small black tips to the ears. "
 "Restricted to Sardinia."
 msgstr ""
+"Πιο ανοιχτόχρωμος από τον κοινό (καφέ) λαγό, με πολύ μικρό μαύρο τελείωμα "
+"στα αυτιά. Η εξάπλωσή του περιορίζεται στη Σαρδηνία."
 
 msgid ""
 "Similar to but slightly smaller than the brown hare, with relatively longer "
 "ears and hindlegs."
 msgstr ""
+"Παρόμοιος, αλλά ελαφρώς μικρότερος από τον κοινό (καφέ) λαγό, με σχετικά "
+"μακρύτερα αυτιά και πίσω πόδια."
 
 msgid ""
 "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
 "winter."
 msgstr ""
+"Γκρι στη ράχη, με κοκκινωπές πλευρές. Ουρά μικρότερη από το σώμα και χωρίς "
+"θύσανους τριχών κατά το χειμώνα."
 
 msgid ""
 "Invasive species: Silver/grey coat with brownish tinge on feet and face. "
 "Tail fringed with white. Larger than red squirrel."
 msgstr ""
+"Χωροκατακτητικό είδος: Ασημί/γκρι γούνα με καφετί απόχρωση στις πατούσες και"
+" στο πρόσωπο. Ουρά πλαισιωμένη με λευκό. Μεγαλύτερος από τον κόκκινο "
+"σκίουρο."
 
 msgid ""
 "The dorsal part of the body, head, neck, feet and tail are black; the "
 "abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
 "than Italian populations of red squirrel."
 msgstr ""
+"Η ραχιαία όψη του σώματος, το κεφάλι, ο λαιμός, τα πόδια και η ουρά είναι "
+"μαύρα, η κοιλιά είναι λευκή. Θύσανοι τριχών στα αυτιά μόνο το χειμώνα. Χωρίς"
+" φυλετικό διμορφισμό. Μεγαλύτερος από τους ιταλικούς πληθυσμούς του κόκκινου"
+" σκίουρου."
 
 msgid ""
 "Invasive species: Similar in size to red squirrel, back is olive-brown and "
 "belly russet. White tip to the tail."
 msgstr ""
+"Χωροκατακτητικό είδος: Παρόμοιος σε μέγεθος με τον κόκκινο σκίουρο, η ράχη "
+"είναι λαδο-καφέ και καφε-πορτοκαλί κοιλιά. Λευκό τελείωμα στην ουρά."
 
 msgid ""
 "Invasive species: Similar in size to red squirrel. Longer tail. Back is "
 "olive-brown and underside cream, extending onto face."
 msgstr ""
+"Χωροκατακτητικό είδος: Παρόμοιος σε μέγεθος με τον κόκκινο σκίουρο. "
+"Μεγαλύτερη ουρά. Η ράχη είναι λαδί-καφέ και η κάτω πλευρά κρεμ, εκτεινόμενη "
+"στο πρόσωπο."
 
 msgid ""
 "Smallest souslik with yellow to brownish fur and no obvious spots. White "
 "throat and chest with a short tail."
 msgstr ""
+"Ο μικρότερος λαγόγυρος με κίτρινη έως καφετί γούνα και χωρίς εμφανή "
+"ανοιχτόχρωμα στίγματα. Λευκός λαιμός και στέρνο, κοντή ουρά."
 
 msgid "A large marmot with overall brownish fur and short tail."
-msgstr ""
+msgstr "Μεγάλη μαρμότα με συνολικά καφετί γούνα και κοντή ουρά"
 
 msgid ""
 "A small squirrel with rounded head, and membrane between fore and hind legs."
 " Greyish above and lighter below."
 msgstr ""
+"Mικρός σκίουρος με αποστρογγυλεμένο κεφάλι και δερματική πτυχή που ενώνει "
+"μεταξύ τους τα εμπρός και τα πίσω πόδια. Γκρι χρωματισμός ραχιαία και πιο "
+"ανοιχτόχρωμος κοιλιακά."
 
 msgid ""
 "Invasive species: Yellow-brown coat with four white stripes and five dark "
 "stripes along the back and a white chest and belly"
 msgstr ""
+"Χωροκατακτητικό είδος: Κίτρινη-καφέ γούνα με τέσσερις άσπρες ρίγες και πέντε"
+" σκούρες ρίγες κατά μήκος της πλάτης, και λευκό στέρνο και κοιλιά"
 
 msgid ""
 "Very similar to European beaver, with flattened scaly tail, but darker fur."
 msgstr ""
+"Μοιάζει πολύ με τον ευρωπαϊκό κάστορα, με πεπλατυσμένη, φολιδωτή ουρά, αλλά "
+"πιο σκούρα γούνα."
 
 msgid ""
 "A porcupine with typical black and white quills that run along the body"
 msgstr ""
+"Ένας ακανθόχοιρος με τυπικές ασπρόμαυρες άκανθες, τοποθετημένες κατά μήκος "
+"του σώματος"
 
 msgid "Elongated shilhouette, small ears and white to yellowish fur."
-msgstr ""
+msgstr "Επιμηκυσμένη σιλουέτα, μικρά αυτιά και λευκή έως κιτρινωπή γούνα."
 
 msgid ""
 "Small fox with short ears. White in winter and in summer grey on the back "
 "and lighter underneath."
 msgstr ""
+"Μικρή αλεπού με κοντά αυτιά. Λευκή το χειμώνα και γκρι ράχη, πιο "
+"ανοιχτόχρωμη κοιλιακά το καλοκαίρι."
 
 msgid ""
 "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
 "than the similar weasel, has a longer tail and has a distinctive bounding "
 "gait, arching its back as it moves"
 msgstr ""
+"Πορτοκαλί-καφέ ράχη, κρεμ λαιμός και κοιλιά, και ουρά με μαύρο τελείωμα. "
+"Μεγαλύτερη από την νυφίτσα, με την οποία μοιάζει, έχει μακρύτερη ουρά και "
+"χαρακτηριστική αλματώδη βάδιση, καμπυλώνοντας τη ράχη της καθώς κινείται"
 
 msgid ""
 "Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
 " by paler fur"
 msgstr ""
+"Κίτρινη-καφέ γούνα με σκούρα άκρα και μια σκούρα μάσκα κατά πλάτος του "
+"προσώπου, σε αντίθεση με την πιο ανοιχτόχρωμη γούνα"
 
 msgid ""
 "Dark brown to red-brown coat, elongated body with short limbs and a short "
 "tail. Fur is pure white around the mouth"
 msgstr ""
+"Σκούρο καφέ έως κόκκινη-καφέ γούνα, επιμηκυσμένο σώμα με κοντά άκρα και "
+"κοντή ουρά. Η γούνα είναι αμιγώς λευκή γύρω από το στόμα"
 
 msgid ""
 "Orange-brown back and a cream throat and underbelly, smaller than the "
 "similar stoat, shorter tail with no black tip, and a running gait with a "
 "straight back"
 msgstr ""
+"Πορτοκαλί-καφέ ράχη και κρέμ λαιμός και κοιλιά, μικρότερο μέγεθος από την "
+"παρόμοια ερμίνα, κοντύτερη ουρά χωρίς μαύρο τελείωμα και βάδιση με επίπεδη "
+"ράχη"
 
 msgid ""
 "Dark brown colour with a pale underbelly and a dark mask-shape across the "
 "pale face"
 msgstr ""
+"Σκούρο καφέ χρώμα με ανοιχτόχρωμη κοιλιά και μια σκούρα περιοχή, σχήματος "
+"μάσκας, κατά πλάτος του ανοιχτόχρωμου προσώπου"
 
 msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
 msgstr ""
+"Χωροκατακτητικό είδος: Καφέ-μαύρη γούνα, στενό ρύγχος, μικρό, άσπρο πηγούνι"
 
 msgid ""
 "Light brown coat with a cream chest and throat extending to top of legs, "
 "longer tail, more elongated and angular head with shorter, more rounded and "
 "widely spaced ears"
 msgstr ""
+"Ανοιχτή καφέ γούνα  με κρεμ χρώμα στο στήθος και στο λαιμό,, που "
+"επεκτείνεται στο άνω τμήμα των ποδιών, μακρύτερη ουρά, πιο επιμηκυσμένο και "
+"γωνιώδες κεφάλι με κοντύτερα, πιο αποστρογγυλεμένα και απομακρυσμένα μεταξύ "
+"τους αυτιά"
 
 msgid ""
 "Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
 "throat and a long, bushy tail"
 msgstr ""
+"Καστανό-καφέ χρώμα, χαρακτηριστικό απαλή κίτρινη κηλίδα στο πηγούνι και στο "
+"λαιμό και μια μακριά, φουντωτή ουρά"
 
 msgid ""
 "Typical polecat face (dark mask on a pale face), but with large white to "
 "yellow spots on its back."
 msgstr ""
+"Τυπικό πρόσωπο κουναβιού (σκούρα μάσκα σε ανοιχτόχρωμο πρόσωπο), αλλά με "
+"μεγάλες λευκές προς κίτρινες κηλίδες στη ράχη."
 
 msgid "Resembles a small bear with a tail. Dark brown and stocky."
 msgstr ""
+"Μοιάζει με μικρή αρκούδα με ουρά. Σκούρος καφέ χρωματισμός και στιβαρό σώμα."
 
 msgid ""
 "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
 "summer and greyish brown in winter. Horns curve backward and males have a "
 "large black beard."
 msgstr ""
+"Δεν είναι άγρια ​​αίγα. Φυσικοί πληθυσμοί της υπάρχουν στην Κρήτη. Ανοιχτή "
+"κοκκινωπή-καφέ το καλοκαίρι και γκριζωπή-καφέ το χειμώνα. Τα κέρατα είναι "
+"κυρτά προς τα πίσω και τα αρσενικά έχουν ένα μεγάλο μαύρο μούσι."
 
 msgid "A massive bovine with very long hair, and hooked horns."
-msgstr ""
+msgstr "Ένα τεράστιο βοοειδές με πολύ μακρύ τρίχωμα και αγκιστρωτά κέρατα."
 
 msgid ""
 "Both sexes grow antlers with two sets of points, one growing forward and one"
 " backward. Coat dark brown in summer and lighter in winter."
 msgstr ""
+"Και τα δύο φύλα αναπτύσσουν κέρατα με δύο σετ από μύτες, το ένα στραμμένο "
+"προς τα εμπρός και άλλο προς τα πίσω. Γούνα σκούρα καφέ το καλοκαίρι και πιο"
+" ανοιχτόχρωμη το χειμώνα."
 
 msgid ""
 "Invasive species: A small deer with rounded back and head often held low. "
 "Simple backward pointing antlers on male."
 msgstr ""
+"Χωροκατακτητικό είδος: Μικρό ελάφι με αποστρογγυλεμένη ράχη και κεφάλι που "
+"συχνά κρατιέται χαμηλά. Απλά, διακλαδισμένα κέρατα στα αρσενικά, στραμμένα "
+"προς τα πίσω."
 
 msgid ""
 "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
 "antlers but males have long curved tusks."
 msgstr ""
+"Μικρό ελάφι με αμμώδη-καφέ γούνα. Πιο ανοιχτόχρωμο το χειμώνα. Οπίσθιο τμήμα"
+" ράχης στο ίδιο χρώμα. Δεν φέρουν διακλαδισμένα κέρατα, αλλά στα αρσενικά "
+"είναι μακριά και κυρτά."
 
 msgid ""
 "Very similar to the Northern white-breasted hedgehog with a white patch "
 "underneath of varying dimensions, and slightly larger than E roumanicus"
 msgstr ""
+"Πολύ παρόμοιος με τον ρουμάνικο σκαντζόχοιρο  με μία λευκή περιοχή κοιλιακά,"
+"  που ποικίλει σε διαστάσεις, αν και ελαφρώς μεγαλύτερη από του E. "
+"roumanicus"
 
 msgid ""
 "Invasive species: the largest vole but smaller than beaver or coypu with a "
 "laterally compressed tail."
 msgstr ""
+"Χωροκατακτητικό είδος: πολύ μεγάλο τρωκτικό, αλλά μικρότερο από τον κάστορα "
+"ή το μυοκάστορα με πλευρικώς πεπιεσμένη ουρά."
 
 msgid "Muskrat"
-msgstr ""
+msgstr "Μοσχοποντικός"
 
 msgid "Algerian hedgehog"
-msgstr ""
+msgstr "Σκαντζόχοιρος Αλγερίας"
 
 msgid "Western hedgehog"
-msgstr ""
+msgstr "Δυτικός σκαντζόχοιρος"
 
 msgid "Eastern hedgehog"
-msgstr ""
+msgstr "Ανατολικός σκαντζόχοιρος"
 
 msgid "European rabbit"
-msgstr ""
+msgstr "Αγριοκούνελο"
 
 msgid "Broom hare"
-msgstr ""
+msgstr "Λαγός της Κανταβρίας"
 
 msgid "Brown hare"
-msgstr ""
+msgstr " (κοινός) Λαγός"
 
 msgid "Mountain hare"
-msgstr ""
+msgstr "Αλπικός λαγός"
 
 msgid "Granada hare"
-msgstr ""
+msgstr "Ιβηρικός λαγός"
 
 msgid "Red squirrel"
-msgstr ""
+msgstr "Κόκκινος σκίουρος"
 
 msgid "Barbary ground squirrel"
-msgstr ""
+msgstr "Σκίουρος Β. Αφρικής"
 
 msgid "Spotted souslik"
-msgstr ""
+msgstr "Στικτός λαγόγυρος"
 
 msgid "European Souslik"
-msgstr ""
+msgstr "Λαγόγυρος"
 
 msgid "Alpine marmot"
-msgstr ""
+msgstr "Mαρμότα"
 
 msgid "European beaver"
-msgstr ""
+msgstr "Κάστορας"
 
 msgid "Coypu"
-msgstr ""
+msgstr "Μυοκάστορας"
 
 msgid "Raccoon dog"
-msgstr ""
+msgstr "Σκύλος ρακούν"
 
 msgid "Brown bear"
-msgstr ""
+msgstr "Αρκούδα"
 
 msgid "Grey wolf"
-msgstr ""
+msgstr "Λύκος"
 
 msgid "Golden jackal"
-msgstr ""
+msgstr "Τσακάλι"
 
 msgid "Red fox"
-msgstr ""
+msgstr "Αλεπού"
 
 msgid "European otter"
-msgstr ""
+msgstr "Βίδρα"
 
 msgid "Eurasian badger"
-msgstr ""
+msgstr "Ασβός"
 
 msgid "Egyptian mongoose"
-msgstr ""
+msgstr "Αιγυπτιακή μαγκούστα"
 
 msgid "Small Indian mongoose"
-msgstr ""
+msgstr "Μικρή ασιατική μαγκούστα"
 
 msgid "Common genet"
-msgstr ""
+msgstr "Κοινή γενέττα"
 
 msgid "Wildcat"
-msgstr ""
+msgstr "Αγριόγατα"
 
 msgid "Eurasian lynx"
-msgstr ""
+msgstr "Λύγκας"
 
 msgid "Iberian lynx"
-msgstr ""
+msgstr "Ιβηρικός λύγκας"
 
 msgid "Wild boar"
-msgstr ""
+msgstr "Αγριόχοιρος"
 
 msgid "European bison"
-msgstr ""
+msgstr "Ευρωπαϊκός βίσωνας"
 
 msgid "European mouflon"
-msgstr ""
+msgstr "Μουφλόν"
 
 msgid "Alpine ibex"
-msgstr ""
+msgstr "Αλπικός αίγαγρος"
 
 msgid "Spanish ibex"
-msgstr ""
+msgstr "Ισπανικός αίγαγρος"
 
 msgid "Chamois, Alpine"
-msgstr ""
+msgstr "Αγριόγιδο"
 
 msgid "Chamois, southern"
-msgstr ""
+msgstr "Αγριόγιδο των Πυρηναίων"
 
 msgid "Red deer"
-msgstr ""
+msgstr "Ελάφι"
 
 msgid "Fallow deer"
-msgstr ""
+msgstr "Πλατώνι"
 
 msgid "Elk"
-msgstr ""
+msgstr "Άλκη"
 
 msgid "Roe deer"
-msgstr ""
+msgstr "Ζαρκάδι"
 
 msgid "Sika deer"
-msgstr ""
+msgstr "Ιαπωνικό ελάφι"
 
 msgid "Chital"
-msgstr ""
+msgstr "Στικτό ελάφι"
 
 msgid "White-tailed deer"
-msgstr ""
+msgstr "Αμερικάνικο ελάφι"
 
 msgid "Raccoon"
-msgstr ""
+msgstr "Ρακούν"
 
 msgid "Barbary sheep"
-msgstr ""
+msgstr "Αμμότραγος"
 
 msgid "Red-necked wallaby"
-msgstr ""
+msgstr "Ουάλαμπι του Μπένετ"
 
 msgid "Long-eared hedgehog"
-msgstr ""
+msgstr "Σκαντζόχοιρος"
 
 msgid "Eastern cottontail rabbit"
-msgstr ""
+msgstr "Αμερικάνικο κουνέλι"
 
 msgid "Cape hare"
-msgstr ""
+msgstr "Σκίουρος της Σαρδηνίας"
 
 msgid "Corsican hare"
-msgstr ""
+msgstr "Ιταλικός λαγός"
 
 msgid "Persian squirrel"
-msgstr ""
+msgstr "Ασιατικός σκίουρος"
 
 msgid "Grey squirrel"
-msgstr ""
+msgstr "Αμερικάνικος σκίουρος"
 
 msgid "Calabrian black squirrel"
-msgstr ""
+msgstr "Μαύρος σκίουρος της Καλαβρίας"
 
 msgid "Pallas’s squirrel"
-msgstr ""
+msgstr "Σκίουρος του Pallas"
 
 msgid "Thailand tree squirrel"
-msgstr ""
+msgstr "Σκίουρος της Ταϊλάνδης"
 
 msgid "Little souslik"
-msgstr ""
+msgstr "Μικρόσωμος λαγόγυρος"
 
 msgid "Bobak marmot"
-msgstr ""
+msgstr "Μαρμότα bobak"
 
 msgid "Russian flying squirrel"
-msgstr ""
+msgstr "Ιπτάμενος σκίουρος"
 
 msgid "Siberian chipmunk"
-msgstr ""
+msgstr "Σιβηρικός σκίουρος"
 
 msgid "American beaver"
-msgstr ""
+msgstr "Αμερικάνικος κάστορας"
 
 msgid "Crested porcupine"
-msgstr ""
+msgstr "Ύστριξ"
 
 msgid "Polar bear"
-msgstr ""
+msgstr "Πολική αρκούδα"
 
 msgid "Arctic fox"
-msgstr ""
+msgstr "Αρκτική αλεπού"
 
 msgid "Stoat"
-msgstr ""
+msgstr "Ερμίνα"
 
 msgid "Steppe polecat"
-msgstr ""
+msgstr "Κουνάβι της στέππας"
 
 msgid "European mink"
-msgstr ""
+msgstr "Ευρωπαϊκό μινκ"
 
 msgid "Weasel"
-msgstr ""
+msgstr "Νυφίτσα"
 
 msgid "Western polecat"
-msgstr ""
+msgstr "Βρωμοκούναβο"
 
 msgid "American mink"
-msgstr ""
+msgstr "Αμερικάνικο μινκ"
 
 msgid "Beech marten, Stone marten"
-msgstr ""
+msgstr "Πετροκούναβο"
 
 msgid "Pine marten"
-msgstr ""
+msgstr "Δενδροκούναβο"
 
 msgid "Marbled polecat"
-msgstr ""
+msgstr "Στικτοϊκτίδα"
 
 msgid "Wolverine"
-msgstr ""
+msgstr "Αδηφάγος"
 
 msgid "Wild goat"
-msgstr ""
+msgstr "Αίγαγρος"
 
 msgid "Musk ox"
-msgstr ""
+msgstr "Μοσχοφόρο βόδι"
 
 msgid "Reindeer"
-msgstr ""
+msgstr "Τάρανδος"
 
 msgid "Reeves’ muntjac"
-msgstr ""
+msgstr "Κινεζικό ζαρκάδι"
 
 msgid "Chinese water deer"
-msgstr ""
+msgstr "Κινέζικο ελάφι"
 
 msgid "Germany"
-msgstr ""
+msgstr "Γερμανία"
 
 msgid "Spain"
-msgstr ""
+msgstr "Ισπανία"
 
 msgid "Croatia"
-msgstr ""
+msgstr "Κροατία"
 
 msgid "Poland"
-msgstr ""
+msgstr "Πολωνία"
 
 msgid "North Macedonia"
-msgstr ""
+msgstr "Βόρεια Μακεδονία"
 
 msgid "Serbia"
-msgstr ""
+msgstr "Σερβία"
 
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 msgid "Country"
-msgstr ""
+msgstr "Χώρα"
 
 msgid "Elsewhere"
-msgstr ""
+msgstr "Αλλού"
 
 msgid "river"
-msgstr ""
+msgstr "ποτάμι"
 
 msgid "forest"
 msgstr "δάσος"
 
 msgid "shrubs"
-msgstr ""
+msgstr "θάμνοι"
 
 msgid "prairies"
-msgstr ""
+msgstr "λειβάδια"
 
 msgid "farmlands"
-msgstr ""
+msgstr "καλλιέργειες"
 
 msgid "alpine"
-msgstr ""
+msgstr "αλπικό"
 
 msgid "aquatic"
-msgstr ""
+msgstr "υδάτινο"
 
 msgid "underground"
-msgstr ""
+msgstr "υπόγειο"
 
 msgid "tree"
 msgstr "δέντρο"
@@ -1179,234 +1392,249 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 msgid "Habitats"
-msgstr ""
+msgstr "Ενδιαιτήματα"
 
 msgid "Mouse-rat"
-msgstr ""
+msgstr "Ποντικός-αρουραίος"
 
 msgid "Hedgehog-squirrel"
-msgstr ""
+msgstr "Σκαντζόχοιρος-σκίουρος"
 
 msgid "Rabbit-hare"
-msgstr ""
+msgstr "Κουνέλι-λαγός"
 
 msgid "Cats-medium size canivorous"
-msgstr ""
+msgstr "γάτες-μεσαίου μεγέθους σαρκοφάγα"
 
 msgid "Dog-Wildboar"
-msgstr ""
+msgstr "Σκύλος-αγριόχοιρος"
 
 msgid "Goat-Deers"
-msgstr ""
+msgstr "Κατσίκα-Ελάφια"
 
 msgid "Cow-Bison"
-msgstr ""
+msgstr "Αγελάδα-βίσoνας"
 
 msgid "Filter species size"
-msgstr ""
+msgstr "Φίλτρο ειδών με βάση το μέγεθος"
 
 msgid "undefined"
-msgstr ""
+msgstr "μη προσδιορισμένο"
 
 msgid "Date"
-msgstr ""
+msgstr "Ημερομηνία"
 
 msgid "Today"
-msgstr ""
+msgstr "Σήμερα"
 
 msgid "Number"
 msgstr "Αριθμός"
 
 msgid "Method"
-msgstr ""
+msgstr "Μέθοδος"
 
 msgid "Type"
-msgstr ""
+msgstr "Τύπος"
 
 msgid "Select species"
-msgstr ""
+msgstr "Επιλέξτε το είδος"
 
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr ""
+"Παρακαλώ χρησιμοποιείστε το GPS ή πατήστε στο χάρτη για να επιλέξετε την "
+"τοποθεσία σας."
 
 msgid "Location Accurracy"
-msgstr ""
+msgstr "Ακρίβεια τοποθεσίας"
 
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 msgid "How many individuals of this type?"
-msgstr ""
+msgstr "Πόσα άτομα αυτού του τύπου;"
 
 msgid "Direct observation"
-msgstr ""
+msgstr "Άμεση παρατήρηση"
 
 msgid "Camera trap"
-msgstr ""
+msgstr "Φωτοπαγίδα"
 
 msgid "Catch"
-msgstr ""
+msgstr "Σύλληψη"
 
 msgid "Road kill"
-msgstr ""
+msgstr "Νεκρό ζώο στο δρόμο"
 
 msgid "Field carcass"
-msgstr ""
+msgstr "Πτώμα στο πεδίο"
 
 msgid "Telemetry"
-msgstr ""
+msgstr "Τηλεμετρία"
 
 msgid "Other (specify in Comment)"
-msgstr ""
+msgstr "Άλλο (περιγράψτε στα Σχόλια)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε πώς παρατηρήθηκε αυτό το θηλαστικό"
 
 msgid "Alive"
-msgstr ""
+msgstr "Ζωντανό"
 
 msgid "Dead - roadkill"
-msgstr ""
+msgstr "Νεκρό στο δρόμο"
 
 msgid "Dead - other"
-msgstr ""
+msgstr "Νεκρό-άλλο"
 
 msgid "Indirect"
-msgstr ""
+msgstr "Έμμεσα"
 
 msgid "Print/trail"
-msgstr ""
+msgstr "Πατημασιά/ίχνος"
 
 msgid "Dropping"
-msgstr ""
+msgstr "Περίττωμα"
 
 msgid "Den/burrow"
-msgstr ""
+msgstr "Φωλιά/λαγούμι"
 
 msgid "Please specify the condition of the mammal."
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε την κατάσταση του θηλαστικού."
 
 msgid "Please add any extra info about this record."
 msgstr ""
+"Παρακαλώ προσθέστε οποιαδήποτε επιπρόσθετη πληροφορία, σχετική με αυτήν την "
+"καταγραφή."
 
 msgid "Enter more information here..."
-msgstr ""
+msgstr "Προσθέστε εδώ επιπρόσθετες πληροφορίες..."
 
 msgid "Upload"
-msgstr ""
+msgstr "Μεταφόρτωση"
 
 msgid "species"
-msgstr ""
+msgstr "είδος"
 
 msgid "Enter your username or email address to request a password reset."
 msgstr ""
+"Εισάγετε το όνομα χρήστη ή τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας, για "
+"να αιτηθείτε επαναφορά κωδικού."
 
 msgid "User not found."
-msgstr ""
+msgstr "Δεν βρέθηκε αυτός ο χρήστης."
 
 msgid "We've sent an email to you"
-msgstr ""
+msgstr "Σας έχουμε στείλει ηλεκτρονκό μήνυμα"
 
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
+"Πατήστε στο σύνδεσμο στο μήνυμα ηλεκτρονικού ταχυδρομείου για να επαναφέρετε"
+" τον κωδικό πρόσβασής σας. Εάν δεν βλέπετε το μήνυμα, ελέγξτε άλλα μέρη, "
+"όπως τα διεγραμμένα μηνύματα, τα ανεπιθύμητα μηνύματα ή άλλους φακέλους."
 
 msgid "App Development"
-msgstr ""
+msgstr "Ανάπτυξη εφαρμογής"
 
 msgid "This app was hand crafted with love by"
-msgstr ""
+msgstr "Αυτή η εφαρμογή δημιουργήθηκε με αγάπη από την"
 
 msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
+"εταιρία Flumens, η οποία εξειδικεύεται σε κατά παραγγελία λύσεις με "
+"προσανατολισμό στα δεδομένα."
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr ""
+msgstr "Για προτάσεις και απόψεις, παρακαλώ μη διστάσετε να"
 
 msgid "contact us"
-msgstr ""
+msgstr "επικοινωνήσετε μαζί μας"
 
 msgid "This App was produced through MammalNet and funded by EFSA."
 msgstr ""
+"Αυτή η εφαρμογή δημιουργήθηκε μέσω του MammalNet και χρηματοδοτήθηκε από την"
+" EFSA."
 
 msgid "Maps produced"
-msgstr ""
+msgstr "Παραγωγή χαρτών"
 
 msgid "Photo credits:"
-msgstr ""
+msgstr "Πηγές φωτογραφιών:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
+"Σημειώστε τυχόν νέες καταγραφές ως 'εκπαιδευτικές' και εξαιρέστε τις από "
+"όλες τις αναφορές."
 
 msgid "Distribution"
-msgstr ""
+msgstr "Εξάπλωση"
 
 msgid "Hedgehog"
-msgstr ""
+msgstr "Σκαντζόχοιρος"
 
 msgid "(unknown species)"
-msgstr ""
+msgstr "(άγνωστο είδος)"
 
 msgid "Shrew"
-msgstr ""
+msgstr "Μυγαλή"
 
 msgid "Mole"
-msgstr ""
+msgstr "Ασπάλακας"
 
 msgid "Lagomorph"
-msgstr ""
+msgstr "Λαγόμορφο"
 
 msgid "Rabbits and Hares"
-msgstr ""
+msgstr "Κουνέλια και Λαγοί"
 
 msgid "Small rodent"
-msgstr ""
+msgstr "Μικρό τρωκτικό"
 
 msgid "Vole"
-msgstr ""
+msgstr "Σκαπτοποντικός"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Ποντικός"
 
 msgid "Rat"
-msgstr ""
+msgstr "Αρουραίος"
 
 msgid "Other mustelid"
-msgstr ""
+msgstr "Άλλες μουστελίδες"
 
 msgid "Locating"
-msgstr ""
+msgstr "Εντοπισμός"
 
 msgid "Please add record location."
-msgstr ""
+msgstr "Παρακαλώ προσθέστε την τοποθεσία καταγραφής."
 
 msgid "Please select a species."
-msgstr ""
+msgstr "Παρακαλώ επιλέξτε ένα είδος."
 
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "Είστε ευχαριστημένοι με αυτήν την εφαρμογή;"
 
 msgid "Not really"
-msgstr ""
+msgstr "Μάλλον όχι"
 
 msgid "Yes!"
-msgstr ""
+msgstr "Ναι!"
 
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "Θα θέλατε να μας δώσετε κάποια σχόλια;"
 
 msgid "No, thanks"
-msgstr ""
+msgstr "Όχι, ευχαριστώ"
 
 msgid "OK, sure"
-msgstr ""
+msgstr "Ναι, βεβαίως"
 
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "Τι θα λέγατε για μία βαθμολόγηση στο App Store, λοιπόν;"
 
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "Τι θα λέγατε για μία βαθμολόγηση στο Play Store, λοιπόν;"
 
 msgid ""
 "Sightings can be recorded anywhere, with or without photos, and all records "
@@ -1414,100 +1642,107 @@ msgid ""
 "distribution of European mammals. You can check and update your records "
 "online."
 msgstr ""
+"Οι παρατηρήσεις μπορούν να καταγραφούν οπουδήποτε, με ή χωρίς φωτογραφίες, "
+"και όλες οι καταγραφές θα επαληθευτούν από ειδικούς και θα διατεθούν για να "
+"βοηθήσουν στη χαρτογράφηση της κατανομής των ευρωπαϊκών θηλαστικών. Μπορείτε"
+" να ελέγξετε και να ενημερώσετε τα αρχεία σας online."
 
 msgid ""
 "Users must first register, and can then log into a web site to view and "
 "correct records. Choice of country can be reviewed in the settings."
 msgstr ""
+"Οι χρήστες πρέπει πρώτα να εγγραφούν και, στη συνέχεια, μπορούν να συνδεθούν"
+" σε έναν ιστότοπο για να δουν και να διορθώσουν καταγραφές. Η επιλογή της "
+"χώρας μπορεί να ελεγχθεί στις ρυθμίσεις."
 
 msgid "Icons made by"
-msgstr ""
+msgstr "Τα εικονίδια έχουν δημιουργηθεί από "
 
 msgid "from"
-msgstr ""
+msgstr "από"
 
 msgid "Share App Analytics"
-msgstr ""
+msgstr "Κοινή χρήση ανάλυσης εφαρμογής"
 
 # Part of recording attributes pages
 msgid "Gender"
-msgstr ""
+msgstr "Φύλο"
 
 # Part of recording attributes pages
 msgid "Age"
-msgstr ""
+msgstr "Ηλικία"
 
 # Part of recording attributes pages
 msgid "Decomposition"
-msgstr ""
+msgstr "Αποσύνθεση"
 
 # Part of recording attributes pages
 msgid "Male"
-msgstr ""
+msgstr "Αρσενικό"
 
 # Part of recording attributes pages
 msgid "Female"
-msgstr ""
+msgstr "Θηλυκό"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε το φύλο του θηλαστικού."
 
 # Part of recording attributes pages
 msgid "Piglet"
-msgstr ""
+msgstr "Χοιρίδιο"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr ""
+msgstr "Ανήλικο"
 
 # Part of recording attributes pages
 msgid "Adult"
-msgstr ""
+msgstr "Ενήλικο"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr ""
+msgstr "Παρακαλώ προσδιορίστε την ηλικία του θηλαστικού."
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
-msgstr ""
+msgstr "Φρέσκο πτώμα"
 
 # Part of recording attributes pages
 msgid "Decomposed"
-msgstr ""
+msgstr "Σε αποσύνθεση"
 
 # Part of recording attributes pages
 msgid "Dry (just bones left)"
-msgstr ""
+msgstr "Ξηρό (απομένουν μόνο οστά)"
 
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
-msgstr ""
+msgstr "Παρακαλώ περιγράψτε την κατάσταση αποσύνθεσης του θηλαστικού."
 
 # Part of recording attributes pages
 msgid "Hunted"
-msgstr ""
+msgstr "Κυνηγημένο"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr ""
+msgstr "Άγνωστο"
 
 # Part of species profile external link
 msgid "Mammalnet"
-msgstr ""
+msgstr "Mammalnet"
 
 # Part of species profile external link
 msgid "web profile"
-msgstr ""
+msgstr "διαδικτυακό προφίλ"
 
 # An unkown species group
 msgid "Bats"
-msgstr ""
+msgstr "Νυχτερίδες"
 
 # An unkown species group
 msgid "Seals"
-msgstr ""
+msgstr "Φώκιες"
 
 # From About page
 msgid ""
@@ -1516,6 +1751,10 @@ msgid ""
 "in any European country, but does not yet have all European languages "
 "included."
 msgstr ""
+"Η εφαρμογή iMammalia έχει σχεδιαστεί για να ενθαρρύνει την καταγραφή "
+"θηλαστικών στη ​​φύση. Αυτή η έκδοση της εφαρμογής για κινητά έχει "
+"ρυθμιστεί, ώστε να επιτρέπει την εύκολη καταγραφή θηλαστικών σε οποιαδήποτε "
+"ευρωπαϊκή χώρα, αλλά δεν περιλαμβάνει ακόμη όλες τις ευρωπαϊκές γλώσσες."
 
 # From About page
 msgid ""
@@ -1524,3 +1763,8 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
+"Το iMammalia έχει σχεδιαστεί για να διευκολύνει την καταγραφή θηλαστικών. Τα"
+" μικρότερα θηλαστικά αναφέρονται επί του παρόντος μόνο σε επίπεδο γένους, "
+"καθώς είναι πολύ πιο δύσκολο να τα ξεχωρίσει κανείς. Οι μεταγενέστερες "
+"εκδόσεις θα περιλαμβάνουν περισσότερες χώρες, γλώσσες και είδη, ανάλογα με "
+"τη χρηματοδότηση."

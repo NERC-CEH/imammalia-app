@@ -1062,9 +1062,11 @@ msgid ""
 "Invasive species: the largest vole but smaller than beaver or coypu with a "
 "laterally compressed tail."
 msgstr ""
+"Invazivna vrsta: najveća voluharica, ali manja od dabra  s bočno spljoštenim"
+" repom."
 
 msgid "Muskrat"
-msgstr ""
+msgstr "Bizamski štakor"
 
 msgid "Algerian hedgehog"
 msgstr "Alžirski jež"
