@@ -146,6 +146,7 @@ describe('Helpers Analytics', () => {
       ];
       const processed = dataCallback({ breadcrumbs: { values } });
       expect(processed.breadcrumbs.values.length).to.be.equal(3);
+      // eslint-disable-next-line
       expect(processed.breadcrumbs.values[1].data.url.includes('_x2')).to.be
         .true;
     });

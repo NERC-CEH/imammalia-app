@@ -67,6 +67,7 @@ class Component extends React.Component {
 
     Log('Recommendations: asking for app review');
 
+    // eslint-disable-next-line
     window.LaunchReview.isRatingSupported()
       ? window.LaunchReview.rating()
       : window.LaunchReview.launch();

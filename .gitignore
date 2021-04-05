@@ -2,7 +2,10 @@
 .idea
 .sass-cache
 .npm-debug.log
-dist
+build/
+dist/
+cordova/
+resources/
 node_modules
 .env*
 *.patch

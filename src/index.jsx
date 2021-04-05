@@ -11,7 +11,10 @@ import savedSamples from 'saved_samples';
 import Analytics from 'helpers/analytics';
 import App from './App';
 
-// START Android back button disable 
+// Fixes Ionic + Webpack issue - TODO: remove once no longer needed
+window.process = { env: {} };
+
+// START Android back button disable
 function disableBackButton() {
   document.addEventListener(
     'backbutton',
@@ -25,7 +28,7 @@ function disableBackButton() {
 setupConfig({
   hardwareBackButton: false,
 });
-// END Android back button disable 
+// END Android back button disable
 
 async function init() {
   await appModel._init;

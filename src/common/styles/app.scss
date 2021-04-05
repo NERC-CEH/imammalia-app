@@ -1,7 +1,6 @@
-/******************************************************************************
- * App wide styles. Only place where tag only selectors allowed.
- *****************************************************************************/
 @import './theme.css';
+@import './photoswipe.css';
+@import '/node_modules/leaflet/dist/leaflet.css';
 
 $main-content-margin: '15px';
 

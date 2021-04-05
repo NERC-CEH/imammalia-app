@@ -117,7 +117,7 @@ function translate(key) {
     return key;
   }
 
-  return translation;
+  return translation[1];
 }
 
 window.t = translate;

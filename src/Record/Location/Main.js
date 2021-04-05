@@ -16,8 +16,8 @@ import L from 'leaflet';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
-import 'leaflet/dist/images/marker-icon-2x.png';
-import 'leaflet/dist/images/marker-shadow.png';
+import 'leaflet/dist/images/marker-icon-2x.png?originalName'; // eslint-disable-line
+import 'leaflet/dist/images/marker-shadow.png?originalName'; // eslint-disable-line
 
 L.Icon.Default.imagePath = '/images/';
 

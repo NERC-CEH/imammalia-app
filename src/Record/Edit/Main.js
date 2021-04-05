@@ -5,14 +5,14 @@ import { map, calendar, clipboard } from 'ionicons/icons';
 import { observer } from 'mobx-react';
 import dateHelp from 'helpers/date';
 import './styles.scss';
-import './skull.svg';
-import './footprint.svg';
-import './deer.svg';
-import './binoculars.svg';
-import './number.svg';
-import './gender.svg';
-import './age.svg';
-import './boar.svg';
+import './skull.svg?originalName';
+import './footprint.svg?originalName';
+import './deer.svg?originalName';
+import './binoculars.svg?originalName';
+import './number.svg?originalName';
+import './gender.svg?originalName';
+import './age.svg?originalName';
+import './boar.svg?originalName';
 
 const { print: prettyDate } = dateHelp;
 

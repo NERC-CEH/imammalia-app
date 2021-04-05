@@ -19,7 +19,7 @@ import {
 } from 'ionicons/icons';
 import config from 'config';
 import './styles.scss';
-import './logo.png';
+import './logo.png?originalName';
 
 const Component = observer(({ isLoggedIn, user, logOut, appModel }) => {
   const lang = appModel.get('language');
@@ -34,9 +34,7 @@ const Component = observer(({ isLoggedIn, user, logOut, appModel }) => {
             <IonIcon icon={exit} size="small" slot="start" />
             {t('Logout')}
             {': '}
-            {user.firstname} 
-            {' '}
-            {user.secondname}
+            {user.firstname} {user.secondname}
           </IonItem>
         )}
 

@@ -10,7 +10,6 @@ import { PhotoSwipe } from 'react-photoswipe';
 import { IonIcon, IonButton, IonFooter } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import ImageModel from 'common/models/image';
-import 'react-photoswipe/lib/photoswipe.css';
 import 'react-photoswipe/dist/default-skin.png';
 import './styles.scss';
 
@@ -49,7 +48,7 @@ function photoDelete(photo) {
  * Adds a new image to occurrence.
  */
 function addPhoto(occurrence, photo) {
-  return ImageHelp.getImageModel(ImageModel, photo).then(image => {
+  return ImageHelp.getImageModel(ImageModel, photo).then((image) => {
     occurrence.addMedia(image);
     return occurrence.save();
   });
@@ -73,7 +72,7 @@ class Footer extends Component {
 
     const occurrence = this.props.sample.getOccurrence();
     // TODO: show loader
-    addPhoto(occurrence, photo).catch(err => {
+    addPhoto(occurrence, photo).catch((err) => {
       Log(err, 'e');
       // TODO: show err
     });
@@ -94,9 +93,9 @@ class Footer extends Component {
               sourceType: window.Camera.PictureSourceType.PHOTOLIBRARY,
               saveToPhotoAlbum: false,
             })
-              .then(entry => {
+              .then((entry) => {
                 entry &&
-                  addPhoto(occurrence, entry.nativeURL, occErr => {
+                  addPhoto(occurrence, entry.nativeURL, (occErr) => {
                     if (occErr) {
                       showErrMsg(occErr);
                     }
@@ -110,9 +109,9 @@ class Footer extends Component {
           icon: 'camera',
           handler: () => {
             ImageHelp.getImage()
-              .then(entry => {
+              .then((entry) => {
                 entry &&
-                  addPhoto(occurrence, entry.nativeURL, occErr => {
+                  addPhoto(occurrence, entry.nativeURL, (occErr) => {
                     if (occErr) {
                       showErrMsg(occErr);
                     }
@@ -133,7 +132,7 @@ class Footer extends Component {
 
     const items = [];
 
-    media.forEach(image => {
+    media.forEach((image) => {
       items.push({
         src: image.getURL(),
         w: image.get('width') || 800,

@@ -34,26 +34,25 @@ function flattenForKeys(list) {
   }, {});
 }
 
+const isTestEnv = process.env.NODE_ENV === 'test';
+
 const CONFIG = {
   // variables replaced on build
   version: process.env.APP_VERSION,
   build: process.env.APP_BUILD,
-  name: process.env.APP_NAME,
 
-  environment: __ENV__,
-  experiments: process.env.APP_EXPERIMENTS,
-  training: process.env.APP_TRAINING,
+  environment: process.env.NODE_ENV,
 
   gps_accuracy_limit: 100,
 
   site_url: HOST,
 
   // use prod logging if testing otherwise full log
-  log: !__TEST__,
+  log: !isTestEnv,
 
   // error analytics
   sentry: {
-    key: !__TEST__ && process.env.APP_SENTRY_KEY,
+    key: !isTestEnv && process.env.APP_SENTRY_KEY,
     project: '1723203',
   },
 
@@ -119,7 +118,7 @@ const CONFIG = {
           values(date) {
             return DateHelp.print(date);
           },
-          isValid: val => val && val.toString() !== 'Invalid Date',
+          isValid: (val) => val && val.toString() !== 'Invalid Date',
           type: 'date',
           max: () => new Date(),
         },
