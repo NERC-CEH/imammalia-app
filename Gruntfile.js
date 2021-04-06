@@ -65,7 +65,6 @@ const exec = grunt => ({
     stdout: true,
   },
   add_platforms: {
-    // @6.4.0 because of https://github.com/ionic-team/ionic/issues/13857#issuecomment-381744212
     command: 'cd cordova && cordova platforms add ios android',
     stdout: true,
   },
