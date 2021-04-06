@@ -3,7 +3,7 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: ios
 app:
   envs:
-    - BITRISE_PROJECT_PATH: dist/cordova/platforms/ios/iMammalia App.xcodeproj
+    - BITRISE_PROJECT_PATH: cordova/platforms/ios/iMammalia App.xcodeproj
       opts:
         is_expand: false
     - BITRISE_SCHEME: iMammalia App
@@ -18,13 +18,15 @@ trigger_map:
 workflows:
   android:
     steps:
-      - change-android-versioncode-and-versionname@1:
+      - sign-apk@1:
           inputs:
-            - build_gradle_path: $BITRISE_SOURCE_DIR/android/app/build.gradle
-            - new_version_name: $NPM_PACKAGE_VERSION
+            - debuggable_permitted: 'false'
+            - verbose_log: 'true'
+            - android_app: $BITRISE_SOURCE_DIR/cordova/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
   ci:
     before_run:
       - web
+      - android
       - ios
     after_run:
       - deploy
@@ -38,7 +40,7 @@ workflows:
           title: Create www artifact
           inputs:
             - notify_user_groups: none
-            - deploy_path: $BITRISE_SOURCE_DIR/dist
+            - deploy_path: $BITRISE_SOURCE_DIR/build
             - is_compress: 'true'
       - deploy-to-bitrise-io@1:
           title: Create app artifact
@@ -53,7 +55,7 @@ workflows:
           inputs:
             - bitrise_tag_format: v_VERSION_-_BUILD_
             - use_lightweight_tag: 'yes'
-            - bitrise_tag_xcodeproj_path: $BITRISE_PROJECT_PATH
+            - bitrise_tag_info_plist_path: $BITRISE_SOURCE_DIR/cordova/platforms/ios/iMammalia App/iMammalia App-Info.plist
   ios:
     steps:
       - certificate-and-profile-installer@1: {}
@@ -76,9 +78,6 @@ workflows:
             - export_method: app-store
   web:
     steps:
-      - nvm@1:
-          inputs:
-            - node_version: '10'
       - get-npm-package-version@1: {}
       - npm@1:
           title: Config Bit.dev

@@ -1,5 +1,4 @@
 require('dotenv').config({ silent: true }); // get local environment variables from .env
-const fs = require('fs');
 const pkg = require('./package.json');
 
 const build = process.env.BITRISE_BUILD_NUMBER || pkg.build;
@@ -41,7 +40,7 @@ const replace = {
   },
 };
 
-const exec = (grunt) => ({
+const exec = grunt => ({
   build: {
     command: 'npm run clean && NODE_ENV=production npm run build',
   },
@@ -70,27 +69,10 @@ const exec = (grunt) => ({
     command: 'cd cordova && cordova platforms add ios android',
     stdout: true,
   },
-  /**
-   * $ANDROID_KEYSTORE must be set up to point to your android certificates keystore
-   */
   android_build: {
     command() {
-      const pass = process.env.BITRISEIO_ANDROID_KEYSTORE_PASSWORD;
-      const keystore = process.env.BITRISEIO_ANDROID_KEYSTORE_URL.replace(
-        'file://',
-        ''
-      );
-
-      return `cd cordova && 
-          mkdir -p dist && 
-          cordova --release build android && 
-          cd platforms/android/app/build/outputs/apk/release/ &&
-          jarsigner -keystore ${keystore} 
-            -storepass ${pass} app-release-unsigned.apk irecord &&
-          zipalign 4 app-release-unsigned.apk main.apk && 
-          mv -f main.apk ../../../../../../../dist/`;
+      return 'cd cordova && mkdir -p dist && cordova --release build android';
     },
-
     stdout: true,
     stdin: true,
   },
@@ -116,7 +98,7 @@ function init(grunt) {
   });
 }
 
-module.exports = (grunt) => {
+module.exports = grunt => {
   init(grunt);
 
   grunt.registerTask('default', [
@@ -132,33 +114,5 @@ module.exports = (grunt) => {
 
     'exec:android_build',
     'exec:build_ios',
-
-    'checklist',
   ]);
-
-  grunt.registerTask('checklist', () => {
-    const Reset = '\x1b[0m';
-    const FgGreen = '\x1b[32m';
-    const FgYellow = '\x1b[33m';
-    const FgCyan = '\x1b[36m';
-
-    const changelog = fs.readFileSync('./CHANGELOG.md', 'utf8');
-
-    const versionExistsInChangelog = changelog.includes(pkg.version);
-    if (!versionExistsInChangelog) {
-      console.log(FgYellow);
-      console.log('WARN:');
-      console.log(`* Have you updated CHANGELOG.md?`);
-    } else {
-      console.log(FgGreen);
-      console.log('Success! 👌');
-    }
-
-    console.log(FgCyan);
-    console.log('NEXT:');
-    console.log(`* Update screenshots.`);
-    console.log(`* Update descriptions.`);
-
-    console.log(Reset);
-  });
 };
