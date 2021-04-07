@@ -107,6 +107,12 @@ export default () => {
           <IonItem>
             <IonLabel>Tomasz Borowik</IonLabel>
           </IonItem>
+          <IonItem>
+            <IonLabel>Milan Pandurovic</IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Majlind Sulçe</IonLabel>
+          </IonItem>
         </IonList>
 
         <IonList>
