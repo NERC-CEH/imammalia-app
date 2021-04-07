@@ -32,7 +32,7 @@ class Container extends React.Component {
     sample.setLocation(location);
   };
 
-  setLocationAccurracy = acc => {
+  setLocationAccuracy = acc => {
     const { match, savedSamples } = this.props;
     const sample = savedSamples.get(match.params.id);
 
@@ -46,7 +46,7 @@ class Container extends React.Component {
     const sample = savedSamples.get(match.params.id);
 
     const location = sample.get('location');
-    const accurracy = sample.get('manual_location_accuracy');
+    const accuracy = sample.get('manual_location_accuracy');
     const isGPSTracking = sample.isGPSRunning();
 
     return (
@@ -55,10 +55,10 @@ class Container extends React.Component {
         <Main
           location={location}
           isGPSTracking={isGPSTracking}
-          accurracy={accurracy}
+          accuracy={accuracy}
           toggleGPStracking={this.toggleGPStracking}
           setLocation={this.setLocation}
-          setLocationAccurracy={this.setLocationAccurracy}
+          setLocationAccuracy={this.setLocationAccuracy}
         />
       </IonPage>
     );

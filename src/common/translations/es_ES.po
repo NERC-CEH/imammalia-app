@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Karolis, 2020
 # Jose A Blanco <joseantonio.blanco@uclm.es>, 2021
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Jose A Blanco <joseantonio.blanco@uclm.es>, 2021\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Spanish (Spain) (https://www.transifex.com/ceh/teams/103078/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1490,7 +1490,7 @@ msgid "Please use the GPS or tap on the map to select your location"
 msgstr ""
 "Por favor, use el GPS o indique en el mapa la localización de la observación"
 
-msgid "Location Accurracy"
+msgid "Location Accuracy"
 msgstr "Precisión de la localización"
 
 msgid "Close"
@@ -1623,7 +1623,7 @@ msgid "Shrew"
 msgstr "Musarañas"
 
 msgid "Mole"
-msgstr "Topo"
+msgstr "Topos"
 
 msgid "Lagomorph"
 msgstr "Conejos o liebres"
@@ -1635,16 +1635,16 @@ msgid "Small rodent"
 msgstr "Otros roedores"
 
 msgid "Vole"
-msgstr "Topillo"
+msgstr "Topillos"
 
 msgid "Mouse"
 msgstr "Ratón desconocido"
 
 msgid "Rat"
-msgstr "Rata"
+msgstr "Ratas"
 
 msgid "Other mustelid"
-msgstr "Otros mustélidos"
+msgstr "Mustélido desconocido"
 
 msgid "Locating"
 msgstr "Localizando"

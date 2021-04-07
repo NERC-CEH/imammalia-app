@@ -1080,8 +1080,8 @@ msgstr "Select species"
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr "Please use the GPS or tap on the map to select your location"
 
-msgid "Location Accurracy"
-msgstr "Location Accurracy"
+msgid "Location Accuracy"
+msgstr "Location Accuracy"
 
 msgid "Close"
 msgstr "Close"

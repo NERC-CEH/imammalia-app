@@ -33,9 +33,9 @@ class LocationAttr extends Component {
     isGPSTracking: PropTypes.bool.isRequired,
     toggleGPStracking: PropTypes.func.isRequired,
     setLocation: PropTypes.func.isRequired,
-    setLocationAccurracy: PropTypes.func.isRequired,
+    setLocationAccuracy: PropTypes.func.isRequired,
     location: PropTypes.object,
-    accurracy: PropTypes.string,
+    accuracy: PropTypes.string,
   };
 
   constructor(props) {
@@ -106,7 +106,7 @@ class LocationAttr extends Component {
       return (
         <IonItem>
           <IonLabel color="light" className="ion-text-center ion-text-wrap">
-            {`GPS ${t('Accuracy: ')} ${location.accuracy}m`}
+            {`${t('Location Accuracy')} ${location.accuracy}m`}
           </IonLabel>
         </IonItem>
       );
@@ -114,13 +114,13 @@ class LocationAttr extends Component {
 
     return (
       <IonItem>
-        <IonLabel>{t('Location Accurracy')}</IonLabel>
+        <IonLabel>{t('Location Accuracy')}</IonLabel>
         <IonSelect
-          value={this.props.accurracy}
+          value={this.props.accuracy}
           okText={t('OK')}
           cancelText={t('Close')}
           ref={this.selectRef}
-          onIonChange={this.props.setLocationAccurracy}
+          onIonChange={this.props.setLocationAccuracy}
         >
           <IonSelectOption value="0-10m">0-10m</IonSelectOption>
           <IonSelectOption value="10-50m">10-50m</IonSelectOption>
