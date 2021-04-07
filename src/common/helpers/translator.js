@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import appModel from 'app_model';
+import { isPlatform } from '@ionic/react';
 import en from '../translations/en.pot';
 import de_DE from '../translations/de_DE.po';
 import es_ES from '../translations/es_ES.po';
@@ -38,6 +39,9 @@ const dictionary = {
   sr_ME,
 };
 
+// for incomplete languages only shown in the app demo website
+const demoOnly = !isPlatform('hybrid');
+
 export const languages = {
   en: 'English',
   de_DE: 'Deutsch',
@@ -45,11 +49,11 @@ export const languages = {
   hr_HR: 'Hrvatski',
   pl_PL: 'Polski',
   mk_MK: 'Mакедонски',
-  sr_RS: 'Cрпски',
+  sr_RS: demoOnly && 'Cрпски',
   sq_AL: 'Shqip',
   it_IT: 'Italiano',
-  bg_BG: 'Български',
-  lt_LT: 'Lietuvių',
+  bg_BG: demoOnly && 'Български',
+  lt_LT: demoOnly && 'Lietuvių',
   el_GR: 'Ελληνικά',
   sr_ME: 'црногорски',
 };

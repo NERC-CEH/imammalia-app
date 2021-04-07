@@ -24,14 +24,15 @@ function SelectLanguage({ appModel, hideHeader }) {
     appModel.save();
   }
 
-  const languagesOptions = Object.entries(languages).map(
-    ([value, language]) => (
+  const languageExists = ([, lang]) => !!lang;
+  const languagesOptions = Object.entries(languages)
+    .filter(languageExists)
+    .map(([value, language]) => (
       <IonItem key={value}>
         <IonLabel>{language}</IonLabel>
         <IonRadio value={value} checked={currentValue === value} />
       </IonItem>
-    )
-  );
+    ));
 
   return (
     <IonPage id="language-select">
