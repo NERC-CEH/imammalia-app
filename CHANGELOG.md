@@ -1,3 +1,9 @@
+## 1.2.0
+
+Updated translations.
+Added more languages.
+Improved species guide.
+
 ## 1.1.2
 
 Updated translations
