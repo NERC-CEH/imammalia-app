@@ -2,13 +2,13 @@
 # Translators:
 # Giulia Fabbri <g.fabbri@studenti.uniss.it>, 2021
 # Stefania Zanet <stefania.zanet@unito.it>, 2021
-# MASSIMO SCANDURA <scandura@uniss.it>, 2021
 # Karolis, 2021
+# MASSIMO SCANDURA <scandura@uniss.it>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: MASSIMO SCANDURA <scandura@uniss.it>, 2021\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/ceh/teams/103078/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,7 +206,7 @@ msgid "Remove All Saved"
 msgstr "Elimina tutti i dati salvati"
 
 msgid "Application"
-msgstr "Applicazione"
+msgstr "Impostazioni"
 
 msgid "Training Mode"
 msgstr "Modalità di prova"
@@ -405,7 +405,7 @@ msgid "How to start a record"
 msgstr "Come inserire un record"
 
 msgid "To start a new record you can press the plus button"
-msgstr "Per inserire un nuovo record puoi premere il pulsante \"+\""
+msgstr "Per inserire un nuovo record puoi premere il pulsante col segno più"
 
 msgid "in the home page footer."
 msgstr "nel piè di pagina della home page."
@@ -429,8 +429,8 @@ msgid ""
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
-"Di default, ogni record viene creato in modalità \"bozza\". Questo non verrà"
-" inviato al database finché non si faccia clic sul pulsante \"Fine\" "
+"Di default ogni record viene creato in modalità \"bozza\". Questo record non"
+" verrà inviato al database finché non si cliccherà sul pulsante \"Fine\" "
 "nell'intestazione. L'applicazione invierà il tuo record non appena sarà "
 "disponibile una buona connessione di rete."
 
