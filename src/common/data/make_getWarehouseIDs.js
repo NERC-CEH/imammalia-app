@@ -19,9 +19,12 @@ const getOptions = q => ({
 });
 
 function get(q) {
-  return new Promise(resolve => {
-    request(getOptions(q), function(error, response, body) {
-      if (error) throw new Error(error);
+  return new Promise((resolve, reject) => {
+    request(getOptions(q), function (error, response, body) {
+      if (error || response.statusCode !== 200) {
+        reject(new Error(error || response.statusMessage));
+        return;
+      }
 
       const res = JSON.parse(body);
       if (!res || !res[0]) {

@@ -3000,6 +3000,7 @@
   },
   {
     "id": 45,
+    "warehouse_id": 537971,
     "sort_id": 1,
     "english": "Red-necked wallaby",
     "taxon": "Macropus rufogriseus",
@@ -3068,6 +3069,7 @@
   },
   {
     "id": 46,
+    "warehouse_id": 537973,
     "sort_id": 6,
     "english": "Long-eared hedgehog",
     "taxon": "Hemiechinus auritus",
@@ -3136,6 +3138,7 @@
   },
   {
     "id": 47,
+    "warehouse_id": 537975,
     "sort_id": 8,
     "english": "Eastern cottontail rabbit",
     "taxon": "Sylvilagus floridanus",
@@ -3204,6 +3207,7 @@
   },
   {
     "id": 48,
+    "warehouse_id": 537977,
     "sort_id": 13,
     "english": "Cape hare",
     "taxon": "Lepus capensis",
@@ -3272,6 +3276,7 @@
   },
   {
     "id": 49,
+    "warehouse_id": 537979,
     "sort_id": 14,
     "english": "Apennine hare",
     "taxon": "Lepus corsicanus",
@@ -3339,6 +3344,7 @@
   },
   {
     "id": 50,
+    "warehouse_id": 537981,
     "sort_id": 18,
     "english": "Persian squirrel",
     "taxon": "Sciurus anomalus",
@@ -3407,6 +3413,7 @@
   },
   {
     "id": 51,
+    "warehouse_id": 537983,
     "sort_id": 17,
     "english": "Grey squirrel",
     "taxon": "Sciurus carolinensis",
@@ -3475,6 +3482,7 @@
   },
   {
     "id": 52,
+    "warehouse_id": 537985,
     "sort_id": 16,
     "english": "Calabrian black squirrel",
     "taxon": "Sciurus meridionalis",
@@ -3543,6 +3551,7 @@
   },
   {
     "id": 53,
+    "warehouse_id": 537987,
     "sort_id": 20,
     "english": "Pallas’s squirrel",
     "taxon": "Callosciurus erythraeus",
@@ -3611,6 +3620,7 @@
   },
   {
     "id": 54,
+    "warehouse_id": 537989,
     "sort_id": 21,
     "english": "Thailand tree squirrel",
     "taxon": "Callosciurus finlaysonii",
@@ -3679,6 +3689,7 @@
   },
   {
     "id": 55,
+    "warehouse_id": 537991,
     "sort_id": 25,
     "english": "Little souslik",
     "taxon": "Spermophilus pygmaeus",
@@ -3747,6 +3758,7 @@
   },
   {
     "id": 56,
+    "warehouse_id": 537993,
     "sort_id": 27,
     "english": "Bobak marmot",
     "taxon": "Marmota bobak",
@@ -3815,6 +3827,7 @@
   },
   {
     "id": 57,
+    "warehouse_id": 537995,
     "sort_id": 19,
     "english": "Russian flying squirrel",
     "taxon": "Pteromys volans",
@@ -3883,6 +3896,7 @@
   },
   {
     "id": 58,
+    "warehouse_id": 537997,
     "sort_id": 28,
     "english": "Siberian chipmunk",
     "taxon": "Eutamias sibiricus",
@@ -3951,6 +3965,7 @@
   },
   {
     "id": 59,
+    "warehouse_id": 537999,
     "sort_id": 30,
     "english": "American beaver",
     "taxon": "Castor canadensis",
@@ -4019,6 +4034,7 @@
   },
   {
     "id": 60,
+    "warehouse_id": 538001,
     "sort_id": 31,
     "english": "Crested porcupine",
     "taxon": "Hystrix cristata",
@@ -4087,6 +4103,7 @@
   },
   {
     "id": 61,
+    "warehouse_id": 538003,
     "sort_id": 39,
     "english": "Polar bear",
     "taxon": "Ursus maritimus",
@@ -4155,6 +4172,7 @@
   },
   {
     "id": 62,
+    "warehouse_id": 538005,
     "sort_id": 35,
     "english": "Arctic fox",
     "taxon": "Vulpes lagopus",
@@ -4223,6 +4241,7 @@
   },
   {
     "id": 63,
+    "warehouse_id": 538007,
     "sort_id": 40,
     "english": "Stoat",
     "taxon": "Mustela erminea",
@@ -4291,6 +4310,7 @@
   },
   {
     "id": 64,
+    "warehouse_id": 538009,
     "sort_id": 42,
     "english": "Steppe polecat",
     "taxon": "Mustela eversmanii",
@@ -4359,6 +4379,7 @@
   },
   {
     "id": 65,
+    "warehouse_id": 538011,
     "sort_id": 44,
     "english": "European mink",
     "taxon": "Mustela lutreola",
@@ -4427,6 +4448,7 @@
   },
   {
     "id": 66,
+    "warehouse_id": 538013,
     "sort_id": 41,
     "english": "Weasel",
     "taxon": "Mustela nivalis",
@@ -4495,6 +4517,7 @@
   },
   {
     "id": 67,
+    "warehouse_id": 538015,
     "sort_id": 43,
     "english": "Western polecat",
     "taxon": "Mustela putorius",
@@ -4563,6 +4586,7 @@
   },
   {
     "id": 68,
+    "warehouse_id": 538017,
     "sort_id": 45,
     "english": "American mink",
     "taxon": "Neovison vison",
@@ -4631,6 +4655,7 @@
   },
   {
     "id": 69,
+    "warehouse_id": 538019,
     "sort_id": 47,
     "english": "Beech marten, Stone marten",
     "taxon": "Martes foina",
@@ -4699,6 +4724,7 @@
   },
   {
     "id": 70,
+    "warehouse_id": 538021,
     "sort_id": 48,
     "english": "Pine marten",
     "taxon": "Martes martes",
@@ -4767,6 +4793,7 @@
   },
   {
     "id": 71,
+    "warehouse_id": 538023,
     "sort_id": 46,
     "english": "Marbled polecat",
     "taxon": "Vormela peregusna",
@@ -4835,6 +4862,7 @@
   },
   {
     "id": 72,
+    "warehouse_id": 538025,
     "sort_id": 49,
     "english": "Wolverine",
     "taxon": "Gulo gulo",
@@ -4903,6 +4931,7 @@
   },
   {
     "id": 73,
+    "warehouse_id": 538027,
     "sort_id": 62,
     "english": "Wild goat",
     "taxon": "Capra aegagrus",
@@ -4970,6 +4999,7 @@
   },
   {
     "id": 74,
+    "warehouse_id": 538029,
     "sort_id": 78,
     "english": "Musk ox",
     "taxon": "Ovibos moschatus",
@@ -5038,6 +5068,7 @@
   },
   {
     "id": 75,
+    "warehouse_id": 538031,
     "sort_id": 75,
     "english": "Reindeer",
     "taxon": "Rangifer tarandus",
@@ -5106,6 +5137,7 @@
   },
   {
     "id": 76,
+    "warehouse_id": 538033,
     "sort_id": 68,
     "english": "Reeves’ muntjac",
     "taxon": "Muntiacus reevesi",
@@ -5174,6 +5206,7 @@
   },
   {
     "id": 77,
+    "warehouse_id": 538035,
     "sort_id": 67,
     "english": "Chinese water deer",
     "taxon": "Hydropotes inermis",
@@ -5242,6 +5275,7 @@
   },
   {
     "id": 78,
+    "warehouse_id": 538037,
     "sort_id": 5,
     "english": "Southern white-breasted hedgehog",
     "taxon": "Erinaceus concolor",
@@ -5310,6 +5344,7 @@
   },
   {
     "id": 79,
+    "warehouse_id": 538039,
     "sort_id": 30.5,
     "english": "Muskrat",
     "taxon": "Ondatra zibethicus",
