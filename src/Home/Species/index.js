@@ -155,7 +155,7 @@ class Component extends React.Component {
 
       return (
         <IonCol
-          key={id}
+          key={id + english}
           className="species-list-item"
           onClick={onClick}
           size="6"
