@@ -1373,7 +1373,7 @@ msgid "prairies"
 msgstr "prateria"
 
 msgid "farmlands"
-msgstr "area agrigola"
+msgstr "aree agricole"
 
 msgid "alpine"
 msgstr "alpino"
