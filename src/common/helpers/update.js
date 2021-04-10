@@ -5,7 +5,6 @@
 import CONFIG from 'config';
 import appModel from 'app_model';
 import Log from './log';
-import Analytics from './analytics';
 
 const MIN_UPDATE_TIME = 5000; // show updating dialog for minimum seconds
 
@@ -178,7 +177,6 @@ const API = {
         callback();
       }
 
-      Analytics.trackEvent('App', 'updated');
       return null;
     });
   },

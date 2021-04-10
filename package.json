@@ -24,6 +24,7 @@
     }
   },
   "dependencies": {
+    "@bit/flumens.apps.utils.analytics": "^0.2.0",
     "@ionic/core": "4.11.0",
     "@ionic/react": "4.11.0",
     "@ionic/react-router": "4.11.0",
@@ -43,7 +44,6 @@
     "mobx-react-devtools": "6.1.1",
     "photoswipe": "4.1.3",
     "prop-types": "15.7.2",
-    "raven-js": "3.27.2",
     "react": "16.10.1",
     "react-dom": "16.10.1",
     "react-leaflet": "2.3.0",
@@ -147,6 +147,7 @@
             "./src"
           ],
           "alias": {
+            "@apps": "./src/common/appsBitCollection",
             "common": "./src/common",
             "helpers": "./src/common/helpers",
             "models": "./src/common/models",

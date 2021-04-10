@@ -1,4 +1,3 @@
-import 'helpers/system_checkup';
 import 'helpers/translator';
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
@@ -43,7 +42,9 @@ const App = () => (
                 <Route
                   path="/user/register"
                   exact
-                  render={() => <Register userModel={userModel} appModel={appModel} />}
+                  render={() => (
+                    <Register userModel={userModel} appModel={appModel} />
+                  )}
                 />
                 <Route
                   path="/user/reset"

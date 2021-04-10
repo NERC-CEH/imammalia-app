@@ -6,6 +6,7 @@ import { observable, set as setMobXAttrs } from 'mobx';
 import { getStore } from 'common/store';
 
 const getDefaultAttrs = () => ({
+  appSession: 0,
   showedWelcome: false,
   language: null,
   country: null,

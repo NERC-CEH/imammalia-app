@@ -50,11 +50,7 @@ const CONFIG = {
   // use prod logging if testing otherwise full log
   log: !isTestEnv,
 
-  // error analytics
-  sentry: {
-    key: !isTestEnv && process.env.APP_SENTRY_KEY,
-    project: '1723203',
-  },
+  sentryDNS: !isTestEnv && process.env.APP_SENTRY_KEY,
 
   users: {
     url: `${HOST + Indicia.API_BASE + Indicia.API_VER}/users/`,
@@ -118,7 +114,7 @@ const CONFIG = {
           values(date) {
             return DateHelp.print(date);
           },
-          isValid: (val) => val && val.toString() !== 'Invalid Date',
+          isValid: val => val && val.toString() !== 'Invalid Date',
           type: 'date',
           max: () => new Date(),
         },
