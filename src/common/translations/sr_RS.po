@@ -1,14 +1,14 @@
 # 
 # Translators:
 # David Roy <dbr@ceh.ac.uk>, 2020
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
 # Milan Pandurovic <milan.pandurovic@gmail.com>, 2021
 # Karolis, 2021
+# Dragan Gacic <dragan.gacic@sfb.bg.ac.rs>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2021\n"
+"Last-Translator: Dragan Gacic <dragan.gacic@sfb.bg.ac.rs>, 2021\n"
 "Language-Team: Serbian (Serbia) (https://www.transifex.com/ceh/teams/103078/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,7 +123,7 @@ msgid "Skip"
 msgstr "Прескочите"
 
 msgid "Next"
-msgstr "Следећи"
+msgstr "Следеће"
 
 msgid "Get Started"
 msgstr "Почните"
@@ -153,7 +153,7 @@ msgid "Settings"
 msgstr "Подешавања"
 
 msgid "Info"
-msgstr "Инфо"
+msgstr "Информације"
 
 msgid "About"
 msgstr "O апликацији"
@@ -195,7 +195,7 @@ msgid "This will wipe all the locally stored app data!"
 msgstr "Ово ће обрисати све локално сачуване податке у апликацији!"
 
 msgid "Upload All"
-msgstr "Прикачите све"
+msgstr "Поставите све"
 
 msgid "Remove All Saved"
 msgstr "Уклоните све сачувано"
@@ -257,7 +257,7 @@ msgid "password is a required field"
 msgstr "поље са лозинком је обавезно"
 
 msgid "Login error:"
-msgstr "грешка у пријављивању"
+msgstr "Грешка у пријављивању"
 
 msgid "Failed to fetch"
 msgstr "Неуспешно пријављивање"
@@ -423,8 +423,8 @@ msgid ""
 " will try to submit your record once there is a good network connection."
 msgstr ""
 "По правилу, запис остаје у фази израде и неће бити забележен у бази података"
-" све док не кликнете на поље\"Готово\" у заглављу. Апликација ће аутоматски "
-"исправити записе чим се успостави добра мрежна конекција.  "
+" све док не кликнете на поље \"Готово\" у заглављу. Апликација ће аутоматски"
+" исправити записе чим се успостави добра мрежна конекција.  "
 
 msgid "If the record has reached the database a red"
 msgstr "Ако је запис стигао до базе података, црвено"
@@ -716,9 +716,10 @@ msgid ""
 "body with heavy-set shoulders, a large head with tusks in both sexes, males "
 "have a ridge of hair along the upper spine"
 msgstr ""
-"Грубо тамно сиво крзно, смеђе, тамно смеђе или црне боје, мишићаво тело са "
-"високо постављеним раменима, велика глава са кљовама код оба пола, мужјаци "
-"имају пругу на длаци дуж гребена на горњем делу кичме"
+"Груба длака различите боје, од тамно смеђе, смеђе, жућкасто смеђе до црне, "
+"мишићаво тело са високо постављеним раменима, велика глава са кљовама које "
+"су веће у мужјака, а мање и слабо видљиве у женки, мужјаци имају длаке "
+"чекиње које су дуге на гребену и горњем делу кичме"
 
 msgid ""
 "Short golden-brown coat, longer hair along the upper spine, longer tail and "
@@ -768,8 +769,8 @@ msgid ""
 "Reddish-brown to grey coat, may have patches of different colouration on the"
 " back, males have antlers, relatively long tail"
 msgstr ""
-"Крзно црвенкастосмеђе до сиве боје, може имати делове крзна различитих боја,"
-" мужјаци имају рогове и релативно дуг реп"
+"Длака је црвенкасто-смеђе до сиве боје, светлија на трбуху и на глави, "
+"мужјаци имају парогове и релативно дуг реп"
 
 msgid ""
 "Typically chestnut coat with white markings but may also be fully white or "
@@ -789,8 +790,8 @@ msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
 "prongs"
 msgstr ""
-"Релативно мали јелен са наранџасто-смеђим крзном, мужјаци имају рогове са "
-"2-4 парошка"
+"Релативно мала врста из породице јелени - Cervidae, длака је црвенкасто-"
+"смеђа, мужјаци имају парогове са 2-4 парошка"
 
 msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
@@ -1085,7 +1086,7 @@ msgid "Broom hare"
 msgstr "Кантабријски зец"
 
 msgid "Brown hare"
-msgstr "Смеђи зец"
+msgstr "Зец"
 
 msgid "Mountain hare"
 msgstr "Планински зец"
@@ -1118,7 +1119,7 @@ msgid "Raccoon dog"
 msgstr "Ракунолики пас"
 
 msgid "Brown bear"
-msgstr "Мрки медвед"
+msgstr "Медвед"
 
 msgid "Grey wolf"
 msgstr "Вук"
@@ -1127,7 +1128,7 @@ msgid "Golden jackal"
 msgstr "Шакал"
 
 msgid "Red fox"
-msgstr "Црвена лисица"
+msgstr "Лисица"
 
 msgid "European otter"
 msgstr "Видра"
@@ -1175,7 +1176,7 @@ msgid "Chamois, southern"
 msgstr "Пиринејска дивокоза"
 
 msgid "Red deer"
-msgstr "Јелен"
+msgstr "Обични јелен"
 
 msgid "Fallow deer"
 msgstr "Јелен лопатар"
@@ -1268,7 +1269,7 @@ msgid "Weasel"
 msgstr "Ласица"
 
 msgid "Western polecat"
-msgstr "Западно бодљикаво прасе"
+msgstr "Твор"
 
 msgid "American mink"
 msgstr "Америчка видра"
@@ -1280,7 +1281,7 @@ msgid "Pine marten"
 msgstr "Куна златица"
 
 msgid "Marbled polecat"
-msgstr "Мраморирано бодљикаво прасе"
+msgstr "Шарени твор"
 
 msgid "Wolverine"
 msgstr "Ждеравац"
@@ -1313,7 +1314,7 @@ msgid "Poland"
 msgstr "Пољска"
 
 msgid "North Macedonia"
-msgstr "Македонија"
+msgstr "Северна Македонија"
 
 msgid "Serbia"
 msgstr "Србија"
@@ -1334,13 +1335,13 @@ msgid "forest"
 msgstr "шума"
 
 msgid "shrubs"
-msgstr "грм"
+msgstr "жбуње"
 
 msgid "prairies"
-msgstr "прерија"
+msgstr "степа"
 
 msgid "farmlands"
-msgstr "обрадиво пољопривредно земљиште"
+msgstr "пољопривредно земљиште"
 
 msgid "alpine"
 msgstr "алпски"
@@ -1358,7 +1359,7 @@ msgid "Description"
 msgstr "Опис"
 
 msgid "Habitats"
-msgstr "Станиште"
+msgstr "Станишта"
 
 msgid "Mouse-rat"
 msgstr "Миш-пацов"
@@ -1376,7 +1377,7 @@ msgid "Dog-Wildboar"
 msgstr "Пас-дивља свиња"
 
 msgid "Goat-Deers"
-msgstr "Коза-јелен"
+msgstr "Коза-јелени"
 
 msgid "Cow-Bison"
 msgstr "Крава-бизон"
@@ -1406,7 +1407,7 @@ msgid "Select species"
 msgstr "Одаберите врсту"
 
 msgid "Please use the GPS or tap on the map to select your location"
-msgstr "Молимо Вас да користите ГПС или означите вашу локацију на мапи"
+msgstr "Молимо Вас употребите ГПС или означите вашу локацију на мапи"
 
 msgid "Location Accuracy"
 msgstr "Тачност локације"
@@ -1421,13 +1422,13 @@ msgid "Direct observation"
 msgstr "Директно посматрање"
 
 msgid "Camera trap"
-msgstr "Постављена камера"
+msgstr "Фото-клопка или мобилна камера"
 
 msgid "Catch"
 msgstr "Ухваћенo"
 
 msgid "Road kill"
-msgstr "Прегажено у саобраћајној несрећи "
+msgstr "Прегажено на путу"
 
 msgid "Field carcass"
 msgstr "Пронађен леш"
@@ -1439,13 +1440,13 @@ msgid "Other (specify in Comment)"
 msgstr "Остало (навести у коментару)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr "Молимо Вас наведите како је запажен овај сисар.."
+msgstr "Молимо Вас наведите како је запажен овај сисар."
 
 msgid "Alive"
 msgstr "Жив"
 
 msgid "Dead - roadkill"
-msgstr "Мртав - прегажен у саобраћајној несрећи"
+msgstr "Мртав - прегажен на путу"
 
 msgid "Dead - other"
 msgstr "Мртав-друго"
@@ -1460,7 +1461,7 @@ msgid "Dropping"
 msgstr "На основу пронађеног измета"
 
 msgid "Den/burrow"
-msgstr "Пронађено легло"
+msgstr "Склониште/јазбина"
 
 msgid "Please specify the condition of the mammal."
 msgstr "Молимо наведите стање сисара."
@@ -1472,7 +1473,7 @@ msgid "Enter more information here..."
 msgstr "Овде унесите више инфомација..."
 
 msgid "Upload"
-msgstr "Приложи"
+msgstr "Постави"
 
 msgid "species"
 msgstr "врсте"
@@ -1540,7 +1541,7 @@ msgid "Mole"
 msgstr "Кртица"
 
 msgid "Lagomorph"
-msgstr "Лагоморфе"
+msgstr "Двозупци"
 
 msgid "Rabbits and Hares"
 msgstr "Кунићи и зечеви"
@@ -1582,7 +1583,7 @@ msgid "Would you mind giving us some feedback?"
 msgstr "Да ли желите да дате мишљење?"
 
 msgid "No, thanks"
-msgstr "Не,хвала"
+msgstr "Не, хвала"
 
 msgid "OK, sure"
 msgstr "Да, свакако"
@@ -1683,7 +1684,7 @@ msgstr "Уловљен"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr "непознат"
+msgstr "Непознато"
 
 # Part of species profile external link
 msgid "Mammalnet"
@@ -1720,7 +1721,7 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
-"иМаммалиа је припремљена тако да буде једноставно за снимање сисара. Мањи "
-"сисари су тренутно наведени само на генеричком нивоу, јер их је много теже "
-"разликовати. Касније верзије ће обухватити више земаља, језика и врста које "
-"ће се финансирати."
+"iMammalia је осмишљена тако да буде једноставна за прављење записа о виђеном"
+" сисару. Мањи сисари су тренутно наведени само на генеричком нивоу, јер их "
+"је много теже разликовати. Касније верзије ће обухватити више земаља, језика"
+" и врста које ће се финансирати."
