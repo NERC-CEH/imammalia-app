@@ -49,13 +49,13 @@ export const languages = {
   hr_HR: 'Hrvatski',
   pl_PL: 'Polski',
   mk_MK: 'Mакедонски',
-  sr_RS: demoOnly && 'Cрпски',
+  sr_RS: 'Cрпски',
   sq_AL: 'Shqip',
   it_IT: 'Italiano',
   bg_BG: demoOnly && 'Български',
   lt_LT: demoOnly && 'Lietuvių',
   el_GR: 'Ελληνικά',
-  sr_ME: 'црногорски',
+  sr_ME: demoOnly && 'црногорски',
 };
 
 export const countries = {

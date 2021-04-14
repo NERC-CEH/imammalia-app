@@ -1,3 +1,11 @@
+## 1.2.2
+
+Fix Serbian language.
+
+## 1.2.1
+
+Update translations.
+
 ## 1.2.0
 
 Updated translations.
