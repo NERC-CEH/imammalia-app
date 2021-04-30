@@ -1767,3 +1767,7 @@ msgstr ""
 " Kleinere Säugetiere sind derzeit nur auf der Gattungsebene aufgeführt, da "
 "sie viel schwerer zu unterscheiden sind. Spätere Versionen werden je nach "
 "Finanzierung mehr Länder, Sprachen und Arten umfassen."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

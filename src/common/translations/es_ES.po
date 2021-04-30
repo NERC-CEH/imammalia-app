@@ -1813,3 +1813,7 @@ msgstr ""
 "naturaleza. Esta versión de la aplicación móvil está preparada para "
 "registrar fácilmente mamíferos en cualquier país europeo, pero aún no tiene "
 "incluidos todos los idiomas europeos."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

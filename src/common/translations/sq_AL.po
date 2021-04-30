@@ -1771,3 +1771,7 @@ msgstr ""
 "është shumë e vështirë dallimi i tyre. Versionet e mëvonshme do të "
 "përfshijnë më shume vende, gjuhë dhe specie të cilat do të jenë subjekt i "
 "financimit. "
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

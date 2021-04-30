@@ -1728,3 +1728,7 @@ msgstr ""
 "iMammalia je dizajniran da olakša snimanje i raspoznavanje sisavaca. Manji "
 "sisavci trenutno su navedeni samo na generičkoj razini, jer ih je puno teže "
 "razlikovati. Kasnije verzije uključivat će više zemalja, jezika i vrsta."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

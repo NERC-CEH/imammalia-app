@@ -1357,3 +1357,7 @@ msgstr "The iMammalia App is designed to encourage recording of mammals in the w
 # From About page
 msgid "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
 msgstr "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr "Could not find/authenticate user."

@@ -1762,3 +1762,7 @@ msgstr ""
 "generico poiché sono molto più difficili da distinguere. Le versioni "
 "successive dell'applicazione potranno includere una più ampia varietà di "
 "Paesi, lingue e specie. "
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""
