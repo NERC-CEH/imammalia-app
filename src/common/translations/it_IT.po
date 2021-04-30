@@ -1571,7 +1571,7 @@ msgid "(unknown species)"
 msgstr "(specie sconosciuta)"
 
 msgid "Shrew"
-msgstr "Toporagno"
+msgstr "Toporagno o crocidura"
 
 msgid "Mole"
 msgstr "Talpa"
@@ -1580,7 +1580,7 @@ msgid "Lagomorph"
 msgstr "Lagomorfo"
 
 msgid "Rabbits and Hares"
-msgstr "Conigli e Lepri"
+msgstr "Coniglio o Lepre"
 
 msgid "Small rodent"
 msgstr "Piccolo roditore"
@@ -1595,7 +1595,7 @@ msgid "Rat"
 msgstr "Ratto"
 
 msgid "Other mustelid"
-msgstr "Altri mustelidi"
+msgstr "Mustelide"
 
 msgid "Locating"
 msgstr "Localizzare"

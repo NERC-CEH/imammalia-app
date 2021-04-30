@@ -1070,10 +1070,10 @@ msgid "Algerian hedgehog"
 msgstr "Afrički pigmejski jež"
 
 msgid "Western hedgehog"
-msgstr ""
+msgstr "Sjeverni jež"
 
 msgid "Eastern hedgehog"
-msgstr ""
+msgstr "Istočni jež"
 
 msgid "European rabbit"
 msgstr "Evropski kunić"
@@ -1127,462 +1127,466 @@ msgid "Red fox"
 msgstr "Lisica"
 
 msgid "European otter"
-msgstr ""
+msgstr "Vidra"
 
 msgid "Eurasian badger"
-msgstr ""
+msgstr "Jazavac"
 
 msgid "Egyptian mongoose"
-msgstr ""
+msgstr "Egipatski mungos"
 
 msgid "Small Indian mongoose"
-msgstr ""
+msgstr "Mali indijski mungos"
 
 msgid "Common genet"
-msgstr ""
+msgstr "Cibetka"
 
 msgid "Wildcat"
-msgstr ""
+msgstr "Divlja mačka"
 
 msgid "Eurasian lynx"
-msgstr ""
+msgstr "Evroazijski ris"
 
 msgid "Iberian lynx"
-msgstr ""
+msgstr "Iberijski ris"
 
 msgid "Wild boar"
-msgstr ""
+msgstr "Divlja svinja"
 
 msgid "European bison"
-msgstr ""
+msgstr "Evropski bizon"
 
 msgid "European mouflon"
-msgstr ""
+msgstr "Evropski muflon"
 
 msgid "Alpine ibex"
-msgstr ""
+msgstr "Alpski kozorog"
 
 msgid "Spanish ibex"
-msgstr ""
+msgstr "Španski kozorog"
 
 msgid "Chamois, Alpine"
-msgstr ""
+msgstr "Divokoza"
 
 msgid "Chamois, southern"
-msgstr ""
+msgstr "Pirinejska divokoza"
 
 msgid "Red deer"
-msgstr ""
+msgstr "Jelen"
 
 msgid "Fallow deer"
-msgstr ""
+msgstr "Jelen lopatar"
 
 msgid "Elk"
-msgstr ""
+msgstr "Los"
 
 msgid "Roe deer"
-msgstr ""
+msgstr "Srna"
 
 msgid "Sika deer"
-msgstr ""
+msgstr "Sika jelen"
 
 msgid "Chital"
-msgstr ""
+msgstr "Jelen čital"
 
 msgid "White-tailed deer"
-msgstr ""
+msgstr "Bjelorepi jelen"
 
 msgid "Raccoon"
-msgstr ""
+msgstr "Rakun"
 
 msgid "Barbary sheep"
-msgstr ""
+msgstr "Berberska ovca"
 
 msgid "Red-necked wallaby"
-msgstr ""
+msgstr "Crvenovrati valabi"
 
 msgid "Long-eared hedgehog"
-msgstr ""
+msgstr "Dugouhi jež"
 
 msgid "Eastern cottontail rabbit"
-msgstr ""
+msgstr "Istočnoamerički kunić"
 
 msgid "Cape hare"
-msgstr ""
+msgstr "Pustinjski zec"
 
 msgid "Corsican hare"
-msgstr ""
+msgstr "Korzikanski zec"
 
 msgid "Persian squirrel"
-msgstr ""
+msgstr "Kavkaška vjeverica"
 
 msgid "Grey squirrel"
-msgstr ""
+msgstr "Siva vjeverica"
 
 msgid "Calabrian black squirrel"
-msgstr ""
+msgstr "Sanbornova vjeverica"
 
 msgid "Pallas’s squirrel"
-msgstr ""
+msgstr "Palasova vjeverica"
 
 msgid "Thailand tree squirrel"
-msgstr ""
+msgstr "Finlaysonova vjeverica"
 
 msgid "Little souslik"
-msgstr ""
+msgstr "Mala kratkorepa vjeverica"
 
 msgid "Bobak marmot"
-msgstr ""
+msgstr "Stepski mrmot"
 
 msgid "Russian flying squirrel"
-msgstr ""
+msgstr "Ruska leteća vjeverica"
 
 msgid "Siberian chipmunk"
-msgstr ""
+msgstr "Sibirska prugasta vjeverica"
 
 msgid "American beaver"
-msgstr ""
+msgstr "Američki dabar"
 
 msgid "Crested porcupine"
-msgstr ""
+msgstr "Bodljikavo prase"
 
 msgid "Polar bear"
-msgstr ""
+msgstr "Polarni medvjed"
 
 msgid "Arctic fox"
-msgstr ""
+msgstr "Polarna lisica"
 
 msgid "Stoat"
-msgstr ""
+msgstr "Velika lasica"
 
 msgid "Steppe polecat"
-msgstr ""
+msgstr "Stepski tvor"
 
 msgid "European mink"
-msgstr ""
+msgstr "Evropska vidrica"
 
 msgid "Weasel"
-msgstr ""
+msgstr "Lasica"
 
 msgid "Western polecat"
-msgstr ""
+msgstr "Tvor"
 
 msgid "American mink"
-msgstr ""
+msgstr "Američka vidrica"
 
 msgid "Beech marten, Stone marten"
-msgstr ""
+msgstr "Kuna bjelica"
 
 msgid "Pine marten"
-msgstr ""
+msgstr "Kuna zlatica"
 
 msgid "Marbled polecat"
-msgstr ""
+msgstr "Šareni tvor"
 
 msgid "Wolverine"
-msgstr ""
+msgstr "Žderavac"
 
 msgid "Wild goat"
-msgstr ""
+msgstr "Divlja koza"
 
 msgid "Musk ox"
-msgstr ""
+msgstr "Mošusno goveče"
 
 msgid "Reindeer"
-msgstr ""
+msgstr "Irvas"
 
 msgid "Reeves’ muntjac"
-msgstr ""
+msgstr "Mutnjak"
 
 msgid "Chinese water deer"
-msgstr ""
+msgstr "Vodeni jelen"
 
 msgid "Germany"
-msgstr ""
+msgstr "Njemačka"
 
 msgid "Spain"
-msgstr ""
+msgstr "Španija"
 
 msgid "Croatia"
-msgstr ""
+msgstr "Hrvatska"
 
 msgid "Poland"
-msgstr ""
+msgstr "Poljska"
 
 msgid "North Macedonia"
-msgstr ""
+msgstr "Sjeverna Makedonija"
 
 msgid "Serbia"
-msgstr ""
+msgstr "Srbija"
 
 msgid "Language"
-msgstr ""
+msgstr "Jezik"
 
 msgid "Country"
-msgstr ""
+msgstr "Država"
 
 msgid "Elsewhere"
-msgstr ""
+msgstr "Negdje drugdje"
 
 msgid "river"
-msgstr ""
+msgstr "rijeka"
 
 msgid "forest"
-msgstr ""
+msgstr "šuma"
 
 msgid "shrubs"
-msgstr ""
+msgstr "žbunje"
 
 msgid "prairies"
-msgstr ""
+msgstr "stepa"
 
 msgid "farmlands"
-msgstr ""
+msgstr "poljoprivredno poručje"
 
 msgid "alpine"
-msgstr ""
+msgstr "alpski"
 
 msgid "aquatic"
-msgstr ""
+msgstr "vodeni"
 
 msgid "underground"
-msgstr ""
+msgstr "podzemno"
 
 msgid "tree"
-msgstr ""
+msgstr "drvo"
 
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 msgid "Habitats"
-msgstr ""
+msgstr "Stanište"
 
 msgid "Mouse-rat"
-msgstr ""
+msgstr "miš-pacov"
 
 msgid "Hedgehog-squirrel"
-msgstr ""
+msgstr "jež-vjeverica"
 
 msgid "Rabbit-hare"
-msgstr ""
+msgstr "kunić-zec"
 
 msgid "Cats-medium size canivorous"
-msgstr ""
+msgstr "mačke-mesojedi srednje velikičine"
 
 msgid "Dog-Wildboar"
-msgstr ""
+msgstr "pas-divlja svinja"
 
 msgid "Goat-Deers"
-msgstr ""
+msgstr "koza-jelen"
 
 msgid "Cow-Bison"
-msgstr ""
+msgstr "krava-bizon"
 
 msgid "Filter species size"
-msgstr ""
+msgstr "Odaberite veličinu vrste"
 
 msgid "undefined"
-msgstr ""
+msgstr "nedefinisano"
 
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 msgid "Today"
-msgstr ""
+msgstr "Danas"
 
 msgid "Number"
-msgstr ""
+msgstr "Broj"
 
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 msgid "Select species"
-msgstr ""
+msgstr "Odaberite vrstu"
 
 msgid "Please use the GPS or tap on the map to select your location"
-msgstr ""
+msgstr "Koristite GPS ili odaberite vašu lokaciju na mapi"
 
 msgid "Location Accuracy"
-msgstr ""
+msgstr "Tačnost lokacije"
 
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 msgid "How many individuals of this type?"
-msgstr ""
+msgstr "Koliko je jedinki navedene vrste?"
 
 msgid "Direct observation"
-msgstr ""
+msgstr "Direktno posmatranje"
 
 msgid "Camera trap"
-msgstr ""
+msgstr "Kamera-zamka"
 
 msgid "Catch"
-msgstr ""
+msgstr "Ulovljena"
 
 msgid "Road kill"
-msgstr ""
+msgstr "Pregažena na putu"
 
 msgid "Field carcass"
-msgstr ""
+msgstr "Pronađen leš"
 
 msgid "Telemetry"
-msgstr ""
+msgstr "Telemetrija"
 
 msgid "Other (specify in Comment)"
-msgstr ""
+msgstr "Ostalo (navesti u komentaru)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr ""
+msgstr "Molimo Vas, objasnite kako je ova vrsta opažena"
 
 msgid "Alive"
-msgstr ""
+msgstr "Živa"
 
 msgid "Dead - roadkill"
-msgstr ""
+msgstr "Mrtva-pregažena na putu"
 
 msgid "Dead - other"
-msgstr ""
+msgstr "Mrtva-ostalo"
 
 msgid "Indirect"
-msgstr ""
+msgstr "Indirektno"
 
 msgid "Print/trail"
-msgstr ""
+msgstr "Otisak/trag"
 
 msgid "Dropping"
-msgstr ""
+msgstr "Izmet"
 
 msgid "Den/burrow"
-msgstr ""
+msgstr "Sklonište/jazbina"
 
 msgid "Please specify the condition of the mammal."
-msgstr ""
+msgstr "Molimo Vas, navedite stanje vrste"
 
 msgid "Please add any extra info about this record."
-msgstr ""
+msgstr "Dodajte više informacija o ovom unosu"
 
 msgid "Enter more information here..."
-msgstr ""
+msgstr "Ovdje unesite više informacija..."
 
 msgid "Upload"
-msgstr ""
+msgstr "Prenesi"
 
 msgid "species"
-msgstr ""
+msgstr "vrsta"
 
 msgid "Enter your username or email address to request a password reset."
-msgstr ""
+msgstr "Unesite vaše korisničko ime ili e-mail adresu za resetovanje lozinke."
 
 msgid "User not found."
-msgstr ""
+msgstr "Korisnik nije pronađen."
 
 msgid "We've sent an email to you"
-msgstr ""
+msgstr "Poslali smo Vam e-mail"
 
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
+"Odaberite vezu u e-mailu za resetovanje Vaše lozinke. Ukoliko ne možete "
+"pronaći e-mail, provjerite na drugim mjestima kao što su \"junk\", \"spam\" "
+"ili drugi folderi."
 
 msgid "App Development"
-msgstr ""
+msgstr "Razvoj aplikacije"
 
 msgid "This app was hand crafted with love by"
-msgstr ""
+msgstr "Ova aplikacija je ručno kreirana s ljubavlju"
 
 msgid "Agency specializing in building bespoke data oriented solutions."
-msgstr ""
+msgstr "Specijalizovana agencija za izradu rješenja po narudžbi."
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr ""
+msgstr "Za prijedloge i povratne informacije, molimo Vaas, ne ustručavajte se"
 
 msgid "contact us"
-msgstr ""
+msgstr "da nas kontaktirate"
 
 msgid "This App was produced through MammalNet and funded by EFSA."
 msgstr ""
+"Ova aplikacija je izrađena preko MammalNet-a osnovanog od strane EFSA."
 
 msgid "Maps produced"
-msgstr ""
+msgstr "Mape su izrađene"
 
 msgid "Photo credits:"
-msgstr ""
+msgstr "Autor/ka fotografije"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
-msgstr ""
+msgstr "Označite sve nove unose kao \"proba\" i uklonite ih iz svih izvještaja."
 
 msgid "Distribution"
-msgstr ""
+msgstr "Rasprostranjenje"
 
 msgid "Hedgehog"
-msgstr ""
+msgstr "Jež"
 
 msgid "(unknown species)"
-msgstr ""
+msgstr "(nepoznata vrsta)"
 
 msgid "Shrew"
-msgstr ""
+msgstr "Rovčica"
 
 msgid "Mole"
-msgstr ""
+msgstr "Krtica"
 
 msgid "Lagomorph"
-msgstr ""
+msgstr "Dugozubci"
 
 msgid "Rabbits and Hares"
-msgstr ""
+msgstr "Kunići i zečevi"
 
 msgid "Small rodent"
-msgstr ""
+msgstr "Mali glodari"
 
 msgid "Vole"
-msgstr ""
+msgstr "Voluhar"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Miš"
 
 msgid "Rat"
-msgstr ""
+msgstr "Pacov"
 
 msgid "Other mustelid"
-msgstr ""
+msgstr "Ostale kune"
 
 msgid "Locating"
-msgstr ""
+msgstr "Određivanje lokacije"
 
 msgid "Please add record location."
-msgstr ""
+msgstr "Unesite lokaciju"
 
 msgid "Please select a species."
-msgstr ""
+msgstr "Unesite vrstu"
 
 msgid "Enjoying the app?"
-msgstr ""
+msgstr "Da li vam se dopala aplikacija?"
 
 msgid "Not really"
-msgstr ""
+msgstr "Ne baš"
 
 msgid "Yes!"
-msgstr ""
+msgstr "Da!"
 
 msgid "Would you mind giving us some feedback?"
-msgstr ""
+msgstr "Da li bi ste podijelili Vaše impresije?"
 
 msgid "No, thanks"
-msgstr ""
+msgstr "Ne, hvala"
 
 msgid "OK, sure"
-msgstr ""
+msgstr "Da, naravno"
 
 msgid "How about a rating on the App Store then?"
-msgstr ""
+msgstr "U tom slučaju, ocijenite nas u App Store-u?"
 
 msgid "How about a rating on the Play Store then?"
-msgstr ""
+msgstr "U tom slučaju, ocijenite nas u Play Store-u?"
 
 msgid ""
 "Sightings can be recorded anywhere, with or without photos, and all records "
@@ -1590,100 +1594,107 @@ msgid ""
 "distribution of European mammals. You can check and update your records "
 "online."
 msgstr ""
+"Unosi se mogu zapisati na milo kojoj lokaciji, sa ili bez slike, a sve što "
+"je unijeto biće provjerenood strane stručnjaka nakon čega će biti dostupno "
+"za pravljenje mapa rasprostranjenja evropskih vrsta sisara. Provjera i "
+"ažuriranje Vaših podataka vrši se elektronskim putem."
 
 msgid ""
 "Users must first register, and can then log into a web site to view and "
 "correct records. Choice of country can be reviewed in the settings."
 msgstr ""
+"Korisnici se moraju prvo registrovati, a zatim biti u mogućnosti da se "
+"prijave na veb-sajtu za pregled i ispravku unosa. Odabir države se može "
+"pregledati u podešavanjima."
 
 msgid "Icons made by"
-msgstr ""
+msgstr "Ikone napravio"
 
 msgid "from"
-msgstr ""
+msgstr "iz"
 
 msgid "Share App Analytics"
-msgstr ""
+msgstr "Podijelite podatke aplikacije"
 
 # Part of recording attributes pages
 msgid "Gender"
-msgstr ""
+msgstr "Pol"
 
 # Part of recording attributes pages
 msgid "Age"
-msgstr ""
+msgstr "Starost"
 
 # Part of recording attributes pages
 msgid "Decomposition"
-msgstr ""
+msgstr "Razgradnja/Raspadanje"
 
 # Part of recording attributes pages
 msgid "Male"
-msgstr ""
+msgstr "Mužjak"
 
 # Part of recording attributes pages
 msgid "Female"
-msgstr ""
+msgstr "Ženka"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr ""
+msgstr "Navedite pol jedinke."
 
 # Part of recording attributes pages
 msgid "Piglet"
-msgstr ""
+msgstr "Prase"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr ""
+msgstr "Mladunče"
 
 # Part of recording attributes pages
 msgid "Adult"
-msgstr ""
+msgstr "Odrstao/la"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr ""
+msgstr "Navedite starost jedinke."
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
-msgstr ""
+msgstr "Svjež leš"
 
 # Part of recording attributes pages
 msgid "Decomposed"
-msgstr ""
+msgstr "Raspadnut"
 
 # Part of recording attributes pages
 msgid "Dry (just bones left)"
-msgstr ""
+msgstr "Osušeno (ostale samo kosti)"
 
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
-msgstr ""
+msgstr "Navedite stepen raspadanja jedinke."
 
 # Part of recording attributes pages
 msgid "Hunted"
-msgstr ""
+msgstr "Ulovljen/a"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 # Part of species profile external link
 msgid "Mammalnet"
-msgstr ""
+msgstr "Mammalnet"
 
 # Part of species profile external link
 msgid "web profile"
-msgstr ""
+msgstr "veb-profil"
 
 # An unkown species group
 msgid "Bats"
-msgstr ""
+msgstr "Slijepi miševi"
 
 # An unkown species group
 msgid "Seals"
-msgstr ""
+msgstr "Foke"
 
 # From About page
 msgid ""
@@ -1692,6 +1703,10 @@ msgid ""
 "in any European country, but does not yet have all European languages "
 "included."
 msgstr ""
+"Aplikacija iMammalia je osmišljena sa ciljem da podstakne opažanje sisara u "
+"divljini. Ova verzija mobilne aplikacije je dizajnirana za lako bilježenje "
+"sisara u bilo kojoj državi u Evropi, ali još uvijek nije prevedena na sve "
+"evropske jezike"
 
 # From About page
 msgid ""
@@ -1700,3 +1715,7 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
+"iMammalia je osmišljena tako da bude jednostavna za unošenje zapisa o "
+"zapaženim vrstama sisara. Manji sisari su trenutno navedeni samo na "
+"generičkom nivou, jer ih je mnogo teže razlikovati. Sljedeće verzije će "
+"obuhvatati više država, jezika i vrsta."
