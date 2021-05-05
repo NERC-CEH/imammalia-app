@@ -514,7 +514,7 @@ msgid "Northern white-breasted hedgehog"
 msgstr "Riccio orientale"
 
 msgid "Southern white-breasted hedgehog"
-msgstr "Riccio europeo"
+msgstr "Riccio dal petto bianco meridionale"
 
 msgid "Apennine hare"
 msgstr "Lepre appenninica o Lepre italica"
@@ -1571,7 +1571,7 @@ msgid "(unknown species)"
 msgstr "(specie sconosciuta)"
 
 msgid "Shrew"
-msgstr "Toporagno o crocidura"
+msgstr "Toporagno o simili"
 
 msgid "Mole"
 msgstr "Talpa"
@@ -1765,4 +1765,4 @@ msgstr ""
 
 # An error message
 msgid "Could not find/authenticate user."
-msgstr ""
+msgstr "Utente non trovato/autenticato."

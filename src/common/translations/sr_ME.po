@@ -1719,3 +1719,7 @@ msgstr ""
 "zapaženim vrstama sisara. Manji sisari su trenutno navedeni samo na "
 "generičkom nivou, jer ih je mnogo teže razlikovati. Sljedeće verzije će "
 "obuhvatati više država, jezika i vrsta."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

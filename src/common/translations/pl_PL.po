@@ -1786,3 +1786,7 @@ msgstr ""
 "gatunków ssaków. Ze względu na trudności w odróżnianiu, mniejsze ssaki są "
 "obecnie wymienione tylko na poziomie ogólnym. Późniejsze wersje będą "
 "obejmować więcej krajów, języków i gatunków."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr ""

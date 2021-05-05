@@ -1265,7 +1265,7 @@ msgstr "Pasirinkite rūšį"
 msgid "Please use the GPS or tap on the map to select your location"
 msgstr ""
 
-msgid "Location Accurracy"
+msgid "Location Accuracy"
 msgstr ""
 
 msgid "Close"
@@ -1559,4 +1559,8 @@ msgid ""
 "currently only listed at the generic level since they are much harder to "
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
+msgstr ""
+
+# An error message
+msgid "Could not find/authenticate user."
 msgstr ""
