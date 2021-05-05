@@ -13,3 +13,4 @@ yarn.lock
 coverage
 .vscode
 .vercel
+backend/
