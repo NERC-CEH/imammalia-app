@@ -1,3 +1,7 @@
+## 1.2.4
+
+Updated app store description.
+
 ## 1.2.2
 
 Fix Serbian language.
