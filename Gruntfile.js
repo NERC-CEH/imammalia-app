@@ -32,15 +32,13 @@ const replace = {
       },
       {
         from: /\{ANDROID_BUNDLE_VER\}/g,
-        to() {
-          return OFFSET + parseInt(build);
-        },
+        to: () => OFFSET + parseInt(build, 10),
       },
     ],
   },
 };
 
-const exec = grunt => ({
+const exec = () => ({
   build: {
     command: 'npm run clean && NODE_ENV=production npm run build',
   },
