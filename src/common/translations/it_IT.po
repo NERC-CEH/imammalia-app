@@ -206,7 +206,7 @@ msgid "Remove All Saved"
 msgstr "Elimina tutti i dati salvati"
 
 msgid "Application"
-msgstr "Impostazioni"
+msgstr "Applicazione"
 
 msgid "Training Mode"
 msgstr "Modalità di prova"
@@ -227,7 +227,7 @@ msgid "Menu"
 msgstr "Menù"
 
 msgid "App"
-msgstr "Applicazione"
+msgstr "Impostazioni App"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
@@ -1583,7 +1583,7 @@ msgid "Rabbits and Hares"
 msgstr "Coniglio o Lepre"
 
 msgid "Small rodent"
-msgstr "Piccolo roditore"
+msgstr "Piccolo mammifero"
 
 msgid "Vole"
 msgstr "Arvicola"
@@ -1732,11 +1732,11 @@ msgstr "profilo web"
 
 # An unkown species group
 msgid "Bats"
-msgstr "Pipistrelli"
+msgstr "Pipistrello"
 
 # An unkown species group
 msgid "Seals"
-msgstr "Foche"
+msgstr "Foca"
 
 # From About page
 msgid ""

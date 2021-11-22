@@ -1634,7 +1634,7 @@ msgid "Rabbits and Hares"
 msgstr "Conejos o Liebres"
 
 msgid "Small rodent"
-msgstr "Otros roedores"
+msgstr "Pequeños mamíferos "
 
 msgid "Vole"
 msgstr "Topillos"
@@ -1816,4 +1816,4 @@ msgstr ""
 
 # An error message
 msgid "Could not find/authenticate user."
-msgstr ""
+msgstr "No se ha podido encontrar/autenticar usuario,"
