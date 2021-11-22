@@ -30,7 +30,7 @@
     "@ionic/react-router": "4.11.0",
     "backbone": "1.4.0",
     "backbone.localstorage": "2.0.2",
-    "cordova": "9.0.0",
+    "cordova": "10.0.0",
     "core-js": "3.2.1",
     "formik": "^1.5.4",
     "indicia": "4.4.2",

@@ -22,7 +22,7 @@ workflows:
           inputs:
             - debuggable_permitted: 'false'
             - verbose_log: 'true'
-            - android_app: $BITRISE_SOURCE_DIR/cordova/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
+            - android_app: $BITRISE_SOURCE_DIR/cordova/platforms/android/app/build/outputs/bundle/release/app-release.aab
   ci:
     before_run:
       - web
@@ -46,7 +46,7 @@ workflows:
           title: Create apk artifact
           inputs:
             - notify_user_groups: none
-            - deploy_path: $BITRISE_SIGNED_APK_PATH
+            - deploy_path: $BITRISE_SOURCE_DIR/cordova/platforms/android/app/build/outputs/bundle/release/app-release.aab
       - deploy-to-bitrise-io@1:
           title: Create app artifact
           inputs:

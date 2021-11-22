@@ -68,7 +68,7 @@ const exec = () => ({
   },
   android_build: {
     command() {
-      return 'cd cordova && mkdir -p dist && cordova --release build android';
+      return 'cd cordova && mkdir -p dist && cordova --release build android && cd platforms/android && ./gradlew bundle';
     },
     stdout: true,
     stdin: true,
