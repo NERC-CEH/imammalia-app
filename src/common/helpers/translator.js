@@ -14,6 +14,7 @@ import bg_BG from '../translations/bg_BG.po';
 import lt_LT from '../translations/lt_LT.po';
 import el_GR from '../translations/el_GR.po';
 import sr_ME from '../translations/sr_ME.po';
+import pt_PT from '../translations/pt_PT.po';
 // Adding some context, reference and other in po files:
 
 // #: Some reference!!
@@ -37,6 +38,7 @@ const dictionary = {
   lt_LT,
   el_GR,
   sr_ME,
+  pt_PT,
 };
 
 // for incomplete languages only shown in the app demo website
@@ -56,6 +58,7 @@ export const languages = {
   lt_LT: demoOnly && 'Lietuvių',
   el_GR: 'Ελληνικά',
   sr_ME: demoOnly && 'црногорски',
+  pt_PT: demoOnly && 'Português',
 };
 
 export const countries = {
