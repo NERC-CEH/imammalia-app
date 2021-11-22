@@ -113,6 +113,9 @@ export default () => {
           <IonItem>
             <IonLabel>Majlind Sulçe</IonLabel>
           </IonItem>
+          <IonItem>
+            <IonLabel>George Mitsainas</IonLabel>
+          </IonItem>
         </IonList>
 
         <IonList>
