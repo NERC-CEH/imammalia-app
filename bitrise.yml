@@ -84,6 +84,9 @@ workflows:
   web:
     steps:
       - get-npm-package-version@1: {}
+      - set-java-version@1:
+          inputs:
+            - set_java_version: '8'
       - npm@1:
           title: Config Bit.dev
           inputs:
