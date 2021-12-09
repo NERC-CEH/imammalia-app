@@ -57,8 +57,8 @@ export const languages = {
   bg_BG: demoOnly && 'Български',
   lt_LT: demoOnly && 'Lietuvių',
   el_GR: 'Ελληνικά',
-  sr_ME: demoOnly && 'црногорски',
-  pt_PT: demoOnly && 'Português',
+  sr_ME: 'црногорски',
+  pt_PT: 'Português',
 };
 
 export const countries = {
