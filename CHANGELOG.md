@@ -1,3 +1,9 @@
+## 1.3.0
+
+Added Portuguese and Montenegrin languages.
+Updated translations.
+Fixed minor bugs.
+
 ## 1.2.4
 
 Updated app store description.
