@@ -15,6 +15,7 @@ import lt_LT from '../translations/lt_LT.po';
 import el_GR from '../translations/el_GR.po';
 import sr_ME from '../translations/sr_ME.po';
 import pt_PT from '../translations/pt_PT.po';
+
 // Adding some context, reference and other in po files:
 
 // #: Some reference!!
@@ -106,8 +107,8 @@ export const countries = {
   ELSEWHERE: 'Elsewhere',
 };
 
-function translate(key) {
-  const language = appModel.get('language');
+function translate(key, lang) {
+  const language = lang || appModel.get('language');
 
   const translation = dictionary[language][key];
   if (!translation) {
@@ -126,6 +127,22 @@ function translate(key) {
 
   return translation[1];
 }
+
+// import species from 'common/data/species.data.json';
+
+// console.log(
+//   JSON.stringify(
+//     species.map(({ english, warehouse_id, taxon }) => {
+//       const sp = { commonName: english, warehouse_id, scientificName: taxon };
+//       Object.keys(languages).forEach(lang => {
+//         if (lang === 'en') return;
+//         sp[lang] = translate(english, lang);
+//       });
+
+//       return sp;
+//     })
+//   )
+// );
 
 window.t = translate;
 
