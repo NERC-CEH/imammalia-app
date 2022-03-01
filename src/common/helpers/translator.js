@@ -15,6 +15,11 @@ import lt_LT from '../translations/lt_LT.po';
 import el_GR from '../translations/el_GR.po';
 import sr_ME from '../translations/sr_ME.po';
 import pt_PT from '../translations/pt_PT.po';
+import cs_CZ from '../translations/cs_CZ.po';
+import fr_FR from '../translations/fr_FR.po';
+import no_NO from '../translations/no_NO.po';
+import sk_SK from '../translations/sk_SK.po';
+import uk_UA from '../translations/uk_UA.po';
 
 // Adding some context, reference and other in po files:
 
@@ -40,6 +45,11 @@ const dictionary = {
   el_GR,
   sr_ME,
   pt_PT,
+  cs_CZ,
+  fr_FR,
+  no_NO,
+  sk_SK,
+  uk_UA,
 };
 
 // for incomplete languages only shown in the app demo website
@@ -60,6 +70,11 @@ export const languages = {
   el_GR: 'Ελληνικά',
   sr_ME: 'црногорски',
   pt_PT: 'Português',
+  cs_CZ: demoOnly && 'Čeština',
+  fr_FR: demoOnly && 'Français',
+  no_NO: demoOnly && 'Norsk',
+  sk_SK: demoOnly && 'Slovenčina',
+  uk_UA: demoOnly && 'Українська',
 };
 
 export const countries = {

@@ -1,614 +1,583 @@
 # 
 # Translators:
-# Jose A Blanco <joseantonio.blanco@uclm.es>, 2020
-# Karolis, 2021
-# Nera Fabijanić <nera_az@yahoo.com>, 2022
+# GrahamCSmith <graham.smith@apha.gov.uk>, 2022
+# Kamila Plis <kplis@ibs.bialowieza.pl>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Nera Fabijanić <nera_az@yahoo.com>, 2022\n"
-"Language-Team: Croatian (Croatia) (https://www.transifex.com/ceh/teams/103078/hr_HR/)\n"
+"Last-Translator: Kamila Plis <kplis@ibs.bialowieza.pl>, 2022\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/ceh/teams/103078/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr_HR\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 "X-Generator: POEditor.com\n"
 
 msgid "Select your country"
-msgstr "Odaberite svoju državu"
+msgstr "Виберіть свою країну"
 
 msgid "United Kingdom"
-msgstr "Ujedinjeno Kraljevstvo"
+msgstr "Сполу́чене Королі́вство"
 
 msgid "Albania"
-msgstr "Albanija"
+msgstr "Албанія"
 
 msgid "Austria"
-msgstr "Austrija"
+msgstr "Австрія"
 
 msgid "Belarus"
-msgstr "Bjelorusija"
+msgstr "Білорусь"
 
 msgid "Belgium"
-msgstr "Belgija"
+msgstr "Бельгія"
 
 msgid "Bosnia and Herzegovina"
-msgstr "Bosna i Hercegovina"
+msgstr "Боснія і Герцеговина"
 
 msgid "Bulgaria"
-msgstr "Bugarska"
+msgstr "Болгарія"
 
 msgid "Czechia"
-msgstr "Češka"
+msgstr "Чеська Республіка"
 
 msgid "Estonia"
-msgstr "Estonija"
+msgstr "Естонія"
 
 msgid "Finland"
-msgstr "Finska"
+msgstr "Фінляндія"
 
 msgid "France"
-msgstr "Francuska"
+msgstr "Франція"
 
 msgid "Greece"
-msgstr "Grčka"
+msgstr "Греція"
 
 msgid "Hungary"
-msgstr "Mađarska"
+msgstr "Угорщина"
 
 msgid "Iceland"
-msgstr "Island"
+msgstr "Ісландія"
 
 msgid "Ireland"
-msgstr "Irska"
+msgstr "Ірландія"
 
 msgid "Italy"
-msgstr "Italija"
+msgstr "Італія"
 
 msgid "Kosovo"
-msgstr "Kosovo"
+msgstr "Косово"
 
 msgid "Latvia"
-msgstr "Latvija"
+msgstr "Латвія"
 
 msgid "Lithuania"
-msgstr "Litvanija"
+msgstr "Литва"
 
 msgid "Montenegro"
-msgstr "Crna Gora"
+msgstr "Чорногорія"
 
 msgid "Luxembourg"
-msgstr "Luksemburg"
+msgstr "Люксембург"
 
 msgid "Malta"
-msgstr "Malta"
+msgstr "Мальта"
 
 msgid "Moldova"
-msgstr "Moldavija"
+msgstr "Молдова"
 
 msgid "Netherlands"
-msgstr "Nizozemska"
+msgstr "Нідерланди"
 
 msgid "Norway"
-msgstr "Norveška"
+msgstr "Норвегія"
 
 msgid "Portugal"
-msgstr "Portugal"
+msgstr "Португалія"
 
 msgid "Romania"
-msgstr "Rumunjska"
+msgstr "Румунія"
 
 msgid "Slovakia"
-msgstr "Slovačka"
+msgstr "Словаччина"
 
 msgid "Slovenia"
-msgstr "Slovenija"
+msgstr "Словенія"
 
 msgid "Sweden"
-msgstr "Švedska"
+msgstr "Швеція"
 
 msgid "Switzerland"
-msgstr "Švicarska"
+msgstr "Швейцарія"
 
 msgid "Turkey"
-msgstr "Turska"
+msgstr "Туреччина"
 
 msgid "Ukraine"
-msgstr "Ukrajina"
+msgstr "Україна"
 
 msgid "Skip"
-msgstr "Preskoči"
+msgstr "Пропустити"
 
 msgid "Next"
-msgstr "Iduće"
+msgstr "Далі"
 
 msgid "Get Started"
-msgstr "Kreni"
+msgstr "Розпочати"
 
 msgid "Please sign in with your account or register."
-msgstr "Molimo ulogiraj se sa svojim korisničkim računom"
+msgstr "Будь ласка, увійдіть у свій обліковий запис або зареєструйтеся."
 
 msgid "Username or email"
-msgstr "Korisničko ime ili email"
+msgstr "Ім'я користувача або адресу електронної пошти"
 
 msgid "Password"
-msgstr "Lozinka"
+msgstr "Пароль"
 
 msgid "Sign in"
-msgstr "Prijavite se"
+msgstr "Увійти"
 
 msgid "Register"
-msgstr "Registriraj se"
+msgstr "Реєстрація"
 
 msgid "Forgot password?"
-msgstr "Zaboravili ste lozinku?"
+msgstr "Забули пароль?"
 
 msgid "Login"
-msgstr "Logiraj se"
+msgstr "Login"
 
 msgid "Settings"
-msgstr "Postavke"
+msgstr "Налаштування"
 
 msgid "Info"
-msgstr "Informacije"
+msgstr "Інформація"
 
 msgid "About"
-msgstr "O"
+msgstr "Про"
 
 msgid "Help"
-msgstr "Pomoć"
+msgstr "Допоможіть"
 
 msgid "Privacy Policy"
-msgstr "Politika privatnosti"
+msgstr "Privacy Policy"
 
 msgid "Credits"
-msgstr "Zasluge"
+msgstr "Кредити"
 
 msgid "Email"
 msgstr "Email"
 
 msgid "First Name"
-msgstr "Ime"
+msgstr "Ім'я"
 
 msgid "Surname"
-msgstr "Prezime"
+msgstr "Прізвище"
 
 msgid "I agree to"
-msgstr "Slažem se"
+msgstr "Я згоден з"
 
 msgid "Terms and Conditions"
-msgstr "Uvijeti"
+msgstr "Правила та умови"
 
 msgid "Enter your username or email address to request a password reset"
 msgstr ""
-"Upišite korisničko ime ili email adresu za zahtjev resetiranja lozinke"
+"Введіть своє ім’я користувача або адресу електронної пошти, щоб подати запит"
+" на скидання пароля"
 
 msgid "Reset"
-msgstr "Resetiraj"
+msgstr "Скинути"
 
 msgid "Are you sure you want to reset the application to its initial state?"
-msgstr "Jeste li sigurni da želite resetirati aplikaciju na početni oblik?"
+msgstr "Ви впевнені, що хочете скинути програму до початкового стану?"
 
 msgid "This will wipe all the locally stored app data!"
-msgstr "Ovo će obrisati sve lokalno pohranjene podatke aplikacije!"
+msgstr "Це видалить усі локально збережені дані програми!"
 
 msgid "Upload All"
-msgstr "Učitaj sve"
+msgstr "Завантажити все"
 
 msgid "Remove All Saved"
-msgstr "Makni sve pohranjeno"
+msgstr "Видалити все збережене"
 
 msgid "Application"
-msgstr "Primjena"
+msgstr "Застосування"
 
 msgid "Training Mode"
-msgstr "Trening način"
+msgstr "Режим навчання"
 
 msgid "Experimental Features"
-msgstr "Eksperimentalne značajke"
+msgstr "Експериментальні особливості"
 
 msgid "Welcome"
-msgstr "Dobrodošli"
+msgstr "Вітаємо"
 
 msgid "Lets start!"
-msgstr "Krenimo!"
+msgstr "Почнемо!"
 
 msgid "Back"
-msgstr "Natrag"
+msgstr "Назад"
 
 msgid "Menu"
-msgstr "Meni"
+msgstr "Меню"
 
 msgid "App"
-msgstr "Aplikacija"
+msgstr "App"
 
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
-msgstr "Zahvalni smo svima koji su pomogli u kreiranju ove stranice:"
+msgstr "Ми дуже вдячні всім людям, які допомогли створити цю програму:"
 
 msgid "Home"
-msgstr "Početna"
+msgstr "Головна сторінка"
 
 msgid "Account"
-msgstr "Račun"
+msgstr "Обліковий запис"
 
 msgid "Offline"
-msgstr "Van mreže"
+msgstr "Офлайн"
 
 msgid "Sorry, looks like you're offline."
-msgstr "Žao mi je, izgleda da ste van mreže."
+msgstr "Вибачте, схоже, що ви офлайн."
 
 msgid "OK"
-msgstr "OK"
+msgstr "ОК"
 
 msgid "Sorry"
-msgstr "Oprostite"
+msgstr "Вибачте"
 
 msgid "Please wait..."
-msgstr "Molim pričekajte"
+msgstr "Будь ласка, зачекайте..."
 
 msgid "name is a required field"
-msgstr "Ime je obavezno ispuniti"
+msgstr "ім'я є обов'язковим для заповнення"
 
 msgid "password is a required field"
-msgstr "Lozinku je obavezno ispuniti"
+msgstr "пароль є обов'язковим полем"
 
 msgid "Login error:"
-msgstr "Greška prilikom prijave"
+msgstr "Помилка входу:"
 
 msgid "Failed to fetch"
-msgstr "Dohvaćanje nije uspjelo"
+msgstr "Не вдалося отримати"
 
 msgid "Incorrect password or email."
-msgstr "Netočna lozinka ili email"
+msgstr "Невірний пароль або email."
 
 msgid "Logout"
-msgstr "Odjava"
+msgstr "Вийти"
 
 msgid "Are you sure you want to logout?"
-msgstr "Jeste li sigurni da se želite odjaviti?"
+msgstr "Ви впевнені, що хочете вийти?"
 
 msgid "This will delete all the records on this device."
-msgstr "Ovo će pobrisati sve zabilježbe na uređaju"
+msgstr "Це призведе до видалення усіх записів на цьому пристрої."
 
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Aнулювання"
 
 msgid "Welcome aboard!"
-msgstr "Dobrodošli!"
+msgstr "Вітаємо !"
 
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
-"Prije nego što pošaljete bilo kakve zapise, provjerite svoju e-poštu i "
-"kliknite vezu za potvrdu."
+"Перш ніж надсилати будь-які записи, перевірте свою електронну пошту та "
+"натисніть посилання для підтвердження."
 
 msgid "OK, got it"
-msgstr "Prihvaćeno"
+msgstr "Добре, зрозумів"
 
 msgid "email is a required field"
-msgstr "Email je obavezno ispuniti"
+msgstr "email є обов’язковим полем"
 
 msgid "firstname is a required field"
-msgstr "Ime je obavezno ispuniti"
+msgstr "ім’я є обов’язковим полем"
 
 msgid "secondname is a required field"
-msgstr "Prezime je obavezno ispuniti"
+msgstr "прізвище є обов’язковим полем"
 
 msgid "must accept terms and conditions"
-msgstr "Morate prihvatiti uvijete korištenja"
+msgstr "має прийняти умови та положення"
 
 msgid "Species"
-msgstr "Vrsta"
+msgstr "Види"
 
 msgid "Count"
-msgstr "Broj"
+msgstr "Рахувати"
 
 msgid "Comment"
-msgstr "Komentar"
+msgstr "Коментар"
 
 msgid "Draft"
-msgstr "Nacrt"
+msgstr "Чернетка"
 
 msgid "Previous record draft exists, would you like to continue it?"
-msgstr "Postoji prethodni nacrt zapisa, želite li ga nastaviti?"
+msgstr "Попередня чернетка запису існує, продовжити?"
 
 msgid "Discard"
-msgstr "Odbaci"
+msgstr "Відкинути"
 
 msgid "Continue"
-msgstr "Nastavi"
+msgstr "Продовжуйте"
 
 msgid "Finish"
-msgstr "Završi"
+msgstr "Закінчити"
 
 msgid "No species added"
-msgstr "Nema dodanih vrsta"
+msgstr "Жодних видів не додано"
 
 msgid "Delete"
-msgstr "Izbriši"
+msgstr "Видалити"
 
 msgid "Records"
-msgstr "Zapis"
+msgstr "Записи"
 
 msgid "Are you sure you want to delete this record?"
-msgstr ""
-"Jeste li sigurni da želite izbrisati ovaj zapis?\n"
-" "
+msgstr "Ви впевнені, що хочете видалити цей запис?"
 
 msgid "No finished records"
-msgstr "Nema završenih zapisa"
+msgstr "Немає готових записів"
 
 msgid "Finished records"
-msgstr "Dovršeni zapisi"
+msgstr "Готові записи"
 
 msgid "Done"
-msgstr "Gotovo"
+msgstr "Готово"
 
 msgid "Record incomplete"
-msgstr "Zapis nedovršen"
+msgstr "Запис неповний"
 
 msgid "The record is not complete yet."
-msgstr "Ovaj zapis još nije dovršen"
+msgstr "Запис ще не завершений."
 
 msgid "Choose a method to upload a photo"
-msgstr "Odaberite metodu za učitavanje fotografije"
+msgstr "Виберіть спосіб завантаження фотографії"
 
 msgid "Gallery"
-msgstr "Galerija"
+msgstr "Галерея"
 
 msgid "Camera"
-msgstr "Kamera"
+msgstr "Камера"
 
 msgid "Are you sure you want to remove this photo from the record?"
-msgstr "Jeste li sigurni da želite ukloniti ovu fotografiju iz zapisa?"
+msgstr "Ви впевнені, що хочете видалити цю фотографію з запису?"
 
 msgid "Note: it will remain in the gallery."
-msgstr "Napomena: ostat će u galeriji."
+msgstr "Примітка: він залишиться в галереї."
 
 msgid "No photo has been added"
-msgstr "Nema dodanih fotografija"
+msgstr "Жодне фото не додано"
 
 msgid "Registration error:"
-msgstr "Greška prilikom registracije:"
+msgstr "Помилка реєстрації:"
 
 msgid "Incorrect password or email"
-msgstr "Netočna lozinka ili email"
+msgstr "Невірний пароль або електронна адреса"
 
 msgid "email is not valid"
-msgstr "Email nije ispravan"
+msgstr "електронна пошта недійсна"
 
 msgid "Paused"
-msgstr "Pauzirano"
+msgstr "Призупинено"
 
 msgid "Pending"
-msgstr "U tijeku"
+msgstr "Очікується"
 
 msgid "Uploaded"
-msgstr "Učitano"
+msgstr "Завантажено"
 
 msgid "No finished pending records"
-msgstr "Nema gotovih zapisa na čekanju"
+msgstr "Немає закінчених незавершених записів"
 
 msgid "No uploaded records"
-msgstr "Nema prenesenih zapisa"
+msgstr "Немає завантажених записів"
 
 msgid "How to start a record"
-msgstr "Kako započeti zapis"
+msgstr "Як почати запис"
 
 msgid "To start a new record you can press the plus button"
-msgstr "Započeti novi zapis pritisnite plus"
+msgstr "Щоб почати новий запис, ви можете натиснути кнопку плюс"
 
 msgid "in the home page footer."
-msgstr "na dnu početne stranice."
+msgstr "у нижньому колонтитулі домашньої сторінки."
 
 msgid ""
 "When finished, set for submission by pressing the Finish button in the "
 "header."
-msgstr "Kada završite,  za podnošenje pritisnite  gumb Završi u zaglavlju."
+msgstr ""
+"Після завершення задайте для подання, натиснувши кнопку Готово в заголовку."
 
 msgid "Sync. with the website"
-msgstr "Sinkroniziraj sa web stranicom"
+msgstr "Синхрон. з веб-сайтом"
 
 msgid "All your saved records will be shown on your account page."
-msgstr "Svi spremljeni zapisi bit će prikazani na stranici vašeg računa."
+msgstr ""
+"Усі ваші збережені записи відображатимуться на сторінці вашого облікового "
+"запису."
 
 msgid ""
 "By default a record is in a 'draft' mode which will not be sent to the "
 "database until the 'Finish' button in the header is clicked. The application"
 " will try to submit your record once there is a good network connection."
 msgstr ""
-"Prema zadanim postavkama, zapis je u načinu \"skice\" i neće biti poslan u "
-"bazu podataka dok se ne klikne gumb \"Završi\" u zaglavlju. Aplikacija će "
-"vam pokušati poslati zapisnik kad dođete na dobar signal."
+"За замовчуванням запис знаходиться в режимі «чернетка», який не буде "
+"надіслано до бази даних, доки не буде натиснуто кнопку «Готово» в заголовку."
+" Програма спробує надіслати ваш запис, коли буде гарне з’єднання з мережею."
 
 msgid "If the record has reached the database a red"
-msgstr "Ako je zapis dospio u bazu, crveni"
+msgstr "Якщо запис надійшов до бази даних, червоний колір"
 
 msgid "(set for submission & saved locally) will become green"
-msgstr ""
-" \n"
-"(postavljeno za slanje i spremljeno lokalno) postat će zeleno\n"
-" "
+msgstr "(встановлений для подання та збереження локально) стане зеленим"
 
 msgid "synced to the database"
-msgstr "sinkronizirano u bazu podataka"
+msgstr "синхронізовано з базою даних"
 
 msgid "Note"
-msgstr "Bilješka"
+msgstr "Примітка"
 
 msgid ""
 "you have to be signed in to your website account and have a network "
 "connection, for the records to be automatically synchronised in the "
 "background"
 msgstr ""
-" \n"
-"morate biti prijavljeni na svoj račun web mjesta i imati mrežnu vezu da bi se podaci u pozadini automatski sinkronizirali\n"
-" "
+"ви повинні ввійти в обліковий запис свого веб-сайту та підключитися до "
+"мережі, щоб записи автоматично синхронізувалися у фоновому режимі"
 
 msgid "Delete a record"
-msgstr "Izbriši zapis"
+msgstr "Видалити запис"
 
 msgid ""
 "To delete a record, swipe it left in your account page and click the delete "
 "button."
 msgstr ""
-"Da biste izbrisali zapis, prevucite prstom lijevo na stranici vašeg računa i"
-" kliknite gumb za brisanje."
+"Щоб видалити запис, проведіть пальцем ліворуч на сторінці облікового запису "
+"та натисніть кнопку видалити."
 
 msgid "User"
-msgstr "Korisnik"
+msgstr "Користувач"
 
 msgid "Sign in/out or register"
-msgstr "Prijavite se / odjavite se ili registrirajte"
+msgstr "Увійдіть/вийдіть або зареєструйтеся"
 
 msgid ""
 "To login, open the main menu page click Login or Register buttons and follow"
 " the instructions."
 msgstr ""
-"Da biste se prijavili, otvorite stranicu glavnog izbornika pritisnite gumbe "
-"za prijavu ili registraciju i slijedite upute."
+"Щоб увійти, відкрийте сторінку головного меню, натисніть кнопку Вхід або "
+"Реєстрація та дотримуйтесь інструкцій."
 
 msgid "To logout, visit the main menu page and click the logout button."
 msgstr ""
-"Da biste se odjavili, posjetite stranicu glavnog izbornika i kliknite gumb "
-"za odjavljivanje."
+"Щоб вийти, перейдіть на сторінку головного меню та натисніть кнопку виходу."
 
 msgid ""
 "after registering a new account you must verify your email address by "
 "clicking on a verification link sent to your email"
 msgstr ""
-"nakon registracije novog računa morate potvrditi svoju adresu e-pošte klikom"
-" na poveznicu za potvrdu koja je poslana na vašu e-poštu"
+"після реєстрації нового облікового запису ви повинні підтвердити свою адресу"
+" електронної пошти, натиснувши посилання для підтвердження, надіслане на "
+"вашу електронну пошту"
 
 msgid "Other"
-msgstr "Ostalo"
+msgstr "Інший"
 
 msgid "Reset the application"
-msgstr "Resetiraj aplikaciju"
+msgstr "Перезавантажте програму"
 
 msgid "Go to the application settings page"
-msgstr "Idite na stranicu postavki aplikacije"
+msgstr "Перейдіть на сторінку налаштувань програми"
 
 msgid "and click on the Reset"
-msgstr "i pritisnite Resetiraj"
+msgstr "і натисні на Скидання"
 
 msgid "button"
-msgstr "tipku"
+msgstr "кнопку "
 
 msgid "Record"
-msgstr "Zapis"
+msgstr "Запис"
 
 msgid "Location"
-msgstr "Lokacija"
+msgstr "Місцезнаходження"
 
 msgid "Northern white-breasted hedgehog"
-msgstr "Sjeverni bjeloprsi jež"
+msgstr "Північний білочеревий їжак"
 
 msgid "Southern white-breasted hedgehog"
-msgstr "Južni bjeloprsi jež"
+msgstr "Південний їжак"
 
 msgid "Apennine hare"
-msgstr "Apeninski zec"
+msgstr "Корсиканський заєць"
 
 msgid ""
 "Relatively small with a white face, brown legs and a white or brown "
 "underbelly, highly visible, large ears and lack of spines on the crown of "
 "the head"
 msgstr ""
-"Relativno mali s bijelim licem, smeđim nogama i bijelim ili smeđim "
-"potkoljenicama, vrlo čest, s velikim ušima i nedostatkom bodlji na tjemenu "
-"glave"
 
 msgid "Largest species of hedgehog and mostly brown in colour"
-msgstr "Najveća vrsta ježa i uglavnom smeđe boje"
+msgstr ""
 
 msgid ""
 "Similar to Western hedgehog but identifiable by a white spot on its chest"
 msgstr ""
-"Sličan tamnoprsom ježu ,ali prepoznatljiv po bijeloj oznaci na prsima."
 
 msgid ""
 "Relatively small with grey-brown coat, a brown chest patch and white-grey "
 "underbelly, lacks black ear-tips and has proportionately shorter legs"
 msgstr ""
-"Razmjerno mali sa sivo smeđim krznom, smeđim mrljama na prsima i bijelo "
-"sivim trbuhom, bez crnih vrhova ušiju i proporcionalno kraćih nogu"
 
 msgid ""
 "Brown and black back and white underbelly, black tail with white underside, "
 "brown-gray ears usually with black tips"
 msgstr ""
-"Smeđe- crna leđa i bijeli donji dio, crni rep s bijelom donjom stranom, "
-"smeđe-sive uši obično s crnim vrhovima"
 
 msgid ""
 "Golden-brown back and a pale belly, white tail, relatively longer legs and "
 "ears with distinctive black tips"
 msgstr ""
-"Zlatno-smeđa leđa i bljeđi trbuh, bijeli rep, relativno dulje noge i uši s "
-"karakterističnim crnim vrhovima"
 
 msgid ""
 "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
 "ears than other hares"
 msgstr ""
-"Sivo smeđe krzno ljeti, bijelo krzno zimi, uši s crnim vrhovima, kraće uši "
-"od ostalih zečeva"
 
 msgid ""
 "Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
 " upper tail"
 msgstr ""
-"Smeđa ili sivo smeđa leđa i blijedog trbuha, uši s crnim vrhom i crni gornji"
-" dio repa"
 
 msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
 msgstr ""
-"Crveno-smeđeg krzna i blijedog trbuha s kitnjastim repom, duge uske uši sa "
-"čupercima na vrhovima"
 
 msgid ""
 "Grey-brown or red-brown back and pale grey underbelly, white stripe running "
 "along each side and sometimes another along the spine"
 msgstr ""
-"Sivo-smeđa ili crveno-smeđa leđa i blijedo sivog trbuha, bijela pruga koja "
-"se proteže duž svake strane, a ponekad i druga duž kralježnice"
 
 msgid ""
 "Relatively small with dark-brown fur, white spots on its back and a short, "
 "thin tail"
 msgstr ""
-"Relativno mali s tamno smeđim krznom, bijelim mrljama na leđima i kratkim "
-"tankim repom"
 
 msgid ""
 "Brown coat with orange markings on the back and a beige to orange "
 "underbelly, white band between muzzle and eyes, small ears, short legs and a"
 " bushy brown tail with a black tip"
 msgstr ""
-"Smeđe krzno s narančastim oznakama na leđima i trbuh bež do narančaste boje "
-", bijeli pojas između njuške i očiju, malih ušiju, kratkih nogu i bujnog "
-"smeđeg repa s crnim vrhom"
 
 msgid ""
 "Chestnut-brown to black-brown coat, thickset with a flattened head, small "
 "eyes and ears and a flattened, scaly tail"
 msgstr ""
-"Dlaka od kestenasto-smeđe do crno smeđe boje, spljoštene glave, malih očiju "
-"i ušiju te spljoštenim ljuskavim repom"
 
 msgid ""
 "Invasive species: Coarse, dark brown outer fur with soft dense grey under "
 "fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
 "large, bright orange-yellow incisors"
 msgstr ""
-"Invazivna vrsta: Grubo, tamnosmeđe površinsko krzno s mekanom gustom sivom "
-"poddlakom, odlikuje se bijelim mrljama na njušci, mrežastim stražnjim nogama"
-" i velikim, svijetlo narančasto-žutim sjekutićima"
 
 msgid ""
 "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
@@ -616,987 +585,856 @@ msgid ""
 "brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
 "on the cheeks."
 msgstr ""
-"Invazivna vrsta: prljavo, zemljano-smeđe ili smeđe-sivo krzno  s crnim "
-"dlakama zimi, a ljeti svjetlije i crvenkasto-slamnato krzno; žućkastosmeđi "
-"trbuh, tamno smeđa ili crnkasta prsa, s dugim dlakama na obrazima poput "
-"brkova."
 
 msgid ""
 "Often not fully brown, have long, thick fur, with a moderately long mane at "
 "the back of the neck"
 msgstr ""
-"Često nisu potpuno smeđe boje, imaju dugačko, debelo krzno, s umjereno dugom"
-" grivom na stražnjem dijelu vrata"
 
 msgid ""
 "Coat color ranges from almost pure white through various shades of blonde, "
 "cream and ochre to greys, browns and blacks, long, dense fur and long, "
 "coarse guard hairs."
 msgstr ""
-"Boja krzna kreće se od gotovo čisto bijele boje do raznih nijansi krem ​​i "
-"oker te sivih, smeđih i crnih, dugog, gustog krzna i dugih, grubih vlasi."
 
 msgid ""
 "Similar to the grey wolf but is distinguished by its smaller size, more "
 "elongated torso, less prominent forehead, shorter legs and tail and a more "
 "narrow, pointed muzzle"
 msgstr ""
-"Sličan je sivom vuku, ali vidljivo manji, više izduženog trupa, manje "
-"istaknutim čelom, kraćim nogama i repom te užom šiljastom njuškom"
 
 msgid ""
 "Orange-red fur with a white underbelly, black tips to the ears, dark brown "
 "feet and a white tip to the bushy, orange tail"
 msgstr ""
-"Narančasto-crveno krzno s bijelim oznakama na vratu i trbuhu, crnim vrhovima"
-" ušiju, tamno smeđim nogama i bijelim vrhom bujnog, narančastog repa"
 
 msgid ""
 "Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
 "distinguished from mink by their much larger size and broader face"
 msgstr ""
-"Sivo smeđe krzno, široke njuške, blijedih prsa i grlišta, veća od kune i "
-"živi uz vodotoke i vodene površine"
 
 msgid ""
 "Large and grey, with a short, fluffy tail, black belly and paws, and a "
 "black-and-white striped face"
 msgstr ""
-"Krupan i siv, s kratkim, maljavim repom, bijelim trbuhom i crnim šapama te "
-"karakterističnim crno-bijelim prugastim licem"
 
 msgid ""
 "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
 " pointed snout, small ears, long black tipped tail, and furless hind feet "
 "and facial area"
 msgstr ""
-"Invazivna vrsta: Dugo, grubo sivo do crveno-smeđe krzno s nešto žutih "
-"dlačica, šiljastom njuškom, malim ušima, dugim repom crnog vrha te stražnjh "
-"stopala i lica bez krzna"
 
 msgid ""
 "Invasive species: Small and slender body with pale to dark brown fur, golden"
 " flecks and a pale underbelly, short legs and small rounded ears located on "
 "the side of its head, bushy tail"
 msgstr ""
-"Invazivna vrsta: maleno i vitko tijelo s blijedo do tamno smeđim krznom, "
-"zlatnim flekama i blijedim donjim dijelom trbuha, kratkim nogama i malim "
-"zaobljenim ušima smještenim na strani glave, čupavog repa"
 
 msgid ""
 "Pale yellow-grey coat with black spots on the sides, a black stripe along "
 "the spine and a striped, bushy tail, slender body with a pointed muzzle, "
 "large eyes, large ears and whiskers"
 msgstr ""
-"Blijedo žuto-sivo krzno s crnim mrljama na stranama, crnom prugom duž "
-"kralježnice i prugastim, bujnim repom, vitkim tijelom s naglašenom njuškom, "
-"velikim očima, velikim ušima i šapama"
 
 msgid ""
 "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
 "banding on the tail and body"
 msgstr ""
-"Veća i krupnija od kućne mačke s bogatim repom, izraženih i vidljivih "
-"prstenova na repu"
 
 msgid ""
 "Red-brown fur in summer and silver-grey thicker fur in winter, white "
 "underbelly, spotted pattern, distinctive black hair tufts on its ears, "
 "black-tipped tail and a facial ruff of white fur"
 msgstr ""
-"Crveno-smeđe krzno ljeti i srebrno-sivo gušće krzno zimi, bijeli trbuh, "
-"pjegavi uzorak, izrazite crne dlake na ušima, crni rep te blijeđe bolje na "
-"glavi."
 
 msgid ""
 "Yellow to tawny short fur, spotted pattern, short body, long legs, short "
 "tail, small head with tufted ears and facial whiskers."
 msgstr ""
-"Žuto  sjajno kratko krzno, pjegavi uzorak, kratka tijela, duge noge, kratak "
-"rep, mala glava s  ušima i brkovima na licu."
 
 msgid ""
 "Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
 "body with heavy-set shoulders, a large head with tusks in both sexes, males "
 "have a ridge of hair along the upper spine"
 msgstr ""
-"Grubo krzno koje može biti tamno sive, smeđe, pješčano smeđe ili crne boje, "
-"mišićavog tijela s čvrstim ramenima, velika glava s izraženim očnjacima kod "
-"oba spola, mužjaci imaju naglašen greben dulje dlake duž kralježnice."
 
 msgid ""
 "Short golden-brown coat, longer hair along the upper spine, longer tail and "
 "long, upward-curving horns"
 msgstr ""
-"Kratko zlatno-smeđe krzno, duža dlaka duž  kralježnice, duži rep i dugi, "
-"prema gore zakrivljeni rogovi"
 
 msgid ""
 "Males are red-brown with a white saddle patch, females are brown, males have"
 " helix-shaped backward-curving horns, with a white tone on anal region, legs"
 " and the snout. "
 msgstr ""
-"Mužjaci su crveno-smeđi s bijelim sedlarskim dijelom, ženke su smeđe, "
-"muškarci imaju spiralne rogove zakrivljene unatrag, s bijelim tonom na "
-"analnoj regiji, nogama i njušci."
 
 msgid ""
 "Brownish grey coat with darker markings on the chin, throat and back; males "
 "have large, curved horns"
 msgstr ""
-"Smeđe sivog krzna s tamnijim oznakama na bradi, grlu i leđima; mužjaci imaju"
-" velike zakrivljene rogove"
 
 msgid ""
 "Brown coat with short legs and large hooves; males have large, curved horns"
 msgstr ""
-"Smeđe krzno s kratkim nogama i velikim papcima; mužjaci imaju velike "
-"zakrivljene rogove"
 
 msgid ""
 "Small size, short and straight horns, brown or grey coat with white markings"
 " on the sides of the head and rump, and black stripes below the eyes and "
 "along the back"
 msgstr ""
-"Tjelesno manji, kratkih i ravnih rogova, smeđeg ili sivog krzna s bijelim "
-"oznakama na bočnim stranama glave i poprsja, te crnim prugama ispod očiju i "
-"uzduž leđa"
 
 msgid ""
 "Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
 "hooked horns"
 msgstr ""
-"Smeđe do crno-smeđe krzno, tamne mrlje oko očiju, rogovi zakrivljeni unatrag"
 
 msgid ""
 "Reddish-brown to grey coat, may have patches of different colouration on the"
 " back, males have antlers, relatively long tail"
 msgstr ""
-"Crvenkasto-smeđe do sive boje krzna, na leđima može imati mrlje različite "
-"boje, mužjaci imaju rogove, relativno dug rep"
 
 msgid ""
 "Typically chestnut coat with white markings but may also be fully white or "
 "black, males have antlers"
 msgstr ""
-"Obično kestenjasto krzno s bijelim oznakama, ali može biti i potpuno bijeli "
-"ili crni, mužjaci imaju rogove"
 
 msgid ""
 "Large with dark brown coat, large antlers, hooves and a fold of skin under "
 "the chin"
 msgstr ""
-"Veliki s tamno smeđim krznom, velikih rogova, s naborom kože ispod brade"
 
 msgid ""
 "Relatively small deer with orange-brown coat, males have antlers with 2-4 "
 "prongs"
 msgstr ""
-"Relativno malen jelen s narančasto-smeđom dlakom, mužjaci imaju rogove s 2-4"
-" paroška"
 
 msgid ""
 "Range of coat colours from mahogany to black (sometimes white) and a spotted"
 " coat, males have upright antlers, females have distinctive black bumps"
 msgstr ""
-"Raspon boja krzna od mahagonija do crne (ponekad bijele) i pjegavog krzna, "
-"mužjaci imaju uspravne rogove, ženke imaju izražene crne izbočine"
 
 msgid ""
 "Medium sized deer, golden coat with distinctive white spots and a white "
 "underbelly, conspicuous black stripe along the spine, males have three-"
 "pronged antlers"
 msgstr ""
-"Jelen srednje veličine, zlatno - smeđeg krzna s izrazitim bijelim mrljama i "
-"blijedim trbuhom, upadljivom crnom prugom duž kralježnice, mužjaci imaju "
-"rogove u obliku lopate"
 
 msgid ""
 "Reddish-brown to grey-brown coat, characteristic white underside to the "
 "tail, males have antlers with a variable number of prongs"
 msgstr ""
-"Krzno crvenkasto-smeđe do sivo smeđe boje, karakteristične bijele donje "
-"strane repa, mužjaci imaju rogove s promjenjivim brojem parožaka"
 
 msgid ""
 "Invasive species: Grey-brown and white coat with long fur and a bushy, "
 "striped tail, characteristic black markings around the eyes contrasted by "
 "white face"
 msgstr ""
-"Invazivna vrsta: Sivosmeđi i bijeli, s dugim krznom i grmolikim, prugastim "
-"repom, karakterističnih crnih tragova oko očiju na bijelom licu"
 
 msgid ""
 "Sandy brown coat with a lighter underbelly and a darker line along the back,"
 " shaggy hair on the throat and smooth, backwards-curving horns"
 msgstr ""
-"Pješčano smeđe boje sa svjetlijom poddlakom i tamnijom linijom duž leđa, "
-"raščupane dlake na grlu i glatkih, zakrivljenih rogova unatrag"
 
 msgid ""
 "Relatively small with brown fur with no obvious spots, and a short bushy "
 "tail"
 msgstr ""
-"Relativno mali sa smeđim krznom bez vidljivih mrlja i kratkog kitnjastog "
-"repa"
 
 msgid ""
 "A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
 " upper arms."
 msgstr ""
-"Mali uspravni klokan, smeđkasto sive boje s oznakama boje  kestena na vratu "
-"i nadlakticama."
 
 msgid "A small hedgehog with pale face and long ears."
-msgstr "Mali jež blijedog lica i dugih ušiju."
+msgstr ""
 
 msgid ""
 "Introduced to Northern Italy. Very similar to European rabbit but more "
 "compact with shorter ears."
 msgstr ""
-"Unešen u sjevernu Italiju. Vrlo sličan europskom zecu, ali kompaktniji s "
-"kraćim ušima."
 
 msgid ""
 "Paler than the brown hare, with very small black tips to the ears. "
 "Restricted to Sardinia."
 msgstr ""
-"Blijeđi od smeđeg zeca, s vrlo malim crnim vrhovima do ušiju. Prisutan na "
-"Sardiniju."
 
 msgid ""
 "Similar to but slightly smaller than the brown hare, with relatively longer "
 "ears and hindlegs."
 msgstr ""
-"Sličan, ali nešto manji od smeđeg zeca, s relativno dužim ušima i stražnjim "
-"nogama."
 
 msgid ""
 "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
 "winter."
 msgstr ""
-"Odozgo siva, s crvenkastim stranama. Rep kraći od tijela i zimi nema čuperka"
-" na ušima."
 
 msgid ""
 "Invasive species: Silver/grey coat with brownish tinge on feet and face. "
 "Tail fringed with white. Larger than red squirrel."
 msgstr ""
-"Invazivna vrsta: Srebrno / sivo krzno  sa smeđkastim nijansama na stopalima "
-"i licu. Rep obrubljen bijelom bojom. Veća od crvene vjeverice."
 
 msgid ""
 "The dorsal part of the body, head, neck, feet and tail are black; the "
 "abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
 "than Italian populations of red squirrel."
 msgstr ""
-"Leđni dio tijela, glava, vrat, stopala i rep su crni; trbuh je bijel. Ušne "
-"čuperke ima samo zimi. Nema seksualnog dimorfizma. Veća od talijanskih "
-"populacija crvene vjeverice."
 
 msgid ""
 "Invasive species: Similar in size to red squirrel, back is olive-brown and "
 "belly russet. White tip to the tail."
 msgstr ""
-"Invazivna vrsta: Veličine slične crvenoj vjeverici, leđa su maslinastosmeđa "
-"i trbuh. Bijela pruga do repa."
 
 msgid ""
 "Invasive species: Similar in size to red squirrel. Longer tail. Back is "
 "olive-brown and underside cream, extending onto face."
 msgstr ""
-"Invazivna vrsta: Veličina slična crvenoj vjeverici. Dulji rep. Leđa su "
-"maslinastosmeđa i donja strana trbuha je krem, proteže se i na lice."
 
 msgid ""
 "Smallest souslik with yellow to brownish fur and no obvious spots. White "
 "throat and chest with a short tail."
 msgstr ""
-"Najmanja tekunica sa žutim do smeđkastim krznom i bez očitih mrlja. Bijelo "
-"grlo i prsa s kratkim repom."
 
 msgid "A large marmot with overall brownish fur and short tail."
-msgstr "Veliki svizac sa  smeđkastim krznom i kratkim repom."
+msgstr ""
 
 msgid ""
 "A small squirrel with rounded head, and membrane between fore and hind legs."
 " Greyish above and lighter below."
 msgstr ""
-"Mala vjeverica zaobljene glave i opne između prednjih i stražnjih nogu. "
-"Sivkasto odozgo i svjetlije odozdo."
 
 msgid ""
 "Invasive species: Yellow-brown coat with four white stripes and five dark "
 "stripes along the back and a white chest and belly"
 msgstr ""
-"Invazivna vrsta: žuto-smeđe krzno s četiri bijele pruge i pet tamnih pruga "
-"duž leđa te bijelim prsima i trbuhom"
 
 msgid ""
 "Very similar to European beaver, with flattened scaly tail, but darker fur."
 msgstr ""
-"Vrlo sličan europskom dabru, spljoštenog ljuskavog repa, ali tamnijeg krzna."
 
 msgid ""
 "A porcupine with typical black and white quills that run along the body"
-msgstr "Dikobraz s tipičnim crno-bijelim bodljama koji se protežu duž tijela"
+msgstr ""
 
 msgid "Elongated shilhouette, small ears and white to yellowish fur."
-msgstr "Izdužena tijela, malih ušiju i bijelog do žućkastog krzna."
+msgstr ""
 
 msgid ""
 "Small fox with short ears. White in winter and in summer grey on the back "
 "and lighter underneath."
 msgstr ""
-"Mala lisica s kratkim ušima. Bijela zimi, a ljeti siva po leđima i svjetlija"
-" ispod."
 
 msgid ""
 "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
 "than the similar weasel, has a longer tail and has a distinctive bounding "
 "gait, arching its back as it moves"
 msgstr ""
-"Narančasto-smeđa leđa, krem ​​grlo i trbuh i rep s crnim vrhom. Veći od  "
-"lasice, ima duži rep i prepoznatljiv  hod, izvija leđa dok se kreće"
 
 msgid ""
 "Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
 " by paler fur"
 msgstr ""
-"Žuto-smeđe krzno s tamnim udovima i tamnom maskom po licu nasuprot blijeđem "
-"krznu"
 
 msgid ""
 "Dark brown to red-brown coat, elongated body with short limbs and a short "
 "tail. Fur is pure white around the mouth"
 msgstr ""
-"Tamno smeđe do crveno-smeđe krzno, izduženo tijelo s kratkim udovima i "
-"kratkim repom. Krzno je čisto bijelo oko usta"
 
 msgid ""
 "Orange-brown back and a cream throat and underbelly, smaller than the "
 "similar stoat, shorter tail with no black tip, and a running gait with a "
 "straight back"
 msgstr ""
-"Narančasto-smeđa leđa i krem ​​grlo i donji dio trbuha, manji od hermelina, "
-"kraći rep bez crnog vrha i trči s ravnim leđima"
 
 msgid ""
 "Dark brown colour with a pale underbelly and a dark mask-shape across the "
 "pale face"
 msgstr ""
-"Tamno smeđa boja s blijedim donjim dijelom trbuha i tamnom  maskom preko "
-"blijedog lica"
 
 msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
-msgstr "Invazivna vrsta: smeđe-crno krzno, uska njuška, mala, bijela brada"
+msgstr ""
 
 msgid ""
 "Light brown coat with a cream chest and throat extending to top of legs, "
 "longer tail, more elongated and angular head with shorter, more rounded and "
 "widely spaced ears"
 msgstr ""
-"Svijetlosmeđe krzno s kremastim prsima i grlom koji se protežu do vrha nogu,"
-" dužim repom, izduženijom i uglatijom glavom s kraćim, zaobljenijim i široko"
-" razmaknutim ušima"
 
 msgid ""
 "Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
 "throat and a long, bushy tail"
 msgstr ""
-"Kestenjastosmeđe boje, karakteristične blijedožute mrlje na bradi i grlu i "
-"dugog, grmolikog repa"
 
 msgid ""
 "Typical polecat face (dark mask on a pale face), but with large white to "
 "yellow spots on its back."
 msgstr ""
-"Tipično lice tvora (tamna maska ​​na blijedom licu), ali s velikim bijelim "
-"do žutim mrljama na leđima."
 
 msgid "Resembles a small bear with a tail. Dark brown and stocky."
 msgstr ""
-"Podsjeća na malog medvjeda s repom. Tamno smeđe boje, zdepasta izgleda."
 
 msgid ""
 "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
 "summer and greyish brown in winter. Horns curve backward and males have a "
 "large black beard."
 msgstr ""
-"Nije divlji jarac. Pojavljuje se na Kreti. Svijetlo crveno-smeđe ljeti i "
-"sivosmeđe boje zimi. Rogovi se savijaju unatrag, a mužjaci imaju veliku crnu"
-" bradu."
 
 msgid "A massive bovine with very long hair, and hooked horns."
-msgstr "Veliki papkar s vrlo dugom dlakom i zakrivljenim rogovima."
+msgstr ""
 
 msgid ""
 "Both sexes grow antlers with two sets of points, one growing forward and one"
 " backward. Coat dark brown in summer and lighter in winter."
 msgstr ""
-"Oba spola imaju rogove s dva para, jedan raste naprijed i jedan unatrag. "
-"Ljeti je krzno tamno smeđe, a zimi svjetlije."
 
 msgid ""
 "Invasive species: A small deer with rounded back and head often held low. "
 "Simple backward pointing antlers on male."
 msgstr ""
-"Invazivna vrsta: mali jelen zaobljenih leđa i glave često nisko nošene. "
-"Jednostavnih rogovlja usmjerenog unatrag kod mužjaka."
 
 msgid ""
 "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
 "antlers but males have long curved tusks."
 msgstr ""
-"Mali jelen s pješčano smeđim krznom. Blijeđi zimi. Nema rogova, ali mužjaci "
-"imaju duge zakrivljene zube."
 
 msgid ""
 "Very similar to the Northern white-breasted hedgehog with a white patch "
 "underneath of varying dimensions, and slightly larger than E roumanicus"
 msgstr ""
-"Vrlo sličan sjevernom bijeloprsom ježu s bijelom mrljicom  različitih "
-"dimenzija na trbuhu i nešto veći od E. roumanicus"
 
 msgid ""
 "Invasive species: the largest vole but smaller than beaver or coypu with a "
 "laterally compressed tail."
 msgstr ""
-"Invazivna vrsta: najveća voluharica, ali manja od dabra  s bočno spljoštenim"
-" repom."
 
 msgid "Muskrat"
-msgstr "Bizamski štakor"
+msgstr "Ондатра"
 
 msgid "Algerian hedgehog"
-msgstr "Alžirski jež"
+msgstr "Алжирський їжак"
 
 msgid "Western hedgehog"
-msgstr "Tamnoprsi jež"
+msgstr "Європейський їжак"
 
 msgid "Eastern hedgehog"
-msgstr "Bjeloprsi jež"
+msgstr "Їжак південний"
 
 msgid "European rabbit"
-msgstr "Kunić"
+msgstr "Дикий кріль"
 
 msgid "Broom hare"
-msgstr "Kantabrijski zec "
+msgstr "Кастров'єхський заєць"
 
 msgid "Brown hare"
-msgstr " Zec obični (Europski zec )"
+msgstr "Заєць-русак"
 
 msgid "Mountain hare"
-msgstr "Planinski zec "
+msgstr "Заєць-біляк"
 
 msgid "Granada hare"
-msgstr "Iberijski zec "
+msgstr "Іберійський заєць"
 
 msgid "Red squirrel"
-msgstr "Crvena vjeverica"
+msgstr "Звичайна білка"
 
 msgid "Barbary ground squirrel"
-msgstr "Prugasta vjeverica "
+msgstr "Магрибська білка"
 
 msgid "Spotted souslik"
-msgstr "Pjegava tekunica "
+msgstr "Крапчастий ховрах"
 
 msgid "European Souslik"
-msgstr "Tekunica"
+msgstr "Європейський ховрах"
 
 msgid "Alpine marmot"
-msgstr "Alpski svizac"
+msgstr "Альпійський бабак"
 
 msgid "European beaver"
-msgstr "Europski dabar"
+msgstr "Звичайний бобер"
 
 msgid "Coypu"
-msgstr "Nutrija"
+msgstr "Нутрія"
 
 msgid "Raccoon dog"
-msgstr "Kunopas"
+msgstr "Єнотоподібний собака"
 
 msgid "Brown bear"
-msgstr "Smeđi medvjed"
+msgstr "Бурий ведмідь"
 
 msgid "Grey wolf"
-msgstr "Sivi vuk"
+msgstr "Вовк"
 
 msgid "Golden jackal"
-msgstr "Čagalj"
+msgstr "Шакал"
 
 msgid "Red fox"
-msgstr "Crvena lisica"
+msgstr "Лисиця"
 
 msgid "European otter"
-msgstr "Vidra"
+msgstr "Видра"
 
 msgid "Eurasian badger"
-msgstr "Jazavac"
+msgstr "Борсук"
 
 msgid "Egyptian mongoose"
-msgstr "Egipatski mungos "
+msgstr "Єгипетський мангуст"
 
 msgid "Small Indian mongoose"
-msgstr "Mali indijski mungos"
+msgstr "Індійський мангуст"
 
 msgid "Common genet"
-msgstr "Europska cibetka "
+msgstr "Звичайна генета"
 
 msgid "Wildcat"
-msgstr "Divlja mačka"
+msgstr "Лісовий кіт"
 
 msgid "Eurasian lynx"
-msgstr "Ris"
+msgstr "Рись"
 
 msgid "Iberian lynx"
-msgstr "Iberijski ris"
+msgstr "Іспанська рись"
 
 msgid "Wild boar"
-msgstr "Svinja divlja"
+msgstr "Кабан"
 
 msgid "European bison"
-msgstr "Europski bizon"
+msgstr "Зубр"
 
 msgid "European mouflon"
-msgstr "Europski muflon"
+msgstr "Європейський муфлон"
 
 msgid "Alpine ibex"
-msgstr "Alpski kozorog"
+msgstr "Альпійський козел"
 
 msgid "Spanish ibex"
-msgstr "Španjolski kozorog "
+msgstr "Піренейський козел"
 
 msgid "Chamois, Alpine"
-msgstr "Divokoza"
+msgstr "Звичайна козиця"
 
 msgid "Chamois, southern"
-msgstr "Pirinejska divokoza "
+msgstr "Піренейська козиця"
 
 msgid "Red deer"
-msgstr "Jelen obični"
+msgstr "Благородний олень"
 
 msgid "Fallow deer"
-msgstr "Jelen lopatar"
+msgstr "Лань"
 
 msgid "Elk"
-msgstr "Kanadski jelen "
+msgstr "Лось"
 
 msgid "Roe deer"
-msgstr "Srna obična"
+msgstr "Європейська косуля"
 
 msgid "Sika deer"
-msgstr "Sika jelen"
+msgstr "Плямистий олень"
 
 msgid "Chital"
-msgstr "Jelen aksis"
+msgstr "Аксис"
 
 msgid "White-tailed deer"
-msgstr "Bjelorepi jelen"
+msgstr "Американський білохвостий олень"
 
 msgid "Raccoon"
-msgstr "Rakun"
+msgstr "Звичайний ракун"
 
 msgid "Barbary sheep"
-msgstr "Grivasti skakač"
+msgstr "Гривастий баран"
 
 msgid "Red-necked wallaby"
-msgstr "crvenovrati valabi"
+msgstr "Валабі Беннета"
 
 msgid "Long-eared hedgehog"
-msgstr "dugouhi jež"
+msgstr "Вухатий їжак"
 
 msgid "Eastern cottontail rabbit"
-msgstr "Istočni kunić"
+msgstr "Флоридський кролик"
 
 msgid "Cape hare"
-msgstr "kapski zec"
+msgstr "Капський заєць"
 
 msgid "Corsican hare"
-msgstr "korzički zec"
+msgstr "Корсиканський заєць"
 
 msgid "Persian squirrel"
-msgstr "perzijska vjeverica"
+msgstr "Кавказька білка"
 
 msgid "Grey squirrel"
-msgstr "Siva vjeverica"
+msgstr "Каролінська білка"
 
 msgid "Calabrian black squirrel"
-msgstr "Kalabrijska crna vjeverica"
+msgstr "Сіра білка"
 
 msgid "Pallas’s squirrel"
-msgstr "Pallasova vjeverica"
+msgstr "Білка Палласа"
 
 msgid "Thailand tree squirrel"
-msgstr "Tajlandska vjeverica"
+msgstr "Білка Фінлейсона"
 
 msgid "Little souslik"
-msgstr "mala podzemna vjeverica"
+msgstr "Малий ховрах"
 
 msgid "Bobak marmot"
-msgstr "stepski svizac"
+msgstr "Степовий бабак"
 
 msgid "Russian flying squirrel"
-msgstr "ruska leteća vjeverica"
+msgstr "Звичайна летяга"
 
 msgid "Siberian chipmunk"
-msgstr "sibirska vjeverica"
+msgstr "Сибірський бурундук"
 
 msgid "American beaver"
-msgstr "Američki dabar"
+msgstr "Канадський бобер"
 
 msgid "Crested porcupine"
-msgstr "obični dikobraz"
+msgstr "Гребінчастий дикобраз"
 
 msgid "Polar bear"
-msgstr "Polarni medvjed"
+msgstr "Білий ведмідь"
 
 msgid "Arctic fox"
-msgstr "Polarna lisica"
+msgstr "Полярна лисиця"
 
 msgid "Stoat"
-msgstr "Velika lasica - hermelin"
+msgstr "Горностай"
 
 msgid "Steppe polecat"
-msgstr "stepski tvor"
+msgstr "Степовий тхір"
 
 msgid "European mink"
-msgstr "Europska vidrica"
+msgstr "Європейська норка"
 
 msgid "Weasel"
-msgstr "Lasica"
+msgstr "Ласка"
 
 msgid "Western polecat"
-msgstr "tvor"
+msgstr "Лісовий тхір"
 
 msgid "American mink"
-msgstr "Američka vidrica"
+msgstr "Американська норка"
 
 msgid "Beech marten, Stone marten"
-msgstr "Kuna bjelica"
+msgstr "Кам'яна куниця"
 
 msgid "Pine marten"
-msgstr "Kuna zlatica"
+msgstr "Лісова куниця"
 
 msgid "Marbled polecat"
-msgstr "Mramorni tvor"
+msgstr "Перегузня"
 
 msgid "Wolverine"
-msgstr "Gorska kuna"
+msgstr "Росомаха"
 
 msgid "Wild goat"
-msgstr "Divlja koza"
+msgstr "Звичайний козел"
 
 msgid "Musk ox"
-msgstr "Mošusno govedo"
+msgstr "Вівцебик"
 
 msgid "Reindeer"
-msgstr "Sob"
+msgstr "Північний олень"
 
 msgid "Reeves’ muntjac"
-msgstr "Muntjak"
+msgstr "Китайський мунтжак"
 
 msgid "Chinese water deer"
-msgstr "Kineski vodeni jelen"
+msgstr "Водяний олень китайський"
 
 msgid "Germany"
-msgstr "Njemačka"
+msgstr "Німеччина"
 
 msgid "Spain"
-msgstr "Španjolska"
+msgstr "Іспанія"
 
 msgid "Croatia"
-msgstr "Hrvatska"
+msgstr "Хорватія"
 
 msgid "Poland"
-msgstr "Poljska"
+msgstr "Польща"
 
 msgid "North Macedonia"
-msgstr "Sjeverna Makedonija"
+msgstr "Північна Македонія"
 
 msgid "Serbia"
-msgstr "Srbija"
+msgstr "Сербія"
 
 msgid "Language"
-msgstr "Jezik"
+msgstr "Mова"
 
 msgid "Country"
-msgstr "Država"
+msgstr "Країна"
 
 msgid "Elsewhere"
-msgstr "Drugdje"
+msgstr "В іншому місці"
 
 msgid "river"
-msgstr "rijeka"
+msgstr "ріка"
 
 msgid "forest"
-msgstr "šuma"
+msgstr "ліс"
 
 msgid "shrubs"
-msgstr "grmlje"
+msgstr "чагарники"
 
 msgid "prairies"
-msgstr "prerija"
+msgstr "прерії"
 
 msgid "farmlands"
-msgstr "obrađena zemlja"
+msgstr "сільськогосподарські угіддя"
 
 msgid "alpine"
-msgstr "alpski"
+msgstr "альпійський"
 
 msgid "aquatic"
-msgstr "vodeni"
+msgstr "водний"
 
 msgid "underground"
-msgstr "podzemni"
+msgstr "під землею"
 
 msgid "tree"
-msgstr "drvo"
+msgstr "дерево"
 
 msgid "Description"
-msgstr "Opis"
+msgstr "Опис"
 
 msgid "Habitats"
-msgstr "Stanište"
+msgstr "Середовища проживання"
 
 msgid "Mouse-rat"
-msgstr "Miš-štakor"
+msgstr "Мишка-щур"
 
 msgid "Hedgehog-squirrel"
-msgstr "Jež - Vjeverica"
+msgstr "Їжачок-білка"
 
 msgid "Rabbit-hare"
-msgstr "Kunić - Zec"
+msgstr "Кролик-заєць"
 
 msgid "Cats-medium size canivorous"
-msgstr "Mesožder veličine mačke"
+msgstr "Коти - хижак середнього розміру"
 
 msgid "Dog-Wildboar"
-msgstr "Pas - Divlja svinja"
+msgstr "Собака-Кабан"
 
 msgid "Goat-Deers"
-msgstr "Koza - Jelen"
+msgstr "Кози-Олені"
 
 msgid "Cow-Bison"
-msgstr "Krava - Bizon"
+msgstr "Корова-зубр"
 
 msgid "Filter species size"
-msgstr "Filtar veličine vrste"
+msgstr "Фільтр розмірів видів"
 
 msgid "undefined"
-msgstr "nedefinirano"
+msgstr "невизначений"
 
 msgid "Date"
-msgstr "Datum"
+msgstr "Дата"
 
 msgid "Today"
-msgstr "Danas"
+msgstr "Сьогодні"
 
 msgid "Number"
-msgstr "Količina"
+msgstr "Кількість"
 
 msgid "Method"
-msgstr "Metoda"
+msgstr "Метод"
 
 msgid "Type"
-msgstr "Tip"
+msgstr "Тип"
 
 msgid "Select species"
-msgstr "Označi vrstu"
+msgstr "Виберіть види"
 
 msgid "Please use the GPS or tap on the map to select your location"
-msgstr "Koristite GPS ili dodirnite kartu za odabir svoje lokacije"
+msgstr ""
+"Використовуйте GPS або торкніться карти, щоб вибрати своє місцезнаходження"
 
 msgid "Location Accuracy"
-msgstr "Preciznost lokacije"
+msgstr "Точність розташування"
 
 msgid "Close"
-msgstr "Zatvori"
+msgstr "Закрити"
 
 msgid "How many individuals of this type?"
-msgstr "Koliko jedinki ove vrste?"
+msgstr "Скільки особин цього типу?"
 
 msgid "Direct observation"
-msgstr "Direktno osmatranje"
+msgstr "Безпосереднє спостереження"
 
 msgid "Camera trap"
-msgstr "Foto -kamera"
+msgstr "Фотоловушка"
 
 msgid "Catch"
-msgstr "Ulov"
+msgstr "Улов"
 
 msgid "Road kill"
-msgstr "Stradalo na cesti"
+msgstr "Вбивство на дорозі"
 
 msgid "Field carcass"
-msgstr "Pronađen mrtav"
+msgstr "Польова туша"
 
 msgid "Telemetry"
-msgstr "Telemetrija"
+msgstr "Телеметрія"
 
 msgid "Other (specify in Comment)"
-msgstr "Ostalo (specificiraj u Komentaru)"
+msgstr "Інше (вказати в коментарі)"
 
 msgid "Please specify how has this mammal been observed."
-msgstr "Navedite kako je opažen ovaj sisavac."
+msgstr "Будь ласка, уточніть, як спостерігали за цією твариною."
 
 msgid "Alive"
-msgstr "Živ"
+msgstr "Живий"
 
 msgid "Dead - roadkill"
-msgstr "Mrtav- stradao na cesti"
+msgstr "Мертвий - загибель на дорозі"
 
 msgid "Dead - other"
-msgstr "Mrtav - ostalo"
+msgstr "Мертвий - інший"
 
 msgid "Indirect"
-msgstr "Indirektno"
+msgstr "Непрямий"
 
 msgid "Print/trail"
-msgstr "Trag"
+msgstr "Слід"
 
 msgid "Dropping"
-msgstr "Izmet"
+msgstr "Фекалії"
 
 msgid "Den/burrow"
-msgstr "Brlog/ ležaj"
+msgstr "Лігва/нора"
 
 msgid "Please specify the condition of the mammal."
-msgstr "Navedite stanje sisavca."
+msgstr "Будь ласка, уточніть стан ссавця."
 
 msgid "Please add any extra info about this record."
-msgstr "Dodajte dodatne podatke o ovom zapisu."
+msgstr "Будь ласка, додайте будь-яку додаткову інформацію про цей запис."
 
 msgid "Enter more information here..."
-msgstr "Ovdje upišite još informacija..."
+msgstr "Введіть більше інформації тут..."
 
 msgid "Upload"
-msgstr "Učitaj"
+msgstr "Завантажити"
 
 msgid "species"
-msgstr "vrste"
+msgstr "Види"
 
 msgid "Enter your username or email address to request a password reset."
 msgstr ""
-"Unesite svoje korisničko ime ili adresu e-pošte da biste zatražili "
-"resetiranje lozinke."
+"Введіть своє ім’я користувача або адресу електронної пошти, щоб подати запит"
+" на скидання пароля"
 
 msgid "User not found."
-msgstr "Korisnik nije pronađen"
+msgstr "Користувач не знайдений."
 
 msgid "We've sent an email to you"
-msgstr "Poslali smo vam email"
+msgstr "Ми надіслали вам email."
 
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
-"Kliknite vezu u e-pošti da biste resetirali zaporku. Ako ne vidite e-poštu, "
-"provjerite druga mjesta poput smeća, neželjene pošte ili drugih mapa"
+"Натисніть посилання в електронному листі, щоб скинути пароль. Якщо ви не "
+"бачите листа, перевірте інші місця, як-от непотріб, спам чи інші папки."
 
 msgid "App Development"
-msgstr "Razvoj aplikacije"
+msgstr "Розробка додатків"
 
 msgid "This app was hand crafted with love by"
-msgstr "Ova aplikacija ručno je rađena s ljubavlju od"
+msgstr "Цей додаток створено вручну з любов’ю"
 
 msgid "Agency specializing in building bespoke data oriented solutions."
 msgstr ""
-"Agencija specijalizirana za izradu rješenja usmjerenih na probleme s "
-"podatcima."
+"Агентство, що спеціалізується на створенні індивідуальних рішень, "
+"орієнтованих на дані."
 
 msgid "For suggestions and feedback please do not hesitate to"
-msgstr ""
-" \n"
-"Za prijedloge i povratne informacije ne ustručavajte se javiti\n"
-" "
+msgstr "Для пропозицій та відгуків, будь ласка, не соромтеся"
 
 msgid "contact us"
-msgstr "kontaktirajte nas"
+msgstr "звертатися до нас"
 
 msgid "This App was produced through MammalNet and funded by EFSA."
-msgstr ""
-"Ova je aplikacija proizvedena putem MammalNet-a, a financirala ju je EFSA."
+msgstr "Цей додаток створено через MammalNet і фінансується EFSA."
 
 msgid "Maps produced"
-msgstr "Karte su izrađene"
+msgstr "Виготовлені карти"
 
 msgid "Photo credits:"
-msgstr "Fotografija od:"
+msgstr "Автори фотографій:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
-"Označi sve nove zapise kao \"trening\" i izuzmi ih iz svih izvještaja.\n"
-" "
+"Позначте будь-які нові записи як «навчальні» та виключіть з усіх звітів."
 
 msgid "Distribution"
-msgstr "Distribucija"
+msgstr "Розповсюдження"
 
 msgid "Hedgehog"
-msgstr "Jež"
+msgstr "Їжак"
 
 msgid "(unknown species)"
-msgstr "(nepoznata vrsta)"
+msgstr "(невідомий вид)"
 
 msgid "Shrew"
-msgstr "Rovka"
+msgstr "Мідицеві"
 
 msgid "Mole"
-msgstr "Krtica"
+msgstr "Кріт"
 
 msgid "Lagomorph"
-msgstr "Dvojezupci"
+msgstr "Зайцеподібні"
 
 msgid "Rabbits and Hares"
-msgstr "Kunići i Zečevi"
+msgstr "Кролики і зайці"
 
 msgid "Small rodent"
-msgstr "Mali glodavci"
+msgstr "Дрібний гризун"
 
 msgid "Vole"
-msgstr "Voluharice"
+msgstr "Полівкові"
 
 msgid "Mouse"
-msgstr "Miš"
+msgstr "Миша"
 
 msgid "Rat"
-msgstr "Štakor"
+msgstr "Щур"
 
 msgid "Other mustelid"
-msgstr "Kune"
+msgstr "Інші мустелові"
 
 msgid "Locating"
-msgstr "lociranje"
+msgstr "Місцезнаходження"
 
 msgid "Please add record location."
-msgstr "Molimo dodajte lokaciju zapisa"
+msgstr "Будь ласка, додайте місце запису."
 
 msgid "Please select a species."
-msgstr "Molimo odaberite vrstu"
+msgstr "Будь ласка, виберіть вид."
 
 msgid "Enjoying the app?"
-msgstr "Da li uživate u ovoj aplikaciji?"
+msgstr "Вам подобається програма?"
 
 msgid "Not really"
-msgstr "Ne baš"
+msgstr "Не зовсім"
 
 msgid "Yes!"
-msgstr "Da!"
+msgstr "Так!"
 
 msgid "Would you mind giving us some feedback?"
-msgstr "Dali biste nam željeli dati povratne informacije?"
+msgstr "Не могли б ви дати нам відгук?"
 
 msgid "No, thanks"
-msgstr "Ne, hvala"
+msgstr "Ні, дякую"
 
 msgid "OK, sure"
-msgstr "Ok, naravno"
+msgstr "Так, звісно"
 
 msgid "How about a rating on the App Store then?"
-msgstr "Što kažete na ocjenjivanje u App Storeu?"
+msgstr "А як щодо рейтингу в App Store?"
 
 msgid "How about a rating on the Play Store then?"
-msgstr "Što kažete na ocjenjivanje u Trgovini Play?"
+msgstr "А як щодо рейтингу в Play Store?"
 
 msgid ""
 "Sightings can be recorded anywhere, with or without photos, and all records "
@@ -1604,91 +1442,91 @@ msgid ""
 "distribution of European mammals. You can check and update your records "
 "online."
 msgstr ""
-"Zapisi se mogu zabilježiti bilo gdje, sa ili bez fotografija, a sve će "
-"snimke provjeriti stručnjaci koji će pomoći  u daljnjem mapiranju "
-"distribucije europskih sisavaca. Možete provjeriti i ažurirati svoje zapise "
-"na internet stranici."
+"Спостереження можна записувати де завгодно, з фотографіями або без них, і "
+"всі записи будуть перевірені експертами та надані, щоб допомогти скласти "
+"карту поширення європейських ссавців. Ви можете перевірити та оновити свої "
+"записи онлайн."
 
 msgid ""
 "Users must first register, and can then log into a web site to view and "
 "correct records. Choice of country can be reviewed in the settings."
 msgstr ""
-"Korisnici se prvo moraju registrirati, a zatim se mogu prijaviti na internet"
-" stranicu radi pregledavanja i ispravljanja zapisa. Izbor zemlje može se "
-"pregledati u postavkama."
+"Користувачі повинні спочатку зареєструватися, а потім можуть увійти на веб-"
+"сайт, щоб переглянути та виправити записи. Вибір країни можна переглянути в "
+"налаштуваннях."
 
 msgid "Icons made by"
-msgstr "Autor ikona "
+msgstr "Ікони зроблені"
 
 msgid "from"
-msgstr "od"
+msgstr "від"
 
 msgid "Share App Analytics"
-msgstr "Omogući Analitiku Aplikacija"
+msgstr "Поділіться аналітикою додатків"
 
 # Part of recording attributes pages
 msgid "Gender"
-msgstr "Spol"
+msgstr "Стать"
 
 # Part of recording attributes pages
 msgid "Age"
-msgstr "Dob"
+msgstr "Вік"
 
 # Part of recording attributes pages
 msgid "Decomposition"
-msgstr "Raspadanje"
+msgstr "Розкладання"
 
 # Part of recording attributes pages
 msgid "Male"
-msgstr "Muško"
+msgstr "Самець"
 
 # Part of recording attributes pages
 msgid "Female"
-msgstr "Žensko"
+msgstr "Самка"
 
 # Part of recording attributes pages
 msgid "Please specify the gender of the mammal."
-msgstr "Molimo odredite spol životinje"
+msgstr "Вкажі стать."
 
 # Part of recording attributes pages
 msgid "Piglet"
-msgstr "Prase"
+msgstr "П'ятачок"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr "Mladunče"
+msgstr "Неповнолітній"
 
 # Part of recording attributes pages
 msgid "Adult"
-msgstr "Odrasli"
+msgstr "Дорослий"
 
 # Part of recording attributes pages
 msgid "Please specify the age of the mammal."
-msgstr "Molimo odredite dob životinje"
+msgstr "Вкажі вік."
 
 # Part of recording attributes pages
 msgid "Fresh carcass"
-msgstr "Svježe truplo"
+msgstr "Свіжа тушка"
 
 # Part of recording attributes pages
 msgid "Decomposed"
-msgstr "Raspadnuto"
+msgstr "Розклався"
 
 # Part of recording attributes pages
 msgid "Dry (just bones left)"
-msgstr "Suho (samo kosti)"
+msgstr "Сухий (залишені тільки кістки)"
 
 # Part of recording attributes pages
 msgid "Please specify the state of decomposition of the mammal."
-msgstr "Molimo odredite stupanj raspadnutosti nađenog trupla"
+msgstr "Уточніть стан розкладання."
 
 # Part of recording attributes pages
 msgid "Hunted"
-msgstr "Lovljeno"
+msgstr "Полюваний"
 
 # Part of recording attributes pages
 msgid "Unknown"
-msgstr "Nepoznat"
+msgstr "Невідомо"
 
 # Part of species profile external link
 msgid "Mammalnet"
@@ -1696,15 +1534,15 @@ msgstr "Mammalnet"
 
 # Part of species profile external link
 msgid "web profile"
-msgstr "web profil"
+msgstr "веб-профіль"
 
 # An unkown species group
 msgid "Bats"
-msgstr "Šišmiši"
+msgstr "Кажани"
 
 # An unkown species group
 msgid "Seals"
-msgstr "Tuljani"
+msgstr "Ластоногі"
 
 # From About page
 msgid ""
@@ -1713,10 +1551,6 @@ msgid ""
 "in any European country, but does not yet have all European languages "
 "included."
 msgstr ""
-"Aplikacija iMammalia osmišljena je kako bi potaknula bilježenje sisavaca u "
-"divljini. Ova je verzija mobilne aplikacije postavljena za lako bilježenje "
-"sisavaca u bilo kojoj europskoj zemlji, ali još uvijek nema sve europske "
-"jezike."
 
 # From About page
 msgid ""
@@ -1725,10 +1559,7 @@ msgid ""
 "tell apart. Later versions will include more countries, languages and "
 "species subject to funding."
 msgstr ""
-"iMammalia je dizajniran da olakša snimanje i raspoznavanje sisavaca. Manji "
-"sisavci trenutno su navedeni samo na generičkoj razini, jer ih je puno teže "
-"razlikovati. Kasnije verzije uključivat će više zemalja, jezika i vrsta."
 
 # An error message
 msgid "Could not find/authenticate user."
-msgstr "Nije moguće pronaći/autentificirati korisnika."
+msgstr ""

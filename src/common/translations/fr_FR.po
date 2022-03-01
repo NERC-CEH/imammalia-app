@@ -1,0 +1,1775 @@
+# 
+# Translators:
+# GrahamCSmith <graham.smith@apha.gov.uk>, 2022
+# Laurène JOBARD, 2022
+# Elizabeth Waller, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"Last-Translator: Elizabeth Waller, 2022\n"
+"Language-Team: French (France) (https://www.transifex.com/ceh/teams/103078/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "Sélectionnez votre pays. "
+
+msgid "United Kingdom"
+msgstr "Royaume-Uni"
+
+msgid "Albania"
+msgstr "Albanie"
+
+msgid "Austria"
+msgstr "Autriche"
+
+msgid "Belarus"
+msgstr "Bélarus"
+
+msgid "Belgium"
+msgstr "Belgique"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnie Herzégovine"
+
+msgid "Bulgaria"
+msgstr "Bulgarie"
+
+msgid "Czechia"
+msgstr "Tchéquie"
+
+msgid "Estonia"
+msgstr "Estonie"
+
+msgid "Finland"
+msgstr "Finlande"
+
+msgid "France"
+msgstr "France"
+
+msgid "Greece"
+msgstr "Grèce "
+
+msgid "Hungary"
+msgstr "Hongrie"
+
+msgid "Iceland"
+msgstr "Islande"
+
+msgid "Ireland"
+msgstr "Irelande"
+
+msgid "Italy"
+msgstr "Italie"
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
+msgid "Latvia"
+msgstr "Lettonie"
+
+msgid "Lithuania"
+msgstr "Lithuanie"
+
+msgid "Montenegro"
+msgstr "Monténégro"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Malta"
+msgstr "Malte"
+
+msgid "Moldova"
+msgstr "Moldavie"
+
+msgid "Netherlands"
+msgstr "Pays-Bas"
+
+msgid "Norway"
+msgstr "Norvège"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Romania"
+msgstr "Roumanie"
+
+msgid "Slovakia"
+msgstr "Slovaquie"
+
+msgid "Slovenia"
+msgstr "Slovénie"
+
+msgid "Sweden"
+msgstr "Suède"
+
+msgid "Switzerland"
+msgstr "la Suisse"
+
+msgid "Turkey"
+msgstr "Turquie"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "Skip"
+msgstr "Sauter"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "Get Started"
+msgstr "Commencer"
+
+msgid "Please sign in with your account or register."
+msgstr "Veuillez vous connecter ou enregistrez un nouveau compte. "
+
+msgid "Username or email"
+msgstr "Identifiant ou email"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgid "Register"
+msgstr "S'enregistrer"
+
+msgid "Forgot password?"
+msgstr "Mot de pass oublié?"
+
+msgid "Login"
+msgstr "Espace Connexion"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "About"
+msgstr "Plus D'Infos"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "Privacy Policy"
+msgstr "Mentions légales"
+
+msgid "Credits"
+msgstr "Crédits"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "First Name"
+msgstr "Prénom"
+
+msgid "Surname"
+msgstr "Nom"
+
+msgid "I agree to"
+msgstr "J'accepte"
+
+msgid "Terms and Conditions"
+msgstr "Conditions générales d'utilisation"
+
+msgid "Enter your username or email address to request a password reset"
+msgstr ""
+"Indiquez ici votre identifiant ou email pour réinitialiser votre mot de "
+"passe"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+"Êtes-vous sûr de vouloir réinitialiser l'application à son état initial?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr "Ceci supprimera toutes les donnés déjà stockées localement!"
+
+msgid "Upload All"
+msgstr "Tout télécharger"
+
+msgid "Remove All Saved"
+msgstr "Enlever les données stockées"
+
+msgid "Application"
+msgstr "Application"
+
+msgid "Training Mode"
+msgstr "Mode entraînement"
+
+msgid "Experimental Features"
+msgstr "Caractéristiques expérimentales"
+
+msgid "Welcome"
+msgstr "Bienvenue"
+
+msgid "Lets start!"
+msgstr "Commencer!"
+
+msgid "Back"
+msgstr "Arrière"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "App"
+msgstr "Application"
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+"Nous remerçions toutes les personnes ci-dessous qui ont contribués à la "
+"construction de cette application: "
+
+msgid "Home"
+msgstr "Page d'accueil"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "Sorry, looks like you're offline."
+msgstr "Désolé, vous n'êtes pas en ligne."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Sorry"
+msgstr "Désolé"
+
+msgid "Please wait..."
+msgstr "Veuillez patienter"
+
+msgid "name is a required field"
+msgstr "Nom doit être renseigné"
+
+msgid "password is a required field"
+msgstr "Mot de passe doit être renseigné"
+
+msgid "Login error:"
+msgstr "Erreur avec la connexion de l'identifiant: "
+
+msgid "Failed to fetch"
+msgstr "Échec du récupérage"
+
+msgid "Incorrect password or email."
+msgstr "Email ou mot de passe non reconnu, impossible de se connecter."
+
+msgid "Logout"
+msgstr "Se déconnecter"
+
+msgid "Are you sure you want to logout?"
+msgstr "Êtes-vous sûr de vouloir vous déconnecter?"
+
+msgid "This will delete all the records on this device."
+msgstr "Ceci supprimera toutes les donnés stockées sur votre appareil."
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Welcome aboard!"
+msgstr "Bienvenue à bord!"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Avant de soumettre des enregistrements, veuillez vérifier votre email et "
+"cliquer sur le lien de vérification."
+
+msgid "OK, got it"
+msgstr "Ok, compris"
+
+msgid "email is a required field"
+msgstr "l'email est requis"
+
+msgid "firstname is a required field"
+msgstr "votre prénom est requis"
+
+msgid "secondname is a required field"
+msgstr "votre nom est requis"
+
+msgid "must accept terms and conditions"
+msgstr ""
+"vous devez accepter les conditions d'utilisation avant de pouvoir utiliser "
+"l'application"
+
+msgid "Species"
+msgstr "Espèce"
+
+msgid "Count"
+msgstr "Comte"
+
+msgid "Comment"
+msgstr "Commentaire"
+
+msgid "Draft"
+msgstr "Brouillon"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "Un autre brouillon existe déjà, voulez-vous continuer à le modifier ?"
+
+msgid "Discard"
+msgstr "Jeter"
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Finish"
+msgstr "Terminer"
+
+msgid "No species added"
+msgstr "Aucune espèce ajoutée"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Records"
+msgstr "Enregistrements"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Êtes-vous sûr de vouloir supprimer cet enregistrement?"
+
+msgid "No finished records"
+msgstr "Aucun enregistrement terminé"
+
+msgid "Finished records"
+msgstr "Enregistrements complets"
+
+msgid "Done"
+msgstr "Terminé"
+
+msgid "Record incomplete"
+msgstr "Enregistrement inachevé"
+
+msgid "The record is not complete yet."
+msgstr "Cet enregistrement inachevé"
+
+msgid "Choose a method to upload a photo"
+msgstr "Choisissez une méthode pour télécharger une photo"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "Camera"
+msgstr "Caméra"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer cette photo de votre enregistrement?"
+
+msgid "Note: it will remain in the gallery."
+msgstr "Attention: ceci restera sauvé dans la galerie."
+
+msgid "No photo has been added"
+msgstr "Aucune photo n'a été téléchargée"
+
+msgid "Registration error:"
+msgstr "Faute d'enregistrement:"
+
+msgid "Incorrect password or email"
+msgstr "Mauvais mot de passe ou email"
+
+msgid "email is not valid"
+msgstr "Votre email n'est pas correct"
+
+msgid "Paused"
+msgstr "En pause"
+
+msgid "Pending"
+msgstr "Patientez"
+
+msgid "Uploaded"
+msgstr "Téléchargé"
+
+msgid "No finished pending records"
+msgstr "Aucun enregistrement en attente"
+
+msgid "No uploaded records"
+msgstr "Aucun enregistrement téléchargé"
+
+msgid "How to start a record"
+msgstr "Comment commencer un enregistrement"
+
+msgid "To start a new record you can press the plus button"
+msgstr "Pour commencer un nouveau enregistrement, cliquez sur le bouton plus"
+
+msgid "in the home page footer."
+msgstr "en bas de la page d'accueil"
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+"Quand vous avez terminé, veuillez soumettre votre enregistrement en cliquant"
+" le bouton Terminer en haut de la page. "
+
+msgid "Sync. with the website"
+msgstr "Synchroniser avec le site web"
+
+msgid "All your saved records will be shown on your account page."
+msgstr ""
+"Tous vos enregistrements seront montrés dans la page de votre profil. "
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+"Par défaut, un enregistrement est sauvé en tant que brouillon et ne sera pas"
+" soumis à la base de données jusqu'à ce que vous cliquez sur le bouton "
+"\"Terminer\" en haut de la page. L'application essayera de soumettre votre "
+"enregistrement une fois qu'il y aura un bonne connection de réseau. "
+
+msgid "If the record has reached the database a red"
+msgstr "Si l'enregistrement est arrivé à la base de données, un(e) rouge"
+
+msgid "(set for submission & saved locally) will become green"
+msgstr ""
+"(défini pour la soumission et enregistré localement) deviendra vert(e)"
+
+msgid "synced to the database"
+msgstr "synchronisé(e) à la base de données"
+
+msgid "Note"
+msgstr "Remarque"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+"Afin que les enregistrements puissent être synchronisés en arrière-plan, "
+"vous devez être connecté à votre compte et avoir une connexion internet."
+
+msgid "Delete a record"
+msgstr "Supprimer un enregistrement"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+"Pour supprimer un enregistrement, balayer vers la gauche dans la page de "
+"votre compte et cliquez sur le bouton \"Supprimer\"."
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Sign in/out or register"
+msgstr "Connexion ou enregistrer un compte"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+"Afin de connecter, ouvrez la page d'accueil, cliquez sur le bouton de "
+"Connexion ou Enregistrement de Compte et suivez les instructions. "
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr ""
+"Afin de termine terminer votre connexion, visitez la page d'accueil et "
+"cliquez sur le bouton de déconnexion"
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+"Après avoir enregistré un nouveau compte, vous devez vérifier votre compte "
+"émail en cliquant sur le lien qui a été envoyé à votre émail. "
+
+msgid "Other"
+msgstr "Autre"
+
+msgid "Reset the application"
+msgstr "Réinitialiser l'application"
+
+msgid "Go to the application settings page"
+msgstr "Aller à la page de réglages de l'application"
+
+msgid "and click on the Reset"
+msgstr "et cliquez sur la réinitialisation"
+
+msgid "button"
+msgstr "bouton"
+
+msgid "Record"
+msgstr "enregistrement"
+
+msgid "Location"
+msgstr "Localisation"
+
+msgid "Northern white-breasted hedgehog"
+msgstr "Hérisson de Roumanie"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Hérisson d'Europe orientale"
+
+msgid "Apennine hare"
+msgstr "Lièvre corse"
+
+msgid ""
+"Relatively small with a white face, brown legs and a white or brown "
+"underbelly, highly visible, large ears and lack of spines on the crown of "
+"the head"
+msgstr ""
+"Relativement petit, avec la face blanche, les pattes brunes et le ventre "
+"blanc ou brun, de grandes oreilles très visibles et une absence d'épines au "
+"sommet de la tête"
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "La plus grande espèce de Hérissons, de couleur brune principalement"
+
+msgid ""
+"Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr ""
+"Similaire au Hérisson d'Europe, mais identifiable à une tâche blanche sur la"
+" poitrine"
+
+msgid ""
+"Relatively small with grey-brown coat, a brown chest patch and white-grey "
+"underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr ""
+"Relativement petit, avec un pelage gris-brun sur le dos, une tâche marron "
+"sur la poitrine et un ventre gris-blanc, absence de noir au bout des "
+"oreilles, et des pattes proportionnellement plus courtes "
+
+msgid ""
+"Brown and black back and white underbelly, black tail with white underside, "
+"brown-gray ears usually with black tips"
+msgstr ""
+"Dos brun et noir, ventre blanc, queue noire avec le dessous blanc, oreilles "
+"brun-gris généralement avec la pointe noire"
+
+msgid ""
+"Golden-brown back and a pale belly, white tail, relatively longer legs and "
+"ears with distinctive black tips"
+msgstr ""
+"Dos brun-doré et ventre pâle, queue blanche, pattes relativement longues et "
+"oreilles avec une pointe noire distinctive"
+
+msgid ""
+"Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter "
+"ears than other hares"
+msgstr ""
+"Pelage gris-brun en été, blanc en hiver, oreilles plus courtes que chez les "
+"autres lièvres et avec la pointe noire"
+
+msgid ""
+"Brown or grey-brown back and a paler underbelly, black-tipped ears and black"
+" upper tail"
+msgstr ""
+"Dos brun ou gris-brun et ventre plus pâle, oreilles à bouts noirs et dessus "
+"de la queue noir"
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr ""
+"Pelage brun-roux et ventre pâle, queue touffue et grands épis de poils sur "
+"les oreilles"
+
+msgid ""
+"Grey-brown or red-brown back and pale grey underbelly, white stripe running "
+"along each side and sometimes another along the spine"
+msgstr ""
+"Dos brun-gris ou brun-roux avec le ventre gris pâle, une bande blanche "
+"courant le long de chaque flanc et parfois une autre le long de la colonne "
+"vertébrale"
+
+msgid ""
+"Relatively small with dark-brown fur, white spots on its back and a short, "
+"thin tail"
+msgstr ""
+"Relativement petit, avec un pelage brun foncé, des tâches blanches sur le "
+"dos et une queue courte et fine"
+
+msgid ""
+"Brown coat with orange markings on the back and a beige to orange "
+"underbelly, white band between muzzle and eyes, small ears, short legs and a"
+" bushy brown tail with a black tip"
+msgstr ""
+"Pelage brun avec des marques rousses sur le dos et un ventre beige ou roux, "
+"une bande blanche entre le museau et les yeux, oreilles petites, pattes "
+"courtes, queue touffue brune avec le bout noir"
+
+msgid ""
+"Chestnut-brown to black-brown coat, thickset with a flattened head, small "
+"eyes and ears and a flattened, scaly tail"
+msgstr ""
+"Pelage châtain-brun ou brun-noir, trapu, avec la tête aplatie, de petits "
+"yeux et de petites oreilles, et une queue plate et écailleuse"
+
+msgid ""
+"Invasive species: Coarse, dark brown outer fur with soft dense grey under "
+"fur, distinguished by a white patch on the muzzle, webbed hind feet, and "
+"large, bright orange-yellow incisors"
+msgstr ""
+"Espèce invasive: Pelage brun foncé et dru sur le dessus, avec un dense duvet"
+" gris et doux en dessous, distingué par une tâche blanche sur le museau, des"
+" pattes postérieures palmées, et de grandes incisives jaune-orange vif"
+
+msgid ""
+"Invasive species: Dirty, earth-brown, or brown-grey fur with black guard "
+"hairs in winter, and brighter and reddish-straw fur in summer; yellowish-"
+"brown abdomen, dark brown or blackish chest, with long, whisker-like hairs "
+"on the cheeks."
+msgstr ""
+"Espèce invasive: fourrure couleur terre ou gris-brun avec de longs poils "
+"protecteurs noirs (jarres) en hiver, plus clair et tirant sur le fauve en "
+"été; abdomen brun-jaunâtre, poitrine brun foncé à noire; longs poils sur les"
+" joues faisant penser à des moustaches"
+
+msgid ""
+"Often not fully brown, have long, thick fur, with a moderately long mane at "
+"the back of the neck"
+msgstr ""
+"Fourrure longue et épaisse, souvent pas entièrement brune, avec une petite "
+"crinière à la base du cou"
+
+msgid ""
+"Coat color ranges from almost pure white through various shades of blonde, "
+"cream and ochre to greys, browns and blacks, long, dense fur and long, "
+"coarse guard hairs."
+msgstr ""
+"La couleur de son pelage peut aller d'un blanc presque pur à brun ou noir, "
+"en passant par des nuances de blond, crème, ocre et gris; fourrure longue et"
+" dense avec des poils protecteurs (jarres) longs et drus"
+
+msgid ""
+"Similar to the grey wolf but is distinguished by its smaller size, more "
+"elongated torso, less prominent forehead, shorter legs and tail and a more "
+"narrow, pointed muzzle"
+msgstr ""
+"Similaire au Loup gris, mais de plus petite taille avec un torse plus "
+"allongé, un front moins proéminent, des pattes et une queue plus courtes et "
+"un museau plus étroit et pointu"
+
+msgid ""
+"Orange-red fur with a white underbelly, black tips to the ears, dark brown "
+"feet and a white tip to the bushy, orange tail"
+msgstr ""
+"Fourrure rousse avec le ventre blanc, la pointe des oreilles noire, pattes "
+"ou extrémités des pattes brun foncé; et queue touffue, rousse avec le bout "
+"blanc"
+
+msgid ""
+"Grey-brown fur, with a broad snout, and a pale chest and throat, can be "
+"distinguished from mink by their much larger size and broader face"
+msgstr ""
+"Fourrure gris-brun, poitrine et gorge pâles, museau large. Peut être "
+"différenciée du Vison par sa taille beaucoup plus grande et sa face plus "
+"large"
+
+msgid ""
+"Large and grey, with a short, fluffy tail, black belly and paws, and a "
+"black-and-white striped face"
+msgstr ""
+"Trapu, fourrure grise avec le ventre et les pattes noires, courte queue "
+"touffue, face à large rayures noires et blanches"
+
+msgid ""
+"Invasive species: Long, coarse grey to red-brown fur with some yellow hairs,"
+" pointed snout, small ears, long black tipped tail, and furless hind feet "
+"and facial area"
+msgstr ""
+"Espèce invasive: Fourrure longue et drue, pouvant aller du gris au brun-roux"
+" avec des poils jaunâtres, museau pointu, petites oreilles, queue longue à "
+"l'extrémité noire, pattes arrières et face sans poils"
+
+msgid ""
+"Invasive species: Small and slender body with pale to dark brown fur, golden"
+" flecks and a pale underbelly, short legs and small rounded ears located on "
+"the side of its head, bushy tail"
+msgstr ""
+"Espèce invasive: petite et allongée avec un pelage brun clair à brun foncé "
+"moucheté de doré et un ventre plus pâle. Pattes courtes, oreilles petites et"
+" rondes sur les côtés de la tête, queue touffue"
+
+msgid ""
+"Pale yellow-grey coat with black spots on the sides, a black stripe along "
+"the spine and a striped, bushy tail, slender body with a pointed muzzle, "
+"large eyes, large ears and whiskers"
+msgstr ""
+"Pelage gris-jaune tacheté de noir sur les flancs et une rayure noire le long"
+" de la colonne vertébrale. Queue touffue rayée de noir. Corps allongé, "
+"museau pointu, grands yeux, grandes oreilles et longues moustaches"
+
+msgid ""
+"Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct "
+"banding on the tail and body"
+msgstr ""
+"Ressemble à un chat domestique tigré mais plus grand et trapu, avec une "
+"queue plus touffue et des rayures sur le corps et la queue"
+
+msgid ""
+"Red-brown fur in summer and silver-grey thicker fur in winter, white "
+"underbelly, spotted pattern, distinctive black hair tufts on its ears, "
+"black-tipped tail and a facial ruff of white fur"
+msgstr ""
+"Fourrure brun-roux en été, plus dense et gris argenté en hiver, à motif "
+"tacheté et ventre blanc, épis de poils noirs au bouts de oreilles, queue à "
+"l'extrémité noire, collier de longs poils blancs au niveau des joues et du "
+"menton"
+
+msgid ""
+"Yellow to tawny short fur, spotted pattern, short body, long legs, short "
+"tail, small head with tufted ears and facial whiskers."
+msgstr ""
+"Pelage court de couleur fauve à jaune et à motif tacheté, corps et queue "
+"courts, pattes longues, petite tête avec toupets de poils au bout des "
+"oreilles et longs poils sous les joues"
+
+msgid ""
+"Coarse coat that may be dark grey, brown, sandy brown or black, muscular "
+"body with heavy-set shoulders, a large head with tusks in both sexes, males "
+"have a ridge of hair along the upper spine"
+msgstr ""
+"Pelage dru pouvant être gris foncé, brun ou noir, corps musclé, costaud au "
+"niveau des épaules, grosse tête avec des défenses chez les deux sexes, les "
+"mâles ont une petite crête de poils le long du haut du dos"
+
+msgid ""
+"Short golden-brown coat, longer hair along the upper spine, longer tail and "
+"long, upward-curving horns"
+msgstr ""
+"Pelage court de couleur brun-doré, poils plus longs le long du haut de la "
+"colonne vertébrale, longue queue, cornes incurvées vers le haut"
+
+msgid ""
+"Males are red-brown with a white saddle patch, females are brown, males have"
+" helix-shaped backward-curving horns, with a white tone on anal region, legs"
+" and the snout. "
+msgstr ""
+"Les mâles sont brun-roux avec un motif blanc en forme de selle sur le dos, "
+"et les pattes, le museau et le derrière blancs. Les femelles sont de couleur"
+" brune. Les mâles ont de grosses cornes torsadées vers l'arrière"
+
+msgid ""
+"Brownish grey coat with darker markings on the chin, throat and back; males "
+"have large, curved horns"
+msgstr ""
+"Pelage gris-brun avec des zones plus foncées au niveau du menton, de la "
+"gorge et du dos. Les mâles portent de grosses cornes recourbées vers "
+"l'arrière"
+
+msgid ""
+"Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr ""
+"Pelage brun, pattes courtes avec de gros sabots, les mâles portent de "
+"grosses cornes incurvées vers l'arrière"
+
+msgid ""
+"Small size, short and straight horns, brown or grey coat with white markings"
+" on the sides of the head and rump, and black stripes below the eyes and "
+"along the back"
+msgstr ""
+"De petite taille, cornes courtes et droites, pelage brun ou gris avec des "
+"zones blanches sur les joues et le derrière, et des bandes noires en dessous"
+" des yeux et le long du dos"
+
+msgid ""
+"Ruddy brown to black-brown coat, dark patches around the eyes, backward-"
+"hooked horns"
+msgstr ""
+"Pelage brun-vermeil à brun-noir, large bande foncée autour et sous les yeux,"
+" cornes en forme de crochets vers l'arrière"
+
+msgid ""
+"Reddish-brown to grey coat, may have patches of different colouration on the"
+" back, males have antlers, relatively long tail"
+msgstr ""
+"Pelage brun-roux à gris, peut avoir des zones de couleurs différentes sur le"
+" dos, les mâles portent des bois, queue relativement longue"
+
+msgid ""
+"Typically chestnut coat with white markings but may also be fully white or "
+"black, males have antlers"
+msgstr ""
+"Pelage habituellement châtain tacheté de blanc, mais peut également être "
+"complètement blanc ou noir. Les mâles portent des bois"
+
+msgid ""
+"Large with dark brown coat, large antlers, hooves and a fold of skin under "
+"the chin"
+msgstr ""
+"De grande taille avec un pelage brun foncé, des bois imposants, des sabots "
+"et un plis de peau pendant sous le menton"
+
+msgid ""
+"Relatively small deer with orange-brown coat, males have antlers with 2-4 "
+"prongs"
+msgstr ""
+"Cervidé de petite taille avec un pelage brun-orangé. Les mâles portent des "
+"bois courts avec 2 à 4 pointes"
+
+msgid ""
+"Range of coat colours from mahogany to black (sometimes white) and a spotted"
+" coat, males have upright antlers, females have distinctive black bumps"
+msgstr ""
+"Pelage pouvant aller d'acajou à noir (parfois blanc), tacheté, les mâles "
+"portent des bois dressés vers le haut, les femelles ont des bosses "
+"distinctives sur le dos"
+
+msgid ""
+"Medium sized deer, golden coat with distinctive white spots and a white "
+"underbelly, conspicuous black stripe along the spine, males have three-"
+"pronged antlers"
+msgstr ""
+"Cervidé de taille moyenne, pelage cuivré tacheté de blanc et ventre blanc, "
+"bande foncée bien visible le long de la colonne vertébrale. Les mâles "
+"portent des bois à 3 pointes"
+
+msgid ""
+"Reddish-brown to grey-brown coat, characteristic white underside to the "
+"tail, males have antlers with a variable number of prongs"
+msgstr ""
+"Pelage brun-roux à brun-gris, le dessous de la queue est blanc, les mâles "
+"portent des bois au nombre de pointes variable"
+
+msgid ""
+"Invasive species: Grey-brown and white coat with long fur and a bushy, "
+"striped tail, characteristic black markings around the eyes contrasted by "
+"white face"
+msgstr ""
+"Espèce invasive: Longue fourrure brun-gris et blanche, queue touffue et "
+"rayée, masque noir caractéristique autour des yeux"
+
+msgid ""
+"Sandy brown coat with a lighter underbelly and a darker line along the back,"
+" shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr ""
+"Pelage couleur sable (brun clair) avec le ventre plus clair et une ligne "
+"plus foncée le long du dos, longs poils pendants sous la gorge et le "
+"poitrail, grosses cornes lisses courbées vers l'arrière"
+
+msgid ""
+"Relatively small with brown fur with no obvious spots, and a short bushy "
+"tail"
+msgstr ""
+"De taille relativement petite, avec un pelage brun clair parfois très "
+"finement tacheté de manière peu visible, queue courte et touffue"
+
+msgid ""
+"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
+" upper arms."
+msgstr ""
+"Petit kangourou se tentant dressé, pelage brun-gris avec une partie châtain "
+"sur le cou et les épaules"
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "Hérisson de petite taille, avec la face pâle et de longues oreilles"
+
+msgid ""
+"Introduced to Northern Italy. Very similar to European rabbit but more "
+"compact with shorter ears."
+msgstr ""
+"Introduit en Italie du nord. Très similaire au lapin européen, mais plus "
+"compact et avec des oreilles plus courtes"
+
+msgid ""
+"Paler than the brown hare, with very small black tips to the ears. "
+"Restricted to Sardinia."
+msgstr ""
+"Plus clair que le Lièvre européen, avec de très petites tâches noires au "
+"bout des oreilles. Aire de répartition limitée à la Sardaigne"
+
+msgid ""
+"Similar to but slightly smaller than the brown hare, with relatively longer "
+"ears and hindlegs."
+msgstr ""
+"Similaire au Lièvre européen mais de taille légèrement plus petite, avec les"
+" oreilles et pattes arrières plus longues "
+
+msgid ""
+"Grey on top, with reddish sides. Tail shorter than body and no ear tufts in "
+"winter."
+msgstr ""
+"Pelage gris sur le dos et roussâtre sur les flancs. Queue plus courte que le"
+" corps, pas de touffes de poils sur les oreilles en hiver"
+
+msgid ""
+"Invasive species: Silver/grey coat with brownish tinge on feet and face. "
+"Tail fringed with white. Larger than red squirrel."
+msgstr ""
+"Espèce invasive: Pelage gris argenté avec une nuance plus brune sur la face "
+"et les pattes. Queue frangée de blanc. Plus grand qu'un Écureuil roux"
+
+msgid ""
+"The dorsal part of the body, head, neck, feet and tail are black; the "
+"abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger "
+"than Italian populations of red squirrel."
+msgstr ""
+"Pelage noir (ou brun très foncé), sauf le ventre qui est blanc. Touffes de "
+"poils sur les oreilles seulement en hiver. Pas de dimorphisme sexuel. Plus "
+"grand que les populations italiennes d'écureuils roux"
+
+msgid ""
+"Invasive species: Similar in size to red squirrel, back is olive-brown and "
+"belly russet. White tip to the tail."
+msgstr ""
+"Espèce invasive: taille similaire à l’Écureuil roux, pelage brun-olivâtre et"
+" ventre roux. Extrémité de la queue blanche"
+
+msgid ""
+"Invasive species: Similar in size to red squirrel. Longer tail. Back is "
+"olive-brown and underside cream, extending onto face."
+msgstr ""
+"Espèce invasive: taille similaire à l’Écureuil roux, pelage brun-olivâtre; "
+"ventre et face de couleur crème"
+
+msgid ""
+"Smallest souslik with yellow to brownish fur and no obvious spots. White "
+"throat and chest with a short tail."
+msgstr ""
+"C'est le plus petit des Souslik. Pelage jaune à brun, gorge et poitrine "
+"blanches, queue courte"
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr ""
+"Marmotte de grande taille, avec une fourrure brune sur tout le corps et une "
+"queue courte"
+
+msgid ""
+"A small squirrel with rounded head, and membrane between fore and hind legs."
+" Greyish above and lighter below."
+msgstr ""
+"Écureuil de petite taille avec une tête ronde, pelage grisâtre sur le dessus"
+" et plus clair en dessous. Membrane de peau entre les pattes avant et les "
+"pattes arrière"
+
+msgid ""
+"Invasive species: Yellow-brown coat with four white stripes and five dark "
+"stripes along the back and a white chest and belly"
+msgstr ""
+"Espèce invasive: pelage brun-jaune avec quatre rayures blanches et cinq "
+"rayures sombres le long du dos, poitrine et ventre blancs"
+
+msgid ""
+"Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr ""
+"Queue plate et écailleuse. Très similaire au Castor européen, mais avec une "
+"fourrure plus foncée"
+
+msgid ""
+"A porcupine with typical black and white quills that run along the body"
+msgstr ""
+"Porc-épic avec des piquants caractéristiques noirs et blancs lui recouvrant "
+"le dos"
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr "Silhouette allongée, petites oreilles, fourrure blanche à jaunâtre"
+
+msgid ""
+"Small fox with short ears. White in winter and in summer grey on the back "
+"and lighter underneath."
+msgstr ""
+"Renard de petite taille, avec des oreilles courtes. Pelage blanc en hiver, "
+"et l'été gris sur le dos et plus clair en dessous"
+
+msgid ""
+"Orange-brown back, cream throat and belly, and a black-tipped tail. Larger "
+"than the similar weasel, has a longer tail and has a distinctive bounding "
+"gait, arching its back as it moves"
+msgstr ""
+"Dos brun-orangé, gorge et ventre de couleur crème, extrémité de la queue "
+"noire. Plus grande qu'une belette, avec une queue plus longue. Démarche "
+"bondissante caractéristique, avec le dos arqué lorsqu'elle se déplace."
+
+msgid ""
+"Yellow-brown coat with dark limbs and a dark mask across the face contrasted"
+" by paler fur"
+msgstr ""
+"Pelage brun-jaune, pattes et queue plus foncées, face plus claire avec un "
+"masque foncé autour des yeux"
+
+msgid ""
+"Dark brown to red-brown coat, elongated body with short limbs and a short "
+"tail. Fur is pure white around the mouth"
+msgstr ""
+"Pelage brun foncé à brun-roux, corps allongé avec pattes et queue courtes. "
+"Fourrure blanche autour de la bouche"
+
+msgid ""
+"Orange-brown back and a cream throat and underbelly, smaller than the "
+"similar stoat, shorter tail with no black tip, and a running gait with a "
+"straight back"
+msgstr ""
+"Dos brun-orangé, gorge et ventre de couleur crème. Plus petite qu'une "
+"hermine, avec une queue plus courte sans extrémité noire. Se déplace en "
+"courant, avec le dos droit."
+
+msgid ""
+"Dark brown colour with a pale underbelly and a dark mask-shape across the "
+"pale face"
+msgstr ""
+"Pelage brun foncé avec le ventre plus pâle, face plus claire avec un masque "
+"foncé autour des yeux"
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr ""
+"Espèce invasive: Fourrure brun-noire, museau étroit, petit menton blanc"
+
+msgid ""
+"Light brown coat with a cream chest and throat extending to top of legs, "
+"longer tail, more elongated and angular head with shorter, more rounded and "
+"widely spaced ears"
+msgstr ""
+"Pelage brun clair, avec la poitrine, la gorge et le haut des pattes avant "
+"couleur crème. Queue longue, tête allongée et anguleuse, avec de courtes "
+"oreilles rondes et très écartées"
+
+msgid ""
+"Chestnut-brown in colour, characteristic pale yellow patch on its chin and "
+"throat and a long, bushy tail"
+msgstr ""
+"Pelage châtain-brun, tâche jaune pâle caractéristique au niveau de la gorge "
+"et de la poitrine, queue longue et touffue"
+
+msgid ""
+"Typical polecat face (dark mask on a pale face), but with large white to "
+"yellow spots on its back."
+msgstr ""
+"Face caractéristique du putois (pâle avec un masque foncé autour des yeux), "
+"mais avec de grosses tâches blanches ou jaunes sur le dos"
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr ""
+"Ressemble à un petit ours avec une queue. Trapu, avec une fourrure brun "
+"foncé"
+
+msgid ""
+"Not a feral goat. This occurs naturally in Crete. Light reddish-brown in "
+"summer and greyish brown in winter. Horns curve backward and males have a "
+"large black beard."
+msgstr ""
+"Il ne s'agit pas d'une chèvre retournée à l'état sauvage. Cela se produit "
+"naturellement en Crète. Pelage brun-roux clair en été, et brun-grisâtre en "
+"hiver. Cornes recourbées vers l'arrière, les mâles portent une grosse barbe "
+"noire."
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr ""
+"Bovin massif à poils très longs, avec des cornes en forme de crochets sur "
+"les côtés de la tête"
+
+msgid ""
+"Both sexes grow antlers with two sets of points, one growing forward and one"
+" backward. Coat dark brown in summer and lighter in winter."
+msgstr ""
+"Les deux sexes portent des bois divisés en deux ensembles de pointes, l'un "
+"penché vers l'avant et l'autre vers l'arrière. Pelage brun foncé en été et "
+"plus clair en hiver"
+
+msgid ""
+"Invasive species: A small deer with rounded back and head often held low. "
+"Simple backward pointing antlers on male."
+msgstr ""
+"Espèce invasive: cervidé de petite taille, avec le dos arrondi et se tenant "
+"souvent la tête baissée. Les mâles portent de petits bois simples, pointant "
+"vers l'arrière"
+
+msgid ""
+"Small deer with sandy brown coat. Paler in winter. Rump the same colour. No "
+"antlers but males have long curved tusks."
+msgstr ""
+"Petit cervidé avec un pelage couleur sable (brun clair), plus pâle en hiver."
+" Croupe de la même couleur. Pas de bois, mais les mâles ont de longues "
+"défenses recourbées vers le bas"
+
+msgid ""
+"Very similar to the Northern white-breasted hedgehog with a white patch "
+"underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr ""
+"Très similaire au Hérisson de Roumanie, mais légèrement plus gros et avec "
+"une tâches blanche plus ou moins grande sur la poitrine"
+
+msgid ""
+"Invasive species: the largest vole but smaller than beaver or coypu with a "
+"laterally compressed tail."
+msgstr ""
+"Espèce invasive: le plus grand des campagnols, mais plus petit qu'un castor "
+"ou qu'un ragondin, et avec une queue aplatie latéralement"
+
+msgid "Muskrat"
+msgstr "Rat musqué"
+
+msgid "Algerian hedgehog"
+msgstr "Hérisson d'Algérie"
+
+msgid "Western hedgehog"
+msgstr "Hérisson d'Europe"
+
+msgid "Eastern hedgehog"
+msgstr "Hérisson de Roumanie"
+
+msgid "European rabbit"
+msgstr "Lapin de garenne"
+
+msgid "Broom hare"
+msgstr "Lièvre d'Amérique"
+
+msgid "Brown hare"
+msgstr "Lièvre d'Europe"
+
+msgid "Mountain hare"
+msgstr "Lièvre variable"
+
+msgid "Granada hare"
+msgstr "Lièvre ibérique"
+
+msgid "Red squirrel"
+msgstr "Écureuil roux"
+
+msgid "Barbary ground squirrel"
+msgstr "Écureuil de Barbarie"
+
+msgid "Spotted souslik"
+msgstr "Souslik tacheté"
+
+msgid "European Souslik"
+msgstr "Souslik d'Europe"
+
+msgid "Alpine marmot"
+msgstr "Marmotte des Alpes"
+
+msgid "European beaver"
+msgstr "Castor d'Eurasie"
+
+msgid "Coypu"
+msgstr "Ragondin"
+
+msgid "Raccoon dog"
+msgstr "Chien viverrin"
+
+msgid "Brown bear"
+msgstr "Ours brun"
+
+msgid "Grey wolf"
+msgstr "Loup gris"
+
+msgid "Golden jackal"
+msgstr "Chacal doré"
+
+msgid "Red fox"
+msgstr "Renard roux"
+
+msgid "European otter"
+msgstr "Loutre d'Europe"
+
+msgid "Eurasian badger"
+msgstr "Blaireau européen"
+
+msgid "Egyptian mongoose"
+msgstr "Mangouste d’Égypte"
+
+msgid "Small Indian mongoose"
+msgstr "Petite mangouste indienne"
+
+msgid "Common genet"
+msgstr "Genette commune"
+
+msgid "Wildcat"
+msgstr "Chat forestier"
+
+msgid "Eurasian lynx"
+msgstr "Lynx boréal"
+
+msgid "Iberian lynx"
+msgstr "Lynx pardelle"
+
+msgid "Wild boar"
+msgstr "Sanglier"
+
+msgid "European bison"
+msgstr "Bison d'Europe"
+
+msgid "European mouflon"
+msgstr "Mouflon de Corse"
+
+msgid "Alpine ibex"
+msgstr "Bouquetin des Alpes"
+
+msgid "Spanish ibex"
+msgstr "Bouquetin des Pyrénées"
+
+msgid "Chamois, Alpine"
+msgstr "Chamois"
+
+msgid "Chamois, southern"
+msgstr "Isard"
+
+msgid "Red deer"
+msgstr "Cerf élaphe"
+
+msgid "Fallow deer"
+msgstr "Daim européen"
+
+msgid "Elk"
+msgstr "Élan"
+
+msgid "Roe deer"
+msgstr "Chevreuil européen"
+
+msgid "Sika deer"
+msgstr "Cerf sika"
+
+msgid "Chital"
+msgstr "Cerf axis"
+
+msgid "White-tailed deer"
+msgstr "Cerf de Virginie"
+
+msgid "Raccoon"
+msgstr "Raton laveur"
+
+msgid "Barbary sheep"
+msgstr "Mouflon à manchettes"
+
+msgid "Red-necked wallaby"
+msgstr "Wallaby de Bennett"
+
+msgid "Long-eared hedgehog"
+msgstr "Hérisson à grandes oreilles"
+
+msgid "Eastern cottontail rabbit"
+msgstr "Lapin de Floride"
+
+msgid "Cape hare"
+msgstr "Lièvre du Cap"
+
+msgid "Corsican hare"
+msgstr "Lièvre corse"
+
+msgid "Persian squirrel"
+msgstr "Écureuil de Perse"
+
+msgid "Grey squirrel"
+msgstr "Écureuil gris"
+
+msgid "Calabrian black squirrel"
+msgstr "Écureuil noir"
+
+msgid "Pallas’s squirrel"
+msgstr "Écureuil à ventre rouge"
+
+msgid "Thailand tree squirrel"
+msgstr "Écureuil de Finlayson"
+
+msgid "Little souslik"
+msgstr "Souslik nain"
+
+msgid "Bobak marmot"
+msgstr "Marmotte des steppes"
+
+msgid "Russian flying squirrel"
+msgstr "Écureuil volant de Sibérie"
+
+msgid "Siberian chipmunk"
+msgstr "Tamia de Sibérie"
+
+msgid "American beaver"
+msgstr "Castor canadien"
+
+msgid "Crested porcupine"
+msgstr "Porc-épic à crête"
+
+msgid "Polar bear"
+msgstr "Ours blanc"
+
+msgid "Arctic fox"
+msgstr "Renard polaire"
+
+msgid "Stoat"
+msgstr "Hermine"
+
+msgid "Steppe polecat"
+msgstr "Putois des steppes"
+
+msgid "European mink"
+msgstr "Vison d'Europe"
+
+msgid "Weasel"
+msgstr "Belette d'Europe"
+
+msgid "Western polecat"
+msgstr "Putois d'Europe"
+
+msgid "American mink"
+msgstr "Vison d'Amérique"
+
+msgid "Beech marten, Stone marten"
+msgstr "Fouine"
+
+msgid "Pine marten"
+msgstr "Martre des pins"
+
+msgid "Marbled polecat"
+msgstr "Putois marbré"
+
+msgid "Wolverine"
+msgstr "Glouton"
+
+msgid "Wild goat"
+msgstr "Bouquetin commun"
+
+msgid "Musk ox"
+msgstr "Bœuf musqué"
+
+msgid "Reindeer"
+msgstr "Renne"
+
+msgid "Reeves’ muntjac"
+msgstr "Muntjac de Chine"
+
+msgid "Chinese water deer"
+msgstr "Hydropote chinois"
+
+msgid "Germany"
+msgstr "Allemagne"
+
+msgid "Spain"
+msgstr "Espagne"
+
+msgid "Croatia"
+msgstr "Croatie"
+
+msgid "Poland"
+msgstr "Pologne"
+
+msgid "North Macedonia"
+msgstr "Macédoine du nord"
+
+msgid "Serbia"
+msgstr "Serbie"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Elsewhere"
+msgstr "Ailleurs"
+
+msgid "river"
+msgstr "rivière"
+
+msgid "forest"
+msgstr "forêt"
+
+msgid "shrubs"
+msgstr "arbustes"
+
+msgid "prairies"
+msgstr "prairies"
+
+msgid "farmlands"
+msgstr "terres agricoles"
+
+msgid "alpine"
+msgstr "alpin(e)"
+
+msgid "aquatic"
+msgstr "aquatique"
+
+msgid "underground"
+msgstr "sous terre"
+
+msgid "tree"
+msgstr "arbre"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Habitats"
+msgstr "Habitats"
+
+msgid "Mouse-rat"
+msgstr "Souris-rat"
+
+msgid "Hedgehog-squirrel"
+msgstr "Hérisson-écureuil"
+
+msgid "Rabbit-hare"
+msgstr "Lapin-lièvre"
+
+msgid "Cats-medium size canivorous"
+msgstr "Chats-carnivores de taille moyenne"
+
+msgid "Dog-Wildboar"
+msgstr "Chien-sanglier"
+
+msgid "Goat-Deers"
+msgstr "Chèvre-Cervidés"
+
+msgid "Cow-Bison"
+msgstr "Vache-Bison"
+
+msgid "Filter species size"
+msgstr "Filtrer par taille d'espèce"
+
+msgid "undefined"
+msgstr "indéfini"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgid "Number"
+msgstr "Nombre"
+
+msgid "Method"
+msgstr "Méthode"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Select species"
+msgstr "Sélectionnez l'espèce"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr ""
+"Veuillez utiliser le GPS ou cliquer sur la carte pour indiquer votre "
+"position"
+
+msgid "Location Accuracy"
+msgstr "Précision de la localisation"
+
+msgid "Close"
+msgstr "Proche"
+
+msgid "How many individuals of this type?"
+msgstr "Combien d'individus de ce type?"
+
+msgid "Direct observation"
+msgstr "Observation directe"
+
+msgid "Camera trap"
+msgstr "Piège photo"
+
+msgid "Catch"
+msgstr "Capture"
+
+msgid "Road kill"
+msgstr "Tué sur une route"
+
+msgid "Field carcass"
+msgstr "Carcasse dans la nature"
+
+msgid "Telemetry"
+msgstr "Télémétrie"
+
+msgid "Other (specify in Comment)"
+msgstr "Autre (précisez en commentaire)"
+
+msgid "Please specify how has this mammal been observed."
+msgstr "Veuillez préciser comment ce mammifère a été observé."
+
+msgid "Alive"
+msgstr "Vivant"
+
+msgid "Dead - roadkill"
+msgstr "Décédé - tué sur une route"
+
+msgid "Dead - other"
+msgstr "Décédé - autre"
+
+msgid "Indirect"
+msgstr "Indirect"
+
+msgid "Print/trail"
+msgstr "Empreinte-sentier"
+
+msgid "Dropping"
+msgstr "Abandon"
+
+msgid "Den/burrow"
+msgstr "Tanière-terrier "
+
+msgid "Please specify the condition of the mammal."
+msgstr "Veuillez précisez l'état du mammifère"
+
+msgid "Please add any extra info about this record."
+msgstr ""
+"Veuillez ajouter toute information supplémentaire à propos de cet "
+"enregistrement"
+
+msgid "Enter more information here..."
+msgstr "Saisissez plus d'informations ici..."
+
+msgid "Upload"
+msgstr "Télécharger"
+
+msgid "species"
+msgstr "espèce"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr ""
+"Entrez votre nom d'utilisateur ou votre e-mail  pour demander une "
+"réinitialisation de mot de passe"
+
+msgid "User not found."
+msgstr "Utilisateur inconnu."
+
+msgid "We've sent an email to you"
+msgstr "Nous vous avons envoyé un e-mail"
+
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+"Cliqué sur le lien dans l'e-mail pour réinitialiser votre mot de passe. Si "
+"vous ne trouvez pas cet e-mail, pensez à consulter vos spams ou autre "
+"dossier dans votre boite mail."
+
+msgid "App Development"
+msgstr "Développement de l'application"
+
+msgid "This app was hand crafted with love by"
+msgstr "Cette application a été crée avec amour par"
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr ""
+"Agence spécialisée dans la construction de solutions orientées par les "
+"données et faits sur mesure. "
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr "Pour toute suggestion ou retour, ne pas hésiter à "
+
+msgid "contact us"
+msgstr "contactez nous"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr ""
+"Cette application a été créée par le biais de MammalNet, et a été financée "
+"par l'EFSA"
+
+msgid "Maps produced"
+msgstr "Cartes produites"
+
+msgid "Photo credits:"
+msgstr "Crédits photo:"
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr ""
+"Considérer tout nouvel enregistrement comme \"formation\" et exclure de tous"
+" les rapports"
+
+msgid "Distribution"
+msgstr "Répartition"
+
+msgid "Hedgehog"
+msgstr "Hérisson"
+
+msgid "(unknown species)"
+msgstr "(espèce inconnue)"
+
+msgid "Shrew"
+msgstr "Musaraigne"
+
+msgid "Mole"
+msgstr "Taupe"
+
+msgid "Lagomorph"
+msgstr "Lagomorphe"
+
+msgid "Rabbits and Hares"
+msgstr "Lapins et Lièvres"
+
+msgid "Small rodent"
+msgstr "Petit rongeur"
+
+msgid "Vole"
+msgstr "Campagnol"
+
+msgid "Mouse"
+msgstr "Souris"
+
+msgid "Rat"
+msgstr "Rat"
+
+msgid "Other mustelid"
+msgstr "Autre mustélidé"
+
+msgid "Locating"
+msgstr "Localisation de"
+
+msgid "Please add record location."
+msgstr "Veuillez ajouter la localisation"
+
+msgid "Please select a species."
+msgstr "Veuillez sélectionner une espèce "
+
+msgid "Enjoying the app?"
+msgstr "L'application vous plait-elle?"
+
+msgid "Not really"
+msgstr "Pas vraiment"
+
+msgid "Yes!"
+msgstr "Oui!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr "Seriez-vous d'accord pour nous donner votre avis?"
+
+msgid "No, thanks"
+msgstr "Non merci!"
+
+msgid "OK, sure"
+msgstr "Oui, d'accord!"
+
+msgid "How about a rating on the App Store then?"
+msgstr "Dans ce cas, souhaitez-vous laisser une note dans l'App Store?"
+
+msgid "How about a rating on the Play Store then?"
+msgstr "Dans ce cas, souhaitez-vous laisser une note dans Play Store?"
+
+msgid ""
+"Sightings can be recorded anywhere, with or without photos, and all records "
+"will be verified by experts and made available to help with mapping the "
+"distribution of European mammals. You can check and update your records "
+"online."
+msgstr ""
+"Les observations peuvent être enregistrées partout, avec ou sans photos, et "
+"tous les enregistrements seront vérifiés par des experts puis rendu "
+"accessibles pour aider à cartographier la répartition des mammifères "
+"d'Europe. Vous pouvez vérifier et modifier vos enregistrements en ligne."
+
+msgid ""
+"Users must first register, and can then log into a web site to view and "
+"correct records. Choice of country can be reviewed in the settings."
+msgstr ""
+"Les utilisateurs doivent d'abord d'inscrire, et peuvent ensuite se connecter"
+" sur un site pour visualiser et corriger les enregistrements. Le choix du "
+"pays peut être modifié dans les réglages."
+
+msgid "Icons made by"
+msgstr "Icônes créés par"
+
+msgid "from"
+msgstr "de"
+
+msgid "Share App Analytics"
+msgstr "Partager les données analytiques de l'application"
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Sexe"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Age"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "Décomposition"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Mâle"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Femelle"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Veuillez préciser le sexe du mammifère"
+
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr "porcelet"
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Juvénile"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Adulte"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Veuillez préciser l'âge du mammifère"
+
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Carcasse fraiche"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "Décomposé"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "Sec (squelette uniquement)"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr "Veuillez préciser le stade de décomposition du mammifère."
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "Chassé"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "Inconnu"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr "Mammalnet"
+
+# Part of species profile external link
+msgid "web profile"
+msgstr "Profil de l'utilisateur"
+
+# An unkown species group
+msgid "Bats"
+msgstr "Chauve-souris"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Phoques"
+
+# From About page
+msgid ""
+"The iMammalia App is designed to encourage recording of mammals in the wild."
+" This version of the mobile application is set up to easily record mammals "
+"in any European country, but does not yet have all European languages "
+"included."
+msgstr ""
+"L'application iMammalia a été produite pour encourager l'enregistrement des "
+"mammifères dans la nature. Cette version de l'application est mis en place "
+"pour enregistrer facilement des mammifères dans n'importe quel pays "
+"d'Europe, mais elle n' inclus pas encore toutes les langues européennes."
+
+# From About page
+msgid ""
+"iMammalia is designed to make mammal recording easy. Smaller mammals are "
+"currently only listed at the generic level since they are much harder to "
+"tell apart. Later versions will include more countries, languages and "
+"species subject to funding."
+msgstr ""
+"iMammalia a été créé pour faciliter l'enregistrement des mammifères. "
+"Certains petits mammifères sont seulement énumérés à un niveau generique "
+"puisqu'il est très difficile de les distinguer. Les prochaines versions de "
+"l'application contiendront plus de pays, de langues et d'espèces sous "
+"réserve de financement."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr "Ne trouve pas/ne peut pas vérifier l'utilisateur"

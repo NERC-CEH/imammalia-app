@@ -2,12 +2,12 @@
 # Translators:
 # Nikolaos Kiamos <kiamosn@gmail.com>, 2021
 # Karolis, 2021
-# George Mitsainas <mitsain@upatras.gr>, 2021
+# George Mitsainas <mitsain@upatras.gr>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: George Mitsainas <mitsain@upatras.gr>, 2021\n"
+"Last-Translator: George Mitsainas <mitsain@upatras.gr>, 2022\n"
 "Language-Team: Greek (Greece) (https://www.transifex.com/ceh/teams/103078/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1771,4 +1771,4 @@ msgstr ""
 
 # An error message
 msgid "Could not find/authenticate user."
-msgstr ""
+msgstr "Δεν κατέστη δυνατή η εύρεση/πιστοποίηση του χρήστη."
