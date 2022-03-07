@@ -268,6 +268,13 @@ msgstr "Échec du récupérage"
 msgid "Incorrect password or email."
 msgstr "Email ou mot de passe non reconnu, impossible de se connecter."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Se déconnecter"
 

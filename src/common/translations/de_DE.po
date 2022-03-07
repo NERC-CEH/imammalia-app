@@ -270,6 +270,13 @@ msgstr "Konnte nicht geladen werden"
 msgid "Incorrect password or email."
 msgstr "Passwort oder Email nicht korrekt!"
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Logout"
 

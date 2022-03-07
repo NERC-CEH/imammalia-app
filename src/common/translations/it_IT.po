@@ -271,6 +271,13 @@ msgstr "Recupero fallito"
 msgid "Incorrect password or email."
 msgstr "Password o email non corrette"
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Disconnetti"
 

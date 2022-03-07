@@ -261,6 +261,13 @@ msgstr ""
 msgid "Incorrect password or email."
 msgstr "Невалидна пароли или email."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Излез от профила си"
 

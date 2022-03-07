@@ -264,6 +264,13 @@ msgstr "Не вдалося отримати"
 msgid "Incorrect password or email."
 msgstr "Невірний пароль або email."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Вийти"
 

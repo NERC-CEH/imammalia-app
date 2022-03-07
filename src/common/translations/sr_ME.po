@@ -264,6 +264,13 @@ msgstr "Povezivanje nije uspjelo"
 msgid "Incorrect password or email."
 msgstr "Neispravna lozinka ili e-mail."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Odjava"
 

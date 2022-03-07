@@ -36,7 +36,7 @@ async function onLogin(userModel, details, onSuccess) {
     Log(err, 'e');
     alert({
       header: t('Sorry'),
-      message: err.message,
+      message: t(err.message),
       buttons: [t('OK')],
     });
   }

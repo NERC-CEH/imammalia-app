@@ -256,6 +256,13 @@ msgstr "Failed to fetch"
 msgid "Incorrect password or email."
 msgstr "Incorrect password or email."
 
+msgid "Account already exists."
+msgstr "Account already exists."
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr "Invalid backend response."
+
 msgid "Logout"
 msgstr "Logout"
 

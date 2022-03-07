@@ -268,6 +268,13 @@ msgstr "Nie udało się pobrać"
 msgid "Incorrect password or email."
 msgstr "Niepoprawne hasło lub adres e-mail."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Wyloguj"
 

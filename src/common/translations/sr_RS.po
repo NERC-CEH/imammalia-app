@@ -265,6 +265,13 @@ msgstr "Неуспешно пријављивање"
 msgid "Incorrect password or email."
 msgstr "Погрешна лозинка или е-маил адреса."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Одјавите се"
 

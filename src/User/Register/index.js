@@ -54,7 +54,7 @@ async function onRegister(userModel, details, lang) {
     Log(err, 'e');
     alert({
       header: t('Sorry'),
-      message: err.message,
+      message: t(err.message),
       buttons: [t('OK')],
     });
   }

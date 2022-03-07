@@ -269,6 +269,13 @@ msgstr "Αποτυχία λήψης"
 msgid "Incorrect password or email."
 msgstr "Λανθασμένος κωδικός ή διεύθυνση email."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Εξοδος"
 

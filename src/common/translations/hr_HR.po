@@ -264,6 +264,13 @@ msgstr "Dohvaćanje nije uspjelo"
 msgid "Incorrect password or email."
 msgstr "Netočna lozinka ili email"
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Odjava"
 

@@ -266,6 +266,13 @@ msgstr "Erro ao procurar"
 msgid "Incorrect password or email."
 msgstr "E-mail ou palavra-passe incorretos"
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Sair"
 

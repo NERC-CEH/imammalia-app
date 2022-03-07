@@ -29,9 +29,9 @@ async function onSubmit(userModel, details) {
   try {
     await userModel.reset(resetDetails);
     alert({
-      header: t('We\'ve sent an email to you'),
+      header: t("We've sent an email to you"),
       message: t(
-        'Click the link in the email to reset your password. If you don\'t see the email, check other places like your junk, spam or other folders.'
+        "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
       ),
       buttons: [
         {
@@ -47,7 +47,7 @@ async function onSubmit(userModel, details) {
     Log(err, 'e');
     alert({
       header: t('Sorry'),
-      message: err.message,
+      message: t(err.message),
       buttons: [t('OK')],
     });
   }

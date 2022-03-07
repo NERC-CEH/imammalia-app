@@ -262,6 +262,13 @@ msgstr "Nustatyti nepavyko"
 msgid "Incorrect password or email."
 msgstr "Slaptažodis arba el. paštas neteisingas"
 
+msgid "Account already exists."
+msgstr "Sąskaita su tokiu el. paštu jau egzistuoja."
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr "Įvyko klaida."
+
 msgid "Logout"
 msgstr "Atsijungti"
 

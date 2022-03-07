@@ -267,6 +267,13 @@ msgstr "Kunne ikke hente"
 msgid "Incorrect password or email."
 msgstr "Feil passord eller e-post."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Logg ut"
 

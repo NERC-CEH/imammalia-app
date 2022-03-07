@@ -265,6 +265,13 @@ msgstr "Nepodařilo se načíst"
 msgid "Incorrect password or email."
 msgstr "Nesprávné heslo nebo e-mail."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Odhlášení"
 

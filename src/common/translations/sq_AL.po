@@ -269,6 +269,13 @@ msgstr "Nuk u arrit të merrej "
 msgid "Incorrect password or email."
 msgstr "Fjalëkalimi ose email i pasaktë"
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Dil "
 

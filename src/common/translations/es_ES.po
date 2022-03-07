@@ -269,6 +269,13 @@ msgstr "No se pudo recuperar"
 msgid "Incorrect password or email."
 msgstr "La contraseña o el email son incorrectos."
 
+msgid "Account already exists."
+msgstr ""
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr ""
+
 msgid "Logout"
 msgstr "Salir"
 
