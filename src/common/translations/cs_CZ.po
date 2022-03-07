@@ -163,7 +163,7 @@ msgid "Privacy Policy"
 msgstr "Ochrana osobních údajů"
 
 msgid "Credits"
-msgstr "Kredity"
+msgstr "Poděkování"
 
 msgid "Email"
 msgstr "E-mail"
@@ -1332,7 +1332,7 @@ msgid "shrubs"
 msgstr "keře"
 
 msgid "prairies"
-msgstr "prérie"
+msgstr "bezlesí"
 
 msgid "farmlands"
 msgstr "zemědělská krajina"
@@ -1341,7 +1341,7 @@ msgid "alpine"
 msgstr "vysokohorský"
 
 msgid "aquatic"
-msgstr "vodní"
+msgstr "voda"
 
 msgid "underground"
 msgstr "podzemí"
@@ -1353,7 +1353,7 @@ msgid "Description"
 msgstr "Popis"
 
 msgid "Habitats"
-msgstr "Stanoviště"
+msgstr "Prostředí"
 
 msgid "Mouse-rat"
 msgstr "Myš-krysa"
@@ -1419,7 +1419,7 @@ msgid "Camera trap"
 msgstr "Fotopast"
 
 msgid "Catch"
-msgstr "Chytit"
+msgstr "Chyceno"
 
 msgid "Road kill"
 msgstr "Úhyn na silnici"
@@ -1515,14 +1515,14 @@ msgid "Maps produced"
 msgstr "Vytvořené mapy"
 
 msgid "Photo credits:"
-msgstr "Foto kredit:"
+msgstr "Foto zdroje:"
 
 msgid "Mark any new records as 'training' and exclude from all reports."
 msgstr ""
 "Všechny nové záznamy označte jako \"trénink\" a vylučte je ze všech zpráv."
 
 msgid "Distribution"
-msgstr "Rozdělení"
+msgstr "Rozšíření"
 
 msgid "Hedgehog"
 msgstr "Ježek"
@@ -1596,8 +1596,8 @@ msgid ""
 "distribution of European mammals. You can check and update your records "
 "online."
 msgstr ""
-"Pozorování lze zaznamenat kdekoli, s fotografiemi nebo bez nich, a všechny "
-"záznamy budou ověřeny odborníky a zpřístupněny, aby pomohly s mapováním "
+"Pozorování lze zaznamenat kdekoli, s fotografiemi nebo bez nich. Všechny "
+"záznamy budou ověřeny odborníky a zpřístupněny tak, aby pomohly s mapováním "
 "rozšíření evropských savců. Své záznamy můžete kontrolovat a aktualizovat "
 "online. "
 
@@ -1648,7 +1648,7 @@ msgstr "Sele"
 
 # Part of recording attributes pages
 msgid "Juvenile"
-msgstr "Mládě"
+msgstr "mladistvý"
 
 # Part of recording attributes pages
 msgid "Adult"
