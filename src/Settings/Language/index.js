@@ -25,8 +25,10 @@ function SelectLanguage({ appModel, hideHeader }) {
   }
 
   const languageExists = ([, lang]) => !!lang;
+  const alphabetically = (l1, l2) => l1[1].localeCompare(l2[1]);
   const languagesOptions = Object.entries(languages)
     .filter(languageExists)
+    .sort(alphabetically)
     .map(([value, language]) => (
       <IonItem key={value}>
         <IonLabel>{language}</IonLabel>
