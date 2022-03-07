@@ -68,7 +68,7 @@ export const languages = {
   bg_BG: demoOnly && 'Български',
   lt_LT: demoOnly && 'Lietuvių',
   el_GR: 'Ελληνικά',
-  sr_ME: 'црногорски',
+  sr_ME: 'Crnogorski',
   pt_PT: 'Português',
   cs_CZ: demoOnly && 'Čeština',
   fr_FR: demoOnly && 'Français',
