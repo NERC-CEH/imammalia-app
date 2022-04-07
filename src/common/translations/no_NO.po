@@ -268,11 +268,11 @@ msgid "Incorrect password or email."
 msgstr "Feil passord eller e-post."
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Konto eksisterer allerede."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Ugyldig backend-respons."
 
 msgid "Logout"
 msgstr "Logg ut"

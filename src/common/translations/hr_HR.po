@@ -265,11 +265,11 @@ msgid "Incorrect password or email."
 msgstr "Netočna lozinka ili email"
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Račun već postoji."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Nevažeći povratni odgovor."
 
 msgid "Logout"
 msgstr "Odjava"

@@ -271,11 +271,11 @@ msgid "Incorrect password or email."
 msgstr "Passwort oder Email nicht korrekt!"
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Das Konto existiert bereits."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Ungültige Backend-Antwort."
 
 msgid "Logout"
 msgstr "Logout"

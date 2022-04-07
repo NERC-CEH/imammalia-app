@@ -269,11 +269,11 @@ msgid "Incorrect password or email."
 msgstr "Email ou mot de passe non reconnu, impossible de se connecter."
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Votre compte existe déjà."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Réponse du serveur principal invalide."
 
 msgid "Logout"
 msgstr "Se déconnecter"

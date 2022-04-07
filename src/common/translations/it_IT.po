@@ -3,12 +3,12 @@
 # Giulia Fabbri <g.fabbri@studenti.uniss.it>, 2021
 # Stefania Zanet <stefania.zanet@unito.it>, 2021
 # Karolis, 2021
-# Massimo Scandura <scandura@uniss.it>, 2021
+# Massimo Scandura <scandura@uniss.it>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Massimo Scandura <scandura@uniss.it>, 2021\n"
+"Last-Translator: Massimo Scandura <scandura@uniss.it>, 2022\n"
 "Language-Team: Italian (Italy) (https://www.transifex.com/ceh/teams/103078/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,11 +272,11 @@ msgid "Incorrect password or email."
 msgstr "Password o email non corrette"
 
 msgid "Account already exists."
-msgstr ""
+msgstr "L'account è già esistente."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Risposta di backend non valida."
 
 msgid "Logout"
 msgstr "Disconnetti"

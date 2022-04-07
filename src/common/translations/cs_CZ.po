@@ -266,11 +266,11 @@ msgid "Incorrect password or email."
 msgstr "Nesprávné heslo nebo e-mail."
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Účet již existuje."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Neplatná odpověď systémové správy dat."
 
 msgid "Logout"
 msgstr "Odhlášení"

@@ -266,11 +266,11 @@ msgid "Incorrect password or email."
 msgstr "Погрешна лозинка или е-маил адреса."
 
 msgid "Account already exists."
-msgstr ""
+msgstr "Nalog već postoji."
 
 # Some server error.
 msgid "Invalid backend response."
-msgstr ""
+msgstr "Pogrešan prethodni odgovor."
 
 msgid "Logout"
 msgstr "Одјавите се"
