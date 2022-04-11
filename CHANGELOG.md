@@ -1,3 +1,8 @@
+## 1.4.0
+
+Added Czech, French, Norwegian, Slovak and Ukrainian languages.
+Updated translations.
+
 ## 1.3.0
 
 Added Portuguese and Montenegrin languages.
