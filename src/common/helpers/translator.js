@@ -70,11 +70,11 @@ export const languages = {
   el_GR: 'Ελληνικά',
   sr_ME: 'Crnogorski',
   pt_PT: 'Português',
-  cs_CZ: demoOnly && 'Čeština',
-  fr_FR: demoOnly && 'Français',
-  no_NO: demoOnly && 'Norsk',
-  sk_SK: demoOnly && 'Slovenčina',
-  uk_UA: demoOnly && 'Українська',
+  cs_CZ: 'Čeština',
+  fr_FR: 'Français',
+  no_NO: 'Norsk',
+  sk_SK: 'Slovenčina',
+  uk_UA: 'Українська',
 };
 
 export const countries = {
