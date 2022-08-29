@@ -5,11 +5,11 @@ import 'core-js/features/set';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { setupConfig } from '@ionic/react';
-import config from 'config';
+// import config from 'config';
 import appModel from 'app_model';
 import userModel from 'user_model';
 import savedSamples from 'saved_samples';
-import { initAnalytics } from '@apps';
+// import { initAnalytics } from '@apps';
 import App from './App';
 
 // Fixes Ionic + Webpack issue - TODO: remove once no longer needed
@@ -36,17 +36,17 @@ async function init() {
   await userModel._init;
   await savedSamples._init;
 
-  appModel.attrs.sendAnalytics &&
-    initAnalytics({
-      dsn: config.sentryDNS,
-      environment: config.environment,
-      build: config.build,
-      release: config.version,
-      userId: userModel.attrs.drupalID,
-      tags: {
-        'app.appSession': appModel.attrs.appSession,
-      },
-    });
+  // appModel.attrs.sendAnalytics &&
+  //   initAnalytics({
+  //     dsn: config.sentryDNS,
+  //     environment: config.environment,
+  //     build: config.build,
+  //     release: config.version,
+  //     userId: userModel.attrs.drupalID,
+  //     tags: {
+  //       'app.appSession': appModel.attrs.appSession,
+  //     },
+  //   });
 
   appModel.attrs.appSession += 1;
   appModel.save();
