@@ -4,7 +4,7 @@ import 'core-js/features/set';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { setupConfig } from '@ionic/react';
+import { setupIonicReact } from '@ionic/react';
 // import config from 'config';
 import appModel from 'app_model';
 import userModel from 'user_model';
@@ -26,7 +26,7 @@ function disableBackButton() {
     false
   );
 }
-setupConfig({
+setupIonicReact({
   hardwareBackButton: false,
 });
 // END Android back button disable
