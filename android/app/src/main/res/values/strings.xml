@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">iMammalia App</string>
+    <string name="title_activity_main">iMammalia App</string>
+    <string name="package_name">uk.ac.ceh.imammalia</string>
+    <string name="custom_url_scheme">uk.ac.ceh.imammalia</string>
+</resources>

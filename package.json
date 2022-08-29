@@ -24,7 +24,13 @@
     }
   },
   "dependencies": {
-    "@bit/flumens.apps.utils.analytics": "^0.2.0",
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/app": "^1.1.1",
+    "@capacitor/core": "^3.4.3",
+    "@capacitor/ios": "^3.4.3",
+    "@capacitor/network": "^1.0.7",
+    "@capacitor/splash-screen": "^1.2.2",
+    "@capacitor/status-bar": "^1.0.8",
     "@ionic/core": "4.11.0",
     "@ionic/react": "4.11.0",
     "@ionic/react-router": "4.11.0",
