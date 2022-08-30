@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import userModel from 'user_model';
+import userModel from 'models/user';
 
 const PrivateRoute = ({ component }) => {
   const routeRender = props => {

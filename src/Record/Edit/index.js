@@ -84,7 +84,7 @@ class Container extends React.Component {
 
   async getNewSample() {
     const { savedSamples, appModel } = this.props;
-    const draftID = appModel.get('recordDraftId');
+    const draftID = appModel.attrs.recordDraftId;
     if (draftID) {
       const draftWasNotDeleted = savedSamples.get(draftID);
       if (draftWasNotDeleted) {
@@ -100,7 +100,7 @@ class Container extends React.Component {
     const sample = await createNewSample(savedSamples);
     sample.toggleGPStracking();
 
-    appModel.set('recordDraftId', sample.cid);
+    appModel.attrs.recordDraftId = sample.cid;
     await appModel.save();
     return sample.save();
   }
@@ -114,7 +114,7 @@ class Container extends React.Component {
       return;
     }
 
-    appModel.set('recordDraftId', null);
+    appModel.attrs.recordDraftId = null;
     await appModel.save();
 
     sample.toggleGPStracking(false);

@@ -8,8 +8,8 @@ import {
   IonLifeCycleContext,
 } from '@ionic/react';
 import PropTypes from 'prop-types';
-import ReactSVG from 'react-svg';
-import MapBackground from '-!react-svg-loader!../../maps/background.svg'; //eslint-disable-line
+// import ReactSVG from 'react-svg';
+// import MapBackground from '-!react-svg-loader!../../maps/background.svg'; //eslint-disable-line
 import './styles.scss';
 import { Map } from 'react-leaflet';
 import L from 'leaflet';
@@ -99,7 +99,7 @@ class Component extends React.Component {
         <IonCardContent>
           <h3 className="species-label">{`${t('Distribution')}:`}</h3>
           <div style={{ display: 'none' }}>
-            <MapBackground id="boundary" />
+            {/* <MapBackground id="boundary" /> */}
             <ReactSVG src={`/images/${species.taxon}.svg`} />
           </div>
           <svg

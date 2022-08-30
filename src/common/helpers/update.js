@@ -78,20 +78,20 @@ const API = {
    */
   run(callback, silent = false) {
     appModel._init.then(() => {
-      const currentVersion = appModel.get('appVersion');
+      const currentVersion = appModel.attrs.appVersion;
 
       const newVersion = CONFIG.version;
-      const currentBuild = appModel.get('appBuild');
+      const currentBuild = appModel.attrs.appBuild;
       const newBuild = CONFIG.build;
 
       // when Beta testing we set training mode
       if (currentVersion !== newVersion || currentBuild !== newBuild) {
-        appModel.set('useTraining', CONFIG.training);
+        appModel.attrs.useTraining = CONFIG.training;
       }
 
       let savePromise = Promise.resolve();
       if (currentBuild !== newBuild) {
-        appModel.set('appBuild', newBuild);
+        // appModel.set('appBuild', newBuild);
         savePromise = appModel.save();
       }
 
@@ -99,7 +99,7 @@ const API = {
         if (currentVersion !== newVersion) {
           // TODO: check for backward downgrade
           // set new app version
-          appModel.set('appVersion', newVersion);
+          // appModel.set('appVersion', newVersion);
           appModel.save().then(() => {
             // first install
             if (!currentVersion) {

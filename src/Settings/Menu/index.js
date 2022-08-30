@@ -17,20 +17,20 @@ function resetApp(appModel, userModel) {
 function onToggle(appModel, setting, checked) {
   Log('Settings:Menu:Controller: setting toggled.');
   if (setting === 'useExperiments' && !checked) {
-    appModel.set('useExperiments', false);
+    appModel.attrs.useExperiments = false;
     appModel.save();
     return;
   }
 
-  appModel.set(setting, checked);
+  appModel.attrs.setting = checked;
   appModel.save();
 }
 
 const Container = observer(({ appModel, userModel }) => {
-  const useTraining = appModel.get('useTraining');
-  const sendAnalytics = appModel.get('sendAnalytics');
-  const language = appModel.get('language');
-  const country = appModel.get('country');
+  const useTraining = appModel.attrs.useTraining;
+  const sendAnalytics = appModel.attrs.sendAnalytics;
+  const language = appModel.attrs.language;
+  const country = appModel.attrs.country;
 
   return (
     <IonPage>

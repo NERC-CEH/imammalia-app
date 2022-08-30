@@ -63,7 +63,7 @@ async function onRegister(userModel, details, lang) {
 }
 
 export default function RegisterContainer({ userModel, appModel }) {
-  const lang = appModel.get('language');
+  const lang = appModel.attrs.language;
 
   return (
     <IonPage>

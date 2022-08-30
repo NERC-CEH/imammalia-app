@@ -3,7 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 import { IonRouterOutlet } from '@ionic/react';
 import savedSamples from 'saved_samples';
 import appModel from 'app_model';
-import userModel from 'user_model';
+import userModel from 'models/user';
 import Taxa from './Taxa';
 import Edit from './Edit';
 import Location from './Location';

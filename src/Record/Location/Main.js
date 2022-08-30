@@ -14,7 +14,7 @@ import { locate } from 'ionicons/icons';
 import CONFIG from 'config';
 import L from 'leaflet';
 import { Map, TileLayer, Marker } from 'react-leaflet';
-import LeafletControl from 'react-leaflet-control';
+// import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
 import 'leaflet/dist/images/marker-icon-2x.png?originalName'; // eslint-disable-line
 import 'leaflet/dist/images/marker-shadow.png?originalName'; // eslint-disable-line
@@ -150,14 +150,14 @@ class LocationAttr extends Component {
             url="https://api.mapbox.com/styles/v1/cehapps/cipqvo0c0000jcknge1z28ejp/tiles/256/{z}/{x}/{y}?access_token={accessToken}"
             accessToken={CONFIG.map.mapbox_api_key}
           />
-          <LeafletControl position="topleft">
+          {/* <LeafletControl position="topleft">
             <button
               className={`geolocate-btn ${isGPSTracking ? 'spin' : ''}`}
               onClick={toggleGPStracking}
             >
               <IonIcon icon={locate} mode="md" size="large" />
             </button>
-          </LeafletControl>
+          </LeafletControl> */}
 
           {markerPosition && <Marker position={markerPosition} />}
         </Map>

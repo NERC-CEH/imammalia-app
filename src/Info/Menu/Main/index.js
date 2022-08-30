@@ -22,7 +22,7 @@ import './styles.scss';
 import './logo.png?originalName';
 
 const Component = observer(({ isLoggedIn, user, logOut, appModel }) => {
-  const lang = appModel.get('language');
+  const lang = appModel.attrs.language;
 
   return (
     <IonContent class="app-menu">

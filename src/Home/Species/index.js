@@ -28,7 +28,7 @@ import './maps';
 import './styles.scss';
 
 function showFiltersDialog(appModel) {
-  const currentValue = toJS(appModel.get('speciesFilter'));
+  const currentValue = toJS(appModel.attrs.speciesFilter);
 
   const sizes = {
     // xxxs doesn't exist yet
@@ -64,7 +64,7 @@ function showFiltersDialog(appModel) {
         text: t('OK'),
         cssClass: 'primary',
         handler: speciesFilter => {
-          appModel.set('speciesFilter', speciesFilter);
+          // appModel.set('speciesFilter', speciesFilter);
           appModel.save();
         },
       },
@@ -108,11 +108,11 @@ class Component extends React.Component {
 
   getSpecies = () => {
     const { appModel, onSpeciesClick } = this.props;
-    const country = appModel.get('country');
+    const country = appModel.attrs.country;
 
     const isRecordingMode = !!onSpeciesClick;
 
-    const speciesFilter = appModel.get('speciesFilter');
+    const speciesFilter = appModel.attrs.speciesFilter;
     const byCountry = sp => country === 'ELSEWHERE' || sp[country];
     const shouldFilter = speciesFilter.length && !isRecordingMode;
     const byEnabledFilters = sp =>

@@ -34,7 +34,8 @@ const Controller = observer(props => {
   function logOut() {
     Log('Info:Menu: logging out.');
     showLogoutConfirmationDialog(() => {
-      appModel.set('recordDraftId', null).save();
+      appModel.attrs.recordDraftId = null;
+      appModel.save();
       userModel.logOut();
       return savedSamples.resetDefaults();
     });

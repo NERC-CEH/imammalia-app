@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import userModel from 'user_model';
+import userModel from 'models/user';
 import Log from 'helpers/log';
 import Device from 'helpers/device';
 import CONFIG from 'config';
@@ -52,7 +52,7 @@ class Component extends React.Component {
       return;
     }
 
-    this.props.appModel.set('feedbackGiven', true);
+    // this.props.appModel.set('feedbackGiven', true);
     this.props.appModel.save();
 
     if (!userActionIsPositive) {
@@ -74,11 +74,11 @@ class Component extends React.Component {
   }
 
   shouldAskForFeedback() {
-    if (this.props.appModel.get('feedbackGiven')) {
+    if (this.props.appModel.attrs.feedbackGiven) {
       return false;
     }
 
-    if (this.props.appModel.get('useTraining')) {
+    if (this.props.appModel.attrs.useTraining) {
       return false;
     }
 
@@ -94,9 +94,8 @@ class Component extends React.Component {
       return null;
     }
 
-    const { positiveOption, negativeOption, question, link } = this.steps[
-      this.state.step
-    ];
+    const { positiveOption, negativeOption, question, link } =
+      this.steps[this.state.step];
 
     return (
       <IonCard id="feedback-request">

@@ -1,4 +1,5 @@
 /* eslint-disable camelcase */
+import i18n from 'i18next';
 import appModel from 'app_model';
 import { isPlatform } from '@ionic/react';
 import en from '../translations/en.pot';
@@ -122,25 +123,25 @@ export const countries = {
   ELSEWHERE: 'Elsewhere',
 };
 
-function translate(key, lang) {
-  const language = lang || appModel.get('language');
+function translate(key, isSpeciesDescription, isSpeciesName) {
+  if (isSpeciesName) {
+    return i18n.t(key, {
+      ns: 'names',
+      lngs: [i18n.language], // don't revert to english if no local species name
+      defaultValue: '', // don't return anything if no local species name
+    });
+  }
 
-  const translation = dictionary[language][key];
-  if (!translation) {
-    window.dic = window.dic || [];
-    if (!window.dic.includes(key)) {
-      window.dic.push(key);
-      console.log(`!new: ${key}`); // todo: remove
-      // all='';dic.forEach(word => {all+=`\nmsgid "${word}"\nmsgstr "${word}"\n`})
+  if (isSpeciesDescription) {
+    // revert to English descriptions
+    let translation = i18n.t(key, { ns: 'species' });
+    if (!translation) {
+      translation = i18n.t(key, { ns: 'species', lng: 'en' });
     }
-    return key;
+    return translation !== key ? translation : null;
   }
 
-  if (!translation) {
-    return key;
-  }
-
-  return translation[1];
+  return i18n.t(key);
 }
 
 // import species from 'common/data/species.data.json';

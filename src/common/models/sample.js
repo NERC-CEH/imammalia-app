@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import Indicia from 'indicia';
 import { observable, toJS } from 'mobx';
 import CONFIG from 'config';
-import userModel from 'user_model';
+import userModel from 'models/user';
 import appModel from 'app_model';
 import Occurrence from 'occurrence';
 import Log from 'helpers/log';
@@ -21,17 +21,13 @@ const locationSchema = Yup.object().shape({
 });
 
 const schema = Yup.object().shape({
-  location: Yup.mixed().test(
-    'latitude',
-    'Please add record location.',
-    val => {
-      if (!val) {
-        return false;
-      }
-      locationSchema.validateSync(val);
-      return true;
+  location: Yup.mixed().test('latitude', 'Please add record location.', val => {
+    if (!val) {
+      return false;
     }
-  ),
+    locationSchema.validateSync(val);
+    return true;
+  }),
 
   location_type: Yup.string()
     .matches(/latlon/)
@@ -42,8 +38,6 @@ const schema = Yup.object().shape({
 let Sample = Indicia.Sample.extend({
   api_key: CONFIG.indicia.api_key,
   host_url: CONFIG.indicia.host,
-  user: userModel.getUser.bind(userModel),
-  password: userModel.getPassword.bind(userModel),
 
   store, // offline store
 
@@ -53,7 +47,7 @@ let Sample = Indicia.Sample.extend({
     return {
       saved: null,
       pausedTime: 0,
-      training: appModel.get('useTraining'),
+      training: appModel.attrs.useTraining,
     };
   },
 
@@ -122,11 +116,15 @@ let Sample = Indicia.Sample.extend({
 
     const smpAttrs = this.keys();
     const updatedSubmission = { ...{}, ...submission, ...newAttrs };
-    updatedSubmission.fields = { ...{}, ...updatedSubmission.fields, ...{
-      [smpAttrs.device.id]: smpAttrs.device.values[Device.getPlatform()],
-      [smpAttrs.device_version.id]: Device.getVersion(),
-      [smpAttrs.app_version.id]: `${CONFIG.version}.${CONFIG.build}`,
-    } };
+    updatedSubmission.fields = {
+      ...{},
+      ...updatedSubmission.fields,
+      ...{
+        [smpAttrs.device.id]: smpAttrs.device.values[Device.getPlatform()],
+        [smpAttrs.device_version.id]: Device.getVersion(),
+        [smpAttrs.app_version.id]: `${CONFIG.version}.${CONFIG.build}`,
+      },
+    };
 
     // add the survey_id to subsamples too
     if (this.metadata.complex_survey) {

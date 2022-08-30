@@ -7,13 +7,10 @@ import ReactDOM from 'react-dom';
 import { setupIonicReact } from '@ionic/react';
 // import config from 'config';
 import appModel from 'app_model';
-import userModel from 'user_model';
+import userModel from 'models/user';
 import savedSamples from 'saved_samples';
 // import { initAnalytics } from '@apps';
 import App from './App';
-
-// Fixes Ionic + Webpack issue - TODO: remove once no longer needed
-window.process = { env: {} };
 
 // START Android back button disable
 function disableBackButton() {
