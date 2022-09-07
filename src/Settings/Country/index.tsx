@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { FC, Fragment } from 'react';
+import { Page, Header, Main } from '@flumens';
+import { AppModel } from 'models/app';
 import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
 import {
-  IonPage,
-  IonContent,
   IonIcon,
   IonList,
   IonItem,
@@ -14,51 +14,54 @@ import {
 } from '@ionic/react';
 import { flag } from 'ionicons/icons';
 import { countries } from 'helpers/translator';
-import AppHeader from 'Components/Header';
 import './styles.scss';
 
-function SelectCountry({ appModel, hideHeader }) {
+type Props = {
+  appModel: AppModel;
+  hideHeader?: boolean;
+};
+
+const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
   const currentValue = appModel.attrs.country;
 
-  function onSelect(e) {
+  function onSelect(e: any) {
     appModel.attrs.country = e.target.value;
     appModel.save();
   }
 
   const countriesOptions = Object.entries(countries).map(([value, country]) => (
-    <>
-      {value === 'ELSEWHERE' && <IonItemDivider />}
+    <Fragment key={value}>
+      {value === 'ELSEWHERE' && <IonItemDivider key="test" />}
       <IonItem key={value}>
-        <IonLabel>{t(country)}</IonLabel>
-        <IonRadio value={value} checked={currentValue === value} />
+        <IonLabel>
+          <T>{country}</T>
+        </IonLabel>
+        <IonRadio value={value} defaultChecked={currentValue === value} />
       </IonItem>
-    </>
+    </Fragment>
   ));
 
   return (
-    <IonPage id="country-select">
-      {!hideHeader && <AppHeader title={t('Country')} />}
+    <Page id="country-select">
+      {!hideHeader && <Header title="Country" />}
 
-      <IonContent>
+      <Main>
         <IonList>
           {hideHeader && (
             <div className="header">
               <IonIcon icon={flag} size="large" />
-              <h4>{t('Select your country')}</h4>
+              <h4>
+                <T>Select your country</T>
+              </h4>
             </div>
           )}
           <IonRadioGroup onIonChange={onSelect}>
             {countriesOptions}
           </IonRadioGroup>
         </IonList>
-      </IonContent>
-    </IonPage>
+      </Main>
+    </Page>
   );
-}
-
-SelectCountry.propTypes = {
-  appModel: PropTypes.object.isRequired,
-  hideHeader: PropTypes.bool,
 };
 
 export default observer(SelectCountry);

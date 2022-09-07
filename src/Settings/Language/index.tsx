@@ -1,9 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { FC } from 'react';
 import { observer } from 'mobx-react';
+import { AppModel } from 'models/app';
+import { Page, Header, Main } from '@flumens';
 import {
-  IonPage,
-  IonContent,
   IonIcon,
   IonList,
   IonItem,
@@ -13,34 +12,38 @@ import {
 } from '@ionic/react';
 import { globe } from 'ionicons/icons';
 import { languages } from 'helpers/translator';
-import AppHeader from 'Components/Header';
 import './styles.scss';
 
-function SelectLanguage({ appModel, hideHeader }) {
+type Props = {
+  appModel: AppModel;
+  hideHeader?: boolean;
+};
+
+const SelectLanguage: FC<Props> = ({ appModel, hideHeader }) => {
   const currentValue = appModel.attrs.language;
 
-  function onSelect(e) {
+  function onSelect(e: any) {
     appModel.attrs.language = e.target.value;
     appModel.save();
   }
 
-  const languageExists = ([, lang]) => !!lang;
-  const alphabetically = (l1, l2) => l1[1].localeCompare(l2[1]);
+  const languageExists = ([, lang]: any) => !!lang;
+  const alphabetically = (l1: any, l2: any) => l1[1].localeCompare(l2[1]);
   const languagesOptions = Object.entries(languages)
     .filter(languageExists)
     .sort(alphabetically)
     .map(([value, language]) => (
       <IonItem key={value}>
         <IonLabel>{language}</IonLabel>
-        <IonRadio value={value} checked={currentValue === value} />
+        <IonRadio value={value} defaultChecked={currentValue === value} />
       </IonItem>
     ));
 
   return (
-    <IonPage id="language-select">
-      {!hideHeader && <AppHeader title={t('Language')} />}
+    <Page id="language-select">
+      {!hideHeader && <Header title="Language" />}
 
-      <IonContent>
+      <Main>
         <IonList>
           {hideHeader && (
             <div className="header">
@@ -52,14 +55,9 @@ function SelectLanguage({ appModel, hideHeader }) {
             {languagesOptions}
           </IonRadioGroup>
         </IonList>
-      </IonContent>
-    </IonPage>
+      </Main>
+    </Page>
   );
-}
-
-SelectLanguage.propTypes = {
-  appModel: PropTypes.object.isRequired,
-  hideHeader: PropTypes.bool,
 };
 
 export default observer(SelectLanguage);
