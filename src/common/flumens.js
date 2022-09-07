@@ -57,6 +57,7 @@ export {
   prettyPrintLocation,
   updateModelLocation,
 } from '@flumens/ionic/dist/utils/location';
+export * from '@flumens/ionic/dist/utils/type';
 export {
   useDisableBackButton,
   useOnBackButton,

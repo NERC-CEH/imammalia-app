@@ -4,8 +4,9 @@ import CONFIG from 'common/config';
 import { genericStore } from './store';
 
 export interface Attrs extends DrupalUserModelAttrs {
-  firstName?: string;
-  lastName?: string;
+  firstname?: string;
+  lastname?: string;
+  secondname: string;
   email?: string;
 
   /**
@@ -23,8 +24,8 @@ const defaults: Attrs = {
   // email: null,
   // password: null,
 
-  firstName: '',
-  lastName: '',
+  firstname: '',
+  secondname: '',
   email: '',
 };
 
@@ -32,7 +33,7 @@ export class UserModel extends DrupalUserModel {
   attrs: Attrs = DrupalUserModel.extendAttrs(this.attrs, defaults);
 
   loginSchema = Yup.object().shape({
-    name: Yup.string().required(),
+    email: Yup.string().required(),
     password: Yup.string().required(),
   });
 
@@ -43,7 +44,7 @@ export class UserModel extends DrupalUserModel {
   });
 
   resetSchema = Yup.object().shape({
-    name: Yup.string().required(),
+    email: Yup.string().required(),
   });
 
   resetSchemaBackend = Yup.object().shape({
