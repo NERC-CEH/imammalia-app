@@ -4,6 +4,7 @@ import { NavContext } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { Page, Header, device, useAlert, useLoader, useToast } from '@flumens';
 import Main from './Main';
+import './styles.scss';
 
 export type Details = {
   password: string;
