@@ -1,64 +1,52 @@
-ion-slides#welcome {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: white;
+#welcome {
+  .swiper {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
 
-  --bullet-background-active: white;
+    --bullet-background-active: white;
 
-  ion-button {
-    position: absolute;
-    bottom: 7%;
+    ion-button {
+      position: absolute;
+      bottom: 7%;
 
-    &.skip {
-      left: 9%;
-    }
-    &.next {
-      right: 9%;
-    }
-  }
-
-  .message {
-    position: absolute;
-    width: 70%;
-    padding-left: 10px;
-
-    // Hack around the tablet hidden message issue
-    @media only screen and (min-width: 650px) {
-      margin-left: -325px !important;
-      left: 50% !important;
-    }
-  }
-
-  .message p,
-  .message h2 {
-    padding: 10px;
-    color: whitesmoke;
-    background-color: var(--ion-color-primary-tint);
-  }
-
-  .swiper-pagination-bullets {
-    bottom: 3%;
-
-    .swiper-pagination-bullet {
-      background: black;
+      &.skip {
+        left: 9%;
+      }
+      &.next {
+        right: 9%;
+      }
     }
 
-    .swiper-pagination-bullet-active {
-      background: var(--ion-color-primary);
+    .message {
+      position: absolute;
+      width: 70%;
+      padding-left: 10px;
+
+      // Hack around the tablet hidden message issue
+      @media only screen and (min-width: 650px) {
+        margin-left: -325px !important;
+        left: 50% !important;
+      }
     }
-  }
 
-  .message p {
-    font-size: 0.9em;
-  }
+    .message p,
+    .message h2 {
+      padding: 10px;
+      color: whitesmoke;
+      background-color: var(--ion-color-primary-tint);
+    }
 
-  $bottom: 16vh;
+    .message p {
+      font-size: 0.9em;
+    }
 
-  ion-slide {
-    &.first {
+    $bottom: 16vh;
+
+    .first {
       background: url('images/welcome_1.jpg') no-repeat;
       background-position: left;
       background-size: cover;
@@ -70,14 +58,26 @@ ion-slides#welcome {
       }
     }
 
-    &.fourth {
-      background: url('images/welcome_2.jpg') no-repeat;
+    .fourth {
       background-position: left;
       background-size: cover;
       .message {
         text-align: left;
         right: 10vw;
         top: 1vh;
+      }
+    }
+
+    .swiper-pagination-bullets {
+      bottom: 2%;
+
+      .swiper-pagination-bullet {
+        opacity: 1;
+      }
+
+      .swiper-pagination-bullet-active {
+        opacity: 0.8;
+        background: var(--ion-color-primary);
       }
     }
   }
