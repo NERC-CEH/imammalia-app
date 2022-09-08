@@ -6,6 +6,11 @@ import { isPlatform } from '@ionic/react';
 // const indiciaUrl =
 //   process.env.APP_BACKEND_INDICIA_URL || 'https://warehouse1.indicia.org.uk';
 
+// const backendUrl =
+//   process.env.APP_BACKEND_URL || 'https://european-mammals.brc.ac.uk/';
+
+const backendUrl = 'https://european-mammals.brc.ac.uk/';
+
 const config = {
   environment: 'process.env.NODE_ENV as string',
   version: 'process.env.APP_VERSION as string',
@@ -20,7 +25,7 @@ const config = {
   },
 
   backend: {
-    url: '',
+    url: backendUrl,
     websiteId: -1,
     clientId: 'process.env.APP_BACKEND_CLIENT_ID as string',
     clientPass: 'process.env.APP_BACKEND_CLIENT_PASS as string',

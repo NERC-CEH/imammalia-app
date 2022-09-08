@@ -2,15 +2,19 @@
 import 'core-js/features/map';
 import 'core-js/features/set';
 
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { setupIonicReact } from '@ionic/react';
 // import config from 'config';
+import { configure as mobxConfig } from 'mobx';
 import appModel from 'app_model';
 import userModel from 'models/user';
 import savedSamples from 'saved_samples';
 // import { initAnalytics } from '@apps';
 import App from './App';
+
+import '@ionic/core/css/core.css';
+import '@ionic/core/css/ionic.bundle.css';
+import './common/theme.scss';
 
 // START Android back button disable
 function disableBackButton() {
@@ -27,6 +31,8 @@ setupIonicReact({
   hardwareBackButton: false,
 });
 // END Android back button disable
+
+mobxConfig({ enforceActions: 'never' });
 
 async function init() {
   await appModel._init;
