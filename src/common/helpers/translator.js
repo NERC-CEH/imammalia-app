@@ -1,7 +1,10 @@
 /* eslint-disable camelcase */
-import i18n from 'i18next';
-import appModel from 'app_model';
+import appModel from 'models/app';
 import { isPlatform } from '@ionic/react';
+import i18n from 'i18next';
+import { observe } from 'mobx';
+import { initReactI18next } from 'react-i18next';
+
 import en from '../translations/en.pot';
 import de_DE from '../translations/de_DE.po';
 import es_ES from '../translations/es_ES.po';
@@ -123,26 +126,61 @@ export const countries = {
   ELSEWHERE: 'Elsewhere',
 };
 
-function translate(key, isSpeciesDescription, isSpeciesName) {
-  if (isSpeciesName) {
-    return i18n.t(key, {
-      ns: 'names',
-      lngs: [i18n.language], // don't revert to english if no local species name
-      defaultValue: '', // don't return anything if no local species name
-    });
-  }
+function translate(key = 'LT', lang) {
+  const language = 'lt_LT';
 
-  if (isSpeciesDescription) {
-    // revert to English descriptions
-    let translation = i18n.t(key, { ns: 'species' });
-    if (!translation) {
-      translation = i18n.t(key, { ns: 'species', lng: 'en' });
+  console.log(language);
+
+  const translation = dictionary[language][key];
+  if (!translation) {
+    window.dic = window.dic || [];
+    if (!window.dic.includes(key)) {
+      window.dic.push(key);
+      console.log(`!new: ${key}`); // todo: remove
+      // all='';dic.forEach(word => {all+=`\nmsgid "${word}"\nmsgstr "${word}"\n`})
     }
-    return translation !== key ? translation : null;
+    return key;
   }
 
-  return i18n.t(key);
+  if (!translation) {
+    return key;
+  }
+
+  return translation[1];
 }
+
+i18n
+  .use(initReactI18next) // passes i18n down to react-i18next
+  .init({
+    defaultNS: 'interface',
+    lt_LT,
+    lng: 'lt-LT',
+    fallbackLng: 'lt',
+
+    keySeparator: false, // we do not use keys in form messages.welcome
+    nsSeparator: false, // no namespace use in keys
+
+    interpolation: {
+      escapeValue: false, // react already safes from xss
+    },
+
+    saveMissing: true,
+    // missingKeyHandler: (_, ns, key) => {
+    //   if (ns === 'interface') {
+    //     saveMissingKey(key);
+    //   }
+    // },
+  });
+
+const newValueWrap = ({ newValue }) => {
+  if (!newValue) {
+    return;
+  }
+
+  const newLanguageCode = newValue.replace('_', '-'); // backwards compatible
+  i18n.changeLanguage(newLanguageCode);
+};
+observe(appModel.attrs, 'language', newValueWrap);
 
 // import species from 'common/data/species.data.json';
 

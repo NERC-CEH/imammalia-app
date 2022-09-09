@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route } from 'react-router-dom';
 import {
   IonTabs,
@@ -22,6 +21,7 @@ const Records = () => <UserRecords savedSamples={savedSamples} />;
 const SpeciesWrap = () => (
   <Species appModel={appModel} savedSamples={savedSamples} />
 );
+
 const HomeComponent = () => (
   <IonTabs>
     <IonRouterOutlet>
