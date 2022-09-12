@@ -62,9 +62,7 @@ const HomeMain: FC<Props> = ({ sample }) => {
   };
 
   const getBoarSpecificAttributes = () => {
-    const { sample } = this.props;
-    const occ = sample.occurrences.at(0);
-    const { gender, age, decomposition, taxon } = occ.attributes;
+    const { taxon } = occ.attr;
 
     const WILD_BOAR = 'Sus scrofa';
     if (!taxon || taxon.taxon !== WILD_BOAR) {
