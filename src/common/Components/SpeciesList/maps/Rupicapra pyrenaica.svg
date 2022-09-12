@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+    <g id="datapoints" style="pointer-events:all" >
+      <use id="29TPG1" x="21940.79" y="43540.86" xlink:href="#post70_1"/>
+      <use id="29TPH3" x="22745.4" y="42766.41" xlink:href="#post70_1"/>
+      <use id="29TPH4" x="22578.69" y="43236.93" xlink:href="#post70_1"/>
+      <use id="29TQH1" x="23188.37" y="42923.22" xlink:href="#post70_1"/>
+      <use id="29TQH2" x="23030.44" y="43396.73" xlink:href="#post70_1"/>
+      <use id="30TTN3" x="23608.73" y="43054.97" xlink:href="#post70_1"/>
+      <use id="30TUN1" x="24061.95" y="43179.06" xlink:href="#post70_1"/>
+      <use id="30TUN2" x="23930.27" y="43660.56" xlink:href="#post70_1"/>
+      <use id="30TUN3" x="24543.37" y="43310.46" xlink:href="#post70_1"/>
+      <use id="30TUN4" x="24412.06" y="43792.14" xlink:href="#post70_1"/>
+      <use id="30TWN3" x="26470.47" y="43832.42" xlink:href="#post70_1"/>
+      <use id="30TXN3" x="27434.5" y="44091.1" xlink:href="#post70_1"/>
+      <use id="30TXN4" x="27305.55" y="44573.34" xlink:href="#post70_1"/>
+      <use id="30TYN1" x="27888.49" y="44212.35" xlink:href="#post70_1"/>
+      <use id="30TYN2" x="27768.54" y="44696.88" xlink:href="#post70_1"/>
+      <use id="31TBH3" x="28317.95" y="44310.42" xlink:href="#post70_1"/>
+      <use id="31TBH4" x="28215.7" y="44798.99" xlink:href="#post70_1"/>
+      <use id="31TCG1" x="28593.1" y="45379.46" xlink:href="#post70_1"/>
+      <use id="31TCG3" x="29084.2" y="45472.66" xlink:href="#post70_1"/>
+      <use id="31TCG4" x="28991.12" y="45964.05" xlink:href="#post70_1"/>
+      <use id="31TCH1" x="28779.58" y="44398.24" xlink:href="#post70_1"/>
+      <use id="31TCH2" x="28686.42" y="44888.65" xlink:href="#post70_1"/>
+      <use id="31TCH4" x="29177.11" y="44981.69" xlink:href="#post70_1"/>
+      <use id="31TDG1" x="29575.45" y="45565.44" xlink:href="#post70_1"/>
+      <use id="31TDG3" x="30066.82" y="45657.79" xlink:href="#post70_1"/>
+      <use id="31TDH2" x="29667.95" y="45074.34" xlink:href="#post70_1"/>
+      <use id="31TDH4" x="30158.91" y="45166.58" xlink:href="#post70_1"/>
+      <use id="33TUG4" x="38885.81" y="47212.44" xlink:href="#post70_1"/>
+      <use id="33TUH4" x="38914.44" y="46213.04" xlink:href="#post70_1"/>
+      <use id="33TVG1" x="39399.91" y="46726.62" xlink:href="#post70_1"/>
+      <use id="33TVG2" x="39386.01" y="47226.61" xlink:href="#post70_1"/>
+    </g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

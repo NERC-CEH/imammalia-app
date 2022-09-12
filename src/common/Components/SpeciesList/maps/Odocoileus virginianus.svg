@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+    <g id="datapoints" style="pointer-events:all" >
+      <use id="33TXH1" x="41423.4" y="45779.89" xlink:href="#post70_1"/>
+      <use id="33UUQ3" x="39119.12" y="38755.01" xlink:href="#post70_1"/>
+      <use id="33UVQ1" x="39615.39" y="38768.09" xlink:href="#post70_1"/>
+      <use id="33UVR2" x="39628.45" y="38271.78" xlink:href="#post70_1"/>
+      <use id="33UVR4" x="40124.8" y="38284.85" xlink:href="#post70_1"/>
+      <use id="33UWR1" x="40634.31" y="37801.58" xlink:href="#post70_1"/>
+      <use id="33UXQ2" x="41587.5" y="39316.79" xlink:href="#post70_1"/>
+      <use id="33UXQ4" x="42083.69" y="39329.85" xlink:href="#post70_1"/>
+      <use id="34TCR4" x="43672.75" y="43260.76" xlink:href="#post70_1"/>
+      <use id="34VEM1" x="44298.37" y="26737.18" xlink:href="#post70_1"/>
+      <use id="34VEM3" x="44804.39" y="26711.3" xlink:href="#post70_1"/>
+      <use id="34VEN1" x="44245.7" y="25723.31" xlink:href="#post70_1"/>
+      <use id="34VEN2" x="44272.05" y="26230.71" xlink:href="#post70_1"/>
+      <use id="34VEN3" x="44753.59" y="25697.43" xlink:href="#post70_1"/>
+      <use id="34VEN4" x="44778.98" y="26204.84" xlink:href="#post70_1"/>
+      <use id="34VEP1" x="44192.92" y="24705.53" xlink:href="#post70_1"/>
+      <use id="34VEP2" x="44219.32" y="25214.93" xlink:href="#post70_1"/>
+      <use id="34VEP3" x="44702.86" y="24679.64" xlink:href="#post70_1"/>
+      <use id="34VEP4" x="44728.22" y="25189.06" xlink:href="#post70_1"/>
+      <use id="34VEQ1" x="44140.01" y="23683.44" xlink:href="#post70_1"/>
+      <use id="34VEQ2" x="44166.48" y="24195.05" xlink:href="#post70_1"/>
+      <use id="34VEQ3" x="44652.21" y="23657.54" xlink:href="#post70_1"/>
+      <use id="34VEQ4" x="44677.52" y="24169.16" xlink:href="#post70_1"/>
+      <use id="34VER2" x="44113.5" y="23170.66" xlink:href="#post70_1"/>
+      <use id="34VER3" x="44601.61" y="22630.72" xlink:href="#post70_1"/>
+      <use id="34VER4" x="44626.9" y="23144.74" xlink:href="#post70_1"/>
+      <use id="34VFM1" x="45310.4" y="26686.34" xlink:href="#post70_1"/>
+      <use id="34VFM2" x="45334.97" y="27191.87" xlink:href="#post70_1"/>
+      <use id="34VFN1" x="45321.53" y="25669.67" xlink:href="#post70_1"/>
+      <use id="34VFN2" x="45357.45" y="26176.46" xlink:href="#post70_1"/>
+      <use id="34VFP1" x="45249.62" y="24653.08" xlink:href="#post70_1"/>
+      <use id="34VFP2" x="45285.59" y="25161.88" xlink:href="#post70_1"/>
+      <use id="34VFQ1" x="45177.58" y="23632.19" xlink:href="#post70_1"/>
+      <use id="34VFQ2" x="45213.61" y="24143.2" xlink:href="#post70_1"/>
+      <use id="34VFR1" x="45105.4" y="22606.58" xlink:href="#post70_1"/>
+      <use id="34VFR2" x="45141.52" y="23120" xlink:href="#post70_1"/>
+      <use id="34WFS2" x="45069.27" y="22091.89" xlink:href="#post70_1"/>
+      <use id="34WFU1" x="44887.91" y="19497.07" xlink:href="#post70_1"/>
+      <use id="35VLG3" x="46144.7" y="26608.99" xlink:href="#post70_1"/>
+      <use id="35VLH3" x="45946.86" y="25611.7" xlink:href="#post70_1"/>
+      <use id="35VLH4" x="46004.72" y="26116.46" xlink:href="#post70_1"/>
+      <use id="35VLJ3" x="45830.67" y="24599.22" xlink:href="#post70_1"/>
+      <use id="35VLJ4" x="45888.85" y="25105.96" xlink:href="#post70_1"/>
+      <use id="35VLK3" x="45713.82" y="23582.48" xlink:href="#post70_1"/>
+      <use id="35VLK4" x="45772.33" y="24091.4" xlink:href="#post70_1"/>
+      <use id="35VMG1" x="46646.67" y="26540.52" xlink:href="#post70_1"/>
+      <use id="35VMG3" x="47148.82" y="26472.93" xlink:href="#post70_1"/>
+      <use id="35VMH1" x="46510.23" y="25534.58" xlink:href="#post70_1"/>
+      <use id="35VMH2" x="46578.55" y="26038.02" xlink:href="#post70_1"/>
+      <use id="35VMH3" x="47014.22" y="25466.65" xlink:href="#post70_1"/>
+      <use id="35VMH4" x="47081.59" y="25970.25" xlink:href="#post70_1"/>
+      <use id="35VMJ1" x="46372.99" y="24524.81" xlink:href="#post70_1"/>
+      <use id="35VMJ2" x="46441.72" y="25030.21" xlink:href="#post70_1"/>
+      <use id="35VMJ3" x="46879.01" y="24456.52" xlink:href="#post70_1"/>
+      <use id="35VMJ4" x="46946.69" y="24962.09" xlink:href="#post70_1"/>
+      <use id="35VMK1" x="46234.9" y="23510.82" xlink:href="#post70_1"/>
+      <use id="35VMK2" x="46304.06" y="24018.37" xlink:href="#post70_1"/>
+      <use id="35VMK3" x="46743.13" y="23442.12" xlink:href="#post70_1"/>
+      <use id="35VMK4" x="46811.15" y="23949.88" xlink:href="#post70_1"/>
+      <use id="35VML2" x="46165.51" y="23002.11" xlink:href="#post70_1"/>
+      <use id="35VML4" x="46674.92" y="22933.21" xlink:href="#post70_1"/>
+      <use id="35VNH1" x="47518.36" y="25399.69" xlink:href="#post70_1"/>
+      <use id="35VNJ1" x="47385.19" y="24389.28" xlink:href="#post70_1"/>
+      <use id="35VNJ2" x="47451.83" y="24894.99" xlink:href="#post70_1"/>
+      <use id="35VNJ4" x="47957.08" y="24828.93" xlink:href="#post70_1"/>
+      <use id="35VNK1" x="47251.54" y="23374.59" xlink:href="#post70_1"/>
+      <use id="35VNK2" x="47318.43" y="23882.5" xlink:href="#post70_1"/>
+      <use id="35VNK3" x="47760.08" y="23308.23" xlink:href="#post70_1"/>
+      <use id="35VNK4" x="47825.82" y="23816.24" xlink:href="#post70_1"/>
+      <use id="35VNL1" x="47117.38" y="22355.22" xlink:href="#post70_1"/>
+      <use id="35VNL4" x="47694.26" y="22799.04" xlink:href="#post70_1"/>
+      <use id="35WLM3" x="45477.83" y="21534.61" xlink:href="#post70_1"/>
+      <use id="35WMM4" x="46537.94" y="21911.67" xlink:href="#post70_1"/>
+    </g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

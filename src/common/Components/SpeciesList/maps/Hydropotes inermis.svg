@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '30UXC1' x = '29542.91' y = '34363.98' xlink:href = "#post70_1" />
+<use id = '30UXC3' x = '30049.04' y = '34501.54' xlink:href = "#post70_1" />
+<use id = '30UXC4' x = '29928.56' y = '34983.68' xlink:href = "#post70_1" />
+<use id = '30UXD4' x = '30169.62' y = '34019.21' xlink:href = "#post70_1" />
+<use id = '31TCL3' x = '29823.74' y = '41554.56' xlink:href = "#post70_1" />
+<use id = '31UCT1' x = '30586.61' y = '34624.29' xlink:href = "#post70_1" />
+<use id = '31UCT3' x = '31102.28' y = '34720.05' xlink:href = "#post70_1" />
+<use id = '31UCU2' x = '30687.34' y = '34137.42' xlink:href = "#post70_1" />
+<use id = '31UCU3' x = '31283.94' y = '33742.2' xlink:href = "#post70_1" />
+<use id = '31UCU4' x = '31193.13' y = '34231.25' xlink:href = "#post70_1" />
+<use id = '31UDT1' x = '31590.99' y = '34811.03' xlink:href = "#post70_1" />
+<use id = '31UDU2' x = '31682.08' y = '34322.2' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

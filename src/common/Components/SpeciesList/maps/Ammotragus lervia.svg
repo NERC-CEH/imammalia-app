@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+    <g id="datapoints" style="pointer-events:all" >
+      <use id="28RBS1" x="7288.96" y="54060.87" xlink:href="#post70_1"/>
+      <use id="30SXG1" x="25395.81" y="49782.33" xlink:href="#post70_1"/>
+      <use id="30SYH1" x="26686.1" y="49079.67" xlink:href="#post70_1"/>
+      <use id="33UUR4" x="39132.15" y="38258.76" xlink:href="#post70_1"/>
+    </g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

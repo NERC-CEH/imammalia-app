@@ -1,0 +1,1370 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: temp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: POEditor.com\n"
+
+msgid "Select your country"
+msgstr "Select your country"
+
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Belarus"
+msgstr "Belarus"
+
+msgid "Belgium"
+msgstr "Belgium"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Czechia"
+msgstr "Czechia"
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Finland"
+msgstr "Finland"
+
+msgid "France"
+msgstr "France"
+
+msgid "Greece"
+msgstr "Greece"
+
+msgid "Hungary"
+msgstr "Hungary"
+
+msgid "Iceland"
+msgstr "Iceland"
+
+msgid "Ireland"
+msgstr "Ireland"
+
+msgid "Italy"
+msgstr "Italy"
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
+msgid "Latvia"
+msgstr "Latvia"
+
+msgid "Lithuania"
+msgstr "Lithuania"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Moldova"
+msgstr "Moldova"
+
+msgid "Netherlands"
+msgstr "Netherlands"
+
+msgid "Norway"
+msgstr "Norway"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Romania"
+msgstr "Romania"
+
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgid "Sweden"
+msgstr "Sweden"
+
+msgid "Switzerland"
+msgstr "Switzerland"
+
+msgid "Turkey"
+msgstr "Turkey"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "Skip"
+msgstr "Skip"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Get Started"
+msgstr "Get Started"
+
+msgid "Please sign in with your account or register."
+msgstr "Please sign in with your account or register."
+
+msgid "Username or email"
+msgstr "Username or email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "About"
+msgstr "About"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+msgid "Credits"
+msgstr "Credits"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "First Name"
+msgstr "First Name"
+
+msgid "Surname"
+msgstr "Surname"
+
+msgid "I agree to"
+msgstr "I agree to"
+
+msgid "Terms and Conditions"
+msgstr "Terms and Conditions"
+
+msgid "Enter your username or email address to request a password reset"
+msgstr "Enter your username or email address to request a password reset"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr "Are you sure you want to reset the application to its initial state?"
+
+msgid "This will wipe all the locally stored app data!"
+msgstr "This will wipe all the locally stored app data!"
+
+msgid "Upload All"
+msgstr "Upload All"
+
+msgid "Remove All Saved"
+msgstr "Remove All Saved"
+
+msgid "Application"
+msgstr "Application"
+
+msgid "Training Mode"
+msgstr "Training Mode"
+
+msgid "Experimental Features"
+msgstr "Experimental Features"
+
+msgid "Welcome"
+msgstr "Welcome"
+
+msgid "Lets start!"
+msgstr "Lets start!"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "App"
+msgstr "App"
+
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+"We are very grateful for all the people that helped to create this app:"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Sorry, looks like you're offline."
+msgstr "Sorry, looks like you're offline."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Sorry"
+msgstr "Sorry"
+
+msgid "Please wait..."
+msgstr "Please wait..."
+
+msgid "name is a required field"
+msgstr "name is a required field"
+
+msgid "password is a required field"
+msgstr "password is a required field"
+
+msgid "Login error:"
+msgstr "Login error:"
+
+msgid "Failed to fetch"
+msgstr "Failed to fetch"
+
+msgid "Incorrect password or email."
+msgstr "Incorrect password or email."
+
+msgid "Account already exists."
+msgstr "Account already exists."
+
+# Some server error.
+msgid "Invalid backend response."
+msgstr "Invalid backend response."
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Are you sure you want to logout?"
+msgstr "Are you sure you want to logout?"
+
+msgid "This will delete all the records on this device."
+msgstr "This will delete all the records on this device."
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Welcome aboard!"
+msgstr "Welcome aboard!"
+
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+
+msgid "OK, got it"
+msgstr "OK, got it"
+
+msgid "email is a required field"
+msgstr "email is a required field"
+
+msgid "firstname is a required field"
+msgstr "firstname is a required field"
+
+msgid "secondname is a required field"
+msgstr "secondname is a required field"
+
+msgid "must accept terms and conditions"
+msgstr "must accept terms and conditions"
+
+msgid "Species"
+msgstr "Species"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Comment"
+msgstr "Comment"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Previous record draft exists, would you like to continue it?"
+msgstr "Previous record draft exists, would you like to continue it?"
+
+msgid "Discard"
+msgstr "Discard"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Finish"
+msgstr "Finish"
+
+msgid "No species added"
+msgstr "No species added"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Records"
+msgstr "Records"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Are you sure you want to delete this record?"
+
+msgid "No finished records"
+msgstr "No finished records"
+
+msgid "Finished records"
+msgstr "Finished records"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "Record incomplete"
+msgstr "Record incomplete"
+
+msgid "The record is not complete yet."
+msgstr "The record is not complete yet."
+
+msgid "Choose a method to upload a photo"
+msgstr "Choose a method to upload a photo"
+
+msgid "Gallery"
+msgstr "Gallery"
+
+msgid "Camera"
+msgstr "Camera"
+
+msgid "Are you sure you want to remove this photo from the record?"
+msgstr "Are you sure you want to remove this photo from the record?"
+
+msgid "Note: it will remain in the gallery."
+msgstr "Note: it will remain in the gallery."
+
+msgid "No photo has been added"
+msgstr "No photo has been added"
+
+msgid "Registration error:"
+msgstr "Registration error:"
+
+msgid "Incorrect password or email"
+msgstr "Incorrect password or email"
+
+msgid "email is not valid"
+msgstr "email is not valid"
+
+msgid "Paused"
+msgstr "Paused"
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "Uploaded"
+msgstr "Uploaded"
+
+msgid "No finished pending records"
+msgstr "No finished pending records"
+
+msgid "No uploaded records"
+msgstr "No uploaded records"
+
+msgid "How to start a record"
+msgstr "How to start a record"
+
+msgid "To start a new record you can press the plus button"
+msgstr "To start a new record you can press the plus button"
+
+msgid "in the home page footer."
+msgstr "in the home page footer."
+
+msgid ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+msgstr ""
+"When finished, set for submission by pressing the Finish button in the "
+"header."
+
+msgid "Sync. with the website"
+msgstr "Sync. with the website"
+
+msgid "All your saved records will be shown on your account page."
+msgstr "All your saved records will be shown on your account page."
+
+msgid ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+msgstr ""
+"By default a record is in a 'draft' mode which will not be sent to the "
+"database until the 'Finish' button in the header is clicked. The application"
+" will try to submit your record once there is a good network connection."
+
+msgid "If the record has reached the database a red"
+msgstr "If the record has reached the database a red"
+
+msgid "(set for submission & saved locally) will become green"
+msgstr "(set for submission & saved locally) will become green"
+
+msgid "synced to the database"
+msgstr "synced to the database"
+
+msgid "Note"
+msgstr "Note"
+
+msgid ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+msgstr ""
+"you have to be signed in to your website account and have a network "
+"connection, for the records to be automatically synchronised in the "
+"background"
+
+msgid "Delete a record"
+msgstr "Delete a record"
+
+msgid ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+msgstr ""
+"To delete a record, swipe it left in your account page and click the delete "
+"button."
+
+msgid "User"
+msgstr "User"
+
+msgid "Sign in/out or register"
+msgstr "Sign in/out or register"
+
+msgid ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+msgstr ""
+"To login, open the main menu page click Login or Register buttons and follow"
+" the instructions."
+
+msgid "To logout, visit the main menu page and click the logout button."
+msgstr "To logout, visit the main menu page and click the logout button."
+
+msgid ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+msgstr ""
+"after registering a new account you must verify your email address by "
+"clicking on a verification link sent to your email"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Reset the application"
+msgstr "Reset the application"
+
+msgid "Go to the application settings page"
+msgstr "Go to the application settings page"
+
+msgid "and click on the Reset"
+msgstr "and click on the Reset"
+
+msgid "button"
+msgstr "button"
+
+msgid "Record"
+msgstr "Record"
+
+msgid "Location"
+msgstr "Location"
+
+msgid "Northern white-breasted hedgehog"
+msgstr "Northern white-breasted hedgehog"
+
+msgid "Southern white-breasted hedgehog"
+msgstr "Southern white-breasted hedgehog"
+
+msgid "Apennine hare"
+msgstr "Apennine hare"
+
+msgid "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
+msgstr "Relatively small with a white face, brown legs and a white or brown underbelly, highly visible, large ears and lack of spines on the crown of the head"
+
+msgid "Largest species of hedgehog and mostly brown in colour"
+msgstr "Largest species of hedgehog and mostly brown in colour"
+
+msgid "Similar to Western hedgehog but identifiable by a white spot on its chest"
+msgstr "Similar to Western hedgehog but identifiable by a white spot on its chest"
+
+msgid "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs"
+msgstr "Relatively small with grey-brown coat, a brown chest patch and white-grey underbelly, lacks black ear-tips and has proportionately shorter legs"
+
+msgid "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips"
+msgstr "Brown and black back and white underbelly, black tail with white underside, brown-gray ears usually with black tips"
+
+msgid "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips"
+msgstr "Golden-brown back and a pale belly, white tail, relatively longer legs and ears with distinctive black tips"
+
+msgid "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares"
+msgstr "Grey-brown coat in summer, white coat in winter, black-tipped ears, shorter ears than other hares"
+
+msgid "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail"
+msgstr "Brown or grey-brown back and a paler underbelly, black-tipped ears and black upper tail"
+
+msgid "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+msgstr "Red-brown coat and pale underbelly with a bushy tail, large ear tufts"
+
+msgid "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine"
+msgstr "Grey-brown or red-brown back and pale grey underbelly, white stripe running along each side and sometimes another along the spine"
+
+msgid "Relatively small with dark-brown fur, white spots on its back and a short, thin tail"
+msgstr "Relatively small with dark-brown fur, white spots on its back and a short, thin tail"
+
+msgid "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
+msgstr "Brown coat with orange markings on the back and a beige to orange underbelly, white band between muzzle and eyes, small ears, short legs and a bushy brown tail with a black tip"
+
+msgid "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
+msgstr "Chestnut-brown to black-brown coat, thickset with a flattened head, small eyes and ears and a flattened, scaly tail"
+
+msgid "Invasive species: Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+msgstr "Invasive species: Coarse, dark brown outer fur with soft dense grey under fur, distinguished by a white patch on the muzzle, webbed hind feet, and large, bright orange-yellow incisors"
+
+msgid "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+msgstr "Invasive species: Dirty, earth-brown, or brown-grey fur with black guard hairs in winter, and brighter and reddish-straw fur in summer; yellowish-brown abdomen, dark brown or blackish chest, with long, whisker-like hairs on the cheeks."
+
+msgid "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
+msgstr "Often not fully brown, have long, thick fur, with a moderately long mane at the back of the neck"
+
+msgid "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs."
+msgstr "Coat color ranges from almost pure white through various shades of blonde, cream and ochre to greys, browns and blacks, long, dense fur and long, coarse guard hairs."
+
+msgid "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle"
+msgstr "Similar to the grey wolf but is distinguished by its smaller size, more elongated torso, less prominent forehead, shorter legs and tail and a more narrow, pointed muzzle"
+
+msgid "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail"
+msgstr "Orange-red fur with a white underbelly, black tips to the ears, dark brown feet and a white tip to the bushy, orange tail"
+
+msgid "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face"
+msgstr "Grey-brown fur, with a broad snout, and a pale chest and throat, can be distinguished from mink by their much larger size and broader face"
+
+msgid "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
+msgstr "Large and grey, with a short, fluffy tail, black belly and paws, and a black-and-white striped face"
+
+msgid "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+msgstr "Invasive species: Long, coarse grey to red-brown fur with some yellow hairs, pointed snout, small ears, long black tipped tail, and furless hind feet and facial area"
+
+msgid "Invasive species: Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
+msgstr "Invasive species: Small and slender body with pale to dark brown fur, golden flecks and a pale underbelly, short legs and small rounded ears located on the side of its head, bushy tail"
+
+msgid "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
+msgstr "Pale yellow-grey coat with black spots on the sides, a black stripe along the spine and a striped, bushy tail, slender body with a pointed muzzle, large eyes, large ears and whiskers"
+
+msgid "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body"
+msgstr "Larger and stockier than a tabby cat with a fluffier, blunt tail, distinct banding on the tail and body"
+
+msgid "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur"
+msgstr "Red-brown fur in summer and silver-grey thicker fur in winter, white underbelly, spotted pattern, distinctive black hair tufts on its ears, black-tipped tail and a facial ruff of white fur"
+
+msgid "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers."
+msgstr "Yellow to tawny short fur, spotted pattern, short body, long legs, short tail, small head with tufted ears and facial whiskers."
+
+msgid "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine"
+msgstr "Coarse coat that may be dark grey, brown, sandy brown or black, muscular body with heavy-set shoulders, a large head with tusks in both sexes, males have a ridge of hair along the upper spine"
+
+msgid "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
+msgstr "Short golden-brown coat, longer hair along the upper spine, longer tail and long, upward-curving horns"
+
+msgid "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns, with a white tone on anal region, legs and the snout. "
+msgstr "Males are red-brown with a white saddle patch, females are brown, males have helix-shaped backward-curving horns, with a white tone on anal region, legs and the snout. "
+
+msgid "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns"
+msgstr "Brownish grey coat with darker markings on the chin, throat and back; males have large, curved horns"
+
+msgid "Brown coat with short legs and large hooves; males have large, curved horns"
+msgstr "Brown coat with short legs and large hooves; males have large, curved horns"
+
+msgid "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back"
+msgstr "Small size, short and straight horns, brown or grey coat with white markings on the sides of the head and rump, and black stripes below the eyes and along the back"
+
+msgid "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns"
+msgstr "Ruddy brown to black-brown coat, dark patches around the eyes, backward-hooked horns"
+
+msgid "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail"
+msgstr "Reddish-brown to grey coat, may have patches of different colouration on the back, males have antlers, relatively long tail"
+
+msgid "Typically chestnut coat with white markings but may also be fully white or black, males have antlers"
+msgstr "Typically chestnut coat with white markings but may also be fully white or black, males have antlers"
+
+msgid "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin"
+msgstr "Large with dark brown coat, large antlers, hooves and a fold of skin under the chin"
+
+msgid "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs"
+msgstr "Relatively small deer with orange-brown coat, males have antlers with 2-4 prongs"
+
+msgid "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps"
+msgstr "Range of coat colours from mahogany to black (sometimes white) and a spotted coat, males have upright antlers, females have distinctive black bumps"
+
+msgid "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers"
+msgstr "Medium sized deer, golden coat with distinctive white spots and a white underbelly, conspicuous black stripe along the spine, males have three-pronged antlers"
+
+msgid "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
+msgstr "Reddish-brown to grey-brown coat, characteristic white underside to the tail, males have antlers with a variable number of prongs"
+
+msgid "Invasive species: Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+msgstr "Invasive species: Grey-brown and white coat with long fur and a bushy, striped tail, characteristic black markings around the eyes contrasted by white face"
+
+msgid "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
+msgstr "Sandy brown coat with a lighter underbelly and a darker line along the back, shaggy hair on the throat and smooth, backwards-curving horns"
+
+msgid "Relatively small with brown fur with no obvious spots, and a short bushy tail"
+msgstr "Relatively small with brown fur with no obvious spots, and a short bushy tail"
+
+msgid "A small upright kangaroo, brownish grey with a chesnut patch on the neck and upper arms."
+msgstr "A small upright kangaroo, brownish grey with a chesnut patch on the neck and upper arms."
+
+msgid "A small hedgehog with pale face and long ears."
+msgstr "A small hedgehog with pale face and long ears."
+
+msgid "Introduced to Northern Italy. Very similar to European rabbit but more compact with shorter ears."
+msgstr "Introduced to Northern Italy. Very similar to European rabbit but more compact with shorter ears."
+
+msgid "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
+msgstr "Paler than the brown hare, with very small black tips to the ears. Restricted to Sardinia."
+
+msgid "Similar to but slightly smaller than the brown hare, with relatively longer ears and hindlegs."
+msgstr "Similar to but slightly smaller than the brown hare, with relatively longer ears and hindlegs."
+
+msgid "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
+msgstr "Grey on top, with reddish sides. Tail shorter than body and no ear tufts in winter."
+
+msgid "Invasive species: Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+msgstr "Invasive species: Silver/grey coat with brownish tinge on feet and face. Tail fringed with white. Larger than red squirrel."
+
+msgid "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
+msgstr "The dorsal part of the body, head, neck, feet and tail are black; the abdomen is white. Ear tufts only in winter. No sexual dimorphism. Larger than Italian populations of red squirrel."
+
+msgid "Invasive species: Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+msgstr "Invasive species: Similar in size to red squirrel, back is olive-brown and belly russet. White tip to the tail."
+
+msgid "Invasive species: Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+msgstr "Invasive species: Similar in size to red squirrel. Longer tail. Back is olive-brown and underside cream, extending onto face."
+
+msgid "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
+msgstr "Smallest souslik with yellow to brownish fur and no obvious spots. White throat and chest with a short tail."
+
+msgid "A large marmot with overall brownish fur and short tail."
+msgstr "A large marmot with overall brownish fur and short tail."
+
+msgid "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
+msgstr "A small squirrel with rounded head, and membrane between fore and hind legs. Greyish above and lighter below."
+
+msgid "Invasive species: Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+msgstr "Invasive species: Yellow-brown coat with four white stripes and five dark stripes along the back and a white chest and belly"
+
+msgid "Very similar to European beaver, with flattened scaly tail, but darker fur."
+msgstr "Very similar to European beaver, with flattened scaly tail, but darker fur."
+
+msgid "A porcupine with typical black and white quills that run along the body"
+msgstr "A porcupine with typical black and white quills that run along the body"
+
+msgid "Elongated shilhouette, small ears and white to yellowish fur."
+msgstr "Elongated shilhouette, small ears and white to yellowish fur."
+
+msgid "Small fox with short ears. White in winter and in summer grey on the back and lighter underneath."
+msgstr "Small fox with short ears. White in winter and in summer grey on the back and lighter underneath."
+
+msgid "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger than the similar weasel, has a longer tail and has a distinctive bounding gait, arching its back as it moves"
+msgstr "Orange-brown back, cream throat and belly, and a black-tipped tail. Larger than the similar weasel, has a longer tail and has a distinctive bounding gait, arching its back as it moves"
+
+msgid "Yellow-brown coat with dark limbs and a dark mask across the face contrasted by paler fur"
+msgstr "Yellow-brown coat with dark limbs and a dark mask across the face contrasted by paler fur"
+
+msgid "Dark brown to red-brown coat, elongated body with short limbs and a short tail. Fur is pure white around the mouth"
+msgstr "Dark brown to red-brown coat, elongated body with short limbs and a short tail. Fur is pure white around the mouth"
+
+msgid "Orange-brown back and a cream throat and underbelly, smaller than the similar stoat, shorter tail with no black tip, and a running gait with a straight back"
+msgstr "Orange-brown back and a cream throat and underbelly, smaller than the similar stoat, shorter tail with no black tip, and a running gait with a straight back"
+
+msgid "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
+msgstr "Dark brown colour with a pale underbelly and a dark mask-shape across the pale face"
+
+msgid "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+msgstr "Invasive species: Brown-black fur, a narrow snout, a small, white chin"
+
+msgid "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
+msgstr "Light brown coat with a cream chest and throat extending to top of legs, longer tail, more elongated and angular head with shorter, more rounded and widely spaced ears"
+
+msgid "Chestnut-brown in colour, characteristic pale yellow patch on its chin and throat and a long, bushy tail"
+msgstr "Chestnut-brown in colour, characteristic pale yellow patch on its chin and throat and a long, bushy tail"
+
+msgid "Typical polecat face (dark mask on a pale face), but with large white to yellow spots on its back."
+msgstr "Typical polecat face (dark mask on a pale face), but with large white to yellow spots on its back."
+
+msgid "Resembles a small bear with a tail. Dark brown and stocky."
+msgstr "Resembles a small bear with a tail. Dark brown and stocky."
+
+msgid "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+msgstr "Not a feral goat. This occurs naturally in Crete. Light reddish-brown in summer and greyish brown in winter. Horns curve backward and males have a large black beard."
+
+msgid "A massive bovine with very long hair, and hooked horns."
+msgstr "A massive bovine with very long hair, and hooked horns."
+
+msgid "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
+msgstr "Both sexes grow antlers with two sets of points, one growing forward and one backward. Coat dark brown in summer and lighter in winter."
+
+msgid "Invasive species: A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+msgstr "Invasive species: A small deer with rounded back and head often held low. Simple backward pointing antlers on male."
+
+msgid "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
+msgstr "Small deer with sandy brown coat. Paler in winter. Rump the same colour. No antlers but males have long curved tusks."
+
+msgid "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
+msgstr "Very similar to the Northern white-breasted hedgehog with a white patch underneath of varying dimensions, and slightly larger than E roumanicus"
+
+msgid "Invasive species: the largest vole but smaller than beaver or coypu with a laterally compressed tail."
+msgstr "Invasive species: the largest vole but smaller than beaver or coypu with a laterally compressed tail."
+
+msgid "Muskrat"
+msgstr "Muskrat"
+
+msgid "Algerian hedgehog"
+msgstr "Algerian hedgehog"
+
+msgid "Western hedgehog"
+msgstr "Western hedgehog"
+
+msgid "Eastern hedgehog"
+msgstr "Eastern hedgehog"
+
+msgid "European rabbit"
+msgstr "European rabbit"
+
+msgid "Broom hare"
+msgstr "Broom hare"
+
+msgid "Brown hare"
+msgstr "Brown hare"
+
+msgid "Mountain hare"
+msgstr "Mountain hare"
+
+msgid "Granada hare"
+msgstr "Granada hare"
+
+msgid "Red squirrel"
+msgstr "Red squirrel"
+
+msgid "Barbary ground squirrel"
+msgstr "Barbary ground squirrel"
+
+msgid "Spotted souslik"
+msgstr "Spotted souslik"
+
+msgid "European Souslik"
+msgstr "European Souslik"
+
+msgid "Alpine marmot"
+msgstr "Alpine marmot"
+
+msgid "European beaver"
+msgstr "European beaver"
+
+msgid "Coypu"
+msgstr "Coypu"
+
+msgid "Raccoon dog"
+msgstr "Raccoon dog"
+
+msgid "Brown bear"
+msgstr "Brown bear"
+
+msgid "Grey wolf"
+msgstr "Grey wolf"
+
+msgid "Golden jackal"
+msgstr "Golden jackal"
+
+msgid "Red fox"
+msgstr "Red fox"
+
+msgid "European otter"
+msgstr "European otter"
+
+msgid "Eurasian badger"
+msgstr "Eurasian badger"
+
+msgid "Egyptian mongoose"
+msgstr "Egyptian mongoose"
+
+msgid "Small Indian mongoose"
+msgstr "Small Indian mongoose"
+
+msgid "Common genet"
+msgstr "Common genet"
+
+msgid "Wildcat"
+msgstr "Wildcat"
+
+msgid "Eurasian lynx"
+msgstr "Eurasian lynx"
+
+msgid "Iberian lynx"
+msgstr "Iberian lynx"
+
+msgid "Wild boar"
+msgstr "Wild boar"
+
+msgid "European bison"
+msgstr "European bison"
+
+msgid "European mouflon"
+msgstr "European mouflon"
+
+msgid "Alpine ibex"
+msgstr "Alpine ibex"
+
+msgid "Spanish ibex"
+msgstr "Spanish ibex"
+
+msgid "Chamois, Alpine"
+msgstr "Chamois, Alpine"
+
+msgid "Chamois, southern"
+msgstr "Chamois, southern"
+
+msgid "Red deer"
+msgstr "Red deer"
+
+msgid "Fallow deer"
+msgstr "Fallow deer"
+
+msgid "Elk"
+msgstr "Elk"
+
+msgid "Roe deer"
+msgstr "Roe deer"
+
+msgid "Sika deer"
+msgstr "Sika deer"
+
+msgid "Chital"
+msgstr "Chital"
+
+msgid "White-tailed deer"
+msgstr "White-tailed deer"
+
+msgid "Raccoon"
+msgstr "Raccoon"
+
+msgid "Barbary sheep"
+msgstr "Barbary sheep"
+
+msgid "Red-necked wallaby"
+msgstr "Red-necked wallaby"
+
+msgid "Long-eared hedgehog"
+msgstr "Long-eared hedgehog"
+
+msgid "Eastern cottontail rabbit"
+msgstr "Eastern cottontail rabbit"
+
+msgid "Cape hare"
+msgstr "Cape hare"
+
+msgid "Corsican hare"
+msgstr "Corsican hare"
+
+msgid "Persian squirrel"
+msgstr "Persian squirrel"
+
+msgid "Grey squirrel"
+msgstr "Grey squirrel"
+
+msgid "Calabrian black squirrel"
+msgstr "Calabrian black squirrel"
+
+msgid "Pallas’s squirrel"
+msgstr "Pallas’s squirrel"
+
+msgid "Thailand tree squirrel"
+msgstr "Thailand tree squirrel"
+
+msgid "Little souslik"
+msgstr "Little souslik"
+
+msgid "Bobak marmot"
+msgstr "Bobak marmot"
+
+msgid "Russian flying squirrel"
+msgstr "Russian flying squirrel"
+
+msgid "Siberian chipmunk"
+msgstr "Siberian chipmunk"
+
+msgid "American beaver"
+msgstr "American beaver"
+
+msgid "Crested porcupine"
+msgstr "Crested porcupine"
+
+msgid "Polar bear"
+msgstr "Polar bear"
+
+msgid "Arctic fox"
+msgstr "Arctic fox"
+
+msgid "Stoat"
+msgstr "Stoat"
+
+msgid "Steppe polecat"
+msgstr "Steppe polecat"
+
+msgid "European mink"
+msgstr "European mink"
+
+msgid "Weasel"
+msgstr "Weasel"
+
+msgid "Western polecat"
+msgstr "Western polecat"
+
+msgid "American mink"
+msgstr "American mink"
+
+msgid "Beech marten, Stone marten"
+msgstr "Beech marten, Stone marten"
+
+msgid "Pine marten"
+msgstr "Pine marten"
+
+msgid "Marbled polecat"
+msgstr "Marbled polecat"
+
+msgid "Wolverine"
+msgstr "Wolverine"
+
+msgid "Wild goat"
+msgstr "Wild goat"
+
+msgid "Musk ox"
+msgstr "Musk ox"
+
+msgid "Reindeer"
+msgstr "Reindeer"
+
+msgid "Reeves’ muntjac"
+msgstr "Reeves’ muntjac"
+
+msgid "Chinese water deer"
+msgstr "Chinese water deer"
+
+msgid "Germany"
+msgstr "Germany"
+
+msgid "Spain"
+msgstr "Spain"
+
+msgid "Croatia"
+msgstr "Croatia"
+
+msgid "Poland"
+msgstr "Poland"
+
+msgid "North Macedonia"
+msgstr "North Macedonia"
+
+msgid "Serbia"
+msgstr "Serbia"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Elsewhere"
+msgstr "Elsewhere"
+
+msgid "river"
+msgstr "river"
+
+msgid "forest"
+msgstr "forest"
+
+msgid "shrubs"
+msgstr "shrubs"
+
+msgid "prairies"
+msgstr "prairies"
+
+msgid "farmlands"
+msgstr "farmlands"
+
+msgid "alpine"
+msgstr "alpine"
+
+msgid "aquatic"
+msgstr "aquatic"
+
+msgid "underground"
+msgstr "underground"
+
+msgid "tree"
+msgstr "tree"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Habitats"
+msgstr "Habitats"
+
+msgid "Mouse-rat"
+msgstr "Mouse-rat"
+
+msgid "Hedgehog-squirrel"
+msgstr "Hedgehog-squirrel"
+
+msgid "Rabbit-hare"
+msgstr "Rabbit-hare"
+
+msgid "Cats-medium size canivorous"
+msgstr "Cats-medium size canivorous"
+
+msgid "Dog-Wildboar"
+msgstr "Dog-Wildboar"
+
+msgid "Goat-Deers"
+msgstr "Goat-Deers"
+
+msgid "Cow-Bison"
+msgstr "Cow-Bison"
+
+msgid "Filter species size"
+msgstr "Filter species size"
+
+msgid "undefined"
+msgstr "undefined"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Today"
+msgstr "Today"
+
+msgid "Number"
+msgstr "Number"
+
+msgid "Method"
+msgstr "Method"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Select species"
+msgstr "Select species"
+
+msgid "Please use the GPS or tap on the map to select your location"
+msgstr "Please use the GPS or tap on the map to select your location"
+
+msgid "Location Accuracy"
+msgstr "Location Accuracy"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "How many individuals of this type?"
+msgstr "How many individuals of this type?"
+
+msgid "Direct observation"
+msgstr "Direct observation"
+
+msgid "Camera trap"
+msgstr "Camera trap"
+
+msgid "Catch"
+msgstr "Catch"
+
+msgid "Road kill"
+msgstr "Road kill"
+
+msgid "Field carcass"
+msgstr "Field carcass"
+
+msgid "Telemetry"
+msgstr "Telemetry"
+
+msgid "Other (specify in Comment)"
+msgstr "Other (specify in Comment)"
+
+msgid "Please specify how has this mammal been observed."
+msgstr "Please specify how has this mammal been observed."
+
+msgid "Alive"
+msgstr "Alive"
+
+msgid "Dead - roadkill"
+msgstr "Dead - roadkill"
+
+msgid "Dead - other"
+msgstr "Dead - other"
+
+msgid "Indirect"
+msgstr "Indirect"
+
+msgid "Print/trail"
+msgstr "Print/trail"
+
+msgid "Dropping"
+msgstr "Dropping"
+
+msgid "Den/burrow"
+msgstr "Den/burrow"
+
+msgid "Please specify the condition of the mammal."
+msgstr "Please specify the condition of the mammal."
+
+msgid "Please add any extra info about this record."
+msgstr "Please add any extra info about this record."
+
+msgid "Enter more information here..."
+msgstr "Enter more information here..."
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "species"
+msgstr "species"
+
+msgid "Enter your username or email address to request a password reset."
+msgstr "Enter your username or email address to request a password reset."
+
+msgid "User not found."
+msgstr "User not found."
+
+msgid "We've sent an email to you"
+msgstr "We've sent an email to you"
+
+msgid "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
+msgstr "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
+
+msgid "App Development"
+msgstr "App Development"
+
+msgid "This app was hand crafted with love by"
+msgstr "This app was hand crafted with love by"
+
+msgid "Agency specializing in building bespoke data oriented solutions."
+msgstr "Agency specializing in building bespoke data oriented solutions."
+
+msgid "For suggestions and feedback please do not hesitate to"
+msgstr "For suggestions and feedback please do not hesitate to"
+
+msgid "contact us"
+msgstr "contact us"
+
+msgid "This App was produced through MammalNet and funded by EFSA."
+msgstr "This App was produced through MammalNet and funded by EFSA."
+
+msgid "Maps produced"
+msgstr "Maps produced"
+
+msgid "Photo credits:"
+msgstr "Photo credits:"
+
+msgid "Mark any new records as 'training' and exclude from all reports."
+msgstr "Mark any new records as 'training' and exclude from all reports."
+
+msgid "Distribution"
+msgstr "Distribution"
+
+msgid "Hedgehog"
+msgstr "Hedgehog"
+
+msgid "(unknown species)"
+msgstr "(unknown species)"
+
+msgid "Shrew"
+msgstr "Shrew"
+
+msgid "Mole"
+msgstr "Mole"
+
+msgid "Lagomorph"
+msgstr "Lagomorph"
+
+msgid "Rabbits and Hares"
+msgstr "Rabbits and Hares"
+
+msgid "Small rodent"
+msgstr "Small rodent"
+
+msgid "Vole"
+msgstr "Vole"
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Rat"
+msgstr "Rat"
+
+msgid "Other mustelid"
+msgstr "Other mustelid"
+
+msgid "Locating"
+msgstr "Locating"
+
+msgid "Please add record location."
+msgstr "Please add record location."
+
+msgid "Please select a species."
+msgstr "Please select a species."
+
+msgid "Enjoying the app?"
+msgstr "Enjoying the app?"
+
+msgid "Not really"
+msgstr "Not really"
+
+msgid "Yes!"
+msgstr "Yes!"
+
+msgid "Would you mind giving us some feedback?"
+msgstr "Would you mind giving us some feedback?"
+
+msgid "No, thanks"
+msgstr "No, thanks"
+
+msgid "OK, sure"
+msgstr "OK, sure"
+
+msgid "How about a rating on the App Store then?"
+msgstr "How about a rating on the App Store then?"
+
+msgid "How about a rating on the Play Store then?"
+msgstr "How about a rating on the Play Store then?"
+
+msgid "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
+msgstr "Sightings can be recorded anywhere, with or without photos, and all records will be verified by experts and made available to help with mapping the distribution of European mammals. You can check and update your records online."
+
+msgid "Users must first register, and can then log into a web site to view and correct records. Choice of country can be reviewed in the settings."
+msgstr "Users must first register, and can then log into a web site to view and correct records. Choice of country can be reviewed in the settings."
+
+msgid "Icons made by"
+msgstr "Icons made by"
+
+msgid "from"
+msgstr "from"
+
+msgid "Share App Analytics"
+msgstr "Share App Analytics"
+
+# Part of recording attributes pages
+msgid "Gender"
+msgstr "Gender"
+
+# Part of recording attributes pages
+msgid "Age"
+msgstr "Age"
+
+# Part of recording attributes pages
+msgid "Decomposition"
+msgstr "Decomposition"
+
+# Part of recording attributes pages
+msgid "Male"
+msgstr "Male"
+
+# Part of recording attributes pages
+msgid "Female"
+msgstr "Female"
+
+# Part of recording attributes pages
+msgid "Please specify the gender of the mammal."
+msgstr "Please specify the gender of the mammal."
+# Part of recording attributes pages
+msgid "Piglet"
+msgstr "Piglet"
+
+# Part of recording attributes pages
+msgid "Juvenile"
+msgstr "Juvenile"
+
+# Part of recording attributes pages
+msgid "Adult"
+msgstr "Adult"
+
+# Part of recording attributes pages
+msgid "Please specify the age of the mammal."
+msgstr "Please specify the age of the mammal."
+# Part of recording attributes pages
+msgid "Fresh carcass"
+msgstr "Fresh carcass"
+
+# Part of recording attributes pages
+msgid "Decomposed"
+msgstr "Decomposed"
+
+# Part of recording attributes pages
+msgid "Dry (just bones left)"
+msgstr "Dry (just bones left)"
+
+# Part of recording attributes pages
+msgid "Please specify the state of decomposition of the mammal."
+msgstr "Please specify the state of decomposition of the mammal."
+
+# Part of recording attributes pages
+msgid "Hunted"
+msgstr "Hunted"
+
+# Part of recording attributes pages
+msgid "Unknown"
+msgstr "Unknown"
+
+# Part of species profile external link
+msgid "Mammalnet"
+msgstr "Mammalnet"
+
+# Part of species profile external link
+msgid "web profile"
+msgstr "web profile"
+
+# An unkown species group
+msgid "Bats"
+msgstr "Bats"
+
+# An unkown species group
+msgid "Seals"
+msgstr "Seals"
+
+# From About page
+msgid "The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included."
+msgstr "The iMammalia App is designed to encourage recording of mammals in the wild. This version of the mobile application is set up to easily record mammals in any European country, but does not yet have all European languages included."
+
+# From About page
+msgid "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
+msgstr "iMammalia is designed to make mammal recording easy. Smaller mammals are currently only listed at the generic level since they are much harder to tell apart. Later versions will include more countries, languages and species subject to funding."
+
+# An error message
+msgid "Could not find/authenticate user."
+msgstr "Could not find/authenticate user."

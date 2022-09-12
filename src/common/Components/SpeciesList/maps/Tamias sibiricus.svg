@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+<g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+<use id = '31TGM2' x = '33397.33' y = '41715.66' xlink:href = "#post70_1" />
+<use id = '31UDS3' x = '31897.17' y = '35879.26' xlink:href = "#post70_1" />
+<use id = '31UES4' x = '32782.34' y = '36550.27' xlink:href = "#post70_1" />
+<use id = '31UFS1' x = '33362.08' y = '36153.66' xlink:href = "#post70_1" />
+<use id = '31UFS2' x = '33270.47' y = '36641.79' xlink:href = "#post70_1" />
+<use id = '31UFT2' x = '33453.79' y = '35665.4' xlink:href = "#post70_1" />
+<use id = '32TMR2' x = '34836.36' y = '42870.25' xlink:href = "#post70_1" />
+<use id = '32TNQ2' x = '35721.17' y = '43965.53' xlink:href = "#post70_1" />
+<use id = '32TPR4' x = '37310.17' y = '43131.31' xlink:href = "#post70_1" />
+<use id = '32TQS2' x = '37969.84' y = '42200.53' xlink:href = "#post70_1" />
+<use id = '32ULB3' x = '35024.36' y = '36396.83' xlink:href = "#post70_1" />
+<use id = '32ULC2' x = '34544.75' y = '35846.98' xlink:href = "#post70_1" />
+<use id = '32UMC1' x = '35622.66' y = '35460.53' xlink:href = "#post70_1" />
+<use id = '32UMC4' x = '36064.75' y = '36007.05' xlink:href = "#post70_1" />
+<use id = '32UMU2' x = '35152.21' y = '39905.36' xlink:href = "#post70_1" />
+<use id = '32UNV3' x = '36790.57' y = '38581.3' xlink:href = "#post70_1" />
+<use id = '33TTG4' x = '37888.27' y = '47182.78' xlink:href = "#post70_1" />
+</g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>

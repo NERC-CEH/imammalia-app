@@ -86,6 +86,34 @@ export class UserModel extends DrupalUserModel {
     };
     this.ready?.then(checkForValidation);
   }
+
+  // async logIn(details) {
+  //   // Log('User: logging in.');
+
+  //   const userAuth = btoa(`${details.name}:${details.password}`);
+  //   const url = CONFIG.users.url + encodeURIComponent(details.name);
+  //   const options = {
+  //     headers: {
+  //       authorization: `Basic ${userAuth}`,
+  //       'x-api-key': CONFIG.indicia.api_key,
+  //       'content-type': 'application/json',
+  //     },
+  //   };
+
+  //   let res;
+  //   try {
+  //     res = await makeRequest(url, options, CONFIG.users.timeout);
+  //     const isValidResponse = await this.loginSchemaBackend.isValid(res.data);
+  //     if (!isValidResponse) {
+  //       throw new Error('Invalid backend response.');
+  //     }
+  //   } catch (e) {
+  //     throw new Error(t(e.message));
+  //   }
+
+  //   const user = { ...res.data, ...{ password: details.password } };
+  //   this._logIn(user);
+  // }
 }
 
 const userModel = new UserModel({

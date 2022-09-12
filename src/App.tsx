@@ -7,6 +7,7 @@ import LanguageCountrySelectRequired from 'Components/LanguageCountrySelectRequi
 import Home from './Home';
 import SplashScreenRequired from './Info/SplashScreenRequired';
 import Settings from './Settings/router';
+import Record from './Record/router';
 import Info from './Info/router';
 import User from './User/router';
 import './common/translations/translator';
@@ -24,6 +25,7 @@ const App = () => (
             {User}
             {Settings}
             {Info}
+            {Record}
           </IonRouterOutlet>
         </IonReactRouter>
       </SplashScreenRequired>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg id="map2svg" xml:space="preserve" x="0" y="0" width="100%" viewBox="0 0 71000 59000" onload="setup(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
+    <g id="datapoints" style="pointer-events:all" >
+      <use id="33UWV4" x="41224.62" y="34336.36" xlink:href="#post70_1"/>
+      <use id="33UXV2" x="41722.3" y="34350.13" xlink:href="#post70_1"/>
+      <use id="34TFR4" x="46653.6" y="43102.41" xlink:href="#post70_1"/>
+      <use id="34UEE3" x="45162.68" y="33727.45" xlink:href="#post70_1"/>
+      <use id="34UEF4" x="45136.9" y="33229.72" xlink:href="#post70_1"/>
+      <use id="34UEV3" x="45422.48" y="38691.39" xlink:href="#post70_1"/>
+      <use id="34UFD3" x="46214.91" y="34670.39" xlink:href="#post70_1"/>
+      <use id="34UFD4" x="46250.62" y="35166.54" xlink:href="#post70_1"/>
+      <use id="34UFE4" x="46179.21" y="34173.99" xlink:href="#post70_1"/>
+      <use id="34UFV1" x="45918.24" y="38665.22" xlink:href="#post70_1"/>
+      <use id="34UFV2" x="45944.44" y="39160.92" xlink:href="#post70_1"/>
+      <use id="35TLK1" x="47906.72" y="43485.52" xlink:href="#post70_1"/>
+      <use id="35TLL3" x="48270.41" y="42434.39" xlink:href="#post70_1"/>
+      <use id="35TMN2" x="48567.86" y="40891.24" xlink:href="#post70_1"/>
+      <use id="35ULA1" x="46498.07" y="32643.27" xlink:href="#post70_1"/>
+      <use id="35ULB1" x="46384.87" y="31650.99" xlink:href="#post70_1"/>
+      <use id="35ULB2" x="46441.52" y="32147.34" xlink:href="#post70_1"/>
+    </g>
+    <defs>
+      <circle id="post70_1" r="250" fill="#dc5107"/>
+      <circle id="pre70_1" r="250" fill="darkgrey"/>
+      <circle id="post70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="red"/>
+      <circle id="pre70_2" r="250" stroke-width="40" fill="white" fill-opacity="0.1" stroke="pink"/>
+    </defs>
+  </g>
+</svg>
