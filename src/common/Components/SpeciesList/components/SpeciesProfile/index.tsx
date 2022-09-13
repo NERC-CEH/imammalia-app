@@ -11,7 +11,7 @@ import { Trans as T, useTranslation } from 'react-i18next';
 import { MapContainer, SVGOverlay } from 'react-leaflet';
 import { LatLngExpression, LatLngBoundsExpression } from 'leaflet';
 import { Main } from '@flumens';
-import { Species } from '../..';
+import { Species } from 'common/Components/SpeciesList';
 import './styles.scss';
 
 const habitats = [
@@ -57,7 +57,9 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
         <IonCardTitle>
           <T>{species.english}</T>
         </IonCardTitle>
-        <IonCardSubtitle>{species.taxon}</IonCardSubtitle>
+        <IonCardSubtitle>
+          <i>{species.taxon}</i>
+        </IonCardSubtitle>
       </IonCardHeader>
 
       <IonCardContent>
