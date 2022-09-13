@@ -49,6 +49,7 @@ const MenuController: FC<Props> = ({ userModel, appModel }) => {
   function logOut() {
     console.log('Info:Menu: logging out.');
     const onReset = () => {
+      // eslint-disable-next-line no-param-reassign
       appModel.attrs.recordDraftId = null;
       appModel.save();
       userModel.logOut();

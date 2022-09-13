@@ -47,10 +47,7 @@ const MenuController = () => {
 
   const resetApplication = () => resetApp();
 
-  const useTraining = appModel.attrs.useTraining;
-  const sendAnalytics = appModel.attrs.sendAnalytics;
-  const language = appModel.attrs.language;
-  const country = appModel.attrs.country;
+  const { useTraining, sendAnalytics, language, country } = appModel.attrs;
 
   return (
     <Page id="settings">

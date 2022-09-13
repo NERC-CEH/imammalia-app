@@ -8,12 +8,12 @@ import {
   IonItemDivider,
 } from '@ionic/react';
 import {
-  settings,
+  settingsOutline,
   exit,
-  person,
-  personAdd,
-  lockClosed,
-  heart,
+  personOutline,
+  personAddOutline,
+  lockClosedOutline,
+  heartOutline,
   informationCircleOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
@@ -50,14 +50,14 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
 
           {!isLoggedIn && (
             <IonItem routerLink="/user/login" detail>
-              <IonIcon icon={person} size="small" slot="start" />
+              <IonIcon icon={personOutline} size="small" slot="start" />
               <T>Login</T>
             </IonItem>
           )}
 
           {!isLoggedIn && (
             <IonItem routerLink="/user/register" detail>
-              <IonIcon icon={personAdd} size="small" slot="start" />
+              <IonIcon icon={personAddOutline} size="small" slot="start" />
               <T>Register</T>
             </IonItem>
           )}
@@ -77,7 +77,7 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
           </IonItem>
 
           <IonItem routerLink="/info/credits" detail>
-            <IonIcon icon={heart} size="small" slot="start" />
+            <IonIcon icon={heartOutline} size="small" slot="start" />
             <T>Credits</T>
           </IonItem>
 
@@ -86,7 +86,7 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
             target="_blank"
             detail
           >
-            <IonIcon icon={lockClosed} size="small" slot="start" />
+            <IonIcon icon={lockClosedOutline} size="small" slot="start" />
             <T>Privacy Policy</T>
           </IonItem>
         </div>
@@ -96,7 +96,7 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
         </IonItemDivider>
         <div className="rounded">
           <IonItem routerLink="/settings/menu" detail>
-            <IonIcon icon={settings} size="small" slot="start" />
+            <IonIcon icon={settingsOutline} size="small" slot="start" />
             <T>App</T>
           </IonItem>
         </div>

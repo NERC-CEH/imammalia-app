@@ -1,4 +1,4 @@
-import { FC, Fragment } from 'react';
+import { FC, Fragment, useContext } from 'react';
 import { Page, Header, Main } from '@flumens';
 import { AppModel } from 'models/app';
 import { observer } from 'mobx-react';
@@ -11,9 +11,10 @@ import {
   IonRadio,
   IonLabel,
   IonItemDivider,
+  NavContext,
 } from '@ionic/react';
 import { flag } from 'ionicons/icons';
-import { countries } from 'helpers/translator';
+import countries from 'helpers/countries';
 import './styles.scss';
 
 type Props = {
@@ -22,11 +23,14 @@ type Props = {
 };
 
 const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
+  const { goBack } = useContext(NavContext);
   const currentValue = appModel.attrs.country;
 
   function onSelect(e: any) {
+    // eslint-disable-next-line no-param-reassign
     appModel.attrs.country = e.target.value;
     appModel.save();
+    goBack();
   }
 
   const countriesOptions = Object.entries(countries).map(([value, country]) => (

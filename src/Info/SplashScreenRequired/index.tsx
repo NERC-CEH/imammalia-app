@@ -13,9 +13,7 @@ import backgroundImage1 from './images/welcome_1.jpg';
 import backgroundImage2 from './images/welcome_2.jpg';
 import './styles.scss';
 
-type Props = {};
-
-const OnBoardingScreens: FC<Props> = ({ children }) => {
+const OnBoardingScreens: FC = ({ children }) => {
   const [moreSlidesExist, setMoreSlidesExist] = useState(true);
   const [controlledSwiper, setControlledSwiper] = useState<SwiperCore>();
 
@@ -23,6 +21,12 @@ const OnBoardingScreens: FC<Props> = ({ children }) => {
     const isEnd = controlledSwiper && controlledSwiper.isEnd;
     setMoreSlidesExist(!isEnd);
   };
+
+  function exit() {
+    // eslint-disable-next-line no-param-reassign
+    appModel.attrs.showedWelcome = true;
+    appModel.save();
+  }
 
   const slideNextOrClose = () => {
     if (moreSlidesExist) {
@@ -32,12 +36,6 @@ const OnBoardingScreens: FC<Props> = ({ children }) => {
 
     exit();
   };
-
-  function exit() {
-    // eslint-disable-next-line no-param-reassign
-    appModel.attrs.showedWelcome = true;
-    appModel.save();
-  }
 
   const { showedWelcome } = appModel.attrs;
   if (showedWelcome) {

@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
 import { observer } from 'mobx-react';
 import { AppModel } from 'models/app';
 import { Page, Header, Main } from '@flumens';
@@ -9,9 +9,10 @@ import {
   IonRadioGroup,
   IonRadio,
   IonLabel,
+  NavContext,
 } from '@ionic/react';
 import { globe } from 'ionicons/icons';
-import { languages } from 'helpers/translator';
+import languages from 'helpers/languages';
 import './styles.scss';
 
 type Props = {
@@ -21,10 +22,13 @@ type Props = {
 
 const SelectLanguage: FC<Props> = ({ appModel, hideHeader }) => {
   const currentValue = appModel.attrs.language;
+  const { goBack } = useContext(NavContext);
 
   function onSelect(e: any) {
+    // eslint-disable-next-line no-param-reassign
     appModel.attrs.language = e.target.value;
     appModel.save();
+    goBack();
   }
 
   const languageExists = ([, lang]: any) => !!lang;

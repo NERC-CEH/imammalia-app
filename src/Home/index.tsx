@@ -9,17 +9,21 @@ import {
 } from '@ionic/react';
 import { person, add, helpCircle, menu, home } from 'ionicons/icons';
 import savedSamples from 'models/savedSamples';
+import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import appModel from 'models/app';
+import userModel from 'models/user';
 import { Trans as T } from 'react-i18next';
 import Species from './Species';
 import Help from './Help';
 import UserRecords from './Records';
 import './styles.scss';
 
-const Records = () => <UserRecords savedSamples={savedSamples} />;
-
 const SpeciesWrap = () => (
-  <Species appModel={appModel} savedSamples={savedSamples} />
+  <Species
+    appModel={appModel}
+    savedSamples={savedSamples}
+    userModel={userModel}
+  />
 );
 
 const HomeComponent = () => (
@@ -27,7 +31,7 @@ const HomeComponent = () => (
     <IonRouterOutlet>
       <Route path="/home/species" component={SpeciesWrap} exact />
       <Route path="/home/help" component={Help} exact />
-      <Route path="/home/user-records" component={Records} exact />
+      <Route path="/home/user-records" component={UserRecords} exact />
     </IonRouterOutlet>
 
     <IonTabBar slot="bottom">
@@ -42,6 +46,7 @@ const HomeComponent = () => (
         <IonLabel>
           <T>Records</T>
         </IonLabel>
+        <PendingSurveysBadge savedSamples={savedSamples} />
       </IonTabButton>
       <IonTabButton tab="record" class="add-record" href="/record/main">
         <IonIcon icon={add} />

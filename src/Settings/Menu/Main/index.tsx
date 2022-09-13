@@ -24,13 +24,13 @@ import {
   shareSocialOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import { countries, languages } from 'helpers/translator';
+import countries from 'helpers/countries';
+import languages from 'helpers/languages';
 import './styles.scss';
 
 function resetDialog(resetApp: any, alert: any) {
   alert({
     header: 'Reset',
-    skipTranslation: true,
     message: (
       <>
         <T>

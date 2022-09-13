@@ -77,3 +77,14 @@
 .sc-ion-back-button-ios-h {
   --color: var(--ion-toolbar-color);
 }
+
+ion-textarea {
+  margin: 10px auto !important;
+  max-width: 95%;
+  border-radius: 15px;
+}
+
+ion-textarea {
+  background: #fff !important;
+  padding: 0 10px;
+}
