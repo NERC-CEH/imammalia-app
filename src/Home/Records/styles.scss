@@ -1,25 +1,36 @@
-#user-report {
-  ion-segment {
-    margin-bottom: 30px;
-
+#surveys-list {
+  ion-header {
     ion-badge {
-      vertical-align: top;
-      margin: 3px;
-      margin-left: 6px;
+      display: inline;
+      margin-left: 10px;
+    }
+
+    ion-toolbar {
+      --ion-toolbar-background: transparent;
+      &.md {
+        --ion-toolbar-background: white;
+      }
+
+      ion-segment-button {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      position: fixed;
+      color: var(--ion-color-main);
     }
   }
 
-  .empty {
-    width: 80%;
-    max-width: 250px;
-    margin: 100px auto 0;
-    --border-width: 0;
-    --background: var(--ion-color-light);
-    --color: var(--ion-color-light-contrast);
-    span {
-      margin: 0 auto;
-      font-weight: 200;
-      text-align: center;
+  ion-content {
+    --padding-top: 80px;
+
+    .info-background-message {
+      margin-top: 150px;
+    }
+
+    .upload-all-button {
+      margin: 0 auto 20px;
+      max-width: 60%;
     }
   }
 }
