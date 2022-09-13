@@ -1,0 +1,73 @@
+#record {
+  ion-header ion-button {
+    --padding-end: 20px;
+    --padding-start: 20px;
+  }
+
+  ion-content {
+    --padding-top: 10px;
+
+    .uploaded-message-website-link {
+      margin: 20px 20px 10px;
+    }
+
+    .species-item {
+      --min-height: 90px;
+      --padding-start: 0;
+
+      ion-avatar {
+        height: 80px;
+        width: 90px;
+        --border-radius: 0;
+        border-right: 1px var(--ion-item-border-color) solid;
+        margin: 5px 0;
+
+        img {
+          object-fit: contain;
+        }
+      }
+
+      ion-label[slot='end'] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+      }
+    }
+
+    #menu-item-count-edit {
+      &.item-disabled {
+        opacity: 1;
+      }
+
+      ion-button {
+        margin: 0;
+      }
+
+      div[slot='end'] {
+        margin-right: -20px;
+
+        span {
+          width: 20px;
+          opacity: 0.5;
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          vertical-align: -webkit-baseline-middle;
+        }
+      }
+
+      &.item-disabled span {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .training-subheader {
+    background: var(--ion-color-dark);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+}

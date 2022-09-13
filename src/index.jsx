@@ -1,14 +1,10 @@
-// polyfills for Android 5.0
-import 'core-js/features/map';
-import 'core-js/features/set';
-
 import ReactDOM from 'react-dom';
 import { setupIonicReact } from '@ionic/react';
 // import config from 'config';
 import { configure as mobxConfig } from 'mobx';
 import appModel from 'app_model';
 import userModel from 'models/user';
-import savedSamples from 'saved_samples';
+import savedSamples from 'models/savedSamples';
 // import { initAnalytics } from '@apps';
 import App from './App';
 

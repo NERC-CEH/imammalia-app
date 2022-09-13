@@ -1,18 +1,26 @@
 import { Model, ModelAttrs } from '@flumens';
 import { genericStore } from './store';
 
-export type Attrs = ModelAttrs & {
-  appSession: any;
-  showedWelcome: any;
-  language: any;
-  country: any;
-  useTraining: any;
-  feedbackGiven: any;
-  recordDraftId: any;
-  speciesFilter: any;
-  useExperiments: any;
-  sendAnalytics: any;
+export type SurveyDraftKeys = {
+  'draftId:main': string | null;
 };
+
+export type Attrs = ModelAttrs &
+  SurveyDraftKeys & {
+    appSession: any;
+    showedWelcome: any;
+    language: any;
+    country: any;
+    useTraining: boolean;
+    feedbackGiven: any;
+    recordDraftId: any;
+    speciesFilter: any;
+    useExperiments: any;
+    sendAnalytics: any;
+
+    showSurveysDeleteTip: boolean;
+    showSurveyUploadTip: boolean;
+  };
 
 const defaults: Attrs = {
   appSession: 0,
@@ -26,6 +34,11 @@ const defaults: Attrs = {
 
   useExperiments: false,
   sendAnalytics: true,
+
+  showSurveysDeleteTip: true,
+  showSurveyUploadTip: true,
+
+  'draftId:main': null,
 };
 
 export class AppModel extends Model {
