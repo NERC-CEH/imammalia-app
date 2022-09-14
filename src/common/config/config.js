@@ -2,7 +2,7 @@
  * Main app configuration file.
  **************************************************************************** */
 import Indicia from 'indicia';
-import DateHelp from 'helpers/date';
+// import DateHelp from 'helpers/date';
 
 const HOST =
   process.env.APP_INDICIA_API_HOST || 'https://european-mammals.brc.ac.uk/';
@@ -111,9 +111,9 @@ const CONFIG = {
 
         date: {
           label: 'Date',
-          values(date) {
-            return DateHelp.print(date);
-          },
+          // values(date) {
+          // return DateHelp.print(date);
+          // },?
           isValid: val => val && val.toString() !== 'Invalid Date',
           type: 'date',
           max: () => new Date(),

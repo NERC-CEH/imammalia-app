@@ -24,6 +24,10 @@
   ion-content {
     --padding-top: 80px;
 
+    ion-list.ios div div {
+      top: var(--ion-safe-area-top, 0);
+    }
+
     .info-background-message {
       margin-top: 150px;
     }

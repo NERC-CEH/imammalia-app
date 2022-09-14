@@ -32,7 +32,7 @@ const LoginController: FC = () => {
     await loader.show('Please wait...');
 
     try {
-      await userModel.logIn(email.trim(), password);
+      await userModel.logIn1(email.trim(), password);
 
       onSuccessReturn();
     } catch (err: any) {
