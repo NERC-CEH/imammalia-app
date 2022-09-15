@@ -82,14 +82,19 @@ const numberRangesValues = [
   { value: '50+', id: 3813 },
 ];
 
-// number: {
-//   label: 'Number',
-//   id: 16,
-// },
+const manualLocationAccuracy = [
+  { value: '0-10m', id: 17450 },
+  { value: '10-50m', id: 17451 },
+  { value: '50-100m', id: 17452 },
+  { value: '100m-1km', id: 17453 },
+  { value: '>1km', id: 17454 },
+  { value: 'NA', id: 17455 },
+];
 
-const record: any = {
-  id: -1,
+const record = {
+  id: 571,
   name: 'main',
+  webForm: 'enter-app-record',
 
   attrs: {
     location: {
@@ -145,22 +150,18 @@ const record: any = {
     },
 
     manual_location_accuracy: {
-      id: 1446,
-      values: {
-        '0-10m': 17450,
-        '10-50m': 17451,
-        '50-100m': 17452,
-        '100m-1km': 17453,
-        '>1km': 17454,
-        NA: 17455,
-      },
-
-      remote: {},
+      remote: { id: 1446, values: manualLocationAccuracy },
     },
 
-    // ...locationAttrs,
-    // device: deviceAttr,
-    // appVersion: appVersionAttr,
+    device: {
+      id: 922,
+      values: {
+        iOS: 2398,
+        Android: 2399,
+      },
+    },
+    device_version: { id: 759 },
+    app_version: { id: 1139 },
   },
 
   occ: {
@@ -193,7 +194,7 @@ const record: any = {
             inputProps: { options: typeValues },
           },
         },
-        remote: { id: 523, values: typeValues },
+        remote: { id: 800, values: typeValues },
       },
 
       gender: {

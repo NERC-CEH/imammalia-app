@@ -2,8 +2,8 @@
 import { RouteWithModels, AttrPage } from '@flumens';
 import appModel from 'models/app';
 import savedSamples from 'models/savedSamples';
+import NumberAttr from './common/Components/NumberAttr';
 import Species from './Species';
-import NumberAttr from './NumberAttr';
 // import CONFIG from 'common/config';
 import ModelLocation from './Location';
 import StartNewSurvey from './StartNewRecord';

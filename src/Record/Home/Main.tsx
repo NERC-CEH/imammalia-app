@@ -10,10 +10,11 @@ import {
 import { IonList, IonLabel } from '@ionic/react';
 import { calendarOutline, mapOutline } from 'ionicons/icons';
 import { useRouteMatch } from 'react-router';
-import GridRefValue from '../common/Components/GridRefValue';
-import PhotoPicker from '../PhotoPicker';
-import deerIcon from '../common/images/deer.svg';
-import numberIcon from '../common/images/number.svg';
+import clsx from 'clsx';
+import PhotoPicker from 'Record/common/Components/PhotoPicker';
+import GridRefValue from 'Record/common/Components/GridRefValue';
+import deerIcon from 'Record/common/images/deer.svg';
+import numberIcon from 'Record/common/images/number.svg';
 
 type Props = {
   sample: Sample;
@@ -40,7 +41,11 @@ const HomeMain: FC<Props> = ({ sample }) => {
       ? ''
       : sample.attrs.manual_location_accuracy;
 
-    const value = (
+    const location = sample.attrs.location || {};
+    const hasLocation = location.latitude;
+    const empty = !hasLocation;
+
+    const value = locationAccuracy ? (
       <IonLabel position="stacked" mode="ios">
         <IonLabel>
           <GridRefValue sample={sample} />
@@ -48,6 +53,10 @@ const HomeMain: FC<Props> = ({ sample }) => {
         {locationAccuracy && (
           <span className="record-location-accuracy">{locationAccuracy}</span>
         )}
+      </IonLabel>
+    ) : (
+      <IonLabel>
+        <GridRefValue sample={sample} />
       </IonLabel>
     );
 
@@ -58,6 +67,7 @@ const HomeMain: FC<Props> = ({ sample }) => {
         icon={mapOutline}
         label="Location"
         required
+        className={clsx({ empty })}
         skipValueTranslation
         disabled={isDisabled}
       />

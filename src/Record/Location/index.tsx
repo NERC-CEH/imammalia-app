@@ -57,7 +57,7 @@ const Location: FC<Props> = ({ sample }) => {
       return (
         <IonItem lines="none">
           <IonLabel color="light" className="ion-text-center ion-text-wrap">
-            <T>Location Accuracy</T> {`${location?.accuracy.toFixed(3)}m`}
+            <T>Location Accuracy</T> {`${location?.accuracy}m`}
           </IonLabel>
         </IonItem>
       );
@@ -96,15 +96,6 @@ const Location: FC<Props> = ({ sample }) => {
     selectRef.current.open();
   };
 
-  function onGPSClick() {
-    // turn off if running
-    if (sample.isGPSRunning()) {
-      sample.stopGPS();
-    } else {
-      sample.startGPS();
-    }
-  }
-
   return (
     <Page id="survey-location-page">
       <IonHeader>
@@ -125,7 +116,7 @@ const Location: FC<Props> = ({ sample }) => {
           location={location}
           setLocation={setLocation}
           mapProviderOptions={config.map}
-          onGPSClick={onGPSClick}
+          onGPSClick={() => ModelLocationMap.utils.onGPSClick(sample)}
           whenCreated={assignRef}
         />
       </Main>
