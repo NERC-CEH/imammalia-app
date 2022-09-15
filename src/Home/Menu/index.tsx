@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Page, Header, useAlert } from '@flumens';
+import { Page, useAlert } from '@flumens';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
 import { UserModel } from 'models/user';
@@ -60,7 +60,6 @@ const MenuController: FC<Props> = ({ userModel, appModel }) => {
 
   return (
     <Page id="menu">
-      <Header title="Menu" />
       <Main
         userModel={userModel}
         appModel={appModel}

@@ -17,7 +17,7 @@ import {
   informationCircleOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import config from 'common/config/config';
+import config from 'common/config';
 import { UserModel } from 'models/user';
 import { AppModel } from 'models/app';
 import './styles.scss';
@@ -82,7 +82,7 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
           </IonItem>
 
           <IonItem
-            href={`${config.site_url}/privacy-notice?lang=${lang}`}
+            href={`${config.backend.url}/privacy-notice?lang=${lang}`}
             target="_blank"
             detail
           >

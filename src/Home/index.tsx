@@ -16,6 +16,7 @@ import { Trans as T } from 'react-i18next';
 import Species from './Species';
 import Help from './Help';
 import UserRecords from './Records';
+import Menu from './Menu';
 import './styles.scss';
 
 const SpeciesWrap = () => (
@@ -26,12 +27,15 @@ const SpeciesWrap = () => (
   />
 );
 
+const MenuWrap = () => <Menu userModel={userModel} appModel={appModel} />;
+
 const HomeComponent = () => (
   <IonTabs>
     <IonRouterOutlet>
       <Route path="/home/species" component={SpeciesWrap} exact />
       <Route path="/home/help" component={Help} exact />
       <Route path="/home/user-records" component={UserRecords} exact />
+      <Route path="/home/menu" component={MenuWrap} exact />
     </IonRouterOutlet>
 
     <IonTabBar slot="bottom">
@@ -57,7 +61,7 @@ const HomeComponent = () => (
           <T>Help</T>
         </IonLabel>
       </IonTabButton>
-      <IonTabButton tab="menu" href="/info/menu">
+      <IonTabButton tab="menu" href="/home/menu">
         <IonIcon icon={menu} />
         <IonLabel>
           <T>Menu</T>
