@@ -25,6 +25,7 @@
       position: absolute;
       width: 70%;
       padding-left: 10px;
+      padding-top: calc(var(--ion-safe-area-top, 0) + 10px);
 
       // Hack around the tablet hidden message issue
       @media only screen and (min-width: 650px) {
