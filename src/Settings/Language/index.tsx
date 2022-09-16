@@ -55,7 +55,7 @@ const SelectLanguage: FC<Props> = ({ appModel, hideHeader }) => {
               <h4>Select your language</h4>
             </div>
           )}
-          <IonRadioGroup onIonChange={onSelect}>
+          <IonRadioGroup onIonChange={onSelect} value={currentValue}>
             {languagesOptions}
           </IonRadioGroup>
         </IonList>

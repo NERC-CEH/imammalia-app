@@ -59,7 +59,7 @@ const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
               </h4>
             </div>
           )}
-          <IonRadioGroup onIonChange={onSelect}>
+          <IonRadioGroup onIonChange={onSelect} value={currentValue}>
             {countriesOptions}
           </IonRadioGroup>
         </IonList>
