@@ -22,6 +22,7 @@ import {
   flagOutline,
   globeOutline,
   shareSocialOutline,
+  personRemoveOutline,
 } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import countries from 'helpers/countries';
@@ -56,6 +57,43 @@ function resetDialog(resetApp: any, alert: any) {
   });
 }
 
+function useUserDeleteDialog(deleteUser: any) {
+  const alert = useAlert();
+
+  const showUserDeleteDialog = () => {
+    alert({
+      header: 'Account delete',
+      message: (
+        <>
+          Are you sure you want to delete your account?
+          <InfoMessage
+            color="danger"
+            icon={warningOutline}
+            className="destructive-warning"
+          >
+            This will remove your account on the iRecord website. You will lose
+            access to any records that you have previously submitted using the
+            app or website.
+          </InfoMessage>
+        </>
+      ),
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+        },
+        {
+          text: 'Delete',
+          role: 'destructive',
+          handler: deleteUser,
+        },
+      ],
+    });
+  };
+
+  return showUserDeleteDialog;
+}
+
 type Props = {
   resetApp: () => void;
   onToggle: (
@@ -66,7 +104,10 @@ type Props = {
   sendAnalytics: boolean;
   language: string;
   country: string;
+  deleteUser: any;
+  isLoggedIn: boolean;
 };
+
 const MenuMain: FC<Props> = ({
   resetApp,
   onToggle,
@@ -74,9 +115,13 @@ const MenuMain: FC<Props> = ({
   sendAnalytics,
   language,
   country,
+  isLoggedIn,
+  deleteUser,
 }) => {
   const alert = useAlert();
   const showResetDialog = () => resetDialog(resetApp, alert);
+
+  const showUserDeleteDialog = useUserDeleteDialog(deleteUser);
 
   const onSendAnalyticsToggle = (checked: boolean) =>
     onToggle('sendAnalytics', checked);
@@ -140,6 +185,18 @@ const MenuMain: FC<Props> = ({
           <InfoMessage color="medium">
             You can reset the app data to its default settings.
           </InfoMessage>
+
+          {isLoggedIn && (
+            <>
+              <IonItem onClick={showUserDeleteDialog}>
+                <IonIcon icon={personRemoveOutline} size="small" slot="start" />
+                <IonLabel>Delete account</IonLabel>
+              </IonItem>
+              <InfoMessage color="medium">
+                You can delete your user account from the system.
+              </InfoMessage>
+            </>
+          )}
         </div>
       </IonList>
     </Main>

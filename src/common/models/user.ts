@@ -1,12 +1,16 @@
-import { DrupalUserModel, DrupalUserModelAttrs } from '@flumens';
+import {
+  DrupalUserModel,
+  DrupalUserModelAttrs,
+  useToast,
+  useLoader,
+} from '@flumens';
 import * as Yup from 'yup';
 import CONFIG from 'common/config';
 import { genericStore } from './store';
 
 export interface Attrs extends DrupalUserModelAttrs {
-  firstname?: string;
-  lastname?: string;
-  secondname: string;
+  firstName?: string;
+  lastName?: string;
   email?: string;
 
   /**
@@ -16,63 +20,19 @@ export interface Attrs extends DrupalUserModelAttrs {
 }
 
 const defaults: Attrs = {
-  // isLoggedIn: false,
-  // drupalID: null,
-  // name: null,
-  // firstname: null,
-  // secondname: null,
-  // email: null,
-  // password: null,
-
-  firstname: '',
-  secondname: '',
+  firstName: '',
+  lastName: '',
   email: '',
 };
 
 export class UserModel extends DrupalUserModel {
   attrs: Attrs = DrupalUserModel.extendAttrs(this.attrs, defaults);
 
-  loginSchema = Yup.object().shape({
-    email: Yup.string().required(),
-    password: Yup.string().required(),
-  });
-
-  loginSchemaBackend = Yup.object().shape({
-    id: Yup.number().required(),
-    email: Yup.string().email().required(),
-    name: Yup.string().required(),
-  });
-
-  resetSchema = Yup.object().shape({
-    email: Yup.string().required(),
-  });
-
-  resetSchemaBackend = Yup.object().shape({
-    data: Yup.object().shape({
-      id: Yup.number().required(),
-      firstname: Yup.string().required(),
-      secondname: Yup.string().required(),
-      type: Yup.string().required(),
-    }),
-  });
-
   registerSchema = Yup.object().shape({
     email: Yup.string().email('email is not valid').required(),
     firstname: Yup.string().required(),
     secondname: Yup.string().required(),
     password: Yup.string().required(),
-    terms: Yup.boolean()
-      .oneOf([true], 'must accept terms and conditions')
-      .required(),
-  });
-
-  registerSchemaBackend = Yup.object().shape({
-    id: Yup.number().required(),
-    warehouse_id: Yup.number().required(),
-    email: Yup.string().email().required(),
-    name: Yup.string().required(),
-    firstname: Yup.string().required(),
-    secondname: Yup.string().required(),
   });
 
   constructor(options: any) {
@@ -86,6 +46,74 @@ export class UserModel extends DrupalUserModel {
     };
     this.ready?.then(checkForValidation);
   }
+
+  async getAccessToken(...args: any) {
+    if (this.attrs.password) await this._migrateAuth();
+
+    return super.getAccessToken(...args);
+  }
+
+  async resendVerificationEmail() {
+    if (!this.isLoggedIn() || this.attrs.verified) return false;
+
+    await this._sendVerificationEmail();
+
+    return true;
+  }
+
+  /**
+   * Migrate from Indicia API auth to JWT. Remove in the future versions.
+   */
+  async _migrateAuth() {
+    console.log('Migrating user auth.');
+    if (!this.attrs.email) {
+      // email might not exist
+      delete this.attrs.password;
+      return this.save();
+    }
+
+    try {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      const tokens = await this._exchangePasswordToTokens(
+        this.attrs.email,
+        this.attrs.password
+      );
+      this.attrs.tokens = tokens;
+      delete this.attrs.password;
+
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      await this._refreshAccessToken();
+    } catch (e: any) {
+      if (e.message === 'Incorrect password or email') {
+        console.log('Removing invalid old user credentials');
+        delete this.attrs.password;
+        this.logOut();
+      }
+      console.error(e);
+      throw e;
+    }
+
+    return this.save();
+  }
+
+  async checkActivation() {
+    const isLoggedIn = !!this.attrs.email;
+    if (!isLoggedIn) return false;
+
+    if (!this.attrs.verified) {
+      try {
+        await this.refreshProfile();
+      } catch (e) {
+        // do nothing
+      }
+
+      if (!this.attrs.verified) return false;
+    }
+
+    return true;
+  }
 }
 
 const userModel = new UserModel({
@@ -93,5 +121,26 @@ const userModel = new UserModel({
   store: genericStore,
   config: CONFIG.backend,
 });
+
+export const useUserStatusCheck = () => {
+  const toast = useToast();
+  const loader = useLoader();
+
+  const userStatusAlert = async () => {
+    if (!userModel.attrs.verified) {
+      await loader.show('Please wait...');
+      const isVerified = await userModel.checkActivation();
+      loader.hide();
+
+      if (!isVerified) {
+        toast.warn('The user has not been activated or is blocked.');
+        return false;
+      }
+    }
+
+    return true;
+  };
+  return userStatusAlert;
+};
 
 export default userModel;

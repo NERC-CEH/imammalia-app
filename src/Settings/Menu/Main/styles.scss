@@ -25,6 +25,12 @@
       }
     }
   }
+
+  ion-item ion-label[slot='end'] {
+    text-align: right;
+    opacity: 0.6;
+    max-width: 45%;
+  }
 }
 
 ion-alert .info-message.destructive-warning {
