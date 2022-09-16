@@ -4,6 +4,12 @@
     --padding-start: 20px;
   }
 
+  .finish-button {
+    background: var(--ion-color-secondary) !important;
+    --border-radius: 10px;
+    border-radius: 10px;
+  }
+
   ion-content {
     --padding-top: 10px;
 

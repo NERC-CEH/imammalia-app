@@ -69,7 +69,7 @@ const Home: FC<Props> = ({ sample, appModel }) => {
   };
 
   const finishButton = isDisabled ? null : (
-    <IonButton onClick={onFinish}>
+    <IonButton className="finish-button" onClick={onFinish}>
       {isEditing ? <T>Upload</T> : <T>Finish</T>}
     </IonButton>
   );
