@@ -2,8 +2,53 @@
  * Manual testing functions.
  ******************************************************************** */
 import GPS from 'mock-geolocation';
+import { Plugins, FilesystemDirectory } from '@capacitor/core';
+import track from 'json-loader!./track.geojson'; // eslint-disable-line
 
-const testing = {};
+window.FilesystemDirectory = FilesystemDirectory;
+
+const testing = {
+  files: {
+    ls: async (path = '', directory = FilesystemDirectory.Data) => {
+      const { files } = await Plugins.Filesystem.readdir({
+        path,
+        directory,
+      });
+
+      const filesWithInfo = [];
+      files.forEach(async file => {
+        const stats = await Plugins.Filesystem.stat({
+          path: file,
+          directory,
+        });
+
+        filesWithInfo.push(stats);
+      });
+
+      return filesWithInfo;
+    },
+
+    cp: async (path = '', directory = FilesystemDirectory.Data) => {
+      await Plugins.Filesystem.copy({
+        from: path,
+        to: path.split('/').pop(),
+        toDirectory: directory,
+      });
+
+      return Plugins.Filesystem.stat({
+        path: path.split('/').pop(),
+        directory,
+      });
+    },
+
+    rm: async (path = '', directory = FilesystemDirectory.Data) => {
+      await Plugins.Filesystem.deleteFile({
+        path,
+        directory,
+      });
+    },
+  },
+};
 
 testing.GPS = {
   mock: GPS.use,
@@ -15,20 +60,23 @@ testing.GPS = {
    * @returns {*}
    */
   update(location) {
-    if (location instanceof Array) {
-      this.interval = setInterval(() => {
-        if (!location.length) {
-          this.stop();
-          return;
-        }
+    GPS.change(location);
+  },
 
-        const [latitude, longitude] = location.shift();
-        this.update({ latitude, longitude });
-      }, 2000);
-      return;
+  async simulate() {
+    console.log('⌖ GPS track simulation start');
+
+    this.mock();
+
+    const coords = track.features[0].geometry.coordinates;
+    for (let i = 0; i < coords.length; i++) {
+      const [longitude, latitude] = coords[i];
+
+      this.update({ latitude, longitude, accuracy: 1 });
+      await new Promise(r => setTimeout(r, 2000)); //eslint-disable-line
     }
 
-    GPS.change(location);
+    console.log('⌖ GPS track simulation complete');
   },
 
   stop() {
