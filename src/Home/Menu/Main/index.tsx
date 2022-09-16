@@ -6,16 +6,18 @@ import {
   IonList,
   IonItem,
   IonItemDivider,
+  IonButton,
 } from '@ionic/react';
 import {
   settingsOutline,
-  exit,
+  exitOutline,
   personOutline,
   personAddOutline,
   lockClosedOutline,
   heartOutline,
   informationCircleOutline,
 } from 'ionicons/icons';
+import { InfoMessage } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import config from 'common/config';
 import { UserModel } from 'models/user';
@@ -28,10 +30,22 @@ type Props = {
   isLoggedIn: boolean;
   userModel: UserModel;
   appModel: AppModel;
+  refreshAccount: any;
+  resendVerificationEmail: any;
 };
 
-const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
+const Component: FC<Props> = ({
+  isLoggedIn,
+  userModel,
+  logOut,
+  appModel,
+  refreshAccount,
+  resendVerificationEmail,
+}) => {
   const lang = appModel.attrs.language;
+
+  const isNotVerified = userModel.attrs.verified === false; // verified is undefined in old versions
+  const userEmail = userModel.attrs.email;
 
   return (
     <IonContent class="app-menu">
@@ -41,11 +55,26 @@ const Component: FC<Props> = ({ isLoggedIn, userModel, logOut, appModel }) => {
         <div className="rounded">
           {isLoggedIn && (
             <IonItem detail id="logout-button" onClick={logOut}>
-              <IonIcon icon={exit} size="small" slot="start" />
+              <IonIcon icon={exitOutline} size="small" slot="start" />
               <T>Logout</T>
               {': '}
-              {userModel.attrs.firstname} {userModel.attrs.secondname}
+              {userModel.attrs.firstName} {userModel.attrs.lastName}
             </IonItem>
+          )}
+
+          {isLoggedIn && isNotVerified && (
+            <InfoMessage className="verification-warning">
+              Looks like your <b>{{ userEmail }}</b> email hasn't been verified
+              yet.
+              <div>
+                <IonButton fill="outline" onClick={refreshAccount}>
+                  Refresh
+                </IonButton>
+                <IonButton fill="clear" onClick={resendVerificationEmail}>
+                  Resend Email
+                </IonButton>
+              </div>
+            </InfoMessage>
           )}
 
           {!isLoggedIn && (
