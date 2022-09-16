@@ -16,14 +16,11 @@
         padding-right: 10px;
       }
 
-      position: fixed;
       color: var(--ion-color-main);
     }
   }
 
   ion-content {
-    --padding-top: 80px;
-
     .info-background-message {
       margin-top: 150px;
     }

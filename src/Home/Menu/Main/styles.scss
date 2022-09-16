@@ -1,4 +1,6 @@
 .app-menu {
+  --padding-top: env(safe-area-inset-top) !important;
+
   img {
     margin: 30px auto;
     display: block;
