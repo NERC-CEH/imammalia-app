@@ -35,7 +35,6 @@ const RegisterMain: FC<Props> = ({ onSubmit, schema, lang }) => {
             icon={personOutline}
             type="text"
             autocomplete="off"
-            t
             {...props}
           />
           <InputWithValidation

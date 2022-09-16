@@ -13,10 +13,6 @@ import userModel from './user';
 import { modelStore } from './store';
 import GPSExtension from './GPSExt';
 
-// import GPSExtension from './sampleGPSExt';
-// import Occurrence from './occurrence';
-// import Media from './image';
-
 type Attrs = SampleAttrs & {
   date: any;
   location?: any;
