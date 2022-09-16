@@ -20,7 +20,7 @@
       "models/*": ["./src/common/models/*"],
       "helpers/*": ["src/common/helpers/*"],
       "Components/*": ["src/common/Components/*"],
-      "Survey/*": ["./src/Survey/*"]
+      "Record/*": ["./src/Record/*"]
     }
   },
   "include": ["src"]

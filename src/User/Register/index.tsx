@@ -10,8 +10,8 @@ import './styles.scss';
 export type Details = {
   password: string;
   email: string;
-  firstname?: string | undefined;
-  secondname?: string | undefined;
+  firstName?: string;
+  lastName?: string;
 };
 
 const RegisterContainer: FC = () => {
@@ -22,15 +22,15 @@ const RegisterContainer: FC = () => {
 
   const lang = appModel.attrs.language;
 
-  const onSuccess = () => navigate('/home/surveys', 'root');
+  const onSuccess = () => navigate('/home/user-records', 'root');
 
   async function onRegister(details: Details) {
     const email = details.email.trim();
-    const { password, firstname, secondname } = details;
+    const { password, firstName, lastName } = details;
 
     const otherDetails = {
-      field_first_name: [{ value: firstname?.trim() }],
-      field_last_name: [{ value: secondname?.trim() }],
+      field_first_name: [{ value: firstName?.trim() }],
+      field_last_name: [{ value: lastName?.trim() }],
     };
 
     if (!device.isOnline) {
@@ -42,8 +42,8 @@ const RegisterContainer: FC = () => {
     try {
       await userModel.register(email, password, otherDetails);
 
-      userModel.attrs.firstname = firstname; // eslint-disable-line
-      userModel.attrs.lastname = secondname; // eslint-disable-line
+      userModel.attrs.firstName = firstName; // eslint-disable-line
+      userModel.attrs.lastName = lastName; // eslint-disable-line
       userModel.save();
 
       alert({

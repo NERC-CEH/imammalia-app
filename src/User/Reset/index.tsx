@@ -17,7 +17,7 @@ const ResetController: FC = () => {
   const toast = useToast();
   const loader = useLoader();
 
-  const onSuccess = () => navigate('/home/menu', 'root');
+  const onSuccess = () => navigate('/home/user-records', 'root');
 
   async function onSubmit(details: Details) {
     const { email } = details;

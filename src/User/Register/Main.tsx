@@ -30,7 +30,7 @@ const RegisterMain: FC<Props> = ({ onSubmit, schema, lang }) => {
       <IonList lines="full">
         <div className="rounded">
           <InputWithValidation
-            name="firstame"
+            name="firstName"
             placeholder="First Name"
             icon={personOutline}
             type="text"
