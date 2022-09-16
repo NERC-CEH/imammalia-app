@@ -9,7 +9,7 @@ import { ReactSVG } from 'react-svg';
 import MapBackground from '-!react-svg-loader!../../maps/background.svg'; //eslint-disable-line
 import { Trans as T, useTranslation } from 'react-i18next';
 import { MapContainer, SVGOverlay } from 'react-leaflet';
-import { LatLngExpression, LatLngBoundsExpression } from 'leaflet';
+import L, { LatLngBoundsExpression } from 'leaflet';
 import { Main } from '@flumens';
 import { Species } from 'common/Components/SpeciesList';
 import './styles.scss';
@@ -26,13 +26,16 @@ const habitats = [
   'farmlands',
 ];
 
-const DEFAULT_CENTER: LatLngExpression | undefined = [51.494, -0.07];
-
 const MAMMALNET_SPECIES_BASE_URL = 'https://mammalnet.com/species';
 
-const BOUNDS: LatLngBoundsExpression = [
-  [51.49, -0.08],
-  [51.5, -0.06],
+const SVG_BOUNDS: LatLngBoundsExpression = [
+  [0, 0],
+  [300, 400],
+];
+
+const MAP_BOUNDS: LatLngBoundsExpression = [
+  [50, -200],
+  [350, 200],
 ];
 
 type Props = {
@@ -97,23 +100,10 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
         </div>{' '}
       </IonCardContent>
 
-      <MapContainer
-        whenCreated={undefined}
-        id="species-map"
-        center={DEFAULT_CENTER}
-        zoom={15}
-      >
-        <SVGOverlay bounds={BOUNDS}>
-          <svg
-            viewBox="0 0 400 300"
-            preserveAspectRatio="none"
-            xmlns="http://www.w3.org/2000/svg"
-            xlinkHref="http://www.w3.org/1999/xlink"
-            version="1.1"
-          >
-            <use id="species-map-boundary" href="#boundary" />
-            <use id="species-map-data" href="#map2svg" />
-          </svg>
+      <MapContainer bounds={MAP_BOUNDS} id="species-map" crs={L.CRS.Simple}>
+        <SVGOverlay bounds={SVG_BOUNDS}>
+          <use id="species-map-boundary" href="#boundary" />
+          <use id="species-map-data" href="#map2svg" />
         </SVGOverlay>
       </MapContainer>
     </Main>
