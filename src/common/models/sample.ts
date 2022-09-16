@@ -4,6 +4,7 @@ import {
   SampleOptions,
   useAlert,
   getDeepErrorMessage,
+  device,
 } from '@flumens';
 import config from 'common/config';
 import surveyConfig from '../../Record/config';
@@ -48,17 +49,29 @@ class AppSample extends Sample {
     Object.assign(this, GPSExtension());
   }
 
+  cleanUp() {
+    this.stopGPS();
+
+    const stopGPS = (smp: AppSample) => {
+      smp.stopGPS();
+    };
+    this.samples.forEach(stopGPS);
+  }
+
   async upload() {
     if (this.remote.synchronising || this.isUploaded()) return true;
 
     const invalids = this.validateRemote();
     if (invalids) return false;
 
-    // if (!device.isOnline) return false;
+    if (!device.isOnline) return false;
 
-    // this.saveRemote();
+    const isActivated = await userModel.checkActivation();
+    if (!isActivated) return false;
 
-    return true;
+    this.cleanUp();
+
+    return this.saveRemote();
   }
 }
 

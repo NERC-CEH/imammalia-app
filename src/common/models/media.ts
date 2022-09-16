@@ -1,7 +1,6 @@
 import { Media, MediaAttrs } from '@flumens';
 import { isPlatform } from '@ionic/react';
 import config from 'common/config';
-import userModel from 'models/user';
 import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 
@@ -10,18 +9,9 @@ type Attrs = MediaAttrs;
 export default class AppMedia extends Media {
   attrs: Attrs = this.attrs;
 
-  constructor(options: any) {
-    super(options);
-
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    this.remote.url = `${config.backend.indicia.url}/index.php/services/rest`;
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    // eslint-disable-next-line
-    this.remote.headers = async () => ({
-      Authorization: `Bearer ${await userModel.getAccessToken()}`,
-    });
+  // eslint-disable-next-line class-methods-use-this
+  validateRemote() {
+    return null;
   }
 
   async destroy(silent?: boolean) {
