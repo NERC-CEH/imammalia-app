@@ -46,7 +46,7 @@ const HomeMain: FC<Props> = ({ sample }) => {
     const empty = !hasLocation;
 
     const value = locationAccuracy ? (
-      <IonLabel position="stacked" mode="ios">
+      <IonLabel position="stacked">
         <IonLabel>
           <GridRefValue sample={sample} />
         </IonLabel>

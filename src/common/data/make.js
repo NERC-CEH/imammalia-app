@@ -23,7 +23,7 @@ function saveSpeciesToFile(data, sheetName) {
 }
 
 function checkTranslationsExist(data) {
-  const jsonData = po2json.parseFileSync('../translations/en.pot');
+  const jsonData = po2json.parseFileSync('../translations/interface/en.pot');
   const checkExists = sp => {
     if (!jsonData[sp.description]) {
       throw new Error(`\n\n⛑  Missing translation:\n ${sp.description}\n\n`);
