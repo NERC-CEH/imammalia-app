@@ -30,8 +30,8 @@ export class UserModel extends DrupalUserModel {
 
   registerSchema = Yup.object().shape({
     email: Yup.string().email('email is not valid').required(),
-    firstname: Yup.string().required(),
-    secondname: Yup.string().required(),
+    firstName: Yup.string().required(),
+    lastName: Yup.string().required(),
     password: Yup.string().required(),
   });
 

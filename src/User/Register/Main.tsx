@@ -38,7 +38,7 @@ const RegisterMain: FC<Props> = ({ onSubmit, schema, lang }) => {
             {...props}
           />
           <InputWithValidation
-            name="secondName"
+            name="lastName"
             placeholder="Surname"
             icon={personOutline}
             type="text"
