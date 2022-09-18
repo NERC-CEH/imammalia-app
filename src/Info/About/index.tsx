@@ -15,27 +15,21 @@ const About = () => (
           record mammals in any European country, but does not yet have all
           European languages included.
         </P>
-      </Section>
 
-      <Section>
         <P>
           Sightings can be recorded anywhere, with or without photos, and all
           records will be verified by experts and made available to help with
           mapping the distribution of European mammals. You can check and update
           your records online.
         </P>
-      </Section>
 
-      <Section>
         <P>
           iMammalia is designed to make mammal recording easy. Smaller mammals
           are currently only listed at the generic level since they are much
           harder to tell apart. Later versions will include more countries,
           languages and species subject to funding.
         </P>
-      </Section>
 
-      <Section>
         <P>
           Users must first register, and can then log into a web site to view
           and correct records. Choice of country can be reviewed in the
