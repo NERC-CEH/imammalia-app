@@ -20,6 +20,8 @@ type Props = {
   sample: Sample;
 };
 
+const WILD_BOAR = 'Sus scrofa';
+
 const HomeMain: FC<Props> = ({ sample }) => {
   const [occ] = sample.occurrences;
   const { url } = useRouteMatch();
@@ -77,7 +79,6 @@ const HomeMain: FC<Props> = ({ sample }) => {
   const getBoarSpecificAttributes = () => {
     const { taxon } = occ?.attrs || null;
 
-    const WILD_BOAR = 'Sus scrofa';
     if (!taxon || taxon.taxon !== WILD_BOAR) {
       return null;
     }
