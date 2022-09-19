@@ -18,6 +18,8 @@
       "common/*": ["./src/common/*"],
       "@flumens": ["./src/common/flumens"],
       "models/*": ["./src/common/models/*"],
+      "helpers/*": ["src/common/helpers/*"],
+      "Components/*": ["src/common/Components/*"],
       "Record/*": ["./src/Record/*"]
     }
   },
