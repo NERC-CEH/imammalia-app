@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import {
   IonCardHeader,
   IonCardSubtitle,
@@ -9,10 +9,13 @@ import { ReactSVG } from 'react-svg';
 import MapBackground from '-!react-svg-loader!../../maps/background.svg'; //eslint-disable-line
 import { Trans as T, useTranslation } from 'react-i18next';
 import { MapContainer, SVGOverlay } from 'react-leaflet';
-import L, { LatLngBoundsExpression } from 'leaflet';
+import Leaflet, { LatLngBoundsExpression } from 'leaflet';
 import { Main } from '@flumens';
 import { Species } from 'common/Components/SpeciesList';
 import './styles.scss';
+
+const DEFAULT_ZOOM = 2;
+const DEFAULT_CENTER: number[] = [51.505, 200.09];
 
 const habitats = [
   'aquatic',
@@ -33,11 +36,6 @@ const SVG_BOUNDS: LatLngBoundsExpression = [
   [300, 400],
 ];
 
-const MAP_BOUNDS: LatLngBoundsExpression = [
-  [50, -200],
-  [350, 200],
-];
-
 type Props = {
   species: Species;
 };
@@ -46,11 +44,26 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
   const { mammalnet_website_path: webPath } = species;
   const url = `${MAMMALNET_SPECIES_BASE_URL}/${webPath}`;
   const { t } = useTranslation();
+  const [map, setMap]: any = useState(null);
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [mapZoom, _zoom] = useState(DEFAULT_ZOOM);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [mapCenter, _center] = useState(DEFAULT_CENTER);
 
   const habitatsString = habitats
     .filter(habitat => (species as any)[habitat])
     .map(habitat => t(habitat))
     .join(', ');
+
+  const assignRef = (mapRef: Leaflet.Map) => setMap(mapRef);
+
+  const refreshMapPositionAndZoom = () => {
+    if (!map) return;
+    map.setView(mapCenter, mapZoom);
+  };
+
+  useEffect(refreshMapPositionAndZoom, [map, mapCenter, mapZoom]);
 
   return (
     <Main id="species-profile">
@@ -100,7 +113,7 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
         </div>{' '}
       </IonCardContent>
 
-      <MapContainer bounds={MAP_BOUNDS} id="species-map" crs={L.CRS.Simple}>
+      <MapContainer whenCreated={assignRef} id="species-map">
         <SVGOverlay bounds={SVG_BOUNDS}>
           <use id="species-map-boundary" href="#boundary" />
           <use id="species-map-data" href="#map2svg" />

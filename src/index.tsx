@@ -10,6 +10,7 @@ import App from './App';
 import '@capacitor/core';
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
+import 'leaflet/dist/leaflet.css';
 import 'common/theme.scss';
 
 console.log('🚩 App starting.');
