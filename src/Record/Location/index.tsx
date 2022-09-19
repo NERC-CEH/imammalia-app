@@ -39,6 +39,8 @@ const Location: FC<Props> = ({ sample }) => {
   const setLocationAccuracy = (acc: any) => {
     // eslint-disable-next-line no-param-reassign
     sample.attrs.manual_location_accuracy = acc.detail.value;
+    // eslint-disable-next-line no-param-reassign
+    sample.attrs.location.accuracy = null;
     sample.save();
   };
 
@@ -96,6 +98,18 @@ const Location: FC<Props> = ({ sample }) => {
     selectRef.current.open();
   };
 
+  function onGPSClick() {
+    // turn off if running
+    if (sample.isGPSRunning()) {
+      sample.stopGPS();
+    } else {
+      sample.startGPS();
+      // eslint-disable-next-line no-param-reassign
+      sample.attrs.manual_location_accuracy = null;
+      sample.save();
+    }
+  }
+
   return (
     <Page id="survey-location-page">
       <IonHeader>
@@ -116,7 +130,7 @@ const Location: FC<Props> = ({ sample }) => {
           location={location}
           setLocation={setLocation}
           mapProviderOptions={config.map}
-          onGPSClick={() => ModelLocationMap.utils.onGPSClick(sample)}
+          onGPSClick={onGPSClick}
           whenCreated={assignRef}
         />
       </Main>

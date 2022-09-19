@@ -48,12 +48,14 @@ const HomeMain: FC<Props> = ({ sample }) => {
     const empty = !hasLocation;
 
     const value = locationAccuracy ? (
-      <IonLabel position="stacked">
-        <IonLabel>
+      <IonLabel position="stacked" mode="ios">
+        <IonLabel mode="ios">
           <GridRefValue sample={sample} />
         </IonLabel>
         {locationAccuracy && (
-          <span className="record-location-accuracy">{locationAccuracy}</span>
+          <IonLabel mode="ios">
+            <span className="record-location-accuracy">{locationAccuracy}</span>
+          </IonLabel>
         )}
       </IonLabel>
     ) : (
