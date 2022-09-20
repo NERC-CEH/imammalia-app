@@ -1,16 +1,17 @@
-.DS_Store
-.idea
-.sass-cache
-.npm-debug.log
-build/
+  node_modules/
 dist/
-cordova/
-resources/
-node_modules
+build/
+/components
+/resources
+/backend
 .env*
+!.env.example
 *.patch
-yarn.lock
 coverage
 .vscode
+.nowbuild
+.now
+.DS_Store
+.npm-debug.log
 .vercel
-backend/
+.gradle
