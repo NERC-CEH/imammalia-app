@@ -73,6 +73,7 @@ workflows:
             - app_password: $ITUNES_CONNECT_APP_PASS
             - itunescon_user: $ITUNES_CONNECT_USER
       - script@1:
+          run_if: enveq "BUILD_ONLY" ""
           title: Git Tag
           inputs:
             - content: |
