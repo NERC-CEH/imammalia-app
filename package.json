@@ -3,7 +3,7 @@
   "id": "uk.ac.ceh.imammalia",
   "title": "iMammalia App",
   "description": "iMammalia mobile application.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "homepage": "https://european-mammals.brc.ac.uk",
   "scripts": {
     "start": "webpack serve --progress --port 8000",

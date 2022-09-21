@@ -1,3 +1,8 @@
+## 1.5.0
+
+Updated UI design.
+Various bug fixes.
+
 ## 1.4.0
 
 Added Czech, French, Norwegian, Slovak and Ukrainian languages.
