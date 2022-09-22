@@ -1,15 +1,18 @@
 import { FC } from 'react';
 import Sample from 'models/sample';
 import { observer } from 'mobx-react';
+import CONFIG from 'common/config';
 import {
   Main,
   MenuAttrItem,
   MenuAttrItemFromModel,
   DateTimeInput,
+  InfoMessage,
 } from '@flumens';
-import { IonList, IonLabel } from '@ionic/react';
-import { calendarOutline, mapOutline } from 'ionicons/icons';
+import { IonList, IonLabel, IonButton } from '@ionic/react';
+import { calendarOutline, mapOutline, informationCircle } from 'ionicons/icons';
 import { useRouteMatch } from 'react-router';
+import { Trans as T } from 'react-i18next';
 import clsx from 'clsx';
 import PhotoPicker from 'Record/common/Components/PhotoPicker';
 import GridRefValue from 'Record/common/Components/GridRefValue';
@@ -114,6 +117,24 @@ const HomeMain: FC<Props> = ({ sample }) => {
 
   return (
     <Main>
+      {isDisabled && (
+        <InfoMessage className="blue" icon={informationCircle} skipTranslation>
+          <T>
+            This record has been submitted and cannot be edited within this App.
+          </T>
+          <IonButton
+            href={`${CONFIG.backend.url}/record/details?occurrence_id=${occ.id}`}
+            expand="block"
+            color="dark"
+            fill="outline"
+            size="small"
+            className="website-link"
+          >
+            <T>iMammalia website</T>
+          </IonButton>
+        </InfoMessage>
+      )}
+
       <IonList lines="full">
         <div className="rounded">
           <MenuAttrItem
