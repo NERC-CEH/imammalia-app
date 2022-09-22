@@ -33,9 +33,8 @@ const ResetController: FC = () => {
         header: "We've sent an email to you",
         message: (
           <T>
-            "Click the link in the email to reset your password. If you don't
-            see the email, check other places like your junk, spam or other
-            folders."
+            Click the link in the email to reset your password. If you don't see
+            the email, check other places like your junk, spam or other folders.
           </T>
         ),
         buttons: [

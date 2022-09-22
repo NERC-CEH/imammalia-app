@@ -24,11 +24,14 @@ const SelectLanguage: FC<Props> = ({ appModel, hideHeader }) => {
   const currentValue = appModel.attrs.language;
   const { goBack } = useContext(NavContext);
 
+  const isSettingsPage = !hideHeader;
+
   function onSelect(e: any) {
     // eslint-disable-next-line no-param-reassign
     appModel.attrs.language = e.target.value;
     appModel.save();
-    goBack();
+
+    if (isSettingsPage) goBack();
   }
 
   const languageExists = ([, lang]: any) => !!lang;

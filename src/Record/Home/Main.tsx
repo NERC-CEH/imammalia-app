@@ -184,6 +184,7 @@ const HomeMain: FC<Props> = ({ sample }) => {
             attr="comment"
             model={occ}
             routerLink={`${url}/${occ?.cid}/comment`}
+            skipValueTranslation
           />
         </div>
 

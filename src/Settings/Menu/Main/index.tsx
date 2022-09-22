@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Attrs as AppModelAttrs } from 'models/app';
 import { observer } from 'mobx-react';
+import CONFIG from 'common/config';
 import {
   Main,
   useAlert,
@@ -71,9 +72,10 @@ function useUserDeleteDialog(deleteUser: any) {
             icon={warningOutline}
             className="destructive-warning"
           >
-            This will remove your account on the iRecord website. You will lose
-            access to any records that you have previously submitted using the
-            app or website.
+            This will remove your account on the{' '}
+            <b>{{ url: CONFIG.backend.url }}</b> website. You will lose access
+            to any records that you have previously submitted using the app or
+            website.
           </InfoMessage>
         </>
       ),
@@ -199,6 +201,8 @@ const MenuMain: FC<Props> = ({
           )}
         </div>
       </IonList>
+
+      <p className="app-version">{`v${CONFIG.version} (${CONFIG.build})`}</p>
     </Main>
   );
 };

@@ -26,11 +26,14 @@ const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
   const { goBack } = useContext(NavContext);
   const currentValue = appModel.attrs.country;
 
+  const isSettingsPage = !hideHeader;
+
   function onSelect(e: any) {
     // eslint-disable-next-line no-param-reassign
     appModel.attrs.country = e.target.value;
     appModel.save();
-    goBack();
+
+    if (isSettingsPage) goBack();
   }
 
   const countriesOptions = Object.entries(countries).map(([value, country]) => (

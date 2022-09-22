@@ -1,4 +1,17 @@
 #settings {
+  .app-version {
+    opacity: 0.6;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    margin: 0;
+
+    // tablet friendly
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   ion-content {
     --padding-top: 10px;
 

@@ -1721,3 +1721,79 @@ msgstr ""
 # An error message
 msgid "Could not find/authenticate user."
 msgstr "Could not find/authenticate user."
+
+# App settings page info-message 
+msgid "Share app crash data so we can make the app more reliable."
+msgstr "Share app crash data so we can make the app more reliable."
+
+# App settings page info-message 
+msgid "You can reset the app data to its default settings."
+msgstr "You can reset the app data to its default settings."
+
+# App settings page info-message 
+msgid "You can delete your user account from the system."
+msgstr "You can delete your user account from the system."
+
+# App settings page account delete alert header
+msgid "Account delete"
+msgstr "Account delete"
+
+# App settings page account delete alert message
+msgid "This will remove your account on the <2>{{url}}</2> website. You will lose access to any records that you have previously submitted using the app or website."
+msgstr "This will remove your account on the <2>{{url}}</2> website. You will lose access to any records that you have previously submitted using the app or website."
+
+# Logout alert message
+msgid "Your pending and uploaded <1>records will not be deleted </1> from this device."
+msgstr "Your pending and uploaded <1>records will not be deleted </1> from this device."
+
+# Sign in page content
+msgid "Sign in to your account to start"
+msgstr "Sign in to your account to start"
+
+# Sign in page content
+msgid "I don't have an account"
+msgstr "I don't have an account"
+
+# Successfully sign in message 
+msgid "Looks like your <1>{{userEmail}}</1> email hasn't been verified yet.<3><0>Refresh</0><1>Resend Email</1></3>"
+msgstr "Looks like your <1>{{userEmail}}</1> email hasn't been verified yet.<3><0>Refresh</0><1>Resend Email</1></3>"
+
+# Successfully sign in message 
+msgid "Successfully logged in as: {{email}}"
+msgstr "Successfully logged in as: {{email}}"
+
+# Register page content 
+msgid "Create a free account"
+msgstr "Create a free account"
+
+# Register page content 
+msgid "By clicking Sign Up, you agree to our"
+msgstr "By clicking Sign Up, you agree to our"
+
+# Record page Date picker label
+msgid "Yesterday"
+msgstr "Yesterday"
+
+# Record page 
+msgid "Training"
+msgstr "Training"
+
+# Record page link to website content
+msgid "This record has been submitted and cannot be edited within this App."
+msgstr "This record has been submitted and cannot be edited within this App."
+
+# Record page link to website content
+msgid "iMammalia website"
+msgstr "iMammalia website"
+
+# Record page Photo picker label
+msgid "No photo has been added.<br/>Press <3></3> to add."
+msgstr "No photo has been added.<br/>Press <3></3> to add."
+
+# Context term 
+msgid "To delete any records swipe it to the left."
+msgstr "To delete any records swipe it to the left."
+
+# Context term 
+msgid "Hide"
+msgstr "Hide"
