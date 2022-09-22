@@ -1396,7 +1396,7 @@ msgid "Today"
 msgstr "Dnes"
 
 msgid "Number"
-msgstr "Číslo"
+msgstr "Počet"
 
 msgid "Method"
 msgstr "Metoda"

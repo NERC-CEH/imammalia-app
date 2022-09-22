@@ -2,8 +2,8 @@
 host = https://www.transifex.com
 
 [imammalia.app]
-file_filter = src/common/translations/<lang>.po
+file_filter = src/common/translations/interface/<lang>.po
 minimum_perc = 0
-source_file = src/common/translations/en.pot
+source_file = src/common/translations/interface/en.pot
 source_lang = en
 type = POT

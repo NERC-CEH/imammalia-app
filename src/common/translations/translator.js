@@ -69,7 +69,7 @@ function translate(key, isSpeciesDescription, isSpeciesName) {
   if (isSpeciesName) {
     return i18n.t(key, {
       ns: 'names',
-      lngs: ['lt-LT'], // don't revert to english if no local species name
+      lngs: [i18n.language], // don't revert to english if no local species name
       defaultValue: '', // don't return anything if no local species name
     });
   }
@@ -78,7 +78,7 @@ function translate(key, isSpeciesDescription, isSpeciesName) {
     // revert to English descriptions
     let translation = i18n.t(key, { ns: 'species' });
     if (!translation) {
-      translation = i18n.t(key, { ns: 'species', lng: 'lt-Lt' });
+      translation = i18n.t(key, { ns: 'species', lng: 'en' });
     }
     return translation !== key ? translation : null;
   }
