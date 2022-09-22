@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import appModel from 'models/app';
 import { IonButton } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import { Page, Main } from '@flumens';
+import { Page } from '@flumens';
 import SwiperCore, { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -12,6 +12,9 @@ import '@ionic/react/css/ionic-swiper.css';
 import backgroundImage1 from './images/welcome_1.jpg';
 import backgroundImage2 from './images/welcome_2.jpg';
 import './styles.scss';
+
+// Fixes iOS 12 scrolling issue.
+const Main: FC = ({ children }) => <div>{children}</div>;
 
 const OnBoardingScreens: FC = ({ children }) => {
   const [moreSlidesExist, setMoreSlidesExist] = useState(true);

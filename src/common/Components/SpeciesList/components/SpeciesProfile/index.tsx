@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect, useState, useRef } from 'react';
 import {
   IonCardHeader,
   IonCardSubtitle,
@@ -46,6 +46,8 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
   const { t } = useTranslation();
   const [map, setMap]: any = useState(null);
 
+  const svgOverlay = useRef(null);
+
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [mapZoom, _zoom] = useState(DEFAULT_ZOOM);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -61,6 +63,10 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
   const refreshMapPositionAndZoom = () => {
     if (!map) return;
     map.setView(mapCenter, mapZoom);
+    const bounds = map.getBounds();
+    map.fitBounds(bounds);
+
+    console.log('svgOverlay', svgOverlay);
   };
 
   useEffect(refreshMapPositionAndZoom, [map, mapCenter, mapZoom]);
@@ -114,7 +120,7 @@ const SpeciesProfile: FC<Props> = ({ species }) => {
       </IonCardContent>
 
       <MapContainer whenCreated={assignRef} id="species-map">
-        <SVGOverlay bounds={SVG_BOUNDS}>
+        <SVGOverlay ref={svgOverlay} bounds={SVG_BOUNDS}>
           <use id="species-map-boundary" href="#boundary" />
           <use id="species-map-data" href="#map2svg" />
         </SVGOverlay>
