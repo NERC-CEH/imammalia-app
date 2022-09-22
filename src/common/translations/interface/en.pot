@@ -1790,10 +1790,18 @@ msgstr "iMammalia website"
 msgid "No photo has been added.<br/>Press <3></3> to add."
 msgstr "No photo has been added.<br/>Press <3></3> to add."
 
-# Context term 
+# User Records page info message
 msgid "To delete any records swipe it to the left."
 msgstr "To delete any records swipe it to the left."
 
-# Context term 
+# User Records page info message
 msgid "Hide"
 msgstr "Hide"
+
+# Registration form error field
+msgid "firstName is a required field"
+msgstr "firstName is a required field"
+
+# Registration form error field
+msgid "lastName is a required field"
+msgstr "lastName is a required field"
