@@ -10,10 +10,19 @@
       &.md {
         --ion-toolbar-background: white;
       }
+      ion-segment {
+        max-width: calc(100% - 20px); // padding for lists
+        width: 100%;
+        margin: 8px auto;
+        z-index: 100000000;
 
-      ion-segment-button {
-        padding-left: 10px;
-        padding-right: 10px;
+        ion-label {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin-left: 1px;
+        }
       }
 
       color: var(--ion-color-main);
@@ -26,7 +35,7 @@
     }
 
     .upload-all-button {
-      margin: 0 auto 20px;
+      margin: 20px auto;
       max-width: 60%;
     }
   }

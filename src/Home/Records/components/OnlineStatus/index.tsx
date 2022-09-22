@@ -16,13 +16,11 @@ const OnlineStatus: FC<Props> = ({ sample, onUpload, uploadIsPrimary }) => {
 
   if (!saved) {
     return (
-      <IonLabel slot="end" class="survey-status">
-        <IonChip slot="end" class="survey-status">
-          <IonLabel>
-            <T>Draft</T>
-          </IonLabel>
-        </IonChip>
-      </IonLabel>
+      <IonChip slot="end" class="survey-status">
+        <IonLabel>
+          <T>Draft</T>
+        </IonLabel>
+      </IonChip>
     );
   }
 
