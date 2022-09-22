@@ -26,6 +26,9 @@ const getPhotoAttribution = () => {
 const Credits = () => {
   const { language } = appModel.attrs;
   const showKarolina = !['mk_MK', 'sr_RS'].includes(language);
+  const showDominika = ['sk_SK'].includes(language);
+  const showKatrine = ['no_NO'].includes(language);
+  const showJobardAndWaller = ['fr_FR'].includes(language);
 
   return (
     <Page id="credits">
@@ -62,6 +65,10 @@ const Credits = () => {
           <P skipTranslation>Jose A Blanco</P>
           <P skipTranslation>Oliver Keuling</P>
           {showKarolina && <P skipTranslation>Karolina Petrović</P>}
+          {showDominika && <P skipTranslation>Dominika Králiková</P>}
+          {showKatrine && <P skipTranslation>Katrine Eldegard</P>}
+          {showJobardAndWaller && <P skipTranslation>Laurène Jobard</P>}
+          {showJobardAndWaller && <P skipTranslation>Elisabeth Waller</P>}
           <P skipTranslation>Massimo Scandura</P>
           <P skipTranslation>Nikica Šprem</P>
           <P skipTranslation>Nera Fabijanić</P>
