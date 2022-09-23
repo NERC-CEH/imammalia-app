@@ -322,7 +322,7 @@ const record = {
       attrs: {
         location: null,
         device: isPlatform('android') ? 'android' : 'ios',
-        appVersion: config.version,
+        app_version: config.version,
       },
     });
 
