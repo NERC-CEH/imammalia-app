@@ -1800,8 +1800,10 @@ msgstr "firstName is a required field"
 msgid "lastName is a required field"
 msgstr "lastName is a required field"
 
-
 # User Records page info message
 msgid "Please do not forget to upload any pending records!"
 msgstr "Please do not forget to upload any pending records!"
 
+# Register email if account already exist
+msgid "This email is already taken."
+msgstr "This email is already taken."
