@@ -1,11 +1,11 @@
 import { FC, useState, SyntheticEvent } from 'react';
-import { Main, ModalHeader, UserFeedbackRequest } from '@flumens';
+import { Main, UserFeedbackRequest } from '@flumens';
 import { Trans as T } from 'react-i18next';
 import { AppModel } from 'models/app';
 import { UserModel } from 'models/user';
 import SavedSamples from 'models/savedSamples';
 import { observer } from 'mobx-react';
-import { IonModal, IonGrid, IonRow, IonCol } from '@ionic/react';
+import { IonGrid, IonRow, IonCol } from '@ionic/react';
 import species from 'common/data/species.data.json';
 import CONFIG from 'common/config';
 import speciesGroups from 'common/data/species_groups.data.json';
@@ -219,10 +219,7 @@ const SpeciesController: FC<Props> = ({
 
       {getSpeciesGrid()}
 
-      <IonModal isOpen={!!speciesProfile} backdropDismiss={false}>
-        <ModalHeader title="Species" onClose={hideSpeciesModal} />
-        {!!speciesProfile && <SpeciesProfile species={speciesProfile} />}
-      </IonModal>
+      <SpeciesProfile species={speciesProfile} onClose={hideSpeciesModal} />
     </Main>
   );
 };
