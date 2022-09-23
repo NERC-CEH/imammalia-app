@@ -1807,3 +1807,9 @@ msgstr "Please do not forget to upload any pending records!"
 # Register email if account already exist
 msgid "This email is already taken."
 msgstr "This email is already taken."
+
+# Register email if account already exist
+msgid "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
+msgstr "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
+
+ 
