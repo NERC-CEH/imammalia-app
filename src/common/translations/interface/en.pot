@@ -1073,9 +1073,6 @@ msgstr "Algerian hedgehog"
 msgid "Western hedgehog"
 msgstr "Western hedgehog"
 
-msgid "Eastern hedgehog"
-msgstr "Eastern hedgehog"
-
 msgid "European rabbit"
 msgstr "European rabbit"
 
@@ -1210,9 +1207,6 @@ msgstr "Eastern cottontail rabbit"
 
 msgid "Cape hare"
 msgstr "Cape hare"
-
-msgid "Corsican hare"
-msgstr "Corsican hare"
 
 msgid "Persian squirrel"
 msgstr "Persian squirrel"
@@ -1805,3 +1799,9 @@ msgstr "firstName is a required field"
 # Registration form error field
 msgid "lastName is a required field"
 msgstr "lastName is a required field"
+
+
+# User Records page info message
+msgid "Please do not forget to upload any pending records!"
+msgstr "Please do not forget to upload any pending records!"
+
