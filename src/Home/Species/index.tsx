@@ -75,13 +75,15 @@ const SpeciesController: FC<Props> = ({
 }) => {
   const alert = useAlert();
   const { t } = useTranslation();
+
+  const color = appModel.attrs.speciesFilter.length > 0 ? 'secondary' : 'light';
   return (
     <Page id="home-species">
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="end">
             <IonButton onClick={() => showFiltersDialog(appModel, alert, t)}>
-              <IonIcon icon={funnel} role="img" />
+              <IonIcon color={color} icon={funnel} role="img" />
             </IonButton>
           </IonButtons>
         </IonToolbar>
