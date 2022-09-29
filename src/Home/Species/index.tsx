@@ -76,7 +76,8 @@ const SpeciesController: FC<Props> = ({
   const alert = useAlert();
   const { t } = useTranslation();
 
-  const color = appModel.attrs.speciesFilter.length > 0 ? 'secondary' : 'light';
+  const color =
+    appModel.attrs?.speciesFilter?.length > 0 ? 'secondary' : 'light';
   return (
     <Page id="home-species">
       <IonHeader>
