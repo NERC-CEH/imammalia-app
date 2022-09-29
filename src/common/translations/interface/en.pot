@@ -836,12 +836,9 @@ msgstr ""
 "Relatively small with brown fur with no obvious spots, and a short bushy "
 "tail"
 
-msgid ""
-"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
-" upper arms."
-msgstr ""
-"A small upright kangaroo, brownish grey with a chesnut patch on the neck and"
-" upper arms."
+# Species description 
+msgid "A small upright kangaroo, brownish grey with a chestnut patch on the neck and upper arms."
+msgstr "A small upright kangaroo, brownish grey with a chestnut patch on the neck and upper arms."
 
 msgid "A small hedgehog with pale face and long ears."
 msgstr "A small hedgehog with pale face and long ears."
@@ -938,8 +935,9 @@ msgid ""
 msgstr ""
 "A porcupine with typical black and white quills that run along the body"
 
-msgid "Elongated shilhouette, small ears and white to yellowish fur."
-msgstr "Elongated shilhouette, small ears and white to yellowish fur."
+# Species description
+msgid "Elongated silhouette, small ears and white to yellowish fur."
+msgstr "Elongated silhouette, small ears and white to yellowish fur."
 
 msgid ""
 "Small fox with short ears. White in winter and in summer grey on the back "
@@ -1812,4 +1810,7 @@ msgstr "This email is already taken."
 msgid "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
 msgstr "A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders."
 
+# Registration form error field
+msgid "email must be a valid email"
+msgstr "email must be a valid email"
  
