@@ -229,8 +229,8 @@ const record = {
             info: 'Please specify the state of decomposition of the mammal.',
             inputProps: { options: decompositionValues },
           },
-          remote: { id: 825, values: decompositionValues },
         },
+        remote: { id: 825, values: decompositionValues },
       },
 
       number: {
