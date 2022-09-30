@@ -4,7 +4,6 @@ import { Trans as T } from 'react-i18next';
 import { AppModel } from 'models/app';
 import { UserModel } from 'models/user';
 import SavedSamples from 'models/savedSamples';
-import { observer } from 'mobx-react';
 import { IonGrid, IonRow, IonCol } from '@ionic/react';
 import species from 'common/data/species.data.json';
 import CONFIG from 'common/config';
@@ -224,4 +223,4 @@ const SpeciesController: FC<Props> = ({
   );
 };
 
-export default observer(SpeciesController);
+export default SpeciesController;

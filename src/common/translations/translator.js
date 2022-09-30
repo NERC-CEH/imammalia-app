@@ -36,7 +36,7 @@ i18n
   .init({
     defaultNS: 'interface',
     resources,
-    lng: 'de-DE',
+    lng: DEFAULT_LANGUAGE,
     fallbackLng: DEFAULT_LANGUAGE,
 
     keySeparator: false, // we do not use keys in form messages.welcome
