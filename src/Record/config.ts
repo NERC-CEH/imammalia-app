@@ -102,25 +102,17 @@ const record = {
         id: 'entered_sref',
         values(location: any, submission: any) {
           // convert accuracy for map and gridref sources
-          const {
-            accuracy,
-            source,
-            gridref,
-            altitude,
-            name,
-            altitudeAccuracy,
-          } = location;
+          const { accuracy, source, altitude,  altitudeAccuracy } =
+            location;
 
           // add other location related attributes
           // eslint-disable-next-line
           submission.values = { ...submission.values };
 
           submission.values['smpAttr:760'] = source; // eslint-disable-line
-          submission.values['smpAttr:335'] = gridref; // eslint-disable-line
           submission.values['smpAttr:282'] = accuracy; // eslint-disable-line
           submission.values['smpAttr:283'] = altitude; // eslint-disable-line
           submission.values['smpAttr:284'] = altitudeAccuracy; // eslint-disable-line
-          submission.values['location_name'] = name; // eslint-disable-line
 
           const lat = parseFloat(location.latitude);
           const lon = parseFloat(location.longitude);
