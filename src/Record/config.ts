@@ -102,8 +102,7 @@ const record = {
         id: 'entered_sref',
         values(location: any, submission: any) {
           // convert accuracy for map and gridref sources
-          const { accuracy, source, altitude,  altitudeAccuracy } =
-            location;
+          const { accuracy, source, altitude, altitudeAccuracy } = location;
 
           // add other location related attributes
           // eslint-disable-next-line
