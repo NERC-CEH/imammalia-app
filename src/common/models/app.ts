@@ -43,6 +43,10 @@ const defaults: Attrs = {
 
 export class AppModel extends Model {
   attrs: Attrs = Model.extendAttrs(this.attrs, defaults);
+
+  resetDefaults() {
+    return super.resetDefaults(defaults);
+  }
 }
 
 const appModel = new AppModel({ cid: 'app', store: genericStore });

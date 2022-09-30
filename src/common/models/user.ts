@@ -61,6 +61,10 @@ export class UserModel extends DrupalUserModel {
     return true;
   }
 
+  resetDefaults() {
+    return super.resetDefaults(defaults);
+  }
+
   /**
    * Migrate from Indicia API auth to JWT. Remove in the future versions.
    */
