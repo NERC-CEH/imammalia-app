@@ -7,6 +7,7 @@ import {
   device,
 } from '@flumens';
 import config from 'common/config';
+import { isPlatform } from '@ionic/react';
 import surveyConfig from '../../Record/config';
 import Occurrence from './occurrence';
 import Media from './media';
@@ -72,6 +73,49 @@ class AppSample extends Sample {
     this.cleanUp();
 
     return this.saveRemote();
+  }
+
+  _attachTopSampleSubmission(updatedSubmission: any) {
+    const isTopSample = !this.parent;
+    if (!isTopSample) {
+      return;
+    }
+
+    const keys = this.keys();
+
+    const platform = isPlatform('android') ? 'Android' : 'iOS';
+
+    const byPlatform = (mobileDevice: { value: string; id: number }) =>
+      mobileDevice.value === platform ? mobileDevice : undefined;
+
+    const appAndDeviceFields = {
+      [`smpAttr:${keys.device.id}`]: keys.device.values.find(byPlatform).id,
+      [`smpAttr:${keys.device_version.id}`]: device?.info?.osVersion,
+      [`smpAttr:${keys.app_version.id}`]: config.version,
+    };
+
+    // eslint-disable-next-line no-param-reassign
+    updatedSubmission.values = {
+      ...updatedSubmission.values,
+      ...appAndDeviceFields,
+    };
+  }
+
+  getSubmission(...args: any) {
+    const submission = super.getSubmission(...args);
+
+    const newAttrs = {
+      survey_id: surveyConfig.id,
+      input_form: surveyConfig.webForm,
+    };
+    const updatedSubmission = {
+      ...submission,
+      values: { ...submission.values, ...newAttrs },
+    };
+
+    this._attachTopSampleSubmission(updatedSubmission);
+
+    return updatedSubmission;
   }
 }
 
