@@ -2,7 +2,7 @@ import { FC, Fragment, useContext } from 'react';
 import { Page, Header, Main } from '@flumens';
 import { AppModel } from 'models/app';
 import { observer } from 'mobx-react';
-import { Trans as T } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import {
   IonIcon,
   IonList,
@@ -20,9 +20,17 @@ import './styles.scss';
 type Props = {
   appModel: AppModel;
   hideHeader?: boolean;
+  /**
+   *  Bug: (onBoarding page) page not re-rendering, possibly race condition.
+   */
+  t?: any;
 };
 
-const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
+const SelectCountry: FC<Props> = ({ appModel, hideHeader, t: tProp }) => {
+  let { t } = useTranslation();
+
+  t = tProp || t;
+
   const { goBack } = useContext(NavContext);
   const currentValue = appModel.attrs.country;
 
@@ -40,9 +48,7 @@ const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
     <Fragment key={value}>
       {value === 'ELSEWHERE' && <IonItemDivider key="test" />}
       <IonItem key={value}>
-        <IonLabel>
-          <T>{country}</T>
-        </IonLabel>
+        <IonLabel>{t(country)}</IonLabel>
         <IonRadio value={value} defaultChecked={currentValue === value} />
       </IonItem>
     </Fragment>
@@ -57,9 +63,7 @@ const SelectCountry: FC<Props> = ({ appModel, hideHeader }) => {
           {hideHeader && (
             <div className="header">
               <IonIcon icon={flag} size="large" />
-              <h4>
-                <T>Select your country</T>
-              </h4>
+              <h4>{t('Select your country')}</h4>
             </div>
           )}
           <IonRadioGroup onIonChange={onSelect} value={currentValue}>
