@@ -147,12 +147,16 @@ const record = {
     device: {
       id: 922,
       values: {
+        ios: 2398,
+        android: 2399,
+        // backwards compatible
         iOS: 2398,
         Android: 2399,
       },
     },
-    device_version: { id: 759 },
-    app_version: { id: 1139 },
+
+    device_version: { remote: { id: 759 } },
+    app_version: { remote: { id: 1139 } },
   },
 
   occ: {

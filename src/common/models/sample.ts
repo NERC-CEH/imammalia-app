@@ -85,11 +85,10 @@ class AppSample extends Sample {
 
     const platform = isPlatform('android') ? 'Android' : 'iOS';
 
-    const byPlatform = (mobileDevice: { value: string; id: number }) =>
-      mobileDevice.value === platform ? mobileDevice : undefined;
+    const platformId = keys?.device?.values[platform] || null;
 
     const appAndDeviceFields = {
-      [`smpAttr:${keys.device.id}`]: keys.device.values.find(byPlatform).id,
+      [`smpAttr:${keys.device.id}`]: platformId,
       [`smpAttr:${keys.device_version.id}`]: device?.info?.osVersion,
       [`smpAttr:${keys.app_version.id}`]: config.version,
     };
