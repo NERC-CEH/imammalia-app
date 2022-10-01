@@ -4,6 +4,7 @@ import Sample from 'models/sample';
 import { useAlert } from '@flumens';
 import appModel, { SurveyDraftKeys } from 'models/app';
 import savedSamples from 'models/savedSamples';
+import { useRouteMatch } from 'react-router';
 import SurveyConfig from './config';
 
 async function showDraftAlert(alert: any) {
@@ -74,6 +75,7 @@ type Props = {
 function StartNewRecord({ survey }: Props): null {
   const { navigate } = useContext(NavContext);
   const alert = useAlert();
+  const match = useRouteMatch();
 
   const baseURL = `/record/${survey.name}`;
 
@@ -94,7 +96,7 @@ function StartNewRecord({ survey }: Props): null {
     pickDraftOrCreateSample();
   };
 
-  useEffect(pickDraftOrCreateSampleWrap, []);
+  useEffect(pickDraftOrCreateSampleWrap, [match.url]);
 
   return null;
 }
