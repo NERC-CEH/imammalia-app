@@ -1,8 +1,12 @@
+import { useContext } from 'react';
+import { NavContext } from '@ionic/react';
 import {
   DrupalUserModel,
   DrupalUserModelAttrs,
   useToast,
+  useAlert,
   useLoader,
+  device,
 } from '@flumens';
 import * as Yup from 'yup';
 import CONFIG from 'common/config';
@@ -127,24 +131,66 @@ const userModel = new UserModel({
 });
 
 export const useUserStatusCheck = () => {
+  const { navigate } = useContext(NavContext);
   const toast = useToast();
   const loader = useLoader();
+  const alert = useAlert();
 
-  const userStatusAlert = async () => {
+  const check = async () => {
+    if (!device.isOnline) {
+      toast.warn('Looks like you are offline!');
+      return false;
+    }
+
+    if (!userModel.isLoggedIn()) {
+      navigate(`/user/login`);
+      return false;
+    }
+
     if (!userModel.attrs.verified) {
       await loader.show('Please wait...');
       const isVerified = await userModel.checkActivation();
       loader.hide();
 
       if (!isVerified) {
-        toast.warn('The user has not been activated or is blocked.');
+        const resendVerificationEmail = async () => {
+          await loader.show('Please wait...');
+          try {
+            await userModel.resendVerificationEmail();
+            toast.success(
+              'A new verification email was successfully sent now. If you did not receive the email, then check your Spam or Junk email folders.'
+            );
+          } catch (err: any) {
+            toast.error(err);
+          }
+          loader.hide();
+        };
+
+        alert({
+          header: "Looks like your email hasn't been verified yet.",
+          message: 'Should we resend the verification email?',
+          buttons: [
+            {
+              text: 'Cancel',
+              role: 'cancel',
+              cssClass: 'secondary',
+            },
+            {
+              text: 'Resend',
+              cssClass: 'primary',
+              handler: resendVerificationEmail,
+            },
+          ],
+        });
+
         return false;
       }
     }
 
     return true;
   };
-  return userStatusAlert;
+
+  return check;
 };
 
 export default userModel;

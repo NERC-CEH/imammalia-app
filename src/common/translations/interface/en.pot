@@ -1813,4 +1813,20 @@ msgstr "A new verification email was successfully sent now. If you did not recei
 # Registration form error field
 msgid "email must be a valid email"
 msgstr "email must be a valid email"
+
+# Blocked account toast message
+msgid "The user has not been activated or is blocked."
+msgstr "The user has not been activated or is blocked."
+
+# User is not activated alert button label
+msgid "Resend"
+msgstr "Resend"
+
+# User is not activated alert message
+msgid "Looks like your email hasn't been verified yet."
+msgstr "Looks like your email hasn't been verified yet."
+
+# User is not activated alert message
+msgid "Should we resend the verification email?"
+msgstr "Should we resend the verification email?"
  
