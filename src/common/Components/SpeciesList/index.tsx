@@ -108,7 +108,7 @@ const SpeciesController: FC<Props> = ({
     appModel.save();
   };
 
-  const isNotRecordingMode = !onSpeciesClick;
+  const isNotRecordingMode = !!onSpeciesClick;
 
   const shouldShowFeedback = () => {
     if (isNotRecordingMode) return false;
