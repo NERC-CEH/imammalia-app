@@ -67,7 +67,8 @@ const SpeciesProfile: FC<Props> = ({ species, onClose }) => {
       .map(habitat => t(habitat))
       .join(', ');
 
-  const recalculateMapSize = () => map.invalidateSize();
+  const recalculateMapSize = () => map?.invalidateSize();
+
   return (
     <IonModal
       isOpen={!!species}
