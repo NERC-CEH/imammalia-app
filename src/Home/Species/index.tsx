@@ -17,7 +17,7 @@ import { funnel } from 'ionicons/icons';
 import SpeciesList from 'common/Components/SpeciesList';
 
 function showFiltersDialog(appModel: AppModel, alert: any, t: any) {
-  const currentValue = toJS(appModel.attrs.speciesFilter);
+  const currentValue = toJS(appModel.attrs.speciesFilter) || [];
 
   const sizes: any = {
     // xxxs doesn't exist yet

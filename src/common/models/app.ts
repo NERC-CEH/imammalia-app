@@ -14,7 +14,7 @@ export type Attrs = ModelAttrs &
     useTraining: boolean;
     feedbackGiven: any;
     recordDraftId: any;
-    speciesFilter: any;
+    speciesFilter: string[];
     useExperiments: any;
     sendAnalytics: any;
 
