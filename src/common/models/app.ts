@@ -2,7 +2,7 @@ import { Model, ModelAttrs } from '@flumens';
 import { genericStore } from './store';
 
 export type SurveyDraftKeys = {
-  'draftId:main': string | null;
+  recordDraftId: string | null;
 };
 
 export type Attrs = ModelAttrs &
@@ -13,7 +13,6 @@ export type Attrs = ModelAttrs &
     country: any;
     useTraining: boolean;
     feedbackGiven: any;
-    recordDraftId: any;
     speciesFilter: string[];
     useExperiments: any;
     sendAnalytics: any;
@@ -29,7 +28,6 @@ const defaults: Attrs = {
   country: null,
   useTraining: false,
   feedbackGiven: false,
-  recordDraftId: null,
   speciesFilter: [],
 
   useExperiments: false,
@@ -37,8 +35,7 @@ const defaults: Attrs = {
 
   showSurveysDeleteTip: true,
   showSurveyUploadTip: true,
-
-  'draftId:main': null,
+  recordDraftId: null,
 };
 
 export class AppModel extends Model {

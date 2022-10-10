@@ -49,7 +49,7 @@ const Home: FC<Props> = ({ sample, appModel }) => {
     if (!isValid) return;
 
     // eslint-disable-next-line
-    appModel.attrs['draftId:main'] = null;
+    appModel.attrs.recordDraftId = null;
     await appModel.save();
 
     // eslint-disable-next-line

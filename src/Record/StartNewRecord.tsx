@@ -2,7 +2,7 @@ import { useEffect, useContext } from 'react';
 import { NavContext } from '@ionic/react';
 import Sample from 'models/sample';
 import { useAlert } from '@flumens';
-import appModel, { SurveyDraftKeys } from 'models/app';
+import appModel from 'models/app';
 import savedSamples from 'models/savedSamples';
 import { useRouteMatch } from 'react-router';
 import SurveyConfig from './config';
@@ -33,24 +33,21 @@ async function showDraftAlert(alert: any) {
   return new Promise(alertWrap);
 }
 
-async function getNewSample(
-  survey: typeof SurveyConfig,
-  draftIdKey: keyof SurveyDraftKeys
-) {
+async function getNewSample(survey: typeof SurveyConfig) {
   const isTraining = appModel.attrs.useTraining ? 't' : undefined;
 
   const sample = await survey.create(Sample, isTraining);
   await sample.save();
 
   savedSamples.push(sample);
-  appModel.attrs[draftIdKey] = sample.cid;
+  appModel.attrs.recordDraftId = sample.cid;
   await appModel.save();
 
   return sample;
 }
 
-async function getDraft(draftIdKey: keyof SurveyDraftKeys, alert: any) {
-  const draftID = appModel.attrs[draftIdKey];
+async function getDraft(alert: any) {
+  const draftID = appModel.attrs.recordDraftId;
   if (draftID) {
     const byId = ({ cid }: any) => cid === draftID;
     const draftSample = savedSamples.find(byId);
@@ -79,13 +76,11 @@ function StartNewRecord({ survey }: Props): null {
 
   const baseURL = `/record/${survey.name}`;
 
-  const draftIdKey: any = `draftId:${survey.name}`;
-
   const pickDraftOrCreateSampleWrap = () => {
     const pickDraftOrCreateSample = async () => {
-      let sample = await getDraft(draftIdKey, alert);
+      let sample = await getDraft(alert);
       if (!sample) {
-        sample = await getNewSample(survey, draftIdKey);
+        sample = await getNewSample(survey);
       }
 
       const url = `${baseURL}/${sample.cid}`;
