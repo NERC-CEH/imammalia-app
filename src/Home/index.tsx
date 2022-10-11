@@ -6,8 +6,9 @@ import {
   IonLabel,
   IonTabBar,
   IonRouterOutlet,
+  IonFabButton,
 } from '@ionic/react';
-import { person, add, helpCircle, menu, home } from 'ionicons/icons';
+import { person, addOutline, helpCircle, menu, home } from 'ionicons/icons';
 import savedSamples from 'models/savedSamples';
 import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import appModel from 'models/app';
@@ -52,8 +53,10 @@ const HomeComponent = () => (
         </IonLabel>
         <PendingSurveysBadge savedSamples={savedSamples} />
       </IonTabButton>
-      <IonTabButton tab="/home/main" className="add-record" href="/record/main">
-        <IonIcon icon={add} />
+      <IonTabButton>
+        <IonFabButton className="fab-button" routerLink="/record/main">
+          <IonIcon src={addOutline} />
+        </IonFabButton>
       </IonTabButton>
       <IonTabButton tab="help" href="/home/help">
         <IonIcon icon={helpCircle} />

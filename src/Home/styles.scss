@@ -4,15 +4,24 @@
 
     ion-tab-button {
       max-width: 20vw;
-    }
 
-    .add-record {
-      background-color: var(--ion-color-light);
-      margin-top: -22px;
-      height: 64px;
-      max-width: 64px;
-      box-shadow: inset 0px 0 2px 0px;
-      border-radius: 50%;
+      .fab-button {
+        position: fixed;
+        margin-top: -18px;
+        --background: var(--ion-color-light);
+        border-radius: 50px;
+        --border-radius: 50px;
+        --background-activated: transparent;
+        --border-radius: 50px;
+        min-height: 60px;
+        min-width: 60px;
+        --box-shadow: inset 0px 0 3px 0px rgb(205, 205, 205);
+
+        ion-icon {
+          color: var(--ion-color-primary-shade);
+          font-size: 2.3em;
+        }
+      }
     }
   }
 
