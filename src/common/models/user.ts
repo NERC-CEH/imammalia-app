@@ -1,3 +1,4 @@
+import { set as setMobXAttrs } from 'mobx';
 import { useContext } from 'react';
 import { NavContext } from '@ionic/react';
 import {
@@ -39,7 +40,7 @@ export class UserModel extends DrupalUserModel {
     password: Yup.string().required(),
   });
 
-  constructor(options: any) {
+  constructor({ store, ...options }: any) {
     super(options);
 
     const checkForValidation = () => {
@@ -48,7 +49,36 @@ export class UserModel extends DrupalUserModel {
         this.refreshProfile();
       }
     };
+
+    this._store = store;
+    this.ready = this._fromOldStore();
     this.ready?.then(checkForValidation);
+  }
+
+  // backwards compatible convert old store document
+  private async _fromOldStore(): Promise<boolean> {
+    if (!this._store) return false;
+
+    let document = await this._store.find(this.cid);
+
+    if (!document) {
+      await this.save(); // persisting for the first time
+      return true;
+    }
+
+    const isOldTypeDocument = typeof document === 'string';
+    if (isOldTypeDocument) {
+      console.log('Converting old type document');
+      document = JSON.parse(document);
+    }
+
+    if (document.id) this.id = document.id; // checking presence for backwards compatibility
+    if (document.cid) this.cid = document.cid; // checking presence for backwards compatibility
+    setMobXAttrs(this.attrs, document.attrs);
+    setMobXAttrs(this.metadata, document.metadata);
+
+    if (isOldTypeDocument) this.save();
+    return true;
   }
 
   async getAccessToken(...args: any) {
