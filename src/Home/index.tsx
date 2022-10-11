@@ -52,7 +52,7 @@ const HomeComponent = () => (
         </IonLabel>
         <PendingSurveysBadge savedSamples={savedSamples} />
       </IonTabButton>
-      <IonTabButton tab="record" class="add-record" href="/record/main">
+      <IonTabButton tab="/home/main" className="add-record" href="/record/main">
         <IonIcon icon={add} />
       </IonTabButton>
       <IonTabButton tab="help" href="/home/help">
@@ -61,7 +61,7 @@ const HomeComponent = () => (
           <T>Help</T>
         </IonLabel>
       </IonTabButton>
-      <IonTabButton tab="menu" href="/home/menu">
+      <IonTabButton tab="/home/menu" href="/home/menu">
         <IonIcon icon={menu} />
         <IonLabel>
           <T>Menu</T>
