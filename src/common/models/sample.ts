@@ -81,7 +81,7 @@ class AppSample extends Sample {
       return;
     }
 
-    const keys = this.keys();
+    const keys: any = this.keys();
 
     const platform = isPlatform('android') ? 'Android' : 'iOS';
 
