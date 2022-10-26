@@ -1,11 +1,12 @@
 import ReactDOM from 'react-dom';
-import { setupIonicReact } from '@ionic/react';
+import { setupIonicReact, isPlatform } from '@ionic/react';
 import config from 'common/config';
 import { configure as mobxConfig } from 'mobx';
 import appModel from 'models/app';
 import userModel from 'models/user';
 import savedSamples from 'models/savedSamples';
 import { initAnalytics, device } from '@flumens';
+import { StatusBar, Style as StatusBarStyle } from '@capacitor/status-bar';
 import App from './App';
 import '@capacitor/core';
 import '@ionic/core/css/core.css';
@@ -52,6 +53,12 @@ async function init() {
   }
 
   ReactDOM.render(<App />, document.getElementById('root'));
+
+  if (isPlatform('hybrid')) {
+    StatusBar.setStyle({
+      style: StatusBarStyle.Dark,
+    });
+  }
 }
 
 init();
