@@ -1830,3 +1830,6 @@ msgstr "Looks like your email hasn't been verified yet."
 msgid "Should we resend the verification email?"
 msgstr "Should we resend the verification email?"
  
+# Photo picker alert message
+msgid "Are you sure you want to remove this photo?"
+msgstr "Are you sure you want to remove this photo?" 
