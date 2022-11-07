@@ -1,3 +1,7 @@
+## 1.5.1
+
+Various minor fixes.
+
 ## 1.5.0
 
 Updated UI design.
