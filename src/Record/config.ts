@@ -74,7 +74,7 @@ const methodValues = [
 ];
 
 const numberRangesValues = [
-  { value: 1, id: 3808 },
+  { value: '1', id: 3808 },
   { value: '2-5', id: 3809 },
   { value: '6-9', id: 38010 },
   { value: '10-19', id: 3811 },
