@@ -1,3 +1,7 @@
+## 1.5.2
+
+Fixed Location map.
+
 ## 1.5.1
 
 Various minor fixes.
