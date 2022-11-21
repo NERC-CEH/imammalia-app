@@ -4,7 +4,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <g id="map-matrix" transform="matrix(1 0 0 1 0 0)">
-    <g id = 'datapoints' style = 'pointer-events:all' onmouseover = 'currentcoord(evt)' onmouseout = 'hideutm(evt)'>
+    <g id = 'datapoints' style = 'pointer-events:all' >
       <use id = '26WPS1' x = '22315.46' y = '16245.58' xlink:href = "#post70_1" />
       <use id = '26WPT1' x = '22870.84' y = '15367.62' xlink:href = "#post70_1" />
       <use id = '27VVL1' x = '22629.05' y = '17613.38' xlink:href = "#post70_1" />
