@@ -1,3 +1,7 @@
+## 1.5.4
+
+Updated libraries (Capacitor).
+
 ## 1.5.3
 
 Various minor error fixes.

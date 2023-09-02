@@ -21,12 +21,16 @@ trigger_map:
 workflows:
   android:
     steps:
+      - set-java-version@1:
+          run_if: .IsCI
+          inputs:
+            - set_java_version: '17'
       - change-android-versioncode-and-versionname@1:
           inputs:
             - build_gradle_path: $BITRISE_SOURCE_DIR/android/app/build.gradle
             - version_code_offset: '680000000'
             - new_version_name: $NPM_PACKAGE_VERSION
-      - android-build@0:
+      - android-build@1:
           inputs:
             - module: app
             - variant: release\ndebug
@@ -51,16 +55,6 @@ workflows:
           run_if: enveq "BUILD_ONLY" ""
           inputs:
             - command: run deploy
-      - deploy-to-bitrise-io@1:
-          title: Create www artifact
-          inputs:
-            - notify_user_groups: none
-            - deploy_path: $BITRISE_SOURCE_DIR/build
-            - is_compress: 'true'
-      - deploy-to-bitrise-io@1:
-          title: Create app artifact
-          inputs:
-            - notify_user_groups: none
       - google-play-deploy@3:
           run_if: enveq "BUILD_ONLY" ""
           inputs:
@@ -73,29 +67,37 @@ workflows:
             - app_password: $ITUNES_CONNECT_APP_PASS
             - itunescon_user: $ITUNES_CONNECT_USER
       - script@1:
-          run_if: enveq "BUILD_ONLY" ""
-          title: Git Tag
+          title: Upload Builds to OneDrive
           inputs:
             - content: |
-                #!/usr/bin/env bash
+                DIRECTORY="$BITRISE_PROJECT_NAME/$NPM_PACKAGE_VERSION"
+                npx @flumens/onedrive-upload --directory $DIRECTORY --file $BITRISE_DEPLOY_DIR/app-debug.aab
+      - script@1:
+          title: Upload Builds to OneDrive
+          inputs:
+            - content: |
+                DIRECTORY="$BITRISE_PROJECT_NAME/$NPM_PACKAGE_VERSION"
+                npx @flumens/onedrive-upload --directory $DIRECTORY --file $BITRISE_DEPLOY_DIR/App.ipa
+      - script@1:
+          title: Git Tag
+          run_if: enveq "BUILD_ONLY" ""
+          inputs:
+            - content: |
                 TAG_NAME="v$NPM_PACKAGE_VERSION-$BITRISE_BUILD_NUMBER"
                 git tag -a "$TAG_NAME" -m "* Demo link: $DEMO_URL" -m "* Build link: $BITRISE_BUILD_URL" "$BITRISE_GIT_COMMIT"
                 git push origin "$TAG_NAME"
   ios:
     steps:
       - certificate-and-profile-installer@1: {}
-      - recreate-user-schemes@1:
-          inputs:
-            - project_path: $BITRISE_PROJECT_PATH
       - set-ios-version@2:
           run_if: 'true'
           inputs:
             - bundle_version: $BITRISE_BUILD_NUMBER
             - bundle_version_short: $NPM_PACKAGE_VERSION
             - info_plist_file: ios/App/App/Info.plist
-      - xcode-archive@3:
+      - xcode-archive@5:
           inputs:
-            - export_method: app-store
+            - distribution_method: app-store
   web:
     steps:
       - nvm@1: {}
