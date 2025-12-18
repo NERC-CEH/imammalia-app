@@ -1,0 +1,61 @@
+import { useContext } from 'react';
+import { observer } from 'mobx-react';
+import clsx from 'clsx';
+import { globeOutline } from 'ionicons/icons';
+import { Page, Main, Header, RadioInput } from '@flumens';
+import { IonIcon, IonList, NavContext } from '@ionic/react';
+import languages from 'common/config/languages';
+import appModel from 'models/app';
+
+type Props = { hideHeader?: boolean };
+
+function SelectLanguage({ hideHeader }: Props) {
+  const { goBack } = useContext(NavContext);
+
+  const currentValue = appModel.data.language;
+
+  const isSettingsPage = !hideHeader;
+
+  function onSelect(newLanguage: any) {
+    appModel.data.language = newLanguage; // eslint-disable-line no-param-reassign
+    appModel.save();
+
+    if (isSettingsPage) goBack();
+  }
+
+  const alphabetically = ([, l1]: any, [, l2]: any) => l1.localeCompare(l2);
+
+  const languagesOptions = Object.entries(languages)
+    .sort(alphabetically)
+    .map(([value, language]) => ({ value, label: language }));
+
+  return (
+    <Page
+      id="language-select"
+      className={clsx(hideHeader && 'pt-[var(--ion-safe-area-top,0)]')}
+    >
+      {!hideHeader && <Header title="Language" />}
+
+      <Main>
+        <IonList>
+          {hideHeader && (
+            <div className="mx-auto my-10 flex flex-col items-center text-primary-900">
+              <IonIcon icon={globeOutline} className="size-10" />
+              <h1>Select your language</h1>
+            </div>
+          )}
+          <RadioInput
+            onChange={onSelect}
+            value={currentValue}
+            options={languagesOptions}
+            skipTranslation
+            platform="ios"
+            className="my-5"
+          />
+        </IonList>
+      </Main>
+    </Page>
+  );
+}
+
+export default observer(SelectLanguage);

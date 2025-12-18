@@ -1,68 +1,64 @@
-import { Media, MediaAttrs } from '@flumens';
+import { Capacitor } from '@capacitor/core';
+import {
+  Filesystem,
+  Directory as FilesystemDirectory,
+} from '@capacitor/filesystem';
+import { Media as MediaOriginal, MediaData } from '@flumens';
 import { isPlatform } from '@ionic/react';
 import config from 'common/config';
-import { Capacitor } from '@capacitor/core';
-import { Filesystem, Directory } from '@capacitor/filesystem';
+import Occurrence from 'models/occurrence';
+import Sample from 'models/sample';
 
-type Attrs = MediaAttrs;
+type Attrs = MediaData;
 
-export default class AppMedia extends Media {
-  attrs: Attrs = this.attrs;
-
-  // eslint-disable-next-line class-methods-use-this
-  validateRemote() {
-    return null;
-  }
+export default class Media extends MediaOriginal<Attrs> {
+  declare parent?: Sample | Occurrence;
 
   async destroy(silent?: boolean) {
     // remove from internal storage
     if (!isPlatform('hybrid')) {
-      if (!this.parent) {
-        return null;
-      }
+      if (!this.parent) return;
 
       this.parent.media.remove(this);
 
-      if (silent) {
-        return null;
-      }
+      if (silent) return;
 
-      return this.parent.save();
+      this.parent.save();
+      return;
     }
 
-    const URL = this.attrs.data;
+    const URL = this.data.data;
 
     try {
       await Filesystem.deleteFile({
         path: URL,
-        directory: Directory.Data,
+        directory: FilesystemDirectory.Data,
       });
 
-      if (!this.parent) {
-        return null;
-      }
+      if (!this.parent) return;
 
       this.parent.media.remove(this);
 
-      if (silent) {
-        return null;
-      }
+      if (silent) return;
 
-      return this.parent.save();
+      this.parent.save();
     } catch (err) {
       console.error(err);
     }
-
-    return null;
   }
 
   getURL() {
-    const { data: name } = this.attrs;
+    const { data: name } = this.data;
 
     if (!isPlatform('hybrid') || process.env.NODE_ENV === 'test') {
       return name;
     }
 
     return Capacitor.convertFileSrc(`${config.dataPath}/${name}`);
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  validateRemote() {
+    return null;
   }
 }

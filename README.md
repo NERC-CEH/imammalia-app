@@ -1,11 +1,9 @@
-# iMammalia [![Build Status](https://travis-ci.org/NERC-CEH/imammalia-app.svg?branch=master)](https://travis-ci.org/NERC-CEH/imammalia-app)
+# iMammalia 
+
+The iMammalia App is designed to encourage recording of mammals in the
+wild. This version of the mobile application is set up to easily
+record mammals in any European country, but does not yet have all
+European languages included.
 
 
-## Authors
-
-[Karolis Kazlauskis](https://kazlauskis.com)
-
-## Copyright and license
-
-Code copyright 2019 Centre for Ecology & Hydrology.
-Code released under the [GNU GPL v3 license](LICENSE).
+[Flumens](https://flumens.io)

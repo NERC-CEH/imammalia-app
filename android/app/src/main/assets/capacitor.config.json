@@ -1,6 +1,9 @@
 {
 	"appId": "uk.ac.ceh.imammalia",
 	"appName": "iMammalia App",
-	"bundledWebRuntime": false,
-	"webDir": "build"
+	"webDir": "build",
+	"cordova": {},
+	"android": {
+		"adjustMarginsForEdgeToEdge": "force"
+	}
 }

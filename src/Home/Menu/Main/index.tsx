@@ -1,13 +1,4 @@
-import { FC } from 'react';
 import { observer } from 'mobx-react';
-import {
-  IonContent,
-  IonIcon,
-  IonList,
-  IonItem,
-  IonItemDivider,
-  IonButton,
-} from '@ionic/react';
 import {
   settingsOutline,
   exitOutline,
@@ -17,13 +8,14 @@ import {
   heartOutline,
   informationCircleOutline,
 } from 'ionicons/icons';
-import { InfoMessage } from '@flumens';
 import { Trans as T } from 'react-i18next';
+import { InfoMessage } from '@flumens';
+import { IonContent, IonIcon, IonList, IonItem, IonButton } from '@ionic/react';
 import config from 'common/config';
-import { UserModel } from 'models/user';
 import { AppModel } from 'models/app';
-import './styles.scss';
+import { UserModel } from 'models/user';
 import './logo.png?originalName';
+import './styles.scss';
 
 type Props = {
   logOut: any;
@@ -34,38 +26,38 @@ type Props = {
   resendVerificationEmail: any;
 };
 
-const Component: FC<Props> = ({
+const Component = ({
   isLoggedIn,
   userModel,
   logOut,
   appModel,
   refreshAccount,
   resendVerificationEmail,
-}) => {
-  const lang = appModel.attrs.language;
+}: Props) => {
+  const lang = appModel.data.language;
 
-  const isNotVerified = userModel.attrs.verified === false; // verified is undefined in old versions
-  const userEmail = userModel.attrs.email;
+  const isNotVerified = userModel.data.verified === false; // verified is undefined in old versions
+  const userEmail = userModel.data.email;
 
   return (
-    <IonContent class="app-menu">
+    <IonContent className="app-menu">
       <img src="/images/logo.png" alt="app logo" />
 
       <IonList lines="full">
-        <div className="rounded">
+        <div className="rounded-list">
           {isLoggedIn && (
             <IonItem detail id="logout-button" onClick={logOut}>
               <IonIcon icon={exitOutline} size="small" slot="start" />
               <T>Logout</T>
               {': '}
-              {userModel.attrs.firstName} {userModel.attrs.lastName}
+              {userModel.data.firstName} {userModel.data.lastName}
             </IonItem>
           )}
 
           {isLoggedIn && isNotVerified && (
             <InfoMessage className="verification-warning">
-              Looks like your <b>{{ userEmail }}</b> email hasn't been verified
-              yet.
+              Looks like your <b>{{ userEmail } as any}</b> email hasn't been
+              verified yet.
               <div>
                 <IonButton fill="outline" onClick={refreshAccount}>
                   Refresh
@@ -92,10 +84,10 @@ const Component: FC<Props> = ({
           )}
         </div>
 
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>Info</T>
-        </IonItemDivider>
-        <div className="rounded">
+        </h3>
+        <div className="rounded-list">
           <IonItem routerLink="/info/about" detail>
             <IonIcon
               icon={informationCircleOutline}
@@ -120,10 +112,10 @@ const Component: FC<Props> = ({
           </IonItem>
         </div>
 
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>Settings</T>
-        </IonItemDivider>
-        <div className="rounded">
+        </h3>
+        <div className="rounded-list">
           <IonItem routerLink="/settings/menu" detail>
             <IonIcon icon={settingsOutline} size="small" slot="start" />
             <T>App</T>

@@ -1,8 +1,8 @@
-import { Page, Header, Main, Section } from '@flumens';
-import appModel from 'models/app';
-import { IonItem, IonLabel } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
+import { Page, Header, Main, Section } from '@flumens';
+import { IonItem, IonLabel } from '@ionic/react';
 import species, { Species } from 'common/data/species';
+import appModel from 'models/app';
 import './styles.scss';
 
 const { P, H } = Section;
@@ -24,7 +24,7 @@ const getPhotoAttribution = () => {
 };
 
 const Credits = () => {
-  const { language } = appModel.attrs;
+  const { language } = appModel.data;
   const showKarolina = !['mk_MK', 'sr_RS'].includes(language);
   const showDominika = ['sk_SK'].includes(language);
   const showKatrine = ['no_NO'].includes(language);

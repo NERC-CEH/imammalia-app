@@ -1,11 +1,7 @@
 import { Route } from 'react-router-dom';
-import appModel from 'models/app';
-import Menu from './Menu';
-import Language from './Language';
 import Country from './Country';
-
-const CountryWrap = () => <Country appModel={appModel} />;
-const LanguageWrap = () => <Language appModel={appModel} />;
+import Language from './Language';
+import Menu from './Menu';
 
 export default [
   <Route path="/settings/menu" key="/settings/menu" exact component={Menu} />,
@@ -13,12 +9,12 @@ export default [
     path="/settings/language"
     key="/settings/language"
     exact
-    render={LanguageWrap}
+    component={Language}
   />,
   <Route
     path="/settings/country"
     key="/settings/country"
     exact
-    render={CountryWrap}
+    component={Country}
   />,
 ];

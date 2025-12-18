@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "*": ["types/*"],
-      "common": ["common/"]
-    }
+      "common/*": ["src/common/*"],
+      "helpers/*": ["src/common/helpers/*"],
+      "models/*": ["src/common/models/*"],
+      "Components/*": ["src/common/Components/*"],
+      "@flumens": ["src/common/flumens"]
+    },
+    "experimentalDecorators": true
   },
-  "include": ["src/**/*"]
+  "include": ["./src/**/*"]
 }

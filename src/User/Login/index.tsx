@@ -1,34 +1,30 @@
-import { FC, useContext } from 'react';
-import userModel from 'models/user';
-import { NavContext } from '@ionic/react';
+import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
+import { TypeOf } from 'zod';
 import { useToast, useLoader, Page, Header, device } from '@flumens';
+import { NavContext } from '@ionic/react';
+import userModel, { UserModel } from 'models/user';
 import Main from './Main';
-import './styles.scss';
 
-export type Details = {
-  password: string;
-  email: string;
-};
+type Details = TypeOf<typeof UserModel.loginSchema>;
 
-const LoginController: FC = () => {
+const LoginController = () => {
   const { navigate } = useContext(NavContext);
   const toast = useToast();
   const loader = useLoader();
   const { t } = useTranslation();
 
   const onSuccessReturn = () => {
-    const { email } = userModel.attrs;
+    const { email } = userModel.data;
+
     toast.success(t('Successfully logged in as: {{email}}', { email }), {
       skipTranslation: true,
     });
 
-    navigate('/home/user-records', 'root');
+    navigate('/home/surveys', 'root');
   };
 
-  async function onLogin(details: Details) {
-    const { email, password } = details;
-
+  async function onLogin({ email, password }: Details) {
     if (!device.isOnline) {
       toast.warn("Sorry, looks like you're offline.");
       return;
@@ -40,8 +36,11 @@ const LoginController: FC = () => {
       await userModel.logIn(email.trim(), password);
 
       onSuccessReturn();
-    } catch (err: any) {
-      toast.error(err);
+    } catch (err) {
+      if (err instanceof Error) {
+        toast.error(err.message);
+      }
+      console.error(err);
     }
 
     loader.hide();
@@ -49,8 +48,8 @@ const LoginController: FC = () => {
 
   return (
     <Page id="user-login">
-      <Header className="ion-no-border" />
-      <Main schema={userModel.loginSchema} onSubmit={onLogin} />
+      <Header className="ion-no-border [&>ion-toolbar]:[--background:transparent]!" />
+      <Main onSubmit={onLogin} />
     </Page>
   );
 };

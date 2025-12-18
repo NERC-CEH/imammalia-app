@@ -1,30 +1,16 @@
+/* eslint-disable prefer-arrow-callback */
 import { useContext } from 'react';
-import appModel, { Attrs as AppModelAttrs } from 'models/app';
-import userModel from 'models/user';
-import savedSamples from 'models/savedSamples';
-import { Page, Header, PickByType, useToast, useLoader } from '@flumens';
-import { isPlatform, NavContext } from '@ionic/react';
+import writeBlob from 'capacitor-blob-writer';
+import { Directory, Filesystem } from '@capacitor/filesystem';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
+import { Share } from '@capacitor/share';
+import { Page, Header, useToast, useLoader } from '@flumens';
+import { isPlatform, NavContext } from '@ionic/react';
+import CONFIG from 'common/config';
+import { db } from 'common/models/store';
+import appModel, { Data } from 'models/app';
+import userModel from 'models/user';
 import Main from './Main';
-
-const useResetApp = () => {
-  const toast = useToast();
-
-  const reset = async () => {
-    console.log('Settings:Menu:Controller: resetting the application!');
-
-    try {
-      await savedSamples.resetDefaults();
-      await appModel.resetDefaults();
-      await userModel.resetDefaults();
-      toast.success('Done');
-    } catch (err: any) {
-      toast.error(err);
-    }
-  };
-
-  return reset;
-};
 
 const useDeleteUser = () => {
   const toast = useToast();
@@ -50,45 +36,71 @@ const useDeleteUser = () => {
   return deleteUser;
 };
 
-function onToggle(
-  setting: keyof PickByType<AppModelAttrs, boolean>,
-  checked: boolean
-) {
-  if (setting === 'useExperiments' && !checked) {
-    appModel.attrs.useExperiments = false;
-    appModel.save();
+const exportDatabase = async () => {
+  const blob = await db.export();
+
+  if (!isPlatform('hybrid')) {
+    window.open(window.URL.createObjectURL(blob), '_blank');
     return;
   }
 
-  appModel.attrs[setting] = checked;
+  const path = `export-app-${CONFIG.build}-${Date.now()}.db`;
+  const directory = Directory.External;
+
+  await writeBlob({ path, directory, blob });
+  const { uri: url } = await Filesystem.getUri({ directory, path });
+  await Share.share({ title: `App database`, files: [url] });
+  await Filesystem.deleteFile({ directory, path });
+};
+
+// For dev purposes only
+const importDatabase = async () => {
+  const blob = await new Promise<Blob>(resolve => {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.addEventListener('change', function () {
+      const fileReader = new FileReader();
+      fileReader.onloadend = async (e: any) =>
+        resolve(
+          new Blob([e.target.result], { type: 'application/vnd.sqlite3' })
+        );
+      fileReader.readAsArrayBuffer(input.files![0]);
+    });
+    input.click();
+  });
+
+  await db.sqliteConnection.closeAllConnections();
+  await db.import(blob);
+  window.location.reload();
+};
+
+const onToggle = (setting: keyof Data, checked: boolean) => {
+  console.log('Settings:Menu:Controller: setting toggled.');
+  appModel.data[setting] = checked; // eslint-disable-line no-param-reassign
   appModel.save();
 
   isPlatform('hybrid') && Haptics.impact({ style: ImpactStyle.Light });
-}
+};
 
-const MenuController = () => {
+const Container = () => {
   const deleteUser = useDeleteUser();
-  const resetApp = useResetApp();
-
-  const resetApplication = () => resetApp();
-
-  const { useTraining, sendAnalytics, language, country } = appModel.attrs;
 
   return (
-    <Page id="settings">
+    <Page id="settings-menu">
       <Header title="Settings" />
       <Main
-        useTraining={useTraining}
-        sendAnalytics={sendAnalytics}
-        resetApp={resetApplication}
-        onToggle={onToggle}
-        language={language}
-        country={country}
         isLoggedIn={userModel.isLoggedIn()}
         deleteUser={deleteUser}
+        useTraining={appModel.data.useTraining}
+        sendAnalytics={appModel.data.sendAnalytics}
+        onToggle={onToggle}
+        language={appModel.data.language!}
+        country={appModel.data.country!}
+        exportDatabase={exportDatabase}
+        importDatabase={importDatabase}
       />
     </Page>
   );
 };
 
-export default MenuController;
+export default Container;

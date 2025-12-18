@@ -1,17 +1,17 @@
-import { Page, Main, Collapse } from '@flumens';
-import { Trans as T } from 'react-i18next';
-import { IonList, IonItemDivider, IonIcon } from '@ionic/react';
 import { settings, arrowUndo, person, add } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
+import { Page, Main, Collapse } from '@flumens';
+import { IonList, IonIcon } from '@ionic/react';
 import './styles.scss';
 
 const Help = () => (
   <Page id="help">
     <Main>
       <IonList lines="none">
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>Records</T>
-        </IonItemDivider>
-        <div className="rounded">
+        </h3>
+        <div className="rounded-list">
           <Collapse title="How to start a record">
             <p>
               <T>To start a new record you can press the plus button</T>
@@ -67,10 +67,10 @@ const Help = () => (
           </Collapse>
         </div>
 
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>User</T>
-        </IonItemDivider>
-        <div className="rounded">
+        </h3>
+        <div className="rounded-list">
           <Collapse title="Sign in/out or register">
             <p>
               <T>
@@ -96,10 +96,10 @@ const Help = () => (
           </Collapse>
         </div>
 
-        <IonItemDivider>
+        <h3 className="list-title">
           <T>Other</T>
-        </IonItemDivider>
-        <div className="rounded">
+        </h3>
+        <div className="rounded-list">
           <Collapse title="Reset the application">
             <p>
               <T>Go to the application settings page</T>{' '}

@@ -1,9 +1,8 @@
-import { FC } from 'react';
-import { Page, useAlert, useLoader, useToast, device } from '@flumens';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
-import { UserModel } from 'models/user';
+import { Page, useAlert, useLoader, useToast, device } from '@flumens';
 import { AppModel } from 'models/app';
+import { UserModel } from 'models/user';
 import Main from './Main';
 
 function showLogoutConfirmationDialog(callback: any, alert: any) {
@@ -41,7 +40,7 @@ type Props = {
   userModel: UserModel;
   appModel: AppModel;
 };
-const MenuController: FC<Props> = ({ userModel, appModel }) => {
+const MenuController = ({ userModel, appModel }: Props) => {
   const alert = useAlert();
   const loader = useLoader();
   const toast = useToast();
@@ -52,7 +51,7 @@ const MenuController: FC<Props> = ({ userModel, appModel }) => {
     console.log('Info:Menu: logging out.');
     const onReset = () => {
       // eslint-disable-next-line no-param-reassign
-      appModel.attrs.recordDraftId = null;
+      appModel.data.recordDraftId = null;
       appModel.save();
       userModel.logOut();
     };
@@ -64,7 +63,7 @@ const MenuController: FC<Props> = ({ userModel, appModel }) => {
     await loader.show('Please wait...');
     try {
       await userModel.checkActivation();
-      if (!userModel.attrs.verified) {
+      if (!userModel.data.verified) {
         toast.warn('The user has not been activated or is blocked.');
       }
     } catch (err: any) {

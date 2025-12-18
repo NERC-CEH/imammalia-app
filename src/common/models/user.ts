@@ -1,162 +1,88 @@
-import { set as setMobXAttrs } from 'mobx';
 import { useContext } from 'react';
-import { NavContext } from '@ionic/react';
+import { z, object } from 'zod';
 import {
   DrupalUserModel,
-  DrupalUserModelAttrs,
+  DrupalUserModelData,
   useToast,
   useAlert,
   useLoader,
   device,
 } from '@flumens';
-import * as Yup from 'yup';
+import { NavContext } from '@ionic/react';
+import * as Sentry from '@sentry/browser';
 import CONFIG from 'common/config';
-import { genericStore } from './store';
+import { mainStore } from './store';
 
-export interface Attrs extends DrupalUserModelAttrs {
+export interface Data extends DrupalUserModelData {
   firstName?: string;
   lastName?: string;
   email?: string;
-
-  /**
-   * @deprecated
-   */
-  password?: any;
 }
 
-const defaults: Attrs = {
+const defaults: Data = {
   firstName: '',
   lastName: '',
   email: '',
 };
 
-export class UserModel extends DrupalUserModel {
-  attrs: Attrs = DrupalUserModel.extendAttrs(this.attrs, defaults);
-
-  registerSchema = Yup.object().shape({
-    email: Yup.string().email('email is not valid').required(),
-    firstName: Yup.string().required(),
-    lastName: Yup.string().required(),
-    password: Yup.string().required(),
+export class UserModel extends DrupalUserModel<Data> {
+  static registerSchema: any = object({
+    email: z.string().email('Please fill in'),
+    password: z.string().min(1, 'Please fill in'),
+    firstName: z.string().min(1, 'Please fill in'),
+    secondName: z.string().min(1, 'Please fill in'),
   });
 
-  constructor({ store, ...options }: any) {
-    super(options);
+  constructor(options: any) {
+    super({ ...options, data: { ...defaults, ...options.data } });
 
     const checkForValidation = () => {
-      if (this.isLoggedIn() && !this.attrs.verified) {
+      if (this.isLoggedIn() && !this.data.verified) {
         console.log('User: refreshing profile for validation');
         this.refreshProfile();
       }
     };
-
-    this._store = store;
-    this.ready = this._fromOldStore();
     this.ready?.then(checkForValidation);
   }
 
-  // backwards compatible convert old store document
-  private async _fromOldStore(): Promise<boolean> {
-    if (!this._store) return false;
+  async logIn(email: string, password: string) {
+    await super.logIn(email, password);
 
-    let document = await this._store.find(this.cid);
-
-    if (!document) {
-      await this.save(); // persisting for the first time
-      return true;
-    }
-
-    const isOldTypeDocument = typeof document === 'string';
-    if (isOldTypeDocument) {
-      console.log('Converting old type document');
-      document = JSON.parse(document);
-    }
-
-    if (document.id) this.id = document.id; // checking presence for backwards compatibility
-    if (document.cid) this.cid = document.cid; // checking presence for backwards compatibility
-    setMobXAttrs(this.attrs, document.attrs);
-    setMobXAttrs(this.metadata, document.metadata);
-
-    if (isOldTypeDocument) this.save();
-    return true;
-  }
-
-  async getAccessToken(...args: any) {
-    if (this.attrs.password) await this._migrateAuth();
-
-    return super.getAccessToken(...args);
-  }
-
-  async resendVerificationEmail() {
-    if (!this.isLoggedIn() || this.attrs.verified) return false;
-
-    await this._sendVerificationEmail();
-
-    return true;
-  }
-
-  resetDefaults() {
-    return super.resetDefaults(defaults);
-  }
-
-  /**
-   * Migrate from Indicia API auth to JWT. Remove in the future versions.
-   */
-  async _migrateAuth() {
-    console.log('Migrating user auth.');
-    if (!this.attrs.email) {
-      // email might not exist
-      delete this.attrs.password;
-      return this.save();
-    }
-
-    try {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      const tokens = await this._exchangePasswordToTokens(
-        this.attrs.email,
-        this.attrs.password
-      );
-      this.attrs.tokens = tokens;
-      delete this.attrs.password;
-
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      await this._refreshAccessToken();
-    } catch (e: any) {
-      if (e.message === 'Incorrect password or email') {
-        console.log('Removing invalid old user credentials');
-        delete this.attrs.password;
-        this.logOut();
-      }
-      console.error(e);
-      throw e;
-    }
-
-    return this.save();
+    if (this.id) Sentry.setUser({ id: this.id });
   }
 
   async checkActivation() {
-    const isLoggedIn = !!this.attrs.email;
-    if (!isLoggedIn) return false;
+    if (!this.isLoggedIn()) return false;
 
-    if (!this.attrs.verified) {
+    if (!this.data.verified) {
       try {
         await this.refreshProfile();
       } catch (e) {
         // do nothing
       }
 
-      if (!this.attrs.verified) return false;
+      if (!this.data.verified) return false;
     }
 
     return true;
+  }
+
+  async resendVerificationEmail() {
+    if (!this.isLoggedIn() || this.data.verified) return false;
+
+    await this._sendVerificationEmail();
+
+    return true;
+  }
+
+  reset() {
+    return super.reset(defaults);
   }
 }
 
 const userModel = new UserModel({
   cid: 'user',
-  store: genericStore,
+  store: mainStore,
   config: CONFIG.backend,
 });
 
@@ -177,7 +103,7 @@ export const useUserStatusCheck = () => {
       return false;
     }
 
-    if (!userModel.attrs.verified) {
+    if (!userModel.data.verified) {
       await loader.show('Please wait...');
       const isVerified = await userModel.checkActivation();
       loader.hide();
@@ -203,11 +129,9 @@ export const useUserStatusCheck = () => {
             {
               text: 'Cancel',
               role: 'cancel',
-              cssClass: 'secondary',
             },
             {
               text: 'Resend',
-              cssClass: 'primary',
               handler: resendVerificationEmail,
             },
           ],

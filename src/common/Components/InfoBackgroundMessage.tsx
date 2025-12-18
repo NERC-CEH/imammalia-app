@@ -1,20 +1,20 @@
-import { FC } from 'react';
+import { ReactNode } from 'react';
 import { observer } from 'mobx-react';
 import { InfoBackgroundMessage } from '@flumens';
-import appModel, { Attrs } from 'models/app';
+import appModel, { type Data } from 'models/app';
 
-interface Props {
-  name?: keyof Attrs;
-  children: any;
-}
+type Props = {
+  name?: keyof Data;
+  children: ReactNode;
+};
 
-const Message: FC<Props> = ({ name, children, ...props }) => {
-  if (name && !appModel.attrs[name]) {
+const Message = ({ name, children, ...props }: Props) => {
+  if (name && !appModel.data[name]) {
     return null;
   }
 
   const hideMessage = () => {
-    (appModel.attrs as any)[name as keyof Attrs] = false;
+    appModel.data[name as keyof Data] = false;
     return {};
   };
 

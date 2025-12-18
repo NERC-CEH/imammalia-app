@@ -1,36 +1,30 @@
-import { FC, useContext } from 'react';
-import userModel from 'models/user';
-import appModel from 'models/app';
-import { NavContext } from '@ionic/react';
+import { useContext } from 'react';
 import { Trans as T } from 'react-i18next';
+import { TypeOf } from 'zod';
 import { Page, Header, device, useToast, useAlert, useLoader } from '@flumens';
+import { NavContext } from '@ionic/react';
+import userModel, { UserModel } from 'models/user';
 import Main from './Main';
-import './styles.scss';
 
-export type Details = {
-  password: string;
-  email: string;
-  firstName?: string;
-  lastName?: string;
-};
+type Details = TypeOf<typeof UserModel.registerSchema>;
 
-const RegisterContainer: FC = () => {
-  const { navigate } = useContext(NavContext);
+const RegisterContainer = () => {
+  const context = useContext(NavContext);
   const alert = useAlert();
   const toast = useToast();
   const loader = useLoader();
 
-  const lang = appModel.attrs.language;
-
-  const onSuccess = () => navigate('/home/user-records', 'root');
+  const onSuccess = () => {
+    context.navigate('/home/surveys', 'root');
+  };
 
   async function onRegister(details: Details) {
     const email = details.email.trim();
-    const { password, firstName, lastName } = details;
+    const { password, firstName, secondName } = details;
 
     const otherDetails = {
       field_first_name: [{ value: firstName?.trim() }],
-      field_last_name: [{ value: lastName?.trim() }],
+      field_last_name: [{ value: secondName?.trim() }],
     };
 
     if (!device.isOnline) {
@@ -42,16 +36,16 @@ const RegisterContainer: FC = () => {
     try {
       await userModel.register(email, password, otherDetails);
 
-      userModel.attrs.firstName = firstName; // eslint-disable-line
-      userModel.attrs.lastName = lastName; // eslint-disable-line
+      userModel.data.firstName = firstName; // eslint-disable-line
+      userModel.data.lastName = secondName; // eslint-disable-line
       userModel.save();
 
       alert({
-        header: 'Welcome aboard!',
+        header: 'Welcome aboard',
         message: (
           <T>
-            Before submitting any records please check your email and click on
-            the verification link.
+            Before starting any surveys please check your email and click on the
+            verification link.
           </T>
         ),
         buttons: [
@@ -71,12 +65,8 @@ const RegisterContainer: FC = () => {
 
   return (
     <Page id="user-register">
-      <Header className="ion-no-border" />
-      <Main
-        schema={userModel.registerSchema}
-        onSubmit={onRegister}
-        lang={lang}
-      />
+      <Header className="ion-no-border [&>ion-toolbar]:[--background:transparent]!" />
+      <Main onSubmit={onRegister} />
     </Page>
   );
 };

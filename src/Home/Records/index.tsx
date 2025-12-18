@@ -1,4 +1,7 @@
-import { FC, useState } from 'react';
+import { useState } from 'react';
+import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
+import { Page, Main, device, useToast } from '@flumens';
 import {
   IonList,
   IonToolbar,
@@ -9,18 +12,15 @@ import {
   IonSegment,
   IonButton,
 } from '@ionic/react';
-import { Page, Main, device, useToast } from '@flumens';
-import { observer } from 'mobx-react';
-import Sample from 'models/sample';
-import savedSamples from 'models/savedSamples';
 import InfoBackgroundMessage from 'common/Components/InfoBackgroundMessage';
-import { Trans as T } from 'react-i18next';
+import samples, { uploadAllSamples } from 'models/collections/samples';
+import Sample from 'models/sample';
 import Record from './components';
 import './styles.scss';
 
 function byCreateTime(smp1: Sample, smp2: Sample) {
-  const date1 = new Date(smp1.metadata.created_on);
-  const date2 = new Date(smp2.metadata.created_on);
+  const date1 = new Date(smp1.createdAt);
+  const date2 = new Date(smp2.createdAt);
   return date2.getTime() - date1.getTime();
 }
 
@@ -91,9 +91,7 @@ function getUploadedSurveys(surveys: any[]) {
   return <IonList lines="full">{surveysList}</IonList>;
 }
 
-interface Props {}
-
-const UserSurveys: FC<Props> = () => {
+const UserSurveys = () => {
   const [segment, setSegment] = useState('pending');
   const toast = useToast();
 
@@ -101,8 +99,8 @@ const UserSurveys: FC<Props> = () => {
 
   const getSamplesList = (uploaded?: boolean) => {
     const uploadedSamples = (sample: Sample) =>
-      uploaded ? sample.metadata.synced_on : !sample.metadata.synced_on;
-    return savedSamples.filter(uploadedSamples).sort(byCreateTime);
+      uploaded ? sample.syncedAt : !sample.syncedAt;
+    return samples.filter(uploadedSamples).sort(byCreateTime);
   };
 
   const onUploadAll = () => {
@@ -111,7 +109,7 @@ const UserSurveys: FC<Props> = () => {
       return;
     }
 
-    savedSamples.uploadAll();
+    uploadAllSamples(toast);
   };
 
   const showingPending = segment === 'pending';

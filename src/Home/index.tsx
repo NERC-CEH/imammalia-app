@@ -1,4 +1,6 @@
-import { Route } from 'react-router-dom';
+import { person, addOutline, helpCircle, menu, home } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
+import { Redirect, Route } from 'react-router-dom';
 import {
   IonTabs,
   IonTabButton,
@@ -8,24 +10,18 @@ import {
   IonRouterOutlet,
   IonFabButton,
 } from '@ionic/react';
-import { person, addOutline, helpCircle, menu, home } from 'ionicons/icons';
-import savedSamples from 'models/savedSamples';
 import PendingSurveysBadge from 'common/Components/PendingSurveysBadge';
 import appModel from 'models/app';
+import samples from 'models/collections/samples';
 import userModel from 'models/user';
-import { Trans as T } from 'react-i18next';
-import Species from './Species';
 import Help from './Help';
-import UserRecords from './Records';
 import Menu from './Menu';
+import UserRecords from './Records';
+import Species from './Species';
 import './styles.scss';
 
 const SpeciesWrap = () => (
-  <Species
-    appModel={appModel}
-    savedSamples={savedSamples}
-    userModel={userModel}
-  />
+  <Species appModel={appModel} samples={samples} userModel={userModel} />
 );
 
 const MenuWrap = () => <Menu userModel={userModel} appModel={appModel} />;
@@ -33,6 +29,7 @@ const MenuWrap = () => <Menu userModel={userModel} appModel={appModel} />;
 const HomeComponent = () => (
   <IonTabs>
     <IonRouterOutlet>
+      <Redirect exact path="/home" to="/home/species" />
       <Route path="/home/species" component={SpeciesWrap} exact />
       <Route path="/home/help" component={Help} exact />
       <Route path="/home/user-records" component={UserRecords} exact />
@@ -51,10 +48,10 @@ const HomeComponent = () => (
         <IonLabel>
           <T>Records</T>
         </IonLabel>
-        <PendingSurveysBadge savedSamples={savedSamples} />
+        <PendingSurveysBadge className="absolute bottom-4 right-[calc(50%_-_15px)]" />
       </IonTabButton>
       <IonTabButton>
-        <IonFabButton className="fab-button" routerLink="/record/main">
+        <IonFabButton className="fab-button" routerLink="/survey">
           <IonIcon src={addOutline} />
         </IonFabButton>
       </IonTabButton>

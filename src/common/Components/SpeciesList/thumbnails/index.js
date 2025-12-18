@@ -1,7 +1,6 @@
 /** ***************************************************************************
  * Multi media loading file
  **************************************************************************** */
-
 import './1_thumbnail.jpg?originalName';
 import './2_thumbnail.jpg?originalName';
 import './3_thumbnail.jpg?originalName';
@@ -89,7 +88,7 @@ import './muridae_thumbnail.png?originalName';
 import './mustelidae_thumbnail.png?originalName';
 import './phocidae_thumbnail.png?originalName';
 import './rattus_thumbnail.png?originalName';
+import './rodentia_thumbnail.png?originalName';
 import './sciuridae_thumbnail.png?originalName';
 import './soricidae_thumbnail.png?originalName';
 import './talpidae_thumbnail.png?originalName';
-import './rodentia_thumbnail.png?originalName';

@@ -2,8 +2,8 @@
   --padding-top: env(safe-area-inset-top) !important;
 
   img {
-    margin: 30px auto;
     display: block;
+    margin: 30px auto;
     width: 80%;
     max-width: 300px;
   }
@@ -20,13 +20,13 @@
     }
 
     ion-button {
+      float: right;
+      color: #000000;
       font-size: 0.9em;
+      --border-color: #000000;
       &.md {
         font-size: 0.7em;
       }
-      float: right;
-      color: #000000;
-      --border-color: #000000;
     }
   }
 }

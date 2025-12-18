@@ -1,3 +1,7 @@
+## 1.6.0
+
+Updated libraries.
+
 ## 1.5.4
 
 Updated libraries (Capacitor).

@@ -1,7 +1,6 @@
 /** ***************************************************************************
  * Multi media loading file
  **************************************************************************** */
-
 import './1.jpg?originalName';
 import './2.jpg?originalName';
 import './3.jpg?originalName';

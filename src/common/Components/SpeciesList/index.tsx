@@ -1,18 +1,18 @@
-import { FC, useState, SyntheticEvent } from 'react';
-import { Main, UserFeedbackRequest } from '@flumens';
+import { useState, SyntheticEvent } from 'react';
 import { Trans as T } from 'react-i18next';
-import { AppModel } from 'models/app';
-import { UserModel } from 'models/user';
-import SavedSamples from 'models/savedSamples';
+import { Main, UserFeedbackRequest } from '@flumens';
 import { IonGrid, IonRow, IonCol } from '@ionic/react';
-import species from 'common/data/species.data.json';
 import CONFIG from 'common/config';
+import species from 'common/data/species.data.json';
 import speciesGroups from 'common/data/species_groups.data.json';
+import { AppModel } from 'models/app';
+import SavedSamples from 'models/collections/samples';
+import { UserModel } from 'models/user';
 import SpeciesProfile from './components/SpeciesProfile';
 import './images';
-import './thumbnails';
 import './maps';
 import './styles.scss';
+import './thumbnails';
 
 export interface Species {
   id: number;
@@ -86,16 +86,16 @@ export interface Species {
 
 type Props = {
   appModel: AppModel;
-  savedSamples: typeof SavedSamples;
+  samples: typeof SavedSamples;
   userModel: UserModel;
   onSpeciesClick?: (sp: Species) => void;
 };
-const SpeciesController: FC<Props> = ({
+const SpeciesController = ({
   appModel,
-  savedSamples,
+  samples,
   userModel,
   onSpeciesClick,
-}) => {
+}: Props) => {
   const isRecordingMode = !!onSpeciesClick;
 
   const [speciesProfile, setSpeciesProfile] = useState<any | null>(null);
@@ -104,18 +104,18 @@ const SpeciesController: FC<Props> = ({
 
   const onFeedbackDone = () => {
     // eslint-disable-next-line no-param-reassign
-    appModel.attrs.feedbackGiven = true;
+    appModel.data.feedbackGiven = true;
     appModel.save();
   };
 
   const shouldShowFeedback = () => {
     if (isRecordingMode) return false;
 
-    if (appModel.attrs.feedbackGiven) {
+    if (appModel.data.feedbackGiven) {
       return false;
     }
 
-    if (appModel.attrs.useTraining) {
+    if (appModel.data.useTraining) {
       return false;
     }
 
@@ -123,13 +123,13 @@ const SpeciesController: FC<Props> = ({
       return false;
     }
 
-    return savedSamples.length > 5;
+    return samples.length > 5;
   };
 
   const getSpecies = () => {
-    const { country } = appModel.attrs;
+    const { country } = appModel.data;
 
-    const { speciesFilter } = appModel.attrs;
+    const { speciesFilter } = appModel.data;
     const byCountry = (sp: any) => country === 'ELSEWHERE' || sp[country];
     const shouldFilter = speciesFilter?.length && !isRecordingMode;
     const byEnabledFilters = (sp: any) =>
@@ -175,11 +175,10 @@ const SpeciesController: FC<Props> = ({
       return (
         <IonCol
           key={id + english}
-          className="species-list-item"
           onClick={onClick}
           size="6"
           size-lg
-          class="ion-no-padding ion-no-margin"
+          className="species-list-item ion-no-padding ion-no-margin"
         >
           <div
             style={{
@@ -197,8 +196,10 @@ const SpeciesController: FC<Props> = ({
     const speciesColumns = speciesList.map(getSpeciesElement);
 
     return (
-      <IonGrid class="ion-no-padding ion-no-margin">
-        <IonRow class="ion-no-padding ion-no-margin">{speciesColumns}</IonRow>
+      <IonGrid className="ion-no-padding ion-no-margin">
+        <IonRow className="ion-no-padding ion-no-margin">
+          {speciesColumns}
+        </IonRow>
       </IonGrid>
     );
   };

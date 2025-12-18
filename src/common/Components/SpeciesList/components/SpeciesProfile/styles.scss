@@ -5,11 +5,12 @@
   --padding-bottom: 0;
 
   .species-label {
-    font-weight: bold;
+    margin: 25px auto 5px;
     border-left: 3px solid var(--ion-color-primary);
     padding-left: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
     text-transform: uppercase;
-    margin: 10px auto 5px;
   }
 
   .species-habitats {
@@ -21,16 +22,17 @@
     padding-bottom: 0;
 
     a {
-      text-transform: initial;
       margin: 0 5px;
+      text-transform: initial;
     }
   }
 
   #species-map {
-    height: 200px;
-    width: 100%;
-    max-width: 500px;
     margin: 0 auto;
     background-color: #474c4a !important;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    overflow: hidden;
   }
 }

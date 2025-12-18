@@ -1,20 +1,20 @@
-import { FC } from 'react';
-import { useAlert, useToast, date, device } from '@flumens';
-import Sample, { useValidateCheck } from 'models/sample';
-import { useUserStatusCheck } from 'models/user';
+import { useContext } from 'react';
 import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
+import { useAlert, useToast, device, getRelativeDate } from '@flumens';
 import {
   IonItem,
   IonItemSliding,
   IonItemOptions,
   IonItemOption,
-  IonLabel,
   IonIcon,
   IonAvatar,
   IonBadge,
+  NavContext,
 } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
-import deerIcon from 'Record/common/images/deer.svg';
+import Sample, { useValidateCheck } from 'models/sample';
+import { useUserStatusCheck } from 'models/user';
+import deerIcon from 'Survey/common/images/deer.svg';
 import OnlineStatus from './OnlineStatus';
 import './styles.scss';
 
@@ -47,52 +47,17 @@ type Props = {
   uploadIsPrimary?: boolean;
 };
 
-const Survey: FC<Props> = ({ sample, uploadIsPrimary }) => {
+const Survey = ({ sample, uploadIsPrimary }: Props) => {
+  const { navigate } = useContext(NavContext);
+
   const deleteSurvey = useDeleteAlert(sample);
   const toast = useToast();
   const checkUserStatus = useUserStatusCheck();
   const checkSampleStatus = useValidateCheck(sample);
-  const survey = sample.getSurvey();
-
-  const { synchronising } = sample.remote;
 
   let href;
-  if (!synchronising) {
-    href = `/record/${survey.name}/${sample.cid}`;
-  }
-
-  function getSampleInfo() {
-    const occ = sample.occurrences[0];
-
-    const prettyDate = date.print(sample.attrs.date);
-
-    const image = occ?.media.length && occ?.media[0];
-    let avatar = <IonIcon icon={deerIcon} color="warning" />;
-
-    if (image) {
-      avatar = <img src={image.getURL()} />;
-    }
-
-    const label = occ?.attrs?.taxon?.english || 'Record';
-
-    return (
-      <>
-        <IonAvatar>{avatar}</IonAvatar>
-        <IonLabel position="stacked" mode="ios" color="dark">
-          <IonLabel className="species-name bold">
-            <T>{label}</T>
-          </IonLabel>
-          <div className="badge-wrapper">
-            <IonLabel class="ion-text-wrap">{prettyDate}</IonLabel>
-            {sample.metadata.training && (
-              <IonBadge>
-                <T>Training</T>
-              </IonBadge>
-            )}
-          </div>
-        </IonLabel>
-      </>
-    );
+  if (!sample.isSynchronising) {
+    href = `/survey/${sample.cid}`;
   }
 
   const onUpload = async () => {
@@ -110,16 +75,52 @@ const Survey: FC<Props> = ({ sample, uploadIsPrimary }) => {
     sample.upload().catch(toast.error);
   };
 
+  const openItem = () => {
+    if (sample.isSynchronising) return; // fixes button onPressUp and other accidental navigation
+    navigate(href!);
+  };
+
+  const occ = sample.occurrences[0];
+  const image = occ?.media.length && occ?.media[0];
+  let avatar = <IonIcon icon={deerIcon} color="warning" />;
+
+  if (image) {
+    avatar = <img src={image.getURL()} className="w-full h-full" />;
+  }
+
+  const prettyDate = getRelativeDate(sample.data.date);
+
+  const label = occ?.data?.taxon?.english || 'Record';
+
   return (
     <IonItemSliding className="survey-list-item">
-      <IonItem routerLink={href} detail={!synchronising}>
-        {getSampleInfo()}
+      <IonItem onClick={openItem} detail={false}>
+        <div className="flex gap-2 w-full items-center justify-between text-sm">
+          <div className="flex gap-1 justify-start">
+            <IonAvatar className="border border-neutral-200">
+              {avatar}
+            </IonAvatar>
+            <div className="flex flex-col justify-center">
+              <div className="font-semibold">
+                <T>{label}</T>
+              </div>
+              <div className="badge-wrapper">
+                <div className="ion-text-wrap">{prettyDate}</div>
+                {sample.metadata.training && (
+                  <IonBadge>
+                    <T>Training</T>
+                  </IonBadge>
+                )}
+              </div>
+            </div>
+          </div>
 
-        <OnlineStatus
-          sample={sample}
-          onUpload={onUpload}
-          uploadIsPrimary={!!uploadIsPrimary}
-        />
+          <OnlineStatus
+            sample={sample}
+            onUpload={onUpload}
+            uploadIsPrimary={!!uploadIsPrimary}
+          />
+        </div>
       </IonItem>
 
       <IonItemOptions side="end">

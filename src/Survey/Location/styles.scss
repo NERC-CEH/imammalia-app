@@ -1,0 +1,20 @@
+#survey-location-page {
+  .location-name-attr {
+    --ion-toolbar-background: var(--ion-color-primary) !important;
+    border-top: 1px solid #afafaf;
+    color: var(--ion-color-primary);
+
+    ion-spinner {
+      color: var(--ion-color-primary);
+    }
+  }
+
+  #location-toolbar {
+    --background: var(--ion-color-primary-tint) !important;
+
+    ion-item {
+      --background: var(--ion-color-primary-tint) !important;
+      --color: white;
+    }
+  }
+}

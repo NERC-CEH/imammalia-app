@@ -1,64 +1,81 @@
-import ReactDOM from 'react-dom';
-import { setupIonicReact, isPlatform } from '@ionic/react';
-import config from 'common/config';
 import { configure as mobxConfig } from 'mobx';
-import appModel from 'models/app';
-import userModel from 'models/user';
-import savedSamples from 'models/savedSamples';
-import { initAnalytics, device } from '@flumens';
+import i18n from 'i18next';
+import { createRoot } from 'react-dom/client';
+import { initReactI18next } from 'react-i18next';
+import { App as AppPlugin } from '@capacitor/app';
+import { SplashScreen } from '@capacitor/splash-screen';
 import { StatusBar, Style as StatusBarStyle } from '@capacitor/status-bar';
+import { sentryOptions } from '@flumens';
+import { loadingController } from '@ionic/core';
+import { setupIonicReact, isPlatform } from '@ionic/react';
+import * as SentryBrowser from '@sentry/browser';
+import config from 'common/config';
+import migrate from 'common/models/migrate';
+import { db } from 'common/models/store';
+import appModel from 'models/app';
+import samples from 'models/collections/samples';
+import userModel from 'models/user';
 import App from './App';
-import '@capacitor/core';
-import '@ionic/core/css/core.css';
-import '@ionic/core/css/ionic.bundle.css';
-import 'leaflet/dist/leaflet.css';
-import 'common/theme.scss';
 
-console.log('🚩 App starting.');
+console.log('🚩 App starting.'); // eslint-disable-line
 
-setupIonicReact({
-  hardwareBackButton: false,
-  swipeBackEnabled: false,
-});
+i18n.use(initReactI18next).init({ lng: 'en' });
+
+setupIonicReact();
 
 mobxConfig({ enforceActions: 'never' });
 
-async function init() {
-  await appModel.ready;
-  await userModel.ready;
-  await savedSamples._init;
-
-  appModel.attrs.sendAnalytics &&
-    initAnalytics({
-      dsn: config.sentryDNS,
-      environment: config.environment,
-      build: config.build,
+const initializeApp = async () => {
+  if (isPlatform('hybrid') && !localStorage.getItem('sqliteMigrated')) {
+    SentryBrowser.init({
+      ...sentryOptions,
       release: config.version,
-      userId: userModel.id,
-      tags: {
-        'app.appSession': appModel.attrs.appSession,
+      dist: config.build,
+      dsn: config.sentryDSN,
+    });
+    (await loadingController.create({ message: 'Upgrading...' })).present();
+    await migrate();
+    localStorage.setItem('sqliteMigrated', 'true');
+    window.location.reload();
+    return;
+  }
+
+  await db.init();
+  await userModel.fetch();
+  await appModel.fetch();
+  await samples.fetch();
+
+  appModel.data.sendAnalytics &&
+    SentryBrowser.init({
+      ...sentryOptions,
+      dsn: config.sentryDSN,
+      environment: config.environment,
+      release: config.version,
+      dist: config.build,
+      enabled: config.environment === 'production',
+      initialScope: {
+        user: { id: userModel.id },
+        tags: { session: appModel.data.appSession },
       },
     });
 
-  appModel.attrs.appSession += 1;
-  appModel.save();
+  appModel.data.appSession += 1;
 
-  if (userModel.attrs.password && device.isOnline) {
-    // TODO: remove after this propagates to all users
-    try {
-      userModel._migrateAuth();
-    } catch (_) {
-      // do nothing
-    }
-  }
-
-  ReactDOM.render(<App />, document.getElementById('root'));
+  const container = document.getElementById('root');
+  const root = createRoot(container!);
+  root.render(<App />);
 
   if (isPlatform('hybrid')) {
     StatusBar.setStyle({
       style: StatusBarStyle.Dark,
     });
-  }
-}
 
-init();
+    SplashScreen.hide();
+
+    AppPlugin.addListener('backButton', () => {
+      /* disable android app exit using back button */
+    });
+  }
+};
+
+initializeApp();

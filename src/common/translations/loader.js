@@ -1,16 +1,18 @@
 /* eslint-disable @getify/proper-arrows/name */
+
 /* eslint-disable no-param-reassign */
+
 /* eslint-disable camelcase */
-import en from './interface/en.pot';
-import lt from './interface/lt_LT.po';
-import de from './interface/de_DE.po';
 import bg from './interface/bg_BG.po';
 import cz from './interface/cs_CZ.po';
+import de from './interface/de_DE.po';
 import el from './interface/el_GR.po';
+import en from './interface/en.pot';
 import es from './interface/es_ES.po';
 import fr from './interface/fr_FR.po';
 import hr from './interface/hr_HR.po';
 import it from './interface/it_IT.po';
+import lt from './interface/lt_LT.po';
 import mk from './interface/mk_MK.po';
 import no from './interface/no_NO.po';
 import pl from './interface/pl_PL.po';

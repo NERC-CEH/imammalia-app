@@ -1,6 +1,23 @@
 {
 	"appId": "uk.ac.ceh.imammalia",
 	"appName": "iMammalia App",
-	"bundledWebRuntime": false,
-	"webDir": "build"
+	"webDir": "build",
+	"cordova": {},
+	"android": {
+		"adjustMarginsForEdgeToEdge": "force"
+	},
+	"packageClassList": [
+		"CapacitorSQLitePlugin",
+		"AppPlugin",
+		"CAPCameraPlugin",
+		"DevicePlugin",
+		"FilesystemPlugin",
+		"GeolocationPlugin",
+		"HapticsPlugin",
+		"CAPNetworkPlugin",
+		"SharePlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin",
+		"BlobWriter"
+	]
 }

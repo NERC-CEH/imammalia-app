@@ -7,14 +7,16 @@
 
     ion-toolbar {
       --ion-toolbar-background: transparent;
+
+      color: var(--ion-color-main);
       &.md {
         --ion-toolbar-background: white;
       }
       ion-segment {
-        max-width: calc(100% - 20px); // padding for lists
-        width: 100%;
-        margin: 8px auto;
         z-index: 100000000;
+        margin: 8px auto;
+        width: 100%;
+        max-width: calc(100% - 20px); // padding for lists
 
         ion-label {
           display: flex;
@@ -24,8 +26,6 @@
           margin-left: 1px;
         }
       }
-
-      color: var(--ion-color-main);
     }
   }
 
