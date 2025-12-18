@@ -21,9 +21,10 @@ type Details = TypeOf<typeof UserModel.registerSchema>;
 
 type Props = {
   onSubmit: SubmitHandler<Details>;
+  lang: string;
 };
 
-const RegisterMain = ({ onSubmit }: Props) => {
+const RegisterMain = ({ onSubmit, lang }: Props) => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
 
   const togglePassword = () => setShowPassword(!showPassword);
@@ -49,13 +50,13 @@ const RegisterMain = ({ onSubmit }: Props) => {
               control={control}
               name="firstName"
               prefix={<IonIcon icon={personOutline} className="size-5" />}
-              placeholder="First name"
+              placeholder="First Name"
             />
             <ControlledInput
               control={control}
               name="secondName"
               prefix={<IonIcon icon={personOutline} className="size-5" />}
-              placeholder="Last name"
+              placeholder="Surname"
             />
             <ControlledInput
               control={control}
@@ -81,16 +82,12 @@ const RegisterMain = ({ onSubmit }: Props) => {
           </div>
 
           <div className="my-6 px-5 text-base">
-            <T>
-              By clicking Sign Up, you agree to our{' '}
-              <IonRouterLink href={`${config.backend.url}/privacy-notice`}>
-                Privacy Policy
-              </IonRouterLink>{' '}
-              and{' '}
-              <IonRouterLink href={`${config.backend.url}/terms_of_use`}>
-                Terms and Conditions
-              </IonRouterLink>
-            </T>
+            <T>By clicking Sign Up, you agree to our</T>{' '}
+            <IonRouterLink
+              href={`${config.backend.url}/privacy-notice?lang=${lang}`}
+            >
+              <T>Terms and Conditions</T>
+            </IonRouterLink>
           </div>
 
           <Button
@@ -101,7 +98,7 @@ const RegisterMain = ({ onSubmit }: Props) => {
             color="primary"
             onPress={() => handleSubmit(onSubmit)()}
           >
-            Sign Up
+            Register
           </Button>
         </form>
       </div>

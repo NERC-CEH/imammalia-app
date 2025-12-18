@@ -3,6 +3,7 @@ import { Trans as T } from 'react-i18next';
 import { TypeOf } from 'zod';
 import { Page, Header, device, useToast, useAlert, useLoader } from '@flumens';
 import { NavContext } from '@ionic/react';
+import appModel from 'common/models/app';
 import userModel, { UserModel } from 'models/user';
 import Main from './Main';
 
@@ -15,8 +16,10 @@ const RegisterContainer = () => {
   const loader = useLoader();
 
   const onSuccess = () => {
-    context.navigate('/home/surveys', 'root');
+    context.navigate('/home', 'root');
   };
+
+  const lang = appModel.data.language;
 
   async function onRegister(details: Details) {
     const email = details.email.trim();
@@ -41,11 +44,11 @@ const RegisterContainer = () => {
       userModel.save();
 
       alert({
-        header: 'Welcome aboard',
+        header: 'Welcome aboard!',
         message: (
           <T>
-            Before starting any surveys please check your email and click on the
-            verification link.
+            Before submitting any records please check your email and click on
+            the verification link.
           </T>
         ),
         buttons: [
@@ -65,8 +68,8 @@ const RegisterContainer = () => {
 
   return (
     <Page id="user-register">
-      <Header className="ion-no-border [&>ion-toolbar]:[--background:transparent]!" />
-      <Main onSubmit={onRegister} />
+      <Header />
+      <Main onSubmit={onRegister} lang={lang} />
     </Page>
   );
 };

@@ -37,7 +37,7 @@ const LoginMain = ({ onSubmit }: Props) => {
       <div className="mx-auto flex max-w-md flex-col gap-8 px-3 pt-3">
         <div className="text-center">
           <h1>
-            <T>Welcome back</T>
+            <T>Welcome</T>
           </h1>
           <h2 className="my-0!">
             <T>Sign in to your account to start</T>
@@ -85,14 +85,14 @@ const LoginMain = ({ onSubmit }: Props) => {
             color="primary"
             onPress={() => handleSubmit(onSubmit)()}
           >
-            Sign In
+            Login
           </Button>
         </form>
 
         <div className="mt-3 w-full text-center">
           <T>I don't have an account</T>.{' '}
           <Link to="/user/register">
-            <T>Sign Up</T>
+            <T>Register</T>
           </Link>
         </div>
       </div>

@@ -16,7 +16,7 @@ const LoginController = () => {
   const loader = useLoader();
 
   const onSuccess = () => {
-    navigate('/home/menu', 'root');
+    navigate('/home', 'root');
   };
 
   async function onSubmit(details: Details) {
@@ -54,7 +54,7 @@ const LoginController = () => {
 
   return (
     <Page id="user-reset">
-      <Header className="ion-no-border [&>ion-toolbar]:[--background:transparent]!" />
+      <Header />
       <Main onSubmit={onSubmit} />
     </Page>
   );

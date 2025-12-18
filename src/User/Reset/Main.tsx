@@ -25,7 +25,9 @@ const ResetMain = ({ onSubmit }: Props) => {
     <Main>
       <div className="mx-auto flex max-w-md flex-col gap-6 px-3 pt-3">
         <h2 className="my-5 text-center">
-          <T>Enter your email address to request a password reset.</T>
+          <T>
+            Enter your username or email address to request a password reset
+          </T>
         </h2>
 
         <form onSubmit={handleSubmit(onSubmit)}>

@@ -21,7 +21,7 @@ const LoginController = () => {
       skipTranslation: true,
     });
 
-    navigate('/home/surveys', 'root');
+    navigate('/home', 'root');
   };
 
   async function onLogin({ email, password }: Details) {
@@ -48,7 +48,7 @@ const LoginController = () => {
 
   return (
     <Page id="user-login">
-      <Header className="ion-no-border [&>ion-toolbar]:[--background:transparent]!" />
+      <Header />
       <Main onSubmit={onLogin} />
     </Page>
   );
