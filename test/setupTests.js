@@ -1,5 +1,8 @@
-import 'regenerator-runtime/runtime';
+import { TextEncoder, TextDecoder } from 'util';
 import { Plugins } from '@capacitor/core';
+
+// https://stackoverflow.com/questions/68468203/why-am-i-getting-textencoder-is-not-defined-in-jest
+Object.assign(global, { TextDecoder, TextEncoder });
 
 Plugins.Geolocation = { watchPosition: () => null };
 
