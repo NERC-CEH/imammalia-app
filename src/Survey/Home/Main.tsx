@@ -106,7 +106,7 @@ const HomeMain = ({ sample }: Props) => {
     <Main>
       {isDisabled && (
         <InfoMessage
-          className="blue"
+          className="blue mx-2"
           prefix={<IonIcon icon={informationCircle} className="size-6" />}
           skipTranslation
         >

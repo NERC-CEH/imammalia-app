@@ -194,6 +194,7 @@ html.ios.plt-hybrid #status-bar-background {
 }
 
 /* info messages */
+.info-message.blue,
 .attr-page .info-message {
   @apply border-blue-300/40 bg-blue-50 text-blue-950;
 }
