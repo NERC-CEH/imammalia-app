@@ -12,8 +12,6 @@ const languages = {
   sr_RS: 'Cрпски',
   sq_AL: 'Shqip',
   it_IT: 'Italiano',
-  bg_BG: (demoOnly as unknown as string) && 'Български',
-  lt_LT: (demoOnly as unknown as string) && 'Lietuvių',
   el_GR: 'Ελληνικά',
   sr_ME: 'Crnogorski',
   pt_PT: 'Português',
@@ -23,6 +21,13 @@ const languages = {
   sk_SK: 'Slovenčina',
   uk_UA: 'Українська',
 } as const;
+
+if (demoOnly) {
+  Object.assign(languages, {
+    bg_BG: 'Български',
+    lt_LT: 'Lietuvių',
+  });
+}
 
 export type LanguageCode = keyof typeof languages;
 

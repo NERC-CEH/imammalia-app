@@ -59,6 +59,10 @@ class Sample extends SampleOriginal<Data, Metadata> {
 
     this.survey = survey as Survey;
 
+    if (!this.data.surveyId) {
+      this.data.surveyId = survey.id; // backward compatibility, remove later once uploads are fixed
+    }
+
     Object.assign(this, GPSExtension());
   }
 

@@ -51,7 +51,11 @@ const HomeComponent = () => (
         <PendingSurveysBadge className="absolute bottom-4 right-[calc(50%_-_15px)]" />
       </IonTabButton>
       <IonTabButton>
-        <IonFabButton className="fab-button" routerLink="/survey">
+        <IonFabButton
+          className="fab-button"
+          routerLink="/survey"
+          color="secondary"
+        >
           <IonIcon src={addOutline} />
         </IonFabButton>
       </IonTabButton>

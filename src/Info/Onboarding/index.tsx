@@ -58,7 +58,7 @@ const Onboarding = ({ children }: any) => {
             className="bg-cover bg-left bg-no-repeat relative"
             style={{ backgroundImage: `url(${welcomeOne})` }}
           >
-            <div className="absolute top-[2%] w-3/4 text-base rounded-md border border-solid border-white/60 bg-white/70 px-6 py-3 text-left font-light text-primary-900 backdrop-blur-sm backdrop-filter">
+            <div className="absolute top-[calc(env(safe-area-inset-top)+2%)] w-3/4 text-base rounded-md border border-solid border-white/60 bg-white/70 px-6 py-3 text-left font-light text-primary-900 backdrop-blur-sm backdrop-filter">
               <T>
                 The iMammalia App is designed to encourage recording of mammals
                 in the wild. This version of the mobile application is set up to
@@ -72,7 +72,7 @@ const Onboarding = ({ children }: any) => {
             className="bg-cover bg-left bg-no-repeat relative"
             style={{ backgroundImage: `url(${welcomeTwo})` }}
           >
-            <div className="absolute top-[2%] w-3/4 text-base rounded-md border border-solid border-white/60 bg-white/70 px-6 py-3 text-left font-light text-primary-900 backdrop-blur-sm backdrop-filter">
+            <div className="absolute top-[calc(env(safe-area-inset-top)+2%)] w-3/4 text-base rounded-md border border-solid border-white/60 bg-white/70 px-6 py-3 text-left font-light text-primary-900 backdrop-blur-sm backdrop-filter">
               <T>
                 Sightings can be recorded anywhere, with or without photos, and
                 all records will be verified by experts and made available to

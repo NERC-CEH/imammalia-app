@@ -10,17 +10,12 @@
       .fab-button {
         position: fixed;
         margin-top: -18px;
-        --background: var(--ion-color-light);
-        border-radius: 50px;
-        --border-radius: 50px;
-        --background-activated: transparent;
-        --border-radius: 50px;
         min-width: 60px;
         min-height: 60px;
         --box-shadow: inset 0px 0 3px 0px rgb(205, 205, 205);
 
         ion-icon {
-          color: var(--ion-color-primary-shade);
+          color: white;
           font-size: 2.3em;
         }
       }
