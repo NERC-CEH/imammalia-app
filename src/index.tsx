@@ -67,7 +67,7 @@ const initializeApp = async () => {
 
   if (isPlatform('hybrid')) {
     StatusBar.setStyle({
-      style: StatusBarStyle.Dark,
+      style: StatusBarStyle.Light,
     });
 
     SplashScreen.hide();
