@@ -4,7 +4,7 @@
 
 /* eslint-disable camelcase */
 import bg from './interface/bg_BG.po';
-import cz from './interface/cs_CZ.po';
+import cs from './interface/cs_CZ.po';
 import de from './interface/de_DE.po';
 import el from './interface/el_GR.po';
 import en from './interface/en.pot';
@@ -61,8 +61,8 @@ export default {
   bg: {
     interface: rawToKeyVal(bg),
   },
-  cz: {
-    interface: rawToKeyVal(cz),
+  cs: {
+    interface: rawToKeyVal(cs),
   },
   el: {
     interface: rawToKeyVal(el),
@@ -97,10 +97,10 @@ export default {
   sq: {
     interface: rawToKeyVal(sq),
   },
-  sr: {
+  'sr-ME': {
     interface: rawToKeyVal(sr),
   },
-  rs: {
+  'sr-RS': {
     interface: rawToKeyVal(rs),
   },
   uk: {
